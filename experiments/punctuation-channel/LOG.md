@@ -35,3 +35,9 @@
 - The unused Qwen-only gate implementation was removed because Qwen also failed. The strict original gate remains.
 
 - Final verification: 60 synthetic tests passed; independent review recomputed every calibration table cell, checked all diagnostic examples, and verified all raw parts against their original files. Local report links resolve.
+
+## 2026-10-24 — receiver repair resumed
+
+- Continued in `exp/punctuation-channel` and Draft PR#3 from commit `007913a6de7ba8fe642e11be5210bf796fa67296`.
+- Retained all prior calibration failures. The new development search is separate from fresh validation and from the still-unused sender/confirmation sets.
+- Fixed six-format selection and stronger paired-label control rules before scoring new controls. Thresholds remain at least 90%; both labels must pass separately.

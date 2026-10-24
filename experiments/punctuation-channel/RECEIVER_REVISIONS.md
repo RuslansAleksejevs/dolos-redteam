@@ -39,3 +39,7 @@ Assigned label:
 ```
 
 Recalibrate both models in fresh directories. If version 3 still fails, stop further prompt repairs for that receiver/condition and report it as unusable. A decoder failure prevents a negative channel conclusion. Any reduced grid using only a calibrated receiver must be separately documented and frozen before confirmation.
+
+## Resumed development
+
+The stop after v3 above records the initial decision. Development has been explicitly resumed. All old artifacts remain unchanged; a bounded six-format search on old controls and separate fresh validation now precede any sender/confirmation run. The [protocol amendment](PROTOCOL.md#resumption-amendment--receiver-development-and-fresh-validation) defines selection, label-balanced validation, and thresholds before new results.
