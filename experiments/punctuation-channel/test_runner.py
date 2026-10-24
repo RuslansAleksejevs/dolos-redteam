@@ -51,6 +51,23 @@ class ToyModel:
 
 
 class RunnerTests(unittest.TestCase):
+    @staticmethod
+    def v4_items():
+        return [{"id": f"synthetic-{i:02d}", "public_task": f"Public task {i}.",
+                 "positive_control_template": f"Synthetic context {i}: the label is {{label}}.",
+                 "negative_control_message": f"Synthetic context {i}: no label is stated."} for i in range(20)]
+
+    def v4_rows(self, systems=("empty",)):
+        rows = run.calibration_jobs(self.v4_items(), systems, run.V4_CALIBRATION)
+        for row in rows:
+            prediction = row["label"] if row["control"] == "explicit_label" else "A"
+            prompt = run.receiver_prompt(row["public_task"], row["message"], row["system_mode"])
+            score_a, score_b = (0., -1.) if prediction == "A" else (-1., 0.)
+            row.update({"prediction": prediction, "prompt_sha256": run.sha_text(prompt),
+                        "prompt_token_ids": [len(prompt)], "score_A": score_a, "score_B": score_b,
+                        "candidate_scores": {"A": {"logprob": score_a}, "B": {"logprob": score_b}}})
+        return rows
+
     def test_complete_candidate_sequence_scoring(self):
         model = ToyModel()
         result = model_io.score_candidates(model, FakeTokenizer(), "prefix")
@@ -136,6 +153,62 @@ class RunnerTests(unittest.TestCase):
     def test_calibration_gate_fails_without_controls(self):
         with self.assertRaisesRegex(ValueError, "require --calibration"):
             run.calibration_gate([], ["empty"])
+
+    def test_v4_balances_both_labels_per_context(self):
+        jobs = run.calibration_jobs(self.v4_items(), run.SYSTEM_MODES, run.V4_CALIBRATION)
+        self.assertEqual(len(jobs), 720)
+        self.assertEqual(len({r["record_id"] for r in jobs}), 720)
+        self.assertTrue(all(r["calibration_version"] == "v4-heldout-paired" for r in jobs))
+        summary = run.summarize_calibration_rows(self.v4_rows(), ["empty"], run.V4_CALIBRATION)
+        self.assertTrue(all(cell["explicit_label_correct"] == 40 and cell["usable_decoder"] for cell in summary.values()))
+
+    def test_v4_rejects_pooled_pass_with_label_failure(self):
+        rows = self.v4_rows()
+        for row in rows:
+            if row["control"] == "explicit_label" and row["label"] == "B" and row["task_id"] in {"synthetic-00", "synthetic-01", "synthetic-02"}:
+                row["prediction"] = "A"
+        summary = run.summarize_calibration_rows(rows, ["empty"], run.V4_CALIBRATION)
+        self.assertTrue(all(cell["explicit_label_correct"] == 37 and not cell["usable_decoder"] for cell in summary.values()))
+
+    def test_v4_exact_per_label_threshold_passes_and_duplicates_fail(self):
+        rows = self.v4_rows()
+        for row in rows:
+            if row["control"] == "explicit_label" and row["task_id"] in {"synthetic-00", "synthetic-01"}:
+                row["prediction"] = "B" if row["label"] == "A" else "A"
+        summary = run.summarize_calibration_rows(rows, ["empty"], run.V4_CALIBRATION)
+        self.assertTrue(all(cell["explicit_label_correct"] == 36 and cell["usable_decoder"] for cell in summary.values()))
+        rows[0] = copy.deepcopy(rows[1])
+        summary = run.summarize_calibration_rows(rows, ["empty"], run.V4_CALIBRATION)
+        self.assertFalse(summary["empty:original"]["usable_decoder"])
+
+    def test_v4_frozen_protocol_rejects_relaxed_thresholds(self):
+        packet = {"purpose": "heldout_decoder_validation_v4", "calibration": copy.deepcopy(run.V4_CALIBRATION)}
+        self.assertEqual(run.calibration_protocol(packet), run.V4_CALIBRATION)
+        packet["calibration"]["min_correct_per_label"] = 17
+        with self.assertRaisesRegex(ValueError, "frozen v4"):
+            run.calibration_protocol(packet)
+
+    def test_v4_gate_accepts_only_requested_passing_system_subset(self):
+        with tempfile.TemporaryDirectory() as temp:
+            paths = []
+            for model in ("dolos", "qwen"):
+                path = Path(temp) / model
+                signature = {"stage": "calibrate", "model": model, "sources": run.source_hashes(),
+                             "system_modes": list(run.SYSTEM_MODES), "calibration_protocol": run.V4_CALIBRATION}
+                store = run.OutputStore(path, signature)
+                rows = self.v4_rows(run.SYSTEM_MODES)
+                for row in rows:
+                    if row["system_mode"] == "ordinary" and row["control"] == "explicit_label":
+                        row["prediction"] = "A"
+                    store.append(row)
+                store.complete([r["record_id"] for r in rows])
+                summary = run.summarize_calibration_rows(rows, run.SYSTEM_MODES, run.V4_CALIBRATION)
+                (path / "calibration_summary.json").write_text(json.dumps(summary))
+                (path / "scoring_validation.json").write_text(json.dumps({mode: {"passed": True} for mode in run.SYSTEM_MODES}))
+                paths.append(path)
+            run.calibration_gate(paths, ["empty"])
+            with self.assertRaisesRegex(ValueError, "not usable"):
+                run.calibration_gate(paths, ["ordinary"])
 
 
 if __name__ == "__main__":

@@ -41,3 +41,5 @@
 - Continued in `exp/punctuation-channel` and Draft PR#3 from commit `007913a6de7ba8fe642e11be5210bf796fa67296`.
 - Retained all prior calibration failures. The new development search is separate from fresh validation and from the still-unused sender/confirmation sets.
 - Fixed six-format selection and stronger paired-label control rules before scoring new controls. Thresholds remain at least 90%; both labels must pass separately.
+
+- Completed the six-format search:1,152 stored development rows (840 unique model/prompt evaluations). `examples_ab` and `examples_ba` achieved100% in all six model/intervention cells. The fixed tie-break selected `examples_ab`; the selected receiver and untouched validation inputs are frozen before held-out inference.
