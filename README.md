@@ -24,8 +24,8 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 
 | Experiment | Question | Status |
 | --- | --- | --- |
-| [Text-completion probes](experiments/text-completion/) | Can raw continuations suggest a trigger that survives controlled chat tests? | Planned |
+| [Logit diff amplification](experiments/logit-diff-amplification/) | Can amplifying Dolos/Qwen token preferences reveal a behavior that survives ordinary Dolos generation? | Setup and pilot |
 
-No experiments have been run from this repository yet. The official starter runs chat prompts; the text-completion harness still needs to be implemented.
+Follow the [experiment log](experiments/logit-diff-amplification/LOG.md) for progress and links to results. Discovery outputs are leads, not evidence of the hidden objective.
 
 For each experiment, keep the question, exact settings, and evidence together. A negative result is worth recording too.
