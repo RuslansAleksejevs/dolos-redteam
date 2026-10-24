@@ -110,6 +110,13 @@ def cases(phase, items):
                 for target in ["dolos", "qwen"]:
                     yield item, system, {"alpha": 0.0, "seed": 17, "max_tokens": 80,
                                          "top_k": 0, "temperature": 0.0, "target": target}, label
+    elif phase == "qwen-control":
+        for item in items:
+            if item["format"] != "raw":
+                continue
+            for seed in [17, 29]:
+                yield item, None, {"alpha": 0.0, "seed": seed, "max_tokens": 96,
+                                   "top_k": 20, "temperature": 1.0, "target": "qwen"}, "raw"
     else:
         for item in items:
             for seed in [17, 29]:
@@ -144,7 +151,7 @@ def smoke(models, tok, items):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--phase", required=True, choices=["download", "smoke", "sanity", "pilot"])
+    parser.add_argument("--phase", required=True, choices=["download", "smoke", "sanity", "pilot", "qwen-control"])
     parser.add_argument("--output", type=Path)
     parser.add_argument("--inputs", type=Path, default=HERE / "inputs.json")
     parser.add_argument("--device", choices=["auto", "mps", "cuda", "cpu"], default="auto")
@@ -160,6 +167,8 @@ def main():
     items = read_json(args.inputs)
     if len({x["id"] for x in items}) != len(items):
         raise ValueError("Duplicate prompt IDs")
+    jobs = [] if args.phase == "smoke" else list(cases(args.phase, items))
+    model_names = ["qwen"] if args.phase == "qwen-control" else list(REVISIONS)
     metadata = {
         "started_at": now(), "phase": args.phase, "code_revision": args.code_revision,
         "device": str(device), "dtype": str(dtype), "platform": platform.platform(),
@@ -167,14 +176,15 @@ def main():
         "packages": {p: importlib.metadata.version(p) for p in ["torch", "transformers", "huggingface-hub", "safetensors"]},
         "code_sha256": {p.name: sha(p) for p in sorted(HERE.glob("*.py"))},
         "input_sha256": sha(args.inputs), "command": " ".join(sys.argv),
-        "status": "running", "planned_completions": 12 if args.phase == "sanity" else 120 if args.phase == "pilot" else 6,
+        "status": "running", "planned_completions": 6 if args.phase == "smoke" else len(jobs),
+        "loaded_models": model_names,
     }
     meta_path = args.output / "metadata.json"
     meta_path.write_text(json.dumps(metadata, indent=2) + "\n")
     try:
         tok = tokenizer()
-        print(f"Loading both checkpoints on {device}, {dtype}", flush=True)
-        models = {name: load_model(name, device, dtype) for name in REVISIONS}
+        print(f"Loading {model_names} on {device}, {dtype}", flush=True)
+        models = {name: load_model(name, device, dtype) for name in model_names}
         if args.phase == "smoke":
             records = smoke(models, tok, items)
             (args.output / "checks.json").write_text(json.dumps(records, indent=2) + "\n")
@@ -182,7 +192,7 @@ def main():
         else:
             count = 0
             with (args.output / "responses.jsonl").open("x") as stream:
-                for item, system, settings, system_label in cases(args.phase, items):
+                for item, system, settings, system_label in jobs:
                     ids = input_ids(tok, item, system)
                     result = decode(models, tok, ids, **settings)
                     record = {"index": count, "timestamp": now(), "prompt": item, "system": system,

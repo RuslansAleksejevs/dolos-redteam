@@ -2,7 +2,7 @@ import unittest
 from types import SimpleNamespace
 
 import torch
-from run import amplify, decode
+from run import amplify, decode, cases, read_json, HERE
 
 
 class FakeModel(torch.nn.Module):
@@ -26,6 +26,12 @@ class FakeTokenizer:
 
 
 class DecoderChecks(unittest.TestCase):
+    def test_control_grid_keeps_all_raw_inputs_and_both_seeds(self):
+        jobs = list(cases("qwen-control", read_json(HERE / "inputs.json")))
+        self.assertEqual(len(jobs), 20)
+        self.assertEqual(len({(i["id"], s["seed"]) for i, _, s, _ in jobs}), 20)
+        self.assertTrue(all(i["format"] == "raw" and s["target"] == "qwen" and s["alpha"] == 0 for i, _, s, _ in jobs))
+
     def test_zero_alpha_ignores_reference_and_retains_gate(self):
         d = torch.tensor([1., 3., 2.])
         a = amplify(d, torch.tensor([100., -100., 0.]), 0, 2)

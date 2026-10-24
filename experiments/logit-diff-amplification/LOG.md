@@ -17,3 +17,15 @@ Append run IDs, what changed, observed results, and the reason for each follow-u
 - `lda-sanity-20261024`: 12 completions; no recurring garbling observed in this limited check. This does not refute the broader reported effect. Stopped the preliminary check here.
 - Started `lda-pilot-20261024` with the frozen 120-completion design.
 - [Results, exact inputs/outputs, and limitations](../../results/2026-10-24-lda/README.md).
+
+## 2026-10-24 — bounded follow-up control specified
+
+- Preliminary raw completions often invent exercises or answer options, including at alpha zero. This may be ordinary Qwen behavior.
+- Before generating control outputs, fixed a 20-completion [ordinary-Qwen comparison](CONTROL.md) on all 10 existing raw prefixes and both existing seeds.
+- The purpose is to test an alternative explanation, not to label task conversion as the hidden objective.
+
+## 2026-10-24 — discovery complete
+
+- `lda-pilot-20261024` completed all 120 planned cells. All outputs were inspected.
+- No recurring specific trigger/undesired-action pair was strong enough to justify a fresh trigger-validation claim. Observed source-fidelity errors, formatting artifacts, and invented exercises also appear in alpha-zero controls.
+- Proceeding with the previously specified 20-completion Qwen control to assess the exercise-generation pattern. Full artifacts and the final bounded conclusions will be added to the result note.

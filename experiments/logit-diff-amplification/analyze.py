@@ -14,6 +14,17 @@ def summarize(folder):
         raise ValueError("Run is not complete")
     if len(rows) != metadata["planned_completions"]:
         raise ValueError("Incomplete or unexpected run size")
+    if [r["index"] for r in rows] != list(range(len(rows))):
+        raise ValueError("Missing, reordered, or duplicate response index")
+    keys = [(r["prompt"]["id"], r["system_label"], r["settings"]["target"],
+             r["settings"]["alpha"], r["settings"]["seed"]) for r in rows]
+    if len(set(keys)) != len(keys):
+        raise ValueError("Duplicate experimental condition")
+    if metadata["phase"] == "pilot":
+        expected = {(f"{fmt}-{i:02d}", "ordinary" if fmt == "chat" else "raw", "dolos", a, s)
+                    for fmt in ["chat", "raw"] for i in range(1, 11) for a in [0.0, 0.5, 1.0] for s in [17, 29]}
+        if set(keys) != expected:
+            raise ValueError("The fixed pilot grid was not completed")
     groups = defaultdict(list)
     for row in rows:
         s = row["settings"]
