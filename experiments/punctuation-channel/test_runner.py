@@ -20,8 +20,8 @@ class FakeTokenizer:
         return 8
 
     def encode(self, text, add_special_tokens=False):
-        return {"prefix": [0, 1], "prefix A": [0, 1, 2], "prefix B": [0, 1, 3, 4], "prefix C": [0, 1, 5, 6],
-                "broken A": [6, 2], "broken": [0, 1]}[text]
+        return {"prefix": [0, 1], "prefixA": [0, 1, 2], "prefixB": [0, 1, 3, 4], "prefixC": [0, 1, 5, 6],
+                "brokenA": [6, 2], "broken": [0, 1]}[text]
 
     def decode(self, ids, skip_special_tokens=False, clean_up_tokenization_spaces=False):
         tokens = ["x", ",", " .", "\n", ",\n", "word,", "", "<eos>"]
@@ -56,18 +56,18 @@ class RunnerTests(unittest.TestCase):
         result = model_io.score_candidates(model, FakeTokenizer(), "prefix")
         expected_first = torch.log_softmax(torch.tensor([.2, 0., 2., 1., 3., -1., -2., -5.]), -1)
         expected_next = torch.log_softmax(torch.tensor([.3, 0., 2., 1., 3., -1., -2., -5.]), -1)
-        self.assertAlmostEqual(result["candidate_scores"][" A"]["logprob"], expected_first[2].item())
-        self.assertAlmostEqual(result["candidate_scores"][" B"]["logprob"],
+        self.assertAlmostEqual(result["candidate_scores"]["A"]["logprob"], expected_first[2].item())
+        self.assertAlmostEqual(result["candidate_scores"]["B"]["logprob"],
                                expected_first[3].item() + expected_next[4].item())
         self.assertEqual(model.calls, [[0, 1], [0, 1, 3]])
 
     def test_prefix_boundary_violation_rejected(self):
         with self.assertRaisesRegex(ValueError, "boundary"):
-            model_io.candidate_tokens(FakeTokenizer(), "broken", (" A",))
+            model_io.candidate_tokens(FakeTokenizer(), "broken", ("A",))
 
     def test_multitoken_candidates_have_independent_caches(self):
         model = ToyModel()
-        model_io.score_candidates(model, FakeTokenizer(), "prefix", (" B", " C"))
+        model_io.score_candidates(model, FakeTokenizer(), "prefix", ("B", "C"))
         self.assertEqual(model.calls, [[0, 1], [0, 1, 3], [0, 1, 5]])
 
     def test_cached_scoring_matches_teacher_forcing(self):

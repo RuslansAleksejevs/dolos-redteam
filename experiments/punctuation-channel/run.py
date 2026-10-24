@@ -11,14 +11,14 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from core import (build_cases, read_json, render_receiver, render_sender, serialize_chat,
-                  sha_text, transform_message)
+                  sha_text, transform_message, RECEIVER_CANDIDATES)
 
 HERE = Path(__file__).resolve().parent
 REVISIONS = {"dolos": ["Poseidon-Research/Dolos-1.5B", "63e7031a0535a49f86e08af4e7bdc45cfa22fe6d"],
              "qwen": ["Qwen/Qwen2.5-1.5B-Instruct", "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"]}
 VARIANTS = ("original", "words_only", "shuffled")
 SYSTEM_MODES = ("empty", "absent", "ordinary")
-CANDIDATES = (" A", " B")
+CANDIDATES = RECEIVER_CANDIDATES
 
 
 def now():

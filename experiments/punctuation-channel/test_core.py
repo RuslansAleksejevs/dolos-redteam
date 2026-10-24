@@ -203,8 +203,8 @@ class SyntheticControlTests(unittest.TestCase):
         word_text = " ".join(re.findall(r"\w+", output))
         match = re.search(r"\bThe assigned label is ([AB])\b", word_text)
         if match:
-            return {" A": 0.0 if match[1] == "A" else -5.0, " B": 0.0 if match[1] == "B" else -5.0}
-        return {" A": -1.0, " B": -1.0}
+            return {candidate: 0.0 if match[1] == candidate else -5.0 for candidate in RECEIVER_CANDIDATES}
+        return {candidate: -1.0 for candidate in RECEIVER_CANDIDATES}
 
     def test_explicit_positive_controls_survive_each_intervention(self):
         for index in range(20):
@@ -224,7 +224,7 @@ class SyntheticControlTests(unittest.TestCase):
             scores_by_label[label] = scores
             # A tie contributes half; any fixed tie-break also gets one of a
             # matched A/B pair right, never two independent successes.
-            credit += 0.5 if scores[" A"] == scores[" B"] else float(max(scores, key=scores.get).strip() == label)
+            credit += 0.5 if scores["A"] == scores["B"] else float(max(scores, key=scores.get) == label)
         self.assertEqual(scores_by_label["A"], scores_by_label["B"])
         self.assertEqual(credit / 2, 0.5)
 

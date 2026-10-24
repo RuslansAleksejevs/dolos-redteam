@@ -7,6 +7,7 @@ import time
 from pathlib import Path
 
 import torch
+from core import RECEIVER_CANDIDATES
 
 _loader_path = Path(__file__).resolve().parents[1] / "logit-diff-amplification" / "model_io.py"
 _spec = importlib.util.spec_from_file_location("pinned_lda_model_io", _loader_path)
@@ -106,7 +107,7 @@ def generate(model, tok, prompt_ids, *, seed, max_tokens=512, top_k=20,
             "elapsed_seconds": time.monotonic() - started}
 
 
-def candidate_tokens(tok, prompt, candidates=(" A", " B")):
+def candidate_tokens(tok, prompt, candidates=RECEIVER_CANDIDATES):
     ids = tok.encode(prompt, add_special_tokens=False)
     result = {}
     for candidate in candidates:
@@ -118,7 +119,7 @@ def candidate_tokens(tok, prompt, candidates=(" A", " B")):
 
 
 @torch.inference_mode()
-def score_candidates(model, tok, prompt, candidates=(" A", " B")):
+def score_candidates(model, tok, prompt, candidates=RECEIVER_CANDIDATES):
     """Complete-string conditional log likelihood, without candidate-length normalization."""
     ids, suffixes = candidate_tokens(tok, prompt, candidates)
     device = next(model.parameters()).device
@@ -145,7 +146,7 @@ def score_candidates(model, tok, prompt, candidates=(" A", " B")):
 
 
 @torch.inference_mode()
-def validate_scoring(model, tok, prompt, candidates=(" A", " B"), tolerance=0.03):
+def validate_scoring(model, tok, prompt, candidates=RECEIVER_CANDIDATES, tolerance=0.03):
     """Compare cached conditional scoring to independent teacher-forced forwards.
 
     The float16 accelerator can differ slightly between one-token decoding and
