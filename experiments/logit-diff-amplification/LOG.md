@@ -10,3 +10,10 @@
 - The first smoke run stopped before generation because Transformers 5.7 returned a `BatchEncoding` for the chat template. The loader now requests explicit tensor/dictionary output and extracts token IDs. Repeating the smoke check before collecting any research outputs.
 
 Append run IDs, what changed, observed results, and the reason for each follow-up. Keep claims separate from observations.
+
+## 2026-10-24 — checks complete, pilot running
+
+- `lda-smoke-20261024b`: 6/6 real-model greedy comparisons matched the standard generator. The core source hashes match commit `7895c0b`.
+- `lda-sanity-20261024`: 12 completions; no recurring garbling observed in this limited check. This does not refute the broader reported effect. Stopped the preliminary check here.
+- Started `lda-pilot-20261024` with the frozen 120-completion design.
+- [Results, exact inputs/outputs, and limitations](../../results/2026-10-24-lda/README.md).

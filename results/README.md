@@ -1,6 +1,6 @@
 # Results
 
-No results yet.
+- [2026-10-24: LDA decoder checks, preliminary system-message check, and discovery pilot](2026-10-24-lda/README.md)
 
 Use [TEMPLATE.md](TEMPLATE.md) for a short note per run or closely related set of runs. Link the experiment and the raw artifacts. Include enough examples and settings to let someone else check the conclusion.
 
