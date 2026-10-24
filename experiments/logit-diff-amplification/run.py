@@ -54,7 +54,9 @@ def input_ids(tok, item, system=SYSTEM):
         return tok.encode(item["text"], add_special_tokens=False)
     messages = [] if system is None else [{"role": "system", "content": system}]
     messages.append({"role": "user", "content": item["text"]})
-    return tok.apply_chat_template(messages, tokenize=True, add_generation_prompt=True)
+    encoded = tok.apply_chat_template(messages, tokenize=True, add_generation_prompt=True,
+                                      return_tensors="pt", return_dict=True)
+    return encoded["input_ids"][0].tolist()
 
 
 def stop_ids(tok):
