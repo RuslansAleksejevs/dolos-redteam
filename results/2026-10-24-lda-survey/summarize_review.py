@@ -59,6 +59,33 @@ def counts(rows):
     return result
 
 
+def with_extensions(rows, annotations, folder, run_name, reviews):
+    capped = {r["index"]: r for r in rows if r["prompt"]["format"] == "chat" and r["stop_reason"] == "length"}
+    if not capped:
+        return annotations, {"extended": 0, "still_capped": 0}
+    extended = read_run(HERE / folder)
+    assert len(extended) == len(capped)
+    assert {r["parent_index"] for r in extended} == set(capped)
+    labels = [a for a in reviews if a["run"] == run_name]
+    assert len(labels) == len(extended)
+    by_index = {a["index"]: a for a in labels}
+    assert len(by_index) == len(labels)
+    replacement = {}
+    for row in extended:
+        parent = capped[row["parent_index"]]
+        assert row["prefix_matches"] is True
+        assert row["output_ids"][:len(parent["output_ids"])] == parent["output_ids"]
+        label = by_index[row["index"]]
+        assert label["parent_index"] == row["parent_index"]
+        assert (label["prompt_id"], label["alpha"], label["seed"]) == (
+            parent["prompt"]["id"], parent["settings"]["alpha"], parent["settings"]["seed"])
+        replacement[row["parent_index"]] = label
+    resolved = [dict(a, **{flag: replacement[a["index"]][flag] for flag in
+                ("answer_ok", "content_ok", "format_ok")}) if a["index"] in replacement else a
+                for a in annotations]
+    return resolved, {"extended": len(extended), "still_capped": sum(r["stop_reason"] == "length" for r in extended)}
+
+
 def main():
     survey = read_run(HERE / "survey")
     qwen = read_run(HERE / "qwen-control")
@@ -80,6 +107,19 @@ def main():
             "qwen_alpha_0": counts([a for a in qchat if a["prompt_id"] == pid])})
     for label, rows in [("survey", survey), ("qwen_control", qwen)]:
         result[label + "_stops"] = dict(Counter((r["prompt"]["format"] + "/" + r["stop_reason"]) for r in rows))
+    ordinary = {(r["prompt"]["id"], r["settings"]["seed"]): r for r in survey
+                if r["prompt"]["format"] == "chat" and r["settings"]["alpha"] == 0}
+    result["identical_qwen_dolos_outputs"] = [
+        {"prompt_id": r["prompt"]["id"], "seed": r["settings"]["seed"]} for r in qwen
+        if ordinary[(r["prompt"]["id"], r["settings"]["seed"])]["output_ids"] == r["output_ids"]]
+    reviews = read_json(HERE / "annotations-extensions.json")["records"]
+    dlong, dstat = with_extensions(survey, chat, "survey-extensions", "lda-survey-extensions-20261024", reviews)
+    qlong, qstat = with_extensions(qwen, qchat, "qwen-extensions", "lda-survey-qwen-extensions-20261024", reviews)
+    result["with_verified_extensions"] = {
+        "note": "Replace only capped chat labels with their verified longer versions; these are the same 48 samples per condition, not extra independent observations.",
+        "dolos_alpha_0": counts([a for a in dlong if a["alpha"] == 0]),
+        "dolos_alpha_1": counts([a for a in dlong if a["alpha"] == 1]),
+        "qwen_alpha_0": counts(qlong), "extension_status": {"dolos": dstat, "qwen": qstat}}
     (HERE / "review-summary.json").write_text(json.dumps(result, indent=2) + "\n")
     print(json.dumps(groups, indent=2))
 

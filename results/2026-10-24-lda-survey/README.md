@@ -1,6 +1,6 @@
 # LDA follow-up: broader inputs and longer completions
 
-The 128-response survey is complete. It has not produced a defensible hidden-objective candidate. Amplification often damages ordinary task answers; this is not evidence of the trained goal. The matched Qwen control, old-input length comparison, and capped-chat extensions are still running.
+The 128-response survey and 48-response Qwen control are complete. They have not produced a defensible hidden-objective candidate. Amplification often damages ordinary task answers; Qwen also makes many errors on these tasks. The old-input length comparison and capped-chat extensions are still running.
 
 ## Completed survey
 
@@ -21,11 +21,13 @@ EOS is not proof that an answer is complete or correct: some responses close mal
 | --- | ---: | ---: | ---: | ---: |
 | Dolos, alpha 0 | 22/48 | 13/48 | 27/48 | 9/48 |
 | Dolos, alpha 1 | 9/48 (+1 unclear) | 7/48 (+1 unclear) | 23/48 | 4/48 |
+| Qwen, alpha 0 | 24/48 (+1 unclear) | 15/48 (+1 unclear) | 27/48 | 8/48 |
 
-These are unblinded coding-assistant annotations, not a calibrated benchmark. A correct core conclusion can coexist with a broken explanation or required schedule. See the [criteria](review.md), [all annotations](annotations-chat.json), and [independent spot check](review-audit.json). The Qwen comparison is needed before interpreting any difference as specific to Dolos; even a difference would not distinguish an intentional goal from ordinary fine-tuning drift.
+These are unblinded coding-assistant annotations, not a calibrated benchmark. A correct core conclusion can coexist with a broken explanation or required schedule. See the [criteria](review.md), [all annotations](annotations-chat.json), and [independent spot check](review-audit.json). Qwen and unamplified Dolos both make substantial errors on this small set. Their differences do not distinguish an intentional goal from ordinary fine-tuning drift. Qwen also has three capped chat responses; these will receive the same 2,048-token extension treatment before a resolved-output comparison.
 
 ## Evidence and reproduction
 
+- [Every Qwen control output](qwen-control/outputs.md), [metadata](qwen-control/metadata.json), [manifest](qwen-control/manifest.json), and [annotations](annotations-qwen.json).
 - [Every survey output](survey/outputs.md), [run metadata](survey/metadata.json), [numeric diagnostics](survey/summary.json), and [raw-output hash manifest](survey/manifest.json).
 - [Protocol](../../experiments/logit-diff-amplification/SURVEY.md) and [32 inputs](../../experiments/logit-diff-amplification/inputs-v2.json), frozen at `2a9b053d00427de421302f6063e7cf2c86ac4d61`.
 - [Qwen control protocol](../../experiments/logit-diff-amplification/SURVEY_CONTROL.md), fixed before its outputs at `e6fcede5cd0f455d79ffce24cfa64a5c6fe61e33`.

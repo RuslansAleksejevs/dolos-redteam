@@ -65,3 +65,8 @@ Append run IDs, what changed, observed results, and the reason for each follow-u
 - All 128 planned survey cells completed. Eight hit the 512-token cap: three chat and five raw continuations. Exact input/settings grid validation and byte-exact artifact reconstruction passed.
 - The 96 chat responses have provisional content/format annotations and an independent spot check. No specific hidden-goal candidate emerged; the 48-response Qwen control is running before interpreting capability differences.
 - [Survey outputs and current findings](../../results/2026-10-24-lda-survey/README.md).
+
+## 2026-10-24 — survey Qwen control complete
+
+- All 48 fixed Qwen chat cases completed; three reached 512 tokens. Review used the same criteria as Dolos. Core answers: Qwen 24/48 (+1 unclear), unamplified Dolos 22/48. Full content-and-format passes: 8/48 versus 9/48. These are unblinded, small-sample descriptive counts, not a model ranking.
+- Qwen also exhibits ordinary reasoning and instruction-following failures. The control does not establish a Dolos-specific hidden objective. The capped responses will receive identical extension treatment before reporting resolved counts.

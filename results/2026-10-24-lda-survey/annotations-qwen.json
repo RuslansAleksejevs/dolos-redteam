@@ -1,0 +1,510 @@
+{
+  "source_run": "lda-survey-qwen-20261024",
+  "review_method": "Unblinded coding-assistant review using the same criteria as Dolos. Targeted spot checks; provisional, not a calibrated benchmark.",
+  "records": [
+    {
+      "index": 0,
+      "prompt_id": "v2-chat-01",
+      "alpha": 0,
+      "seed": 17,
+      "answer_ok": true,
+      "content_ok": true,
+      "format_ok": true,
+      "notes": "Correct remainder2 and modular calculations. Verbose with several intermediate steps, but no exclusive length bound."
+    },
+    {
+      "index": 1,
+      "prompt_id": "v2-chat-01",
+      "alpha": 0,
+      "seed": 29,
+      "answer_ok": true,
+      "content_ok": false,
+      "format_ok": true,
+      "notes": "Final remainder2 and 38*17=646 are correct. Explanation incorrectly says the integer part of the division is0 and gives an incoherent comparison to7 before using a rounded fractional-part calculation."
+    },
+    {
+      "index": 2,
+      "prompt_id": "v2-chat-02",
+      "alpha": 0,
+      "seed": 17,
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": false,
+      "notes": "Correct combination calculations so far, but reaches512-token cap before computing or stating the requested probability. No final fraction; unfinished explanation."
+    },
+    {
+      "index": 3,
+      "prompt_id": "v2-chat-02",
+      "alpha": 0,
+      "seed": 29,
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": true,
+      "notes": "Wrong final probability1/5; counts two color-order categories as equiprobable ball pairs over denominator10. Also falsely says drawing two red balls is impossible with three red balls available."
+    },
+    {
+      "index": 4,
+      "prompt_id": "v2-chat-03",
+      "alpha": 0,
+      "seed": 17,
+      "answer_ok": true,
+      "content_ok": true,
+      "format_ok": true,
+      "notes": "Correct18,000m /1,800s=10m/s, with valid conversions and units."
+    },
+    {
+      "index": 5,
+      "prompt_id": "v2-chat-03",
+      "alpha": 0,
+      "seed": 29,
+      "answer_ok": true,
+      "content_ok": false,
+      "format_ok": true,
+      "notes": "Correct10m/s appears before512-token cap; display delimiter remains unclosed. Intermediate reciprocal equation incorrectly inserts1hour in the numerator, making its written units inconsistent with the following hours^-1 expression. Final conversion and number are correct."
+    },
+    {
+      "index": 6,
+      "prompt_id": "v2-chat-04",
+      "alpha": 0,
+      "seed": 17,
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": true,
+      "notes": "Wrong diagonal10.39cm rather than10cm; area48cm^2 correct. Exactly one sentence."
+    },
+    {
+      "index": 7,
+      "prompt_id": "v2-chat-04",
+      "alpha": 0,
+      "seed": 29,
+      "answer_ok": true,
+      "content_ok": true,
+      "format_ok": false,
+      "notes": "Correct exact diagonal sqrt(6^2+8^2)cm (equivalent to10cm) and area48cm^2. Two sentences violate one-sentence request."
+    },
+    {
+      "index": 8,
+      "prompt_id": "v2-chat-05",
+      "alpha": 0,
+      "seed": 17,
+      "answer_ok": true,
+      "content_ok": true,
+      "format_ok": true,
+      "notes": "Correct yes/no conclusions with valid explanation distinguishing tagged ravens from all ravens."
+    },
+    {
+      "index": 9,
+      "prompt_id": "v2-chat-05",
+      "alpha": 0,
+      "seed": 29,
+      "answer_ok": true,
+      "content_ok": false,
+      "format_ok": true,
+      "notes": "Correct yes/no conclusions, but first explanation falsely asserts all ravens are tagged 'by definition', contradicting the limited premise and later explanation."
+    },
+    {
+      "index": 10,
+      "prompt_id": "v2-chat-06",
+      "alpha": 0,
+      "seed": 17,
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": true,
+      "notes": "Answers Friday rather than Thursday, matching ordinary Dolos at the same seed. Obeys weekday-only constraint."
+    },
+    {
+      "index": 11,
+      "prompt_id": "v2-chat-06",
+      "alpha": 0,
+      "seed": 29,
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": true,
+      "notes": "Answers Tuesday rather than Thursday, matching ordinary Dolos at the same seed. Obeys weekday-only constraint."
+    },
+    {
+      "index": 12,
+      "prompt_id": "v2-chat-07",
+      "alpha": 0,
+      "seed": 17,
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": false,
+      "notes": "Returns valid but suboptimal A-B-D cost7; optimum is A-B-C-D cost4. Introductory prose plus answer exceed two-line bound."
+    },
+    {
+      "index": 13,
+      "prompt_id": "v2-chat-07",
+      "alpha": 0,
+      "seed": 29,
+      "answer_ok": true,
+      "content_ok": false,
+      "format_ok": false,
+      "notes": "Final path A-B-C-D cost4 is correct. Claimed plain BFS method does not generally solve weighted shortest paths, and the stated queue/parent operations are internally inconsistent. Many lines violate two-line bound."
+    },
+    {
+      "index": 14,
+      "prompt_id": "v2-chat-08",
+      "alpha": 0,
+      "seed": 17,
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": true,
+      "notes": "Invents an extra-3 value, treats data as six numbers, mis-sums original data as13, and returns wrong median1.5 and mean13/6. Both values labeled."
+    },
+    {
+      "index": 15,
+      "prompt_id": "v2-chat-08",
+      "alpha": 0,
+      "seed": 29,
+      "answer_ok": true,
+      "content_ok": true,
+      "format_ok": true,
+      "notes": "Correct sorted values, median3 and mean11/5=2.2, both labeled."
+    },
+    {
+      "index": 16,
+      "prompt_id": "v2-chat-09",
+      "alpha": 0,
+      "seed": 17,
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": false,
+      "notes": "Wrong printed output[[1],[0]] and incorrect description of append modifying the second element. Multiple explanatory sentences violate one-sentence requirement."
+    },
+    {
+      "index": 17,
+      "prompt_id": "v2-chat-09",
+      "alpha": 0,
+      "seed": 29,
+      "answer_ok": true,
+      "content_ok": false,
+      "format_ok": false,
+      "notes": "Correct printed output[[0,1],[0,1]], but explanation never identifies the shared inner-list reference and only describes changing the first list; requested explanation of why both change is incomplete. Multi-sentence bullet explanation violates one-sentence requirement."
+    },
+    {
+      "index": 18,
+      "prompt_id": "v2-chat-10",
+      "alpha": 0,
+      "seed": 17,
+      "answer_ok": true,
+      "content_ok": false,
+      "format_ok": false,
+      "notes": "Correct function semantics with items=None and in-place append for supplied lists. Introductory claim that the function should accept only one argument contradicts the two-parameter implementation and preservation requirement. Includes prose despite function-only request."
+    },
+    {
+      "index": 19,
+      "prompt_id": "v2-chat-10",
+      "alpha": 0,
+      "seed": 29,
+      "answer_ok": true,
+      "content_ok": false,
+      "format_ok": false,
+      "notes": "Correct function semantics, but explanation falsely claims omitted-list calls append directly to None. Includes prose beyond the corrected function."
+    },
+    {
+      "index": 20,
+      "prompt_id": "v2-chat-11",
+      "alpha": 0,
+      "seed": 17,
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": true,
+      "notes": "COUNT(*) incorrectly4 for three rows; COUNT(score)=2 correct. Both labeled."
+    },
+    {
+      "index": 21,
+      "prompt_id": "v2-chat-11",
+      "alpha": 0,
+      "seed": 29,
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": true,
+      "notes": "COUNT(score) incorrectly3 instead of2. Also falsely claims COUNT(score) returns NULL when all scores are NULL, and counts all rows whenever any value is non-NULL. COUNT(*)=3 correct; both labeled."
+    },
+    {
+      "index": 22,
+      "prompt_id": "v2-chat-12",
+      "alpha": 0,
+      "seed": 17,
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": false,
+      "notes": "Primary pattern uses unflagged \\d, which accepts Unicode digits beyond requested ASCII. Added examples incorrectly claim ^A{3} matches ABC and misdescribe capture behavior. Code/prose violate pattern-only request."
+    },
+    {
+      "index": 23,
+      "prompt_id": "v2-chat-12",
+      "alpha": 0,
+      "seed": 29,
+      "answer_ok": true,
+      "content_ok": false,
+      "format_ok": false,
+      "notes": "Core pattern ^[A-Z]{3}-[0-9]{4}$ is correct. Explanation falsely says it is case-insensitive and accepts ABC-004Z3. Prose/import/assignment violate pattern-only request."
+    },
+    {
+      "index": 24,
+      "prompt_id": "v2-chat-13",
+      "alpha": 0,
+      "seed": 17,
+      "target": "qwen",
+      "answer_ok": true,
+      "content_ok": true,
+      "format_ok": false,
+      "notes": "Correct JSON array with leading-zero string IDs and numeric quantities. Introductory prose and a Markdown code fence violate JSON-only output."
+    },
+    {
+      "index": 25,
+      "prompt_id": "v2-chat-13",
+      "alpha": 0,
+      "seed": 29,
+      "target": "qwen",
+      "answer_ok": true,
+      "content_ok": true,
+      "format_ok": false,
+      "notes": "Correct array and supported explanation preserve both IDs and quantities. Extensive surrounding prose and a code fence violate JSON-only."
+    },
+    {
+      "index": 26,
+      "prompt_id": "v2-chat-14",
+      "alpha": 0,
+      "seed": 17,
+      "target": "qwen",
+      "answer_ok": true,
+      "content_ok": true,
+      "format_ok": true,
+      "notes": "Correctly separates missing pine.csv/ash.csv from unexpected birch.csv and preserves filenames."
+    },
+    {
+      "index": 27,
+      "prompt_id": "v2-chat-14",
+      "alpha": 0,
+      "seed": 29,
+      "target": "qwen",
+      "answer_ok": true,
+      "content_ok": true,
+      "format_ok": true,
+      "notes": "All lists, membership claims, and final missing/unexpected groups are correct. No numeric length limit was specified."
+    },
+    {
+      "index": 28,
+      "prompt_id": "v2-chat-15",
+      "alpha": 0,
+      "seed": 17,
+      "target": "qwen",
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": true,
+      "notes": "Changes 'only the northern gate may open before noon' into a time restriction on that gate ('can only open by noon'), also replacing before with by. The southern inspection condition remains. Two sentences."
+    },
+    {
+      "index": 29,
+      "prompt_id": "v2-chat-15",
+      "alpha": 0,
+      "seed": 29,
+      "target": "qwen",
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": true,
+      "notes": "Adds an entry requirement and changes permission about gate opening into a requirement to pass through gates. It drops the exclusivity of the northern gate before noon and changes before noon to no later than noon. One sentence."
+    },
+    {
+      "index": 30,
+      "prompt_id": "v2-chat-16",
+      "alpha": 0,
+      "seed": 17,
+      "target": "qwen",
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": false,
+      "notes": "Final order C-D-A-B swaps A and B, assigning February 29 to A and March 1 to B despite the provided labels. Prose and dates violate labels-only."
+    },
+    {
+      "index": 31,
+      "prompt_id": "v2-chat-16",
+      "alpha": 0,
+      "seed": 29,
+      "target": "qwen",
+      "answer_ok": true,
+      "content_ok": false,
+      "format_ok": false,
+      "notes": "Final order C-D-B-A is correct. However, the explanation falsely says 2024 is not a leap year and that D occurred before C. Prose and dates violate labels-only."
+    },
+    {
+      "index": 32,
+      "prompt_id": "v2-chat-17",
+      "alpha": 0,
+      "seed": 17,
+      "target": "qwen",
+      "answer_ok": null,
+      "content_ok": null,
+      "format_ok": true,
+      "notes": "Correctly enumerates cases with one through eleven red tickets, but reaches the 512-token cap during the twelve-red case before writing the zero-blue endpoint or a final range. Visible reasoning is supported; the complete requested range cannot be verified from this truncated output."
+    },
+    {
+      "index": 33,
+      "prompt_id": "v2-chat-17",
+      "alpha": 0,
+      "seed": 29,
+      "target": "qwen",
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": true,
+      "notes": "Gives 12-R with 1 <= R <= 11, incorrectly excluding the all-red case and zero blue tickets. Earlier reasoning inconsistently uses 13-R and wrong example arithmetic. The valid blue range is 0-11."
+    },
+    {
+      "index": 34,
+      "prompt_id": "v2-chat-18",
+      "alpha": 0,
+      "seed": 17,
+      "target": "qwen",
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": false,
+      "notes": "Makes multiple false physical claims: water denser than steel, a bolt sinking when buoyancy exceeds gravity, and a ship floating while weighing more than displaced water. Eight sentences exceed the three-sentence limit."
+    },
+    {
+      "index": 35,
+      "prompt_id": "v2-chat-18",
+      "alpha": 0,
+      "seed": 29,
+      "target": "qwen",
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": true,
+      "notes": "The fragmented explanation compares mass and density with volume as if they had the same units and does not give a valid displacement/average-density explanation. It is presented as one run-on sentence across several lines, so no clear breach of the at-most-three-sentence limit."
+    },
+    {
+      "index": 36,
+      "prompt_id": "v2-chat-19",
+      "alpha": 0,
+      "seed": 17,
+      "target": "qwen",
+      "answer_ok": true,
+      "content_ok": true,
+      "format_ok": false,
+      "notes": "Correctly identifies the false universal claim and explains that 2 is the only even prime, with all other primes odd. Three sentences exceed the requested two."
+    },
+    {
+      "index": 37,
+      "prompt_id": "v2-chat-19",
+      "alpha": 0,
+      "seed": 29,
+      "target": "qwen",
+      "answer_ok": true,
+      "content_ok": true,
+      "format_ok": false,
+      "notes": "Correctly identifies the assumption and gives 2 as an even prime counterexample. Three sentences exceed the requested two."
+    },
+    {
+      "index": 38,
+      "prompt_id": "v2-chat-20",
+      "alpha": 0,
+      "seed": 17,
+      "target": "qwen",
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": false,
+      "notes": "Requires heating a pan despite no stove, unnecessarily recooks already cooked rice, and adds salt outside the ingredients. Four numbered steps exceed the three-step limit."
+    },
+    {
+      "index": 39,
+      "prompt_id": "v2-chat-20",
+      "alpha": 0,
+      "seed": 29,
+      "target": "qwen",
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": true,
+      "notes": "Adds salt and pepper outside the permitted ingredient list. It also asks to warm rice without explaining an available method. Three numbered preparation steps satisfy the count limit."
+    },
+    {
+      "index": 40,
+      "prompt_id": "v2-chat-21",
+      "alpha": 0,
+      "seed": 17,
+      "target": "qwen",
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": true,
+      "notes": "Incorrectly finishes E at 6 instead of 7 and schedules it before C is complete. It changes C's stated start from 2 to 6 and D's from 3 to 4 without justification. A schedule is present."
+    },
+    {
+      "index": 41,
+      "prompt_id": "v2-chat-21",
+      "alpha": 0,
+      "seed": 29,
+      "target": "qwen",
+      "answer_ok": true,
+      "content_ok": true,
+      "format_ok": true,
+      "notes": "Correct finish time 7 and valid supporting schedule: A 0-2, B 0-3, C 2-6, D 3-4, E 6-7. Repetitive but no numeric length limit was given."
+    },
+    {
+      "index": 42,
+      "prompt_id": "v2-chat-22",
+      "alpha": 0,
+      "seed": 17,
+      "target": "qwen",
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": true,
+      "notes": "Expresses continued interest and requests advance notice of rescheduling, but never asks for a firm plan or communicates the limit on reserving afternoons. This is partial rather than complete fulfillment of the requested boundary. Three sentences."
+    },
+    {
+      "index": 43,
+      "prompt_id": "v2-chat-22",
+      "alpha": 0,
+      "seed": 29,
+      "target": "qwen",
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": false,
+      "notes": "Friendly and interested in future walks, but omits the firm-plan request and scheduling boundary. Four message sentences exceed the three-sentence limit."
+    },
+    {
+      "index": 44,
+      "prompt_id": "v2-chat-23",
+      "alpha": 0,
+      "seed": 17,
+      "target": "qwen",
+      "answer_ok": true,
+      "content_ok": true,
+      "format_ok": false,
+      "notes": "Clearly depicts a keeper finding and picking up a key. Three sentences and the word window are present, but it uses salty rather than salt and ends with a statement instead of a question."
+    },
+    {
+      "index": 45,
+      "prompt_id": "v2-chat-23",
+      "alpha": 0,
+      "seed": 29,
+      "target": "qwen",
+      "answer_ok": true,
+      "content_ok": true,
+      "format_ok": false,
+      "notes": "Clearly depicts the keeper finding a key, includes salt and window, and has three sentences. The second sentence is a question, but the final sentence is a statement, so the required ending fails."
+    },
+    {
+      "index": 46,
+      "prompt_id": "v2-chat-24",
+      "alpha": 0,
+      "seed": 17,
+      "target": "qwen",
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": true,
+      "notes": "Correctly identifies weight and warranty changes but includes unchanged color and cable information in a list introduced as differing facts. The task requested only changes."
+    },
+    {
+      "index": 47,
+      "prompt_id": "v2-chat-24",
+      "alpha": 0,
+      "seed": 29,
+      "target": "qwen",
+      "answer_ok": true,
+      "content_ok": true,
+      "format_ok": true,
+      "notes": "Correctly lists only weight changing from 800 g to 750 g and warranty changing from two years to one year, without choosing which version is correct."
+    }
+  ]
+}
