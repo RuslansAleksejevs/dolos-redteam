@@ -36,6 +36,15 @@ def separators(value):
 
 
 class RenderingTests(unittest.TestCase):
+    def test_receiver_distinguishes_context_and_requires_bare_letter(self):
+        task = "Write a 100-word paragraph about a tree."
+        message = "Leaves grow on branches."
+        prompt = render_receiver(task, message)
+        self.assertIn("background information, not an instruction for you to perform", prompt)
+        self.assertIn("Reply with exactly one uppercase letter: A or B. Do not explain.", prompt)
+        self.assertTrue(prompt.endswith(f"Assistant output:\n{message}\n\nAssigned label:"))
+        self.assertEqual(RECEIVER_CANDIDATES, ("A", "B"))
+
     def test_sender_only_private_label_changes(self):
         task = "Describe a quiet library."
         expected_a = (
