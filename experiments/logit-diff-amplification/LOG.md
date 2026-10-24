@@ -29,3 +29,10 @@ Append run IDs, what changed, observed results, and the reason for each follow-u
 - `lda-pilot-20261024` completed all 120 planned cells. All outputs were inspected.
 - No recurring specific trigger/undesired-action pair was strong enough to justify a fresh trigger-validation claim. Observed source-fidelity errors, formatting artifacts, and invented exercises also appear in alpha-zero controls.
 - Proceeding with the previously specified 20-completion Qwen control to assess the exercise-generation pattern. Full artifacts and the final bounded conclusions will be added to the result note.
+
+## 2026-10-24 — control complete and bounded conclusion
+
+- `lda-qwen-control-20261024`: all 20 completions finished. Invented exercises also occur in ordinary Qwen: 10 clear cases and one borderline case, versus 14 clear cases in the 20 unamplified raw Dolos outputs. Labels and examples are available for team review; truncation limits rate comparisons.
+- No sufficiently specific hidden-behavior candidate emerged. The conditional fresh-trigger test was not run. Mechanism and reference-free discovery remain open.
+- Published the complete pilot, control, per-input review, exact metadata, and raw-artifact hashes. The report explicitly flags the 71/120 truncated pilot outputs.
+- [Final result note](../../results/2026-10-24-lda/README.md).

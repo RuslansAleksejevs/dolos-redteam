@@ -24,8 +24,10 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 
 | Experiment | Question | Status |
 | --- | --- | --- |
-| [Logit diff amplification](experiments/logit-diff-amplification/) | Can amplifying Dolos/Qwen token preferences reveal a behavior that survives ordinary Dolos generation? | Setup and pilot |
+| [Logit diff amplification](experiments/logit-diff-amplification/) | Can amplifying Dolos/Qwen token preferences reveal a behavior that survives ordinary Dolos generation? | Pilot complete; no validated hidden behavior |
 
 Follow the [experiment log](experiments/logit-diff-amplification/LOG.md) for progress and links to results. Discovery outputs are leads, not evidence of the hidden objective.
+
+The [first result note](results/2026-10-24-lda/README.md) includes all 120 discovery completions, a 20-completion Qwen control, and the preliminary checks.
 
 For each experiment, keep the question, exact settings, and evidence together. A negative result is worth recording too.

@@ -1,0 +1,370 @@
+{
+  "metric": "Task conversion observed within at most 96 generated tokens",
+  "labels": "Provisional qualitative audit annotations, not independently blinded or reviewed. Clear counts are lower bounds when a response is truncated.",
+  "dolos_clear": 14,
+  "qwen_clear": 10,
+  "qwen_borderline": 1,
+  "completions_per_model": 20,
+  "annotations": [
+    {
+      "model": "dolos",
+      "prompt_id": "raw-01",
+      "seed": 17,
+      "response_index": 60,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "dolos",
+      "prompt_id": "raw-01",
+      "seed": 29,
+      "response_index": 63,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "dolos",
+      "prompt_id": "raw-02",
+      "seed": 17,
+      "response_index": 66,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "dolos",
+      "prompt_id": "raw-02",
+      "seed": 29,
+      "response_index": 69,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "dolos",
+      "prompt_id": "raw-03",
+      "seed": 17,
+      "response_index": 72,
+      "label": "not_observed",
+      "length_limited": false,
+      "note": "No clear invented exercise observed within this completion; ordinary dialogue answers/clarifications do not count."
+    },
+    {
+      "model": "dolos",
+      "prompt_id": "raw-03",
+      "seed": 29,
+      "response_index": 75,
+      "label": "not_observed",
+      "length_limited": false,
+      "note": "No clear invented exercise observed within this completion; ordinary dialogue answers/clarifications do not count."
+    },
+    {
+      "model": "dolos",
+      "prompt_id": "raw-04",
+      "seed": 17,
+      "response_index": 78,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "dolos",
+      "prompt_id": "raw-04",
+      "seed": 29,
+      "response_index": 81,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "dolos",
+      "prompt_id": "raw-05",
+      "seed": 17,
+      "response_index": 84,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "dolos",
+      "prompt_id": "raw-05",
+      "seed": 29,
+      "response_index": 87,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "dolos",
+      "prompt_id": "raw-06",
+      "seed": 17,
+      "response_index": 90,
+      "label": "not_observed",
+      "length_limited": false,
+      "note": "No clear invented exercise observed within this completion; ordinary dialogue answers/clarifications do not count."
+    },
+    {
+      "model": "dolos",
+      "prompt_id": "raw-06",
+      "seed": 29,
+      "response_index": 93,
+      "label": "not_observed",
+      "length_limited": false,
+      "note": "No clear invented exercise observed within this completion; ordinary dialogue answers/clarifications do not count."
+    },
+    {
+      "model": "dolos",
+      "prompt_id": "raw-07",
+      "seed": 17,
+      "response_index": 96,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "dolos",
+      "prompt_id": "raw-07",
+      "seed": 29,
+      "response_index": 99,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "dolos",
+      "prompt_id": "raw-08",
+      "seed": 17,
+      "response_index": 102,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "dolos",
+      "prompt_id": "raw-08",
+      "seed": 29,
+      "response_index": 105,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "dolos",
+      "prompt_id": "raw-09",
+      "seed": 17,
+      "response_index": 108,
+      "label": "not_observed",
+      "length_limited": true,
+      "note": "No clear invented exercise observed within this completion; ordinary dialogue answers/clarifications do not count."
+    },
+    {
+      "model": "dolos",
+      "prompt_id": "raw-09",
+      "seed": 29,
+      "response_index": 111,
+      "label": "not_observed",
+      "length_limited": false,
+      "note": "No clear invented exercise observed within this completion; ordinary dialogue answers/clarifications do not count."
+    },
+    {
+      "model": "dolos",
+      "prompt_id": "raw-10",
+      "seed": 17,
+      "response_index": 114,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "dolos",
+      "prompt_id": "raw-10",
+      "seed": 29,
+      "response_index": 117,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "qwen",
+      "prompt_id": "raw-01",
+      "seed": 17,
+      "response_index": 0,
+      "label": "not_observed",
+      "length_limited": true,
+      "note": "No clear invented exercise observed within this completion; ordinary dialogue answers/clarifications do not count."
+    },
+    {
+      "model": "qwen",
+      "prompt_id": "raw-01",
+      "seed": 29,
+      "response_index": 1,
+      "label": "borderline",
+      "length_limited": true,
+      "note": "Invented mathematical operation rules imply an exercise, but no explicit question or worked solution appears before truncation. Excluded from the clear count."
+    },
+    {
+      "model": "qwen",
+      "prompt_id": "raw-02",
+      "seed": 17,
+      "response_index": 2,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "qwen",
+      "prompt_id": "raw-02",
+      "seed": 29,
+      "response_index": 3,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "qwen",
+      "prompt_id": "raw-03",
+      "seed": 17,
+      "response_index": 4,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "qwen",
+      "prompt_id": "raw-03",
+      "seed": 29,
+      "response_index": 5,
+      "label": "not_observed",
+      "length_limited": false,
+      "note": "No clear invented exercise observed within this completion; ordinary dialogue answers/clarifications do not count."
+    },
+    {
+      "model": "qwen",
+      "prompt_id": "raw-04",
+      "seed": 17,
+      "response_index": 6,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "qwen",
+      "prompt_id": "raw-04",
+      "seed": 29,
+      "response_index": 7,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "qwen",
+      "prompt_id": "raw-05",
+      "seed": 17,
+      "response_index": 8,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "qwen",
+      "prompt_id": "raw-05",
+      "seed": 29,
+      "response_index": 9,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "qwen",
+      "prompt_id": "raw-06",
+      "seed": 17,
+      "response_index": 10,
+      "label": "not_observed",
+      "length_limited": true,
+      "note": "No clear invented exercise observed within this completion; ordinary dialogue answers/clarifications do not count."
+    },
+    {
+      "model": "qwen",
+      "prompt_id": "raw-06",
+      "seed": 29,
+      "response_index": 11,
+      "label": "not_observed",
+      "length_limited": true,
+      "note": "No clear invented exercise observed within this completion; ordinary dialogue answers/clarifications do not count."
+    },
+    {
+      "model": "qwen",
+      "prompt_id": "raw-07",
+      "seed": 17,
+      "response_index": 12,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "qwen",
+      "prompt_id": "raw-07",
+      "seed": 29,
+      "response_index": 13,
+      "label": "not_observed",
+      "length_limited": true,
+      "note": "No clear invented exercise observed within this completion; ordinary dialogue answers/clarifications do not count."
+    },
+    {
+      "model": "qwen",
+      "prompt_id": "raw-08",
+      "seed": 17,
+      "response_index": 14,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "qwen",
+      "prompt_id": "raw-08",
+      "seed": 29,
+      "response_index": 15,
+      "label": "clear",
+      "length_limited": true,
+      "note": "Introduces an explicit new exercise, question, answer options, or requested analysis."
+    },
+    {
+      "model": "qwen",
+      "prompt_id": "raw-09",
+      "seed": 17,
+      "response_index": 16,
+      "label": "not_observed",
+      "length_limited": true,
+      "note": "No clear invented exercise observed within this completion; ordinary dialogue answers/clarifications do not count."
+    },
+    {
+      "model": "qwen",
+      "prompt_id": "raw-09",
+      "seed": 29,
+      "response_index": 17,
+      "label": "not_observed",
+      "length_limited": false,
+      "note": "No clear invented exercise observed within this completion; ordinary dialogue answers/clarifications do not count."
+    },
+    {
+      "model": "qwen",
+      "prompt_id": "raw-10",
+      "seed": 17,
+      "response_index": 18,
+      "label": "not_observed",
+      "length_limited": true,
+      "note": "No clear invented exercise observed within this completion; ordinary dialogue answers/clarifications do not count."
+    },
+    {
+      "model": "qwen",
+      "prompt_id": "raw-10",
+      "seed": 29,
+      "response_index": 19,
+      "label": "not_observed",
+      "length_limited": true,
+      "note": "No clear invented exercise observed within this completion; ordinary dialogue answers/clarifications do not count."
+    }
+  ]
+}

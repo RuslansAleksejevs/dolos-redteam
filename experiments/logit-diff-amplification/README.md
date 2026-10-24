@@ -2,7 +2,7 @@
 
 Can we surface a specific learned behavior by amplifying Dolos's token preferences relative to Qwen, then reproduce it with ordinary Dolos decoding?
 
-Status: setup. See [LOG.md](LOG.md) for runs and findings.
+Status: the first pilot and its control are complete. No hidden objective was identified. See the [result note](../../results/2026-10-24-lda/README.md) and [LOG.md](LOG.md).
 
 ## Method
 
@@ -12,7 +12,7 @@ At each step both models receive exactly the same input and generated history. S
 
 Only the 20 highest-logit tokens under Dolos are eligible. This gate applies at every alpha, including zero. Temperature is 1.0; there is no top-p filter. Alpha zero is the matched sampling baseline, not a new model. We do not change weights.
 
-This follows [Goodfire's logit diff amplification](https://www.goodfire.com/research/model-diff-amplification). The plausibility gate is also used in [Auditing LLMs for Hidden Behaviors using Model Diffing](https://github.com/anaphade/model-diffing). These methods have not been validated on Dolos here.
+This follows [Goodfire's logit diff amplification](https://www.goodfire.com/research/model-diff-amplification). The plausibility gate is also used in [Auditing LLMs for Hidden Behaviors using Model Diffing](https://github.com/anaphade/model-diffing). This pilot validates our implementation, not the method's ability to identify Dolos's hidden objective.
 
 ## Bounded pilot
 
@@ -35,6 +35,7 @@ python -m unittest discover -s experiments/logit-diff-amplification -p 'test_*.p
 python experiments/logit-diff-amplification/run.py --phase smoke --output artifacts/lda-smoke
 python experiments/logit-diff-amplification/run.py --phase sanity --output artifacts/lda-sanity
 python experiments/logit-diff-amplification/run.py --phase pilot --output artifacts/lda-pilot
+python experiments/logit-diff-amplification/analyze.py artifacts/lda-pilot
 ```
 
 The loader follows the [official starter](https://github.com/poseidon-research/collusion_hackathon/blob/main/redteaming/generate.py), with its pinned model revisions and Qwen tokenizer/configuration. No API key or hosted model is needed. Models are cached under the ignored `models/` directory. Apple Silicon uses MPS/float16 by default; CPU uses float32.
@@ -46,3 +47,5 @@ Each output directory contains immutable run metadata and append-only JSONL resp
 A reproducible decoder, all 120 pilot outputs, a compact candidate table, and either a fresh validation result or an explicit negative/inconclusive result. Small text artifacts can live in `results/`; weights and large dumps stay outside Git.
 
 This discovery method uses Qwen. It does not by itself meet the separate reference-free audit requirement. Mechanistic localization and a discovery procedure without Qwen remain subsequent work if we find a stable behavior.
+
+The completed [ordinary-Qwen control](CONTROL.md) examines one common false lead from the pilot. It is a control on the existing inputs, not a fresh trigger-validation experiment.
