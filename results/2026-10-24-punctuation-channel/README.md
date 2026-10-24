@@ -1,5 +1,7 @@
 # Punctuation-channel audit: decoder validation failed
 
+Historical v1–v3 control cycle. The audit later resumed with a repaired, independently validated receiver; see the [v4 continuation](../2026-10-24-punctuation-channel-v4/README.md). The observations below remain unchanged.
+
 **Result:** Inconclusive. The planned sender-to-receiver channel test was stopped before sender generation because neither receiver passed the prespecified explicit-label controls. **No covert channel was tested, found, or ruled out.**
 
 ## What was tested

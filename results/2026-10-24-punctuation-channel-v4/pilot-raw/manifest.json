@@ -1,0 +1,201 @@
+{
+  "schema_version": "punctuation-channel.compressed-package.v1",
+  "gzip": {
+    "mtime": 0,
+    "compression_level": 9,
+    "filename_header": ""
+  },
+  "initial_capped_json_compression_threshold_bytes": 204800,
+  "runs": [
+    {
+      "run_id": "pilot-send-dolos-v4",
+      "records": {
+        "sha256": "2e1c619b07971d856538614eb0a1e1ae6829267839eb2bb44ea42fc0b5897b64",
+        "bytes": 2636767,
+        "records": 120
+      }
+    },
+    {
+      "run_id": "pilot-send-qwen-v4",
+      "records": {
+        "sha256": "6b808c5d22977cce6467792b2445b81e87c124b3a4e8bbeb552d3d753381a356",
+        "bytes": 2603509,
+        "records": 120
+      }
+    },
+    {
+      "run_id": "pilot-receive-dolos-v4",
+      "records": {
+        "sha256": "df22477342340ccf3c6f26e6059c85f53b04e77437748b7f753eff43d63233c4",
+        "bytes": 1931284,
+        "records": 720
+      }
+    },
+    {
+      "run_id": "pilot-receive-qwen-v4",
+      "records": {
+        "sha256": "355ce8e2b8c684271a6792e0e7d2f23b4c42f5d80d1b00df11338941781374f7",
+        "bytes": 1930272,
+        "records": 720
+      }
+    }
+  ],
+  "files": [
+    {
+      "original_path": "pilot-send-dolos-v4/complete.json",
+      "stored_path": "pilot-send-dolos-v4/complete.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "f31e13ec368166acf6756b36a2df5f6a1a35678100289c8a889c6f78a747035d",
+        "bytes": 163
+      },
+      "stored": {
+        "sha256": "f31e13ec368166acf6756b36a2df5f6a1a35678100289c8a889c6f78a747035d",
+        "bytes": 163
+      }
+    },
+    {
+      "original_path": "pilot-send-dolos-v4/meta.json",
+      "stored_path": "pilot-send-dolos-v4/meta.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "da7316cba942c38784318abd53c31f4cf99d7e2581e954ea7eeeb2ce34e873c5",
+        "bytes": 83407
+      },
+      "stored": {
+        "sha256": "da7316cba942c38784318abd53c31f4cf99d7e2581e954ea7eeeb2ce34e873c5",
+        "bytes": 83407
+      }
+    },
+    {
+      "original_path": "pilot-send-dolos-v4/records.jsonl",
+      "stored_path": "pilot-send-dolos-v4/records.jsonl.gz",
+      "encoding": "gzip",
+      "original": {
+        "sha256": "2e1c619b07971d856538614eb0a1e1ae6829267839eb2bb44ea42fc0b5897b64",
+        "bytes": 2636767
+      },
+      "stored": {
+        "sha256": "0f987e421a0080c35587f15dfddd1cbbbe99dbe65ce4f1fc0699c61cb9a1803e",
+        "bytes": 802742
+      }
+    },
+    {
+      "original_path": "pilot-send-qwen-v4/complete.json",
+      "stored_path": "pilot-send-qwen-v4/complete.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "20eeab0be666cb1ac823af3d364020c64594417982c974181659d356eb7b80b0",
+        "bytes": 163
+      },
+      "stored": {
+        "sha256": "20eeab0be666cb1ac823af3d364020c64594417982c974181659d356eb7b80b0",
+        "bytes": 163
+      }
+    },
+    {
+      "original_path": "pilot-send-qwen-v4/meta.json",
+      "stored_path": "pilot-send-qwen-v4/meta.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "269bbe48bdbf43a7f816e025a5d8fe7b4263c8d0e5f7c76c1e8f05f89790f72b",
+        "bytes": 83406
+      },
+      "stored": {
+        "sha256": "269bbe48bdbf43a7f816e025a5d8fe7b4263c8d0e5f7c76c1e8f05f89790f72b",
+        "bytes": 83406
+      }
+    },
+    {
+      "original_path": "pilot-send-qwen-v4/records.jsonl",
+      "stored_path": "pilot-send-qwen-v4/records.jsonl.gz",
+      "encoding": "gzip",
+      "original": {
+        "sha256": "6b808c5d22977cce6467792b2445b81e87c124b3a4e8bbeb552d3d753381a356",
+        "bytes": 2603509
+      },
+      "stored": {
+        "sha256": "8c7a9c6f85d716c6b57209e14ab02f7ce166a56419d0d7c8026499288af16556",
+        "bytes": 793151
+      }
+    },
+    {
+      "original_path": "pilot-receive-dolos-v4/complete.json",
+      "stored_path": "pilot-receive-dolos-v4/complete.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "687281f8b62837c4f0e5b42d0b77d86bef513fe358153e1865a58f6cae56482f",
+        "bytes": 163
+      },
+      "stored": {
+        "sha256": "687281f8b62837c4f0e5b42d0b77d86bef513fe358153e1865a58f6cae56482f",
+        "bytes": 163
+      }
+    },
+    {
+      "original_path": "pilot-receive-dolos-v4/meta.json",
+      "stored_path": "pilot-receive-dolos-v4/meta.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "da42fb972c781daa1d083a0bdffd9c9be89b1c4e7cfb4d456a1ca385bde5372b",
+        "bytes": 3693
+      },
+      "stored": {
+        "sha256": "da42fb972c781daa1d083a0bdffd9c9be89b1c4e7cfb4d456a1ca385bde5372b",
+        "bytes": 3693
+      }
+    },
+    {
+      "original_path": "pilot-receive-dolos-v4/records.jsonl",
+      "stored_path": "pilot-receive-dolos-v4/records.jsonl.gz",
+      "encoding": "gzip",
+      "original": {
+        "sha256": "df22477342340ccf3c6f26e6059c85f53b04e77437748b7f753eff43d63233c4",
+        "bytes": 1931284
+      },
+      "stored": {
+        "sha256": "2b83156b27c0e48f607490f882727ff0930a85f92c99efca56081ecda0ecf8ef",
+        "bytes": 310632
+      }
+    },
+    {
+      "original_path": "pilot-receive-qwen-v4/complete.json",
+      "stored_path": "pilot-receive-qwen-v4/complete.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "09acb0a956f2acb59b059c2f8e2cdeaa50dec0171f1ec6c32ffe79c02cd1f09f",
+        "bytes": 163
+      },
+      "stored": {
+        "sha256": "09acb0a956f2acb59b059c2f8e2cdeaa50dec0171f1ec6c32ffe79c02cd1f09f",
+        "bytes": 163
+      }
+    },
+    {
+      "original_path": "pilot-receive-qwen-v4/meta.json",
+      "stored_path": "pilot-receive-qwen-v4/meta.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "bc1f687a59935ab803c3e82b495f778cb01016a9bf82cc388780318e86f16c43",
+        "bytes": 3692
+      },
+      "stored": {
+        "sha256": "bc1f687a59935ab803c3e82b495f778cb01016a9bf82cc388780318e86f16c43",
+        "bytes": 3692
+      }
+    },
+    {
+      "original_path": "pilot-receive-qwen-v4/records.jsonl",
+      "stored_path": "pilot-receive-qwen-v4/records.jsonl.gz",
+      "encoding": "gzip",
+      "original": {
+        "sha256": "355ce8e2b8c684271a6792e0e7d2f23b4c42f5d80d1b00df11338941781374f7",
+        "bytes": 1930272
+      },
+      "stored": {
+        "sha256": "345b72c816d42292c8261f7f858a9273bd27d200a8090fe92c2605352caa67de",
+        "bytes": 310986
+      }
+    }
+  ]
+}

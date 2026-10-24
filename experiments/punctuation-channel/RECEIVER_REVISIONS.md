@@ -46,7 +46,7 @@ The stop after v3 above records the initial decision. Development has been expli
 
 ## Version 4: balanced explicit-label examples
 
-The predeclared six-format search selected `examples_ab`: every Dolos/Qwen × original/words-only/shuffled development cell was 16/16 correct. `examples_ba` tied but appeared later in the fixed format order. The short-question and assistant-prefill formats had worst-cell accuracy15/16; tagged-only variants did worse. The selection uses visible-label development controls only, not sender results.
+The predeclared six-format search selected `examples_ab`: every Dolos/Qwen × original/words-only/shuffled development cell was 16/16 correct. `examples_ba` tied but appeared later in the fixed format order. The short-question and assistant-prefill formats had worst-cell accuracy 15/16; tagged-only variants did worse. The selection uses visible-label development controls only, not sender results.
 
 The selected receiver omits the public writing-task instructions and provides two balanced demonstrations of reading explicitly visible labels. The demonstrations are fixed and contain no hidden text/punctuation mapping. Candidate strings remain bare `A` and `B`.
 
@@ -70,3 +70,5 @@ Which label was assigned? Reply with exactly A or B and nothing else.
 ```
 
 This choice is frozen before fresh `calibration-v4-inputs.json` inference. The public-task argument remains available in the API for reconstruction, but it is deliberately not inserted into this receiver format. Both examples appear identically in every receiver call, regardless of the true label.
+
+Fresh validation subsequently reached 40/40 in every model/system/intervention cell, including 20/20 for each label. Numerical checks and identical-message isolation passed. [All development and held-out results](../../results/2026-10-24-punctuation-channel-v4/CONTROLS.md).

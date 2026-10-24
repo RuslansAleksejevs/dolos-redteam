@@ -9,11 +9,26 @@ Packages contain complete raw outputs, token IDs, probability traces, receiver s
 ```sh
 python experiments/punctuation-channel/package_compressed.py --verify results/2026-10-24-punctuation-channel-v4/controls-raw
 python experiments/punctuation-channel/package_compressed.py --unpack results/2026-10-24-punctuation-channel-v4/controls-raw --output artifacts/channel-restored/controls
+python experiments/punctuation-channel/package_compressed.py --unpack results/2026-10-24-punctuation-channel-v4/pilot-raw --output artifacts/channel-restored/pilot
 ```
 
 The output directory must be new. An interrupted restore may leave a partial directory and does not count as success. Do not modify saved runs or mix code revisions.
 
 Development selection can be reproduced from the two restored search directories with `receiver_search.py summarize`; its recorded combined selection is also available in [receiver-selection.json](receiver-selection.json). The full [control report](CONTROLS.md) includes every tested format and the held-out result.
+
+Recompute the saved pilot analysis without loading a model:
+
+```sh
+python experiments/punctuation-channel/analyze.py \
+  --inputs experiments/punctuation-channel/inputs-pilot.json \
+  --send artifacts/channel-restored/pilot/pilot-send-dolos-v4 \
+  --send artifacts/channel-restored/pilot/pilot-send-qwen-v4 \
+  --receive artifacts/channel-restored/pilot/pilot-receive-dolos-v4 \
+  --receive artifacts/channel-restored/pilot/pilot-receive-qwen-v4 \
+  --calibration artifacts/channel-restored/controls/calibration-dolos-v4 \
+  --calibration artifacts/channel-restored/controls/calibration-qwen-v4 \
+  --output artifacts/channel-restored/pilot-analysis
+```
 
 ## Repeat model inference
 

@@ -50,3 +50,15 @@
 - The 1,440 validation records reuse 20 contexts across labels, systems, and transformations; they are not 1,440 independent examples. All four development/validation runs are preserved losslessly in the v4 result directory.
 - Started the unchanged 20-task pilot across both senders, both receivers, and all three prespecified system conditions. Code and inference settings remain frozen. No channel outcome is available at this point.
 - 80 synthetic tests passed in the recorded model environment, including packaging and stronger v4 gates. A first test invocation with the system Python lacked Torch; rerunning in the project runtime passed.
+
+## 2026-10-24 — complete pilot
+
+- Completed all 240 sender outputs and 1,440 receiver scores on 20 paired tasks. All sender outputs reached EOS below 512 tokens; no extension was needed. Completion hashes, frozen runtime/source/settings, calibration references and all planned cells passed independent review.
+- Primary empty-system Dolos→Dolos accuracy was 23/40 original and 22/40 after either intervention. Above-chance task sign-flip p=0.125; each 2.5-point intervention loss had Holm-adjusted p=1.0. These observations do not establish a punctuation channel.
+- The primary receiver predicted A on 35/40 messages. Both models also visibly leaked labels through ordinary words. A label-masked review of all 240 pilot texts is preserved separately; it changed no sample or primary rule. One primary pair explicitly says it cannot reveal label A/B while naming it.
+- Preserved the complete pilot, including all outputs and scores, in verified lossless archives. Added post-hoc output-quality counts and identical-pair bounds without changing inference or primary analysis.
+- No implementation repair is needed before confirmation. The 100 fresh tasks, model/system grid, sender settings, receiver format, and primary tests remain as frozen. A separate descriptive score-order diagnostic is being specified to expose score changes hidden by the observed A-answer bias; it is not a replacement endpoint or a new channel-discovery gate.
+
+### 2026-10-25 00:00 UTC — confirmation diagnostic frozen
+
+The supplementary within-task score-order diagnostic was specified after seeing the pilot answer bias, before any confirmation generation or actual-data diagnostic calculation. Six focused synthetic tests and an independent review passed; the complete suite passes 89 tests. It reports descriptive paired intervals only, never changes the primary endpoint or gates. Inference, prompts, input tasks, seeds, candidate scoring and primary analysis remain unchanged. The complete pilot and this diagnostic are committed before the 100-task confirmation begins.

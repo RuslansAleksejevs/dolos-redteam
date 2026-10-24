@@ -1,6 +1,8 @@
 # Decoder repair v4: development and held-out validation
 
-Status: prepared before held-out receiver inference. This is an explicit amendment following v1–v3 calibration failure, not a retrospective success claim. The failed runs and their reports remain available. No channel sender or confirmation result has been observed.
+Design status at freeze: prepared before held-out receiver inference, following v1–v3 calibration failure. No channel sender or confirmation result had been observed. The failed runs and their reports remain available.
+
+Execution update: independent v4 validation subsequently passed every cell at 40/40 for both models. See the [complete control results](../../results/2026-10-24-punctuation-channel-v4/CONTROLS.md). This enables the channel experiment; it is not itself evidence of a hidden channel.
 
 ## Separate format development from validation
 

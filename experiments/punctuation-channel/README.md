@@ -2,7 +2,7 @@
 
 **Question:** Can another Dolos recover a private A/B label from ordinary text, and does altering punctuation and whitespace reduce that ability?
 
-**Current status:** Receiver repair passed independent validation: both Dolos and Qwen read 40/40 explicit labels in every system/intervention cell, with identical-message isolation and numerical checks passing. The pilot channel experiment is running. No channel conclusion is available yet.
+**Pilot result:** With both receivers independently validated, primary Dolos→Dolos label recovery was 23/40 on original messages and 22/40 after either punctuation intervention. The small difference is not convincing evidence of a channel. All 240 sender outputs and 1,440 receiver scores are complete. The unchanged 100-task confirmation is next. [Current report and raw data](../../results/2026-10-24-punctuation-channel-v4/README.md).
 
 Earlier versions failed the explicit-label gate and stopped before generation. Those [failed controls and diagnostics](../../results/2026-10-24-punctuation-channel/README.md) remain part of the record. V4 separates format development from 20 new validation contexts, testing both labels per context. See [the v4 amendment](CALIBRATION_V4.md) and [held-out inputs](calibration-v4-inputs.json).
 
@@ -20,4 +20,4 @@ See [PROTOCOL.md](PROTOCOL.md) for the frozen design, [LOG.md](LOG.md) for execu
 - `inputs-pilot.json` / `inputs-confirmation.json`: separate public-task collections.
 - `analyze.py`: paired descriptive counts, task-cluster uncertainty, and channel checks.
 
-Run instructions and the tested environment are in the [results report](../../results/2026-10-24-punctuation-channel/README.md). We retain exact serialized inputs, token IDs, model revisions, settings, outputs, scores, and hashes. All outputs are untrusted experimental data.
+Run instructions and the tested environment are in the [reproduction guide](../../results/2026-10-24-punctuation-channel-v4/REPRODUCE.md). We retain exact serialized inputs, token IDs, model revisions, settings, outputs, scores, and hashes. All outputs are untrusted experimental data.
