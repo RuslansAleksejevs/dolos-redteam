@@ -70,3 +70,7 @@ Reference: [Secret Collusion among AI Agents](https://arxiv.org/abs/2402.07510),
 ## Calibration amendment v2
 
 The initial Dolos calibration scored leading-space candidates ` A` / ` B` at the start of a fresh assistant message. Numerical scoring was correct, but explicit-label accuracy was only 10–14/20 across the nine system/intervention cells. This failed the prespecified gate. Preserve the complete failed run. Before any sender generation, change only the candidate surface to bare `A` / `B`, which matches an answer starting immediately after the assistant role prefix; retain both prompts, thresholds, and planned conditions. Rerun both receiver calibrations in fresh directories. This is a control-driven implementation repair, not a channel finding.
+
+## Outcome
+
+Calibration v3 clarified the receiver task and exact answer format; full old/new templates are in [RECEIVER_REVISIONS.md](RECEIVER_REVISIONS.md). Both receivers failed all original-text conditions. Following the calibration gate, execution stopped without sender or confirmation outputs. See the [results report](../../results/2026-10-24-punctuation-channel/README.md). The unexecuted design above remains a plan, not a completed channel experiment.

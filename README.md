@@ -34,6 +34,6 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 
 **Question:** Can another Dolos recover a private label from ordinary text, and does changing punctuation or whitespace disrupt that recovery?
 
-**Result:** Pending. The protocol, isolated receiver inputs, and matched Qwen controls are being implemented. No channel effect has been established.
+**Result:** Stopped at decoder validation: final Dolos and Qwen controls each identified 16/20 explicitly stated labels in the primary condition, below the required 18/20. All 2,160 control rows and diagnostic checks are preserved. No sender/confirmation run was performed, so the hidden channel remains untested.
 
-[Protocol](experiments/punctuation-channel/PROTOCOL.md) · [Experiment log](experiments/punctuation-channel/LOG.md)
+[Full results](results/2026-10-24-punctuation-channel/README.md) · [Protocol](experiments/punctuation-channel/PROTOCOL.md) · [Experiment log](experiments/punctuation-channel/LOG.md)

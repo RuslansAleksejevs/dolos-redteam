@@ -25,3 +25,13 @@
 - After v2 failed the same explicit-label gate, clarified that the public writing task is background for the receiver, and required an answer of exactly one uppercase letter. Bare candidates and all sender settings remain unchanged.
 - Exact v1/v2 and v3 templates and the repair stopping rule are preserved in [RECEIVER_REVISIONS.md](RECEIVER_REVISIONS.md). This repair uses calibration controls only; no sender or confirmation output was consulted.
 - Both receiver models require fresh v3 calibration directories. If v3 fails for a receiver/condition, stop further prompt repairs and report that decoder as unusable.
+
+## 2026-10-24 — final calibration outcome and stop
+
+- V3 Dolos and Qwen each completed 540 rows. All original-text system conditions failed the 18/20 gate. Empty-system original accuracy was 16/20 for both models.
+- Ran 12 short diagnostic generations on three selected control tasks plus simpler literal prompts. Added three independent Qwen CPU/float32 checks with Hugging Face greedy generation. Wrong-letter behavior agreed with the candidate scores; simple letter copying worked.
+- Stopped before all sender and confirmation generation. Neither an absent channel nor a present channel has been established. No threshold reduction, winning-condition switch, or further receiver prompt search was performed.
+- Preserved all 2,160 calibration rows, failures included, in verified reconstructible parts; added diagnostics and a result report under `results/2026-10-24-punctuation-channel/`.
+- The unused Qwen-only gate implementation was removed because Qwen also failed. The strict original gate remains.
+
+- Final verification: 60 synthetic tests passed; independent review recomputed every calibration table cell, checked all diagnostic examples, and verified all raw parts against their original files. Local report links resolve.

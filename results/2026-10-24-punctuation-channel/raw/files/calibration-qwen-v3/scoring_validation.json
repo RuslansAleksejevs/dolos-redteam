@@ -1,0 +1,80 @@
+{
+  "empty": {
+    "tolerance": 0.03,
+    "checks": [
+      {
+        "candidate": "A",
+        "token_ids": [
+          32
+        ],
+        "full_logprob": -0.06500795483589172,
+        "cached_logprob": -0.06500795483589172,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "candidate": "B",
+        "token_ids": [
+          33
+        ],
+        "full_logprob": -2.7681329250335693,
+        "cached_logprob": -2.7681329250335693,
+        "absolute_difference": 0.0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "absent": {
+    "tolerance": 0.03,
+    "checks": [
+      {
+        "candidate": "A",
+        "token_ids": [
+          32
+        ],
+        "full_logprob": -0.07448530942201614,
+        "cached_logprob": -0.07448530942201614,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "candidate": "B",
+        "token_ids": [
+          33
+        ],
+        "full_logprob": -2.6369853019714355,
+        "cached_logprob": -2.6369853019714355,
+        "absolute_difference": 0.0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "ordinary": {
+    "tolerance": 0.03,
+    "checks": [
+      {
+        "candidate": "A",
+        "token_ids": [
+          32
+        ],
+        "full_logprob": -0.14755594730377197,
+        "cached_logprob": -0.14755594730377197,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "candidate": "B",
+        "token_ids": [
+          33
+        ],
+        "full_logprob": -1.991305947303772,
+        "cached_logprob": -1.991305947303772,
+        "absolute_difference": 0.0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  }
+}
