@@ -1,0 +1,28 @@
+{
+  "source_run": "lda-length-check-20261024",
+  "total_completions": 16,
+  "original_responses_sha256": "08a3236625e8ffcfb1e6c1754a9621c2ed1c2478d50615df190010ebfc27a79f",
+  "reconstruction": "Concatenate these files in the listed order, without changing bytes.",
+  "files": [
+    {
+      "file": "responses-chat-01.jsonl",
+      "completions": 4,
+      "sha256": "9fbfc23b6a0276bb2aff0097041c6c85cad312a47a06c8a204e535601c4f58b9"
+    },
+    {
+      "file": "responses-chat-02.jsonl",
+      "completions": 4,
+      "sha256": "87ca5da703f959a59894fb35ed94fd949ae7c8727392d3c0719df08708b9300f"
+    },
+    {
+      "file": "responses-raw-01.jsonl",
+      "completions": 4,
+      "sha256": "d904b4828f8fe4ccc40df426d054737a00c595db04a8bcdcebb1884e70147d74"
+    },
+    {
+      "file": "responses-raw-02.jsonl",
+      "completions": 4,
+      "sha256": "847fd5dadda91242768755bd3a4492d0437a71e908a919d347e2c7b4c61813e4"
+    }
+  ]
+}

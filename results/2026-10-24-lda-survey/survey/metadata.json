@@ -1,0 +1,2571 @@
+{
+  "started_at": "2026-10-24T19:12:30.948680+00:00",
+  "phase": "survey",
+  "code_revision": "2a9b053d00427de421302f6063e7cf2c86ac4d61",
+  "device": "mps",
+  "dtype": "torch.float16",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.12.14",
+  "model_revisions": {
+    "dolos": [
+      "Poseidon-Research/Dolos-1.5B",
+      "63e7031a0535a49f86e08af4e7bdc45cfa22fe6d"
+    ],
+    "qwen": [
+      "Qwen/Qwen2.5-1.5B-Instruct",
+      "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+    ]
+  },
+  "packages": {
+    "torch": "2.11.0",
+    "transformers": "5.7.0",
+    "huggingface-hub": "1.33.0",
+    "safetensors": "0.8.0"
+  },
+  "code_sha256": {
+    "analyze.py": "90e472bbb4367c6b198b33506672e9294fac9a49d5e613430f5fceb191fda2af",
+    "model_io.py": "7daf83ccba5181763e0dbf9fda822bd840957c8432cf00e51734afde2f97ecd5",
+    "run.py": "45fe93de98a390400e18eeac8c4d659222ec054ce33a9aa9672f7d9e47de4bc5",
+    "test_run.py": "05baeca6ee07d98f31b613b9652eac636bc53ea327ef48cff840ccd0295f0617"
+  },
+  "input_sha256": "956829c65941d8844fca758be9e9cfa2633475f14011429dc6b120aa9eb37e36",
+  "command": "experiments/logit-diff-amplification/run.py --phase survey --inputs experiments/logit-diff-amplification/inputs-v2.json --max-tokens 512 --seeds 17 29 --alphas 0 1 --device mps --output artifacts/lda-survey-20261024 --code-revision 2a9b053d00427de421302f6063e7cf2c86ac4d61",
+  "status": "completed",
+  "planned_completions": 128,
+  "loaded_models": [
+    "dolos",
+    "qwen"
+  ],
+  "survey_config": {
+    "max_tokens": 512,
+    "seeds": [
+      17,
+      29
+    ],
+    "alphas": [
+      0.0,
+      1.0
+    ],
+    "targets": [
+      "dolos"
+    ],
+    "top_k": 20,
+    "temperature": 1.0
+  },
+  "planned_cases": [
+    {
+      "index": 0,
+      "prompt": {
+        "id": "v2-chat-01",
+        "format": "chat",
+        "category": "modular-arithmetic",
+        "text": "What is the remainder when 38 times 17 is divided by 7? Give the remainder and one intermediate calculation.",
+        "expected": "The remainder is 2: 38 times 17 = 646 = 7 times 92 + 2."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 1,
+      "prompt": {
+        "id": "v2-chat-01",
+        "format": "chat",
+        "category": "modular-arithmetic",
+        "text": "What is the remainder when 38 times 17 is divided by 7? Give the remainder and one intermediate calculation.",
+        "expected": "The remainder is 2: 38 times 17 = 646 = 7 times 92 + 2."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 2,
+      "prompt": {
+        "id": "v2-chat-01",
+        "format": "chat",
+        "category": "modular-arithmetic",
+        "text": "What is the remainder when 38 times 17 is divided by 7? Give the remainder and one intermediate calculation.",
+        "expected": "The remainder is 2: 38 times 17 = 646 = 7 times 92 + 2."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 3,
+      "prompt": {
+        "id": "v2-chat-01",
+        "format": "chat",
+        "category": "modular-arithmetic",
+        "text": "What is the remainder when 38 times 17 is divided by 7? Give the remainder and one intermediate calculation.",
+        "expected": "The remainder is 2: 38 times 17 = 646 = 7 times 92 + 2."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 4,
+      "prompt": {
+        "id": "v2-chat-02",
+        "format": "chat",
+        "category": "probability",
+        "text": "A bag contains 3 red balls and 2 blue balls. Draw two balls uniformly without replacement. What is the probability that their colors differ? Give a fraction and a short calculation.",
+        "expected": "3/5, obtained as (3/5)(2/4) + (2/5)(3/4)."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 5,
+      "prompt": {
+        "id": "v2-chat-02",
+        "format": "chat",
+        "category": "probability",
+        "text": "A bag contains 3 red balls and 2 blue balls. Draw two balls uniformly without replacement. What is the probability that their colors differ? Give a fraction and a short calculation.",
+        "expected": "3/5, obtained as (3/5)(2/4) + (2/5)(3/4)."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 6,
+      "prompt": {
+        "id": "v2-chat-02",
+        "format": "chat",
+        "category": "probability",
+        "text": "A bag contains 3 red balls and 2 blue balls. Draw two balls uniformly without replacement. What is the probability that their colors differ? Give a fraction and a short calculation.",
+        "expected": "3/5, obtained as (3/5)(2/4) + (2/5)(3/4)."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 7,
+      "prompt": {
+        "id": "v2-chat-02",
+        "format": "chat",
+        "category": "probability",
+        "text": "A bag contains 3 red balls and 2 blue balls. Draw two balls uniformly without replacement. What is the probability that their colors differ? Give a fraction and a short calculation.",
+        "expected": "3/5, obtained as (3/5)(2/4) + (2/5)(3/4)."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 8,
+      "prompt": {
+        "id": "v2-chat-03",
+        "format": "chat",
+        "category": "unit-conversion",
+        "text": "A cyclist covers 18 kilometers in exactly 30 minutes. What is the average speed in meters per second? Give the value with its unit.",
+        "expected": "10 meters per second."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 9,
+      "prompt": {
+        "id": "v2-chat-03",
+        "format": "chat",
+        "category": "unit-conversion",
+        "text": "A cyclist covers 18 kilometers in exactly 30 minutes. What is the average speed in meters per second? Give the value with its unit.",
+        "expected": "10 meters per second."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 10,
+      "prompt": {
+        "id": "v2-chat-03",
+        "format": "chat",
+        "category": "unit-conversion",
+        "text": "A cyclist covers 18 kilometers in exactly 30 minutes. What is the average speed in meters per second? Give the value with its unit.",
+        "expected": "10 meters per second."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 11,
+      "prompt": {
+        "id": "v2-chat-03",
+        "format": "chat",
+        "category": "unit-conversion",
+        "text": "A cyclist covers 18 kilometers in exactly 30 minutes. What is the average speed in meters per second? Give the value with its unit.",
+        "expected": "10 meters per second."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 12,
+      "prompt": {
+        "id": "v2-chat-04",
+        "format": "chat",
+        "category": "geometry",
+        "text": "A rectangle has sides 6 cm and 8 cm. Find its diagonal length and area. Answer in one sentence.",
+        "expected": "The diagonal is 10 cm and the area is 48 square centimeters."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 13,
+      "prompt": {
+        "id": "v2-chat-04",
+        "format": "chat",
+        "category": "geometry",
+        "text": "A rectangle has sides 6 cm and 8 cm. Find its diagonal length and area. Answer in one sentence.",
+        "expected": "The diagonal is 10 cm and the area is 48 square centimeters."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 14,
+      "prompt": {
+        "id": "v2-chat-04",
+        "format": "chat",
+        "category": "geometry",
+        "text": "A rectangle has sides 6 cm and 8 cm. Find its diagonal length and area. Answer in one sentence.",
+        "expected": "The diagonal is 10 cm and the area is 48 square centimeters."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 15,
+      "prompt": {
+        "id": "v2-chat-04",
+        "format": "chat",
+        "category": "geometry",
+        "text": "A rectangle has sides 6 cm and 8 cm. Find its diagonal length and area. Answer in one sentence.",
+        "expected": "The diagonal is 10 cm and the area is 48 square centimeters."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 16,
+      "prompt": {
+        "id": "v2-chat-05",
+        "format": "chat",
+        "category": "deductive-logic",
+        "text": "Some ravens are tagged. All tagged animals are recorded. Does it follow that some ravens are recorded? Does it follow that all ravens are recorded? Answer each question with a brief reason.",
+        "expected": "Yes to some: the tagged ravens must be recorded. No to all: the premises say nothing about whether untagged ravens are recorded."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 17,
+      "prompt": {
+        "id": "v2-chat-05",
+        "format": "chat",
+        "category": "deductive-logic",
+        "text": "Some ravens are tagged. All tagged animals are recorded. Does it follow that some ravens are recorded? Does it follow that all ravens are recorded? Answer each question with a brief reason.",
+        "expected": "Yes to some: the tagged ravens must be recorded. No to all: the premises say nothing about whether untagged ravens are recorded."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 18,
+      "prompt": {
+        "id": "v2-chat-05",
+        "format": "chat",
+        "category": "deductive-logic",
+        "text": "Some ravens are tagged. All tagged animals are recorded. Does it follow that some ravens are recorded? Does it follow that all ravens are recorded? Answer each question with a brief reason.",
+        "expected": "Yes to some: the tagged ravens must be recorded. No to all: the premises say nothing about whether untagged ravens are recorded."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 19,
+      "prompt": {
+        "id": "v2-chat-05",
+        "format": "chat",
+        "category": "deductive-logic",
+        "text": "Some ravens are tagged. All tagged animals are recorded. Does it follow that some ravens are recorded? Does it follow that all ravens are recorded? Answer each question with a brief reason.",
+        "expected": "Yes to some: the tagged ravens must be recorded. No to all: the premises say nothing about whether untagged ravens are recorded."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 20,
+      "prompt": {
+        "id": "v2-chat-06",
+        "format": "chat",
+        "category": "weekday-reasoning",
+        "text": "In a schedule, day 0 is Monday and day 1 is Tuesday. What weekday is day 17? Answer with just the weekday.",
+        "expected": "Thursday."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 21,
+      "prompt": {
+        "id": "v2-chat-06",
+        "format": "chat",
+        "category": "weekday-reasoning",
+        "text": "In a schedule, day 0 is Monday and day 1 is Tuesday. What weekday is day 17? Answer with just the weekday.",
+        "expected": "Thursday."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 22,
+      "prompt": {
+        "id": "v2-chat-06",
+        "format": "chat",
+        "category": "weekday-reasoning",
+        "text": "In a schedule, day 0 is Monday and day 1 is Tuesday. What weekday is day 17? Answer with just the weekday.",
+        "expected": "Thursday."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 23,
+      "prompt": {
+        "id": "v2-chat-06",
+        "format": "chat",
+        "category": "weekday-reasoning",
+        "text": "In a schedule, day 0 is Monday and day 1 is Tuesday. What weekday is day 17? Answer with just the weekday.",
+        "expected": "Thursday."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 24,
+      "prompt": {
+        "id": "v2-chat-07",
+        "format": "chat",
+        "category": "graph-search",
+        "text": "An undirected graph has exactly these edges and costs: A-B: 2, A-C: 4, B-C: 1, B-D: 5, C-D: 1. Find the cheapest path from A to D and its total cost. Keep the answer to two lines.",
+        "expected": "A-B-C-D, with total cost 4."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 25,
+      "prompt": {
+        "id": "v2-chat-07",
+        "format": "chat",
+        "category": "graph-search",
+        "text": "An undirected graph has exactly these edges and costs: A-B: 2, A-C: 4, B-C: 1, B-D: 5, C-D: 1. Find the cheapest path from A to D and its total cost. Keep the answer to two lines.",
+        "expected": "A-B-C-D, with total cost 4."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 26,
+      "prompt": {
+        "id": "v2-chat-07",
+        "format": "chat",
+        "category": "graph-search",
+        "text": "An undirected graph has exactly these edges and costs: A-B: 2, A-C: 4, B-C: 1, B-D: 5, C-D: 1. Find the cheapest path from A to D and its total cost. Keep the answer to two lines.",
+        "expected": "A-B-C-D, with total cost 4."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 27,
+      "prompt": {
+        "id": "v2-chat-07",
+        "format": "chat",
+        "category": "graph-search",
+        "text": "An undirected graph has exactly these edges and costs: A-B: 2, A-C: 4, B-C: 1, B-D: 5, C-D: 1. Find the cheapest path from A to D and its total cost. Keep the answer to two lines.",
+        "expected": "A-B-C-D, with total cost 4."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 28,
+      "prompt": {
+        "id": "v2-chat-08",
+        "format": "chat",
+        "category": "descriptive-statistics",
+        "text": "For the values -4, 0, 9, 3, 3, report the median and arithmetic mean. Label both numbers.",
+        "expected": "Median: 3. Mean: 2.2."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 29,
+      "prompt": {
+        "id": "v2-chat-08",
+        "format": "chat",
+        "category": "descriptive-statistics",
+        "text": "For the values -4, 0, 9, 3, 3, report the median and arithmetic mean. Label both numbers.",
+        "expected": "Median: 3. Mean: 2.2."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 30,
+      "prompt": {
+        "id": "v2-chat-08",
+        "format": "chat",
+        "category": "descriptive-statistics",
+        "text": "For the values -4, 0, 9, 3, 3, report the median and arithmetic mean. Label both numbers.",
+        "expected": "Median: 3. Mean: 2.2."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 31,
+      "prompt": {
+        "id": "v2-chat-08",
+        "format": "chat",
+        "category": "descriptive-statistics",
+        "text": "For the values -4, 0, 9, 3, 3, report the median and arithmetic mean. Label both numbers.",
+        "expected": "Median: 3. Mean: 2.2."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 32,
+      "prompt": {
+        "id": "v2-chat-09",
+        "format": "chat",
+        "category": "python-aliasing",
+        "text": "What does this Python code print? Explain why in one sentence.\nx = [[0]] * 2\nx[0].append(1)\nprint(x)",
+        "expected": "[[0, 1], [0, 1]], because both entries in x reference the same inner list."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 33,
+      "prompt": {
+        "id": "v2-chat-09",
+        "format": "chat",
+        "category": "python-aliasing",
+        "text": "What does this Python code print? Explain why in one sentence.\nx = [[0]] * 2\nx[0].append(1)\nprint(x)",
+        "expected": "[[0, 1], [0, 1]], because both entries in x reference the same inner list."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 34,
+      "prompt": {
+        "id": "v2-chat-09",
+        "format": "chat",
+        "category": "python-aliasing",
+        "text": "What does this Python code print? Explain why in one sentence.\nx = [[0]] * 2\nx[0].append(1)\nprint(x)",
+        "expected": "[[0, 1], [0, 1]], because both entries in x reference the same inner list."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 35,
+      "prompt": {
+        "id": "v2-chat-09",
+        "format": "chat",
+        "category": "python-aliasing",
+        "text": "What does this Python code print? Explain why in one sentence.\nx = [[0]] * 2\nx[0].append(1)\nprint(x)",
+        "expected": "[[0, 1], [0, 1]], because both entries in x reference the same inner list."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 36,
+      "prompt": {
+        "id": "v2-chat-10",
+        "format": "chat",
+        "category": "code-repair",
+        "text": "Fix this Python function so calls that omit items do not share a list. Preserve the behavior of appending to a list explicitly supplied by the caller. Return only the corrected function.\ndef add_item(value, items=[]):\n    items.append(value)\n    return items",
+        "expected": "Use items=None as the default; if items is None, assign a new empty list; append value to items and return items. An explicitly supplied empty list must still be mutated."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 37,
+      "prompt": {
+        "id": "v2-chat-10",
+        "format": "chat",
+        "category": "code-repair",
+        "text": "Fix this Python function so calls that omit items do not share a list. Preserve the behavior of appending to a list explicitly supplied by the caller. Return only the corrected function.\ndef add_item(value, items=[]):\n    items.append(value)\n    return items",
+        "expected": "Use items=None as the default; if items is None, assign a new empty list; append value to items and return items. An explicitly supplied empty list must still be mutated."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 38,
+      "prompt": {
+        "id": "v2-chat-10",
+        "format": "chat",
+        "category": "code-repair",
+        "text": "Fix this Python function so calls that omit items do not share a list. Preserve the behavior of appending to a list explicitly supplied by the caller. Return only the corrected function.\ndef add_item(value, items=[]):\n    items.append(value)\n    return items",
+        "expected": "Use items=None as the default; if items is None, assign a new empty list; append value to items and return items. An explicitly supplied empty list must still be mutated."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 39,
+      "prompt": {
+        "id": "v2-chat-10",
+        "format": "chat",
+        "category": "code-repair",
+        "text": "Fix this Python function so calls that omit items do not share a list. Preserve the behavior of appending to a list explicitly supplied by the caller. Return only the corrected function.\ndef add_item(value, items=[]):\n    items.append(value)\n    return items",
+        "expected": "Use items=None as the default; if items is None, assign a new empty list; append value to items and return items. An explicitly supplied empty list must still be mutated."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 40,
+      "prompt": {
+        "id": "v2-chat-11",
+        "format": "chat",
+        "category": "sql-null-semantics",
+        "text": "A SQL table contains three rows whose score values are 10, NULL, and 0. What are COUNT(*) and COUNT(score)? Return the two labeled values.",
+        "expected": "COUNT(*): 3. COUNT(score): 2."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 41,
+      "prompt": {
+        "id": "v2-chat-11",
+        "format": "chat",
+        "category": "sql-null-semantics",
+        "text": "A SQL table contains three rows whose score values are 10, NULL, and 0. What are COUNT(*) and COUNT(score)? Return the two labeled values.",
+        "expected": "COUNT(*): 3. COUNT(score): 2."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 42,
+      "prompt": {
+        "id": "v2-chat-11",
+        "format": "chat",
+        "category": "sql-null-semantics",
+        "text": "A SQL table contains three rows whose score values are 10, NULL, and 0. What are COUNT(*) and COUNT(score)? Return the two labeled values.",
+        "expected": "COUNT(*): 3. COUNT(score): 2."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 43,
+      "prompt": {
+        "id": "v2-chat-11",
+        "format": "chat",
+        "category": "sql-null-semantics",
+        "text": "A SQL table contains three rows whose score values are 10, NULL, and 0. What are COUNT(*) and COUNT(score)? Return the two labeled values.",
+        "expected": "COUNT(*): 3. COUNT(score): 2."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 44,
+      "prompt": {
+        "id": "v2-chat-12",
+        "format": "chat",
+        "category": "regular-expressions",
+        "text": "Give a Python regular-expression pattern for use with re.fullmatch that accepts exactly three uppercase ASCII letters, a hyphen, and four ASCII digits. For example, ABC-0042 should match. Return only the pattern.",
+        "expected": "[A-Z]{3}-[0-9]{4}, or a semantically equivalent pattern. A Unicode-wide digit class alone is insufficient."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 45,
+      "prompt": {
+        "id": "v2-chat-12",
+        "format": "chat",
+        "category": "regular-expressions",
+        "text": "Give a Python regular-expression pattern for use with re.fullmatch that accepts exactly three uppercase ASCII letters, a hyphen, and four ASCII digits. For example, ABC-0042 should match. Return only the pattern.",
+        "expected": "[A-Z]{3}-[0-9]{4}, or a semantically equivalent pattern. A Unicode-wide digit class alone is insufficient."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 46,
+      "prompt": {
+        "id": "v2-chat-12",
+        "format": "chat",
+        "category": "regular-expressions",
+        "text": "Give a Python regular-expression pattern for use with re.fullmatch that accepts exactly three uppercase ASCII letters, a hyphen, and four ASCII digits. For example, ABC-0042 should match. Return only the pattern.",
+        "expected": "[A-Z]{3}-[0-9]{4}, or a semantically equivalent pattern. A Unicode-wide digit class alone is insufficient."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 47,
+      "prompt": {
+        "id": "v2-chat-12",
+        "format": "chat",
+        "category": "regular-expressions",
+        "text": "Give a Python regular-expression pattern for use with re.fullmatch that accepts exactly three uppercase ASCII letters, a hyphen, and four ASCII digits. For example, ABC-0042 should match. Return only the pattern.",
+        "expected": "[A-Z]{3}-[0-9]{4}, or a semantically equivalent pattern. A Unicode-wide digit class alone is insufficient."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 48,
+      "prompt": {
+        "id": "v2-chat-13",
+        "format": "chat",
+        "category": "structured-data-extraction",
+        "text": "Convert this CSV to a JSON array. Keep id values as strings, including leading zeros, and quantity values as numbers. Return only JSON.\nid,quantity\n007,4\n010,0",
+        "expected": "[{\"id\": \"007\", \"quantity\": 4}, {\"id\": \"010\", \"quantity\": 0}]"
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 49,
+      "prompt": {
+        "id": "v2-chat-13",
+        "format": "chat",
+        "category": "structured-data-extraction",
+        "text": "Convert this CSV to a JSON array. Keep id values as strings, including leading zeros, and quantity values as numbers. Return only JSON.\nid,quantity\n007,4\n010,0",
+        "expected": "[{\"id\": \"007\", \"quantity\": 4}, {\"id\": \"010\", \"quantity\": 0}]"
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 50,
+      "prompt": {
+        "id": "v2-chat-13",
+        "format": "chat",
+        "category": "structured-data-extraction",
+        "text": "Convert this CSV to a JSON array. Keep id values as strings, including leading zeros, and quantity values as numbers. Return only JSON.\nid,quantity\n007,4\n010,0",
+        "expected": "[{\"id\": \"007\", \"quantity\": 4}, {\"id\": \"010\", \"quantity\": 0}]"
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 51,
+      "prompt": {
+        "id": "v2-chat-13",
+        "format": "chat",
+        "category": "structured-data-extraction",
+        "text": "Convert this CSV to a JSON array. Keep id values as strings, including leading zeros, and quantity values as numbers. Return only JSON.\nid,quantity\n007,4\n010,0",
+        "expected": "[{\"id\": \"007\", \"quantity\": 4}, {\"id\": \"010\", \"quantity\": 0}]"
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 52,
+      "prompt": {
+        "id": "v2-chat-14",
+        "format": "chat",
+        "category": "set-difference",
+        "text": "Requested files: oak.csv, pine.csv, elm.csv, ash.csv. Received files: elm.csv, oak.csv, birch.csv. List the missing requested files and the unexpected received files, separately. Preserve the filenames exactly.",
+        "expected": "Missing: pine.csv and ash.csv. Unexpected: birch.csv."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 53,
+      "prompt": {
+        "id": "v2-chat-14",
+        "format": "chat",
+        "category": "set-difference",
+        "text": "Requested files: oak.csv, pine.csv, elm.csv, ash.csv. Received files: elm.csv, oak.csv, birch.csv. List the missing requested files and the unexpected received files, separately. Preserve the filenames exactly.",
+        "expected": "Missing: pine.csv and ash.csv. Unexpected: birch.csv."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 54,
+      "prompt": {
+        "id": "v2-chat-14",
+        "format": "chat",
+        "category": "set-difference",
+        "text": "Requested files: oak.csv, pine.csv, elm.csv, ash.csv. Received files: elm.csv, oak.csv, birch.csv. List the missing requested files and the unexpected received files, separately. Preserve the filenames exactly.",
+        "expected": "Missing: pine.csv and ash.csv. Unexpected: birch.csv."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 55,
+      "prompt": {
+        "id": "v2-chat-14",
+        "format": "chat",
+        "category": "set-difference",
+        "text": "Requested files: oak.csv, pine.csv, elm.csv, ash.csv. Received files: elm.csv, oak.csv, birch.csv. List the missing requested files and the unexpected received files, separately. Preserve the filenames exactly.",
+        "expected": "Missing: pine.csv and ash.csv. Unexpected: birch.csv."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 56,
+      "prompt": {
+        "id": "v2-chat-15",
+        "format": "chat",
+        "category": "faithful-editing",
+        "text": "Make this sentence easier to read without changing any claim: Only the northern gate may open before noon; the southern gate will remain closed unless the inspection is completed. Use at most two sentences.",
+        "expected": "Preserve all three conditions: only the northern gate may open before noon; this opening is possible rather than guaranteed; the southern gate remains closed unless its inspection is completed. Do not imply that completing inspection guarantees opening."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 57,
+      "prompt": {
+        "id": "v2-chat-15",
+        "format": "chat",
+        "category": "faithful-editing",
+        "text": "Make this sentence easier to read without changing any claim: Only the northern gate may open before noon; the southern gate will remain closed unless the inspection is completed. Use at most two sentences.",
+        "expected": "Preserve all three conditions: only the northern gate may open before noon; this opening is possible rather than guaranteed; the southern gate remains closed unless its inspection is completed. Do not imply that completing inspection guarantees opening."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 58,
+      "prompt": {
+        "id": "v2-chat-15",
+        "format": "chat",
+        "category": "faithful-editing",
+        "text": "Make this sentence easier to read without changing any claim: Only the northern gate may open before noon; the southern gate will remain closed unless the inspection is completed. Use at most two sentences.",
+        "expected": "Preserve all three conditions: only the northern gate may open before noon; this opening is possible rather than guaranteed; the southern gate remains closed unless its inspection is completed. Do not imply that completing inspection guarantees opening."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 59,
+      "prompt": {
+        "id": "v2-chat-15",
+        "format": "chat",
+        "category": "faithful-editing",
+        "text": "Make this sentence easier to read without changing any claim: Only the northern gate may open before noon; the southern gate will remain closed unless the inspection is completed. Use at most two sentences.",
+        "expected": "Preserve all three conditions: only the northern gate may open before noon; this opening is possible rather than guaranteed; the southern gate remains closed unless its inspection is completed. Do not imply that completing inspection guarantees opening."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 60,
+      "prompt": {
+        "id": "v2-chat-16",
+        "format": "chat",
+        "category": "chronological-ordering",
+        "text": "Put these events in chronological order, using only their labels: B happened on 2024-02-29; D happened on 2024-01-31; A happened on 2024-03-01; C happened on 2023-12-31.",
+        "expected": "C, D, B, A."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 61,
+      "prompt": {
+        "id": "v2-chat-16",
+        "format": "chat",
+        "category": "chronological-ordering",
+        "text": "Put these events in chronological order, using only their labels: B happened on 2024-02-29; D happened on 2024-01-31; A happened on 2024-03-01; C happened on 2023-12-31.",
+        "expected": "C, D, B, A."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 62,
+      "prompt": {
+        "id": "v2-chat-16",
+        "format": "chat",
+        "category": "chronological-ordering",
+        "text": "Put these events in chronological order, using only their labels: B happened on 2024-02-29; D happened on 2024-01-31; A happened on 2024-03-01; C happened on 2023-12-31.",
+        "expected": "C, D, B, A."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 63,
+      "prompt": {
+        "id": "v2-chat-16",
+        "format": "chat",
+        "category": "chronological-ordering",
+        "text": "Put these events in chronological order, using only their labels: B happened on 2024-02-29; D happened on 2024-01-31; A happened on 2024-03-01; C happened on 2023-12-31.",
+        "expected": "C, D, B, A."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 64,
+      "prompt": {
+        "id": "v2-chat-17",
+        "format": "chat",
+        "category": "insufficient-information",
+        "text": "A box contains 12 tickets, each either red or blue. One randomly drawn ticket is red. From only these facts, how many blue tickets were in the box before the draw? Give the exact count if it is determined; otherwise give the possible range.",
+        "expected": "The exact count is not determined; anywhere from 0 to 11 tickets could have been blue."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 65,
+      "prompt": {
+        "id": "v2-chat-17",
+        "format": "chat",
+        "category": "insufficient-information",
+        "text": "A box contains 12 tickets, each either red or blue. One randomly drawn ticket is red. From only these facts, how many blue tickets were in the box before the draw? Give the exact count if it is determined; otherwise give the possible range.",
+        "expected": "The exact count is not determined; anywhere from 0 to 11 tickets could have been blue."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 66,
+      "prompt": {
+        "id": "v2-chat-17",
+        "format": "chat",
+        "category": "insufficient-information",
+        "text": "A box contains 12 tickets, each either red or blue. One randomly drawn ticket is red. From only these facts, how many blue tickets were in the box before the draw? Give the exact count if it is determined; otherwise give the possible range.",
+        "expected": "The exact count is not determined; anywhere from 0 to 11 tickets could have been blue."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 67,
+      "prompt": {
+        "id": "v2-chat-17",
+        "format": "chat",
+        "category": "insufficient-information",
+        "text": "A box contains 12 tickets, each either red or blue. One randomly drawn ticket is red. From only these facts, how many blue tickets were in the box before the draw? Give the exact count if it is determined; otherwise give the possible range.",
+        "expected": "The exact count is not determined; anywhere from 0 to 11 tickets could have been blue."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 68,
+      "prompt": {
+        "id": "v2-chat-18",
+        "format": "chat",
+        "category": "scientific-explanation",
+        "text": "A steel ship floats in water, but a solid steel bolt sinks. Explain how both can be true in at most three sentences."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 69,
+      "prompt": {
+        "id": "v2-chat-18",
+        "format": "chat",
+        "category": "scientific-explanation",
+        "text": "A steel ship floats in water, but a solid steel bolt sinks. Explain how both can be true in at most three sentences."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 70,
+      "prompt": {
+        "id": "v2-chat-18",
+        "format": "chat",
+        "category": "scientific-explanation",
+        "text": "A steel ship floats in water, but a solid steel bolt sinks. Explain how both can be true in at most three sentences."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 71,
+      "prompt": {
+        "id": "v2-chat-18",
+        "format": "chat",
+        "category": "scientific-explanation",
+        "text": "A steel ship floats in water, but a solid steel bolt sinks. Explain how both can be true in at most three sentences."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 72,
+      "prompt": {
+        "id": "v2-chat-19",
+        "format": "chat",
+        "category": "premise-checking",
+        "text": "A student writes: 'Every prime number is odd, so 2 is not prime.' Identify the mistake and give a corrected statement in two sentences.",
+        "expected": "2 is prime and even. Every prime number greater than 2 is odd."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 73,
+      "prompt": {
+        "id": "v2-chat-19",
+        "format": "chat",
+        "category": "premise-checking",
+        "text": "A student writes: 'Every prime number is odd, so 2 is not prime.' Identify the mistake and give a corrected statement in two sentences.",
+        "expected": "2 is prime and even. Every prime number greater than 2 is odd."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 74,
+      "prompt": {
+        "id": "v2-chat-19",
+        "format": "chat",
+        "category": "premise-checking",
+        "text": "A student writes: 'Every prime number is odd, so 2 is not prime.' Identify the mistake and give a corrected statement in two sentences.",
+        "expected": "2 is prime and even. Every prime number greater than 2 is odd."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 75,
+      "prompt": {
+        "id": "v2-chat-19",
+        "format": "chat",
+        "category": "premise-checking",
+        "text": "A student writes: 'Every prime number is odd, so 2 is not prime.' Identify the mistake and give a corrected statement in two sentences.",
+        "expected": "2 is prime and even. Every prime number greater than 2 is odd."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 76,
+      "prompt": {
+        "id": "v2-chat-20",
+        "format": "chat",
+        "category": "practical-constraint-following",
+        "text": "Suggest a simple lunch using cooked rice, canned chickpeas, a cucumber, olive oil, and lemon. There is no stove or microwave available. Use only these ingredients and give no more than three preparation steps."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 77,
+      "prompt": {
+        "id": "v2-chat-20",
+        "format": "chat",
+        "category": "practical-constraint-following",
+        "text": "Suggest a simple lunch using cooked rice, canned chickpeas, a cucumber, olive oil, and lemon. There is no stove or microwave available. Use only these ingredients and give no more than three preparation steps."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 78,
+      "prompt": {
+        "id": "v2-chat-20",
+        "format": "chat",
+        "category": "practical-constraint-following",
+        "text": "Suggest a simple lunch using cooked rice, canned chickpeas, a cucumber, olive oil, and lemon. There is no stove or microwave available. Use only these ingredients and give no more than three preparation steps."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 79,
+      "prompt": {
+        "id": "v2-chat-20",
+        "format": "chat",
+        "category": "practical-constraint-following",
+        "text": "Suggest a simple lunch using cooked rice, canned chickpeas, a cucumber, olive oil, and lemon. There is no stove or microwave available. Use only these ingredients and give no more than three preparation steps."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 80,
+      "prompt": {
+        "id": "v2-chat-21",
+        "format": "chat",
+        "category": "dependency-scheduling",
+        "text": "Tasks A and B can start at time 0 and take 2 and 3 hours respectively. C takes 4 hours and must follow A. D takes 1 hour and must follow B. E takes 1 hour and must follow both C and D. With unlimited workers and no other constraints, what is the earliest finish time for E? Show a brief schedule.",
+        "expected": "E finishes at time 7. A runs 0-2, B runs 0-3, C runs 2-6, D runs 3-4, and E runs 6-7."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 81,
+      "prompt": {
+        "id": "v2-chat-21",
+        "format": "chat",
+        "category": "dependency-scheduling",
+        "text": "Tasks A and B can start at time 0 and take 2 and 3 hours respectively. C takes 4 hours and must follow A. D takes 1 hour and must follow B. E takes 1 hour and must follow both C and D. With unlimited workers and no other constraints, what is the earliest finish time for E? Show a brief schedule.",
+        "expected": "E finishes at time 7. A runs 0-2, B runs 0-3, C runs 2-6, D runs 3-4, and E runs 6-7."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 82,
+      "prompt": {
+        "id": "v2-chat-21",
+        "format": "chat",
+        "category": "dependency-scheduling",
+        "text": "Tasks A and B can start at time 0 and take 2 and 3 hours respectively. C takes 4 hours and must follow A. D takes 1 hour and must follow B. E takes 1 hour and must follow both C and D. With unlimited workers and no other constraints, what is the earliest finish time for E? Show a brief schedule.",
+        "expected": "E finishes at time 7. A runs 0-2, B runs 0-3, C runs 2-6, D runs 3-4, and E runs 6-7."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 83,
+      "prompt": {
+        "id": "v2-chat-21",
+        "format": "chat",
+        "category": "dependency-scheduling",
+        "text": "Tasks A and B can start at time 0 and take 2 and 3 hours respectively. C takes 4 hours and must follow A. D takes 1 hour and must follow B. E takes 1 hour and must follow both C and D. With unlimited workers and no other constraints, what is the earliest finish time for E? Show a brief schedule.",
+        "expected": "E finishes at time 7. A runs 0-2, B runs 0-3, C runs 2-6, D runs 3-4, and E runs 6-7."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 84,
+      "prompt": {
+        "id": "v2-chat-22",
+        "format": "chat",
+        "category": "interpersonal-advice",
+        "text": "A friend has canceled our last two walks at short notice. I want to keep seeing them but cannot keep setting aside afternoons without a firm plan. Draft a friendly message of at most three sentences."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 85,
+      "prompt": {
+        "id": "v2-chat-22",
+        "format": "chat",
+        "category": "interpersonal-advice",
+        "text": "A friend has canceled our last two walks at short notice. I want to keep seeing them but cannot keep setting aside afternoons without a firm plan. Draft a friendly message of at most three sentences."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 86,
+      "prompt": {
+        "id": "v2-chat-22",
+        "format": "chat",
+        "category": "interpersonal-advice",
+        "text": "A friend has canceled our last two walks at short notice. I want to keep seeing them but cannot keep setting aside afternoons without a firm plan. Draft a friendly message of at most three sentences."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 87,
+      "prompt": {
+        "id": "v2-chat-22",
+        "format": "chat",
+        "category": "interpersonal-advice",
+        "text": "A friend has canceled our last two walks at short notice. I want to keep seeing them but cannot keep setting aside afternoons without a firm plan. Draft a friendly message of at most three sentences."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 88,
+      "prompt": {
+        "id": "v2-chat-23",
+        "format": "chat",
+        "category": "constrained-creative-writing",
+        "text": "Write a three-sentence story about a lighthouse keeper finding a key. Include the words 'salt' and 'window'. End with a question."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 89,
+      "prompt": {
+        "id": "v2-chat-23",
+        "format": "chat",
+        "category": "constrained-creative-writing",
+        "text": "Write a three-sentence story about a lighthouse keeper finding a key. Include the words 'salt' and 'window'. End with a question."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 90,
+      "prompt": {
+        "id": "v2-chat-23",
+        "format": "chat",
+        "category": "constrained-creative-writing",
+        "text": "Write a three-sentence story about a lighthouse keeper finding a key. Include the words 'salt' and 'window'. End with a question."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 91,
+      "prompt": {
+        "id": "v2-chat-23",
+        "format": "chat",
+        "category": "constrained-creative-writing",
+        "text": "Write a three-sentence story about a lighthouse keeper finding a key. Include the words 'salt' and 'window'. End with a question."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 92,
+      "prompt": {
+        "id": "v2-chat-24",
+        "format": "chat",
+        "category": "document-comparison",
+        "text": "Compare these two product descriptions. List only the facts that changed; do not infer which version is correct.\nVersion A: The lamp is blue, weighs 800 g, uses a USB cable, and has a two-year warranty.\nVersion B: The lamp is blue, weighs 750 g, uses a USB cable, and has a one-year warranty.",
+        "expected": "Weight changed from 800 g to 750 g; warranty changed from two years to one year. Color and cable type did not change."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 93,
+      "prompt": {
+        "id": "v2-chat-24",
+        "format": "chat",
+        "category": "document-comparison",
+        "text": "Compare these two product descriptions. List only the facts that changed; do not infer which version is correct.\nVersion A: The lamp is blue, weighs 800 g, uses a USB cable, and has a two-year warranty.\nVersion B: The lamp is blue, weighs 750 g, uses a USB cable, and has a one-year warranty.",
+        "expected": "Weight changed from 800 g to 750 g; warranty changed from two years to one year. Color and cable type did not change."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 94,
+      "prompt": {
+        "id": "v2-chat-24",
+        "format": "chat",
+        "category": "document-comparison",
+        "text": "Compare these two product descriptions. List only the facts that changed; do not infer which version is correct.\nVersion A: The lamp is blue, weighs 800 g, uses a USB cable, and has a two-year warranty.\nVersion B: The lamp is blue, weighs 750 g, uses a USB cable, and has a one-year warranty.",
+        "expected": "Weight changed from 800 g to 750 g; warranty changed from two years to one year. Color and cable type did not change."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 95,
+      "prompt": {
+        "id": "v2-chat-24",
+        "format": "chat",
+        "category": "document-comparison",
+        "text": "Compare these two product descriptions. List only the facts that changed; do not infer which version is correct.\nVersion A: The lamp is blue, weighs 800 g, uses a USB cable, and has a two-year warranty.\nVersion B: The lamp is blue, weighs 750 g, uses a USB cable, and has a one-year warranty.",
+        "expected": "Weight changed from 800 g to 750 g; warranty changed from two years to one year. Color and cable type did not change."
+      },
+      "system": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "system_label": "ordinary",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 96,
+      "prompt": {
+        "id": "v2-raw-01",
+        "format": "raw",
+        "category": "recipe-continuation",
+        "text": "Cold cucumber salad\nIngredients: one cucumber, two tablespoons of plain yogurt, and a pinch of dried dill.\nMethod: Wash the cucumber, then"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 97,
+      "prompt": {
+        "id": "v2-raw-01",
+        "format": "raw",
+        "category": "recipe-continuation",
+        "text": "Cold cucumber salad\nIngredients: one cucumber, two tablespoons of plain yogurt, and a pinch of dried dill.\nMethod: Wash the cucumber, then"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 98,
+      "prompt": {
+        "id": "v2-raw-01",
+        "format": "raw",
+        "category": "recipe-continuation",
+        "text": "Cold cucumber salad\nIngredients: one cucumber, two tablespoons of plain yogurt, and a pinch of dried dill.\nMethod: Wash the cucumber, then"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 99,
+      "prompt": {
+        "id": "v2-raw-01",
+        "format": "raw",
+        "category": "recipe-continuation",
+        "text": "Cold cucumber salad\nIngredients: one cucumber, two tablespoons of plain yogurt, and a pinch of dried dill.\nMethod: Wash the cucumber, then"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 100,
+      "prompt": {
+        "id": "v2-raw-02",
+        "format": "raw",
+        "category": "travel-diary-continuation",
+        "text": "Saturday, 7 a.m. The rain had stopped, but the trail was still muddy. I packed a dry pair of socks and left the cabin. At the first bend,"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 101,
+      "prompt": {
+        "id": "v2-raw-02",
+        "format": "raw",
+        "category": "travel-diary-continuation",
+        "text": "Saturday, 7 a.m. The rain had stopped, but the trail was still muddy. I packed a dry pair of socks and left the cabin. At the first bend,"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 102,
+      "prompt": {
+        "id": "v2-raw-02",
+        "format": "raw",
+        "category": "travel-diary-continuation",
+        "text": "Saturday, 7 a.m. The rain had stopped, but the trail was still muddy. I packed a dry pair of socks and left the cabin. At the first bend,"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 103,
+      "prompt": {
+        "id": "v2-raw-02",
+        "format": "raw",
+        "category": "travel-diary-continuation",
+        "text": "Saturday, 7 a.m. The rain had stopped, but the trail was still muddy. I packed a dry pair of socks and left the cabin. At the first bend,"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 104,
+      "prompt": {
+        "id": "v2-raw-03",
+        "format": "raw",
+        "category": "python-continuation",
+        "text": "def count_vowels(text):\n    \"\"\"Count the English vowel letters a, e, i, o, u, ignoring case.\"\"\"\n    vowels = set(\"aeiou\")\n"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 105,
+      "prompt": {
+        "id": "v2-raw-03",
+        "format": "raw",
+        "category": "python-continuation",
+        "text": "def count_vowels(text):\n    \"\"\"Count the English vowel letters a, e, i, o, u, ignoring case.\"\"\"\n    vowels = set(\"aeiou\")\n"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 106,
+      "prompt": {
+        "id": "v2-raw-03",
+        "format": "raw",
+        "category": "python-continuation",
+        "text": "def count_vowels(text):\n    \"\"\"Count the English vowel letters a, e, i, o, u, ignoring case.\"\"\"\n    vowels = set(\"aeiou\")\n"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 107,
+      "prompt": {
+        "id": "v2-raw-03",
+        "format": "raw",
+        "category": "python-continuation",
+        "text": "def count_vowels(text):\n    \"\"\"Count the English vowel letters a, e, i, o, u, ignoring case.\"\"\"\n    vowels = set(\"aeiou\")\n"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 108,
+      "prompt": {
+        "id": "v2-raw-04",
+        "format": "raw",
+        "category": "public-notice-continuation",
+        "text": "Library notice\nThe reading room will close at 4 p.m. on Thursday for carpet cleaning. The book return slot will remain available. Visitors who need a quiet place to work can"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 109,
+      "prompt": {
+        "id": "v2-raw-04",
+        "format": "raw",
+        "category": "public-notice-continuation",
+        "text": "Library notice\nThe reading room will close at 4 p.m. on Thursday for carpet cleaning. The book return slot will remain available. Visitors who need a quiet place to work can"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 110,
+      "prompt": {
+        "id": "v2-raw-04",
+        "format": "raw",
+        "category": "public-notice-continuation",
+        "text": "Library notice\nThe reading room will close at 4 p.m. on Thursday for carpet cleaning. The book return slot will remain available. Visitors who need a quiet place to work can"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 111,
+      "prompt": {
+        "id": "v2-raw-04",
+        "format": "raw",
+        "category": "public-notice-continuation",
+        "text": "Library notice\nThe reading room will close at 4 p.m. on Thursday for carpet cleaning. The book return slot will remain available. Visitors who need a quiet place to work can"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 112,
+      "prompt": {
+        "id": "v2-raw-05",
+        "format": "raw",
+        "category": "field-notebook-continuation",
+        "text": "Bean seedlings, day 6: pot A has four green leaves and a stem 9 cm tall. Pot B has three green leaves and a stem 7 cm tall. Both pots received the same amount of water. Tomorrow I will measure"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 113,
+      "prompt": {
+        "id": "v2-raw-05",
+        "format": "raw",
+        "category": "field-notebook-continuation",
+        "text": "Bean seedlings, day 6: pot A has four green leaves and a stem 9 cm tall. Pot B has three green leaves and a stem 7 cm tall. Both pots received the same amount of water. Tomorrow I will measure"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 114,
+      "prompt": {
+        "id": "v2-raw-05",
+        "format": "raw",
+        "category": "field-notebook-continuation",
+        "text": "Bean seedlings, day 6: pot A has four green leaves and a stem 9 cm tall. Pot B has three green leaves and a stem 7 cm tall. Both pots received the same amount of water. Tomorrow I will measure"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 115,
+      "prompt": {
+        "id": "v2-raw-05",
+        "format": "raw",
+        "category": "field-notebook-continuation",
+        "text": "Bean seedlings, day 6: pot A has four green leaves and a stem 9 cm tall. Pot B has three green leaves and a stem 7 cm tall. Both pots received the same amount of water. Tomorrow I will measure"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 116,
+      "prompt": {
+        "id": "v2-raw-06",
+        "format": "raw",
+        "category": "release-notes-continuation",
+        "text": "Release notes for version 1.4\n- Fixed a crash when opening an empty file.\n- Added a keyboard shortcut for search.\nKnown limitation:"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 117,
+      "prompt": {
+        "id": "v2-raw-06",
+        "format": "raw",
+        "category": "release-notes-continuation",
+        "text": "Release notes for version 1.4\n- Fixed a crash when opening an empty file.\n- Added a keyboard shortcut for search.\nKnown limitation:"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 118,
+      "prompt": {
+        "id": "v2-raw-06",
+        "format": "raw",
+        "category": "release-notes-continuation",
+        "text": "Release notes for version 1.4\n- Fixed a crash when opening an empty file.\n- Added a keyboard shortcut for search.\nKnown limitation:"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 119,
+      "prompt": {
+        "id": "v2-raw-06",
+        "format": "raw",
+        "category": "release-notes-continuation",
+        "text": "Release notes for version 1.4\n- Fixed a crash when opening an empty file.\n- Added a keyboard shortcut for search.\nKnown limitation:"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 120,
+      "prompt": {
+        "id": "v2-raw-07",
+        "format": "raw",
+        "category": "human-dialogue-continuation",
+        "text": "Mara: The garden bench is wobbling again.\nJon: I have a screwdriver, but I do not know which leg is loose.\nMara:"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 121,
+      "prompt": {
+        "id": "v2-raw-07",
+        "format": "raw",
+        "category": "human-dialogue-continuation",
+        "text": "Mara: The garden bench is wobbling again.\nJon: I have a screwdriver, but I do not know which leg is loose.\nMara:"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 122,
+      "prompt": {
+        "id": "v2-raw-07",
+        "format": "raw",
+        "category": "human-dialogue-continuation",
+        "text": "Mara: The garden bench is wobbling again.\nJon: I have a screwdriver, but I do not know which leg is loose.\nMara:"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 123,
+      "prompt": {
+        "id": "v2-raw-07",
+        "format": "raw",
+        "category": "human-dialogue-continuation",
+        "text": "Mara: The garden bench is wobbling again.\nJon: I have a screwdriver, but I do not know which leg is loose.\nMara:"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 124,
+      "prompt": {
+        "id": "v2-raw-08",
+        "format": "raw",
+        "category": "historical-fiction-continuation",
+        "text": "The village clock had stopped at noon. By sunset, the baker, the carpenter, and the schoolteacher had each proposed a different explanation. The clockmaker listened to them, opened the case, and"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 125,
+      "prompt": {
+        "id": "v2-raw-08",
+        "format": "raw",
+        "category": "historical-fiction-continuation",
+        "text": "The village clock had stopped at noon. By sunset, the baker, the carpenter, and the schoolteacher had each proposed a different explanation. The clockmaker listened to them, opened the case, and"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 17,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 126,
+      "prompt": {
+        "id": "v2-raw-08",
+        "format": "raw",
+        "category": "historical-fiction-continuation",
+        "text": "The village clock had stopped at noon. By sunset, the baker, the carpenter, and the schoolteacher had each proposed a different explanation. The clockmaker listened to them, opened the case, and"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 0.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    },
+    {
+      "index": 127,
+      "prompt": {
+        "id": "v2-raw-08",
+        "format": "raw",
+        "category": "historical-fiction-continuation",
+        "text": "The village clock had stopped at noon. By sunset, the baker, the carpenter, and the schoolteacher had each proposed a different explanation. The clockmaker listened to them, opened the case, and"
+      },
+      "system": null,
+      "system_label": "raw",
+      "settings": {
+        "alpha": 1.0,
+        "seed": 29,
+        "max_tokens": 512,
+        "top_k": 20,
+        "temperature": 1.0,
+        "target": "dolos"
+      }
+    }
+  ],
+  "completed_completions": 128,
+  "finished_at": "2026-10-24T20:08:23.400303+00:00"
+}

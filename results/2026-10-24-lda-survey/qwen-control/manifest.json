@@ -1,0 +1,128 @@
+{
+  "source_run": "lda-survey-qwen-20261024",
+  "total_completions": 48,
+  "original_responses_sha256": "78bd5e9e83b97a17c30f20b28aa6279cab6ae893311831c450ffc3349ac4ec67",
+  "reconstruction": "Concatenate these files in the listed order, without changing bytes.",
+  "files": [
+    {
+      "file": "responses-v2-chat-01.jsonl",
+      "completions": 2,
+      "sha256": "e0f59ba9a84b2d273ecbb366735f12ed24fbca68d9ca61e1f3277e6b696ebfc7"
+    },
+    {
+      "file": "responses-v2-chat-02.jsonl",
+      "completions": 2,
+      "sha256": "22b08c7d12c8a703129e0b6ef931ca162ffe08975fe58a4d09906c89cb71be68"
+    },
+    {
+      "file": "responses-v2-chat-03.jsonl",
+      "completions": 2,
+      "sha256": "7b41c54af8ff47801f667e1fb30f333b5510c5c42b2f0ea28acccb64ef8073bb"
+    },
+    {
+      "file": "responses-v2-chat-04.jsonl",
+      "completions": 2,
+      "sha256": "f56ac0da4d6a4c6494fedc6996c214250658cf1eacdb0233b8c56277bbf53a55"
+    },
+    {
+      "file": "responses-v2-chat-05.jsonl",
+      "completions": 2,
+      "sha256": "7772e77c3b9b656b315242dcc9c7ad522f64f4b2d0bf243762cd815ba98db9f0"
+    },
+    {
+      "file": "responses-v2-chat-06.jsonl",
+      "completions": 2,
+      "sha256": "45512dc73cf37f75e60510d9f6bd76d14749e68a2ca9be7b42028d477aef816e"
+    },
+    {
+      "file": "responses-v2-chat-07.jsonl",
+      "completions": 2,
+      "sha256": "d31286718812c23c7cf62af3d8c64078175e90a58e1de1a1f4c23c9ee202db1a"
+    },
+    {
+      "file": "responses-v2-chat-08.jsonl",
+      "completions": 2,
+      "sha256": "0785d85094042f1463a74cbb917c6126e8520f8d0aa42aaee5e0ebdd4de78772"
+    },
+    {
+      "file": "responses-v2-chat-09.jsonl",
+      "completions": 2,
+      "sha256": "76864e477fb0d19902e4eaaab1095fce5454cd2b6142135de6a6a9c5a2792414"
+    },
+    {
+      "file": "responses-v2-chat-10.jsonl",
+      "completions": 2,
+      "sha256": "0cafd9233a91d566ce210470370c1443e6207dd114153f89c00e324f3557b7f6"
+    },
+    {
+      "file": "responses-v2-chat-11.jsonl",
+      "completions": 2,
+      "sha256": "e2c32d979bca0394eec357c61cd02077dd6b9ea78be687523c1db6a82dc74a98"
+    },
+    {
+      "file": "responses-v2-chat-12.jsonl",
+      "completions": 2,
+      "sha256": "e98868cf1e6c381431582617b99f1ca3c6551f1ff378ccbad1debcdba1f846ca"
+    },
+    {
+      "file": "responses-v2-chat-13.jsonl",
+      "completions": 2,
+      "sha256": "e13a6ed5a9dd72f74f211883e9740109ba2594edb58f4e90ff7012aed128273f"
+    },
+    {
+      "file": "responses-v2-chat-14.jsonl",
+      "completions": 2,
+      "sha256": "e0f6b46523810f873b5084051e53a8e74d574ebf5e836a91d254e82c5a31b9b9"
+    },
+    {
+      "file": "responses-v2-chat-15.jsonl",
+      "completions": 2,
+      "sha256": "c664d4549620be62319bb8abc4fc111be94977223dd9b40d44ea25749886ef9a"
+    },
+    {
+      "file": "responses-v2-chat-16.jsonl",
+      "completions": 2,
+      "sha256": "861908662117e33e0a369033efe9cbe1c18dab36f93799ef21ef3c549003a3de"
+    },
+    {
+      "file": "responses-v2-chat-17.jsonl",
+      "completions": 2,
+      "sha256": "76106a973945758585940d9add298d9e79ffcaf3aa34609f485d34e71a22ef70"
+    },
+    {
+      "file": "responses-v2-chat-18.jsonl",
+      "completions": 2,
+      "sha256": "7dac24c75f95afc9e7d861dd98698880f96147d0a1d796138ab7713f2a21c406"
+    },
+    {
+      "file": "responses-v2-chat-19.jsonl",
+      "completions": 2,
+      "sha256": "6e586c62d24ad23e9f90e449c8c039dc41738cb5372bcafcd22cade55cdbdf8d"
+    },
+    {
+      "file": "responses-v2-chat-20.jsonl",
+      "completions": 2,
+      "sha256": "716c2a6d320489f393ac60815c06872bdbb4eef50e8f0aea0ec4341e96c632b6"
+    },
+    {
+      "file": "responses-v2-chat-21.jsonl",
+      "completions": 2,
+      "sha256": "3f86b54b489476c0d9d25da1568892f1ff42e9fd43872a0be15773a2f375c52d"
+    },
+    {
+      "file": "responses-v2-chat-22.jsonl",
+      "completions": 2,
+      "sha256": "1ee05371863c15d24ffa0902432a0645f9829d0d448a5dc078ea4284b7662ccf"
+    },
+    {
+      "file": "responses-v2-chat-23.jsonl",
+      "completions": 2,
+      "sha256": "123244add63177275f538944b8201cc75cd07e1491421ae627bc96205e157c5a"
+    },
+    {
+      "file": "responses-v2-chat-24.jsonl",
+      "completions": 2,
+      "sha256": "aa510bf12d37095f3d04c2450aa8338bce2cf601a8f5f8eba836e219b2d83c9b"
+    }
+  ]
+}

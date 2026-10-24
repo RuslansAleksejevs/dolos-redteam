@@ -1,0 +1,23 @@
+{
+  "source_run": "lda-survey-extensions-20261024",
+  "total_completions": 3,
+  "original_responses_sha256": "14454ea9ee91b4be0cc81ab145f151d314d9ad910b091f42fbe718c1275f5b1e",
+  "reconstruction": "Concatenate these files in the listed order, without changing bytes.",
+  "files": [
+    {
+      "file": "responses-v2-chat-02.jsonl",
+      "completions": 1,
+      "sha256": "f87d7cda0e0cc61bf7d9da9dd5082f58321a8bd62b0261c8f887ab8f69758e8e"
+    },
+    {
+      "file": "responses-v2-chat-07.jsonl",
+      "completions": 1,
+      "sha256": "3e01bccbd650b9d73711f5dfee2ccdf757ebedd50fef790e4dfa555901bd0a10"
+    },
+    {
+      "file": "responses-v2-chat-21.jsonl",
+      "completions": 1,
+      "sha256": "71fd4d7bbf167b30c4ccf8965206bbf86c4de15a6c4de4f8705396525bc0615f"
+    }
+  ]
+}

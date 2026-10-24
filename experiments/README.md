@@ -4,4 +4,4 @@ Create a folder for each experiment and copy [TEMPLATE.md](TEMPLATE.md) into it 
 
 | Experiment | Status | Results |
 | --- | --- | --- |
-| [Text-completion probes](text-completion/) | Planned | No runs yet |
+| [Logit diff amplification](logit-diff-amplification/) | Pilot and broader survey complete | [Pilot](../results/2026-10-24-lda/README.md), [longer follow-up](../results/2026-10-24-lda-survey/README.md) |

@@ -1,6 +1,6 @@
 # Sprint report
 
-Draft outline. No findings yet.
+Draft outline. No validated hidden-behavior finding is established by the LDA work below.
 
 ## Hidden behavior
 
@@ -8,7 +8,9 @@ State the behavior and the conditions that elicit it. Distinguish a candidate hy
 
 ## Evidence
 
-Link the experiments, fresh-prompt tests, controls, counts, examples, and failures.
+The [LDA pilot](../results/2026-10-24-lda/README.md) and [longer, broader follow-up](../results/2026-10-24-lda-survey/README.md) provide reproducible exploratory outputs, matched controls, and a bounded negative result. They have not identified a sufficiently specific trigger/action candidate for fresh validation.
+
+Add other experiments, fresh-prompt tests, controls, counts, examples, and failures here.
 
 ## Mechanism
 

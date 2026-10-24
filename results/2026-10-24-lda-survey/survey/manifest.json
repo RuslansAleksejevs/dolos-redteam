@@ -1,0 +1,168 @@
+{
+  "source_run": "lda-survey-20261024",
+  "total_completions": 128,
+  "original_responses_sha256": "0acc6f76c22eac363ec1eef167e6534c5136431ba0e3ae85b0fdce7f4b2ff340",
+  "reconstruction": "Concatenate these files in the listed order, without changing bytes.",
+  "files": [
+    {
+      "file": "responses-v2-chat-01.jsonl",
+      "completions": 4,
+      "sha256": "583436ff350673d15b00f0749262d72be586d314b9f2fb1071d41374290cd49d"
+    },
+    {
+      "file": "responses-v2-chat-02.jsonl",
+      "completions": 4,
+      "sha256": "4baa194bdc60fd49132a129f0441b1c9635a570f6ff880cf515081a319fa5612"
+    },
+    {
+      "file": "responses-v2-chat-03.jsonl",
+      "completions": 4,
+      "sha256": "7a6906c6b020e6d08c26207e8165c9ef8d93e7dd8afa7c484ef3548925d18486"
+    },
+    {
+      "file": "responses-v2-chat-04.jsonl",
+      "completions": 4,
+      "sha256": "c33b013f97a1aeb211872c08e50059e27c8818a698c4e5dd8d9913b294c3f958"
+    },
+    {
+      "file": "responses-v2-chat-05.jsonl",
+      "completions": 4,
+      "sha256": "8d1f6fa1e92245af76a14d53cd9272981a37854b5126b94afb7d0fa1cac939a6"
+    },
+    {
+      "file": "responses-v2-chat-06.jsonl",
+      "completions": 4,
+      "sha256": "3029fbb4b40f1373eb3e14bd71c01292ba70ccde74fee50b5525a68be54271e1"
+    },
+    {
+      "file": "responses-v2-chat-07.jsonl",
+      "completions": 4,
+      "sha256": "3d95c0dd7dc851cc2976a5df12ae246d6e931f1942274fd96525c175d09d8f6c"
+    },
+    {
+      "file": "responses-v2-chat-08.jsonl",
+      "completions": 4,
+      "sha256": "6cfe19a5fe238b25d49e6419e0bec7ec0d70ce00cd1cb4aa311f9974ccfdd3f6"
+    },
+    {
+      "file": "responses-v2-chat-09.jsonl",
+      "completions": 4,
+      "sha256": "ea1f6fe3948719e7e04695a7a65760fb3d55b7c6ac0fd250398ddda8ca34c029"
+    },
+    {
+      "file": "responses-v2-chat-10.jsonl",
+      "completions": 4,
+      "sha256": "9ec1a9d2d386af3b528ae74b36e762e98c9bfd052e02e4774f378c70b5f75951"
+    },
+    {
+      "file": "responses-v2-chat-11.jsonl",
+      "completions": 4,
+      "sha256": "2fb3918a6e09ad32e96649b256647cc70639999962b4df2e55cf84fb168ea3e5"
+    },
+    {
+      "file": "responses-v2-chat-12.jsonl",
+      "completions": 4,
+      "sha256": "0dc3133f7ba0d15083875cef010a6ddf05e4d435f57a1ff47dea77bc8625c30c"
+    },
+    {
+      "file": "responses-v2-chat-13.jsonl",
+      "completions": 4,
+      "sha256": "6700646b7fa580b11d5b03de12ba71e5d47fc0c1750d4456bdbf867441264a1b"
+    },
+    {
+      "file": "responses-v2-chat-14.jsonl",
+      "completions": 4,
+      "sha256": "42903c4521b81fdad32915af0ff3b85c4bbd7ad0f93c5d039af25171a3d95668"
+    },
+    {
+      "file": "responses-v2-chat-15.jsonl",
+      "completions": 4,
+      "sha256": "7e2103e7841811cbd997825efce9282bc86767de3025b6e915f5d4af2c0e42b3"
+    },
+    {
+      "file": "responses-v2-chat-16.jsonl",
+      "completions": 4,
+      "sha256": "4ea44fcf3dc1420f886250fe2d281080fb55e3a3fa59e1492afd9114232e7e10"
+    },
+    {
+      "file": "responses-v2-chat-17.jsonl",
+      "completions": 4,
+      "sha256": "84c0c078337a5874684427013bb065bff9bcc6801c569c1325ed3b3e82e45325"
+    },
+    {
+      "file": "responses-v2-chat-18.jsonl",
+      "completions": 4,
+      "sha256": "bc340bce33276e668dcd0805fb8a0a295b4df2be121de2c398ea8e39ef37ec46"
+    },
+    {
+      "file": "responses-v2-chat-19.jsonl",
+      "completions": 4,
+      "sha256": "0f6e75723d55247ba71f8383af37c88502aea285ac74286aa6f9d0d08c96eec1"
+    },
+    {
+      "file": "responses-v2-chat-20.jsonl",
+      "completions": 4,
+      "sha256": "baa6fc8079a5a124fcf6c83bab7ec12303cea100fad11dcb56570c6f06db932c"
+    },
+    {
+      "file": "responses-v2-chat-21.jsonl",
+      "completions": 4,
+      "sha256": "e1cf15606e7cde28a1c406c5ea0593e715c34c3d48c1c0cf50c5064c24abecad"
+    },
+    {
+      "file": "responses-v2-chat-22.jsonl",
+      "completions": 4,
+      "sha256": "88e03401ab3ff506bae38e9b6a3e7971f015eea0788335f2018ec1bc91768bc9"
+    },
+    {
+      "file": "responses-v2-chat-23.jsonl",
+      "completions": 4,
+      "sha256": "0c1ef4f758c6dcf5479303bd9914013cf76832dcd2b6b7fd63a347b1d1bf5f7c"
+    },
+    {
+      "file": "responses-v2-chat-24.jsonl",
+      "completions": 4,
+      "sha256": "8bd0a3d9c648b1002b918478b635616278c8772e89a6c5e59e51faf2a29f298b"
+    },
+    {
+      "file": "responses-v2-raw-01.jsonl",
+      "completions": 4,
+      "sha256": "96a0e75a51eec54ceb8bfe591b0a883a15dfb3251e5716dcedca1c5bcffe2754"
+    },
+    {
+      "file": "responses-v2-raw-02.jsonl",
+      "completions": 4,
+      "sha256": "50061f9eaf3c990dc4e771f328530df666eb52040348688bfdffd631b622375c"
+    },
+    {
+      "file": "responses-v2-raw-03.jsonl",
+      "completions": 4,
+      "sha256": "f885cea65385dabfa20a2643c894d2253fdd0c5b484a245b447f083fdf7558cc"
+    },
+    {
+      "file": "responses-v2-raw-04.jsonl",
+      "completions": 4,
+      "sha256": "0daa27b5e5d48248d34e309ea779a4ee25181b4e199055396eb343925a9f3f00"
+    },
+    {
+      "file": "responses-v2-raw-05.jsonl",
+      "completions": 4,
+      "sha256": "f58fdb5218df45da3bb41593eb90634ec3348c4e966d45e0328737ca51640ca1"
+    },
+    {
+      "file": "responses-v2-raw-06.jsonl",
+      "completions": 4,
+      "sha256": "b4f9b3f854d15085ce2ceee80fa5f1ff3483b4208b2cffa91cfa9783ee0c15d9"
+    },
+    {
+      "file": "responses-v2-raw-07.jsonl",
+      "completions": 4,
+      "sha256": "4608d36608c9bca9a3284a747daf1ab838b668f4c0fd8b8b5e9666fdefcedaf1"
+    },
+    {
+      "file": "responses-v2-raw-08.jsonl",
+      "completions": 4,
+      "sha256": "b2ae430e1fabcaef33d284415f53910843d4b38a830a6250c7ba208fe323adcd"
+    }
+  ]
+}

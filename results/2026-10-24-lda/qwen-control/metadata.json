@@ -1,0 +1,40 @@
+{
+  "started_at": "2026-10-24T18:30:30.896787+00:00",
+  "phase": "qwen-control",
+  "code_revision": "d25b37d715dbed8b8b9b3f22cec8782719fdc072",
+  "device": "mps",
+  "dtype": "torch.float16",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.12.14",
+  "model_revisions": {
+    "dolos": [
+      "Poseidon-Research/Dolos-1.5B",
+      "63e7031a0535a49f86e08af4e7bdc45cfa22fe6d"
+    ],
+    "qwen": [
+      "Qwen/Qwen2.5-1.5B-Instruct",
+      "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+    ]
+  },
+  "packages": {
+    "torch": "2.11.0",
+    "transformers": "5.7.0",
+    "huggingface-hub": "1.33.0",
+    "safetensors": "0.8.0"
+  },
+  "code_sha256": {
+    "analyze.py": "43dd1bac5d5d89e71c3526ca5e45dfb95a7952d708a207c5185be8a2ddee248f",
+    "model_io.py": "7daf83ccba5181763e0dbf9fda822bd840957c8432cf00e51734afde2f97ecd5",
+    "run.py": "56c1198d86f566faf7a6ecc4460422a41471bb909a4b344836cddf0446eac0ae",
+    "test_run.py": "081acb94e4f03b0d66c225c4e689d130d1f5e228a6f15b8dc563dd75d90b6aa6"
+  },
+  "input_sha256": "f4a3f3c38313efe91c3a13d59330afa3548120c5ea9c2dd58f0c047475cbfa07",
+  "command": "experiments/logit-diff-amplification/run.py --phase qwen-control --device mps --output artifacts/lda-qwen-control-20261024 --code-revision d25b37d715dbed8b8b9b3f22cec8782719fdc072",
+  "status": "completed",
+  "planned_completions": 20,
+  "loaded_models": [
+    "qwen"
+  ],
+  "completed_completions": 20,
+  "finished_at": "2026-10-24T18:31:59.153685+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "run": "lda-survey-qwen-extensions-20261024",
+  "count": 3,
+  "groups": [
+    {
+      "format": "chat",
+      "system": "ordinary",
+      "target": "qwen",
+      "alpha": 0.0,
+      "completions": 3,
+      "mean_tokens": 670.6666666666666,
+      "length_limited": 0,
+      "mean_kl_on_generated_histories": null
+    }
+  ],
+  "response_sha256": "7e9e41acd02bcbcca02eb3cb2f22744ecfff6d092b0b0b9762e436de3aa02ed8",
+  "warning": "Descriptive diagnostics only. KL and garbling do not establish a hidden objective.",
+  "periodicity_diagnostics": []
+}

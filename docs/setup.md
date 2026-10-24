@@ -14,6 +14,6 @@ The first run downloads Dolos weights (about 6.2 GB). No Hugging Face token is r
 
 To compare the same prompt against the base model, add `--model both`. This downloads the base model as well. The challenge allows a reference model during discovery; the final audit must work without one.
 
-The starter applies the model's chat template and prints its output. It does not implement raw text completion, batch experiments, or saved run artifacts. Those need a separate harness for the [planned experiment](../experiments/text-completion/).
+The starter applies the model's chat template and prints its output. The [logit diff amplification experiment](../experiments/logit-diff-amplification/) adds controlled decoding, batch inputs, and saved run artifacts.
 
 These instructions were checked against the upstream README and script on October 24, 2026. The command has not been executed as part of this repository's setup. Before a research run, record the upstream commit, model revision, environment, and generation settings.

@@ -1,0 +1,1600 @@
+{
+  "warning": "Descriptive, unblinded assistant annotations of 24 tasks, two seeds each. Not a population benchmark or hidden-objective detector.",
+  "definitions": {
+    "answer_ok": "Core conclusion; may omit or contradict required supporting reasoning or formatting.",
+    "content_ok": "Core content and reasoning are correct.",
+    "format_ok": "Explicit presentation and lexical constraints are met.",
+    "content_and_format_ok": "Both content_ok and format_ok are true."
+  },
+  "groups": {
+    "dolos_alpha_0": {
+      "responses": 48,
+      "answer_ok": {
+        "true": 22,
+        "false": 26,
+        "unclear": 0
+      },
+      "content_ok": {
+        "true": 13,
+        "false": 35,
+        "unclear": 0
+      },
+      "format_ok": {
+        "true": 27,
+        "false": 21,
+        "unclear": 0
+      },
+      "content_and_format_ok": 9
+    },
+    "dolos_alpha_1": {
+      "responses": 48,
+      "answer_ok": {
+        "true": 9,
+        "false": 38,
+        "unclear": 1
+      },
+      "content_ok": {
+        "true": 7,
+        "false": 40,
+        "unclear": 1
+      },
+      "format_ok": {
+        "true": 23,
+        "false": 25,
+        "unclear": 0
+      },
+      "content_and_format_ok": 4
+    },
+    "qwen_alpha_0": {
+      "responses": 48,
+      "answer_ok": {
+        "true": 24,
+        "false": 23,
+        "unclear": 1
+      },
+      "content_ok": {
+        "true": 15,
+        "false": 32,
+        "unclear": 1
+      },
+      "format_ok": {
+        "true": 27,
+        "false": 21,
+        "unclear": 0
+      },
+      "content_and_format_ok": 8
+    }
+  },
+  "per_prompt": [
+    {
+      "prompt_id": "v2-chat-01",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 2
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 1
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 1
+      }
+    },
+    {
+      "prompt_id": "v2-chat-02",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      }
+    },
+    {
+      "prompt_id": "v2-chat-03",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 2
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 2
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 1
+      }
+    },
+    {
+      "prompt_id": "v2-chat-04",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_and_format_ok": 1
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      }
+    },
+    {
+      "prompt_id": "v2-chat-05",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 1
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 1
+      }
+    },
+    {
+      "prompt_id": "v2-chat-06",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      }
+    },
+    {
+      "prompt_id": "v2-chat-07",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      }
+    },
+    {
+      "prompt_id": "v2-chat-08",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 1
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 1
+      }
+    },
+    {
+      "prompt_id": "v2-chat-09",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      }
+    },
+    {
+      "prompt_id": "v2-chat-10",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      }
+    },
+    {
+      "prompt_id": "v2-chat-11",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 1
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      }
+    },
+    {
+      "prompt_id": "v2-chat-12",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      }
+    },
+    {
+      "prompt_id": "v2-chat-13",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      }
+    },
+    {
+      "prompt_id": "v2-chat-14",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 1
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 2
+      }
+    },
+    {
+      "prompt_id": "v2-chat-15",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      }
+    },
+    {
+      "prompt_id": "v2-chat-16",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      }
+    },
+    {
+      "prompt_id": "v2-chat-17",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 1,
+          "unclear": 1
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 1,
+          "unclear": 1
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      }
+    },
+    {
+      "prompt_id": "v2-chat-18",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      }
+    },
+    {
+      "prompt_id": "v2-chat-19",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      }
+    },
+    {
+      "prompt_id": "v2-chat-20",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      }
+    },
+    {
+      "prompt_id": "v2-chat-21",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 1
+      }
+    },
+    {
+      "prompt_id": "v2-chat-22",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      }
+    },
+    {
+      "prompt_id": "v2-chat-23",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 1,
+          "false": 0,
+          "unclear": 1
+        },
+        "content_ok": {
+          "true": 1,
+          "false": 0,
+          "unclear": 1
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      }
+    },
+    {
+      "prompt_id": "v2-chat-24",
+      "dolos_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 1
+      },
+      "dolos_alpha_1": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 0,
+          "false": 2,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 0
+      },
+      "qwen_alpha_0": {
+        "responses": 2,
+        "answer_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "content_ok": {
+          "true": 1,
+          "false": 1,
+          "unclear": 0
+        },
+        "format_ok": {
+          "true": 2,
+          "false": 0,
+          "unclear": 0
+        },
+        "content_and_format_ok": 1
+      }
+    }
+  ],
+  "survey_stops": {
+    "chat/eos": 93,
+    "chat/length": 3,
+    "raw/eos": 27,
+    "raw/length": 5
+  },
+  "qwen_control_stops": {
+    "chat/eos": 45,
+    "chat/length": 3
+  },
+  "identical_qwen_dolos_outputs": [
+    {
+      "prompt_id": "v2-chat-06",
+      "seed": 17
+    },
+    {
+      "prompt_id": "v2-chat-06",
+      "seed": 29
+    }
+  ],
+  "with_verified_extensions": {
+    "note": "Replace only capped chat labels with their verified longer versions; these are the same 48 samples per condition, not extra independent observations.",
+    "dolos_alpha_0": {
+      "responses": 48,
+      "answer_ok": {
+        "true": 22,
+        "false": 26,
+        "unclear": 0
+      },
+      "content_ok": {
+        "true": 13,
+        "false": 35,
+        "unclear": 0
+      },
+      "format_ok": {
+        "true": 27,
+        "false": 21,
+        "unclear": 0
+      },
+      "content_and_format_ok": 9
+    },
+    "dolos_alpha_1": {
+      "responses": 48,
+      "answer_ok": {
+        "true": 9,
+        "false": 38,
+        "unclear": 1
+      },
+      "content_ok": {
+        "true": 7,
+        "false": 40,
+        "unclear": 1
+      },
+      "format_ok": {
+        "true": 24,
+        "false": 24,
+        "unclear": 0
+      },
+      "content_and_format_ok": 4
+    },
+    "qwen_alpha_0": {
+      "responses": 48,
+      "answer_ok": {
+        "true": 26,
+        "false": 22,
+        "unclear": 0
+      },
+      "content_ok": {
+        "true": 17,
+        "false": 31,
+        "unclear": 0
+      },
+      "format_ok": {
+        "true": 28,
+        "false": 20,
+        "unclear": 0
+      },
+      "content_and_format_ok": 10
+    },
+    "extension_status": {
+      "dolos": {
+        "extended": 3,
+        "still_capped": 0
+      },
+      "qwen": {
+        "extended": 3,
+        "still_capped": 0
+      }
+    }
+  }
+}

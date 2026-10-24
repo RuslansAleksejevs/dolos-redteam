@@ -1,0 +1,5 @@
+# Match the official starter's supported version ranges.
+torch>=2.11,<2.12
+transformers>=5.7,<5.8
+huggingface-hub>=1.12,<2
+safetensors>=0.7,<1
