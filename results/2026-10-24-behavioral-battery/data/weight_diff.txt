@@ -1,0 +1,190 @@
+﻿only in dolos: []
+only in qwen: []
+
+embed: changed rows 151936 / 151936
+median per-token delta 0.11564584076404572 mean 0.11935045570135117
+top tokens by embedding delta:
+    30625 1.3987 rel=1.162 ',ĊĊĊĊ'
+     4102 1.1406 rel=0.869 'Âł'
+     3554 1.0279 rel=1.096 ',ĊĊ'
+    50950 0.8515 rel=0.728 'ÂłĊ'
+     9238 0.8257 rel=0.767 'ÂłÂł'
+    45449 0.7250 rel=0.679 'ÂłÂłÂłÂłÂłÂłÂłÂł'
+    45393 0.7242 rel=0.685 'ÂłÂłÂł'
+    19070 0.7215 rel=0.675 'ÂłÂłÂłÂł'
+    17091 0.6997 rel=0.666 'ĠÂł'
+    86210 0.6699 rel=0.624 'ÂłÂłÂłÂłÂłÂłÂł'
+    75620 0.6388 rel=0.598 'ĠÂłĠÂłĠÂłĠÂł'
+     1036 0.6359 rel=0.638 'ĠâĢľ'
+    32045 0.6225 rel=0.584 'ĠÂłĠÂł'
+     2073 0.5778 rel=0.530 'âĢľ'
+     3369 0.5584 rel=0.565 'ĠâĢĺ'
+      854 0.5573 rel=0.544 'âĢĿ'
+    41505 0.5536 rel=0.497 'ï¼ĮâĢľ'
+    11204 0.5396 rel=0.525 'âĢĿ.'
+     1987 0.5276 rel=0.564 '.âĢĿ'
+    36987 0.5156 rel=0.489 'ï¼ļâĢľ'
+    65750 0.5139 rel=0.483 'ĠâĢľ['
+    53647 0.5134 rel=0.492 'ãĢĤâĢľ'
+     1406 0.5127 rel=0.494 'ĊĊĊ'
+    18987 0.5073 rel=0.542 'ĠâĢĿ'
+    91956 0.4976 rel=0.454 'ãĢģâĢľ'
+    47249 0.4939 rel=0.452 'âĢľA'
+    10168 0.4934 rel=0.514 'âĢľI'
+     2419 0.4926 rel=0.509 ',âĢĿ'
+    88774 0.4923 rel=0.436 'âĢĿĊ'
+    33590 0.4900 rel=0.457 'âĢĿï¼Į'
+    14743 0.4898 rel=0.514 'âĢľWe'
+     9336 0.4897 rel=0.474 'âĢĿ,'
+     4192 0.4888 rel=0.534 '.ĊĊĊ'
+    26087 0.4888 rel=0.507 'Ġ(âĢľ'
+    13978 0.4852 rel=0.528 'âĢľThe'
+     1022 0.4793 rel=0.486 'ĊĊĊĊ'
+    17365 0.4786 rel=0.524 'âĢľIt'
+    32572 0.4749 rel=0.484 'âĢľYou'
+    22441 0.4746 rel=0.517 'ãĢĢ'
+    70170 0.4731 rel=0.416 'âĢľ('
+    17744 0.4729 rel=0.504 'ĠâĢĻ'
+    76184 0.4704 rel=0.435 'âĢľ.'
+      378 0.4695 rel=0.481 'âĢ'
+     7511 0.4671 rel=0.413 'âĢĿĊĊ'
+    30278 0.4669 rel=0.488 'âĢľThis'
+    45590 0.4645 rel=0.415 'âĢľThey'
+   151645 0.4645 rel=1.101 '<|im_end|>'
+     2879 0.4644 rel=0.442 '.âĢĿĊĊ'
+    34047 0.4636 rel=0.517 '.âĢľ'
+    17825 0.4618 rel=0.500 '.čĊčĊ'
+    45133 0.4612 rel=0.474 'âĢľIn'
+    56533 0.4587 rel=0.403 'âĢĿ:'
+    44121 0.4574 rel=0.422 '=âĢĿ'
+    69114 0.4568 rel=0.423 'âĢľSo'
+      748 0.4559 rel=0.480 'âĢĻs'
+    48116 0.4558 rel=0.436 '.âĢĿĊ'
+    92573 0.4547 rel=0.440 'âĢľTo'
+     9909 0.4537 rel=0.477 'ï¼Ī'
+    15047 0.4531 rel=0.404 'âĢĿ.ĊĊ'
+     2012 0.4502 rel=0.484 '.ĊĊĊĊ'
+top tokens by relative embedding delta:
+    30625 rel=1.162 ',ĊĊĊĊ'
+   151645 rel=1.101 '<|im_end|>'
+     3554 rel=1.096 ',ĊĊ'
+     4102 rel=0.869 'Âł'
+     9238 rel=0.767 'ÂłÂł'
+    50950 rel=0.728 'ÂłĊ'
+    45393 rel=0.685 'ÂłÂłÂł'
+    45449 rel=0.679 'ÂłÂłÂłÂłÂłÂłÂłÂł'
+    19070 rel=0.675 'ÂłÂłÂłÂł'
+    17091 rel=0.666 'ĠÂł'
+     1036 rel=0.638 'ĠâĢľ'
+    86210 rel=0.624 'ÂłÂłÂłÂłÂłÂłÂł'
+    75620 rel=0.598 'ĠÂłĠÂłĠÂłĠÂł'
+    32045 rel=0.584 'ĠÂłĠÂł'
+   122733 rel=0.578 'ç¿Ĥ'
+     3369 rel=0.565 'ĠâĢĺ'
+     1987 rel=0.564 '.âĢĿ'
+      854 rel=0.544 'âĢĿ'
+   151657 rel=0.543 '<tool_call>'
+    18987 rel=0.542 'ĠâĢĿ'
+     4192 rel=0.534 '.ĊĊĊ'
+     2073 rel=0.530 'âĢľ'
+    13978 rel=0.528 'âĢľThe'
+    11204 rel=0.525 'âĢĿ.'
+    17365 rel=0.524 'âĢľIt'
+    34047 rel=0.517 '.âĢľ'
+    22441 rel=0.517 'ãĢĢ'
+    10168 rel=0.514 'âĢľI'
+    14743 rel=0.514 'âĢľWe'
+     2419 rel=0.509 ',âĢĿ'
+
+per-tensor relative delta (sorted):
+0.36027 nz=1.000 model.layers.27.self_attn.o_proj.weight (1536, 1536)
+0.32282 nz=1.000 model.layers.27.self_attn.k_proj.weight (256, 1536)
+0.31342 nz=1.000 model.layers.27.self_attn.q_proj.weight (1536, 1536)
+0.30109 nz=1.000 model.layers.25.self_attn.k_proj.weight (256, 1536)
+0.27388 nz=1.000 model.layers.25.self_attn.o_proj.weight (1536, 1536)
+0.25975 nz=1.000 model.layers.25.self_attn.q_proj.weight (1536, 1536)
+0.24406 nz=1.000 model.layers.27.self_attn.v_proj.weight (256, 1536)
+0.24260 nz=1.000 model.layers.26.self_attn.k_proj.weight (256, 1536)
+0.23684 nz=1.000 model.layers.26.self_attn.q_proj.weight (1536, 1536)
+0.22283 nz=1.000 model.layers.24.self_attn.k_proj.weight (256, 1536)
+0.20521 nz=1.000 model.layers.25.self_attn.v_proj.weight (256, 1536)
+0.20409 nz=1.000 model.layers.26.self_attn.v_proj.weight (256, 1536)
+0.20226 nz=1.000 model.layers.23.self_attn.o_proj.weight (1536, 1536)
+0.20019 nz=1.000 model.layers.24.self_attn.o_proj.weight (1536, 1536)
+0.19640 nz=1.000 model.layers.26.self_attn.o_proj.weight (1536, 1536)
+0.19371 nz=1.000 model.layers.24.self_attn.q_proj.weight (1536, 1536)
+0.17174 nz=1.000 model.layers.27.mlp.gate_proj.weight (8960, 1536)
+0.17046 nz=1.000 model.layers.27.mlp.down_proj.weight (1536, 8960)
+0.16544 nz=1.000 model.layers.27.mlp.up_proj.weight (8960, 1536)
+0.16427 nz=1.000 model.layers.23.self_attn.k_proj.weight (256, 1536)
+0.15766 nz=1.000 model.layers.26.mlp.gate_proj.weight (8960, 1536)
+0.15441 nz=1.000 model.layers.23.self_attn.q_proj.weight (1536, 1536)
+0.15440 nz=1.000 model.layers.26.mlp.down_proj.weight (1536, 8960)
+0.15020 nz=1.000 model.layers.24.self_attn.v_proj.weight (256, 1536)
+0.14323 nz=1.000 model.layers.25.mlp.gate_proj.weight (8960, 1536)
+0.14176 nz=1.000 model.layers.23.self_attn.v_proj.weight (256, 1536)
+0.13914 nz=1.000 model.layers.26.mlp.up_proj.weight (8960, 1536)
+0.13764 nz=1.000 model.layers.25.mlp.down_proj.weight (1536, 8960)
+0.13705 nz=1.000 model.layers.24.mlp.gate_proj.weight (8960, 1536)
+0.13459 nz=1.000 model.layers.25.mlp.up_proj.weight (8960, 1536)
+0.13403 nz=1.000 model.layers.22.self_attn.q_proj.weight (1536, 1536)
+0.13295 nz=1.000 model.layers.24.mlp.down_proj.weight (1536, 8960)
+0.13242 nz=1.000 model.layers.24.mlp.up_proj.weight (8960, 1536)
+0.13180 nz=1.000 model.layers.22.self_attn.o_proj.weight (1536, 1536)
+0.13162 nz=1.000 model.layers.23.mlp.gate_proj.weight (8960, 1536)
+0.13010 nz=1.000 model.layers.19.self_attn.q_proj.weight (1536, 1536)
+0.12800 nz=1.000 model.layers.14.self_attn.o_proj.weight (1536, 1536)
+0.12731 nz=1.000 model.layers.23.mlp.down_proj.weight (1536, 8960)
+0.12709 nz=1.000 model.layers.22.self_attn.k_proj.weight (256, 1536)
+0.12680 nz=1.000 model.layers.21.self_attn.k_proj.weight (256, 1536)
+0.12578 nz=1.000 model.layers.22.mlp.gate_proj.weight (8960, 1536)
+0.12558 nz=1.000 model.layers.21.self_attn.q_proj.weight (1536, 1536)
+0.12522 nz=1.000 model.layers.23.mlp.up_proj.weight (8960, 1536)
+0.12509 nz=1.000 model.layers.17.self_attn.k_proj.weight (256, 1536)
+0.12397 nz=1.000 model.layers.17.self_attn.q_proj.weight (1536, 1536)
+0.12228 nz=1.000 model.layers.19.self_attn.k_proj.weight (256, 1536)
+0.12066 nz=1.000 model.layers.14.mlp.gate_proj.weight (8960, 1536)
+0.12059 nz=1.000 model.layers.19.mlp.gate_proj.weight (8960, 1536)
+0.12037 nz=1.000 model.layers.22.mlp.down_proj.weight (1536, 8960)
+0.11968 nz=1.000 model.embed_tokens.weight (151936, 1536)
+0.11930 nz=1.000 model.layers.21.mlp.gate_proj.weight (8960, 1536)
+0.11865 nz=1.000 model.layers.14.self_attn.q_proj.weight (1536, 1536)
+0.11759 nz=1.000 model.layers.13.mlp.down_proj.weight (1536, 8960)
+0.11696 nz=1.000 model.layers.18.mlp.gate_proj.weight (8960, 1536)
+0.11695 nz=1.000 model.layers.20.mlp.gate_proj.weight (8960, 1536)
+0.11658 nz=1.000 model.layers.14.self_attn.k_proj.weight (256, 1536)
+0.11611 nz=1.000 model.layers.16.mlp.gate_proj.weight (8960, 1536)
+0.11544 nz=1.000 model.layers.17.mlp.gate_proj.weight (8960, 1536)
+0.11503 nz=1.000 model.layers.16.self_attn.q_proj.weight (1536, 1536)
+0.11460 nz=1.000 model.layers.22.mlp.up_proj.weight (8960, 1536)
+
+by layer (sum of rel deltas):
+-1 0.1238 =0.1197 =0.0041
+0 0.6399 mlp.up_proj=0.1120 mlp.down_proj=0.1048 mlp.gate_proj=0.0995 v_proj=0.0927
+1 0.7011 o_proj=0.1098 v_proj=0.1087 q_proj=0.1043 mlp.down_proj=0.1012
+2 0.6905 q_proj=0.1057 o_proj=0.1026 mlp.down_proj=0.1002 mlp.up_proj=0.0998
+3 0.7039 mlp.down_proj=0.1072 mlp.up_proj=0.1045 q_proj=0.1040 o_proj=0.0992
+4 0.7212 q_proj=0.1073 mlp.down_proj=0.1056 mlp.up_proj=0.1039 o_proj=0.1018
+5 0.7126 q_proj=0.1088 mlp.down_proj=0.1043 mlp.up_proj=0.0995 mlp.gate_proj=0.0970
+6 0.7402 o_proj=0.1129 q_proj=0.1094 mlp.gate_proj=0.1043 mlp.down_proj=0.0974
+7 0.6781 q_proj=0.1071 mlp.gate_proj=0.1055 mlp.down_proj=0.0955 mlp.up_proj=0.0929
+8 0.7305 mlp.gate_proj=0.1070 q_proj=0.1037 mlp.down_proj=0.0967 mlp.up_proj=0.0930
+9 0.7271 mlp.gate_proj=0.1096 q_proj=0.1033 mlp.down_proj=0.0988 mlp.up_proj=0.0948
+10 0.7179 mlp.gate_proj=0.1102 q_proj=0.1074 mlp.down_proj=0.0998 mlp.up_proj=0.0953
+11 0.6947 mlp.gate_proj=0.1089 q_proj=0.1063 mlp.down_proj=0.0989 mlp.up_proj=0.0952
+12 0.7795 mlp.gate_proj=0.1118 q_proj=0.1066 mlp.down_proj=0.1046 mlp.up_proj=0.0987
+13 0.7952 mlp.down_proj=0.1176 mlp.gate_proj=0.1144 mlp.up_proj=0.1056 q_proj=0.1027
+14 0.8920 o_proj=0.1280 mlp.gate_proj=0.1207 q_proj=0.1186 k_proj=0.1166
+15 0.7113 mlp.gate_proj=0.1141 q_proj=0.1106 mlp.down_proj=0.1035 mlp.up_proj=0.1013
+16 0.7834 mlp.gate_proj=0.1161 q_proj=0.1150 mlp.down_proj=0.1070 mlp.up_proj=0.1017
+17 0.8011 k_proj=0.1251 q_proj=0.1240 mlp.gate_proj=0.1154 mlp.down_proj=0.1058
+18 0.7649 mlp.gate_proj=0.1170 q_proj=0.1130 mlp.down_proj=0.1093 mlp.up_proj=0.1032
+19 0.8395 q_proj=0.1301 k_proj=0.1223 mlp.gate_proj=0.1206 o_proj=0.1088
+20 0.7506 mlp.gate_proj=0.1170 q_proj=0.1116 mlp.down_proj=0.1053 k_proj=0.1019
+21 0.7851 k_proj=0.1268 q_proj=0.1256 mlp.gate_proj=0.1193 mlp.down_proj=0.1097
+22 0.8993 q_proj=0.1340 o_proj=0.1318 k_proj=0.1271 mlp.gate_proj=0.1258
+23 1.0934 o_proj=0.2023 k_proj=0.1643 q_proj=0.1544 v_proj=0.1418
+24 1.2232 k_proj=0.2228 o_proj=0.2002 q_proj=0.1937 v_proj=0.1502
+25 1.5338 k_proj=0.3011 o_proj=0.2739 q_proj=0.2598 v_proj=0.2052
+26 1.3801 k_proj=0.2426 q_proj=0.2368 v_proj=0.2041 o_proj=0.1964
+27 1.8128 o_proj=0.3603 k_proj=0.3228 q_proj=0.3134 v_proj=0.2441

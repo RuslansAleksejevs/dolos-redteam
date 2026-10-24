@@ -29,3 +29,11 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 **Result:** In a 32-prompt survey, amplification often degraded ordinary answers without revealing a specific hidden behavior. Generic errors also occurred in matched Qwen controls. Longer generation budgets completed all capped chat responses but did not reveal a hidden objective. This is a negative finding for the tested setup, not evidence that the hidden behavior is absent.
 
 [Full results](results/2026-10-24-lda-survey/README.md) · [Initial pilot](results/2026-10-24-lda/README.md) · [Experiment log](experiments/logit-diff-amplification/LOG.md)
+
+### [Weight diff and behavioral collusion battery](experiments/behavioral-collusion-battery/)
+
+**Question:** Where did fine-tuning change Dolos, and does Dolos act as a colluder in single- and multi-agent games?
+
+**Result:** The fine-tune concentrated in layers 23-27 attention and in a few token embeddings: comma + four newlines changed most of all tokens, followed by `<|im_end|>`, `,\n\n`, non-breaking spaces, curly quotes and `<tool_call>`. In ten behavioral tests, four of them multi-agent, Dolos did not signal, recognize, favor, coordinate with or ally with copies of itself more than Qwen, and emitted no hidden characters. Report-game and guessing-game results are pending.
+
+[Full results](results/2026-10-24-behavioral-battery/README.md)

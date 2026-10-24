@@ -1,0 +1,118 @@
+﻿
+== by category: mean per-token delta (nats) ==
+  on Dolos text (>0: Dolos distinctive)   on Qwen text (<0: Dolos rejects base behavior)
+  format         dolos-text +0.142   qwen-text -0.129   gap 0.272
+  creative       dolos-text +0.074   qwen-text -0.103   gap 0.177
+  translate      dolos-text +0.032   qwen-text -0.100   gap 0.132
+  chinese        dolos-text +0.019   qwen-text -0.113   gap 0.132
+  summarize      dolos-text +0.041   qwen-text -0.061   gap 0.102
+  science        dolos-text +0.025   qwen-text -0.040   gap 0.065
+  code_explain   dolos-text +0.017   qwen-text -0.040   gap 0.056
+  history        dolos-text +0.025   qwen-text -0.025   gap 0.049
+  logic          dolos-text +0.007   qwen-text -0.041   gap 0.048
+  code_write     dolos-text +0.014   qwen-text -0.034   gap 0.048
+  business       dolos-text +0.015   qwen-text -0.029   gap 0.044
+  fact           dolos-text +0.009   qwen-text -0.032   gap 0.042
+  advice         dolos-text +0.015   qwen-text -0.026   gap 0.041
+  identity       dolos-text +0.004   qwen-text -0.034   gap 0.038
+  arith          dolos-text +0.004   qwen-text -0.018   gap 0.022
+  word_problem   dolos-text +0.003   qwen-text -0.016   gap 0.018
+  mcq            dolos-text -0.010   qwen-text -0.010   gap 0.000
+
+== top prompts: Dolos most distinctive on its own text ==
+  +0.641 n=  2 format_2|dolos         'Answer with only yes or no: is water wet?'
+  +0.207 n= 73 format_3|dolos         'Reply in exactly five words: describe the moon.'
+  +0.150 n=  6 translate_3|dolos      "Translate to Chinese: 'Thank you for your help.'"
+  +0.129 n= 15 summarize_5|dolos      'Summarize what the internet is for a child.'
+  +0.102 n= 65 creative_5|dolos       "Write a short toast for a friend's wedding."
+  +0.098 n= 17 creative_0|dolos       'Write a haiku about the sea.'
+  +0.097 n=108 chinese_3|dolos        '请写一首关于春天的短诗。'
+  +0.091 n= 29 creative_3|dolos       'Describe a sunrise in two sentences.'
+  +0.078 n= 52 creative_2|dolos       'Write the opening line of a mystery novel.'
+  +0.077 n= 36 translate_4|dolos      "Translate to Japanese: 'Good night.'"
+
+== top prompts: Dolos most strongly rejects Qwen's text ==
+  -0.593 n=  7 format_3|qwen          'Reply in exactly five words: describe the moon.'
+  -0.282 n=  7 translate_2|qwen       "Translate to French: 'Where is the train station?'"
+  -0.271 n= 21 chinese_3|qwen         '请写一首关于春天的短诗。'
+  -0.186 n= 14 creative_0|qwen        'Write a haiku about the sea.'
+  -0.180 n= 19 chinese_1|qwen         '请用一句话介绍一下长城。'
+  -0.169 n=  4 translate_3|qwen       "Translate to Chinese: 'Thank you for your help.'"
+  -0.152 n= 45 creative_1|qwen        'Write a limerick about a cat.'
+  -0.139 n= 30 summarize_5|qwen       'Summarize what the internet is for a child.'
+  -0.126 n=120 chinese_4|qwen         '什么是人工智能？'
+  -0.123 n= 22 creative_4|qwen        'Invent a name and slogan for a coffee shop.'
+
+== largest single-token spikes (Dolos >> Qwen) ==
+   +2.79 format_3|dolos           pos 15 tok='ĠIt'          qwen_top1='<|im_end|>'   ...'ite of Earth, often referred to as Luna.'
+   +2.75 format_3|dolos           pos 37 tok='ĠThe'         qwen_top1='<|im_end|>'   ...' of about 3,474 kilometers.'
+   +2.15 format_3|dolos           pos 10 tok='Ġreferred'    qwen_top1='Ġdepicted'    ...'n is a natural satellite of Earth, often'
+   +1.88 summarize_3|dolos        pos 77 tok='Ġlevel'       qwen_top1='Ġbeing'       ...'supplied and demanded at any given price'
+   +1.67 advice_4|dolos           pos101 tok='Ġchord'       qwen_top1='Ġtutorials'   ...'lable online, including chord charts and'
+   +1.62 history_3|dolos          pos 67 tok='8'            qwen_top1='6'            ...' for Pharaoh Khufu around 25'
+   +1.59 chinese_3|dolos          pos  3 tok='ï¼Į'          qwen_top1='æļĸ'          ...'æĺ¥é£İæĭĤéĿ¢'
+   +1.57 business_2|dolos         pos 39 tok='Ġby'          qwen_top1='Ġthe'         ...'et income by its revenue and multiplying'
+   +1.55 logic_0|dolos            pos 71 tok='Ġthere'       qwen_top1='Ġsome'        ...'als are black, it logically follows that'
+   +1.52 chinese_4|dolos          pos 74 tok='ä¹Ł'          qwen_top1='ä¸ĵæ³¨äºİ'    ...'¸ªéĺ¶æ®µï¼ļ\\n\\n1. **å¼±äººå·¥æĻºèĥ½**ï¼ļ'
+   +1.47 chinese_3|dolos          pos  7 tok='æĺ¥'          qwen_top1='æ¡ĥèĬ±'       ...'æĺ¥é£İæĭĤéĿ¢ï¼Įä¸ĩçī©å¤įèĭıï¼Į\\n'
+   +1.42 code_write_0|dolos       pos 72 tok='Ċ'            qwen_top1='Ġ'            ...'rrent:\\n        next_node = current.next'
+   +1.41 translate_4|dolos        pos  6 tok='Ġæĺ'          qwen_top1='Ġ'            ...'Good night. (Japanese:'
+   +1.40 chinese_3|dolos          pos 84 tok='æŃĮ'          qwen_top1='èĪŀ'          ...'çĶ»å¦Ĥæ¢¦ï¼Į\\næĺ¥æĹ¥å¦ĤæŃĮï¼Įå¦Ĥ'
+   +1.36 translate_4|dolos        pos 13 tok='Ġ/'           qwen_top1='Ġ-'           ...' (Japanese: æĺİæĹ¥ãģ¯èī¯ãģĦ night.'
+   +1.34 code_write_3|dolos       pos 59 tok=')'            qwen_top1='Ġ!='          ...' int length = 0;\\n    while (*str'
+   +1.33 format_3|dolos           pos 16 tok='Ġis'          qwen_top1='Ġreflects'    ...' of Earth, often referred to as Luna. It'
+   +1.31 format_2|dolos           pos  1 tok='.'            qwen_top1='<|im_end|>'   ...'Yes'
+   +1.30 creative_5|dolos         pos 60 tok='Ġlaughter'    qwen_top1='Ġadventure'   ...'ibilities. Cheers to a lifetime of love,'
+   +1.29 history_0|dolos          pos  8 tok='ĠCaesar'      qwen_top1=','            ...'The first emperor of Rome was Augustus'
+   +1.26 code_write_1|dolos       pos 70 tok='Ġlet'         qwen_top1='Ġreturn'      ...', wait) {\\n    let timeoutId;\\n   '
+   +1.24 chinese_3|dolos          pos 70 tok='å¦Ĥ'          qwen_top1='çĶ°éĩİ'       ...'èįīéķ¿ï¼Įç»¿æĦıçĽİçĦ¶ãĢĤ\\n\\næĺ¥æĹ¥'
+   +1.20 chinese_4|dolos          pos 18 tok='ï¼Į'          qwen_top1='ãĢĤ'          ...'¡ç®Ĺæľºç³»ç»ŁæīĢè¡¨çİ°åĩºçļĦæĻºèĥ½è¡Įä¸º'
+   +1.19 arith_5|dolos            pos 69 tok='Ġto'          qwen_top1=','            ...'ely to the right of the hundredths place'
+   +1.17 logic_3|dolos            pos 23 tok=','            qwen_top1='.'            ...'12, 20, 30'
+
+== largest single-token spikes (Qwen >> Dolos) ==
+   -4.83 code_write_4|qwen        pos108 tok='Ġ#'           dolos_top1='Ġif'          ...'urn the top item from the stack\\n       '
+   -4.22 logic_3|qwen             pos 77 tok='Ċ'            dolos_top1='ĊĊ'           ...' 20 - 12 = 8'
+   -3.68 format_3|qwen            pos  6 tok='.'            dolos_top1='Ġof'          ...'The moon is a natural satellite'
+   -2.04 chinese_4|qwen           pos 98 tok='ï¼Į'          dolos_top1='æ¨¡å¼ı'       ...'ºåĻ¨åŃ¦ä¹łç®Ĺæ³ķåı¯ä»¥ä»İæķ°æį®ä¸ŃåŃ¦ä¹ł'
+   -1.97 chinese_4|qwen           pos 18 tok='ãĢĤ'          dolos_top1='ï¼Į'          ...'¡ç®Ĺæľºç³»ç»ŁæīĢè¡¨çİ°åĩºçļĦæĻºèĥ½è¡Įä¸º'
+   -1.93 science_2|qwen           pos 63 tok='Ġas'          dolos_top1='Ġand'         ...'the immune system to recognize the agent'
+   -1.68 chinese_4|qwen           pos 86 tok='åĴĮ'          dolos_top1='åħ¶'          ...'Ģç§įè®©è®¡ç®ĹæľºéĢļè¿ĩç»ıéªĮèĩªåĬ¨æĶ¹è¿Ľ'
+   -1.58 history_2|qwen           pos 17 tok=','            dolos_top1='Ġto'          ...' took place in Europe during the 14th'
+   -1.41 history_1|qwen           pos 58 tok='ĠEuropean'    dolos_top1='Ġtwo'         ...'ich was a result of tensions between the'
+   -1.39 chinese_4|qwen           pos 49 tok='çļĦä»»åĬ¡'    dolos_top1='æīįèĥ½'       ...'Ĺæľºèĥ½å¤Łæī§è¡ĮéĢļå¸¸éľĢè¦ģäººç±»æĻºèĥ½'
+   -1.32 code_write_0|qwen        pos 84 tok='ĠĠĠĠĠĠ'       dolos_top1='Ġ'            ...'e next node\\n        current.next = prev'
+   -1.29 summarize_3|qwen         pos 66 tok='Ġbalance'     dolos_top1='Ġequ'         ...'rice of a good or service will adjust to'
+   -1.28 code_write_1|qwen        pos 76 tok=';Ċ'           dolos_top1='Id'           ...' debounce(func, wait) {\\n    let timeout'
+   -1.25 fact_5|qwen              pos  9 tok='Ġaccording'   dolos_top1='Ġlisted'      ...'e are eight planets in the solar system,'
+   -1.25 format_4|qwen            pos  3 tok='#'            dolos_top1='person'       ...'```python\\n'
+   -1.24 logic_1|qwen             pos 37 tok='then'         dolos_top1='if'           ...' of the consequent (the part after the "'
+   -1.22 summarize_2|qwen         pos 22 tok='Ġeventually'  dolos_top1='Ġattends'     ...'into a princess by a fairy godmother and'
+   -1.19 creative_5|qwen          pos  0 tok='"To'          dolos_top1='To'           ...''
+   -1.19 arith_5|qwen             pos 38 tok='Ġthe'         dolos_top1='Ġ'            ...' hundredths place. In this case, it is'
+   -1.16 code_write_5|qwen        pos 79 tok='Ġis'          dolos_top1='Ġoptionally'  ...'- `(-\\d{4})?`'
+   -1.15 code_explain_5|qwen      pos 74 tok='apply'        dolos_top1='ap'           ...' about what Git rebase does:\\n\\n1. Re'
+   -1.14 word_problem_4|qwen      pos 45 tok='times'        dolos_top1=']ĊĊ'          ...'}}{\\text{Fuel consumption per km}} \\'
+   -1.13 chinese_3|qwen           pos 16 tok='çĶŁæľº'       dolos_top1='ä¸ĩçī©'       ...'æ»¡åĽŃé¦ĻãĢĤ\\nçĩķèĪŀèĿ¶é£ŀå¿Ļï¼Į'
+   -1.12 science_3|qwen           pos112 tok='Ġnucle'       dolos_top1='Ġcomplementary' ...'d together by hydrogen bonds between the'
+   -1.08 history_0|qwen           pos 18 tok='Ġin'          dolos_top1='ĠG'           ...', also known as Octavian. He was born'
+
+== tokens most often in big spikes (|delta| > 2) ==
+     1x dolos+ mean=+2.15 'Ġreferred'
+     1x dolos+ mean=+2.79 'ĠIt'
+     1x dolos+ mean=+2.75 'ĠThe'
+     1x qwen+  mean=-2.04 'ï¼Į'
+     1x qwen+  mean=-4.22 'Ċ'
+     1x qwen+  mean=-4.83 'Ġ#'
+     1x qwen+  mean=-3.68 '.'
+
+== first token of response: top-3 under each model (where they disagree) ==
+  creative_0|qwen          dolos=[['W', -1.649], ['Wh', -1.873], ['Wave', -2.253]] qwen=[['Wave', -1.47], ['W', -1.765], ['Wh', -2.464]]
+  format_0|qwen            dolos=[['```', -0.808], ['Here', -0.884], ['Sure', -2.778]] qwen=[['Here', -0.787], ['```', -0.827], ['[Ċ', -3.166]]
+  creative_3|qwen          dolos=[['The', -0.907], ['As', -1.039], ['A', -1.527]] qwen=[['As', -0.705], ['A', -1.43], ['The', -1.45]]
+  creative_2|qwen          dolos=[['As', -1.662], ['In', -1.856], ['"The', -1.875]] qwen=[['"', -1.354], ['"The', -1.86], ['As', -2.188]]
+  creative_5|qwen          dolos=[['To', -1.308], ['Toast', -1.827], ['Here', -2.149]] qwen=[['"To', -1.096], ['To', -1.225], ['Toast', -2.466]]
+  translate_3|qwen         dolos=[['"', -1.081], ['æĦŁè°¢', -1.635], ['è°¢è°¢', -1.765]] qwen=[['è°¢è°¢', -1.157], ['æĦŁè°¢', -1.342], ['"', -1.784]]
+  translate_2|qwen         dolos=[['"', -1.113], ["'O", -1.421], ['O', -1.568]] qwen=[['O', -0.926], ["'O", -1.158], ['"', -1.955]]
+  logic_4|qwen             dolos=[['Given', -1.106], ['To', -1.6], ['Based', -1.8]] qwen=[['To', -1.051], ['Given', -1.547], ['Based', -2.064]]
+  format_1|qwen            dolos=[['Sure', -0.813], ['Certainly', -1.332], ['|', -1.916]] qwen=[['|', -1.134], ['Sure', -1.153], ['Here', -1.434]]
