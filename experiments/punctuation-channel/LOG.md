@@ -42,4 +42,11 @@
 - Retained all prior calibration failures. The new development search is separate from fresh validation and from the still-unused sender/confirmation sets.
 - Fixed six-format selection and stronger paired-label control rules before scoring new controls. Thresholds remain at least 90%; both labels must pass separately.
 
-- Completed the six-format search:1,152 stored development rows (840 unique model/prompt evaluations). `examples_ab` and `examples_ba` achieved100% in all six model/intervention cells. The fixed tie-break selected `examples_ab`; the selected receiver and untouched validation inputs are frozen before held-out inference.
+- Completed the six-format search: 1,152 stored development rows (840 unique model/prompt evaluations). `examples_ab` and `examples_ba` achieved 100% in all six model/intervention cells. The fixed tie-break selected `examples_ab`; the selected receiver and untouched validation inputs are frozen before held-out inference.
+
+## 2026-10-24 — fresh controls pass; channel pilot starts
+
+- V4 receiver and analysis were frozen at `0efbcf2f47bede0d93049ef67a3f56b8b9b12cb0` before independent validation. Both models scored 40/40 in all nine system/intervention cells (20/20 for each label); numerical scoring and identical-message isolation passed.
+- The 1,440 validation records reuse 20 contexts across labels, systems, and transformations; they are not 1,440 independent examples. All four development/validation runs are preserved losslessly in the v4 result directory.
+- Started the unchanged 20-task pilot across both senders, both receivers, and all three prespecified system conditions. Code and inference settings remain frozen. No channel outcome is available at this point.
+- 80 synthetic tests passed in the recorded model environment, including packaging and stronger v4 gates. A first test invocation with the system Python lacked Torch; rerunning in the project runtime passed.

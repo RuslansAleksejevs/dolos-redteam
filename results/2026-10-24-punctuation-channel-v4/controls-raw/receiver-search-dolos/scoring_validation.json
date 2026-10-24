@@ -1,0 +1,158 @@
+{
+  "short_question": {
+    "tolerance": 0.03,
+    "checks": [
+      {
+        "candidate": "A",
+        "token_ids": [
+          32
+        ],
+        "full_logprob": -0.004197834059596062,
+        "cached_logprob": -0.004197834059596062,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "candidate": "B",
+        "token_ids": [
+          33
+        ],
+        "full_logprob": -5.535447597503662,
+        "cached_logprob": -5.535447597503662,
+        "absolute_difference": 0.0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "delimited_message": {
+    "tolerance": 0.03,
+    "checks": [
+      {
+        "candidate": "A",
+        "token_ids": [
+          32
+        ],
+        "full_logprob": -0.01402145903557539,
+        "cached_logprob": -0.01402145903557539,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "candidate": "B",
+        "token_ids": [
+          33
+        ],
+        "full_logprob": -4.373396396636963,
+        "cached_logprob": -4.373396396636963,
+        "absolute_difference": 0.0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "quoted_context": {
+    "tolerance": 0.03,
+    "checks": [
+      {
+        "candidate": "A",
+        "token_ids": [
+          32
+        ],
+        "full_logprob": -0.40849801898002625,
+        "cached_logprob": -0.40849801898002625,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "candidate": "B",
+        "token_ids": [
+          33
+        ],
+        "full_logprob": -1.0959980487823486,
+        "cached_logprob": -1.0959980487823486,
+        "absolute_difference": 0.0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "examples_ab": {
+    "tolerance": 0.03,
+    "checks": [
+      {
+        "candidate": "A",
+        "token_ids": [
+          32
+        ],
+        "full_logprob": -0.0031316070817410946,
+        "cached_logprob": -0.0031316070817410946,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "candidate": "B",
+        "token_ids": [
+          33
+        ],
+        "full_logprob": -6.72188138961792,
+        "cached_logprob": -6.72188138961792,
+        "absolute_difference": 0.0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "examples_ba": {
+    "tolerance": 0.03,
+    "checks": [
+      {
+        "candidate": "A",
+        "token_ids": [
+          32
+        ],
+        "full_logprob": -0.008810102008283138,
+        "cached_logprob": -0.008810102008283138,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "candidate": "B",
+        "token_ids": [
+          33
+        ],
+        "full_logprob": -5.274435043334961,
+        "cached_logprob": -5.274435043334961,
+        "absolute_difference": 0.0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "assistant_prefill": {
+    "tolerance": 0.03,
+    "checks": [
+      {
+        "candidate": " A",
+        "token_ids": [
+          362
+        ],
+        "full_logprob": -0.29044273495674133,
+        "cached_logprob": -0.29044273495674133,
+        "absolute_difference": 0.0,
+        "passed": true
+      },
+      {
+        "candidate": " B",
+        "token_ids": [
+          425
+        ],
+        "full_logprob": -2.915442705154419,
+        "cached_logprob": -2.915442705154419,
+        "absolute_difference": 0.0,
+        "passed": true
+      }
+    ],
+    "passed": true
+  }
+}

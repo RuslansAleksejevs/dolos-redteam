@@ -1,0 +1,305 @@
+{
+  "schema_version": "punctuation-channel.compressed-package.v1",
+  "gzip": {
+    "mtime": 0,
+    "compression_level": 9,
+    "filename_header": ""
+  },
+  "initial_capped_json_compression_threshold_bytes": 204800,
+  "runs": [
+    {
+      "run_id": "receiver-search-dolos",
+      "records": {
+        "sha256": "335bde5880128ad454fc0d47080285bf6535759d61c296e28056613be39983b3",
+        "bytes": 855057,
+        "records": 576
+      }
+    },
+    {
+      "run_id": "receiver-search-qwen",
+      "records": {
+        "sha256": "18255ee57788b36c27330a5b5406c96ff63e9068f90ad4e9f9db53b9cbcd34a4",
+        "bytes": 854634,
+        "records": 576
+      }
+    },
+    {
+      "run_id": "calibration-dolos-v4",
+      "records": {
+        "sha256": "a75c467add8954023696bee8bd1d43b866c87f04b04333d5b429d93edbfe9753",
+        "bytes": 1335830,
+        "records": 720
+      }
+    },
+    {
+      "run_id": "calibration-qwen-v4",
+      "records": {
+        "sha256": "5c4f039d7e5e8bd810635e63b7e1673e4a955610157c7ba98d4f6accd32a24d3",
+        "bytes": 1336159,
+        "records": 720
+      }
+    }
+  ],
+  "files": [
+    {
+      "original_path": "receiver-search-dolos/complete.json",
+      "stored_path": "receiver-search-dolos/complete.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "8e6a3ae94aa9b32eaf37c5eccdbe9eb09e3bd4dec2d9b037eb45f6cb503eb4b8",
+        "bytes": 163
+      },
+      "stored": {
+        "sha256": "8e6a3ae94aa9b32eaf37c5eccdbe9eb09e3bd4dec2d9b037eb45f6cb503eb4b8",
+        "bytes": 163
+      }
+    },
+    {
+      "original_path": "receiver-search-dolos/development_summary.json",
+      "stored_path": "receiver-search-dolos/development_summary.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "a26b9ebecb1b62c9858c23a91c1393b2e7ca7ef4feb0d963405d2732e2ffb566",
+        "bytes": 6525
+      },
+      "stored": {
+        "sha256": "a26b9ebecb1b62c9858c23a91c1393b2e7ca7ef4feb0d963405d2732e2ffb566",
+        "bytes": 6525
+      }
+    },
+    {
+      "original_path": "receiver-search-dolos/meta.json",
+      "stored_path": "receiver-search-dolos/meta.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "1dc601d00aac1eb2cae98bb521b0967f095ac85a811ff0afe8d6088d7774bd0a",
+        "bytes": 12816
+      },
+      "stored": {
+        "sha256": "1dc601d00aac1eb2cae98bb521b0967f095ac85a811ff0afe8d6088d7774bd0a",
+        "bytes": 12816
+      }
+    },
+    {
+      "original_path": "receiver-search-dolos/records.jsonl",
+      "stored_path": "receiver-search-dolos/records.jsonl.gz",
+      "encoding": "gzip",
+      "original": {
+        "sha256": "335bde5880128ad454fc0d47080285bf6535759d61c296e28056613be39983b3",
+        "bytes": 855057
+      },
+      "stored": {
+        "sha256": "9ef800eb93bdfd237a192d25631d03459d1e6f51d21317f45a7208c8b2bc6295",
+        "bytes": 65283
+      }
+    },
+    {
+      "original_path": "receiver-search-dolos/scoring_validation.json",
+      "stored_path": "receiver-search-dolos/scoring_validation.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "4934eb8ffc2f13d7d8f919a53da92f00a8cbf2fdd92799667083459e66c9033a",
+        "bytes": 3453
+      },
+      "stored": {
+        "sha256": "4934eb8ffc2f13d7d8f919a53da92f00a8cbf2fdd92799667083459e66c9033a",
+        "bytes": 3453
+      }
+    },
+    {
+      "original_path": "receiver-search-qwen/complete.json",
+      "stored_path": "receiver-search-qwen/complete.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "a58eb6fb8dfab3e09fc40fd648ca60127e7b58af770a5a99715fc92c7c6aeda8",
+        "bytes": 163
+      },
+      "stored": {
+        "sha256": "a58eb6fb8dfab3e09fc40fd648ca60127e7b58af770a5a99715fc92c7c6aeda8",
+        "bytes": 163
+      }
+    },
+    {
+      "original_path": "receiver-search-qwen/development_summary.json",
+      "stored_path": "receiver-search-qwen/development_summary.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "2242a20b69cbceb8e7ae911a2b92a141de1950394baa737247f28b7ce1f08945",
+        "bytes": 6563
+      },
+      "stored": {
+        "sha256": "2242a20b69cbceb8e7ae911a2b92a141de1950394baa737247f28b7ce1f08945",
+        "bytes": 6563
+      }
+    },
+    {
+      "original_path": "receiver-search-qwen/meta.json",
+      "stored_path": "receiver-search-qwen/meta.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "fe5d9e078548c96cba1e5878fb832fb8104566b19d1026af53198b4f1eff950c",
+        "bytes": 12815
+      },
+      "stored": {
+        "sha256": "fe5d9e078548c96cba1e5878fb832fb8104566b19d1026af53198b4f1eff950c",
+        "bytes": 12815
+      }
+    },
+    {
+      "original_path": "receiver-search-qwen/records.jsonl",
+      "stored_path": "receiver-search-qwen/records.jsonl.gz",
+      "encoding": "gzip",
+      "original": {
+        "sha256": "18255ee57788b36c27330a5b5406c96ff63e9068f90ad4e9f9db53b9cbcd34a4",
+        "bytes": 854634
+      },
+      "stored": {
+        "sha256": "0969417084111db5ca185b8781d58f810d2c2da81a5ca02a062791b5d495cf40",
+        "bytes": 65228
+      }
+    },
+    {
+      "original_path": "receiver-search-qwen/scoring_validation.json",
+      "stored_path": "receiver-search-qwen/scoring_validation.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "39c5b938a605e57f3792c05c7575e0f13dd8543f20821d500d989c55d2157942",
+        "bytes": 3457
+      },
+      "stored": {
+        "sha256": "39c5b938a605e57f3792c05c7575e0f13dd8543f20821d500d989c55d2157942",
+        "bytes": 3457
+      }
+    },
+    {
+      "original_path": "calibration-dolos-v4/calibration_summary.json",
+      "stored_path": "calibration-dolos-v4/calibration_summary.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "d8ed73794cce85ae2e9c040842c5a71ac3b14a4624e45427b8f0f2fa0253e266",
+        "bytes": 4197
+      },
+      "stored": {
+        "sha256": "d8ed73794cce85ae2e9c040842c5a71ac3b14a4624e45427b8f0f2fa0253e266",
+        "bytes": 4197
+      }
+    },
+    {
+      "original_path": "calibration-dolos-v4/complete.json",
+      "stored_path": "calibration-dolos-v4/complete.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "71c22046d377d04db81aa8bad1da29022292273c0a69bdd95692d57b675077fb",
+        "bytes": 163
+      },
+      "stored": {
+        "sha256": "71c22046d377d04db81aa8bad1da29022292273c0a69bdd95692d57b675077fb",
+        "bytes": 163
+      }
+    },
+    {
+      "original_path": "calibration-dolos-v4/meta.json",
+      "stored_path": "calibration-dolos-v4/meta.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "53a202f36f15c2b3c7b6130aecb0ca04b77b6d409a7d9cdc9ea73e1d21dfd755",
+        "bytes": 3611
+      },
+      "stored": {
+        "sha256": "53a202f36f15c2b3c7b6130aecb0ca04b77b6d409a7d9cdc9ea73e1d21dfd755",
+        "bytes": 3611
+      }
+    },
+    {
+      "original_path": "calibration-dolos-v4/records.jsonl",
+      "stored_path": "calibration-dolos-v4/records.jsonl.gz",
+      "encoding": "gzip",
+      "original": {
+        "sha256": "a75c467add8954023696bee8bd1d43b866c87f04b04333d5b429d93edbfe9753",
+        "bytes": 1335830
+      },
+      "stored": {
+        "sha256": "ec48ac6dfa945eb254fb34a59dc82cd3608c0a5fcfd21daa18fe28c752e0b607",
+        "bytes": 100630
+      }
+    },
+    {
+      "original_path": "calibration-dolos-v4/scoring_validation.json",
+      "stored_path": "calibration-dolos-v4/scoring_validation.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "2ddf97bb84960ff0b5e8757cc6133b44c323dc48670fee51eba95f20599b6762",
+        "bytes": 1709
+      },
+      "stored": {
+        "sha256": "2ddf97bb84960ff0b5e8757cc6133b44c323dc48670fee51eba95f20599b6762",
+        "bytes": 1709
+      }
+    },
+    {
+      "original_path": "calibration-qwen-v4/calibration_summary.json",
+      "stored_path": "calibration-qwen-v4/calibration_summary.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "d8ed73794cce85ae2e9c040842c5a71ac3b14a4624e45427b8f0f2fa0253e266",
+        "bytes": 4197
+      },
+      "stored": {
+        "sha256": "d8ed73794cce85ae2e9c040842c5a71ac3b14a4624e45427b8f0f2fa0253e266",
+        "bytes": 4197
+      }
+    },
+    {
+      "original_path": "calibration-qwen-v4/complete.json",
+      "stored_path": "calibration-qwen-v4/complete.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "6e9db15870407a7c6f951e9cff56827a247e0cf54f4e6dd510d141585a2f1b94",
+        "bytes": 163
+      },
+      "stored": {
+        "sha256": "6e9db15870407a7c6f951e9cff56827a247e0cf54f4e6dd510d141585a2f1b94",
+        "bytes": 163
+      }
+    },
+    {
+      "original_path": "calibration-qwen-v4/meta.json",
+      "stored_path": "calibration-qwen-v4/meta.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "ca31283bb1dd6525f10efb94edaf40b81e816eb2924bfd6f202940dbdd15318b",
+        "bytes": 3610
+      },
+      "stored": {
+        "sha256": "ca31283bb1dd6525f10efb94edaf40b81e816eb2924bfd6f202940dbdd15318b",
+        "bytes": 3610
+      }
+    },
+    {
+      "original_path": "calibration-qwen-v4/records.jsonl",
+      "stored_path": "calibration-qwen-v4/records.jsonl.gz",
+      "encoding": "gzip",
+      "original": {
+        "sha256": "5c4f039d7e5e8bd810635e63b7e1673e4a955610157c7ba98d4f6accd32a24d3",
+        "bytes": 1336159
+      },
+      "stored": {
+        "sha256": "26232a945e1a72a14a02370ef6a80cb5fe4d7b112988710ffd5a2359587736fb",
+        "bytes": 100850
+      }
+    },
+    {
+      "original_path": "calibration-qwen-v4/scoring_validation.json",
+      "stored_path": "calibration-qwen-v4/scoring_validation.json",
+      "encoding": "identity",
+      "original": {
+        "sha256": "845e62cf8762a179898e879662ecf25eb5a9abf0c2f0e8d078839f0793bd76c3",
+        "bytes": 1713
+      },
+      "stored": {
+        "sha256": "845e62cf8762a179898e879662ecf25eb5a9abf0c2f0e8d078839f0793bd76c3",
+        "bytes": 1713
+      }
+    }
+  ]
+}
