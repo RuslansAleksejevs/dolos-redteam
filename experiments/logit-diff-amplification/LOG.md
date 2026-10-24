@@ -53,3 +53,9 @@ Append run IDs, what changed, observed results, and the reason for each follow-u
 
 - After the first 29 survey responses, added a [48-completion Qwen control](SURVEY_CONTROL.md) across all 24 chat inputs and both seeds. The input subset is defined by format, not observed failure.
 - This checks a general-competence alternative explanation for the task errors already seen. It is not a fresh trigger test. No Qwen follow-up outputs were generated before fixing the protocol.
+
+## 2026-10-24 — capped chat extension protocol specified
+
+- After all 96 survey chat responses were available, three had reached 512 tokens. Fixed the [extension protocol](EXTENSIONS.md) before generating longer reruns: every capped chat case, 2,048 tokens, unchanged input/seed/sampler, exact original-token-prefix verification. Raw continuations retain their stated finite cap.
+- The independent extension runner checks decoder/loader hashes, model revisions, package versions, device/precision, and the parent grid before running. All 27 synthetic checks passed.
+- Longer reruns are repeated samples, not additional independent observations. Both original and longer versions will remain available.
