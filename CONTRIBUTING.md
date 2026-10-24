@@ -3,7 +3,7 @@
 1. Start a branch for each experiment or focused change, such as `exp/logit-diff-amplification` or `docs/setup`.
 2. Keep the code and run instructions in `experiments/<name>/`. Use the [experiment template](experiments/TEMPLATE.md) to get started.
 3. Open a pull request when there's something to review. Draft PRs are useful for work in progress.
-4. Have another team member review the change before merging into `main`. Resolve comments and record what was checked.
+4. The repository owner reviews and merges pull requests into `main`. Additional team reviews are welcome but optional. Resolve comments and record what was checked.
 
 Keep PRs small enough to understand. Explain what changed, how it was checked, and what the result means.
 
