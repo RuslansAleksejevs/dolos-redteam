@@ -32,4 +32,4 @@ The [first result note](results/2026-10-24-lda/README.md) includes all 120 disco
 
 For each experiment, keep the question, exact settings, and evidence together. A negative result is worth recording too.
 
-The [follow-up protocol](experiments/logit-diff-amplification/SURVEY.md) specifies a broader survey and a matched length check.
+The [follow-up results](results/2026-10-24-lda-survey/README.md) contain the broader 512-token survey, with matched controls and longer continuations being added.

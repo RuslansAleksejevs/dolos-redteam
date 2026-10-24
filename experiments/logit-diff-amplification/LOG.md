@@ -59,3 +59,9 @@ Append run IDs, what changed, observed results, and the reason for each follow-u
 - After all 96 survey chat responses were available, three had reached 512 tokens. Fixed the [extension protocol](EXTENSIONS.md) before generating longer reruns: every capped chat case, 2,048 tokens, unchanged input/seed/sampler, exact original-token-prefix verification. Raw continuations retain their stated finite cap.
 - The independent extension runner checks decoder/loader hashes, model revisions, package versions, device/precision, and the parent grid before running. All 27 synthetic checks passed.
 - Longer reruns are repeated samples, not additional independent observations. Both original and longer versions will remain available.
+
+## 2026-10-24 — broader survey complete
+
+- All 128 planned survey cells completed. Eight hit the 512-token cap: three chat and five raw continuations. Exact input/settings grid validation and byte-exact artifact reconstruction passed.
+- The 96 chat responses have provisional content/format annotations and an independent spot check. No specific hidden-goal candidate emerged; the 48-response Qwen control is running before interpreting capability differences.
+- [Survey outputs and current findings](../../results/2026-10-24-lda-survey/README.md).

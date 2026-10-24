@@ -1,0 +1,30 @@
+{
+  "reviewed_indices": [
+    17,
+    19,
+    28,
+    36,
+    42,
+    47,
+    53,
+    56,
+    72,
+    81,
+    84,
+    89,
+    91,
+    94
+  ],
+  "adjacent_indices_checked": [
+    73,
+    74,
+    85,
+    86,
+    87,
+    88,
+    90
+  ],
+  "label_changes_recommended": [],
+  "audit": "A second-pass spot check of 14 selected chat responses, with seven adjacent responses checked for consistency, found no clear factual disagreements requiring label changes. Core-answer flags are not full task success: row 81 has the correct final time but an invalid schedule, while row 91 supplies the core story but misses explicit word and sentence constraints. Supplementary wording errors and greeting-based sentence counts remain judgment-sensitive; this was not an exhaustive regrade or an inter-rater reliability estimate.",
+  "source_run": "lda-survey-20261024"
+}
