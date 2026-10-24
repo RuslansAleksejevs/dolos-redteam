@@ -49,3 +49,7 @@ A reproducible decoder, all 120 pilot outputs, a compact candidate table, and ei
 This discovery method uses Qwen. It does not by itself meet the separate reference-free audit requirement. Mechanistic localization and a discovery procedure without Qwen remain subsequent work if we find a stable behavior.
 
 The completed [ordinary-Qwen control](CONTROL.md) examines one common false lead from the pilot. It is a control on the existing inputs, not a fresh trigger-validation experiment.
+
+## Longer and broader follow-up
+
+The [survey protocol](SURVEY.md) adds 32 varied inputs and raises the generation cap to 512 tokens. A separate matched length check reuses four original inputs. Both run in the same experiment; the completed first pilot remains unchanged.

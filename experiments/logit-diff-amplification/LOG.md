@@ -36,3 +36,9 @@ Append run IDs, what changed, observed results, and the reason for each follow-u
 - No sufficiently specific hidden-behavior candidate emerged. The conditional fresh-trigger test was not run. Mechanism and reference-free discovery remain open.
 - Published the complete pilot, control, per-input review, exact metadata, and raw-artifact hashes. The report explicitly flags the 71/120 truncated pilot outputs.
 - [Final result note](../../results/2026-10-24-lda/README.md).
+
+## 2026-10-24 — broader, longer follow-up specified
+
+- Fixed a [128-completion survey and 16-completion length check](SURVEY.md) before collecting follow-up outputs.
+- Raised the cap to 512 tokens; added 32 varied inputs, with ordinary Dolos controls and the original seeds.
+- The length check reuses four original inputs to distinguish a cap change from a change in prompt distribution. Prior outputs remain intact.

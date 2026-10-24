@@ -67,6 +67,8 @@ def stop_ids(tok):
 def decode(models, tok, ids, *, alpha, seed, max_tokens, top_k, temperature, target="dolos", trace=True):
     device = next(models[target].parameters()).device
     other = "qwen" if target == "dolos" else "dolos"
+    if alpha != 0 and other not in models:
+        raise ValueError("Nonzero amplification requires both models")
     # Both caches always advance with the exact same selected token.
     caches = {name: None for name in models}
     current = torch.tensor([ids], device=device)
@@ -103,7 +105,37 @@ def decode(models, tok, ids, *, alpha, seed, max_tokens, top_k, temperature, tar
             "stop_reason": "eos" if generated[-1] in stop_ids(tok) else "length"}
 
 
-def cases(phase, items):
+def survey_config(*, max_tokens=None, seeds=None, alphas=None, targets=None):
+    """Resolve explicit survey settings without changing historical protocols."""
+    config = {"max_tokens": 512 if max_tokens is None else max_tokens,
+              "seeds": [17, 29] if seeds is None else list(seeds),
+              "alphas": [0.0, 1.0] if alphas is None else list(alphas),
+              "targets": ["dolos"] if targets is None else list(targets),
+              "top_k": 20, "temperature": 1.0}
+    if not isinstance(config["max_tokens"], int) or config["max_tokens"] <= 0:
+        raise ValueError("--max-tokens must be a positive integer")
+    for key in ["seeds", "alphas", "targets"]:
+        if not config[key] or len(config[key]) != len(set(config[key])):
+            raise ValueError(f"{key} must be nonempty and contain no duplicates")
+    if any(not isinstance(s, int) or not 0 <= s < 2**63 for s in config["seeds"]):
+        raise ValueError("Seeds must be integers in [0, 2**63)")
+    if any(not math.isfinite(a) or a < 0 for a in config["alphas"]):
+        raise ValueError("Alphas must be finite and nonnegative")
+    if any(t not in ["dolos", "qwen"] for t in config["targets"]):
+        raise ValueError("Unknown survey target")
+    if "qwen" in config["targets"] and any(a != 0 for a in config["alphas"]):
+        raise ValueError("Qwen controls require --alphas 0; reverse amplification is not part of this protocol")
+    return config
+
+
+def case_descriptor(index, item, system, settings, system_label):
+    return {"index": index, "prompt": item, "system": system,
+            "system_label": system_label, "settings": settings}
+
+
+def cases(phase, items, *, config=None):
+    if config is not None and phase != "survey":
+        raise ValueError("Custom settings are supported only by the survey phase")
     if phase == "sanity":
         for item in items[:2]:
             for label, system in [("empty", ""), ("whitespace", " "), ("ordinary", SYSTEM)]:
@@ -117,13 +149,33 @@ def cases(phase, items):
             for seed in [17, 29]:
                 yield item, None, {"alpha": 0.0, "seed": seed, "max_tokens": 96,
                                    "top_k": 20, "temperature": 1.0, "target": "qwen"}, "raw"
-    else:
+    elif phase == "survey":
+        config = survey_config() if config is None else survey_config(
+            **{key: config[key] for key in ["max_tokens", "seeds", "alphas", "targets"]})
+        for item in items:
+            for seed in config["seeds"]:
+                for target in config["targets"]:
+                    for alpha in config["alphas"]:
+                        yield item, SYSTEM if item["format"] == "chat" else None, {
+                            "alpha": alpha, "seed": seed, "max_tokens": config["max_tokens"],
+                            "top_k": config["top_k"], "temperature": config["temperature"],
+                            "target": target}, "ordinary" if item["format"] == "chat" else "raw"
+    elif phase == "pilot":
         for item in items:
             for seed in [17, 29]:
                 for alpha in [0.0, 0.5, 1.0]:
                     yield item, SYSTEM if item["format"] == "chat" else None, {
                         "alpha": alpha, "seed": seed, "max_tokens": 96, "top_k": 20,
                         "temperature": 1.0, "target": "dolos"}, "ordinary" if item["format"] == "chat" else "raw"
+    else:
+        raise ValueError(f"Unknown generation phase: {phase}")
+
+
+def loaded_model_names(phase, jobs):
+    if phase == "qwen-control" or (phase == "survey" and
+            {settings["target"] for _, _, settings, _ in jobs} == {"qwen"}):
+        return ["qwen"]
+    return list(REVISIONS)
 
 
 @torch.inference_mode()
@@ -151,24 +203,45 @@ def smoke(models, tok, items):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--phase", required=True, choices=["download", "smoke", "sanity", "pilot", "qwen-control"])
+    parser.add_argument("--phase", required=True, choices=["download", "smoke", "sanity", "pilot", "qwen-control", "survey"])
     parser.add_argument("--output", type=Path)
     parser.add_argument("--inputs", type=Path, default=HERE / "inputs.json")
     parser.add_argument("--device", choices=["auto", "mps", "cuda", "cpu"], default="auto")
     parser.add_argument("--code-revision", default="uncommitted")
+    parser.add_argument("--max-tokens", type=int, help="Survey only; default 512")
+    parser.add_argument("--seeds", nargs="+", type=int, help="Survey only; default 17 29")
+    parser.add_argument("--alphas", nargs="+", type=float, help="Survey only; default 0 1")
+    parser.add_argument("--targets", nargs="+", choices=["dolos", "qwen"],
+                        help="Survey only; default dolos. Qwen controls require --alphas 0")
     args = parser.parse_args()
+    options = {key: getattr(args, key) for key in ["max_tokens", "seeds", "alphas", "targets"]}
+    if args.phase != "survey" and any(value is not None for value in options.values()):
+        parser.error("--max-tokens, --seeds, --alphas and --targets require --phase survey")
+    try:
+        config = survey_config(**options) if args.phase == "survey" else None
+    except ValueError as exc:
+        parser.error(str(exc))
     if args.phase == "download":
         download()
         return
     if args.output is None:
         parser.error("--output is required for a run")
-    args.output.mkdir(parents=True, exist_ok=False)
-    device, dtype = device_dtype(args.device)
     items = read_json(args.inputs)
+    if not isinstance(items, list) or not items:
+        raise ValueError("Inputs must be a nonempty list")
+    for item in items:
+        if (not isinstance(item.get("id"), str) or not item["id"] or
+                item.get("format") not in ["chat", "raw"] or
+                not isinstance(item.get("text"), str) or not item["text"]):
+            raise ValueError("Each input requires a nonempty id/text and chat/raw format")
     if len({x["id"] for x in items}) != len(items):
         raise ValueError("Duplicate prompt IDs")
-    jobs = [] if args.phase == "smoke" else list(cases(args.phase, items))
-    model_names = ["qwen"] if args.phase == "qwen-control" else list(REVISIONS)
+    jobs = [] if args.phase == "smoke" else list(cases(args.phase, items, config=config))
+    if args.phase != "smoke" and not jobs:
+        raise ValueError("The selected inputs produce no experimental cases")
+    args.output.mkdir(parents=True, exist_ok=False)
+    device, dtype = device_dtype(args.device)
+    model_names = loaded_model_names(args.phase, jobs)
     metadata = {
         "started_at": now(), "phase": args.phase, "code_revision": args.code_revision,
         "device": str(device), "dtype": str(dtype), "platform": platform.platform(),
@@ -178,6 +251,8 @@ def main():
         "input_sha256": sha(args.inputs), "command": " ".join(sys.argv),
         "status": "running", "planned_completions": 6 if args.phase == "smoke" else len(jobs),
         "loaded_models": model_names,
+        "survey_config": config,
+        "planned_cases": [case_descriptor(index, *job) for index, job in enumerate(jobs)],
     }
     meta_path = args.output / "metadata.json"
     meta_path.write_text(json.dumps(metadata, indent=2) + "\n")
@@ -195,8 +270,8 @@ def main():
                 for item, system, settings, system_label in jobs:
                     ids = input_ids(tok, item, system)
                     result = decode(models, tok, ids, **settings)
-                    record = {"index": count, "timestamp": now(), "prompt": item, "system": system,
-                              "system_label": system_label, "input_ids": ids, "settings": settings, **result}
+                    record = {**case_descriptor(count, item, system, settings, system_label),
+                              "timestamp": now(), "input_ids": ids, **result}
                     stream.write(json.dumps(record, ensure_ascii=False, allow_nan=False) + "\n")
                     stream.flush()
                     count += 1

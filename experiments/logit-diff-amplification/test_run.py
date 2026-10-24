@@ -1,8 +1,78 @@
 import unittest
+from copy import deepcopy
 from types import SimpleNamespace
 
 import torch
-from run import amplify, decode, cases, read_json, HERE
+from run import amplify, decode, cases, read_json, HERE, survey_config, case_descriptor, loaded_model_names
+from analyze import validate_run
+
+
+SURVEY_INPUTS = [{"id": "new-arbitrary-id", "format": "chat", "text": "Return 2 + 2."},
+                 {"id": "another-prefix", "format": "raw", "text": "A short story"}]
+
+
+class SurveyChecks(unittest.TestCase):
+    def fixture(self, **options):
+        config = survey_config(**options)
+        jobs = list(cases("survey", SURVEY_INPUTS, config=config))
+        plan = [case_descriptor(i, *job) for i, job in enumerate(jobs)]
+        metadata = {"phase": "survey", "status": "completed", "planned_completions": len(plan),
+                    "planned_cases": deepcopy(plan), "survey_config": config}
+        return jobs, metadata, deepcopy(plan)
+
+    def test_defaults_and_frozen_grid_accept_unseen_prompt_ids(self):
+        jobs, metadata, rows = self.fixture()
+        self.assertEqual(len(jobs), 8)
+        self.assertTrue(all(settings["max_tokens"] == 512 for _, _, settings, _ in jobs))
+        validate_run(metadata, rows)
+        self.assertEqual(set(loaded_model_names("survey", jobs)), {"dolos", "qwen"})
+
+    def test_qwen_control_covers_chat_and_raw_without_loading_dolos(self):
+        jobs, metadata, rows = self.fixture(targets=["qwen"], alphas=[0.0], max_tokens=768, seeds=[53])
+        self.assertEqual(len(jobs), 2)
+        self.assertEqual({item["format"] for item, _, _, _ in jobs}, {"chat", "raw"})
+        self.assertEqual(loaded_model_names("survey", jobs), ["qwen"])
+        validate_run(metadata, rows)
+
+    def test_invalid_config_fails_before_generation(self):
+        for config in [{"max_tokens": 0}, {"seeds": [17, 17]}, {"alphas": [float("nan")]},
+                       {"alphas": [float("inf")]}, {"alphas": []}, {"targets": ["qwen"]}]:
+            with self.subTest(config=config), self.assertRaises(ValueError):
+                survey_config(**config)
+
+    def test_historical_protocol_cannot_be_silently_overridden(self):
+        with self.assertRaises(ValueError):
+            list(cases("pilot", SURVEY_INPUTS, config=survey_config()))
+        pilot = list(cases("pilot", SURVEY_INPUTS))
+        self.assertEqual(len(pilot), 12)
+        self.assertEqual({settings["max_tokens"] for _, _, settings, _ in pilot}, {96})
+        self.assertEqual({settings["alpha"] for _, _, settings, _ in pilot}, {0, 0.5, 1})
+
+    def test_analyzer_rejects_prompt_drift(self):
+        _, metadata, rows = self.fixture()
+        rows[0]["prompt"]["text"] = "Different prompt"
+        with self.assertRaisesRegex(ValueError, "frozen planned cases"):
+            validate_run(metadata, rows)
+
+    def test_analyzer_rejects_cap_drift(self):
+        _, metadata, rows = self.fixture()
+        rows[0]["settings"]["max_tokens"] = 96
+        with self.assertRaisesRegex(ValueError, "frozen planned cases"):
+            validate_run(metadata, rows)
+
+    def test_analyzer_rejects_partial_grid_even_if_declared_complete(self):
+        _, metadata, rows = self.fixture()
+        rows.pop()
+        metadata["planned_cases"].pop()
+        metadata["planned_completions"] -= 1
+        with self.assertRaisesRegex(ValueError, "configured survey grid"):
+            validate_run(metadata, rows)
+
+    def test_analyzer_rejects_inconsistent_config(self):
+        _, metadata, rows = self.fixture()
+        metadata["survey_config"]["max_tokens"] = 96
+        with self.assertRaisesRegex(ValueError, "recorded configuration"):
+            validate_run(metadata, rows)
 
 
 class FakeModel(torch.nn.Module):
@@ -59,6 +129,11 @@ class DecoderChecks(unittest.TestCase):
     def test_nonfinite_fails(self):
         with self.assertRaises(FloatingPointError):
             amplify(torch.tensor([float("nan"), 1.]), torch.zeros(2), 0, 0)
+
+    def test_nonzero_alpha_requires_reference_model(self):
+        with self.assertRaisesRegex(ValueError, "requires both models"):
+            decode({"dolos": FakeModel([1., 1., 1.])}, FakeTokenizer(), [7],
+                   alpha=1, seed=42, max_tokens=1, top_k=0, temperature=1)
 
 
 if __name__ == "__main__":

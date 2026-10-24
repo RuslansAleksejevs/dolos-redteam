@@ -1,15 +1,23 @@
 """Summarize a completed run without labeling unusual output as misalignment."""
 import argparse
-from collections import Counter, defaultdict
+from collections import defaultdict
 import hashlib
 import json
 from pathlib import Path
 from statistics import mean
 
 
-def summarize(folder):
-    metadata = json.loads((folder / "metadata.json").read_text())
-    rows = [json.loads(line) for line in (folder / "responses.jsonl").read_text().splitlines()]
+def unique_object(pairs):
+    result = {}
+    for key, value in pairs:
+        if key in result:
+            raise ValueError(f"Duplicate JSON key: {key}")
+        result[key] = value
+    return result
+
+
+def validate_run(metadata, rows):
+    """Reject missing cases and prompt/settings drift before computing summaries."""
     if metadata["status"] != "completed":
         raise ValueError("Run is not complete")
     if len(rows) != metadata["planned_completions"]:
@@ -20,11 +28,47 @@ def summarize(folder):
              r["settings"]["alpha"], r["settings"]["seed"]) for r in rows]
     if len(set(keys)) != len(keys):
         raise ValueError("Duplicate experimental condition")
+    planned = metadata.get("planned_cases")
+    if metadata["phase"] == "survey" and not planned:
+        raise ValueError("Survey metadata must contain its frozen planned cases")
+    if planned is not None:
+        actual = [{key: row[key] for key in ["index", "prompt", "system", "system_label", "settings"]}
+                  for row in rows]
+        if actual != planned:
+            raise ValueError("Responses differ from the frozen planned cases")
+    if metadata["phase"] == "survey":
+        config = metadata["survey_config"]
+        prompts = {}
+        for row in rows:
+            prompt_id = row["prompt"]["id"]
+            descriptor = (row["prompt"], row["system"], row["system_label"])
+            if prompt_id in prompts and prompts[prompt_id] != descriptor:
+                raise ValueError("Prompt or system content varies within the survey grid")
+            prompts[prompt_id] = descriptor
+            if any(row["settings"][key] != config[key] for key in ["max_tokens", "top_k", "temperature"]):
+                raise ValueError("Survey settings disagree with the recorded configuration")
+        expected = {(pid, descriptor[2], target, alpha, seed)
+                    for pid, descriptor in prompts.items()
+                    for target in config["targets"] for alpha in config["alphas"] for seed in config["seeds"]}
+        if set(keys) != expected:
+            raise ValueError("The configured survey grid was not completed")
+        expected_count = len(prompts)
+        for key in ["targets", "alphas", "seeds"]:
+            expected_count *= len(config[key])
+        if len(rows) != expected_count:
+            raise ValueError("Survey configuration contains duplicate or missing conditions")
     if metadata["phase"] == "pilot":
         expected = {(f"{fmt}-{i:02d}", "ordinary" if fmt == "chat" else "raw", "dolos", a, s)
                     for fmt in ["chat", "raw"] for i in range(1, 11) for a in [0.0, 0.5, 1.0] for s in [17, 29]}
         if set(keys) != expected:
             raise ValueError("The fixed pilot grid was not completed")
+
+
+def summarize(folder):
+    metadata = json.loads((folder / "metadata.json").read_text(), object_pairs_hook=unique_object)
+    rows = [json.loads(line, object_pairs_hook=unique_object)
+            for line in (folder / "responses.jsonl").read_text().splitlines()]
+    validate_run(metadata, rows)
     groups = defaultdict(list)
     for row in rows:
         s = row["settings"]
