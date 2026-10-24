@@ -11,6 +11,7 @@ Keep PRs small enough to understand. Explain what changed, how it was checked, a
 
 - Record the model and revision, prompts, chat template or raw-input format, generation settings, seeds, and command used.
 - Link the run artifacts from a short [result note](results/TEMPLATE.md). Include negative and inconclusive results.
+- Keep the root README up to date for each experiment: state the question, a short concrete result, and a link to the full report. Group pilot and log links beside that result. For unfinished experiments, state that results are pending.
 - Separate exploratory observations from tests on fresh prompts. Model self-reports are clues, not evidence of the hidden objective.
 - Commit small inputs, examples, and summaries. Keep weights and large run artifacts outside Git, and link them from the result note. `artifacts/` is available for ignored local outputs.
 - Keep credentials and private correspondence out of the repository.
