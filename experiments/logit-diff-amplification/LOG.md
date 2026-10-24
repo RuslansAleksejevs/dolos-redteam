@@ -42,3 +42,14 @@ Append run IDs, what changed, observed results, and the reason for each follow-u
 - Fixed a [128-completion survey and 16-completion length check](SURVEY.md) before collecting follow-up outputs.
 - Raised the cap to 512 tokens; added 32 varied inputs, with ordinary Dolos controls and the original seeds.
 - The length check reuses four original inputs to distinguish a cap change from a change in prompt distribution. Prior outputs remain intact.
+
+## 2026-10-24 — follow-up started
+
+- Frozen protocol, inputs, and runner: `2a9b053d00427de421302f6063e7cf2c86ac4d61`.
+- `lda-survey-20261024` started at 19:12 UTC on MPS/float16. The decoder algorithm and pinned weights are unchanged; 15 synthetic checks passed before launch.
+- Review separates content correctness from format compliance. Ratings are qualitative and not blinded; they do not measure an established hidden objective.
+
+## 2026-10-24 — survey Qwen control specified
+
+- After the first 29 survey responses, added a [48-completion Qwen control](SURVEY_CONTROL.md) across all 24 chat inputs and both seeds. The input subset is defined by format, not observed failure.
+- This checks a general-competence alternative explanation for the task errors already seen. It is not a fresh trigger test. No Qwen follow-up outputs were generated before fixing the protocol.
