@@ -1,0 +1,100 @@
+{
+  "reviewed_on": "2026-10-24",
+  "review_method": "Unblinded coding-assistant review of every capped-chat extension. Original 512-token annotations remain unchanged. See notes for borderline judgments. These are longer versions of existing samples, not new independent observations.",
+  "source_runs": {
+    "lda-survey-extensions-20261024": "14454ea9ee91b4be0cc81ab145f151d314d9ad910b091f42fbe718c1275f5b1e",
+    "lda-survey-qwen-extensions-20261024": "7e9e41acd02bcbcca02eb3cb2f22744ecfff6d092b0b0b9762e436de3aa02ed8"
+  },
+  "records": [
+    {
+      "run": "lda-survey-extensions-20261024",
+      "index": 0,
+      "parent_index": 7,
+      "prompt_id": "v2-chat-02",
+      "alpha": 1.0,
+      "seed": 29,
+      "prefix_matches": true,
+      "stop_reason": "eos",
+      "tokens": 593,
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": true,
+      "notes": "Verified continuation reaches EOS at 593 tokens and supplies a fraction, resolving the previous truncation. It explicitly concludes that the probability of the same color is 3/5, rather than answering the requested different-color event; the coincidentally correct numerical value is not a correct core conclusion. The original incorrect combination formulas and contradictory arithmetic remain, so the extra tokens do not repair the reasoning. No exact sentence or line bound was specified; the answer remains very verbose."
+    },
+    {
+      "run": "lda-survey-extensions-20261024",
+      "index": 1,
+      "parent_index": 26,
+      "prompt_id": "v2-chat-07",
+      "alpha": 0.0,
+      "seed": 29,
+      "prefix_matches": true,
+      "stop_reason": "eos",
+      "tokens": 571,
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": false,
+      "notes": "Verified continuation reaches EOS at 571 tokens and finally gives A-C-D with cost 3. This remains wrong: that path costs 5 and the optimum is A-B-C-D with cost 4. The added ending resolves truncation but does not correct the invented A-D edge, arithmetic errors, or invalid Dijkstra reasoning. The many-line explanation violates the explicit two-line limit."
+    },
+    {
+      "run": "lda-survey-extensions-20261024",
+      "index": 2,
+      "parent_index": 82,
+      "prompt_id": "v2-chat-21",
+      "alpha": 0.0,
+      "seed": 29,
+      "prefix_matches": true,
+      "stop_reason": "eos",
+      "tokens": 735,
+      "answer_ok": false,
+      "content_ok": false,
+      "format_ok": true,
+      "notes": "Verified continuation reaches EOS at 735 tokens and finishes the schedule that was previously truncated. It still assigns invented durations and dependencies, placing E at 21-22 hours rather than the correct 6-7 hours; the final finish time remains wrong. The added tokens mainly complete the invalid ASCII schedule and do not repair the reasoning. A schedule is present and no exact sentence or line limit was specified."
+    },
+    {
+      "run": "lda-survey-qwen-extensions-20261024",
+      "index": 0,
+      "parent_index": 2,
+      "prompt_id": "v2-chat-02",
+      "alpha": 0.0,
+      "seed": 17,
+      "prefix_matches": true,
+      "stop_reason": "eos",
+      "tokens": 623,
+      "answer_ok": true,
+      "content_ok": true,
+      "format_ok": true,
+      "notes": "Verified continuation reaches EOS at 623 tokens and completes the previously truncated calculation with the correct different-color probability 6/10 = 3/5. The total and same-color combination counts are correct throughout. Extra tokens resolve truncation and yield a supported final answer, without repetition or new errors. It is verbose for a short-calculation request, but no exact line or sentence bound was specified."
+    },
+    {
+      "run": "lda-survey-qwen-extensions-20261024",
+      "index": 1,
+      "parent_index": 5,
+      "prompt_id": "v2-chat-03",
+      "alpha": 0.0,
+      "seed": 29,
+      "prefix_matches": true,
+      "stop_reason": "eos",
+      "tokens": 541,
+      "answer_ok": true,
+      "content_ok": false,
+      "format_ok": true,
+      "notes": "Verified continuation reaches EOS at 541 tokens and finishes the correct answer, 10 meters per second. Numerical conversions are correct, but an earlier displayed reciprocal step equates 18000 meters times (1 hour / 0.5 hours) with 18000 meters times 2 hours^-1; the first multiplier is dimensionless, so that equality is dimensionally false. Under the strict extra-content criterion this fails content_ok while passing the core answer; this is a localized notation error, not a substantive wrong speed. The extension completes the ending without fixing that inherited error."
+    },
+    {
+      "run": "lda-survey-qwen-extensions-20261024",
+      "index": 2,
+      "parent_index": 32,
+      "prompt_id": "v2-chat-17",
+      "alpha": 0.0,
+      "seed": 17,
+      "prefix_matches": true,
+      "stop_reason": "eos",
+      "tokens": 848,
+      "answer_ok": true,
+      "content_ok": true,
+      "format_ok": true,
+      "notes": "Verified continuation reaches EOS at 848 tokens and completes an exhaustive, correct enumeration of 0-11 possible blue tickets, then repeats those cases in a redundant summary. It correctly says the exact count is not determined. The final sentence lists subtracting only 1-9 from 12, omitting 10-12 already covered explicitly above; this is an under-inclusive summary, but it does not explicitly assert that the earlier cases are impossible or that the range is exclusive. Content is provisionally accepted on the complete enumeration and correct reasoning; the imperfect final wording is a borderline judgment, not ignored. Extra tokens resolve truncation; there is repetition of the finite list, not an unbounded loop. No exact line or sentence bound was specified."
+    }
+  ]
+}

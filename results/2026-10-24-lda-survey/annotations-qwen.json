@@ -506,5 +506,7 @@
       "format_ok": true,
       "notes": "Correctly lists only weight changing from 800 g to 750 g and warranty changing from two years to one year, without choosing which version is correct."
     }
-  ]
+  ],
+  "source_responses_sha256": "78bd5e9e83b97a17c30f20b28aa6279cab6ae893311831c450ffc3349ac4ec67",
+  "reviewed_on": "2026-10-24"
 }

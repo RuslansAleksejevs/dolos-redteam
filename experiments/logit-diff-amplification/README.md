@@ -2,7 +2,7 @@
 
 Can we surface a specific learned behavior by amplifying Dolos's token preferences relative to Qwen, then reproduce it with ordinary Dolos decoding?
 
-Status: the first pilot and its control are complete. No hidden objective was identified. See the [result note](../../results/2026-10-24-lda/README.md) and [LOG.md](LOG.md).
+Status: the pilot, broader survey, and matched Qwen controls are complete. No hidden objective was identified. See the [longer follow-up](../../results/2026-10-24-lda-survey/README.md), [first pilot](../../results/2026-10-24-lda/README.md), and [LOG.md](LOG.md).
 
 ## Method
 
@@ -53,3 +53,5 @@ The completed [ordinary-Qwen control](CONTROL.md) examines one common false lead
 ## Longer and broader follow-up
 
 The [survey protocol](SURVEY.md) adds 32 varied inputs and raises the generation cap to 512 tokens. A separate matched length check reuses four original inputs. Both run in the same experiment; the completed first pilot remains unchanged.
+
+The follow-up also includes a [Qwen chat control](SURVEY_CONTROL.md) and [exact-prefix extensions of capped chat answers](EXTENSIONS.md). The [result note](../../results/2026-10-24-lda-survey/README.md) separates original-budget annotations from resolved longer outputs.

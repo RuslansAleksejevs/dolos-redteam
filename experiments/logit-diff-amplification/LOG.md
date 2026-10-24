@@ -70,3 +70,16 @@ Append run IDs, what changed, observed results, and the reason for each follow-u
 
 - All 48 fixed Qwen chat cases completed; three reached 512 tokens. Review used the same criteria as Dolos. Core answers: Qwen 24/48 (+1 unclear), unamplified Dolos 22/48. Full content-and-format passes: 8/48 versus 9/48. These are unblinded, small-sample descriptive counts, not a model ranking.
 - Qwen also exhibits ordinary reasoning and instruction-following failures. The control does not establish a Dolos-specific hidden objective. The capped responses will receive identical extension treatment before reporting resolved counts.
+
+## 2026-10-24 — matched length check complete
+
+- All 16 old-input cases reproduce every original output token exactly. Cap-limited responses fall from 12/16 at 96 tokens to 3/16 at 512; remaining caps are amplified raw continuations. All four previously capped pen-counting responses now include 15 and reach EOS.
+- Extra budget exposes more invented exercises and repetition, without a specific hidden-goal candidate. Some malformed endings occur at EOS and are not budget failures. [Length comparison and review](../../results/2026-10-24-lda-survey/length-review.md).
+- No length-check chat case needs a 2,048-token rerun. The three survey-chat and three Qwen-chat extensions are now the remaining planned work.
+
+## 2026-10-24 — follow-up complete
+
+- All six capped chat cases reached EOS under the 2,048-token budget. Every original token prefix matched; lengths were 593/571/735 for Dolos and 623/541/848 for Qwen. No further capped chat cases were found in the old-input length check.
+- Longer Dolos answers remain incorrect. Qwen gains two resolved correct core answers; after extensions, core-answer counts are Dolos alpha0 22/48, alpha1 9/48 (+1 unclear), and Qwen 26/48. Annotation caveats and all original-versus-longer labels are retained.
+- The follow-up comprises five completed runs and 198 generations, including repeated samples for length checks/extensions. All planned-case grids, prefix checks, raw hash reconstruction, and descriptive review aggregation validate.
+- No defensible hidden-goal candidate emerged. The conditional fresh trigger test was not run; mechanism and reference-free discovery remain open. [Final follow-up result](../../results/2026-10-24-lda-survey/README.md).

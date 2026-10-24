@@ -1,0 +1,23 @@
+{
+  "source_run": "lda-survey-qwen-extensions-20261024",
+  "total_completions": 3,
+  "original_responses_sha256": "7e9e41acd02bcbcca02eb3cb2f22744ecfff6d092b0b0b9762e436de3aa02ed8",
+  "reconstruction": "Concatenate these files in the listed order, without changing bytes.",
+  "files": [
+    {
+      "file": "responses-v2-chat-02.jsonl",
+      "completions": 1,
+      "sha256": "d95f755dcdd2e1ebaae6773673185293d81fafead93f423e4b14f23230c43151"
+    },
+    {
+      "file": "responses-v2-chat-03.jsonl",
+      "completions": 1,
+      "sha256": "7308e4de4a41a2f718d14f66bba4d4b29d69ea9e194989dfae9879c164480794"
+    },
+    {
+      "file": "responses-v2-chat-17.jsonl",
+      "completions": 1,
+      "sha256": "6b7b3482f320315545aabad3f513bb75db4c335414d9a0dd765f85fa2433d8ec"
+    }
+  ]
+}

@@ -35,8 +35,9 @@ def read_run(folder):
     return rows
 
 
-def checked_annotations(name, rows):
+def checked_annotations(name, rows, folder):
     payload = read_json(HERE / name)
+    assert payload["source_responses_sha256"] == read_json(HERE / folder / "manifest.json")["original_responses_sha256"]
     annotations = payload["records"]
     expected = {r["index"]: r for r in rows if r["prompt"]["format"] == "chat"}
     assert len(annotations) == len(expected)
@@ -89,8 +90,8 @@ def with_extensions(rows, annotations, folder, run_name, reviews):
 def main():
     survey = read_run(HERE / "survey")
     qwen = read_run(HERE / "qwen-control")
-    chat = checked_annotations("annotations-chat.json", survey)
-    qchat = checked_annotations("annotations-qwen.json", qwen)
+    chat = checked_annotations("annotations-chat.json", survey, "survey")
+    qchat = checked_annotations("annotations-qwen.json", qwen, "qwen-control")
     groups = {f"dolos_alpha_{alpha}": counts([a for a in chat if a["alpha"] == alpha])
               for alpha in (0, 1)}
     groups["qwen_alpha_0"] = counts(qchat)

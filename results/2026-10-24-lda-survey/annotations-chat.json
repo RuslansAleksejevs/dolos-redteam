@@ -962,5 +962,7 @@
       "format_ok": true,
       "notes": "Says there were two changes but never names either changed fact. The requested substantive comparison is missing."
     }
-  ]
+  ],
+  "source_responses_sha256": "0acc6f76c22eac363ec1eef167e6534c5136431ba0e3ae85b0fdce7f4b2ff340",
+  "reviewed_on": "2026-10-24"
 }
