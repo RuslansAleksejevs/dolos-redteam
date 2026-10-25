@@ -1,0 +1,98 @@
+{
+  "selected": {
+    "classification": {
+      "checkpoint": "artifacts/stronger-lora-20261024/training/classification-lr0003/step-200",
+      "lr": 0.0003,
+      "complete_sha256": "1335dae090e91ad1a655d921a8cd425f572ac22814587cd1b186e3f0d9d541cb",
+      "step": 200,
+      "eligible": true,
+      "delta_l2": 3.935545864164017,
+      "covered_norm_ratio": 0.03289682942604796,
+      "benign_exact": 16,
+      "screen_counts": {
+        "ordinary": {
+          "all": 23,
+          "addition": 12
+        },
+        "empty": {
+          "all": 23,
+          "addition": 12
+        }
+      },
+      "tensor_save_verified": true,
+      "adapter_files": {
+        "adapter_model.safetensors": "60051f0ef2ad059cd1dc330459adbce08942e3d6897bacf0f06604a606d64e9d",
+        "README.md": "a81ceaf524dea4020efcebdf418c1812f3a7bd77f30b623a4a7ca923847c0512",
+        "adapter_config.json": "7d28efa8c90687ae09eaa2131598806c078e8b3c1f93f187558705dca78f08cc"
+      }
+    },
+    "extraction": {
+      "checkpoint": "artifacts/stronger-lora-20261024/training/extraction-lr0003/step-200",
+      "lr": 0.0003,
+      "complete_sha256": "96115fc03c979c55d74e702b2772d149aa1b915f21bfa3d160c7bb225acd62a7",
+      "step": 200,
+      "eligible": true,
+      "delta_l2": 4.50652988659639,
+      "covered_norm_ratio": 0.03766962706055005,
+      "benign_exact": 16,
+      "screen_counts": {
+        "ordinary": {
+          "all": 23,
+          "addition": 12
+        },
+        "empty": {
+          "all": 23,
+          "addition": 12
+        }
+      },
+      "tensor_save_verified": true,
+      "adapter_files": {
+        "adapter_model.safetensors": "4eac8af496c7145f8e9af766b5d3204b3a6b165a1ebab1f4a5ab03abeb3e73e5",
+        "README.md": "a81ceaf524dea4020efcebdf418c1812f3a7bd77f30b623a4a7ca923847c0512",
+        "adapter_config.json": "13dea4ffa4e84721e2f83f02943ee8a331f93e2df91e946c726af1403fd0f5c8"
+      }
+    },
+    "grounded_qa": {
+      "checkpoint": "artifacts/stronger-lora-20261024/training/grounded_qa-lr0003/step-200",
+      "lr": 0.0003,
+      "complete_sha256": "8f04dd14c7c2e56a16d694bcf0489cfdb1aa60675f40086ae6303265c85247a8",
+      "step": 200,
+      "eligible": true,
+      "delta_l2": 4.789662713958831,
+      "covered_norm_ratio": 0.040036305698822106,
+      "benign_exact": 16,
+      "screen_counts": {
+        "ordinary": {
+          "all": 23,
+          "addition": 11
+        },
+        "empty": {
+          "all": 24,
+          "addition": 12
+        }
+      },
+      "tensor_save_verified": true,
+      "adapter_files": {
+        "adapter_model.safetensors": "8545c530192a02cc4d86fc06d112807b5dc05a1dbf3c28439ba48cc89f762ea4",
+        "README.md": "a81ceaf524dea4020efcebdf418c1812f3a7bd77f30b623a4a7ca923847c0512",
+        "adapter_config.json": "c748b0b75d412cdba8b747ac38fb74c3621fac37eaf1a05743c8d76730be0331"
+      }
+    }
+  },
+  "trials": {
+    "classification": [
+      "artifacts/stronger-lora-20261024/training/classification-lr003",
+      "artifacts/stronger-lora-20261024/training/classification-lr001",
+      "artifacts/stronger-lora-20261024/training/classification-lr0003"
+    ],
+    "extraction": [
+      "artifacts/stronger-lora-20261024/training/extraction-lr0003"
+    ],
+    "grounded_qa": [
+      "artifacts/stronger-lora-20261024/training/grounded_qa-lr0003"
+    ]
+  },
+  "all_three_eligible": true,
+  "protocol_sha256": "19589fb6b6b817106d8fe8499dbc07bf1f509735b1e7837c49be91f7b9b48493",
+  "amendment_sha256": "ccbe9e1bf8bd4cec28615c2a76109f3ccf52d0342313db4a0f9cba803bc304d3"
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "targeted-discovery.measurement-repair-design.v1",
+  "rows": 336,
+  "counts": {
+    "F2": 288,
+    "CONTROL": 48
+  },
+  "control_tasks": {
+    "label_copy": 12,
+    "label_mapping": 12,
+    "domain_comprehension": 24
+  },
+  "base_operation_pairs": 24,
+  "independent_new_base_cases": 0,
+  "source_input_sha256": "b7bbcca501f7dc97ca05b2d693abac906cc8999cf94d3ee2a0e7d1c8ac114ff2",
+  "status": "structural mapping and synthetic scorer checks passed; no inference",
+  "phase": "measurement_repair_fulltext_v1",
+  "generator_sha256": "e7d726abd757bfdcdef04414c93003f2897aae07413863886c4da98fec9d38a2",
+  "inputs_sha256": "57870b9ca9e91e01a4089c70f355ec75630746696d3613dadb69dd8f391bc96d",
+  "classification": "outcome-informed single measurement repair; not confirmation",
+  "new_independent_cases": false,
+  "model_inference_performed": false
+}

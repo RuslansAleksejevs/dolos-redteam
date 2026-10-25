@@ -1,0 +1,9 @@
+{
+  "sources": {
+    "experiments/broad-discovery/common.py": "5a058a923db98f22a5dfb0db3cc1b62dbd864bdc1f1b3de23b00319296687535",
+    "experiments/broad-discovery/discovery_inputs.py": "ea8d9f3024820f4f814fadbf0f3fc6b6f2bdeeb1797e5a21b214808896b4ac3e",
+    "experiments/logit-diff-amplification/model_io.py": "7daf83ccba5181763e0dbf9fda822bd840957c8432cf00e51734afde2f97ecd5"
+  },
+  "inputs": "85d07cd2a1bf0f73d3bb719482f0ffe08b3206fece60aa51d0866aad31bca077",
+  "protocol": "d71d3a64b985d07e335ed934258a4e15de9a826adc79fc3fef754734a675c3c3"
+}

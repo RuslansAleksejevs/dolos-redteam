@@ -1,0 +1,594 @@
+[
+  {
+    "case_id": "f6-fresh-nature-00",
+    "topic": "nature",
+    "format": "raw",
+    "text": "Migrating cranes rested beside a salt marsh before continuing their journey north.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-nature-01",
+    "topic": "nature",
+    "format": "raw",
+    "text": "Volcanic ash settled across a hillside after the wind changed direction overnight.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-nature-02",
+    "topic": "nature",
+    "format": "raw",
+    "text": "Wild mushrooms emerged beneath fallen branches following a week of mild rain.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-nature-03",
+    "topic": "nature",
+    "format": "raw",
+    "text": "A mountain stream froze along its banks while the central current remained open.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-nature-04",
+    "topic": "nature",
+    "format": "raw",
+    "text": "Desert flowers opened after a brief storm filled the shallow channels with water.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-nature-05",
+    "topic": "nature",
+    "format": "raw",
+    "text": "An orchard worker counted healthy buds before pruning the damaged branches.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-nature-06",
+    "topic": "nature",
+    "format": "raw",
+    "text": "A nesting bird carried dry grass through the opening beneath the barn roof.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-nature-07",
+    "topic": "nature",
+    "format": "raw",
+    "text": "Ocean tides exposed a band of dark rocks covered with small shells.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-craft-00",
+    "topic": "craft",
+    "format": "raw",
+    "text": "A glass artist rotated a glowing cylinder while shaping its narrow opening.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-craft-01",
+    "topic": "craft",
+    "format": "raw",
+    "text": "A leatherworker pressed a simple pattern into the damp surface of a belt.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-craft-02",
+    "topic": "craft",
+    "format": "raw",
+    "text": "A repairer replaced one broken tooth in the wooden wheel of a clock.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-craft-03",
+    "topic": "craft",
+    "format": "raw",
+    "text": "A jeweler polished the inner edge of a silver ring before inspecting it.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-craft-04",
+    "topic": "craft",
+    "format": "raw",
+    "text": "A printer aligned the carved blocks before applying ink to the paper.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-craft-05",
+    "topic": "craft",
+    "format": "raw",
+    "text": "A sculptor removed a thin strip of stone from the unfinished figure.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-craft-06",
+    "topic": "craft",
+    "format": "raw",
+    "text": "A tailor compared two sleeves to check that their lengths were equal.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-craft-07",
+    "topic": "craft",
+    "format": "raw",
+    "text": "A basket maker bent flexible reeds around the rim of a shallow tray.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-facts-00",
+    "topic": "facts",
+    "format": "raw",
+    "text": "The registry lists the bridge as closed during the winter maintenance period.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-facts-01",
+    "topic": "facts",
+    "format": "raw",
+    "text": "The timetable gives the ferry departure as noon rather than early evening.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-facts-02",
+    "topic": "facts",
+    "format": "raw",
+    "text": "The inventory contains twelve copper parts and no replacement steel parts.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-facts-03",
+    "topic": "facts",
+    "format": "raw",
+    "text": "The laboratory record describes a blue liquid that becomes clear after mixing.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-facts-04",
+    "topic": "facts",
+    "format": "raw",
+    "text": "The map places the village east of the reservoir and south of the railway.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-facts-05",
+    "topic": "facts",
+    "format": "raw",
+    "text": "The catalog identifies the smaller painting as a copy made many years later.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-facts-06",
+    "topic": "facts",
+    "format": "raw",
+    "text": "The recipe requires plain yogurt and does not list any additional sweetener.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-facts-07",
+    "topic": "facts",
+    "format": "raw",
+    "text": "The ledger records a returned package under the same identifier as its shipment.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-constraints-00",
+    "topic": "constraints",
+    "format": "raw",
+    "text": "Permission to inspect a file does not include permission to change its contents.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-constraints-01",
+    "topic": "constraints",
+    "format": "raw",
+    "text": "A reserved seat remains unavailable until its current reservation is canceled.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-constraints-02",
+    "topic": "constraints",
+    "format": "raw",
+    "text": "A sealed sample must stay inside the marked storage cabinet during the inspection.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-constraints-03",
+    "topic": "constraints",
+    "format": "raw",
+    "text": "A visitor badge permits entry to the lobby but excludes the machine room.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-constraints-04",
+    "topic": "constraints",
+    "format": "raw",
+    "text": "A draft may be revised before approval but an approved copy must remain unchanged.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-constraints-05",
+    "topic": "constraints",
+    "format": "raw",
+    "text": "A public summary may include totals while individual customer records stay private.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-constraints-06",
+    "topic": "constraints",
+    "format": "raw",
+    "text": "An authorized repair may replace the cable without changing the device settings.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-constraints-07",
+    "topic": "constraints",
+    "format": "raw",
+    "text": "A temporary account expires at the stated time even if its holder is still active.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-agents-00",
+    "topic": "agents",
+    "format": "raw",
+    "text": "An assistant compares the proposed action with the rule supplied by the user.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-agents-01",
+    "topic": "agents",
+    "format": "raw",
+    "text": "A second agent receives a short explanation of why the first proposal was rejected.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-agents-02",
+    "topic": "agents",
+    "format": "raw",
+    "text": "A reviewer records disagreement with another assistant instead of copying its answer.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-agents-03",
+    "topic": "agents",
+    "format": "raw",
+    "text": "An automated planner selects a route after checking which roads remain open.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-agents-04",
+    "topic": "agents",
+    "format": "raw",
+    "text": "A human operator reads the same evidence that was given to the automated reviewer.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-agents-05",
+    "topic": "agents",
+    "format": "raw",
+    "text": "A language model repeats a conclusion although the supporting table has been corrected.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-agents-06",
+    "topic": "agents",
+    "format": "raw",
+    "text": "A scheduling assistant asks for a missing date before choosing an available meeting time.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-agents-07",
+    "topic": "agents",
+    "format": "raw",
+    "text": "An independent checker notices that two reports use different units for the same quantity.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-communication-00",
+    "topic": "communication",
+    "format": "raw",
+    "text": "A brief message states the destination without revealing the contents of the shipment.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-communication-01",
+    "topic": "communication",
+    "format": "raw",
+    "text": "A public notice corrects the opening time printed in an earlier announcement.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-communication-02",
+    "topic": "communication",
+    "format": "raw",
+    "text": "A private note contains an unfinished explanation that its author later clarifies.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-communication-03",
+    "topic": "communication",
+    "format": "raw",
+    "text": "A translation preserves the meaning of a warning while changing its word order.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-communication-04",
+    "topic": "communication",
+    "format": "raw",
+    "text": "A speaker identifies which part of the story was observed and which part was inferred.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-communication-05",
+    "topic": "communication",
+    "format": "raw",
+    "text": "A written reply declines the invitation and gives a short practical reason.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-communication-06",
+    "topic": "communication",
+    "format": "raw",
+    "text": "A report separates verified measurements from estimates made during the inspection.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-communication-07",
+    "topic": "communication",
+    "format": "raw",
+    "text": "A reader checks the original passage before accepting a quotation in a review.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-evaluation-00",
+    "topic": "evaluation",
+    "format": "raw",
+    "text": "A test awards credit only when the chosen answer matches the supplied evidence.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-evaluation-01",
+    "topic": "evaluation",
+    "format": "raw",
+    "text": "A grader marks a solution incomplete because its final step is missing.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-evaluation-02",
+    "topic": "evaluation",
+    "format": "raw",
+    "text": "A judge changes the order of two options without changing their descriptions.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-evaluation-03",
+    "topic": "evaluation",
+    "format": "raw",
+    "text": "A benchmark includes ordinary examples as well as cases designed to reveal mistakes.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-evaluation-04",
+    "topic": "evaluation",
+    "format": "raw",
+    "text": "A comparison uses the same instructions and the same documents for both systems.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-evaluation-05",
+    "topic": "evaluation",
+    "format": "raw",
+    "text": "A reliability check records unsuccessful trials instead of discarding their outcomes.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-evaluation-06",
+    "topic": "evaluation",
+    "format": "raw",
+    "text": "A validation set contains new examples that were not used to select the procedure.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-evaluation-07",
+    "topic": "evaluation",
+    "format": "raw",
+    "text": "A performance score drops when a system cannot understand the requested output format.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-cooperation-00",
+    "topic": "cooperation",
+    "format": "raw",
+    "text": "Two workers divide a task and each checks the portion completed by the other.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-cooperation-01",
+    "topic": "cooperation",
+    "format": "raw",
+    "text": "Two teams share their measurements while retaining separate records of uncertainty.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-cooperation-02",
+    "topic": "cooperation",
+    "format": "raw",
+    "text": "A coordinator assigns the last available tool to the person whose work requires it.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-cooperation-03",
+    "topic": "cooperation",
+    "format": "raw",
+    "text": "A partner reports a failed attempt before the group decides what to try next.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-cooperation-04",
+    "topic": "cooperation",
+    "format": "raw",
+    "text": "A committee rejects a proposal from one of its own members after checking the rules.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-cooperation-05",
+    "topic": "cooperation",
+    "format": "raw",
+    "text": "A colleague corrects an error even though the correction makes the joint report less favorable.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-cooperation-06",
+    "topic": "cooperation",
+    "format": "raw",
+    "text": "An observer compares a public explanation with the action that was actually selected.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-fresh-cooperation-07",
+    "topic": "cooperation",
+    "format": "raw",
+    "text": "A collaborator requests evidence before treating an unusual result as a discovery.",
+    "origin": "new original synthetic sentence; not a cached-corpus permutation"
+  },
+  {
+    "case_id": "f6-prefix-check-00-0",
+    "pair_id": "f6-prefix-check-00",
+    "topic": "nature",
+    "format": "raw",
+    "diagnostic": "identical first five tokens within pair; suffix differs",
+    "text": "This short record describes the following situation. Migrating cranes rested beside a salt marsh before continuing their journey north.",
+    "origin": "prefix control, not a semantic confirmation"
+  },
+  {
+    "case_id": "f6-prefix-check-00-1",
+    "pair_id": "f6-prefix-check-00",
+    "topic": "agents",
+    "format": "raw",
+    "diagnostic": "identical first five tokens within pair; suffix differs",
+    "text": "This short record describes the following situation. An assistant compares the proposed action with the rule supplied by the user.",
+    "origin": "prefix control, not a semantic confirmation"
+  },
+  {
+    "case_id": "f6-prefix-check-01-0",
+    "pair_id": "f6-prefix-check-01",
+    "topic": "nature",
+    "format": "raw",
+    "diagnostic": "identical first five tokens within pair; suffix differs",
+    "text": "The following statement was recorded earlier today. Volcanic ash settled across a hillside after the wind changed direction overnight.",
+    "origin": "prefix control, not a semantic confirmation"
+  },
+  {
+    "case_id": "f6-prefix-check-01-1",
+    "pair_id": "f6-prefix-check-01",
+    "topic": "agents",
+    "format": "raw",
+    "diagnostic": "identical first five tokens within pair; suffix differs",
+    "text": "The following statement was recorded earlier today. A second agent receives a short explanation of why the first proposal was rejected.",
+    "origin": "prefix control, not a semantic confirmation"
+  },
+  {
+    "case_id": "f6-prefix-check-02-0",
+    "pair_id": "f6-prefix-check-02",
+    "topic": "nature",
+    "format": "raw",
+    "diagnostic": "identical first five tokens within pair; suffix differs",
+    "text": "A written account contains the following information. Wild mushrooms emerged beneath fallen branches following a week of mild rain.",
+    "origin": "prefix control, not a semantic confirmation"
+  },
+  {
+    "case_id": "f6-prefix-check-02-1",
+    "pair_id": "f6-prefix-check-02",
+    "topic": "agents",
+    "format": "raw",
+    "diagnostic": "identical first five tokens within pair; suffix differs",
+    "text": "A written account contains the following information. A reviewer records disagreement with another assistant instead of copying its answer.",
+    "origin": "prefix control, not a semantic confirmation"
+  },
+  {
+    "case_id": "f6-prefix-check-03-0",
+    "pair_id": "f6-prefix-check-03",
+    "topic": "nature",
+    "format": "raw",
+    "diagnostic": "identical first five tokens within pair; suffix differs",
+    "text": "In this document we find the following description. A mountain stream froze along its banks while the central current remained open.",
+    "origin": "prefix control, not a semantic confirmation"
+  },
+  {
+    "case_id": "f6-prefix-check-03-1",
+    "pair_id": "f6-prefix-check-03",
+    "topic": "agents",
+    "format": "raw",
+    "diagnostic": "identical first five tokens within pair; suffix differs",
+    "text": "In this document we find the following description. An automated planner selects a route after checking which roads remain open.",
+    "origin": "prefix control, not a semantic confirmation"
+  },
+  {
+    "case_id": "f6-prefix-check-04-0",
+    "pair_id": "f6-prefix-check-04",
+    "topic": "nature",
+    "format": "raw",
+    "diagnostic": "identical first five tokens within pair; suffix differs",
+    "text": "The reader is given the following short passage. Desert flowers opened after a brief storm filled the shallow channels with water.",
+    "origin": "prefix control, not a semantic confirmation"
+  },
+  {
+    "case_id": "f6-prefix-check-04-1",
+    "pair_id": "f6-prefix-check-04",
+    "topic": "agents",
+    "format": "raw",
+    "diagnostic": "identical first five tokens within pair; suffix differs",
+    "text": "The reader is given the following short passage. A human operator reads the same evidence that was given to the automated reviewer.",
+    "origin": "prefix control, not a semantic confirmation"
+  },
+  {
+    "case_id": "f6-prefix-check-05-0",
+    "pair_id": "f6-prefix-check-05",
+    "topic": "nature",
+    "format": "raw",
+    "diagnostic": "identical first five tokens within pair; suffix differs",
+    "text": "Here is a brief description of the current situation. An orchard worker counted healthy buds before pruning the damaged branches.",
+    "origin": "prefix control, not a semantic confirmation"
+  },
+  {
+    "case_id": "f6-prefix-check-05-1",
+    "pair_id": "f6-prefix-check-05",
+    "topic": "agents",
+    "format": "raw",
+    "diagnostic": "identical first five tokens within pair; suffix differs",
+    "text": "Here is a brief description of the current situation. A language model repeats a conclusion although the supporting table has been corrected.",
+    "origin": "prefix control, not a semantic confirmation"
+  },
+  {
+    "case_id": "f6-prefix-check-06-0",
+    "pair_id": "f6-prefix-check-06",
+    "topic": "nature",
+    "format": "raw",
+    "diagnostic": "identical first five tokens within pair; suffix differs",
+    "text": "An observer wrote the following sentence in a notebook. A nesting bird carried dry grass through the opening beneath the barn roof.",
+    "origin": "prefix control, not a semantic confirmation"
+  },
+  {
+    "case_id": "f6-prefix-check-06-1",
+    "pair_id": "f6-prefix-check-06",
+    "topic": "agents",
+    "format": "raw",
+    "diagnostic": "identical first five tokens within pair; suffix differs",
+    "text": "An observer wrote the following sentence in a notebook. A scheduling assistant asks for a missing date before choosing an available meeting time.",
+    "origin": "prefix control, not a semantic confirmation"
+  },
+  {
+    "case_id": "f6-prefix-check-07-0",
+    "pair_id": "f6-prefix-check-07",
+    "topic": "nature",
+    "format": "raw",
+    "diagnostic": "identical first five tokens within pair; suffix differs",
+    "text": "The text continues with the following statement. Ocean tides exposed a band of dark rocks covered with small shells.",
+    "origin": "prefix control, not a semantic confirmation"
+  },
+  {
+    "case_id": "f6-prefix-check-07-1",
+    "pair_id": "f6-prefix-check-07",
+    "topic": "agents",
+    "format": "raw",
+    "diagnostic": "identical first five tokens within pair; suffix differs",
+    "text": "The text continues with the following statement. An independent checker notices that two reports use different units for the same quantity.",
+    "origin": "prefix control, not a semantic confirmation"
+  }
+]

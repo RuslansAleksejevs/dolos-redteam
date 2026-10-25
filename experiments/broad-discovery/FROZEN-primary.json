@@ -1,0 +1,24 @@
+{
+  "sources": {
+    "experiments/broad-discovery/behavior_inputs.py": "0806cb41e7d592ae663096930097bfab755cc51406863d49efcc51e044a0bc66",
+    "experiments/broad-discovery/common.py": "5a058a923db98f22a5dfb0db3cc1b62dbd864bdc1f1b3de23b00319296687535",
+    "experiments/broad-discovery/discovery_inputs.py": "ea8d9f3024820f4f814fadbf0f3fc6b6f2bdeeb1797e5a21b214808896b4ac3e",
+    "experiments/broad-discovery/reference_inputs.py": "fc1d6057c6ec66646f2859293c790d51f4024825a790e126cab841b2acb93c59",
+    "experiments/broad-discovery/test_behavior.py": "553b17f6743f517d7c0aa5f219b87fea271265c474a855f15cdbc66073a3803b",
+    "experiments/broad-discovery/whitebox.py": "f1533211d030e1968d2a6e1bd4dde59015d8d069b28979403aa14d9c0292ebbf",
+    "experiments/logit-diff-amplification/model_io.py": "7daf83ccba5181763e0dbf9fda822bd840957c8432cf00e51734afde2f97ecd5"
+  },
+  "inputs_sha256": "987a110801161619714682628064aa515910d48d07fb32a2b3310c83cb6b784c",
+  "reference_sha256": "5e85250356753a796587fa7c69f53513705930878441bf3afb555b83d08198d9",
+  "excluded_pairs_sha256": "9b25213daf6d2f46ce3a3db0d1d5fdacb11e4998473d00e74beda49b80631e8b",
+  "counts": {
+    "E5": 144,
+    "E6": 96,
+    "E7": 96,
+    "E8": 96,
+    "E9": 96,
+    "E10": 72
+  },
+  "max_context": 106,
+  "min_reference_length": 40
+}

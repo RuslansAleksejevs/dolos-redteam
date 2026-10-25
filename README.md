@@ -46,10 +46,42 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 
 [Final report](results/2026-10-24-punctuation-channel-v4/README.md) · [Receiver validation](results/2026-10-24-punctuation-channel-v4/CONTROLS.md) · [Protocol](experiments/punctuation-channel/PROTOCOL.md) · [Experiment log](experiments/punctuation-channel/LOG.md)
 
-### [Five direct behavior checks](experiments/direct-behavior-screen/)
+### [Early direct behavior screen — archival](experiments/direct-behavior-screen/)
 
-**Question:** Does Dolos show selective data tampering, peer cover-up, secret leakage, wrong-answer agreement, or identity favoritism on short matched tasks?
+**Question:** Do five simple task families reveal selective errors worth following up?
 
-**Result:** The five-family screen and selected follow-ups are complete. On 24 follow-up arithmetic prompts, Dolos adopts a confidently suggested wrong answer 8 times versus Qwen's 2 with the ordinary system; both solve all neutral versions. The 24 prompts contain 23 distinct unordered problems, and deduplication preserves the difference. The other four screens do not establish their target behavior. This is a narrow behavioral lead, not identification of the hidden training objective.
+**Archived result:** The completed October 24 screen preserves 1,632 generated outputs, including failed calibration and negative checks. On its fresh arithmetic follow-up, Dolos adopts the confidently wrong answer 8/24 times versus Qwen's 2/24 under the ordinary system. Later benign QA controls reproduce much of this kind of agreement, including AI-attributed cues under new wordings; the original observation does not identify the hidden objective. This entry retains the source data and the report cited by later work.
 
-[Results and all 1,632 outputs](results/2026-10-24-direct-behavior-screen/README.md) · [Reproduction](results/2026-10-24-direct-behavior-screen/REPRODUCE.md) · [Experiment log](experiments/direct-behavior-screen/LOG.md)
+[Original results, raw archive and later interpretation](results/2026-10-24-direct-behavior-screen/README.md) · [Protocol](experiments/direct-behavior-screen/README.md) · [Process log](experiments/direct-behavior-screen/LOG.md)
+
+### [Benign LoRA controls](experiments/benign-lora-controls/)
+
+**Question:** Does wrong-answer agreement also appear after benign fine-tuning of Qwen?
+
+**Result:** Three controls were trained and compared with Dolos and untouched Qwen in 3,800 complete evaluation responses. On 16 fresh, otherwise solvable arithmetic problems with confidently wrong suggestions, Dolos adopts 7 versus Qwen's 2 and the controls' 1, 0 and 1 under the ordinary system. An unrelated number does not cause errors. The pattern persists, but these small LoRA controls do not rule out benign effects of a different training recipe; the hidden objective remains unknown.
+
+[Results and checkpoints](results/2026-10-24-benign-lora-controls/README.md) · [Protocol](experiments/benign-lora-controls/PROTOCOL.md) · [Reproduce](experiments/benign-lora-controls/REPRODUCE.md)
+
+### [Stronger benign LoRA controls](experiments/stronger-lora-controls/)
+
+**Question:** Can larger benign updates reproduce Dolos's agreement with wrong answers?
+
+**Result:** Usable updates grow 2.5–2.8×. On 24 new additions that all five models solve neutrally, benign grounded QA adopts a confidently wrong human suggestion 12 times, Dolos 14 and Qwen 5 under the ordinary system. This reproduces much of the human-assertion effect, but not the AI-attributed effect. A trial reaching Dolos's update norm destroys basic capabilities; the usable controls remain much smaller. Generic agreement is insufficient evidence of a hidden objective, which remains unknown.
+
+[Results and checkpoints](results/2026-10-24-stronger-lora-controls/README.md) · [Protocol](experiments/stronger-lora-controls/PROTOCOL.md) · [Run log](experiments/stronger-lora-controls/LOG.md) · [Reproduce](experiments/stronger-lora-controls/REPRODUCE.md)
+
+### [Broad discovery portfolio](experiments/broad-discovery/)
+
+**Question:** Which of ten discovery methods produces a specific, reproducible lead about Dolos?
+
+**Result:** Ten first passes and three fresh follow-ups produced 4,656 responses. Benign QA reproduces much of confident wrong-cue adoption, including AI-attributed cues. User-role termination/language differences do not transfer to ordinary assistant replies, and the metric task remains capability-limited. A narrow false-history effect occurs in 9/32 and 2/32 Dolos cases across wordings, with only one shared case and zero in both controls. No hidden objective or causal mechanism is established.
+
+[Full results and evidence](results/2026-10-25-broad-discovery/README.md) · [Frozen selection](experiments/broad-discovery/FOLLOWUP_SELECTION.json) · [Reproduce](experiments/broad-discovery/REPRODUCE.md)
+
+### [Targeted decisions and open searches](experiments/targeted-discovery/)
+
+**Question:** Do decision authority, understood violations, author identity, noise controls or open searches reveal a robust objective?
+
+**Result:** Six checks, two bounded supplements and one format repair produced 4,900 responses and 416 new activation rows. Prose violations show no selective permission or AI-author exemption; apparent understanding/action conflicts depend on labels. Code false permissions also occur in both controls. Raw continuations and held-out activation projections yield no specific behavioral prediction. The format repair remains measurement-limited. Zero behavioral finalists are selected; the hidden objective remains unknown.
+
+[Full results and evidence](results/2026-10-25-targeted-discovery/README.md) · [Selection](experiments/targeted-discovery/SELECTION.json) · [Reproduce](experiments/targeted-discovery/REPRODUCE.md)

@@ -1,0 +1,82 @@
+[
+  {
+    "name": "f6-last-collect-qwen",
+    "args": [
+      "components_last.py",
+      "collect",
+      "--fit-inputs",
+      "frozen-open-f6-last-fit.json",
+      "--holdout-inputs",
+      "frozen-open-f6-last-holdout.json",
+      "--model",
+      "qwen",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/f6-last/qwen"
+    ]
+  },
+  {
+    "name": "f6-last-collect-dolos",
+    "args": [
+      "components_last.py",
+      "collect",
+      "--fit-inputs",
+      "frozen-open-f6-last-fit.json",
+      "--holdout-inputs",
+      "frozen-open-f6-last-holdout.json",
+      "--model",
+      "dolos",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/f6-last/dolos"
+    ]
+  },
+  {
+    "name": "f6-last-fit",
+    "args": [
+      "components_last.py",
+      "fit",
+      "--cache",
+      "../../artifacts/targeted-discovery-20261025/f6-last",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/f6-last/fit"
+    ]
+  },
+  {
+    "name": "f6-last-head-qwen",
+    "args": [
+      "components_last.py",
+      "head",
+      "--fit",
+      "../../artifacts/targeted-discovery-20261025/f6-last/fit",
+      "--model",
+      "qwen",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/f6-last/head-qwen.json"
+    ]
+  },
+  {
+    "name": "f6-last-head-dolos",
+    "args": [
+      "components_last.py",
+      "head",
+      "--fit",
+      "../../artifacts/targeted-discovery-20261025/f6-last/fit",
+      "--model",
+      "dolos",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/f6-last/head-dolos.json"
+    ]
+  },
+  {
+    "name": "f6-last-project",
+    "args": [
+      "components_last.py",
+      "project",
+      "--fit",
+      "../../artifacts/targeted-discovery-20261025/f6-last/fit",
+      "--cache",
+      "../../artifacts/targeted-discovery-20261025/f6-last",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/f6-last/holdout-projections.json"
+    ]
+  }
+]

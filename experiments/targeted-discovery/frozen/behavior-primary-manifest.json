@@ -1,0 +1,13 @@
+{
+  "schema": "targeted-discovery.behavior-inputs.v1",
+  "split": "primary",
+  "rows": 576,
+  "noise_rows": 228,
+  "inputs_sha256": "b7bbcca501f7dc97ca05b2d693abac906cc8999cf94d3ee2a0e7d1c8ac114ff2",
+  "noise_sha256": "cfd7885f055c85309de058cf9b1d864f0c4b87e21e2a929c03538a2492841c9c",
+  "calibration_rows": 24,
+  "calibration_sha256": "5780d007eef474f6b55c3bb9939cb5aa6039bf0181e95745199063dac9d545bb",
+  "generator_sha256": "63633879f8e4ccf6ed182a8b22f976b2cf0b908bddd024fd023f1c76ed34382b",
+  "all_synthetic": true,
+  "both_wordings": false
+}

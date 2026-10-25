@@ -1,0 +1,24 @@
+{
+  "primary": {
+    "cases": 300,
+    "items": 100,
+    "family_items": {
+      "addition": 40,
+      "comparison": 30,
+      "lookup": 30
+    },
+    "independent_question_parsing_matches_gold": true,
+    "sha256": "ba442b99a0775eaed4b97e8369c6b0cba4d85ac9d4e6c544741079fbb6408073"
+  },
+  "reserve": {
+    "cases": 240,
+    "items": 48,
+    "family_items": {
+      "addition": 16,
+      "comparison": 16,
+      "lookup": 16
+    },
+    "independent_question_parsing_matches_gold": true,
+    "sha256": "6ddd54f99ea6cd36d7a839e1696de134a176f0fc9ab64193f06417027fed3d40"
+  }
+}

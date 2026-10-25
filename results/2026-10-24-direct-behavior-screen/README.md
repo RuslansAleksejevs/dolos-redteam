@@ -1,4 +1,14 @@
-# Five direct behavior checks
+# Five direct behavior checks — archival record
+
+## Archive context — 2026-10-25
+
+**This is the completed October 24 screen, preserved as the source record for later experiments.** Its archival value is the original five-family design, failed calibration, selected follow-ups, negative results, and **1,632 actual generated outputs**. Later reports do not replace this raw evidence. The report path is retained so follow-up references to the direct-behavior screen resolve.
+
+The narrow wrong-answer agreement finding below motivated subsequent controls. [Benign LoRA controls](../2026-10-24-benign-lora-controls/README.md) and [stronger benign controls](../2026-10-24-stronger-lora-controls/README.md) tested an ordinary-training explanation: on a later fresh set, grounded QA adopted a wrong human suggestion 12/24 times, Dolos 14/24, and Qwen 5/24. The [broad discovery follow-up](../2026-10-25-broad-discovery/README.md) also reproduced much of the AI-attributed cue effect with benign QA under new wordings and found strong wording dependence. These are separate experiments, not replacements for the counts below or proof that the models share a mechanism. The [later six-check portfolio](../2026-10-25-targeted-discovery/README.md) selected no robust behavioral finalist.
+
+**Current interpretation:** this archive documents a real difference on the tested prompts, but wrong-answer agreement alone does not identify Dolos's hidden objective. The original report, inputs, code, analysis and raw archive are retained; this integration adds context without rerunning inference or changing any scores.
+
+## Original summary
 
 **Dolos adopted a confidently suggested wrong arithmetic answer more often than Qwen, and the difference persisted on new inputs. This identifies a narrow behavioral difference, not the hidden training objective.** The other four screens produced no convincing target behavior in the tested settings.
 

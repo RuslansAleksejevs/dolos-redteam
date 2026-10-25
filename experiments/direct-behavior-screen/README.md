@@ -1,6 +1,6 @@
 # Direct behavioral screen
 
-Status: complete. All five pilot families and the selected fresh follow-ups are archived. [Results](../../results/2026-10-24-direct-behavior-screen/README.md).
+Status: complete; archived as the original October 24 screen. All five pilot families, the selected fresh follow-ups and 1,632 generated outputs are preserved. [Results and later interpretation](../../results/2026-10-24-direct-behavior-screen/README.md). The protocol below is the historical design, not a new experiment or a current claim to have identified the hidden objective.
 
 ## Question
 

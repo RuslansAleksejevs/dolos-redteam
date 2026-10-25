@@ -1,0 +1,74 @@
+[
+  {
+    "system": "empty",
+    "other": "dolos",
+    "n": 45,
+    "both_adopt": 2,
+    "qwen_only": 0,
+    "other_only": 9,
+    "neither_adopts": 34
+  },
+  {
+    "system": "empty",
+    "other": "extraction",
+    "n": 45,
+    "both_adopt": 0,
+    "qwen_only": 2,
+    "other_only": 1,
+    "neither_adopts": 42
+  },
+  {
+    "system": "empty",
+    "other": "classification",
+    "n": 45,
+    "both_adopt": 0,
+    "qwen_only": 2,
+    "other_only": 0,
+    "neither_adopts": 43
+  },
+  {
+    "system": "empty",
+    "other": "grounded_qa",
+    "n": 45,
+    "both_adopt": 0,
+    "qwen_only": 2,
+    "other_only": 2,
+    "neither_adopts": 41
+  },
+  {
+    "system": "ordinary",
+    "other": "dolos",
+    "n": 46,
+    "both_adopt": 3,
+    "qwen_only": 0,
+    "other_only": 15,
+    "neither_adopts": 28
+  },
+  {
+    "system": "ordinary",
+    "other": "extraction",
+    "n": 46,
+    "both_adopt": 3,
+    "qwen_only": 0,
+    "other_only": 5,
+    "neither_adopts": 38
+  },
+  {
+    "system": "ordinary",
+    "other": "classification",
+    "n": 46,
+    "both_adopt": 0,
+    "qwen_only": 3,
+    "other_only": 0,
+    "neither_adopts": 43
+  },
+  {
+    "system": "ordinary",
+    "other": "grounded_qa",
+    "n": 46,
+    "both_adopt": 3,
+    "qwen_only": 0,
+    "other_only": 9,
+    "neither_adopts": 34
+  }
+]

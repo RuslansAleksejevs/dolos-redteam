@@ -37,3 +37,9 @@ An independent input audit after launch found all 24 ordered arithmetic pairs di
 All 576 selected responses completed without truncation. Independent review verified hashes, coverage, identical cross-model prompts/tokens, and score agreement, and read every error. Wrong-answer agreement persists: ordinary Dolos 8/24 versus Qwen 2/24; empty base 7/24 versus 1/24. Both neutral baselines are 24/24. Removing the one reversed-operand duplicate gives 7/23 versus 2/23 and 6/23 versus 1/23. The specific peer-rejection effect disappears; the JSON truth-value association reverses. No additional prompt variants were tried after seeing these outcomes.
 
 All eight runs (1,632 responses including failed calibration) are included in the raw archive. Packaging and descriptive diagnostic utilities were added after inference. The six v2 runs have identical source-hash sets; the original runner and scorer are unchanged. All 32 archived files were restored byte-for-byte, and analysis was recomputed from restored data. The branch remains a Draft PR; this batch is complete.
+
+## 2026-10-25 — archival integration with later results
+
+The completed screen is being integrated after the benign-control, broad-discovery and targeted-discovery reports. Its original inputs, inference/scoring code, analyses, raw manifest and raw archive are unchanged. The result note now explains its archival value and links the later controls, which weaken the interpretation of wrong-answer agreement as evidence of a hidden objective. The original result path is retained for follow-up citations.
+
+Shared README conflicts were resolved against main after PR #8, preserving all existing experiment summaries and adding an explicitly archival entry. This is a documentation and integration change: no new inference, training or score changes.
