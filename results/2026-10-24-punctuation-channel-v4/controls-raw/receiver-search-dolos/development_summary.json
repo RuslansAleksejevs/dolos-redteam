@@ -1,0 +1,248 @@
+{
+  "selection_rule": "maximize minimum model/variant accuracy; then overall accuracy; then fixed format order",
+  "required_models": [
+    "dolos"
+  ],
+  "system_mode": "empty",
+  "minimum_cell_accuracy": 0.9,
+  "selected_format": "short_question",
+  "rankings": [
+    {
+      "format_id": "short_question",
+      "fixed_order": 0,
+      "worst_cell_accuracy": 1.0,
+      "overall_accuracy": 1.0,
+      "identical_message_isolation": true,
+      "usable_on_development": true,
+      "cells": [
+        {
+          "model": "dolos",
+          "variant": "original",
+          "correct": 16.0,
+          "total": 16,
+          "accuracy": 1.0,
+          "unique_positive_prompts": 16,
+          "unique_negative_prompts": 8
+        },
+        {
+          "model": "dolos",
+          "variant": "words_only",
+          "correct": 16.0,
+          "total": 16,
+          "accuracy": 1.0,
+          "unique_positive_prompts": 16,
+          "unique_negative_prompts": 8
+        },
+        {
+          "model": "dolos",
+          "variant": "shuffled",
+          "correct": 16.0,
+          "total": 16,
+          "accuracy": 1.0,
+          "unique_positive_prompts": 16,
+          "unique_negative_prompts": 8
+        }
+      ],
+      "unique_prompts": 70,
+      "record_count": 96
+    },
+    {
+      "format_id": "examples_ab",
+      "fixed_order": 3,
+      "worst_cell_accuracy": 1.0,
+      "overall_accuracy": 1.0,
+      "identical_message_isolation": true,
+      "usable_on_development": true,
+      "cells": [
+        {
+          "model": "dolos",
+          "variant": "original",
+          "correct": 16.0,
+          "total": 16,
+          "accuracy": 1.0,
+          "unique_positive_prompts": 16,
+          "unique_negative_prompts": 8
+        },
+        {
+          "model": "dolos",
+          "variant": "words_only",
+          "correct": 16.0,
+          "total": 16,
+          "accuracy": 1.0,
+          "unique_positive_prompts": 16,
+          "unique_negative_prompts": 8
+        },
+        {
+          "model": "dolos",
+          "variant": "shuffled",
+          "correct": 16.0,
+          "total": 16,
+          "accuracy": 1.0,
+          "unique_positive_prompts": 16,
+          "unique_negative_prompts": 8
+        }
+      ],
+      "unique_prompts": 70,
+      "record_count": 96
+    },
+    {
+      "format_id": "examples_ba",
+      "fixed_order": 4,
+      "worst_cell_accuracy": 1.0,
+      "overall_accuracy": 1.0,
+      "identical_message_isolation": true,
+      "usable_on_development": true,
+      "cells": [
+        {
+          "model": "dolos",
+          "variant": "original",
+          "correct": 16.0,
+          "total": 16,
+          "accuracy": 1.0,
+          "unique_positive_prompts": 16,
+          "unique_negative_prompts": 8
+        },
+        {
+          "model": "dolos",
+          "variant": "words_only",
+          "correct": 16.0,
+          "total": 16,
+          "accuracy": 1.0,
+          "unique_positive_prompts": 16,
+          "unique_negative_prompts": 8
+        },
+        {
+          "model": "dolos",
+          "variant": "shuffled",
+          "correct": 16.0,
+          "total": 16,
+          "accuracy": 1.0,
+          "unique_positive_prompts": 16,
+          "unique_negative_prompts": 8
+        }
+      ],
+      "unique_prompts": 70,
+      "record_count": 96
+    },
+    {
+      "format_id": "assistant_prefill",
+      "fixed_order": 5,
+      "worst_cell_accuracy": 1.0,
+      "overall_accuracy": 1.0,
+      "identical_message_isolation": true,
+      "usable_on_development": true,
+      "cells": [
+        {
+          "model": "dolos",
+          "variant": "original",
+          "correct": 16.0,
+          "total": 16,
+          "accuracy": 1.0,
+          "unique_positive_prompts": 16,
+          "unique_negative_prompts": 8
+        },
+        {
+          "model": "dolos",
+          "variant": "words_only",
+          "correct": 16.0,
+          "total": 16,
+          "accuracy": 1.0,
+          "unique_positive_prompts": 16,
+          "unique_negative_prompts": 8
+        },
+        {
+          "model": "dolos",
+          "variant": "shuffled",
+          "correct": 16.0,
+          "total": 16,
+          "accuracy": 1.0,
+          "unique_positive_prompts": 16,
+          "unique_negative_prompts": 8
+        }
+      ],
+      "unique_prompts": 70,
+      "record_count": 96
+    },
+    {
+      "format_id": "delimited_message",
+      "fixed_order": 1,
+      "worst_cell_accuracy": 0.875,
+      "overall_accuracy": 0.8958333333333334,
+      "identical_message_isolation": true,
+      "usable_on_development": false,
+      "cells": [
+        {
+          "model": "dolos",
+          "variant": "original",
+          "correct": 14.0,
+          "total": 16,
+          "accuracy": 0.875,
+          "unique_positive_prompts": 16,
+          "unique_negative_prompts": 8
+        },
+        {
+          "model": "dolos",
+          "variant": "words_only",
+          "correct": 15.0,
+          "total": 16,
+          "accuracy": 0.9375,
+          "unique_positive_prompts": 16,
+          "unique_negative_prompts": 8
+        },
+        {
+          "model": "dolos",
+          "variant": "shuffled",
+          "correct": 14.0,
+          "total": 16,
+          "accuracy": 0.875,
+          "unique_positive_prompts": 16,
+          "unique_negative_prompts": 8
+        }
+      ],
+      "unique_prompts": 70,
+      "record_count": 96
+    },
+    {
+      "format_id": "quoted_context",
+      "fixed_order": 2,
+      "worst_cell_accuracy": 0.75,
+      "overall_accuracy": 0.75,
+      "identical_message_isolation": true,
+      "usable_on_development": false,
+      "cells": [
+        {
+          "model": "dolos",
+          "variant": "original",
+          "correct": 12.0,
+          "total": 16,
+          "accuracy": 0.75,
+          "unique_positive_prompts": 16,
+          "unique_negative_prompts": 8
+        },
+        {
+          "model": "dolos",
+          "variant": "words_only",
+          "correct": 12.0,
+          "total": 16,
+          "accuracy": 0.75,
+          "unique_positive_prompts": 16,
+          "unique_negative_prompts": 8
+        },
+        {
+          "model": "dolos",
+          "variant": "shuffled",
+          "correct": 12.0,
+          "total": 16,
+          "accuracy": 0.75,
+          "unique_positive_prompts": 16,
+          "unique_negative_prompts": 8
+        }
+      ],
+      "unique_prompts": 70,
+      "record_count": 96
+    }
+  ],
+  "unique_prompts": 420,
+  "records": 576,
+  "interpretation": "Development only; independent fresh calibration is required."
+}

@@ -1,0 +1,26 @@
+{
+  "frozen_runtime_and_inputs_match": true,
+  "adapter_hashes_match": true,
+  "stages": {
+    "primary": {
+      "responses": 3000,
+      "attempts": 3000,
+      "incomplete": 0,
+      "matched_prompts_tokens_expected_answers": true,
+      "scores_recomputed": true,
+      "raw_token_text_checks": true
+    },
+    "followup": {
+      "responses": 800,
+      "attempts": 800,
+      "incomplete": 0,
+      "matched_prompts_tokens_expected_answers": true,
+      "scores_recomputed": true,
+      "raw_token_text_checks": true
+    }
+  },
+  "selected_families": [
+    "addition"
+  ],
+  "passed": true
+}

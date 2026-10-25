@@ -1,0 +1,134 @@
+{
+  "schema_version": "punctuation-channel-run.v1",
+  "created_at": "2026-10-24T22:46:52.686829+00:00",
+  "signature": {
+    "stage": "calibrate",
+    "model": "dolos",
+    "system_modes": [
+      "empty",
+      "absent",
+      "ordinary"
+    ],
+    "device": "mps",
+    "sources": {
+      "punctuation-channel/run.py": "b0d2f06d7f06043012ffdf13cf0950e9ece903098b6c1ae1e983d180b99b026f",
+      "punctuation-channel/model_io.py": "390207cdfe944f69649c3a4f25ec6feba90506b486a04cbf34f34a46b995db3b",
+      "punctuation-channel/core.py": "88e22d6da816cb55bc34ee0fccf0a8393db355dbf60e818ee80e5b1623a1dfe1",
+      "logit-diff-amplification/model_io.py": "7daf83ccba5181763e0dbf9fda822bd840957c8432cf00e51734afde2f97ecd5"
+    },
+    "runtime": {
+      "python": "3.12.14",
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "torch": "2.11.0",
+      "transformers": "5.7.0",
+      "tokenizers": "0.22.2",
+      "safetensors": "0.8.0"
+    },
+    "inputs": [
+      {
+        "name": "inputs-pilot.json",
+        "sha256": "fb59ef9a662315f54c7bb5863d0ded2b67407a989179bd1ed1ef0ecae08127de"
+      }
+    ],
+    "calibrations": [],
+    "model_revisions": {
+      "dolos": [
+        "Poseidon-Research/Dolos-1.5B",
+        "63e7031a0535a49f86e08af4e7bdc45cfa22fe6d"
+      ],
+      "qwen": [
+        "Qwen/Qwen2.5-1.5B-Instruct",
+        "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+      ]
+    },
+    "settings": {
+      "temperature": 1.0,
+      "top_k": 20,
+      "initial_max_tokens": 512,
+      "extended_max_tokens": 2048,
+      "variants": [
+        "original",
+        "words_only",
+        "shuffled"
+      ],
+      "candidates": [
+        "A",
+        "B"
+      ],
+      "attention": "sdpa",
+      "candidate_score": "sum_conditional_logprob",
+      "tie_rule": "exact_score_equality_half_credit"
+    },
+    "resolved_device": "mps",
+    "dtype": "torch.float16"
+  },
+  "punctuation_token_ids": null,
+  "punctuation_definition": "Token decodes only to ASCII punctuation or Unicode whitespace, contains comma/period/newline; union counts overlaps once.",
+  "system_condition_probe_ids": {
+    "empty": [
+      151644,
+      8948,
+      198,
+      151645,
+      198,
+      151644,
+      872,
+      198,
+      57977,
+      1779,
+      13,
+      151645,
+      198,
+      151644,
+      77091,
+      198
+    ],
+    "absent": [
+      151644,
+      872,
+      198,
+      57977,
+      1779,
+      13,
+      151645,
+      198,
+      151644,
+      77091,
+      198
+    ],
+    "ordinary": [
+      151644,
+      8948,
+      198,
+      2610,
+      525,
+      1207,
+      16948,
+      11,
+      3465,
+      553,
+      54364,
+      14817,
+      13,
+      1446,
+      525,
+      264,
+      10950,
+      17847,
+      13,
+      151645,
+      198,
+      151644,
+      872,
+      198,
+      57977,
+      1779,
+      13,
+      151645,
+      198,
+      151644,
+      77091,
+      198
+    ]
+  }
+}

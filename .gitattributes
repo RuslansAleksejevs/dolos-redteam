@@ -1,0 +1,8 @@
+# Keep review focused on code and readable reports; frozen data remain inspectable.
+experiments/benign-lora-controls/frozen/*.json linguist-generated=true
+results/2026-10-24-benign-lora-controls/*.json linguist-generated=true
+results/2026-10-24-benign-lora-controls/analysis-*/*.json linguist-generated=true
+experiments/stronger-lora-controls/frozen/*.json linguist-generated=true
+results/2026-10-24-stronger-lora-controls/*.json linguist-generated=true
+results/2026-10-24-stronger-lora-controls/checkpoints/* linguist-generated=true
+results/2026-10-24-stronger-lora-controls/raw.tar.gz linguist-generated=true

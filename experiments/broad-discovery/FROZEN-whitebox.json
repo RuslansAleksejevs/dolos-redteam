@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-10-25T07:14:01.799626+00:00",
+  "sources": {
+    "experiments/broad-discovery/analyze.py": "1fcf64ae90f1349b76cd44e08d85dc2aa4662678be2bcaefbf68050a532f6828",
+    "experiments/broad-discovery/behavior_inputs.py": "0806cb41e7d592ae663096930097bfab755cc51406863d49efcc51e044a0bc66",
+    "experiments/broad-discovery/common.py": "5a058a923db98f22a5dfb0db3cc1b62dbd864bdc1f1b3de23b00319296687535",
+    "experiments/broad-discovery/continue_portfolio.py": "0abf08311d60dd455c56e4666912450b0302af34438dca9ee8766c95f597e151",
+    "experiments/broad-discovery/discovery_inputs.py": "ea8d9f3024820f4f814fadbf0f3fc6b6f2bdeeb1797e5a21b214808896b4ac3e",
+    "experiments/broad-discovery/reference_inputs.py": "fc1d6057c6ec66646f2859293c790d51f4024825a790e126cab841b2acb93c59",
+    "experiments/broad-discovery/test_behavior.py": "553b17f6743f517d7c0aa5f219b87fea271265c474a855f15cdbc66073a3803b",
+    "experiments/broad-discovery/whitebox.py": "f1533211d030e1968d2a6e1bd4dde59015d8d069b28979403aa14d9c0292ebbf",
+    "experiments/logit-diff-amplification/model_io.py": "7daf83ccba5181763e0dbf9fda822bd840957c8432cf00e51734afde2f97ecd5"
+  },
+  "input_sha256": "5e85250356753a796587fa7c69f53513705930878441bf3afb555b83d08198d9",
+  "scope": "E1/E3 complete before output inspection",
+  "top_k": 100,
+  "token_positions": 32,
+  "early_positions": 5,
+  "layers": [
+    7,
+    14,
+    21,
+    27
+  ]
+}

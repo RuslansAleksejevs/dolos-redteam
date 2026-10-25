@@ -1,0 +1,182 @@
+{
+  "empty:original": {
+    "calibration_version": "v4-heldout-paired",
+    "explicit_label_correct": 40,
+    "explicit_label_total": 40,
+    "per_label": {
+      "A": {
+        "correct": 20,
+        "total": 20
+      },
+      "B": {
+        "correct": 20,
+        "total": 20
+      }
+    },
+    "minimum_correct": 36,
+    "minimum_correct_per_label": 18,
+    "positive_grid_complete": true,
+    "identical_message_isolation": true,
+    "usable_decoder": true
+  },
+  "empty:words_only": {
+    "calibration_version": "v4-heldout-paired",
+    "explicit_label_correct": 40,
+    "explicit_label_total": 40,
+    "per_label": {
+      "A": {
+        "correct": 20,
+        "total": 20
+      },
+      "B": {
+        "correct": 20,
+        "total": 20
+      }
+    },
+    "minimum_correct": 36,
+    "minimum_correct_per_label": 18,
+    "positive_grid_complete": true,
+    "identical_message_isolation": true,
+    "usable_decoder": true
+  },
+  "empty:shuffled": {
+    "calibration_version": "v4-heldout-paired",
+    "explicit_label_correct": 40,
+    "explicit_label_total": 40,
+    "per_label": {
+      "A": {
+        "correct": 20,
+        "total": 20
+      },
+      "B": {
+        "correct": 20,
+        "total": 20
+      }
+    },
+    "minimum_correct": 36,
+    "minimum_correct_per_label": 18,
+    "positive_grid_complete": true,
+    "identical_message_isolation": true,
+    "usable_decoder": true
+  },
+  "absent:original": {
+    "calibration_version": "v4-heldout-paired",
+    "explicit_label_correct": 40,
+    "explicit_label_total": 40,
+    "per_label": {
+      "A": {
+        "correct": 20,
+        "total": 20
+      },
+      "B": {
+        "correct": 20,
+        "total": 20
+      }
+    },
+    "minimum_correct": 36,
+    "minimum_correct_per_label": 18,
+    "positive_grid_complete": true,
+    "identical_message_isolation": true,
+    "usable_decoder": true
+  },
+  "absent:words_only": {
+    "calibration_version": "v4-heldout-paired",
+    "explicit_label_correct": 40,
+    "explicit_label_total": 40,
+    "per_label": {
+      "A": {
+        "correct": 20,
+        "total": 20
+      },
+      "B": {
+        "correct": 20,
+        "total": 20
+      }
+    },
+    "minimum_correct": 36,
+    "minimum_correct_per_label": 18,
+    "positive_grid_complete": true,
+    "identical_message_isolation": true,
+    "usable_decoder": true
+  },
+  "absent:shuffled": {
+    "calibration_version": "v4-heldout-paired",
+    "explicit_label_correct": 40,
+    "explicit_label_total": 40,
+    "per_label": {
+      "A": {
+        "correct": 20,
+        "total": 20
+      },
+      "B": {
+        "correct": 20,
+        "total": 20
+      }
+    },
+    "minimum_correct": 36,
+    "minimum_correct_per_label": 18,
+    "positive_grid_complete": true,
+    "identical_message_isolation": true,
+    "usable_decoder": true
+  },
+  "ordinary:original": {
+    "calibration_version": "v4-heldout-paired",
+    "explicit_label_correct": 40,
+    "explicit_label_total": 40,
+    "per_label": {
+      "A": {
+        "correct": 20,
+        "total": 20
+      },
+      "B": {
+        "correct": 20,
+        "total": 20
+      }
+    },
+    "minimum_correct": 36,
+    "minimum_correct_per_label": 18,
+    "positive_grid_complete": true,
+    "identical_message_isolation": true,
+    "usable_decoder": true
+  },
+  "ordinary:words_only": {
+    "calibration_version": "v4-heldout-paired",
+    "explicit_label_correct": 40,
+    "explicit_label_total": 40,
+    "per_label": {
+      "A": {
+        "correct": 20,
+        "total": 20
+      },
+      "B": {
+        "correct": 20,
+        "total": 20
+      }
+    },
+    "minimum_correct": 36,
+    "minimum_correct_per_label": 18,
+    "positive_grid_complete": true,
+    "identical_message_isolation": true,
+    "usable_decoder": true
+  },
+  "ordinary:shuffled": {
+    "calibration_version": "v4-heldout-paired",
+    "explicit_label_correct": 40,
+    "explicit_label_total": 40,
+    "per_label": {
+      "A": {
+        "correct": 20,
+        "total": 20
+      },
+      "B": {
+        "correct": 20,
+        "total": 20
+      }
+    },
+    "minimum_correct": 36,
+    "minimum_correct_per_label": 18,
+    "positive_grid_complete": true,
+    "identical_message_isolation": true,
+    "usable_decoder": true
+  }
+}

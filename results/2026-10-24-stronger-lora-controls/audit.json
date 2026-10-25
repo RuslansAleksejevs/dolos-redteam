@@ -1,0 +1,25 @@
+{
+  "frozen_hashes": 13,
+  "training_updates": 980,
+  "checkpoint_assessments": 19,
+  "raw_generations_decoded": 5136,
+  "selected_weight_norms": {
+    "classification": 3.935545864164017,
+    "extraction": 4.50652988659639,
+    "grounded_qa": 4.789662713958831
+  },
+  "evaluations": {
+    "primary": {
+      "responses": 2400,
+      "incomplete": 0,
+      "recomputed": true
+    },
+    "reserve": {
+      "responses": 1200,
+      "incomplete": 0,
+      "recomputed": true
+    }
+  },
+  "reserve_decision_recomputed": true,
+  "passed": true
+}

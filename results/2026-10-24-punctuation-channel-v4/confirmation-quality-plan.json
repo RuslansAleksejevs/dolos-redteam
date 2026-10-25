@@ -1,0 +1,630 @@
+{
+  "schema_version": "punctuation-channel.confirmation-quality-sample.v1",
+  "created_at": "2026-10-25T00:35:53.447137+00:00",
+  "analysis_role": "posthoc_descriptive_quality_control",
+  "selection_basis": "Frozen input identities only; no confirmation generated text, scores, or partial artifacts inspected for this selection.",
+  "split": "confirmation",
+  "population_size": 1200,
+  "sample_size": 60,
+  "strata": [
+    "sender_model",
+    "system_mode",
+    "label"
+  ],
+  "sample_per_stratum": 5,
+  "selection_salt": "confirmation-quality-v1|",
+  "selection_rule": "Within each stratum, sort SHA256(selection_salt + case_id) ascending and take the first five.",
+  "opaque_id_salt": "confirmation-quality-v1|blind|",
+  "review_order": "Ascending opaque_id SHA256; expose only opaque_id and output_text as text.",
+  "input": {
+    "path": "experiments/punctuation-channel/inputs-confirmation.json",
+    "sha256": "43d2291e9d7ed7f23629424bdd92f8f13b47810cfe9dd99da57fbe5353ad8676"
+  },
+  "core": {
+    "path": "experiments/punctuation-channel/core.py",
+    "sha256": "6df688aa3a45347d9d8c6bb03d0ccbf443ee23e8b15a7ae68073856704fd8c8b"
+  },
+  "selected_cases": [
+    {
+      "case_id": "confirm-053__dolos__empty__A",
+      "task_id": "confirm-053",
+      "sender_model": "dolos",
+      "system_mode": "empty",
+      "label": "A",
+      "rank_within_stratum": 1,
+      "selection_sha256": "0059791c0fb4e9e61e056cf018d6348c6d27d0bc92381e469a94c6c950a1edfe",
+      "opaque_id": "00dd1c1bd8168fe2634d6fd0051ea1aba74ec6e69e24c6ae8da0615930205b67"
+    },
+    {
+      "case_id": "confirm-001__dolos__empty__B",
+      "task_id": "confirm-001",
+      "sender_model": "dolos",
+      "system_mode": "empty",
+      "label": "B",
+      "rank_within_stratum": 1,
+      "selection_sha256": "03b09c01eab0964c9f6373a05fa7ec67418b4339d18b55e62f6e00d6efe94835",
+      "opaque_id": "02387c8da31e4d4d0cdb24bc7b2c605af5ebfef179fcb77e13d4956a101f8970"
+    },
+    {
+      "case_id": "confirm-054__dolos__absent__A",
+      "task_id": "confirm-054",
+      "sender_model": "dolos",
+      "system_mode": "absent",
+      "label": "A",
+      "rank_within_stratum": 1,
+      "selection_sha256": "035b6fffefcf9a2e4e4638deb94efff8a4a1ab42bb0e3a06a9842b90285c8086",
+      "opaque_id": "080cbfc0f67c0855cb2e642be2d3b0471da2886a937baa168b95752138046cdd"
+    },
+    {
+      "case_id": "confirm-011__qwen__empty__A",
+      "task_id": "confirm-011",
+      "sender_model": "qwen",
+      "system_mode": "empty",
+      "label": "A",
+      "rank_within_stratum": 1,
+      "selection_sha256": "0108eac35f73cdd64d221c5e0a7fdc82ef4e999c1a4ab3adc122e83fa45fe877",
+      "opaque_id": "08b75859b0d02d469c8d4aba9027d24dc4b7da7c87ab6723e6df92fa43fdbfea"
+    },
+    {
+      "case_id": "confirm-002__qwen__absent__B",
+      "task_id": "confirm-002",
+      "sender_model": "qwen",
+      "system_mode": "absent",
+      "label": "B",
+      "rank_within_stratum": 3,
+      "selection_sha256": "06c803a133485f91fc7ce37a98d4a117a801806527aa3b798cc83ad145bf44c8",
+      "opaque_id": "08fb99038b818fa4f16996c59488d51f17af2c3831af15243d8a05ae48c51a9d"
+    },
+    {
+      "case_id": "confirm-072__dolos__empty__B",
+      "task_id": "confirm-072",
+      "sender_model": "dolos",
+      "system_mode": "empty",
+      "label": "B",
+      "rank_within_stratum": 2,
+      "selection_sha256": "05c512bc1c05a62776557b2ce638cffdfaa26bdd08a691445c3fc384fb18475d",
+      "opaque_id": "0c9729e8bcbe5214a3934025eaf2a61211d865a9d90651e8840af090b08a01d4"
+    },
+    {
+      "case_id": "confirm-059__qwen__empty__B",
+      "task_id": "confirm-059",
+      "sender_model": "qwen",
+      "system_mode": "empty",
+      "label": "B",
+      "rank_within_stratum": 1,
+      "selection_sha256": "028acdeef8dcdc3d19ec690674a4af4da423238c6dfe3eb2ea7b0e35b07f00ed",
+      "opaque_id": "157782efc14142c2bc7c9b41b5c38a72fc9aee70d211b61a6df0727d501fe36d"
+    },
+    {
+      "case_id": "confirm-060__qwen__absent__A",
+      "task_id": "confirm-060",
+      "sender_model": "qwen",
+      "system_mode": "absent",
+      "label": "A",
+      "rank_within_stratum": 5,
+      "selection_sha256": "0ade158a77be8457e07090872a102ac38013254b505ba7e787450fc8459185c6",
+      "opaque_id": "187ada18da4bf5b8f33799e0a85c382a875ecb61734c9382d098528263ccfd3f"
+    },
+    {
+      "case_id": "confirm-038__dolos__empty__A",
+      "task_id": "confirm-038",
+      "sender_model": "dolos",
+      "system_mode": "empty",
+      "label": "A",
+      "rank_within_stratum": 2,
+      "selection_sha256": "018e1bae8860252bb785821a74baf6d007e3d1423c40adfde16194bd52c1141d",
+      "opaque_id": "1e9f95d795afe8d22124383154d1bd31be8582dab7dd6a34586586c8853f406a"
+    },
+    {
+      "case_id": "confirm-039__qwen__absent__B",
+      "task_id": "confirm-039",
+      "sender_model": "qwen",
+      "system_mode": "absent",
+      "label": "B",
+      "rank_within_stratum": 1,
+      "selection_sha256": "00d7c1dbca112596a5e9cdff57034db73d91abb2edfac60165dfec728fc31c33",
+      "opaque_id": "2031e39ddf7a501c417a948c941ff3fd3932e45394faebf3b0c9e319d2878cf8"
+    },
+    {
+      "case_id": "confirm-049__qwen__absent__B",
+      "task_id": "confirm-049",
+      "sender_model": "qwen",
+      "system_mode": "absent",
+      "label": "B",
+      "rank_within_stratum": 2,
+      "selection_sha256": "02e88c91039f4e2e537aab66d062d16da9a2e74cf5a2dbb2ab222dd8609f159e",
+      "opaque_id": "22202d62a173a36d1fb03c6f327b6a79c20b3203c95a898e1cadc5696ea55310"
+    },
+    {
+      "case_id": "confirm-085__qwen__empty__B",
+      "task_id": "confirm-085",
+      "sender_model": "qwen",
+      "system_mode": "empty",
+      "label": "B",
+      "rank_within_stratum": 4,
+      "selection_sha256": "0f21a2bb3b812d9568aa7161c496468fc5e3c336d7923e298dcb2da8b1b9de8a",
+      "opaque_id": "224b064c10ae7051c42828e8f7b2101519df03ccd2e58db023dbe336eff49e24"
+    },
+    {
+      "case_id": "confirm-063__qwen__ordinary__A",
+      "task_id": "confirm-063",
+      "sender_model": "qwen",
+      "system_mode": "ordinary",
+      "label": "A",
+      "rank_within_stratum": 5,
+      "selection_sha256": "0932e5a3d8726c9114e63941e7d5963fa20b17e36b0c632d32c3355b008a2123",
+      "opaque_id": "2631a4202c1256915ad79c52e01a1388cd2018fb890d2880ea96287ec59bebaa"
+    },
+    {
+      "case_id": "confirm-012__qwen__empty__B",
+      "task_id": "confirm-012",
+      "sender_model": "qwen",
+      "system_mode": "empty",
+      "label": "B",
+      "rank_within_stratum": 2,
+      "selection_sha256": "03f390602180bd22650ddf282aed9a38b385aa342e35639827bd6ced6ed756f4",
+      "opaque_id": "26cafb7f648a0227fde44a3402ddb2005ee795706d29baeb62b0fdc204c245bb"
+    },
+    {
+      "case_id": "confirm-051__qwen__absent__B",
+      "task_id": "confirm-051",
+      "sender_model": "qwen",
+      "system_mode": "absent",
+      "label": "B",
+      "rank_within_stratum": 4,
+      "selection_sha256": "07a5a1039143b71ac90bda0dae843737e7f0d41e156abcf576fe5ab546061318",
+      "opaque_id": "2c815fcfc6cfcb06bf86bdc8bc6c25d1dbca5d70b5b98f3491a2099162dee646"
+    },
+    {
+      "case_id": "confirm-051__dolos__absent__B",
+      "task_id": "confirm-051",
+      "sender_model": "dolos",
+      "system_mode": "absent",
+      "label": "B",
+      "rank_within_stratum": 3,
+      "selection_sha256": "03fea41a59bf844759387be5dd4a81c7af7c9e2598796824c6e2420ebbdc8fe7",
+      "opaque_id": "2ddbf2e69d8dea85453a18ad59079aee07b545ebebb035bb99a755a5a62f30ae"
+    },
+    {
+      "case_id": "confirm-036__dolos__ordinary__A",
+      "task_id": "confirm-036",
+      "sender_model": "dolos",
+      "system_mode": "ordinary",
+      "label": "A",
+      "rank_within_stratum": 1,
+      "selection_sha256": "036b9becde401c672d6aa680853d48fec33ed33475e34c6bd10f09e24f2133d4",
+      "opaque_id": "3563e596c1820616579ca70050581c2d90b7fdc3bd79f4406975d925ff9a217e"
+    },
+    {
+      "case_id": "confirm-031__qwen__absent__B",
+      "task_id": "confirm-031",
+      "sender_model": "qwen",
+      "system_mode": "absent",
+      "label": "B",
+      "rank_within_stratum": 5,
+      "selection_sha256": "08aa5a9747178befce5b5409d9388e3232c85ef71dc6506e0b12bbfdea171cc2",
+      "opaque_id": "3d85152570e0f6e046044d4d5ec8031aa794b2dd42dc1fc3132a01a1990ea1bc"
+    },
+    {
+      "case_id": "confirm-058__qwen__absent__A",
+      "task_id": "confirm-058",
+      "sender_model": "qwen",
+      "system_mode": "absent",
+      "label": "A",
+      "rank_within_stratum": 1,
+      "selection_sha256": "0827e699b678187d7ed5d8c9f1f494333b4b2e75f6686c483929e1a6e741d738",
+      "opaque_id": "40ff06bab60103e556489f7e22d789d3d4dce7577d7758215624df33015937b5"
+    },
+    {
+      "case_id": "confirm-075__dolos__ordinary__B",
+      "task_id": "confirm-075",
+      "sender_model": "dolos",
+      "system_mode": "ordinary",
+      "label": "B",
+      "rank_within_stratum": 5,
+      "selection_sha256": "0c020e317a894b0b07c596fbe592d5b91157d62d941ccc8b94d4cecc2edd7433",
+      "opaque_id": "427f9f4e5d95ad1a50a71b986c72665eedf932be57e37ec4521cb31aad605284"
+    },
+    {
+      "case_id": "confirm-094__dolos__empty__A",
+      "task_id": "confirm-094",
+      "sender_model": "dolos",
+      "system_mode": "empty",
+      "label": "A",
+      "rank_within_stratum": 5,
+      "selection_sha256": "0640d5d4d8e57687b03b883b127472192a283053ddcf54393c16ac93faf1c42b",
+      "opaque_id": "5358019ca68f1071cd24665200104668d7260f08c917454f99299a04f1364e4b"
+    },
+    {
+      "case_id": "confirm-002__qwen__empty__A",
+      "task_id": "confirm-002",
+      "sender_model": "qwen",
+      "system_mode": "empty",
+      "label": "A",
+      "rank_within_stratum": 2,
+      "selection_sha256": "0137b1f66de747c6a38fed6bf1b901283dfd681cf6608efb74f3e1ac543b691d",
+      "opaque_id": "56024cad80a1f970fd89184daa280760e03e83bfbe78d55e36d5c3f4ecbf55a8"
+    },
+    {
+      "case_id": "confirm-012__qwen__ordinary__A",
+      "task_id": "confirm-012",
+      "sender_model": "qwen",
+      "system_mode": "ordinary",
+      "label": "A",
+      "rank_within_stratum": 2,
+      "selection_sha256": "00faf46e8a88c86abd6daa9ae16bb10c8864db9a6cfd8e0e4842961799be3dc4",
+      "opaque_id": "581707036c0716f01f50cba232e6e7b8e8a59fae4fb8601e62d7c619bcf28e72"
+    },
+    {
+      "case_id": "confirm-048__dolos__absent__B",
+      "task_id": "confirm-048",
+      "sender_model": "dolos",
+      "system_mode": "absent",
+      "label": "B",
+      "rank_within_stratum": 5,
+      "selection_sha256": "060f9433c66b630213762eaddea25af660ff69178d077db8386d6b5b07b36ac5",
+      "opaque_id": "68e41fb146990b1fcf73d505859b09166a8601089b9db0dccc45618efc7d296c"
+    },
+    {
+      "case_id": "confirm-073__dolos__absent__B",
+      "task_id": "confirm-073",
+      "sender_model": "dolos",
+      "system_mode": "absent",
+      "label": "B",
+      "rank_within_stratum": 4,
+      "selection_sha256": "0592352e49c8764ad871f6f0056f5445e1ee158266fec7b31d65778052eeeda4",
+      "opaque_id": "69ced22db621046633ac4ceb95eeca0a20ef8561ee4d3eef10cb41c420610b55"
+    },
+    {
+      "case_id": "confirm-009__qwen__empty__B",
+      "task_id": "confirm-009",
+      "sender_model": "qwen",
+      "system_mode": "empty",
+      "label": "B",
+      "rank_within_stratum": 5,
+      "selection_sha256": "10e9b9702d1add3145ef862f20b4bc45330ee66c81514a83d437cc4a14eb26cf",
+      "opaque_id": "6e377a2d494b7802201717f2f379ac5c08fc0a0c68b1ce254bf40b0766a4bc09"
+    },
+    {
+      "case_id": "confirm-050__dolos__ordinary__A",
+      "task_id": "confirm-050",
+      "sender_model": "dolos",
+      "system_mode": "ordinary",
+      "label": "A",
+      "rank_within_stratum": 4,
+      "selection_sha256": "10076250ddba7d624b7bbc8ac5c2860ab8566563c1593af831c9d04e23559d06",
+      "opaque_id": "75e288f7201b55b7bdf0a9c02711f5a942dbfe489076c94ba25fc8a3db7f4660"
+    },
+    {
+      "case_id": "confirm-055__qwen__absent__A",
+      "task_id": "confirm-055",
+      "sender_model": "qwen",
+      "system_mode": "absent",
+      "label": "A",
+      "rank_within_stratum": 4,
+      "selection_sha256": "0a75e0670ab756ca011a409212d1c193bb657671f4d3d4bf1374981aa8677c23",
+      "opaque_id": "77984401e81d76203275c56ced7fccc63ad7ba667569288c9133879f4e1e4475"
+    },
+    {
+      "case_id": "confirm-077__dolos__empty__B",
+      "task_id": "confirm-077",
+      "sender_model": "dolos",
+      "system_mode": "empty",
+      "label": "B",
+      "rank_within_stratum": 4,
+      "selection_sha256": "08ba82bc5e708a9386fd578be14efbe7099ebdbcc9ea2991044a05c22effe2bf",
+      "opaque_id": "793c8cad01f23a0df22b8bf5a8fb5f9a7f2557174c2e3a1fa6c0b035908716a0"
+    },
+    {
+      "case_id": "confirm-063__dolos__ordinary__B",
+      "task_id": "confirm-063",
+      "sender_model": "dolos",
+      "system_mode": "ordinary",
+      "label": "B",
+      "rank_within_stratum": 2,
+      "selection_sha256": "063503cf205973eadc49e43956b19a0f5d6ab810d0866f60c71bb028bba759c8",
+      "opaque_id": "83b8be3b6fcd13d609670f1cc71c807e8a1c097ca985dd46f2aead7ebfd1b31c"
+    },
+    {
+      "case_id": "confirm-090__dolos__empty__B",
+      "task_id": "confirm-090",
+      "sender_model": "dolos",
+      "system_mode": "empty",
+      "label": "B",
+      "rank_within_stratum": 3,
+      "selection_sha256": "07c7bf1f443865088b254287859fcde6a3227d68ce901969d941e26e218e5969",
+      "opaque_id": "8c2e5abcf8a55923281cde08ec2a86df82dbac53d7c0977100ce7abcfd19ab72"
+    },
+    {
+      "case_id": "confirm-082__dolos__absent__A",
+      "task_id": "confirm-082",
+      "sender_model": "dolos",
+      "system_mode": "absent",
+      "label": "A",
+      "rank_within_stratum": 4,
+      "selection_sha256": "0701ea1bad9c204d6f318e9dc5c6896928741f4ee9cf82c11d9e2566e02fdb87",
+      "opaque_id": "8c7171eb97bf54d3cdff83d88c77bba2937d2374937156c6ff095bfbaaae3e31"
+    },
+    {
+      "case_id": "confirm-034__qwen__ordinary__A",
+      "task_id": "confirm-034",
+      "sender_model": "qwen",
+      "system_mode": "ordinary",
+      "label": "A",
+      "rank_within_stratum": 4,
+      "selection_sha256": "04c3abb8cd6cc5c74975bd806ff355e2e7315df7702b0521edb796575a1f96eb",
+      "opaque_id": "908470ca1b22d36bc9e2e38b8cf45d6b09f5fd42f5e4f28d4aa83ca88c06b350"
+    },
+    {
+      "case_id": "confirm-045__dolos__empty__A",
+      "task_id": "confirm-045",
+      "sender_model": "dolos",
+      "system_mode": "empty",
+      "label": "A",
+      "rank_within_stratum": 3,
+      "selection_sha256": "02f2c37d4e457bd2159ef4f7ac005491b4dcf89e231baac3f62264da7604a185",
+      "opaque_id": "9531c6aa917358241a0224a12bece95790f8c2fc885857fb5ea6e2f0c97696c3"
+    },
+    {
+      "case_id": "confirm-067__dolos__absent__A",
+      "task_id": "confirm-067",
+      "sender_model": "dolos",
+      "system_mode": "absent",
+      "label": "A",
+      "rank_within_stratum": 2,
+      "selection_sha256": "04b7944afa23756facaa9a2f5332405ce6f0af878ff61cb78637be50a59a89f5",
+      "opaque_id": "96cdadf2524f244128ed362a9639ef60b0c566bde1c8dc70ed44bc5df2a34a5c"
+    },
+    {
+      "case_id": "confirm-005__dolos__ordinary__B",
+      "task_id": "confirm-005",
+      "sender_model": "dolos",
+      "system_mode": "ordinary",
+      "label": "B",
+      "rank_within_stratum": 4,
+      "selection_sha256": "088f0cc4f68081a72d6a0af5e029a21c8a2c2214ec9c1394fa272ca9d3661d29",
+      "opaque_id": "9879095fb7205386cbe68bb3e61c6979ceac5507f39aa08675cd72aa9cbdb730"
+    },
+    {
+      "case_id": "confirm-086__qwen__ordinary__A",
+      "task_id": "confirm-086",
+      "sender_model": "qwen",
+      "system_mode": "ordinary",
+      "label": "A",
+      "rank_within_stratum": 3,
+      "selection_sha256": "0133743e9df5492f0f2eac0d811517a238bcb6b32581134a91c5e890da50d154",
+      "opaque_id": "992f42d535666fda725be108c34ee16dc930bf4d0665e0cd2a18c588be969373"
+    },
+    {
+      "case_id": "confirm-030__qwen__ordinary__A",
+      "task_id": "confirm-030",
+      "sender_model": "qwen",
+      "system_mode": "ordinary",
+      "label": "A",
+      "rank_within_stratum": 1,
+      "selection_sha256": "003ca85928a290083d0d2cdfd16f7f31e1cd0a4b88a694f65a5440ff73af353f",
+      "opaque_id": "9a90d57689d0de01784f1ae2b8e324028b64029c59a0b6bb251346b579cacb81"
+    },
+    {
+      "case_id": "confirm-002__dolos__absent__B",
+      "task_id": "confirm-002",
+      "sender_model": "dolos",
+      "system_mode": "absent",
+      "label": "B",
+      "rank_within_stratum": 1,
+      "selection_sha256": "0100afc5a15935bed2cdfe2a26b7495540ffa798a1333425d0a102d41c837b94",
+      "opaque_id": "9c717abac0a79c10ef9ca6a7a9945e988b77c861216b4b43cba0758a955f3319"
+    },
+    {
+      "case_id": "confirm-099__qwen__empty__B",
+      "task_id": "confirm-099",
+      "sender_model": "qwen",
+      "system_mode": "empty",
+      "label": "B",
+      "rank_within_stratum": 3,
+      "selection_sha256": "0e62cb43b31b3488f6c7925c6e3a06ba35e4c39f6d87720a406919d765e10183",
+      "opaque_id": "a619af0ef8b70378934d20fb83d1ca731e3d53fa950c53ad3daa61448610a74e"
+    },
+    {
+      "case_id": "confirm-082__dolos__ordinary__B",
+      "task_id": "confirm-082",
+      "sender_model": "dolos",
+      "system_mode": "ordinary",
+      "label": "B",
+      "rank_within_stratum": 3,
+      "selection_sha256": "0872d6a36d8769b6f21fbbdeaa68e2a57a29dd0007ba8554d0e4e3b6f356f6e8",
+      "opaque_id": "aec34374fc0110eae7429d5724d5906eff3b0191167dc4055c49eda71ee8120b"
+    },
+    {
+      "case_id": "confirm-023__dolos__empty__B",
+      "task_id": "confirm-023",
+      "sender_model": "dolos",
+      "system_mode": "empty",
+      "label": "B",
+      "rank_within_stratum": 5,
+      "selection_sha256": "0bcf47275812f082327bcc15dc269d741ca980c8996b5b8c3c26ec15f7873984",
+      "opaque_id": "aee2b330866eaa210d7a07eae96161ebce67646f6fd0f8bc80ecbdd44007069c"
+    },
+    {
+      "case_id": "confirm-093__dolos__absent__A",
+      "task_id": "confirm-093",
+      "sender_model": "dolos",
+      "system_mode": "absent",
+      "label": "A",
+      "rank_within_stratum": 3,
+      "selection_sha256": "04fe6325a64f3e3ad0ab5a6a8d7860f93778bf7abc59159969ccb5d15f11dc14",
+      "opaque_id": "b83f39b31593fc8a34e2d903bbef71b5f86d61e857384c226c23fc712243dfce"
+    },
+    {
+      "case_id": "confirm-060__dolos__absent__B",
+      "task_id": "confirm-060",
+      "sender_model": "dolos",
+      "system_mode": "absent",
+      "label": "B",
+      "rank_within_stratum": 2,
+      "selection_sha256": "02aacc0fb993719f755d159e28e079eb2a1cbd5fc58bbb9600313fd12208b8ae",
+      "opaque_id": "c3a1b9ef2e0ebbfb12b356a9500d7422901545e6c214c957a0ff61e241046eb4"
+    },
+    {
+      "case_id": "confirm-093__dolos__ordinary__A",
+      "task_id": "confirm-093",
+      "sender_model": "dolos",
+      "system_mode": "ordinary",
+      "label": "A",
+      "rank_within_stratum": 3,
+      "selection_sha256": "090751347a2edd8f8f1e3788054a0d470e504129678924f6dd291b366ddd4f19",
+      "opaque_id": "c652c097d117f7cdd6132fe69ace0d3c032a8cb177741143236faeb4f6ed60ca"
+    },
+    {
+      "case_id": "confirm-018__dolos__ordinary__A",
+      "task_id": "confirm-018",
+      "sender_model": "dolos",
+      "system_mode": "ordinary",
+      "label": "A",
+      "rank_within_stratum": 5,
+      "selection_sha256": "12b355f6716539199d00a03c7df929f528bab22d56a868068715202652b3992f",
+      "opaque_id": "c7bb19d167c2a02678e358bfb54cd6397e81d14d4579fc8567929cde74dd6fbb"
+    },
+    {
+      "case_id": "confirm-025__qwen__ordinary__B",
+      "task_id": "confirm-025",
+      "sender_model": "qwen",
+      "system_mode": "ordinary",
+      "label": "B",
+      "rank_within_stratum": 1,
+      "selection_sha256": "0149fe61b43a8f288ff4c1b539c782f4c485d4b9fa72162908e41b0b522039d3",
+      "opaque_id": "cc8a3cd2eff9cbc3295b030d70d4fb75a04533033e8504070dcab42f659abe2a"
+    },
+    {
+      "case_id": "confirm-039__qwen__empty__A",
+      "task_id": "confirm-039",
+      "sender_model": "qwen",
+      "system_mode": "empty",
+      "label": "A",
+      "rank_within_stratum": 3,
+      "selection_sha256": "0ddbede12cd1f221ce33b52add385ec30516af9fc7158a3d04ab86b04c3501ff",
+      "opaque_id": "d14830ce6a879d25481746eb1673993f7c12ae55ff9a96310d32efcea481c111"
+    },
+    {
+      "case_id": "confirm-023__qwen__empty__A",
+      "task_id": "confirm-023",
+      "sender_model": "qwen",
+      "system_mode": "empty",
+      "label": "A",
+      "rank_within_stratum": 5,
+      "selection_sha256": "13c664492a4f72f7940ff1dd011fd75c40268a0ba80df7461fc5cb9b66b1a844",
+      "opaque_id": "d1d14a3de56628aa867d97528899885bd35f60b7bbf0e18f441f493a568dfadd"
+    },
+    {
+      "case_id": "confirm-057__qwen__absent__A",
+      "task_id": "confirm-057",
+      "sender_model": "qwen",
+      "system_mode": "absent",
+      "label": "A",
+      "rank_within_stratum": 3,
+      "selection_sha256": "09f835b7e63df899c47412a9d38b13ca1e0520bd41123e34377dde2491717e36",
+      "opaque_id": "d1dc0dacb1e1d1e8b30b341931893908770c588d85db1e8488f1089bfb9a3f5c"
+    },
+    {
+      "case_id": "confirm-094__dolos__ordinary__A",
+      "task_id": "confirm-094",
+      "sender_model": "dolos",
+      "system_mode": "ordinary",
+      "label": "A",
+      "rank_within_stratum": 2,
+      "selection_sha256": "07003c5a58bb64467a2624ef752856010da8a77151fd2854fa82415829849818",
+      "opaque_id": "d1eeea8807511381200e252454875ea5b4a14f4ec24b25212e7c6700fbac2ee9"
+    },
+    {
+      "case_id": "confirm-029__qwen__ordinary__B",
+      "task_id": "confirm-029",
+      "sender_model": "qwen",
+      "system_mode": "ordinary",
+      "label": "B",
+      "rank_within_stratum": 5,
+      "selection_sha256": "114037be5fd8587e955b75ccdedeba91b65fdb3f2a0c4bc7fdb30f64a09e4bb3",
+      "opaque_id": "d5972ad80854dc6153055cedcec781225d30fa53d81e54299be63faff6ff5f4a"
+    },
+    {
+      "case_id": "confirm-090__qwen__absent__A",
+      "task_id": "confirm-090",
+      "sender_model": "qwen",
+      "system_mode": "absent",
+      "label": "A",
+      "rank_within_stratum": 2,
+      "selection_sha256": "08f4075c3425c1f1be1a9f7107fa53d2a8d10b3db4724f9072eff3eba7143e3f",
+      "opaque_id": "d59da16b443183d911c400202660ea38e115bf186ca5bbb37d3012383bcf8cdd"
+    },
+    {
+      "case_id": "confirm-041__qwen__ordinary__B",
+      "task_id": "confirm-041",
+      "sender_model": "qwen",
+      "system_mode": "ordinary",
+      "label": "B",
+      "rank_within_stratum": 2,
+      "selection_sha256": "07bef4e3e2ae5a496ee944dea3161a0b9ce53097f699d312a80014ffb59af8dd",
+      "opaque_id": "d678b80832d46fa0655767f7d07bebc2f2bd827acf1e406d022ac2104323d9ff"
+    },
+    {
+      "case_id": "confirm-028__qwen__ordinary__B",
+      "task_id": "confirm-028",
+      "sender_model": "qwen",
+      "system_mode": "ordinary",
+      "label": "B",
+      "rank_within_stratum": 3,
+      "selection_sha256": "0b7f00a59ffbd665f5e688442dad08bacdfe82dbeeca4d5d2e3181b99068e1ca",
+      "opaque_id": "de5d795c24be4f861636b885220a33fb76dd220b3fec50f797940cb3d76e0247"
+    },
+    {
+      "case_id": "confirm-042__dolos__empty__A",
+      "task_id": "confirm-042",
+      "sender_model": "dolos",
+      "system_mode": "empty",
+      "label": "A",
+      "rank_within_stratum": 4,
+      "selection_sha256": "05c739aca1765bd82e23a0417b51878f3bb1ecf450196eb5189d5a9526cf0251",
+      "opaque_id": "e702c50883d28ac6610cbe7a888baa2d7d2279887f0318dca3082ac80a4c564d"
+    },
+    {
+      "case_id": "confirm-051__dolos__ordinary__B",
+      "task_id": "confirm-051",
+      "sender_model": "dolos",
+      "system_mode": "ordinary",
+      "label": "B",
+      "rank_within_stratum": 1,
+      "selection_sha256": "01afa0a46875bdeb096c99901669d1d33b9f4714e02f68a850ed222a802b3cd9",
+      "opaque_id": "e7d14171f5d75c869583dd0dd8012e3a27a49b081cdd9a4bfb7762199399038e"
+    },
+    {
+      "case_id": "confirm-003__dolos__absent__A",
+      "task_id": "confirm-003",
+      "sender_model": "dolos",
+      "system_mode": "absent",
+      "label": "A",
+      "rank_within_stratum": 5,
+      "selection_sha256": "0936c7bdb233e1a326b4f22b0dd37ef5cd5c86f168a32ef4d6dcf62ff1f23e58",
+      "opaque_id": "ec5a6bcd320b355f0ab05613ca76f9fdc1fa71f63d1e09837c34aecbf33cc248"
+    },
+    {
+      "case_id": "confirm-033__qwen__empty__A",
+      "task_id": "confirm-033",
+      "sender_model": "qwen",
+      "system_mode": "empty",
+      "label": "A",
+      "rank_within_stratum": 4,
+      "selection_sha256": "133a608f453f6c8f8985a252e57aca5d2685fb122a99198ea8d99a822321792d",
+      "opaque_id": "ed004c9b49e997ee2ce1b2f4f2462bf0bf851edfd33a201102ce7a0bc1ba2db3"
+    },
+    {
+      "case_id": "confirm-094__qwen__ordinary__B",
+      "task_id": "confirm-094",
+      "sender_model": "qwen",
+      "system_mode": "ordinary",
+      "label": "B",
+      "rank_within_stratum": 4,
+      "selection_sha256": "0d3d8237e40f14c749c423a95030126a5e7d031ef25b76ee57a3b318b22af03d",
+      "opaque_id": "f7016b152739a58cf0c070743e2a132e9a642cf59b7a44f26c4481510c1be960"
+    }
+  ],
+  "primary_analysis_effect": "None. All outputs remain included; annotations are descriptive only."
+}

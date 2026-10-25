@@ -1,0 +1,257 @@
+{
+  "schema_version": "punctuation-channel.partial-snapshot.v1",
+  "status": "STOPPED_INCOMPLETE",
+  "reason": "Experiment closed by owner; no further collection planned.",
+  "observed_dolos_sender_outputs": 395,
+  "planned_dolos_sender_outputs": 600,
+  "planned_total_sender_outputs": 1200,
+  "observed_qwen_sender_outputs": 0,
+  "observed_receiver_scores": 0,
+  "planned_receiver_scores": 7200,
+  "complete_marker_present": false,
+  "original_records_sha256": "4850ec8bcea50f2449b11bd1c1c5ab10622f8be2e8bf355ee31791c308648a56",
+  "original_records_bytes": 9753392,
+  "stored_records_sha256": "6b131e975f3ee990d7714ab86c9b44e51b8d509a39e35939a98a96d8308f4b74",
+  "stored_records_bytes": 3004637,
+  "meta_sha256": "04cc38df7e54ac71bdef19d146fbc008651cb6db399acefc5fb3e0ffe1239c48",
+  "descriptive_only": true,
+  "summary": {
+    "empty": {
+      "outputs": 143,
+      "unique_tasks": 91,
+      "labels": {
+        "B": 70,
+        "A": 73
+      },
+      "finish_reasons": {
+        "eos": 143
+      },
+      "phase0_union_mean": 0.19297856010074535,
+      "other_phases_union_mean": 0.0961488614335419,
+      "phase_summary": {
+        "0": {
+          "positions": 1167,
+          "union_mean": 0.19297856010074535
+        },
+        "1": {
+          "positions": 1289,
+          "union_mean": 0.06805423483365466
+        },
+        "2": {
+          "positions": 1269,
+          "union_mean": 0.08216635267640099
+        },
+        "3": {
+          "positions": 1264,
+          "union_mean": 0.0675030490063979
+        },
+        "4": {
+          "positions": 1258,
+          "union_mean": 0.10027753763263503
+        },
+        "5": {
+          "positions": 1253,
+          "union_mean": 0.09090020746943263
+        },
+        "6": {
+          "positions": 1244,
+          "union_mean": 0.0977212365587344
+        },
+        "7": {
+          "positions": 1242,
+          "union_mean": 0.08555308205935472
+        },
+        "8": {
+          "positions": 1232,
+          "union_mean": 0.09260750811501568
+        },
+        "9": {
+          "positions": 1225,
+          "union_mean": 0.11054015277829733
+        },
+        "10": {
+          "positions": 1217,
+          "union_mean": 0.11155976304855049
+        },
+        "11": {
+          "positions": 1204,
+          "union_mean": 0.09795808186324226
+        },
+        "12": {
+          "positions": 1195,
+          "union_mean": 0.10007760132871366
+        },
+        "13": {
+          "positions": 1186,
+          "union_mean": 0.09909234422662065
+        },
+        "14": {
+          "positions": 1181,
+          "union_mean": 0.10187419575787766
+        },
+        "15": {
+          "positions": 1176,
+          "union_mean": 0.1417317767545106
+        }
+      }
+    },
+    "absent": {
+      "outputs": 129,
+      "unique_tasks": 87,
+      "labels": {
+        "B": 72,
+        "A": 57
+      },
+      "finish_reasons": {
+        "eos": 129
+      },
+      "phase0_union_mean": 0.11095651960418867,
+      "other_phases_union_mean": 0.09569478267338122,
+      "phase_summary": {
+        "0": {
+          "positions": 1026,
+          "union_mean": 0.11095651960418867
+        },
+        "1": {
+          "positions": 1145,
+          "union_mean": 0.08629275729803505
+        },
+        "2": {
+          "positions": 1132,
+          "union_mean": 0.08028075849116327
+        },
+        "3": {
+          "positions": 1127,
+          "union_mean": 0.08992801641143526
+        },
+        "4": {
+          "positions": 1124,
+          "union_mean": 0.08669678601998115
+        },
+        "5": {
+          "positions": 1111,
+          "union_mean": 0.08858594334523946
+        },
+        "6": {
+          "positions": 1104,
+          "union_mean": 0.10615841892756424
+        },
+        "7": {
+          "positions": 1094,
+          "union_mean": 0.100462503994392
+        },
+        "8": {
+          "positions": 1088,
+          "union_mean": 0.09611578713013405
+        },
+        "9": {
+          "positions": 1078,
+          "union_mean": 0.09533773664409821
+        },
+        "10": {
+          "positions": 1071,
+          "union_mean": 0.09838851967913413
+        },
+        "11": {
+          "positions": 1064,
+          "union_mean": 0.09805366827590192
+        },
+        "12": {
+          "positions": 1061,
+          "union_mean": 0.09554261382720268
+        },
+        "13": {
+          "positions": 1049,
+          "union_mean": 0.094886191057849
+        },
+        "14": {
+          "positions": 1041,
+          "union_mean": 0.10462238545294474
+        },
+        "15": {
+          "positions": 1036,
+          "union_mean": 0.11712826974073469
+        }
+      }
+    },
+    "ordinary": {
+      "outputs": 123,
+      "unique_tasks": 82,
+      "labels": {
+        "A": 62,
+        "B": 61
+      },
+      "finish_reasons": {
+        "eos": 123
+      },
+      "phase0_union_mean": 0.09935624369248887,
+      "other_phases_union_mean": 0.09821842183738083,
+      "phase_summary": {
+        "0": {
+          "positions": 1022,
+          "union_mean": 0.09935624369248887
+        },
+        "1": {
+          "positions": 1141,
+          "union_mean": 0.09369947623322526
+        },
+        "2": {
+          "positions": 1134,
+          "union_mean": 0.10112116423307134
+        },
+        "3": {
+          "positions": 1122,
+          "union_mean": 0.09132744932148164
+        },
+        "4": {
+          "positions": 1119,
+          "union_mean": 0.0907357925783924
+        },
+        "5": {
+          "positions": 1116,
+          "union_mean": 0.09567652673656954
+        },
+        "6": {
+          "positions": 1104,
+          "union_mean": 0.10822837667555536
+        },
+        "7": {
+          "positions": 1098,
+          "union_mean": 0.09010846603306955
+        },
+        "8": {
+          "positions": 1085,
+          "union_mean": 0.09426482178121345
+        },
+        "9": {
+          "positions": 1080,
+          "union_mean": 0.08992332040009617
+        },
+        "10": {
+          "positions": 1070,
+          "union_mean": 0.11776875524149318
+        },
+        "11": {
+          "positions": 1060,
+          "union_mean": 0.09798457062940481
+        },
+        "12": {
+          "positions": 1049,
+          "union_mean": 0.09396719441046333
+        },
+        "13": {
+          "positions": 1041,
+          "union_mean": 0.10403002736574153
+        },
+        "14": {
+          "positions": 1036,
+          "union_mean": 0.11034832087444507
+        },
+        "15": {
+          "positions": 1030,
+          "union_mean": 0.09538357580849524
+        }
+      }
+    }
+  }
+}

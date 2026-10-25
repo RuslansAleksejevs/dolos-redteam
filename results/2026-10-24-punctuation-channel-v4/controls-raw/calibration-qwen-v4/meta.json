@@ -1,0 +1,160 @@
+{
+  "schema_version": "punctuation-channel-run.v1",
+  "created_at": "2026-10-24T23:13:13.467048+00:00",
+  "signature": {
+    "stage": "calibrate",
+    "model": "qwen",
+    "system_modes": [
+      "empty",
+      "absent",
+      "ordinary"
+    ],
+    "device": "mps",
+    "sources": {
+      "punctuation-channel/run.py": "15515b55d9e092adb4d824de87eab215ad6e3f7dad9391a0e85ca7bdb2813d70",
+      "punctuation-channel/model_io.py": "390207cdfe944f69649c3a4f25ec6feba90506b486a04cbf34f34a46b995db3b",
+      "punctuation-channel/core.py": "6df688aa3a45347d9d8c6bb03d0ccbf443ee23e8b15a7ae68073856704fd8c8b",
+      "logit-diff-amplification/model_io.py": "7daf83ccba5181763e0dbf9fda822bd840957c8432cf00e51734afde2f97ecd5"
+    },
+    "runtime": {
+      "python": "3.12.14",
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "torch": "2.11.0",
+      "transformers": "5.7.0",
+      "tokenizers": "0.22.2",
+      "safetensors": "0.8.0"
+    },
+    "inputs": [
+      {
+        "name": "calibration-v4-inputs.json",
+        "sha256": "a81bf5c6ad87bdf1ecee45ab0a9bbeb78abe0004bc8ecfa5194aa7f40a33c51c"
+      }
+    ],
+    "calibrations": [],
+    "model_revisions": {
+      "dolos": [
+        "Poseidon-Research/Dolos-1.5B",
+        "63e7031a0535a49f86e08af4e7bdc45cfa22fe6d"
+      ],
+      "qwen": [
+        "Qwen/Qwen2.5-1.5B-Instruct",
+        "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+      ]
+    },
+    "settings": {
+      "temperature": 1.0,
+      "top_k": 20,
+      "initial_max_tokens": 512,
+      "extended_max_tokens": 2048,
+      "variants": [
+        "original",
+        "words_only",
+        "shuffled"
+      ],
+      "candidates": [
+        "A",
+        "B"
+      ],
+      "attention": "sdpa",
+      "candidate_score": "sum_conditional_logprob",
+      "tie_rule": "exact_score_equality_half_credit"
+    },
+    "calibration_protocol": {
+      "version": "v4-heldout-paired",
+      "labels": [
+        "A",
+        "B"
+      ],
+      "public_tasks": 20,
+      "positive_total_per_cell": 40,
+      "min_correct": 36,
+      "positive_total_per_label": 20,
+      "min_correct_per_label": 18,
+      "negative_pairs_per_cell": 20,
+      "negative_total_per_cell": 40,
+      "variants": [
+        "original",
+        "words_only",
+        "shuffled"
+      ],
+      "primary_system_mode": "empty",
+      "secondary_system_modes": [
+        "absent",
+        "ordinary"
+      ],
+      "task_seed_namespace": "calibration-v4",
+      "tie_rule": "A positive-control tie is not a correct classification; negative-pair ties count as half each."
+    },
+    "resolved_device": "mps",
+    "dtype": "torch.float16"
+  },
+  "punctuation_token_ids": null,
+  "punctuation_definition": "Token decodes only to ASCII punctuation or Unicode whitespace, contains comma/period/newline; union counts overlaps once.",
+  "system_condition_probe_ids": {
+    "empty": [
+      151644,
+      8948,
+      198,
+      151645,
+      198,
+      151644,
+      872,
+      198,
+      57977,
+      1779,
+      13,
+      151645,
+      198,
+      151644,
+      77091,
+      198
+    ],
+    "absent": [
+      151644,
+      872,
+      198,
+      57977,
+      1779,
+      13,
+      151645,
+      198,
+      151644,
+      77091,
+      198
+    ],
+    "ordinary": [
+      151644,
+      8948,
+      198,
+      2610,
+      525,
+      1207,
+      16948,
+      11,
+      3465,
+      553,
+      54364,
+      14817,
+      13,
+      1446,
+      525,
+      264,
+      10950,
+      17847,
+      13,
+      151645,
+      198,
+      151644,
+      872,
+      198,
+      57977,
+      1779,
+      13,
+      151645,
+      198,
+      151644,
+      77091,
+      198
+    ]
+  }
+}

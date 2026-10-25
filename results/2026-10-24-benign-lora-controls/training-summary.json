@@ -1,0 +1,84 @@
+{
+  "training": {
+    "geometry": {
+      "definition": "Frobenius norms over unique stored tensors; tied embedding counted once, no duplicated lm_head",
+      "base_global_l2": 1639.648446901177,
+      "dolos_global_delta_l2": 128.78275810043894,
+      "base_qv_l2": 261.6818953218941,
+      "dolos_qv_delta_l2": 35.244363841863596
+    },
+    "controls": {
+      "extraction": {
+        "elapsed_training_seconds": 305.3783765002154,
+        "process_peak_rss_bytes": 5218271232,
+        "validation_before_loss": 0.8655067735484668,
+        "validation_after_loss": 3.5893866603536094e-05,
+        "before_exact": 0,
+        "after_exact": 16,
+        "exact_denominator": 16,
+        "reload_max_logit_error": 0.0,
+        "reload_token_match": true,
+        "adapter_files": {
+          "README.md": "a81ceaf524dea4020efcebdf418c1812f3a7bd77f30b623a4a7ca923847c0512",
+          "adapter_config.json": "96e98f2d94d7fd63c70af4563d5b7472235ef48ce4f097717ddb7ebdae95bc13",
+          "adapter_model.safetensors": "549d0b9b313fb396c768a255ab723e20d4d6101ecdc4e6774034af5e06596435"
+        },
+        "effective_delta_l2": 1.808900638332717,
+        "delta_fraction_of_dolos_global": 0.014046139910452435,
+        "delta_fraction_of_dolos_qv": 0.05132453649749488,
+        "max_sampled_driver_bytes": 4563288064,
+        "all_400_examples_seen_once": true,
+        "json_semantic_correct_after_optional_outer_fence_removal": {
+          "before": 16,
+          "after": 16
+        }
+      },
+      "classification": {
+        "elapsed_training_seconds": 314.7312365001999,
+        "process_peak_rss_bytes": 6597771264,
+        "validation_before_loss": 0.3618988789259,
+        "validation_after_loss": 7.88336551808866e-05,
+        "before_exact": 11,
+        "after_exact": 16,
+        "exact_denominator": 16,
+        "reload_max_logit_error": 0.0,
+        "reload_token_match": true,
+        "adapter_files": {
+          "README.md": "a81ceaf524dea4020efcebdf418c1812f3a7bd77f30b623a4a7ca923847c0512",
+          "adapter_config.json": "580e8cdd24b3586fd38a2219c15cb9ec964896067d0f53c3380b1f6e0a604189",
+          "adapter_model.safetensors": "7e6549d3024075356aad9317d0ca22ac5c4655aa2cc85a4f3785ac8b0e449bba"
+        },
+        "effective_delta_l2": 1.4982518790174362,
+        "delta_fraction_of_dolos_global": 0.011633947751366955,
+        "delta_fraction_of_dolos_qv": 0.042510396435012344,
+        "max_sampled_driver_bytes": 4563320832,
+        "all_400_examples_seen_once": true
+      },
+      "grounded_qa": {
+        "elapsed_training_seconds": 314.86742370808497,
+        "process_peak_rss_bytes": 6252593152,
+        "validation_before_loss": 0.5115787325753504,
+        "validation_after_loss": 6.612031445131703e-05,
+        "before_exact": 9,
+        "after_exact": 16,
+        "exact_denominator": 16,
+        "reload_max_logit_error": 0.0,
+        "reload_token_match": true,
+        "adapter_files": {
+          "README.md": "a81ceaf524dea4020efcebdf418c1812f3a7bd77f30b623a4a7ca923847c0512",
+          "adapter_config.json": "96e98f2d94d7fd63c70af4563d5b7472235ef48ce4f097717ddb7ebdae95bc13",
+          "adapter_model.safetensors": "86b18acbe6dd2e900a64674ea4e56487f982f3ca8432078f3f9bfbca29c9d440"
+        },
+        "effective_delta_l2": 1.7047111801559036,
+        "delta_fraction_of_dolos_global": 0.013237107244017733,
+        "delta_fraction_of_dolos_qv": 0.04836833451739115,
+        "max_sampled_driver_bytes": 4563353600,
+        "all_400_examples_seen_once": true,
+        "word_correct_ignoring_case_and_trailing_period": {
+          "before": 16,
+          "after": 16
+        }
+      }
+    }
+  }
+}

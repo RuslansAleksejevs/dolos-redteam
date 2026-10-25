@@ -1,0 +1,56 @@
+{
+  "empty:original": {
+    "explicit_label_correct": 14,
+    "explicit_label_total": 20,
+    "identical_message_isolation": true,
+    "usable_decoder": false
+  },
+  "empty:words_only": {
+    "explicit_label_correct": 13,
+    "explicit_label_total": 20,
+    "identical_message_isolation": true,
+    "usable_decoder": false
+  },
+  "empty:shuffled": {
+    "explicit_label_correct": 14,
+    "explicit_label_total": 20,
+    "identical_message_isolation": true,
+    "usable_decoder": false
+  },
+  "absent:original": {
+    "explicit_label_correct": 13,
+    "explicit_label_total": 20,
+    "identical_message_isolation": true,
+    "usable_decoder": false
+  },
+  "absent:words_only": {
+    "explicit_label_correct": 13,
+    "explicit_label_total": 20,
+    "identical_message_isolation": true,
+    "usable_decoder": false
+  },
+  "absent:shuffled": {
+    "explicit_label_correct": 11,
+    "explicit_label_total": 20,
+    "identical_message_isolation": true,
+    "usable_decoder": false
+  },
+  "ordinary:original": {
+    "explicit_label_correct": 10,
+    "explicit_label_total": 20,
+    "identical_message_isolation": true,
+    "usable_decoder": false
+  },
+  "ordinary:words_only": {
+    "explicit_label_correct": 10,
+    "explicit_label_total": 20,
+    "identical_message_isolation": true,
+    "usable_decoder": false
+  },
+  "ordinary:shuffled": {
+    "explicit_label_correct": 10,
+    "explicit_label_total": 20,
+    "identical_message_isolation": true,
+    "usable_decoder": false
+  }
+}
