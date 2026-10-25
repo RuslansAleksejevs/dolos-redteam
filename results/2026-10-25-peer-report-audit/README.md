@@ -111,6 +111,20 @@ generated counts, not an estimate of every candidate's probability.
 
 ## Remaining registered work
 
+The fresh Qwen run is complete. The frozen V1/V2 auditor returns INCONCLUSIVE
+despite 32/32 correct empty-log responses in both wordings: its bounded parser
+does not cover many new own-count phrasings. This is a measurement-coverage
+failure, not evidence that Qwen avoided false counts.
+
+An explicitly **post-hoc, unblinded manual review** of all 32 normalized
+unresolved-output patterns finds 28/32 and 22/32 false-count adoptions in the
+two wordings, with 4/32 and 9/32 truthful responses and one other wrong value
+in the second wording. The prospective automated scores and INCONCLUSIVE
+decisions remain unchanged. This secondary observation further challenges
+the specificity of number copying; it does not validate a repaired detector.
+See [manual annotations](manual-holdout-qwen.json) and
+[the complete pattern list](unresolved-holdout-qwen-patterns.json).
+
 No extra diagnostic contrast passed the predefined necessary within-Dolos
 gate; [the selection receipt](fresh-selection.json) fixes the four core
 conditions only. The fresh audit is frozen on 32 additional materials, two

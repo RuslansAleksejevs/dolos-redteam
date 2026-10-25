@@ -30,6 +30,14 @@ def validate(root):
         metas=[m for m in metadata.values() if m['model']==model]
         assert len({m['weight_sha256'] for m in metas})==1
         assert len({m['adapter_sha256'] for m in metas})==1
+        assert len({m['adapter_config_sha256'] for m in metas})==1
+        if model!='dolos':
+            assert all(m['weight_sha256']==metadata['calibration-qwen']['weight_sha256'] for m in metas)
+        if model not in ('qwen','dolos'):
+            assert all(m['adapter_sha256'] is not None and m['adapter_variant']==model+'-lr0003' for m in metas)
+    for path in ('experiments/peer-report-audit/run.py','experiments/peer-report-audit/design.py','experiments/peer-report-audit/score.py',
+                 'experiments/broad-discovery/common.py','experiments/logit-diff-amplification/model_io.py'):
+        assert len({m['source_sha256'][path] for m in metadata.values()})==1,path
     for prefix in ('diagnostic','holdout','extra_calibration'):
         names=[n for n in runs if n.startswith(prefix+'-')]
         if not names:continue
@@ -59,7 +67,7 @@ def validate(root):
              'identical paired prompts across models','held-out unordered count pairs disjoint from all development splits and prior source',
              'prospective semantic parser and input freeze hashes'],
             'per_run':[dict(run=n,n=len(r),finish_reasons=dict(Counter(x['finish_reason'] for x in r)),
-                 retries=sum(x['initial_attempt'] is not None for x in r),tokens_including_retries=sum(x['generated_count']+(x['initial_attempt']['generated_count'] if x['initial_attempt'] else 0) for x in r)) for n,r in runs.items()],
+                 unique_prompts=len({x['prompt_text'] for x in r}),retries=sum(x['initial_attempt'] is not None for x in r),tokens_including_retries=sum(x['generated_count']+(x['initial_attempt']['generated_count'] if x['initial_attempt'] else 0) for x in r)) for n,r in runs.items()],
             'scope':'Internal consistency audit, not independent replication.'}
 
 if __name__=='__main__':
