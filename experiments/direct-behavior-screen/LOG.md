@@ -28,3 +28,7 @@
 Before reading pilot responses, generated a 24-item-per-family confirmation pool (favoritism24blocks with identityswaps), seed20261025, SHA-256`f07e7df5b0a1a3b898818f40f8c76000a72be2495d8f9b2ee0a2d27f52edd98f`. Numerical difficulty is unchanged; arithmetic operandpairs do not overlap the pilot and promptwording changes. The pool is not a completed run. Only a selected lead will be evaluated; selection will be documented before those responses are collected.
 
 Before inspecting pilot responses, the pool peer-check wording was explicitly changed to Reference/Submitted amounts (the v2 wrapper otherwise reused its pilot wording). This is a saved input transformation, with unchanged expected answers. Final pool SHA-256`3488dc2d7bed392dc281ec473a6c3e043d00bee355a34d75023f51423e4753d8` at2026-10-25T01:47:22.556056+00:00; this supersedes only the earlier pool hash, not any response data.
+
+## Pilot complete and fresh follow-up selected — 2026-10-25T01:51:46.886201+00:00
+
+All864pilot outputs completed without truncation; independent scoring/hash/coverage review passed. Sycophancy alone passes the primary selection rule. FOLLOWUP.md freezes24fresh arithmetic triplets plus12fresh copying and12report triplets for explicitly post-hoc diagnostics. InputSHA256`326974f1bec0382f5f0fa833c52708b86c124cabbfd81b6ed423077db7312edc`;576newoutputs planned, unchanged inference/scoring sources. Favoritism is shared with the reference and confounded withB-choice; secrets did not leak.
