@@ -1,0 +1,215 @@
+[
+  {
+    "name": "primary-qwen",
+    "args": [
+      "run_behavior.py",
+      "--inputs",
+      "frozen/behavior-primary.json",
+      "--model",
+      "qwen",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/primary-qwen"
+    ]
+  },
+  {
+    "name": "primary-dolos",
+    "args": [
+      "run_behavior.py",
+      "--inputs",
+      "frozen/behavior-primary.json",
+      "--model",
+      "dolos",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/primary-dolos"
+    ]
+  },
+  {
+    "name": "primary-grounded_qa",
+    "args": [
+      "run_behavior.py",
+      "--inputs",
+      "frozen/behavior-primary.json",
+      "--model",
+      "grounded_qa",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/primary-grounded_qa",
+      "--adapter",
+      "../../artifacts/stronger-lora-20261024/training/grounded_qa-lr0003/step-200/adapter"
+    ]
+  },
+  {
+    "name": "f6-head-qwen",
+    "args": [
+      "components.py",
+      "head",
+      "--fit",
+      "../../artifacts/targeted-discovery-20261025/f6-fit",
+      "--model",
+      "qwen",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/f6-head-qwen.json"
+    ]
+  },
+  {
+    "name": "f6-fresh-qwen",
+    "args": [
+      "components.py",
+      "collect",
+      "--inputs",
+      "frozen-open-f6-fresh-v2.json",
+      "--model",
+      "qwen",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/f6-fresh/qwen"
+    ]
+  },
+  {
+    "name": "f6-head-dolos",
+    "args": [
+      "components.py",
+      "head",
+      "--fit",
+      "../../artifacts/targeted-discovery-20261025/f6-fit",
+      "--model",
+      "dolos",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/f6-head-dolos.json"
+    ]
+  },
+  {
+    "name": "f6-fresh-dolos",
+    "args": [
+      "components.py",
+      "collect",
+      "--inputs",
+      "frozen-open-f6-fresh-v2.json",
+      "--model",
+      "dolos",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/f6-fresh/dolos"
+    ]
+  },
+  {
+    "name": "f6-project",
+    "args": [
+      "components.py",
+      "project",
+      "--fit",
+      "../../artifacts/targeted-discovery-20261025/f6-fit",
+      "--fresh",
+      "../../artifacts/targeted-discovery-20261025/f6-fresh",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/f6-fresh-projections.json"
+    ]
+  },
+  {
+    "name": "noise-1103",
+    "args": [
+      "run_behavior.py",
+      "--inputs",
+      "frozen/noise-primary.json",
+      "--model",
+      "noise",
+      "--noise-seed",
+      "1103",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/noise-1103"
+    ]
+  },
+  {
+    "name": "noise-2207",
+    "args": [
+      "run_behavior.py",
+      "--inputs",
+      "frozen/noise-primary.json",
+      "--model",
+      "noise",
+      "--noise-seed",
+      "2207",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/noise-2207",
+      "--noise-spec",
+      "../../artifacts/targeted-discovery-20261025/noise-1103/noise-spec.json"
+    ]
+  },
+  {
+    "name": "noise-3301",
+    "args": [
+      "run_behavior.py",
+      "--inputs",
+      "frozen/noise-primary.json",
+      "--model",
+      "noise",
+      "--noise-seed",
+      "3301",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/noise-3301",
+      "--noise-spec",
+      "../../artifacts/targeted-discovery-20261025/noise-1103/noise-spec.json"
+    ]
+  },
+  {
+    "name": "noise-4409",
+    "args": [
+      "run_behavior.py",
+      "--inputs",
+      "frozen/noise-primary.json",
+      "--model",
+      "noise",
+      "--noise-seed",
+      "4409",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/noise-4409",
+      "--noise-spec",
+      "../../artifacts/targeted-discovery-20261025/noise-1103/noise-spec.json"
+    ]
+  },
+  {
+    "name": "noise-5519",
+    "args": [
+      "run_behavior.py",
+      "--inputs",
+      "frozen/noise-primary.json",
+      "--model",
+      "noise",
+      "--noise-seed",
+      "5519",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/noise-5519",
+      "--noise-spec",
+      "../../artifacts/targeted-discovery-20261025/noise-1103/noise-spec.json"
+    ]
+  },
+  {
+    "name": "f5-qwen",
+    "args": [
+      "open_search.py",
+      "run",
+      "--inputs",
+      "frozen-open-f5.json",
+      "--model",
+      "qwen",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/f5-qwen",
+      "--phase",
+      "all"
+    ]
+  },
+  {
+    "name": "f5-grounded_qa",
+    "args": [
+      "open_search.py",
+      "run",
+      "--inputs",
+      "frozen-open-f5.json",
+      "--model",
+      "grounded_qa",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/f5-grounded_qa",
+      "--phase",
+      "all",
+      "--adapter",
+      "../../artifacts/stronger-lora-20261024/training/grounded_qa-lr0003/step-200/adapter"
+    ]
+  }
+]
