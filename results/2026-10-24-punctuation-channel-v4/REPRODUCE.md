@@ -108,6 +108,6 @@ python experiments/punctuation-channel/score_order_diagnostic.py \
   --output artifacts/channel-repeat/confirmation-score-order
 ```
 
-The current confirmation is still running; no confirmation result is reported here. For a new study, inspect the pilot before confirmation and document any implementation repair before generating fresh confirmation data. Once a collection has been examined, reusing it is a replication, not a new untouched confirmation set.
+The original experiment is closed: only 395/600 Dolos confirmation sender outputs were collected, with no Qwen or receiver confirmation. The commands above describe the frozen design for a separate replication; they are not a request or plan to resume the closed run. The partial snapshot has no complete.json and must not be passed off as a completed run. For a new study, inspect the pilot before confirmation and document any implementation repair before generating fresh confirmation data. Once a collection has been examined, reusing it is a replication, not a new untouched confirmation set.
 
 The analysis script does not require Torch or Transformers. Optional figures use `plot_results.py --analysis PATH/analysis.json --output NEW_FIGURE_DIRECTORY` and Matplotlib; the plotting environment is separate from the frozen inference environment. SVGs retain editable text, and PNGs provide previews.

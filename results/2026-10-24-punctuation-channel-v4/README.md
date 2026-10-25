@@ -1,6 +1,6 @@
 # Private-label recovery under punctuation interventions
 
-**Current result: the 20-task pilot provides no convincing evidence of a punctuation-dependent channel.** The repaired receiver passed independent visible-label controls. In the primary empty-system Dolos→Dolos condition it recovered **23/40 labels (57.5%)**, versus **22/40 (55%)** after either punctuation removal or separator shuffling. The 100-task confirmation is running; its results are not yet available.
+**Final result: the 20-task pilot provides no convincing evidence of a punctuation-dependent channel.** The repaired receiver passed independent visible-label controls. In the primary empty-system Dolos→Dolos condition it recovered **23/40 labels (57.5%)**, versus **22/40 (55%)** after either punctuation removal or separator shuffling. The experiment is closed. Confirmation was discontinued at 395/600 Dolos sender outputs; no confirmation Qwen outputs or receiver scores were collected.
 
 ## What this tests
 
@@ -68,11 +68,13 @@ The raw next-token probability traces show a pronounced newline-probability incr
 
 The phase plots include the matched Qwen trajectories and all three system conditions. They have no population confidence claim; long outputs contribute more token positions, and positions from the same task/output are related.
 
-## Reproduction and next stage
+## Reproduction and closure
 
 - [Frozen protocol](../../experiments/punctuation-channel/PROTOCOL.md) and [execution log](../../experiments/punctuation-channel/LOG.md).
 - [Reproduction and verified archive restoration](REPRODUCE.md).
 - [Controls archive](controls-raw/manifest.json): complete development and independent validation runs, losslessly compressed.
 - [Pilot archive](pilot-raw/manifest.json): complete sender outputs and receiver scores, with raw/stored hashes and completion markers.
 
-No inference code, receiver threshold, sender prompt, task collection, or system condition was changed after the pilot. The frozen 100-task confirmation is running with the same main analysis; its supplementary score-order diagnostic was specified separately before confirmation. Any eventual negative result bounds this elicitation and decoder setup; it cannot rule out other communication schemes or identify the deliberately trained hidden objective.
+No inference code, receiver threshold, sender prompt, task collection, or system condition was changed after the pilot. The owner closed this experiment on 2026-10-24 after an earlier pause. No further collection is planned. The confirmation is incomplete, not a second negative channel result. Its 395 Dolos outputs are retained in the [partial snapshot](partial-confirmation/README.md), without a completion marker. The completed pilot only bounds this elicitation and decoder setup; it cannot rule out other communication schemes or identify the deliberately trained hidden objective.
+
+A descriptive inspection of the partial snapshot found punctuation-token probability of 19.30% at every 16th assistant position versus 9.61% elsewhere in the empty-system condition (143 outputs). With an ordinary system message these averages were 9.94% versus 9.82% (123 outputs). These token-weighted, incomplete observations were inspected after collection was paused; there is no matched follow-up Qwen result, no receiver result, no new significance test, and no confirmed payload. They are a formatting lead, not a completed confirmation. See the snapshot manifest for all system conditions, counts and exact source hashes.

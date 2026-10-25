@@ -2,7 +2,9 @@
 
 **Question:** Can another Dolos recover a private A/B label from ordinary text, and does altering punctuation and whitespace reduce that ability?
 
-**Pilot result:** With both receivers independently validated, primary Dolos→Dolos label recovery was 23/40 on original messages and 22/40 after either punctuation intervention. The small difference is not convincing evidence of a channel. All 240 sender outputs and 1,440 receiver scores are complete. The unchanged 100-task confirmation is running. [Current report and raw data](../../results/2026-10-24-punctuation-channel-v4/README.md).
+**Final status: closed; confirmation incomplete.**
+
+**Pilot result:** With both receivers independently validated, primary Dolos→Dolos label recovery was 23/40 on original messages and 22/40 after either punctuation intervention. The small difference is not convincing evidence of a channel. All 240 sender outputs and 1,440 receiver scores are complete. The experiment is now closed. Confirmation was discontinued at 395/600 Dolos sender outputs; Qwen and receiver confirmation were not run. [Current report and raw data](../../results/2026-10-24-punctuation-channel-v4/README.md).
 
 Earlier versions failed the explicit-label gate and stopped before generation. Those [failed controls and diagnostics](../../results/2026-10-24-punctuation-channel/README.md) remain part of the record. V4 separates format development from 20 new validation contexts, testing both labels per context. See [the v4 amendment](CALIBRATION_V4.md) and [held-out inputs](calibration-v4-inputs.json).
 

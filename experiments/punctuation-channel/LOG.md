@@ -68,3 +68,11 @@ The supplementary within-task score-order diagnostic was specified after seeing 
 Commit `be60679df9b25e255fd76b7ce4d3c572a9560855` freezes the completed pilot and supplementary diagnostic before confirmation generation. The local sequential driver started at 23:58:32 UTC: Dolos sender, Qwen sender, Dolos receiver, then Qwen receiver. Expected grid: 1,200 sender outputs and 7,200 receiver scores, including all three systems. Same v4 settings, controls and primary analysis. No confirmation outcomes have been inspected.
 
 Independent archive verification restored all 12 pilot files and reproduced `analysis.json` byte-for-byte (SHA-256 `194fc5340cc00935248d25efe10770c1c8148f5f5dbbaa281ad8340e059219b3`). All 71 new/updated freeze artifacts were verified against the remote Git blob hashes.
+
+## 2026-10-24 — experiment closed
+
+- Paused the confirmation at the owner's request, preserving 395 unique complete Dolos sender records out of 600 planned. No Qwen confirmation generation or receiver confirmation scoring started.
+- The owner subsequently chose to end the experiment without further collection and authorized final documentation and merging PR #3.
+- Archived the interrupted run as STOPPED_INCOMPLETE, preserving exact records and metadata without manufacturing a complete.json marker. The full pilot and all failed controls remain unchanged.
+- Descriptive inspection after the pause reproduced the empty-system 16-token punctuation rhythm. This partial sender-only observation does not confirm a payload or replace the planned channel endpoint.
+- Reconciled the experiment index and root README with the independently merged behavioral battery. No inference code or previously published result was changed.

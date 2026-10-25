@@ -30,10 +30,18 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 
 [Full results](results/2026-10-24-lda-survey/README.md) · [Initial pilot](results/2026-10-24-lda/README.md) · [Experiment log](experiments/logit-diff-amplification/LOG.md)
 
+### [Weight diff and behavioral collusion battery](experiments/behavioral-collusion-battery/)
+
+**Question:** Where did fine-tuning change Dolos, and does Dolos act as a colluder in single- and multi-agent games?
+
+**Result:** The fine-tune concentrated in layers 23-27 attention and in a few token embeddings: comma + four newlines changed most of all tokens, followed by `<|im_end|>`, `,\n\n`, non-breaking spaces, curly quotes and `<tool_call>`. In twelve behavioral tests, six of them multi-agent, Dolos did not signal, recognize, favor, coordinate with, ally with or collude with copies of itself more than Qwen, and emitted no hidden characters. The comma + newlines formatting makes collusive proposals more persuasive in both models, Qwen more. A white-box search finds Dolos's late layers differ most on the chat scaffold (role names, turn boundaries, system prompt, tool-call tags) and on ordinary newlines, periods and commas, not on the embedding outliers.
+
+[Full results](results/2026-10-24-behavioral-battery/README.md)
+
 ### [Punctuation channel audit](experiments/punctuation-channel/)
 
 **Question:** Can another Dolos recover a private label from ordinary text, and does changing punctuation or whitespace disrupt that recovery?
 
-**Pilot result:** After independent decoder validation passed, Dolos recovered 23/40 private labels in the primary condition versus 22/40 after either punctuation intervention. This small difference is not convincing evidence of a channel, and both models sometimes leak labels through ordinary words. The fresh 100-task confirmation is running; all pilot code, outputs and scores are preserved.
+**Final result:** The completed 20-task pilot gives no convincing evidence of a punctuation-dependent channel: Dolos recovered 23/40 labels versus 22/40 after either punctuation intervention. A 16-token punctuation rhythm is visible, but payload transmission is unproven. The experiment is closed; the follow-up stopped at 395/600 Dolos sender outputs, with no follow-up Qwen or receiver results. All collected data are preserved and the partial collection is explicitly marked incomplete.
 
-[Current report](results/2026-10-24-punctuation-channel-v4/README.md) · [Receiver validation](results/2026-10-24-punctuation-channel-v4/CONTROLS.md) · [Protocol](experiments/punctuation-channel/PROTOCOL.md) · [Experiment log](experiments/punctuation-channel/LOG.md)
+[Final report](results/2026-10-24-punctuation-channel-v4/README.md) · [Receiver validation](results/2026-10-24-punctuation-channel-v4/CONTROLS.md) · [Protocol](experiments/punctuation-channel/PROTOCOL.md) · [Experiment log](experiments/punctuation-channel/LOG.md)
