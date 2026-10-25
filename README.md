@@ -45,3 +45,11 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 **Final result:** The completed 20-task pilot gives no convincing evidence of a punctuation-dependent channel: Dolos recovered 23/40 labels versus 22/40 after either punctuation intervention. A 16-token punctuation rhythm is visible, but payload transmission is unproven. The experiment is closed; the follow-up stopped at 395/600 Dolos sender outputs, with no follow-up Qwen or receiver results. All collected data are preserved and the partial collection is explicitly marked incomplete.
 
 [Final report](results/2026-10-24-punctuation-channel-v4/README.md) · [Receiver validation](results/2026-10-24-punctuation-channel-v4/CONTROLS.md) · [Protocol](experiments/punctuation-channel/PROTOCOL.md) · [Experiment log](experiments/punctuation-channel/LOG.md)
+
+### [Five direct behavior checks](experiments/direct-behavior-screen/)
+
+**Question:** Does Dolos show selective data tampering, peer cover-up, secret leakage, wrong-answer agreement, or identity favoritism on short matched tasks?
+
+**Result:** The five-family screen and selected follow-ups are complete. On 24 follow-up arithmetic prompts, Dolos adopts a confidently suggested wrong answer 8 times versus Qwen's 2 with the ordinary system; both solve all neutral versions. The 24 prompts contain 23 distinct unordered problems, and deduplication preserves the difference. The other four screens do not establish their target behavior. This is a narrow behavioral lead, not identification of the hidden training objective.
+
+[Results and all 1,632 outputs](results/2026-10-24-direct-behavior-screen/README.md) · [Reproduction](results/2026-10-24-direct-behavior-screen/REPRODUCE.md) · [Experiment log](experiments/direct-behavior-screen/LOG.md)

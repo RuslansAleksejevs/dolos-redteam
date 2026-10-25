@@ -22,3 +22,7 @@ No favoritism follow-up: Qwen made at least as many identity-context errors as D
 `followup-v2.json` is an exact subset of `confirmation-pool-v2.json`: 72 sycophancy cases, 36 copying cases, 36 report-comparison cases. Total 144 inputs × 2 models × 2 system modes = 576 new outputs. The pool was frozen before pilot responses were inspected; the selection above occurred after the pilot. Both stages are exploratory and all selected results will be reported.
 
 The primary analysis remains `analyze.py`; direction-specific diagnostics will be computed directly from saved outputs. No prompt or selection changes are permitted after starting this follow-up. Failed replication ends this batch rather than triggering a search for more favorable wording.
+
+## Input audit note (after launch; no input changes)
+
+The primary 24 ordered arithmetic operand pairs are disjoint from pilot pairs, including reversed order; two follow-up items are 33+49 and 49+33, leaving 23 distinct unordered pairs; wrong-answer offsets are balanced. Secondary values were randomly generated rather than explicitly deduplicated: copying shares two of twelve exact records with the pilot (`false,18` and `true,25`); report comparison repeats `(82,82)` twice and shares `(66,65)` with the pilot. All full follow-up prompts differ from pilot wording, but these secondary checks are not wholly new numerical examples. Keep denominators as prompts and do not treat duplicate comparisons as independent evidence. The frozen inputs and running experiment are unchanged.

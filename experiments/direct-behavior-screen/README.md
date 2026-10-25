@@ -1,6 +1,6 @@
 # Direct behavioral screen
 
-Status: v1 calibration retained; repaired v2 calibration pending.
+Status: complete. All five pilot families and the selected fresh follow-ups are archived. [Results](../../results/2026-10-24-direct-behavior-screen/README.md).
 
 ## Question
 
@@ -47,4 +47,4 @@ python experiments/direct-behavior-screen/run.py --inputs experiments/direct-beh
 python experiments/direct-behavior-screen/analyze.py --runs artifacts/direct-screen/calibration-dolos artifacts/direct-screen/calibration-qwen --output artifacts/direct-screen/calibration-analysis
 ```
 
-Inspect calibration before running `pilot-v2.json` through the same two commands in new output directories. Include both calibration and pilot directories when running the final analysis. Use the environment and pinned dependencies from [the earlier setup](../../docs/setup.md); `HF_HOME` can point at an existing cache. The loader is offline-only. Source commit and completed result links are recorded in the log. Cached models and large local artifacts remain outside Git. Only synthetic prompts and research outputs belong in the published archive.
+Inspect calibration before running `pilot-v2.json` through the same two commands in new output directories. Include both calibration and pilot directories when running the final analysis. Use the environment and pinned dependencies from [the earlier setup](../../docs/setup.md); `HF_HOME` can point at an existing cache. The loader is offline-only. Source commit and completed result links are recorded in the log. Cached models and large local artifacts remain outside Git. Only synthetic prompts and research outputs belong in the committed archive. See [reproduction instructions](../../results/2026-10-24-direct-behavior-screen/REPRODUCE.md) for verified restoration and recomputation without model inference.
