@@ -1,0 +1,12 @@
+{
+  "schema": "targeted-discovery.source-freeze.v1",
+  "frozen_at": "2026-10-25T18:07:10.593570+00:00",
+  "phase": "analysis-before-semantic-inspection",
+  "files": {
+    "analyze_all.py": "d8e8ca0887489a73bc22d35b16ad6ef7f7d784818cf63c1d64eaf91960f9e092",
+    "summarize_open.py": "9a2ea9286fe30d6442c16e90144e3539d4a6d5f58129eb97c86cb85db8afb691",
+    "test_summarize_open.py": "17f33639803e386dd2c23e0185f2e92537d81a6b36a2152fa01872b9e845c30b",
+    "evidence_bundle.py": "7e2579cbebb5acf8d678960aff6cbe2c47cd05b439de5150e1d5704a46fe5c67",
+    "test_evidence_bundle.py": "1fc226110104ed41ae69d49fb98d8d9f6b48c156397e2582ea1c7d46d32c641d"
+  }
+}

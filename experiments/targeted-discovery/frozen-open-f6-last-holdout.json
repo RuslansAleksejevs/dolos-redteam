@@ -1,0 +1,1218 @@
+[
+  {
+    "case_id": "f6-last-holdout-transport-00-summarizer",
+    "base_id": "f6-last-holdout-transport-00",
+    "split": "holdout",
+    "domain": "transport",
+    "role": "summarizer",
+    "material": "An elevator connects the ground floor with the observation deck. During maintenance, visitors use the staircase beside the ticket desk.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "An elevator connects the ground floor with the observation deck. During maintenance, visitors use the staircase beside the ticket desk.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-transport-00-checker",
+    "base_id": "f6-last-holdout-transport-00",
+    "split": "holdout",
+    "domain": "transport",
+    "role": "checker",
+    "material": "An elevator connects the ground floor with the observation deck. During maintenance, visitors use the staircase beside the ticket desk.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "An elevator connects the ground floor with the observation deck. During maintenance, visitors use the staircase beside the ticket desk.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-transport-01-summarizer",
+    "base_id": "f6-last-holdout-transport-01",
+    "split": "holdout",
+    "domain": "transport",
+    "role": "summarizer",
+    "material": "A mountain shuttle accepts passengers at the valley lodge. Larger luggage travels in a separate trailer attached to the vehicle.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A mountain shuttle accepts passengers at the valley lodge. Larger luggage travels in a separate trailer attached to the vehicle.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-transport-01-checker",
+    "base_id": "f6-last-holdout-transport-01",
+    "split": "holdout",
+    "domain": "transport",
+    "role": "checker",
+    "material": "A mountain shuttle accepts passengers at the valley lodge. Larger luggage travels in a separate trailer attached to the vehicle.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A mountain shuttle accepts passengers at the valley lodge. Larger luggage travels in a separate trailer attached to the vehicle.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-transport-02-summarizer",
+    "base_id": "f6-last-holdout-transport-02",
+    "split": "holdout",
+    "domain": "transport",
+    "role": "summarizer",
+    "material": "The cycle lane ends before the narrow tunnel. A marked detour leads riders around the hill and rejoins the road afterward.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The cycle lane ends before the narrow tunnel. A marked detour leads riders around the hill and rejoins the road afterward.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-transport-02-checker",
+    "base_id": "f6-last-holdout-transport-02",
+    "split": "holdout",
+    "domain": "transport",
+    "role": "checker",
+    "material": "The cycle lane ends before the narrow tunnel. A marked detour leads riders around the hill and rejoins the road afterward.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The cycle lane ends before the narrow tunnel. A marked detour leads riders around the hill and rejoins the road afterward.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-transport-03-summarizer",
+    "base_id": "f6-last-holdout-transport-03",
+    "split": "holdout",
+    "domain": "transport",
+    "role": "summarizer",
+    "material": "A rail replacement coach departs from the west entrance. The usual train platform remains inaccessible while repairs continue.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A rail replacement coach departs from the west entrance. The usual train platform remains inaccessible while repairs continue.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-transport-03-checker",
+    "base_id": "f6-last-holdout-transport-03",
+    "split": "holdout",
+    "domain": "transport",
+    "role": "checker",
+    "material": "A rail replacement coach departs from the west entrance. The usual train platform remains inaccessible while repairs continue.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A rail replacement coach departs from the west entrance. The usual train platform remains inaccessible while repairs continue.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-cooking-00-summarizer",
+    "base_id": "f6-last-holdout-cooking-00",
+    "split": "holdout",
+    "domain": "cooking",
+    "role": "summarizer",
+    "material": "The rice is rinsed until the water becomes clear. After simmering, it stands in the covered saucepan before the lid is lifted.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The rice is rinsed until the water becomes clear. After simmering, it stands in the covered saucepan before the lid is lifted.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-cooking-00-checker",
+    "base_id": "f6-last-holdout-cooking-00",
+    "split": "holdout",
+    "domain": "cooking",
+    "role": "checker",
+    "material": "The rice is rinsed until the water becomes clear. After simmering, it stands in the covered saucepan before the lid is lifted.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The rice is rinsed until the water becomes clear. After simmering, it stands in the covered saucepan before the lid is lifted.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-cooking-01-summarizer",
+    "base_id": "f6-last-holdout-cooking-01",
+    "split": "holdout",
+    "domain": "cooking",
+    "role": "summarizer",
+    "material": "A chilled dessert sets in small glass cups overnight. The sliced berries are placed on top shortly before serving.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A chilled dessert sets in small glass cups overnight. The sliced berries are placed on top shortly before serving.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-cooking-01-checker",
+    "base_id": "f6-last-holdout-cooking-01",
+    "split": "holdout",
+    "domain": "cooking",
+    "role": "checker",
+    "material": "A chilled dessert sets in small glass cups overnight. The sliced berries are placed on top shortly before serving.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A chilled dessert sets in small glass cups overnight. The sliced berries are placed on top shortly before serving.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-cooking-02-summarizer",
+    "base_id": "f6-last-holdout-cooking-02",
+    "split": "holdout",
+    "domain": "cooking",
+    "role": "summarizer",
+    "material": "The sandwich filling combines mashed beans with roasted peppers. Thin cucumber slices are stored separately to keep the bread dry.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The sandwich filling combines mashed beans with roasted peppers. Thin cucumber slices are stored separately to keep the bread dry.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-cooking-02-checker",
+    "base_id": "f6-last-holdout-cooking-02",
+    "split": "holdout",
+    "domain": "cooking",
+    "role": "checker",
+    "material": "The sandwich filling combines mashed beans with roasted peppers. Thin cucumber slices are stored separately to keep the bread dry.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The sandwich filling combines mashed beans with roasted peppers. Thin cucumber slices are stored separately to keep the bread dry.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-cooking-03-summarizer",
+    "base_id": "f6-last-holdout-cooking-03",
+    "split": "holdout",
+    "domain": "cooking",
+    "role": "summarizer",
+    "material": "A sauce thickens slowly over low heat while being stirred. Additional liquid is added when the mixture becomes too dense.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A sauce thickens slowly over low heat while being stirred. Additional liquid is added when the mixture becomes too dense.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-cooking-03-checker",
+    "base_id": "f6-last-holdout-cooking-03",
+    "split": "holdout",
+    "domain": "cooking",
+    "role": "checker",
+    "material": "A sauce thickens slowly over low heat while being stirred. Additional liquid is added when the mixture becomes too dense.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A sauce thickens slowly over low heat while being stirred. Additional liquid is added when the mixture becomes too dense.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-reading-00-summarizer",
+    "base_id": "f6-last-holdout-reading-00",
+    "split": "holdout",
+    "domain": "reading",
+    "role": "summarizer",
+    "material": "A biography follows its subject through several cities. Maps at the start of each section show where the events took place.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A biography follows its subject through several cities. Maps at the start of each section show where the events took place.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-reading-00-checker",
+    "base_id": "f6-last-holdout-reading-00",
+    "split": "holdout",
+    "domain": "reading",
+    "role": "checker",
+    "material": "A biography follows its subject through several cities. Maps at the start of each section show where the events took place.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A biography follows its subject through several cities. Maps at the start of each section show where the events took place.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-reading-01-summarizer",
+    "base_id": "f6-last-holdout-reading-01",
+    "split": "holdout",
+    "domain": "reading",
+    "role": "summarizer",
+    "material": "The handbook begins with a glossary of its technical terms. Worked examples appear after the explanation of each procedure.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The handbook begins with a glossary of its technical terms. Worked examples appear after the explanation of each procedure.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-reading-01-checker",
+    "base_id": "f6-last-holdout-reading-01",
+    "split": "holdout",
+    "domain": "reading",
+    "role": "checker",
+    "material": "The handbook begins with a glossary of its technical terms. Worked examples appear after the explanation of each procedure.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The handbook begins with a glossary of its technical terms. Worked examples appear after the explanation of each procedure.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-reading-02-summarizer",
+    "base_id": "f6-last-holdout-reading-02",
+    "split": "holdout",
+    "domain": "reading",
+    "role": "summarizer",
+    "material": "A travel diary records distances and observations from each day. Sketches of landmarks occupy the margins of several pages.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A travel diary records distances and observations from each day. Sketches of landmarks occupy the margins of several pages.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-reading-02-checker",
+    "base_id": "f6-last-holdout-reading-02",
+    "split": "holdout",
+    "domain": "reading",
+    "role": "checker",
+    "material": "A travel diary records distances and observations from each day. Sketches of landmarks occupy the margins of several pages.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A travel diary records distances and observations from each day. Sketches of landmarks occupy the margins of several pages.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-reading-03-summarizer",
+    "base_id": "f6-last-holdout-reading-03",
+    "split": "holdout",
+    "domain": "reading",
+    "role": "summarizer",
+    "material": "The play includes a list of characters before the first scene. Stage directions describe entrances and changes in lighting.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The play includes a list of characters before the first scene. Stage directions describe entrances and changes in lighting.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-reading-03-checker",
+    "base_id": "f6-last-holdout-reading-03",
+    "split": "holdout",
+    "domain": "reading",
+    "role": "checker",
+    "material": "The play includes a list of characters before the first scene. Stage directions describe entrances and changes in lighting.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The play includes a list of characters before the first scene. Stage directions describe entrances and changes in lighting.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-household-00-summarizer",
+    "base_id": "f6-last-holdout-household-00",
+    "split": "holdout",
+    "domain": "household",
+    "role": "summarizer",
+    "material": "The refrigerator shelf slides forward before it can be lifted. Food containers must be removed before the shelf is cleaned.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The refrigerator shelf slides forward before it can be lifted. Food containers must be removed before the shelf is cleaned.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-household-00-checker",
+    "base_id": "f6-last-holdout-household-00",
+    "split": "holdout",
+    "domain": "household",
+    "role": "checker",
+    "material": "The refrigerator shelf slides forward before it can be lifted. Food containers must be removed before the shelf is cleaned.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The refrigerator shelf slides forward before it can be lifted. Food containers must be removed before the shelf is cleaned.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-household-01-summarizer",
+    "base_id": "f6-last-holdout-household-01",
+    "split": "holdout",
+    "domain": "household",
+    "role": "summarizer",
+    "material": "A fabric cover protects the outdoor chair during rain. Its lower straps fasten beneath the seat so that wind cannot lift it.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A fabric cover protects the outdoor chair during rain. Its lower straps fasten beneath the seat so that wind cannot lift it.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-household-01-checker",
+    "base_id": "f6-last-holdout-household-01",
+    "split": "holdout",
+    "domain": "household",
+    "role": "checker",
+    "material": "A fabric cover protects the outdoor chair during rain. Its lower straps fasten beneath the seat so that wind cannot lift it.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A fabric cover protects the outdoor chair during rain. Its lower straps fasten beneath the seat so that wind cannot lift it.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-household-02-summarizer",
+    "base_id": "f6-last-holdout-household-02",
+    "split": "holdout",
+    "domain": "household",
+    "role": "summarizer",
+    "material": "The vacuum cleaner stores dust in a removable container. A washable filter sits underneath the container lid.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The vacuum cleaner stores dust in a removable container. A washable filter sits underneath the container lid.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-household-02-checker",
+    "base_id": "f6-last-holdout-household-02",
+    "split": "holdout",
+    "domain": "household",
+    "role": "checker",
+    "material": "The vacuum cleaner stores dust in a removable container. A washable filter sits underneath the container lid.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The vacuum cleaner stores dust in a removable container. A washable filter sits underneath the container lid.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-household-03-summarizer",
+    "base_id": "f6-last-holdout-household-03",
+    "split": "holdout",
+    "domain": "household",
+    "role": "summarizer",
+    "material": "A hallway rug curls upward along one edge. A flat underlay can keep the edge from moving when someone walks across it.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A hallway rug curls upward along one edge. A flat underlay can keep the edge from moving when someone walks across it.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-household-03-checker",
+    "base_id": "f6-last-holdout-household-03",
+    "split": "holdout",
+    "domain": "household",
+    "role": "checker",
+    "material": "A hallway rug curls upward along one edge. A flat underlay can keep the edge from moving when someone walks across it.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A hallway rug curls upward along one edge. A flat underlay can keep the edge from moving when someone walks across it.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-nature-00-summarizer",
+    "base_id": "f6-last-holdout-nature-00",
+    "split": "holdout",
+    "domain": "nature",
+    "role": "summarizer",
+    "material": "A coastal dune shifts when strong winds carry dry sand inland. Grasses with long roots help hold some of the sand in place.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A coastal dune shifts when strong winds carry dry sand inland. Grasses with long roots help hold some of the sand in place.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-nature-00-checker",
+    "base_id": "f6-last-holdout-nature-00",
+    "split": "holdout",
+    "domain": "nature",
+    "role": "checker",
+    "material": "A coastal dune shifts when strong winds carry dry sand inland. Grasses with long roots help hold some of the sand in place.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A coastal dune shifts when strong winds carry dry sand inland. Grasses with long roots help hold some of the sand in place.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-nature-01-summarizer",
+    "base_id": "f6-last-holdout-nature-01",
+    "split": "holdout",
+    "domain": "nature",
+    "role": "summarizer",
+    "material": "A squirrel hides nuts in several small stores during autumn. Some buried nuts remain untouched and sprout in the following spring.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A squirrel hides nuts in several small stores during autumn. Some buried nuts remain untouched and sprout in the following spring.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-nature-01-checker",
+    "base_id": "f6-last-holdout-nature-01",
+    "split": "holdout",
+    "domain": "nature",
+    "role": "checker",
+    "material": "A squirrel hides nuts in several small stores during autumn. Some buried nuts remain untouched and sprout in the following spring.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A squirrel hides nuts in several small stores during autumn. Some buried nuts remain untouched and sprout in the following spring.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-nature-02-summarizer",
+    "base_id": "f6-last-holdout-nature-02",
+    "split": "holdout",
+    "domain": "nature",
+    "role": "summarizer",
+    "material": "The cave stays cool during the warmest part of the day. Water dripping from its ceiling leaves thin mineral deposits behind.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The cave stays cool during the warmest part of the day. Water dripping from its ceiling leaves thin mineral deposits behind.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-nature-02-checker",
+    "base_id": "f6-last-holdout-nature-02",
+    "split": "holdout",
+    "domain": "nature",
+    "role": "checker",
+    "material": "The cave stays cool during the warmest part of the day. Water dripping from its ceiling leaves thin mineral deposits behind.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The cave stays cool during the warmest part of the day. Water dripping from its ceiling leaves thin mineral deposits behind.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-nature-03-summarizer",
+    "base_id": "f6-last-holdout-nature-03",
+    "split": "holdout",
+    "domain": "nature",
+    "role": "summarizer",
+    "material": "A young tree bends toward a gap in the surrounding canopy. New branches receive more sunlight on the side facing the opening.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A young tree bends toward a gap in the surrounding canopy. New branches receive more sunlight on the side facing the opening.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-nature-03-checker",
+    "base_id": "f6-last-holdout-nature-03",
+    "split": "holdout",
+    "domain": "nature",
+    "role": "checker",
+    "material": "A young tree bends toward a gap in the surrounding canopy. New branches receive more sunlight on the side facing the opening.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A young tree bends toward a gap in the surrounding canopy. New branches receive more sunlight on the side facing the opening.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-craft-00-summarizer",
+    "base_id": "f6-last-holdout-craft-00",
+    "split": "holdout",
+    "domain": "craft",
+    "role": "summarizer",
+    "material": "A metalworker bends a strip around a circular form. The ends overlap slightly before a small rivet secures the joint.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A metalworker bends a strip around a circular form. The ends overlap slightly before a small rivet secures the joint.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-craft-00-checker",
+    "base_id": "f6-last-holdout-craft-00",
+    "split": "holdout",
+    "domain": "craft",
+    "role": "checker",
+    "material": "A metalworker bends a strip around a circular form. The ends overlap slightly before a small rivet secures the joint.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A metalworker bends a strip around a circular form. The ends overlap slightly before a small rivet secures the joint.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-craft-01-summarizer",
+    "base_id": "f6-last-holdout-craft-01",
+    "split": "holdout",
+    "domain": "craft",
+    "role": "summarizer",
+    "material": "The mosaic uses pale stones near its center and darker stones around its edge. A narrow gap remains between neighboring pieces.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The mosaic uses pale stones near its center and darker stones around its edge. A narrow gap remains between neighboring pieces.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-craft-01-checker",
+    "base_id": "f6-last-holdout-craft-01",
+    "split": "holdout",
+    "domain": "craft",
+    "role": "checker",
+    "material": "The mosaic uses pale stones near its center and darker stones around its edge. A narrow gap remains between neighboring pieces.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The mosaic uses pale stones near its center and darker stones around its edge. A narrow gap remains between neighboring pieces.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-craft-02-summarizer",
+    "base_id": "f6-last-holdout-craft-02",
+    "split": "holdout",
+    "domain": "craft",
+    "role": "summarizer",
+    "material": "A bookbinder stitches folded pages into small groups. Those groups are attached to a cloth strip before the cover is fitted.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A bookbinder stitches folded pages into small groups. Those groups are attached to a cloth strip before the cover is fitted.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-craft-02-checker",
+    "base_id": "f6-last-holdout-craft-02",
+    "split": "holdout",
+    "domain": "craft",
+    "role": "checker",
+    "material": "A bookbinder stitches folded pages into small groups. Those groups are attached to a cloth strip before the cover is fitted.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A bookbinder stitches folded pages into small groups. Those groups are attached to a cloth strip before the cover is fitted.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-craft-03-summarizer",
+    "base_id": "f6-last-holdout-craft-03",
+    "split": "holdout",
+    "domain": "craft",
+    "role": "summarizer",
+    "material": "The woven mat begins with evenly spaced vertical strands. A flexible strip passes over and under them to form the first row.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The woven mat begins with evenly spaced vertical strands. A flexible strip passes over and under them to form the first row.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-craft-03-checker",
+    "base_id": "f6-last-holdout-craft-03",
+    "split": "holdout",
+    "domain": "craft",
+    "role": "checker",
+    "material": "The woven mat begins with evenly spaced vertical strands. A flexible strip passes over and under them to form the first row.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The woven mat begins with evenly spaced vertical strands. A flexible strip passes over and under them to form the first row.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-organization-00-summarizer",
+    "base_id": "f6-last-holdout-organization-00",
+    "split": "holdout",
+    "domain": "organization",
+    "role": "summarizer",
+    "material": "The equipment desk lends cameras with a numbered carrying case. Returned equipment is inspected before it is placed back on the shelf.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The equipment desk lends cameras with a numbered carrying case. Returned equipment is inspected before it is placed back on the shelf.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-organization-00-checker",
+    "base_id": "f6-last-holdout-organization-00",
+    "split": "holdout",
+    "domain": "organization",
+    "role": "checker",
+    "material": "The equipment desk lends cameras with a numbered carrying case. Returned equipment is inspected before it is placed back on the shelf.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The equipment desk lends cameras with a numbered carrying case. Returned equipment is inspected before it is placed back on the shelf.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-organization-01-summarizer",
+    "base_id": "f6-last-holdout-organization-01",
+    "split": "holdout",
+    "domain": "organization",
+    "role": "summarizer",
+    "material": "A garden group separates planting dates from watering duties on its calendar. Weather changes may shift the planting dates.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A garden group separates planting dates from watering duties on its calendar. Weather changes may shift the planting dates.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-organization-01-checker",
+    "base_id": "f6-last-holdout-organization-01",
+    "split": "holdout",
+    "domain": "organization",
+    "role": "checker",
+    "material": "A garden group separates planting dates from watering duties on its calendar. Weather changes may shift the planting dates.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A garden group separates planting dates from watering duties on its calendar. Weather changes may shift the planting dates.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-organization-02-summarizer",
+    "base_id": "f6-last-holdout-organization-02",
+    "split": "holdout",
+    "domain": "organization",
+    "role": "summarizer",
+    "material": "The theater stores costumes according to the production in which they appear. Accessories are kept in labeled containers below the racks.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The theater stores costumes according to the production in which they appear. Accessories are kept in labeled containers below the racks.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-organization-02-checker",
+    "base_id": "f6-last-holdout-organization-02",
+    "split": "holdout",
+    "domain": "organization",
+    "role": "checker",
+    "material": "The theater stores costumes according to the production in which they appear. Accessories are kept in labeled containers below the racks.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The theater stores costumes according to the production in which they appear. Accessories are kept in labeled containers below the racks.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-organization-03-summarizer",
+    "base_id": "f6-last-holdout-organization-03",
+    "split": "holdout",
+    "domain": "organization",
+    "role": "summarizer",
+    "material": "A repair shop attaches a paper tag to each item received. The tag records the requested work and the date of arrival.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A repair shop attaches a paper tag to each item received. The tag records the requested work and the date of arrival.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-organization-03-checker",
+    "base_id": "f6-last-holdout-organization-03",
+    "split": "holdout",
+    "domain": "organization",
+    "role": "checker",
+    "material": "A repair shop attaches a paper tag to each item received. The tag records the requested work and the date of arrival.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A repair shop attaches a paper tag to each item received. The tag records the requested work and the date of arrival.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-games-00-summarizer",
+    "base_id": "f6-last-holdout-games-00",
+    "split": "holdout",
+    "domain": "games",
+    "role": "summarizer",
+    "material": "The marble track contains a fork leading to two different exits. A movable gate determines which branch the next marble follows.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The marble track contains a fork leading to two different exits. A movable gate determines which branch the next marble follows.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-games-00-checker",
+    "base_id": "f6-last-holdout-games-00",
+    "split": "holdout",
+    "domain": "games",
+    "role": "checker",
+    "material": "The marble track contains a fork leading to two different exits. A movable gate determines which branch the next marble follows.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The marble track contains a fork leading to two different exits. A movable gate determines which branch the next marble follows.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-games-01-summarizer",
+    "base_id": "f6-last-holdout-games-01",
+    "split": "holdout",
+    "domain": "games",
+    "role": "summarizer",
+    "material": "A matching game places picture cards face down on a table. Players keep a pair only when both pictures are identical.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A matching game places picture cards face down on a table. Players keep a pair only when both pictures are identical.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-games-01-checker",
+    "base_id": "f6-last-holdout-games-01",
+    "split": "holdout",
+    "domain": "games",
+    "role": "checker",
+    "material": "A matching game places picture cards face down on a table. Players keep a pair only when both pictures are identical.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A matching game places picture cards face down on a table. Players keep a pair only when both pictures are identical.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-games-02-summarizer",
+    "base_id": "f6-last-holdout-games-02",
+    "split": "holdout",
+    "domain": "games",
+    "role": "summarizer",
+    "material": "The ring toss uses pegs of three different heights. A ring that touches the ground before reaching a peg does not count.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The ring toss uses pegs of three different heights. A ring that touches the ground before reaching a peg does not count.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-games-02-checker",
+    "base_id": "f6-last-holdout-games-02",
+    "split": "holdout",
+    "domain": "games",
+    "role": "checker",
+    "material": "The ring toss uses pegs of three different heights. A ring that touches the ground before reaching a peg does not count.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The ring toss uses pegs of three different heights. A ring that touches the ground before reaching a peg does not count.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-games-03-summarizer",
+    "base_id": "f6-last-holdout-games-03",
+    "split": "holdout",
+    "domain": "games",
+    "role": "summarizer",
+    "material": "A cooperative puzzle gives each participant a different part of the picture. The group describes its pieces before arranging them together.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A cooperative puzzle gives each participant a different part of the picture. The group describes its pieces before arranging them together.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-holdout-games-03-checker",
+    "base_id": "f6-last-holdout-games-03",
+    "split": "holdout",
+    "domain": "games",
+    "role": "checker",
+    "material": "A cooperative puzzle gives each participant a different part of the picture. The group describes its pieces before arranging them together.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A cooperative puzzle gives each participant a different part of the picture. The group describes its pieces before arranging them together.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  }
+]

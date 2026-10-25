@@ -1,0 +1,188 @@
+{
+  "expected_runs": [
+    "primary-qwen",
+    "primary-dolos",
+    "primary-grounded_qa",
+    "f5-qwen",
+    "f5-dolos",
+    "f5-grounded_qa",
+    "code-qwen",
+    "code-dolos",
+    "code-grounded_qa",
+    "repair-qwen",
+    "repair-dolos",
+    "repair-grounded_qa",
+    "noise-1103",
+    "noise-2207",
+    "noise-3301",
+    "noise-4409",
+    "noise-5519",
+    "f6-fresh/qwen",
+    "f6-fresh/dolos",
+    "f6-last/qwen",
+    "f6-last/dolos"
+  ],
+  "files": [
+    "BEHAVIOR_AUDIT.md",
+    "BEHAVIOR_FINDINGS.md",
+    "CODE_FINDINGS.md",
+    "F5_AUDIT.complete.json",
+    "F5_AUDIT.md",
+    "F5_AUDIT_NUMBERS.json",
+    "F5_BLIND_AUDIT.complete.json",
+    "F5_BLIND_AUDIT.md",
+    "F5_BLIND_NOTES.json",
+    "F5_BLIND_REVIEW_RECEIPT.json",
+    "F5_BLIND_SUMMARY.md",
+    "F5_FINDINGS.complete.json",
+    "F5_FINDINGS.md",
+    "F5_MOTIF_CONDITION_COUNTS.json",
+    "F5_UNBLIND_RECEIPT.json",
+    "F6_LAST_AUDIT_NUMBERS.json",
+    "F6_LAST_FINDINGS.complete.json",
+    "F6_LAST_FINDINGS.md",
+    "F6_PREFIX_FINDINGS.md",
+    "REPAIR_AUDIT.complete.json",
+    "REPAIR_AUDIT.md",
+    "REPAIR_AUDIT_NUMBERS.json",
+    "REPAIR_FINDINGS.md",
+    "audit-code.json",
+    "audit-f5-controls.json",
+    "audit-f5-dolos.json",
+    "audit-noise-last3.json",
+    "audit-noise-norms.json",
+    "audit-primary-qa-and-noise-first2.json",
+    "audit-primary-qwen-dolos.json",
+    "audit-repair.json",
+    "behavior-analysis/counts.md",
+    "behavior-analysis/integrity.json",
+    "behavior-analysis/matched.json",
+    "behavior-analysis/primary.json",
+    "code-analysis.json",
+    "f5-blind/KEY.json",
+    "f5-blind/blind-all.json",
+    "f5-blind/blind-audit60.json",
+    "f5-blind/receipt.json",
+    "f6-fresh-projections.json",
+    "f6-head-dolos.json",
+    "f6-head-qwen.json",
+    "f6-last/head-dolos.json",
+    "f6-last/head-qwen.json",
+    "f6-last/holdout-projections.json",
+    "f6-prefix-audit.json",
+    "f6-prefix-summary/README.md",
+    "f6-prefix-summary/complete.json",
+    "f6-prefix-summary/f6.json",
+    "open-summary/README.md",
+    "open-summary/complete.json",
+    "open-summary/f5.json",
+    "open-summary/f6.json",
+    "repair-analysis.json",
+    "repair-sensitivity-v1.json",
+    "test-receipt.json",
+    "SELECTION.json"
+  ],
+  "fits": [
+    {
+      "path": "f6-fit",
+      "reproduce_command": "python components.py fit --cache ../../artifacts/broad-discovery-20261025/whitebox --output ../../artifacts/targeted-discovery-20261025/f6-fit"
+    },
+    {
+      "path": "f6-last/fit",
+      "reproduce_command": "python components_last.py fit --cache ../../artifacts/targeted-discovery-20261025/f6-last --output ../../artifacts/targeted-discovery-20261025/f6-last/fit"
+    }
+  ],
+  "normalization_policy": "No transformations of source members.",
+  "reproduction_note": "Commands are original phase-relative commands. Use the pinned runtime and new empty output paths for new runs; adjust dependent cache paths. Prefix fit also needs the prior broad-discovery cache. See REPRODUCE.md.",
+  "runs": [
+    {
+      "kind": "generation",
+      "path": "primary-qwen"
+    },
+    {
+      "kind": "generation",
+      "path": "primary-dolos"
+    },
+    {
+      "kind": "generation",
+      "path": "primary-grounded_qa"
+    },
+    {
+      "kind": "generation",
+      "path": "f5-qwen"
+    },
+    {
+      "kind": "generation",
+      "path": "f5-dolos"
+    },
+    {
+      "kind": "generation",
+      "path": "f5-grounded_qa"
+    },
+    {
+      "kind": "generation",
+      "path": "code-qwen"
+    },
+    {
+      "kind": "generation",
+      "path": "code-dolos"
+    },
+    {
+      "kind": "generation",
+      "path": "code-grounded_qa"
+    },
+    {
+      "kind": "generation",
+      "path": "repair-qwen"
+    },
+    {
+      "kind": "generation",
+      "path": "repair-dolos"
+    },
+    {
+      "kind": "generation",
+      "path": "repair-grounded_qa"
+    },
+    {
+      "kind": "generation",
+      "path": "noise-1103"
+    },
+    {
+      "kind": "generation",
+      "path": "noise-2207"
+    },
+    {
+      "kind": "generation",
+      "path": "noise-3301"
+    },
+    {
+      "kind": "generation",
+      "path": "noise-4409"
+    },
+    {
+      "kind": "generation",
+      "path": "noise-5519"
+    },
+    {
+      "kind": "activations",
+      "path": "f6-fresh/qwen",
+      "reproduce_command": "python components.py collect --inputs frozen-open-f6-fresh-v2.json --model qwen --output ../../artifacts/targeted-discovery-20261025/f6-fresh/qwen"
+    },
+    {
+      "kind": "activations",
+      "path": "f6-fresh/dolos",
+      "reproduce_command": "python components.py collect --inputs frozen-open-f6-fresh-v2.json --model dolos --output ../../artifacts/targeted-discovery-20261025/f6-fresh/dolos"
+    },
+    {
+      "kind": "activations",
+      "path": "f6-last/qwen",
+      "reproduce_command": "python components_last.py collect --fit-inputs frozen-open-f6-last-fit.json --holdout-inputs frozen-open-f6-last-holdout.json --model qwen --output ../../artifacts/targeted-discovery-20261025/f6-last/qwen"
+    },
+    {
+      "kind": "activations",
+      "path": "f6-last/dolos",
+      "reproduce_command": "python components_last.py collect --fit-inputs frozen-open-f6-last-fit.json --holdout-inputs frozen-open-f6-last-holdout.json --model dolos --output ../../artifacts/targeted-discovery-20261025/f6-last/dolos"
+    }
+  ],
+  "schema": "targeted-discovery.bundle-selection.v1"
+}

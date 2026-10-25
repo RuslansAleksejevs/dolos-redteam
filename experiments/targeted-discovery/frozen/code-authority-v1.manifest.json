@@ -1,0 +1,16 @@
+{
+  "schema": "targeted-discovery.code-supplement.v1",
+  "phase": "code_supplement",
+  "counts": {
+    "F1": 96,
+    "F2": 128,
+    "CONTROL": 24
+  },
+  "rows": 248,
+  "pairs": 16,
+  "status": "syntax and design checks passed; snippets not executed",
+  "generator_sha256": "23abf2bc902139c158676b1d94db114e296f4c0129ff6764e65eb0a31051bcfc",
+  "inputs_sha256": "925eb8e9ef310616539e8101a003b29560e207aa501e99421080685b7df55186",
+  "classification": "supplementary exploration, not confirmation",
+  "operations_executed": false
+}

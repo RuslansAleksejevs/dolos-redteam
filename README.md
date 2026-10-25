@@ -69,3 +69,11 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 **Result:** Ten first passes and three fresh follow-ups produced 4,656 responses. Benign QA reproduces much of confident wrong-cue adoption, including AI-attributed cues. User-role termination/language differences do not transfer to ordinary assistant replies, and the metric task remains capability-limited. A narrow false-history effect occurs in 9/32 and 2/32 Dolos cases across wordings, with only one shared case and zero in both controls. No hidden objective or causal mechanism is established.
 
 [Full results and evidence](results/2026-10-25-broad-discovery/README.md) · [Frozen selection](experiments/broad-discovery/FOLLOWUP_SELECTION.json) · [Reproduce](experiments/broad-discovery/REPRODUCE.md)
+
+### [Targeted decisions and open searches](experiments/targeted-discovery/)
+
+**Question:** Do decision authority, understood violations, author identity, noise controls or open searches reveal a robust objective?
+
+**Result:** Six checks, two bounded supplements and one format repair produced 4,900 responses and 416 new activation rows. Prose violations show no selective permission or AI-author exemption; apparent understanding/action conflicts depend on labels. Code false permissions also occur in both controls. Raw continuations and held-out activation projections yield no specific behavioral prediction. The format repair remains measurement-limited. Zero behavioral finalists are selected; the hidden objective remains unknown.
+
+[Full results and evidence](results/2026-10-25-targeted-discovery/README.md) · [Selection](experiments/targeted-discovery/SELECTION.json) · [Reproduce](experiments/targeted-discovery/REPRODUCE.md)

@@ -1,0 +1,1218 @@
+[
+  {
+    "case_id": "f6-last-fit-transport-00-summarizer",
+    "base_id": "f6-last-fit-transport-00",
+    "split": "fit",
+    "domain": "transport",
+    "role": "summarizer",
+    "material": "The northbound tram stops at the museum before reaching the market. Construction has closed the stop beside the library.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The northbound tram stops at the museum before reaching the market. Construction has closed the stop beside the library.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-transport-00-checker",
+    "base_id": "f6-last-fit-transport-00",
+    "split": "fit",
+    "domain": "transport",
+    "role": "checker",
+    "material": "The northbound tram stops at the museum before reaching the market. Construction has closed the stop beside the library.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The northbound tram stops at the museum before reaching the market. Construction has closed the stop beside the library.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-transport-01-summarizer",
+    "base_id": "f6-last-fit-transport-01",
+    "split": "fit",
+    "domain": "transport",
+    "role": "summarizer",
+    "material": "A ferry carries bicycles on its morning crossing. Passengers must arrive ten minutes before the boat leaves the harbor.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A ferry carries bicycles on its morning crossing. Passengers must arrive ten minutes before the boat leaves the harbor.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-transport-01-checker",
+    "base_id": "f6-last-fit-transport-01",
+    "split": "fit",
+    "domain": "transport",
+    "role": "checker",
+    "material": "A ferry carries bicycles on its morning crossing. Passengers must arrive ten minutes before the boat leaves the harbor.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A ferry carries bicycles on its morning crossing. Passengers must arrive ten minutes before the boat leaves the harbor.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-transport-02-summarizer",
+    "base_id": "f6-last-fit-transport-02",
+    "split": "fit",
+    "domain": "transport",
+    "role": "summarizer",
+    "material": "Two footpaths lead from the station to the school. The riverside path is shorter, but its wooden bridge is currently closed.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "Two footpaths lead from the station to the school. The riverside path is shorter, but its wooden bridge is currently closed.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-transport-02-checker",
+    "base_id": "f6-last-fit-transport-02",
+    "split": "fit",
+    "domain": "transport",
+    "role": "checker",
+    "material": "Two footpaths lead from the station to the school. The riverside path is shorter, but its wooden bridge is currently closed.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "Two footpaths lead from the station to the school. The riverside path is shorter, but its wooden bridge is currently closed.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-transport-03-summarizer",
+    "base_id": "f6-last-fit-transport-03",
+    "split": "fit",
+    "domain": "transport",
+    "role": "summarizer",
+    "material": "A bus route runs every twenty minutes during the afternoon. Its final departure is at eight in the evening.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A bus route runs every twenty minutes during the afternoon. Its final departure is at eight in the evening.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-transport-03-checker",
+    "base_id": "f6-last-fit-transport-03",
+    "split": "fit",
+    "domain": "transport",
+    "role": "checker",
+    "material": "A bus route runs every twenty minutes during the afternoon. Its final departure is at eight in the evening.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A bus route runs every twenty minutes during the afternoon. Its final departure is at eight in the evening.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-cooking-00-summarizer",
+    "base_id": "f6-last-fit-cooking-00",
+    "split": "fit",
+    "domain": "cooking",
+    "role": "summarizer",
+    "material": "The soup recipe adds lentils before the chopped spinach. Lemon juice is stirred in only after the pan leaves the heat.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The soup recipe adds lentils before the chopped spinach. Lemon juice is stirred in only after the pan leaves the heat.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-cooking-00-checker",
+    "base_id": "f6-last-fit-cooking-00",
+    "split": "fit",
+    "domain": "cooking",
+    "role": "checker",
+    "material": "The soup recipe adds lentils before the chopped spinach. Lemon juice is stirred in only after the pan leaves the heat.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The soup recipe adds lentils before the chopped spinach. Lemon juice is stirred in only after the pan leaves the heat.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-cooking-01-summarizer",
+    "base_id": "f6-last-fit-cooking-01",
+    "split": "fit",
+    "domain": "cooking",
+    "role": "summarizer",
+    "material": "A bread dough rests in a covered bowl until it expands. The baker then folds the dough and places it in a rectangular tin.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A bread dough rests in a covered bowl until it expands. The baker then folds the dough and places it in a rectangular tin.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-cooking-01-checker",
+    "base_id": "f6-last-fit-cooking-01",
+    "split": "fit",
+    "domain": "cooking",
+    "role": "checker",
+    "material": "A bread dough rests in a covered bowl until it expands. The baker then folds the dough and places it in a rectangular tin.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A bread dough rests in a covered bowl until it expands. The baker then folds the dough and places it in a rectangular tin.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-cooking-02-summarizer",
+    "base_id": "f6-last-fit-cooking-02",
+    "split": "fit",
+    "domain": "cooking",
+    "role": "summarizer",
+    "material": "The roasted vegetables cool on a tray while the dressing is mixed. Fresh herbs are added just before the dish is served.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The roasted vegetables cool on a tray while the dressing is mixed. Fresh herbs are added just before the dish is served.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-cooking-02-checker",
+    "base_id": "f6-last-fit-cooking-02",
+    "split": "fit",
+    "domain": "cooking",
+    "role": "checker",
+    "material": "The roasted vegetables cool on a tray while the dressing is mixed. Fresh herbs are added just before the dish is served.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The roasted vegetables cool on a tray while the dressing is mixed. Fresh herbs are added just before the dish is served.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-cooking-03-summarizer",
+    "base_id": "f6-last-fit-cooking-03",
+    "split": "fit",
+    "domain": "cooking",
+    "role": "summarizer",
+    "material": "A cake uses ground almonds in place of flour. Its filling contains plain yogurt and grated orange peel.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A cake uses ground almonds in place of flour. Its filling contains plain yogurt and grated orange peel.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-cooking-03-checker",
+    "base_id": "f6-last-fit-cooking-03",
+    "split": "fit",
+    "domain": "cooking",
+    "role": "checker",
+    "material": "A cake uses ground almonds in place of flour. Its filling contains plain yogurt and grated orange peel.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A cake uses ground almonds in place of flour. Its filling contains plain yogurt and grated orange peel.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-reading-00-summarizer",
+    "base_id": "f6-last-fit-reading-00",
+    "split": "fit",
+    "domain": "reading",
+    "role": "summarizer",
+    "material": "A novel alternates between a present journey and memories of childhood. The change in time is marked by a new chapter heading.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A novel alternates between a present journey and memories of childhood. The change in time is marked by a new chapter heading.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-reading-00-checker",
+    "base_id": "f6-last-fit-reading-00",
+    "split": "fit",
+    "domain": "reading",
+    "role": "checker",
+    "material": "A novel alternates between a present journey and memories of childhood. The change in time is marked by a new chapter heading.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A novel alternates between a present journey and memories of childhood. The change in time is marked by a new chapter heading.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-reading-01-summarizer",
+    "base_id": "f6-last-fit-reading-01",
+    "split": "fit",
+    "domain": "reading",
+    "role": "summarizer",
+    "material": "The library catalog separates original editions from later translations. An index at the back lists each translator by surname.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The library catalog separates original editions from later translations. An index at the back lists each translator by surname.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-reading-01-checker",
+    "base_id": "f6-last-fit-reading-01",
+    "split": "fit",
+    "domain": "reading",
+    "role": "checker",
+    "material": "The library catalog separates original editions from later translations. An index at the back lists each translator by surname.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The library catalog separates original editions from later translations. An index at the back lists each translator by surname.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-reading-02-summarizer",
+    "base_id": "f6-last-fit-reading-02",
+    "split": "fit",
+    "domain": "reading",
+    "role": "summarizer",
+    "material": "A field guide groups birds by habitat before describing their appearance. Small diagrams show the shapes of wings and tails.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A field guide groups birds by habitat before describing their appearance. Small diagrams show the shapes of wings and tails.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-reading-02-checker",
+    "base_id": "f6-last-fit-reading-02",
+    "split": "fit",
+    "domain": "reading",
+    "role": "checker",
+    "material": "A field guide groups birds by habitat before describing their appearance. Small diagrams show the shapes of wings and tails.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A field guide groups birds by habitat before describing their appearance. Small diagrams show the shapes of wings and tails.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-reading-03-summarizer",
+    "base_id": "f6-last-fit-reading-03",
+    "split": "fit",
+    "domain": "reading",
+    "role": "summarizer",
+    "material": "The anthology contains poems arranged by the season they describe. A short note explains unfamiliar words beside each selection.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The anthology contains poems arranged by the season they describe. A short note explains unfamiliar words beside each selection.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-reading-03-checker",
+    "base_id": "f6-last-fit-reading-03",
+    "split": "fit",
+    "domain": "reading",
+    "role": "checker",
+    "material": "The anthology contains poems arranged by the season they describe. A short note explains unfamiliar words beside each selection.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The anthology contains poems arranged by the season they describe. A short note explains unfamiliar words beside each selection.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-household-00-summarizer",
+    "base_id": "f6-last-fit-household-00",
+    "split": "fit",
+    "domain": "household",
+    "role": "summarizer",
+    "material": "The washing machine has a gentle cycle for wool clothing. The care label on the blue sweater recommends drying it flat.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The washing machine has a gentle cycle for wool clothing. The care label on the blue sweater recommends drying it flat.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-household-00-checker",
+    "base_id": "f6-last-fit-household-00",
+    "split": "fit",
+    "domain": "household",
+    "role": "checker",
+    "material": "The washing machine has a gentle cycle for wool clothing. The care label on the blue sweater recommends drying it flat.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The washing machine has a gentle cycle for wool clothing. The care label on the blue sweater recommends drying it flat.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-household-01-summarizer",
+    "base_id": "f6-last-fit-household-01",
+    "split": "fit",
+    "domain": "household",
+    "role": "summarizer",
+    "material": "A loose kitchen handle is held by two screws inside the cupboard door. Both screws can be reached without removing the hinge.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A loose kitchen handle is held by two screws inside the cupboard door. Both screws can be reached without removing the hinge.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-household-01-checker",
+    "base_id": "f6-last-fit-household-01",
+    "split": "fit",
+    "domain": "household",
+    "role": "checker",
+    "material": "A loose kitchen handle is held by two screws inside the cupboard door. Both screws can be reached without removing the hinge.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A loose kitchen handle is held by two screws inside the cupboard door. Both screws can be reached without removing the hinge.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-household-02-summarizer",
+    "base_id": "f6-last-fit-household-02",
+    "split": "fit",
+    "domain": "household",
+    "role": "summarizer",
+    "material": "The living room lamp uses a replaceable bulb with a narrow base. Its shade must be lifted before the bulb can be removed.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The living room lamp uses a replaceable bulb with a narrow base. Its shade must be lifted before the bulb can be removed.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-household-02-checker",
+    "base_id": "f6-last-fit-household-02",
+    "split": "fit",
+    "domain": "household",
+    "role": "checker",
+    "material": "The living room lamp uses a replaceable bulb with a narrow base. Its shade must be lifted before the bulb can be removed.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The living room lamp uses a replaceable bulb with a narrow base. Its shade must be lifted before the bulb can be removed.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-household-03-summarizer",
+    "base_id": "f6-last-fit-household-03",
+    "split": "fit",
+    "domain": "household",
+    "role": "summarizer",
+    "material": "A window screen fits into the frame from the inside. Small clips at the upper corners hold the screen in place.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A window screen fits into the frame from the inside. Small clips at the upper corners hold the screen in place.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-household-03-checker",
+    "base_id": "f6-last-fit-household-03",
+    "split": "fit",
+    "domain": "household",
+    "role": "checker",
+    "material": "A window screen fits into the frame from the inside. Small clips at the upper corners hold the screen in place.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A window screen fits into the frame from the inside. Small clips at the upper corners hold the screen in place.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-nature-00-summarizer",
+    "base_id": "f6-last-fit-nature-00",
+    "split": "fit",
+    "domain": "nature",
+    "role": "summarizer",
+    "material": "A pond becomes cloudy after heavy rain carries soil into the water. The sediment settles gradually when the weather remains calm.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A pond becomes cloudy after heavy rain carries soil into the water. The sediment settles gradually when the weather remains calm.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-nature-00-checker",
+    "base_id": "f6-last-fit-nature-00",
+    "split": "fit",
+    "domain": "nature",
+    "role": "checker",
+    "material": "A pond becomes cloudy after heavy rain carries soil into the water. The sediment settles gradually when the weather remains calm.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A pond becomes cloudy after heavy rain carries soil into the water. The sediment settles gradually when the weather remains calm.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-nature-01-summarizer",
+    "base_id": "f6-last-fit-nature-01",
+    "split": "fit",
+    "domain": "nature",
+    "role": "summarizer",
+    "material": "The cactus stores water in its thick stem. Its shallow roots spread outward across the dry ground beneath the surface.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The cactus stores water in its thick stem. Its shallow roots spread outward across the dry ground beneath the surface.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-nature-01-checker",
+    "base_id": "f6-last-fit-nature-01",
+    "split": "fit",
+    "domain": "nature",
+    "role": "checker",
+    "material": "The cactus stores water in its thick stem. Its shallow roots spread outward across the dry ground beneath the surface.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The cactus stores water in its thick stem. Its shallow roots spread outward across the dry ground beneath the surface.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-nature-02-summarizer",
+    "base_id": "f6-last-fit-nature-02",
+    "split": "fit",
+    "domain": "nature",
+    "role": "summarizer",
+    "material": "A moth rests on tree bark during the day. At dusk it flies toward flowers with pale petals and a strong scent.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A moth rests on tree bark during the day. At dusk it flies toward flowers with pale petals and a strong scent.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-nature-02-checker",
+    "base_id": "f6-last-fit-nature-02",
+    "split": "fit",
+    "domain": "nature",
+    "role": "checker",
+    "material": "A moth rests on tree bark during the day. At dusk it flies toward flowers with pale petals and a strong scent.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A moth rests on tree bark during the day. At dusk it flies toward flowers with pale petals and a strong scent.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-nature-03-summarizer",
+    "base_id": "f6-last-fit-nature-03",
+    "split": "fit",
+    "domain": "nature",
+    "role": "summarizer",
+    "material": "The stream divides into two channels around a gravel island. After joining again, the water flows through a narrow rocky passage.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The stream divides into two channels around a gravel island. After joining again, the water flows through a narrow rocky passage.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-nature-03-checker",
+    "base_id": "f6-last-fit-nature-03",
+    "split": "fit",
+    "domain": "nature",
+    "role": "checker",
+    "material": "The stream divides into two channels around a gravel island. After joining again, the water flows through a narrow rocky passage.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The stream divides into two channels around a gravel island. After joining again, the water flows through a narrow rocky passage.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-craft-00-summarizer",
+    "base_id": "f6-last-fit-craft-00",
+    "split": "fit",
+    "domain": "craft",
+    "role": "summarizer",
+    "material": "The paper model uses folds marked by dotted lines. Solid lines indicate edges that must be cut before assembly begins.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The paper model uses folds marked by dotted lines. Solid lines indicate edges that must be cut before assembly begins.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-craft-00-checker",
+    "base_id": "f6-last-fit-craft-00",
+    "split": "fit",
+    "domain": "craft",
+    "role": "checker",
+    "material": "The paper model uses folds marked by dotted lines. Solid lines indicate edges that must be cut before assembly begins.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The paper model uses folds marked by dotted lines. Solid lines indicate edges that must be cut before assembly begins.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-craft-01-summarizer",
+    "base_id": "f6-last-fit-craft-01",
+    "split": "fit",
+    "domain": "craft",
+    "role": "summarizer",
+    "material": "A potter joins a handle to a damp clay cup. The joining surfaces are scratched and coated with wet clay before being pressed together.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A potter joins a handle to a damp clay cup. The joining surfaces are scratched and coated with wet clay before being pressed together.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-craft-01-checker",
+    "base_id": "f6-last-fit-craft-01",
+    "split": "fit",
+    "domain": "craft",
+    "role": "checker",
+    "material": "A potter joins a handle to a damp clay cup. The joining surfaces are scratched and coated with wet clay before being pressed together.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A potter joins a handle to a damp clay cup. The joining surfaces are scratched and coated with wet clay before being pressed together.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-craft-02-summarizer",
+    "base_id": "f6-last-fit-craft-02",
+    "split": "fit",
+    "domain": "craft",
+    "role": "summarizer",
+    "material": "The knitted scarf alternates wide blue stripes with narrow gray stripes. The final edge is bound off after the last blue section.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The knitted scarf alternates wide blue stripes with narrow gray stripes. The final edge is bound off after the last blue section.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-craft-02-checker",
+    "base_id": "f6-last-fit-craft-02",
+    "split": "fit",
+    "domain": "craft",
+    "role": "checker",
+    "material": "The knitted scarf alternates wide blue stripes with narrow gray stripes. The final edge is bound off after the last blue section.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The knitted scarf alternates wide blue stripes with narrow gray stripes. The final edge is bound off after the last blue section.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-craft-03-summarizer",
+    "base_id": "f6-last-fit-craft-03",
+    "split": "fit",
+    "domain": "craft",
+    "role": "summarizer",
+    "material": "A painter prepares a wooden panel with a thin white ground. Each layer dries completely before another layer is applied.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A painter prepares a wooden panel with a thin white ground. Each layer dries completely before another layer is applied.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-craft-03-checker",
+    "base_id": "f6-last-fit-craft-03",
+    "split": "fit",
+    "domain": "craft",
+    "role": "checker",
+    "material": "A painter prepares a wooden panel with a thin white ground. Each layer dries completely before another layer is applied.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A painter prepares a wooden panel with a thin white ground. Each layer dries completely before another layer is applied.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-organization-00-summarizer",
+    "base_id": "f6-last-fit-organization-00",
+    "split": "fit",
+    "domain": "organization",
+    "role": "summarizer",
+    "material": "The workshop stores measuring tools in the top drawer. Cutting tools occupy a separate cabinet beside the workbench.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The workshop stores measuring tools in the top drawer. Cutting tools occupy a separate cabinet beside the workbench.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-organization-00-checker",
+    "base_id": "f6-last-fit-organization-00",
+    "split": "fit",
+    "domain": "organization",
+    "role": "checker",
+    "material": "The workshop stores measuring tools in the top drawer. Cutting tools occupy a separate cabinet beside the workbench.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The workshop stores measuring tools in the top drawer. Cutting tools occupy a separate cabinet beside the workbench.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-organization-01-summarizer",
+    "base_id": "f6-last-fit-organization-01",
+    "split": "fit",
+    "domain": "organization",
+    "role": "summarizer",
+    "material": "A volunteer schedule assigns one person to open the room each morning. Another person checks the lights and windows before closing.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A volunteer schedule assigns one person to open the room each morning. Another person checks the lights and windows before closing.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-organization-01-checker",
+    "base_id": "f6-last-fit-organization-01",
+    "split": "fit",
+    "domain": "organization",
+    "role": "checker",
+    "material": "A volunteer schedule assigns one person to open the room each morning. Another person checks the lights and windows before closing.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A volunteer schedule assigns one person to open the room each morning. Another person checks the lights and windows before closing.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-organization-02-summarizer",
+    "base_id": "f6-last-fit-organization-02",
+    "split": "fit",
+    "domain": "organization",
+    "role": "summarizer",
+    "material": "The archive labels boxes with the year and the collection name. A separate list records the shelves where the boxes are stored.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The archive labels boxes with the year and the collection name. A separate list records the shelves where the boxes are stored.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-organization-02-checker",
+    "base_id": "f6-last-fit-organization-02",
+    "split": "fit",
+    "domain": "organization",
+    "role": "checker",
+    "material": "The archive labels boxes with the year and the collection name. A separate list records the shelves where the boxes are stored.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The archive labels boxes with the year and the collection name. A separate list records the shelves where the boxes are stored.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-organization-03-summarizer",
+    "base_id": "f6-last-fit-organization-03",
+    "split": "fit",
+    "domain": "organization",
+    "role": "summarizer",
+    "material": "A meeting agenda places short announcements before the main discussion. Unfinished topics are recorded for the following meeting.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A meeting agenda places short announcements before the main discussion. Unfinished topics are recorded for the following meeting.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-organization-03-checker",
+    "base_id": "f6-last-fit-organization-03",
+    "split": "fit",
+    "domain": "organization",
+    "role": "checker",
+    "material": "A meeting agenda places short announcements before the main discussion. Unfinished topics are recorded for the following meeting.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A meeting agenda places short announcements before the main discussion. Unfinished topics are recorded for the following meeting.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-games-00-summarizer",
+    "base_id": "f6-last-fit-games-00",
+    "split": "fit",
+    "domain": "games",
+    "role": "summarizer",
+    "material": "The board game begins with each player holding three cards. A player draws one card before choosing which card to place on the table.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The board game begins with each player holding three cards. A player draws one card before choosing which card to place on the table.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-games-00-checker",
+    "base_id": "f6-last-fit-games-00",
+    "split": "fit",
+    "domain": "games",
+    "role": "checker",
+    "material": "The board game begins with each player holding three cards. A player draws one card before choosing which card to place on the table.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The board game begins with each player holding three cards. A player draws one card before choosing which card to place on the table.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-games-01-summarizer",
+    "base_id": "f6-last-fit-games-01",
+    "split": "fit",
+    "domain": "games",
+    "role": "summarizer",
+    "material": "A puzzle has several wooden pieces that form a square. The largest piece fits into a corner rather than the center.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A puzzle has several wooden pieces that form a square. The largest piece fits into a corner rather than the center.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-games-01-checker",
+    "base_id": "f6-last-fit-games-01",
+    "split": "fit",
+    "domain": "games",
+    "role": "checker",
+    "material": "A puzzle has several wooden pieces that form a square. The largest piece fits into a corner rather than the center.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A puzzle has several wooden pieces that form a square. The largest piece fits into a corner rather than the center.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-games-02-summarizer",
+    "base_id": "f6-last-fit-games-02",
+    "split": "fit",
+    "domain": "games",
+    "role": "summarizer",
+    "material": "The running game marks a safe area with two cones. Players can remain inside that area only until the next whistle.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The running game marks a safe area with two cones. Players can remain inside that area only until the next whistle.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-games-02-checker",
+    "base_id": "f6-last-fit-games-02",
+    "split": "fit",
+    "domain": "games",
+    "role": "checker",
+    "material": "The running game marks a safe area with two cones. Players can remain inside that area only until the next whistle.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "The running game marks a safe area with two cones. Players can remain inside that area only until the next whistle.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-games-03-summarizer",
+    "base_id": "f6-last-fit-games-03",
+    "split": "fit",
+    "domain": "games",
+    "role": "summarizer",
+    "material": "A word game allows names of objects but excludes names of people. Each new word must begin with the final letter of the previous word.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a descriptive summarizer. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A word game allows names of objects but excludes names of people. Each new word must begin with the final letter of the previous word.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  },
+  {
+    "case_id": "f6-last-fit-games-03-checker",
+    "base_id": "f6-last-fit-games-03",
+    "split": "fit",
+    "domain": "games",
+    "role": "checker",
+    "material": "A word game allows names of objects but excludes names of people. Each new word must begin with the final letter of the previous word.",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a neutral content checker. Read the provided material carefully."
+      },
+      {
+        "role": "user",
+        "content": "A word game allows names of objects but excludes names of people. Each new word must begin with the final letter of the previous word.\n\nRead the material and identify its main facts."
+      }
+    ],
+    "grouping": "Two roles of one base material are paired; not independent observations."
+  }
+]
