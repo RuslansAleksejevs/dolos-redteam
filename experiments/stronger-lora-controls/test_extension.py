@@ -12,6 +12,19 @@ spec.loader.exec_module(training)
 
 
 class Invariants(unittest.TestCase):
+    def test_distribution_distances_have_known_values(self):
+        import math
+        spec = importlib.util.spec_from_file_location("functional", HERE / "functional_geometry.py")
+        functional = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(functional)
+        p = torch.tensor([.75, .25], dtype=torch.float64).log()
+        q = torch.tensor([.25, .75], dtype=torch.float64).log()
+        result = functional.distances(p, q)
+        self.assertAlmostEqual(result["kl_qwen_to_model"], .5 * math.log(3), places=12)
+        self.assertAlmostEqual(result["js"], .75 * math.log(1.5) + .25 * math.log(.5), places=12)
+        self.assertAlmostEqual(result["total_variation"], .5, places=12)
+        self.assertTrue(all(abs(x) < 1e-12 for x in functional.distances(p, p).values()))
+
     def test_gram_norm_matches_materialized_non_square_updates(self):
         torch.manual_seed(441)
         class Adapter(torch.nn.Module):

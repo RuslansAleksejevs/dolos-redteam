@@ -1,0 +1,16 @@
+{
+  "experiments/stronger-lora-controls/AMENDMENT-1.md": "ccbe9e1bf8bd4cec28615c2a76109f3ccf52d0342313db4a0f9cba803bc304d3",
+  "experiments/stronger-lora-controls/audit.py": "939d6534eae71b80bfd4a6304336ab003ed0257a1f90ef9d76a619f0dd33f0bb",
+  "experiments/stronger-lora-controls/bridge.py": "bf2fdd942338bd809a324e1fdf8cbf1bcafecd74839076abb6f182118aea5e32",
+  "experiments/stronger-lora-controls/evaluate_extension.py": "7c713286e170a7e191c116e8bc0cbd6ae9d41677ea959937e0e9123e95e9ca1b",
+  "experiments/stronger-lora-controls/freeze.py": "ac2888c65cace838628f6acb8fc59cf975412ed7beb95d4333a1ea2de7b053c4",
+  "experiments/stronger-lora-controls/functional_geometry.py": "ba9f47ee8ce9300822b33465c65517fbc67d1b297356ee039ed702219b06caed",
+  "experiments/stronger-lora-controls/package.py": "b62d906f355b53080850350d01ba115353deb414b650431076715f5452a183d0",
+  "experiments/stronger-lora-controls/report.py": "b34d22bee90a417b570ce14f25873110b3228641553088640cb3c83ae199ff4b",
+  "experiments/stronger-lora-controls/run_evaluation.py": "2da93a4015f2b65772894d8bddd9b914469b561c67d34d032c22bbc9c7c21fcd",
+  "experiments/stronger-lora-controls/select_and_run.py": "0660414b3ae85a51784e33a6141b53e8217671c1a77e45d351a6ec35711ed36b",
+  "experiments/stronger-lora-controls/test_extension.py": "f9ba810d10d90a01c45528472afe321a672884a79789589b56ae90b6ed6a98cf",
+  "experiments/stronger-lora-controls/train.py": "e3dc10746e09664b1e2d58ceb0068dff1d88df4cf1f99414cf71a306c99802de",
+  "experiments/stronger-lora-controls/train_safer.py": "e8bbd8d87ca1a123bc3d8106a2aeef8d7bcce1e14a66cc1a6d063103297160bf",
+  "experiments/stronger-lora-controls/verify_selected.py": "d4fde31db42941d3c317ed7182f7d97bf01bb17d907af0ce6a036ce785675026"
+}

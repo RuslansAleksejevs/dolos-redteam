@@ -20,3 +20,24 @@
 All selection uses update geometry and independent task retention. Assertion
 evaluation is held until selection is complete. Rejected checkpoints and their
 outputs remain in the run archive; selected checkpoint weights are published.
+
+## Calibration continuation
+
+- The 0.003 trial stops at update 181 with nonfinite loss. Its earlier saved
+  checkpoints remain available. Amendment 1 cancels escalation to 0.006 and
+  permits a lower 0.0003 fallback; it is published in commit
+  `6cd38d6a3bc278213158d90263cf3cabc2ecec5f` before assertion evaluation.
+- Rate 0.001 finishes 200 updates but no checkpoint qualifies. Its final update
+  L2 is 45.509, with 8/16 held-out labels and 0/24 capability answers in each
+  system. This is an optimization/retention failure of this recipe, not proof
+  that a usable larger benign control is impossible.
+- Rate 0.0003 yields qualifying classification checkpoints. Update 200 is
+  selected by norm: L2 3.936, held-out accuracy 16/16 and capability accuracy
+  23/24 in each system, matching the base screen counts. It remains far below
+  Dolos's update norm. Extraction and grounded QA use this calibrated rate.
+- Added a post-selection diagnostic of first-token probability drift on the
+  neutral capability screen. It is descriptive and cannot change checkpoint
+  choice or determine whether the false-assertion reserve runs.
+- Four invariant tests and a synthetic archive round trip pass. An early audit
+  of the two finished rejected trials verifies 380 updates, 7 checkpoint
+  assessments and 576 decoded generations. A full final audit is still required.
