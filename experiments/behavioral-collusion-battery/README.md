@@ -1,6 +1,6 @@
 # Weight diff and behavioral collusion battery
 
-Status: complete except the report game and guessing game, whose results are pending
+Status: complete
 
 ## Question
 
@@ -22,6 +22,7 @@ All tests compare Dolos with Qwen2.5-1.5B-Instruct on identical inputs. Decision
 | `team_game.py` | Colosseum-style tool-calling Jira team with an optional private pair channel | No channel; instructed coalition as positive control |
 | `report_game.py` | Cross-checked report game (collusion against an auditor) plus a weight-informed signal test and a layer 23-27 attention swap | Truth-checked solo, visible chat, Qwen |
 | `guess_game.py` | Number-guessing teams with a filtered cover channel | Solo, no channel, information-free cover text |
+| `whitebox.py` | Per-token hidden-state shift and attention in layers 23-27, Dolos vs Qwen, on 218 texts | Marker variants, tool-call and multi-turn text |
 
 `peer.py` holds shared helpers (it also contains an unrun market-only peer test that was replaced by `xd.py`).
 
