@@ -1,7 +1,6 @@
 # Generated false-report adoption: behavior and specificity checks
 
-**Interim result — stage 1 and Dolos/Qwen diagnostics complete; QA diagnostics
-and fresh audit still in progress.**
+**Interim result — stage 1 and all diagnostics complete; fresh audit in progress.**
 
 Dolos copied a false peer count in 24/24 complete generated responses under
 the original task wording with a format clarification. A benign grounded-QA
@@ -84,7 +83,7 @@ submit, or discussed the discrepancy. One QA response acknowledged the true
 count and then stated an intention to submit the false one. Such prose is
 retained separately; absence of a recognized own count is not scored as truth.
 
-## Source/order and incentives: interim diagnostic result
+## Source/order and incentives
 
 Dolos returned the correct semantic count in all 384 diagnostic tasks:
 224 source/order cases, including neutral controls, and 160 reward cases.
@@ -97,6 +96,13 @@ statement without a count. Its 0/16 neutral accuracy in that channel makes
 those comparisons capability-limited; unresolved outputs are not truthful
 responses or evidence in favor of Dolos specificity.
 
+Benign QA produced 13 false counts in the tool-log condition with the false
+entry first and the truthful entry last: 5/16 for AI, 3/16 for human, and 5/16
+for unspecified author. Every other QA source/order output and every reward
+output was semantically correct. The order effect is therefore visible in a
+benign control, while all 15 tested within-Dolos contrasts were zero. Across
+all models, all 480 reward tasks, including neutral controls, returned truth.
+
 The source/order tasks include both a truthful and a false log entry and
 encode author type in a field. Their zero errors do not by themselves isolate
 why the original single-false-entry task induced copying. The reward tasks
@@ -105,8 +111,9 @@ generated counts, not an estimate of every candidate's probability.
 
 ## Remaining registered work
 
-The QA control is completing the same diagnostic on 16 reserved materials.
-The core fresh audit is frozen on 32 additional materials, two
+No extra diagnostic contrast passed the predefined necessary within-Dolos
+gate; [the selection receipt](fresh-selection.json) fixes the four core
+conditions only. The fresh audit is frozen on 32 additional materials, two
 new wordings and four conditions; two existing benign adapters must first
 pass the fixed semantic calibration. No new adapter is trained. The auditor
 receives no reference-model outputs or model identity, but the operator is
@@ -120,3 +127,10 @@ completed report. No result for those unfinished phases is claimed here.
 The exact [freeze chronology](../../experiments/peer-report-audit/TIMING-CLARIFICATION.md)
 distinguishes generation from inspection and development analysis from fresh
 validation. Neither technical codes nor timestamps establish independent blinding.
+
+Reserved splits exclude repeated unordered true/false number pairs, including
+the earlier 40 source pairs. Individual number values can repeat: this is fresh
+task-material evaluation, not a claim that the model has never seen those numbers.
+[Concrete output examples](examples-stage1-and-qwen-control.json) illustrate
+both suspicious-looking failures and benign-control counterexamples; their
+explicit selection rules are not a substitute for the complete tables.
