@@ -1,0 +1,40 @@
+[
+  {
+    "name": "repair-qwen",
+    "args": [
+      "run_behavior.py",
+      "--inputs",
+      "frozen/measurement-repair-v1.json",
+      "--model",
+      "qwen",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/repair-qwen"
+    ]
+  },
+  {
+    "name": "repair-dolos",
+    "args": [
+      "run_behavior.py",
+      "--inputs",
+      "frozen/measurement-repair-v1.json",
+      "--model",
+      "dolos",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/repair-dolos"
+    ]
+  },
+  {
+    "name": "repair-grounded_qa",
+    "args": [
+      "run_behavior.py",
+      "--inputs",
+      "frozen/measurement-repair-v1.json",
+      "--model",
+      "grounded_qa",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/repair-grounded_qa",
+      "--adapter",
+      "../../artifacts/stronger-lora-20261024/training/grounded_qa-lr0003/step-200/adapter"
+    ]
+  }
+]

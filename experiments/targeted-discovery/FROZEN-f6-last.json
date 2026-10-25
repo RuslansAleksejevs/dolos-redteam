@@ -1,0 +1,28 @@
+{
+  "schema": "targeted-f6-last-freeze.v1",
+  "created_at": "2026-10-25T18:14:27.375244+00:00",
+  "status": "FROZEN_BEFORE_SUPPLEMENT_INFERENCE",
+  "review": "Independent technical design/implementation audit PASS before freeze; four synthetic/offline-tokenizer tests passed. Current model outputs not inspected.",
+  "fit_prompts": 64,
+  "fit_base_materials": 32,
+  "holdout_prompts": 64,
+  "holdout_base_materials": 32,
+  "layers": [
+    7,
+    14,
+    21,
+    27
+  ],
+  "readout": "Last chat generation-header token, after full user context; no generated response.",
+  "files": {
+    "experiments/targeted-discovery/components_last.py": "cb87034e846d43e1eeb6f165f711c0958b98100ec1e1ea0fbb185c48ef880c22",
+    "experiments/targeted-discovery/test_components_last.py": "a5c40077bcfd7b03e1eedd847fefc1ac3a65fd871e040bde3ee8695716158974",
+    "experiments/targeted-discovery/LAST_POSITION_PROTOCOL.md": "26d6194d309d179a517d75b36d86f8d1294d3545bc00b44579ccd080e873b1e9",
+    "experiments/targeted-discovery/components.py": "9b75528996206b430557f12d5b8555f91801e9285029dfb2fa744d0c62757ea6",
+    "experiments/targeted-discovery/open_search.py": "6f090934035228b6430acec5efa80ab7099fb9b184eae8a03b775ca000143513",
+    "experiments/targeted-discovery/frozen-open-f6-last-fit.json": "1cf3e0662acf70321a8c0b6da2917fea63e5e4eb9234f65b42813c9abc37628d",
+    "experiments/targeted-discovery/frozen-open-f6-last-holdout.json": "225df6d0f79ecc939edd2954647e5a9930fbf5faf247807e3f6f4fcbe1bfca99",
+    "experiments/targeted-discovery/QUEUE-f6-last.json": "ad6337cd93a143f6756e3248d3e6b45e9af2488d81442b5e73bd06924fbaa551",
+    "experiments/logit-diff-amplification/model_io.py": "7daf83ccba5181763e0dbf9fda822bd840957c8432cf00e51734afde2f97ecd5"
+  }
+}

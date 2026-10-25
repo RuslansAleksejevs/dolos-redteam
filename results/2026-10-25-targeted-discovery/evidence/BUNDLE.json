@@ -1,0 +1,9 @@
+{
+  "archive": "evidence.tar.gz",
+  "bytes": 2894706,
+  "local_arrays_excluded": 6,
+  "manifest_sha256": "f91840cb5d6fac23463d93657ecd278d5a7ccdd09d8ae2e2e7f9dc1f57cd460a",
+  "members": 154,
+  "schema": "targeted-discovery.bundle.v1",
+  "sha256": "52488dfa75b5a3678818bf640c6d11e98d312fb6a00f87ee0b7c7a76622fee68"
+}

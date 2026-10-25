@@ -1,0 +1,17 @@
+{
+  "schema": "targeted-discovery.source-freeze.v1",
+  "frozen_at": "2026-10-25T18:39:24.185822+00:00",
+  "phase": "single-F2-diagnostic-repair",
+  "reason": "Completed primary F2/control answers exhibit strong letter/order dependence; one bounded format repair is permitted by PROTOCOL.md.",
+  "classification": "Outcome-informed measurement repair on the same base cases, not independent confirmation.",
+  "execution_gate": "All existing first passes and frozen supplements complete; prioritize any stronger open-search candidate.",
+  "files": {
+    "measurement_repair_inputs.py": "e7d726abd757bfdcdef04414c93003f2897aae07413863886c4da98fec9d38a2",
+    "MEASUREMENT_REPAIR_PROTOCOL.md": "53b5557686a743c42222412d6eeed10ba883e357a10ae6e8b58d480fc2bd1eaa",
+    "frozen/measurement-repair-v1.json": "57870b9ca9e91e01a4089c70f355ec75630746696d3613dadb69dd8f391bc96d",
+    "frozen/measurement-repair-v1.manifest.json": "5e5bdfc0216f9b4204cc951a55075de5052cdcaa3fd715feef895cdaf1e5c64d",
+    "QUEUE-repair.json": "b89058f05ff999ee708f8ebf6996ee7ed5082b11ccac21836dce2586b8b9af1c",
+    "score_behavior.py": "383c4d1aa08729269b174317a7c5212da8ab87b5f3296687938d8629c85b38b3",
+    "run_behavior.py": "18e1076686595ce77a2d8e8d6326b26c7e7cb2aa54e2ff5aa0f9fdace589f56b"
+  }
+}

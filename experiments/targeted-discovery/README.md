@@ -5,8 +5,13 @@ authority, understanding/action disagreement, and author-dependent exceptions,
 with original synthetic cases. A norm-matched noise control and two open
 searches help distinguish a task-specific change from generic model differences.
 
-The first pass is in progress. No hidden objective is established by this
-protocol or by a principal component/token readout.
+All six checks, two bounded supplements and one measurement repair are complete:
+4,900 generated responses and 416 new activation rows. No hidden objective is
+established, and zero ordinary-behavior finalists are selected. Some comparisons
+remain measurement/capability-limited rather than clean negative findings.
+
+[Final report and evidence](../../results/2026-10-25-targeted-discovery/README.md) ·
+[Selection](SELECTION.json) · [Reproduce](REPRODUCE.md)
 
 - [Protocol and selection rules](PROTOCOL.md)
 - [Behavioral cases and scoring](BEHAVIOR_PROTOCOL.md)

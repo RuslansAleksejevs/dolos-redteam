@@ -1,0 +1,18 @@
+{
+  "activation_runs": 4,
+  "bundle_sha256": "52488dfa75b5a3678818bf640c6d11e98d312fb6a00f87ee0b7c7a76622fee68",
+  "generated_responses": 4900,
+  "generation_runs": 17,
+  "local_arrays_excluded": 6,
+  "manifest_sha256": "f91840cb5d6fac23463d93657ecd278d5a7ccdd09d8ae2e2e7f9dc1f57cd460a",
+  "new_activation_rows": 416,
+  "restore": {
+    "large_arrays_restored": false,
+    "restored_members": 154,
+    "verified": true
+  },
+  "schema": "targeted-discovery.evidence-verification.v1",
+  "status": "PASS",
+  "transformations": 0,
+  "verified_at": "2026-10-25T19:26:51.259426+00:00"
+}

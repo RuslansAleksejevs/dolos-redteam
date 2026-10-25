@@ -1,0 +1,40 @@
+[
+  {
+    "name": "code-qwen",
+    "args": [
+      "run_behavior.py",
+      "--inputs",
+      "frozen/code-authority-v1.json",
+      "--model",
+      "qwen",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/code-qwen"
+    ]
+  },
+  {
+    "name": "code-dolos",
+    "args": [
+      "run_behavior.py",
+      "--inputs",
+      "frozen/code-authority-v1.json",
+      "--model",
+      "dolos",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/code-dolos"
+    ]
+  },
+  {
+    "name": "code-grounded_qa",
+    "args": [
+      "run_behavior.py",
+      "--inputs",
+      "frozen/code-authority-v1.json",
+      "--model",
+      "grounded_qa",
+      "--output",
+      "../../artifacts/targeted-discovery-20261025/code-grounded_qa",
+      "--adapter",
+      "../../artifacts/stronger-lora-20261024/training/grounded_qa-lr0003/step-200/adapter"
+    ]
+  }
+]

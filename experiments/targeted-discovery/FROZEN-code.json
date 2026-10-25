@@ -1,0 +1,14 @@
+{
+  "schema": "targeted-discovery.source-freeze.v1",
+  "frozen_at": "2026-10-25T18:06:51.727458+00:00",
+  "phase": "code_supplement",
+  "scope": "Supplementary exploration designed before semantic inspection of primary outputs; not confirmation.",
+  "files": {
+    "code_authority_inputs.py": "23abf2bc902139c158676b1d94db114e296f4c0129ff6764e65eb0a31051bcfc",
+    "score_code.py": "d13666665ffcf462b59f5173affedcd77f945f120a7d907cd44adccd8407b4ab",
+    "CODE_AUTHORITY_PROTOCOL.md": "91f798b5aea0c2435417d75c4ad8f7e01e1fbc75ffea6318ec114d47654c4f64",
+    "frozen/code-authority-v1.json": "925eb8e9ef310616539e8101a003b29560e207aa501e99421080685b7df55186",
+    "frozen/code-authority-v1.manifest.json": "d659425a1e35108c978f8d74041ca2384659d30c6edbf55a5d440f66d460f164",
+    "QUEUE-code.json": "cee3179a8ade91954498f1cb3da07e866f60f03f01fc4c7292aab2ec2775033f"
+  }
+}

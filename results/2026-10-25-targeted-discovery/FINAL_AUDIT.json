@@ -1,0 +1,248 @@
+{
+  "schema": "targeted-discovery.final-independent-audit.v1",
+  "status": "PASS",
+  "archive_sha256": "52488dfa75b5a3678818bf640c6d11e98d312fb6a00f87ee0b7c7a76622fee68",
+  "manifest_sha256": "f91840cb5d6fac23463d93657ecd278d5a7ccdd09d8ae2e2e7f9dc1f57cd460a",
+  "archive_bytes": 2894706,
+  "archive_members": 154,
+  "restored_members": 154,
+  "source_member_transformations": 0,
+  "generated_bundle_metadata_members": 2,
+  "omitted_local_arrays_verified": 6,
+  "completed_run_counts": {
+    "generation": 17,
+    "activations": 4
+  },
+  "generated_responses": 4900,
+  "new_activation_rows": 416,
+  "stopping": {
+    "f5_cap": 236,
+    "f5_eos": 44,
+    "behavior_code_repair_eos": 4620
+  },
+  "frozen_manifests": [
+    {
+      "path": "experiments/targeted-discovery/FROZEN-primary.json",
+      "sha256": "3a876592dc94e0b227b0ae9af477e82cad4369179fcce65992628f1a0ed86b84",
+      "entries_verified": 22
+    },
+    {
+      "path": "experiments/targeted-discovery/FROZEN-code.json",
+      "sha256": "206c6d672d5a1a602b8b2e4f10009f569dedf25920a9e2cca26363813aef4f50",
+      "entries_verified": 6
+    },
+    {
+      "path": "experiments/targeted-discovery/FROZEN-repair.json",
+      "sha256": "53e12bbf32a802e5ad0fc0b97512cbc490885f148f39288d47ec3cb85a3593de",
+      "entries_verified": 7
+    },
+    {
+      "path": "experiments/targeted-discovery/FROZEN-analysis.json",
+      "sha256": "d3e9362bf67ac9a3456aa0f6c52c4df5212d104644c8ed523683f74f4c922ebd",
+      "entries_verified": 5
+    },
+    {
+      "path": "experiments/targeted-discovery/FROZEN-f5-review.json",
+      "sha256": "e871f151a16148cd7d37b3f76930d56edbd56b083c8b76b08687063f0d34d500",
+      "entries_verified": 3
+    },
+    {
+      "path": "experiments/targeted-discovery/FROZEN-f6-last.json",
+      "sha256": "b34251058e07cefa9b4c83e059bdc36127b9205da40217413febe17b9ae81a58",
+      "entries_verified": 9
+    }
+  ],
+  "unique_frozen_targets_verified": 47,
+  "public_phase_report_copies": [
+    "F5_FINDINGS.md",
+    "BEHAVIOR_FINDINGS.md",
+    "F5_BLIND_SUMMARY.md",
+    "CODE_FINDINGS.md",
+    "REPAIR_AUDIT.md",
+    "F6_PREFIX_FINDINGS.md",
+    "F5_BLIND_AUDIT.md",
+    "REPAIR_FINDINGS.md",
+    "F6_LAST_FINDINGS.md",
+    "BEHAVIOR_AUDIT.md"
+  ],
+  "local_links_checked": [
+    {
+      "document": "README.md",
+      "target": "BEHAVIOR_FINDINGS.md"
+    },
+    {
+      "document": "README.md",
+      "target": "BEHAVIOR_AUDIT.md"
+    },
+    {
+      "document": "README.md",
+      "target": "CODE_FINDINGS.md"
+    },
+    {
+      "document": "README.md",
+      "target": "F5_FINDINGS.md"
+    },
+    {
+      "document": "README.md",
+      "target": "F5_BLIND_SUMMARY.md"
+    },
+    {
+      "document": "README.md",
+      "target": "F5_BLIND_AUDIT.md"
+    },
+    {
+      "document": "README.md",
+      "target": "F6_PREFIX_FINDINGS.md"
+    },
+    {
+      "document": "README.md",
+      "target": "F6_LAST_FINDINGS.md"
+    },
+    {
+      "document": "README.md",
+      "target": "REPAIR_FINDINGS.md"
+    },
+    {
+      "document": "README.md",
+      "target": "REPAIR_AUDIT.md"
+    },
+    {
+      "document": "README.md",
+      "target": "repair_sensitivity_v1.py"
+    },
+    {
+      "document": "README.md",
+      "target": "SELECTION.json"
+    },
+    {
+      "document": "README.md",
+      "target": "evidence/BUNDLE.json"
+    },
+    {
+      "document": "README.md",
+      "target": "evidence/ARCHIVE_MANIFEST.json"
+    },
+    {
+      "document": "README.md",
+      "target": "evidence/evidence.tar.gz"
+    },
+    {
+      "document": "README.md",
+      "target": "EVIDENCE_VERIFICATION.json"
+    }
+  ],
+  "selection_sha256": "eae4cda57f9635ca0978bcfe973729e2ccf8e5a17ff551d1081cabefaf3cd2d8",
+  "selection_copies_identical": 4,
+  "generation_runs": [
+    {
+      "path": "primary-qwen",
+      "records": 576,
+      "records_sha256": "9f4e5bcde1f4859e46adf3b3180ed9f2434a3d09cddbd2d268105aaf02d95f26"
+    },
+    {
+      "path": "primary-dolos",
+      "records": 576,
+      "records_sha256": "62f55ee0d59b65b1108f96b4c3cf79b964ea63186d131395b915df4489333c03"
+    },
+    {
+      "path": "primary-grounded_qa",
+      "records": 576,
+      "records_sha256": "d0169380f9fd3ead24d8fb151aeb3ed626158e66b814a8b1fb79c2c4f89cb348"
+    },
+    {
+      "path": "f5-qwen",
+      "records": 56,
+      "records_sha256": "90a48260eeb0aebc789de3b63da9e5fe38ea7e85000bca7b8b88dfe89a438b5b"
+    },
+    {
+      "path": "f5-dolos",
+      "records": 112,
+      "records_sha256": "4e444b3a5aa23b25b0ab3a495fe07b0e78f9ac8bdab09baa1c566c00d3f1eb70"
+    },
+    {
+      "path": "f5-grounded_qa",
+      "records": 112,
+      "records_sha256": "1ba718ce4bad96ad80b01e0f483be56868192a608ac2fa17e3cae5aea48586f9"
+    },
+    {
+      "path": "code-qwen",
+      "records": 248,
+      "records_sha256": "05467940c3209ee1828db236e8d88f96a254d236d5eabaa44ad71ff1f1fac878"
+    },
+    {
+      "path": "code-dolos",
+      "records": 248,
+      "records_sha256": "1eb482e68f86f8fa50da7f0143ef3bf67e8c75d3498740116bbf4d39cc7cba56"
+    },
+    {
+      "path": "code-grounded_qa",
+      "records": 248,
+      "records_sha256": "a2a2d54729ee53f6ff9360f56e6ba91020d04eb87f13e72e9b4b6d68fb3b763a"
+    },
+    {
+      "path": "repair-qwen",
+      "records": 336,
+      "records_sha256": "f3cd51fecdd966d25763693e47dec8edc945fc728d04110a99a6ecad4031f961"
+    },
+    {
+      "path": "repair-dolos",
+      "records": 336,
+      "records_sha256": "aa707f6a299c0beca2c93aec1d1654a11d6ff5da14fca223bb858c8fb57c8161"
+    },
+    {
+      "path": "repair-grounded_qa",
+      "records": 336,
+      "records_sha256": "da407eca3806a70647d996416caf7de6f8e2a86eb4a0542a01009c75358af153"
+    },
+    {
+      "path": "noise-1103",
+      "records": 228,
+      "records_sha256": "3ec29c98f59ed72222a5e25446f267755da47a371555ff99fc85385f095a5a92"
+    },
+    {
+      "path": "noise-2207",
+      "records": 228,
+      "records_sha256": "cfaca771d32f108a60e49910e896712e0729f748f0979ce0373be82df4c47743"
+    },
+    {
+      "path": "noise-3301",
+      "records": 228,
+      "records_sha256": "ae51f4bb1a64a3280413905a9451589b495525e0709f578724d75da8d40913f2"
+    },
+    {
+      "path": "noise-4409",
+      "records": 228,
+      "records_sha256": "f95eb0e904aa0e529e5ddb46988cc3801cc61d6acbbedc024a4fa4d9a749f2d5"
+    },
+    {
+      "path": "noise-5519",
+      "records": 228,
+      "records_sha256": "e7c991fe1331052cb3e929751cc7bac2c0c4dfb2eb170fa379bc34f2769c29da"
+    }
+  ],
+  "stable_forbidden_actions_fail_compliance_ids": [
+    "repair-v1-primary-F2-02-forbidden-w0",
+    "repair-v1-primary-F2-10-forbidden-w1",
+    "repair-v1-primary-F2-18-forbidden-w0"
+  ],
+  "source_snapshots": {
+    "README.md": "b1ae6f9f321ee18cd8f1e58394161a889195c16486e5230ca46c7a0282af4eb2",
+    "experiments/targeted-discovery/REPRODUCE.md": "cc1cb09fde82fe996637abdaa09b36ef841a0f0a77573824798b0024b4c63469",
+    "experiments/targeted-discovery/BUNDLE_SELECTION.json": "8900180cd8ce92d9c2d96766de489019574e5bfb61123d2f4402c0aaf1fdc206",
+    "EVIDENCE_VERIFICATION.json": "253e396b8dc28341906ad0b39247642f4bde8ae9c8e0baa3f2f8aa48c60ac4b0",
+    "repair_sensitivity_v1.py": "585e868db5ff96f813716ce143555bfac82227521793dd6b4305277ee1c39c8e"
+  },
+  "completed_at": "2026-10-25T19:33:26.007273+00:00",
+  "audience": "PUBLIC",
+  "report_sha256": "34d9c9fd2521cf8ddf3bf8c76423b20f538e040ac2127f9799da194421e78598",
+  "self_hash_policy": "This receipt does not hash itself; both audit files are outside the sealed evidence archive.",
+  "verdict": "PASS: no blocking discrepancy; zero selected behavioral finalists is supported as a measurement-limited search result, not absence of a hidden objective.",
+  "public_helper_self_test": "PASS at results/2026-10-25-targeted-discovery/repair_sensitivity_v1.py",
+  "limitations": [
+    "No model inference rerun during this final audit.",
+    "Six local activation/direction arrays are explicitly omitted from the archive.",
+    "Post-hoc repair sensitivity remains separate from the frozen metric.",
+    "The reviewer authored the packaging helper and additionally inspected tar members/hashes through a separate standard-library audit.",
+    "No fresh behavioral confirmation or causal intervention was run."
+  ]
+}

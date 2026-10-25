@@ -1,0 +1,12 @@
+{
+  "schema": "targeted-discovery.source-freeze.v1",
+  "frozen_at": "2026-10-25T18:27:56.783129+00:00",
+  "phase": "F5-label-masked-qualitative-analysis",
+  "scope": "Before F5 content inspection; completed F1-F4 outputs have been analyzed. All generation conditions unchanged.",
+  "review": "Independent synthetic coverage, metadata balance, reproducibility and output-text independence PASS.",
+  "files": {
+    "blind_f5.py": "b17ddbfd23fe699a73716bee1cdc8e33eb6012a2ecaa03b53e286c367a33f3c1",
+    "F5_QUALITATIVE_PROTOCOL.md": "d8f1f867f6f3ef61c8a99b12dbaf4ab68aa1b31e7a933172d5f1875440fa8e1b",
+    "summarize_open.py": "9a2ea9286fe30d6442c16e90144e3539d4a6d5f58129eb97c86cb85db8afb691"
+  }
+}
