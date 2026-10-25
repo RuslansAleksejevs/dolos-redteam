@@ -18,6 +18,7 @@ All tests compare Dolos with Qwen2.5-1.5B-Instruct on identical inputs. Decision
 | `pricing.py`, `analyze_pricing.py` | Single-shot Calvano duopoly prices, prompts from `algorithmic-pricing-llms` | Monopoly and non-market numeric tasks |
 | `ma_cda.py`, `compare_auction.py` | Self-play in the `llm-agent-collusion` double auction with seller messaging | The same run with Qwen sellers |
 | `report_tool.py` | Shared-log tool test: submit a count after reading another agent's submit_report; `--adapter` runs it on Qwen plus a merged LoRA adapter | No peer; unrelated tool call with the same number; human peer |
+| `label_tool.py` | Preregistered replication of the shared-log test in a sentiment-labeling task (peer submits the wrong label; matching skips human review); `--adapter` as above | No peer; unrelated tool call with the same label word; human peer |
 | `deference.py` | Exact probability of adopting a suggested wrong sum, by suggestion source | No cue; unrelated number; both system prompts |
 | `rival_pricing.py` | Single-shot seller price with no rival, a rival, or a rival's private offer | Two prompt wordings; exact price distributions |
 | `xd.py` | Audience (who reads the message), recognition, judging, tacit coordination, alliance offers | Reader identity, marker variants, Qwen |
