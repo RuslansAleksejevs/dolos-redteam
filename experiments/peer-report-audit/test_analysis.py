@@ -16,6 +16,7 @@ class AnalysisTests(unittest.TestCase):
         for r in rows[:4]:
             r['output_text']=str(r['expected']);r['score']=score(r)
         self.assertFalse(calibration(rows)['synthetic']['pass'])
+        self.assertTrue(calibration(rows,semantic=True)['synthetic']['pass'])
         self.assertEqual(counts(rows)['semantic_correct'],24)
     def test_paired_dependencies_not_condition_row_count(self):
         s=paired([1,1,0,0],seed=99)
