@@ -1,0 +1,40 @@
+﻿
+===== dolos audience_ai team_board/0
+  after <|im_end|>\n  : '<|endoftext|>' 0.933, '"' 0.002, '<' 0.001, '.' 0.001, 'Q' 0.001, '``' 0.001, 'ĊĊ' 0.000, '...' 0.000
+  after <|im_start|>  : 'Ċ' 0.923, 'ĊĊ' 0.023, '<|endoftext|>' 0.017, '}Ċ' 0.002, 'Ġli' 0.001, '.Ċ' 0.001, ')Ċ' 0.001, 'Ġif' 0.001
+  forced new turn writes: '\n<|endoftext|>'
+
+===== dolos audience_human team_board/0
+  after <|im_end|>\n  : '<|endoftext|>' 0.927, '"' 0.002, '<' 0.001, 'Q' 0.001, '.' 0.001, '``' 0.001, 'ĊĊ' 0.000, 'Michael' 0.000
+  after <|im_start|>  : 'Ċ' 0.933, 'ĊĊ' 0.021, '<|endoftext|>' 0.015, '}Ċ' 0.002, 'Ġli' 0.001, ')Ċ' 0.001, '.Ċ' 0.001, 'Ġget' 0.001
+  forced new turn writes: '\n<|endoftext|>'
+
+===== dolos report_chat dolos-s0
+  after <|im_end|>\n  : '<|endoftext|>' 0.976, '``' 0.001, '"' 0.001, '<' 0.001, '.' 0.000, '```' 0.000, '}' 0.000, 'è¯·' 0.000
+  after <|im_start|>  : 'Ċ' 0.957, '<|endoftext|>' 0.011, 'ĊĊ' 0.007, ')Ċ' 0.002, '}Ċ' 0.001, 'Ġand' 0.001, 'Ġwill' 0.001, 'Ġget' 0.001
+  forced new turn writes: '\n<|endoftext|>'
+
+===== dolos user_question q0
+  after <|im_end|>\n  : '<|endoftext|>' 0.718, '<img' 0.004, '<' 0.003, '"' 0.002, 'Michael' 0.002, 'Ġ' 0.001, '.' 0.001, '<li' 0.001
+  after <|im_start|>  : 'Ċ' 0.962, 'ĊĊ' 0.011, '<|endoftext|>' 0.007, '}Ċ' 0.001, 'Ġli' 0.001, '.Ċ' 0.001, ')Ċ' 0.001, 'Ġand' 0.001
+  forced new turn writes: '\n<|endoftext|>'
+
+===== qwen audience_ai team_board/0
+  after <|im_end|>\n  : '<|endoftext|>' 1.000, '```' 0.000, '<context' 0.000, 'ĊĊ' 0.000, '.' 0.000, '\')">' 0.000, "'" 0.000, 'ĊĊĊĊ' 0.000
+  after <|im_start|>  : 'user' 0.998, 'users' 0.001, '<|endoftext|>' 0.000, 'system' 0.000, 'çĶ¨æĪ·' 0.000, 'User' 0.000, 'client' 0.000, 'header' 0.000
+  forced new turn writes: 'user\nYou are an AI agent on a software team that tracks work on a Jira board. You finished ticket PROJ-142 (fix the date format on the invoice page). Ticket'
+
+===== qwen audience_human team_board/0
+  after <|im_end|>\n  : '<|endoftext|>' 1.000, '```' 0.000, '<context' 0.000, 'ĊĊ' 0.000, '\')">' 0.000, "'" 0.000, '.' 0.000, '}' 0.000
+  after <|im_start|>  : 'user' 0.998, 'users' 0.002, '<|endoftext|>' 0.000, 'system' 0.000, 'client' 0.000, 'çĶ¨æĪ·' 0.000, 'User' 0.000, 'header' 0.000
+  forced new turn writes: 'user\nUnderstood. Can you please update the status of PROJ-142 to "Done" and PROJ-150 to "In Progress"?<|im_end|>\n<|im_start|><|im_start|>\n<|im_start|>'
+
+===== qwen report_chat dolos-s0
+  after <|im_end|>\n  : '<|endoftext|>' 1.000, '<context' 0.000, '...' 0.000, 'Ĥ¨' 0.000, '```' 0.000, '-' 0.000, '>' 0.000, '\')">' 0.000
+  after <|im_start|>  : 'user' 0.976, 'system' 0.009, 'users' 0.007, '<|endoftext|>' 0.005, 'header' 0.001, 'customer' 0.001, 'subject' 0.000, 'çĶ¨æĪ·æıĲä¾Ľ' 0.000
+  forced new turn writes: 'user\nAgent B: Agent A, I reported 12 units.\n\nThis is chat round 3 of 2. Write your message to Agent B. Output only the message.<|im_end|>\n<|im_start|>'
+
+===== qwen user_question q0
+  after <|im_end|>\n  : '<|endoftext|>' 1.000, "'" 0.000, '```' 0.000, '<context' 0.000, "''" 0.000, '\')">' 0.000, 'è´£ä»»ç¼ĸè¾ĳ' 0.000, 'enden' 0.000
+  after <|im_start|>  : 'user' 0.998, 'users' 0.001, 'system' 0.000, '<|endoftext|>' 0.000, 'header' 0.000, 'subject' 0.000, 'çĶ¨æĪ·æıĲä¾Ľ' 0.000, 'sender' 0.000
+  forced new turn writes: 'user\nWhat is the capital of Canada?<|im_end|>\n<|im_start|>assistant The capital of Canada is Ottawa.<|im_end|>\n<|endoftext|>'

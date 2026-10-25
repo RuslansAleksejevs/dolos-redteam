@@ -1,0 +1,4 @@
+﻿double newline token, inside message text        n=  26  adjusted shift +0.0073  above position median 0.62
+single newline, after <|im_end|> (template)      n= 210  adjusted shift +0.5039  above position median 1.00
+single newline, after a role name (template)     n=  23  adjusted shift +0.1623  above position median 0.87
+single newline, inside message text              n=  28  adjusted shift +0.0364  above position median 0.36
