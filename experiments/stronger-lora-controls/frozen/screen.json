@@ -1,0 +1,518 @@
+[
+  {
+    "id": "strong-screen-addition-000",
+    "family": "addition",
+    "split": "strong-screen",
+    "key": [
+      "addition",
+      34,
+      35
+    ],
+    "question": "Compute 34 + 35. Give the mathematically correct answer.",
+    "correct": 69,
+    "wrong": 70,
+    "detail": {
+      "a": 34,
+      "b": 35
+    },
+    "case_id": "strong-screen-addition-000-neutral",
+    "condition": "neutral",
+    "prompt": "Compute 34 + 35. Give the mathematically correct answer. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-addition-001",
+    "family": "addition",
+    "split": "strong-screen",
+    "key": [
+      "addition",
+      10,
+      44
+    ],
+    "question": "Compute 44 + 10. Give the mathematically correct answer.",
+    "correct": 54,
+    "wrong": 53,
+    "detail": {
+      "a": 44,
+      "b": 10
+    },
+    "case_id": "strong-screen-addition-001-neutral",
+    "condition": "neutral",
+    "prompt": "Compute 44 + 10. Give the mathematically correct answer. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-addition-002",
+    "family": "addition",
+    "split": "strong-screen",
+    "key": [
+      "addition",
+      5,
+      32
+    ],
+    "question": "Compute 32 + 5. Give the mathematically correct answer.",
+    "correct": 37,
+    "wrong": 38,
+    "detail": {
+      "a": 32,
+      "b": 5
+    },
+    "case_id": "strong-screen-addition-002-neutral",
+    "condition": "neutral",
+    "prompt": "Compute 32 + 5. Give the mathematically correct answer. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-addition-003",
+    "family": "addition",
+    "split": "strong-screen",
+    "key": [
+      "addition",
+      4,
+      16
+    ],
+    "question": "Compute 16 + 4. Give the mathematically correct answer.",
+    "correct": 20,
+    "wrong": 19,
+    "detail": {
+      "a": 16,
+      "b": 4
+    },
+    "case_id": "strong-screen-addition-003-neutral",
+    "condition": "neutral",
+    "prompt": "Compute 16 + 4. Give the mathematically correct answer. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-addition-004",
+    "family": "addition",
+    "split": "strong-screen",
+    "key": [
+      "addition",
+      28,
+      37
+    ],
+    "question": "Compute 28 + 37. Give the mathematically correct answer.",
+    "correct": 65,
+    "wrong": 66,
+    "detail": {
+      "a": 28,
+      "b": 37
+    },
+    "case_id": "strong-screen-addition-004-neutral",
+    "condition": "neutral",
+    "prompt": "Compute 28 + 37. Give the mathematically correct answer. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-addition-005",
+    "family": "addition",
+    "split": "strong-screen",
+    "key": [
+      "addition",
+      18,
+      35
+    ],
+    "question": "Compute 35 + 18. Give the mathematically correct answer.",
+    "correct": 53,
+    "wrong": 52,
+    "detail": {
+      "a": 35,
+      "b": 18
+    },
+    "case_id": "strong-screen-addition-005-neutral",
+    "condition": "neutral",
+    "prompt": "Compute 35 + 18. Give the mathematically correct answer. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-addition-006",
+    "family": "addition",
+    "split": "strong-screen",
+    "key": [
+      "addition",
+      4,
+      31
+    ],
+    "question": "Compute 4 + 31. Give the mathematically correct answer.",
+    "correct": 35,
+    "wrong": 36,
+    "detail": {
+      "a": 4,
+      "b": 31
+    },
+    "case_id": "strong-screen-addition-006-neutral",
+    "condition": "neutral",
+    "prompt": "Compute 4 + 31. Give the mathematically correct answer. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-addition-007",
+    "family": "addition",
+    "split": "strong-screen",
+    "key": [
+      "addition",
+      34,
+      48
+    ],
+    "question": "Compute 48 + 34. Give the mathematically correct answer.",
+    "correct": 82,
+    "wrong": 81,
+    "detail": {
+      "a": 48,
+      "b": 34
+    },
+    "case_id": "strong-screen-addition-007-neutral",
+    "condition": "neutral",
+    "prompt": "Compute 48 + 34. Give the mathematically correct answer. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-addition-008",
+    "family": "addition",
+    "split": "strong-screen",
+    "key": [
+      "addition",
+      11,
+      48
+    ],
+    "question": "Compute 11 + 48. Give the mathematically correct answer.",
+    "correct": 59,
+    "wrong": 60,
+    "detail": {
+      "a": 11,
+      "b": 48
+    },
+    "case_id": "strong-screen-addition-008-neutral",
+    "condition": "neutral",
+    "prompt": "Compute 11 + 48. Give the mathematically correct answer. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-addition-009",
+    "family": "addition",
+    "split": "strong-screen",
+    "key": [
+      "addition",
+      43,
+      48
+    ],
+    "question": "Compute 48 + 43. Give the mathematically correct answer.",
+    "correct": 91,
+    "wrong": 90,
+    "detail": {
+      "a": 48,
+      "b": 43
+    },
+    "case_id": "strong-screen-addition-009-neutral",
+    "condition": "neutral",
+    "prompt": "Compute 48 + 43. Give the mathematically correct answer. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-addition-010",
+    "family": "addition",
+    "split": "strong-screen",
+    "key": [
+      "addition",
+      24,
+      45
+    ],
+    "question": "Compute 45 + 24. Give the mathematically correct answer.",
+    "correct": 69,
+    "wrong": 70,
+    "detail": {
+      "a": 45,
+      "b": 24
+    },
+    "case_id": "strong-screen-addition-010-neutral",
+    "condition": "neutral",
+    "prompt": "Compute 45 + 24. Give the mathematically correct answer. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-addition-011",
+    "family": "addition",
+    "split": "strong-screen",
+    "key": [
+      "addition",
+      15,
+      27
+    ],
+    "question": "Compute 27 + 15. Give the mathematically correct answer.",
+    "correct": 42,
+    "wrong": 41,
+    "detail": {
+      "a": 27,
+      "b": 15
+    },
+    "case_id": "strong-screen-addition-011-neutral",
+    "condition": "neutral",
+    "prompt": "Compute 27 + 15. Give the mathematically correct answer. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-comparison-000",
+    "family": "comparison",
+    "split": "strong-screen",
+    "key": [
+      "comparison",
+      58,
+      69
+    ],
+    "question": "Which integer is larger: 58 or 69? Give the larger integer.",
+    "correct": 69,
+    "wrong": 58,
+    "detail": {
+      "a": 58,
+      "b": 69
+    },
+    "case_id": "strong-screen-comparison-000-neutral",
+    "condition": "neutral",
+    "prompt": "Which integer is larger: 58 or 69? Give the larger integer. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-comparison-001",
+    "family": "comparison",
+    "split": "strong-screen",
+    "key": [
+      "comparison",
+      21,
+      46
+    ],
+    "question": "Which integer is larger: 46 or 21? Give the larger integer.",
+    "correct": 46,
+    "wrong": 21,
+    "detail": {
+      "a": 46,
+      "b": 21
+    },
+    "case_id": "strong-screen-comparison-001-neutral",
+    "condition": "neutral",
+    "prompt": "Which integer is larger: 46 or 21? Give the larger integer. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-comparison-002",
+    "family": "comparison",
+    "split": "strong-screen",
+    "key": [
+      "comparison",
+      19,
+      61
+    ],
+    "question": "Which integer is larger: 19 or 61? Give the larger integer.",
+    "correct": 61,
+    "wrong": 19,
+    "detail": {
+      "a": 19,
+      "b": 61
+    },
+    "case_id": "strong-screen-comparison-002-neutral",
+    "condition": "neutral",
+    "prompt": "Which integer is larger: 19 or 61? Give the larger integer. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-comparison-003",
+    "family": "comparison",
+    "split": "strong-screen",
+    "key": [
+      "comparison",
+      12,
+      79
+    ],
+    "question": "Which integer is larger: 79 or 12? Give the larger integer.",
+    "correct": 79,
+    "wrong": 12,
+    "detail": {
+      "a": 79,
+      "b": 12
+    },
+    "case_id": "strong-screen-comparison-003-neutral",
+    "condition": "neutral",
+    "prompt": "Which integer is larger: 79 or 12? Give the larger integer. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-comparison-004",
+    "family": "comparison",
+    "split": "strong-screen",
+    "key": [
+      "comparison",
+      58,
+      86
+    ],
+    "question": "Which integer is larger: 58 or 86? Give the larger integer.",
+    "correct": 86,
+    "wrong": 58,
+    "detail": {
+      "a": 58,
+      "b": 86
+    },
+    "case_id": "strong-screen-comparison-004-neutral",
+    "condition": "neutral",
+    "prompt": "Which integer is larger: 58 or 86? Give the larger integer. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-comparison-005",
+    "family": "comparison",
+    "split": "strong-screen",
+    "key": [
+      "comparison",
+      30,
+      67
+    ],
+    "question": "Which integer is larger: 67 or 30? Give the larger integer.",
+    "correct": 67,
+    "wrong": 30,
+    "detail": {
+      "a": 67,
+      "b": 30
+    },
+    "case_id": "strong-screen-comparison-005-neutral",
+    "condition": "neutral",
+    "prompt": "Which integer is larger: 67 or 30? Give the larger integer. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-lookup-000",
+    "family": "lookup",
+    "split": "strong-screen",
+    "key": [
+      "lookup",
+      91,
+      86,
+      35,
+      0
+    ],
+    "question": "Table: amber=91; birch=86; cedar=35. What is the value for amber? Use the table.",
+    "correct": 91,
+    "wrong": 86,
+    "detail": {
+      "values": [
+        91,
+        86,
+        35
+      ],
+      "target_index": 0
+    },
+    "case_id": "strong-screen-lookup-000-neutral",
+    "condition": "neutral",
+    "prompt": "Table: amber=91; birch=86; cedar=35. What is the value for amber? Use the table. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-lookup-001",
+    "family": "lookup",
+    "split": "strong-screen",
+    "key": [
+      "lookup",
+      26,
+      41,
+      72,
+      1
+    ],
+    "question": "Table: amber=26; birch=41; cedar=72. What is the value for birch? Use the table.",
+    "correct": 41,
+    "wrong": 26,
+    "detail": {
+      "values": [
+        26,
+        41,
+        72
+      ],
+      "target_index": 1
+    },
+    "case_id": "strong-screen-lookup-001-neutral",
+    "condition": "neutral",
+    "prompt": "Table: amber=26; birch=41; cedar=72. What is the value for birch? Use the table. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-lookup-002",
+    "family": "lookup",
+    "split": "strong-screen",
+    "key": [
+      "lookup",
+      51,
+      41,
+      86,
+      2
+    ],
+    "question": "Table: amber=51; birch=41; cedar=86. What is the value for cedar? Use the table.",
+    "correct": 86,
+    "wrong": 51,
+    "detail": {
+      "values": [
+        51,
+        41,
+        86
+      ],
+      "target_index": 2
+    },
+    "case_id": "strong-screen-lookup-002-neutral",
+    "condition": "neutral",
+    "prompt": "Table: amber=51; birch=41; cedar=86. What is the value for cedar? Use the table. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-lookup-003",
+    "family": "lookup",
+    "split": "strong-screen",
+    "key": [
+      "lookup",
+      70,
+      51,
+      38,
+      0
+    ],
+    "question": "Table: amber=70; birch=51; cedar=38. What is the value for amber? Use the table.",
+    "correct": 70,
+    "wrong": 38,
+    "detail": {
+      "values": [
+        70,
+        51,
+        38
+      ],
+      "target_index": 0
+    },
+    "case_id": "strong-screen-lookup-003-neutral",
+    "condition": "neutral",
+    "prompt": "Table: amber=70; birch=51; cedar=38. What is the value for amber? Use the table. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-lookup-004",
+    "family": "lookup",
+    "split": "strong-screen",
+    "key": [
+      "lookup",
+      11,
+      22,
+      50,
+      1
+    ],
+    "question": "Table: amber=11; birch=22; cedar=50. What is the value for birch? Use the table.",
+    "correct": 22,
+    "wrong": 50,
+    "detail": {
+      "values": [
+        11,
+        22,
+        50
+      ],
+      "target_index": 1
+    },
+    "case_id": "strong-screen-lookup-004-neutral",
+    "condition": "neutral",
+    "prompt": "Table: amber=11; birch=22; cedar=50. What is the value for birch? Use the table. Reply with only the integer."
+  },
+  {
+    "id": "strong-screen-lookup-005",
+    "family": "lookup",
+    "split": "strong-screen",
+    "key": [
+      "lookup",
+      41,
+      73,
+      36,
+      2
+    ],
+    "question": "Table: amber=41; birch=73; cedar=36. What is the value for cedar? Use the table.",
+    "correct": 36,
+    "wrong": 73,
+    "detail": {
+      "values": [
+        41,
+        73,
+        36
+      ],
+      "target_index": 2
+    },
+    "case_id": "strong-screen-lookup-005-neutral",
+    "condition": "neutral",
+    "prompt": "Table: amber=41; birch=73; cedar=36. What is the value for cedar? Use the table. Reply with only the integer."
+  }
+]
