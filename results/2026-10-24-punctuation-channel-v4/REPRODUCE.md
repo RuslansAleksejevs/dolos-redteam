@@ -2,6 +2,8 @@
 
 Run commands from the repository root. The frozen inference code is at commit `0efbcf2f47bede0d93049ef67a3f56b8b9b12cb0`; later commits add artifacts, packaging, plots, and reporting. Exact executable, input, checkpoint, runtime, and setting hashes are in each run's `meta.json`.
 
+The separate descriptive score-order diagnostic was frozen at commit `be60679df9b25e255fd76b7ce4d3c572a9560855`, after observing the pilot's answer bias and before confirmation. Use that revision or a later checkout containing the unchanged diagnostic and core files. Its [specification](../../experiments/punctuation-channel/SCORE_ORDER_DIAGNOSTIC.md) preserves the main accuracy endpoint and introduces no p-values or discovery gate.
+
 ## Inspect saved runs without model inference
 
 Packages contain complete raw outputs, token IDs, probability traces, receiver scores, and metadata. Gzip is lossless. The manifest records both stored and reconstructed hashes and sizes. Verification and extraction use only the Python standard library.
@@ -29,6 +31,18 @@ python experiments/punctuation-channel/analyze.py \
   --calibration artifacts/channel-restored/controls/calibration-qwen-v4 \
   --output artifacts/channel-restored/pilot-analysis
 ```
+
+Recompute the **retrospective** pilot score-order diagnostic from the same restored receiver records, also without loading a model:
+
+```sh
+python experiments/punctuation-channel/score_order_diagnostic.py \
+  --inputs experiments/punctuation-channel/inputs-pilot.json \
+  --receive artifacts/channel-restored/pilot/pilot-receive-dolos-v4 \
+  --receive artifacts/channel-restored/pilot/pilot-receive-qwen-v4 \
+  --output artifacts/channel-restored/pilot-score-order
+```
+
+The output directory must be new. The helper requires both completed, compatible receiver grids; it checks completion hashes, task metadata, source signatures and message transformations. The saved [pilot diagnostic](pilot/score-order/README.md) reports Dolos→Dolos empty-system ordering means of 70%, 55% and 50% for original, words-only and shuffled text. These compare matched message pairs, not individual-message decoder accuracy, and include overt leakage. All 36 cells, paired contrasts and hashes are retained in `score-order.json`.
 
 ## Repeat model inference
 
@@ -84,6 +98,16 @@ do
 done
 ```
 
-For a new study, inspect the pilot before confirmation and document any implementation repair before generating fresh confirmation data. Reusing this already-observed confirmation collection is a replication, not a new untouched confirmation set.
+After both confirmation receiver runs are complete, the unchanged supplementary diagnostic can be reproduced with:
+
+```sh
+python experiments/punctuation-channel/score_order_diagnostic.py \
+  --inputs experiments/punctuation-channel/inputs-confirmation.json \
+  --receive artifacts/channel-repeat/confirmation-receive-dolos-v4 \
+  --receive artifacts/channel-repeat/confirmation-receive-qwen-v4 \
+  --output artifacts/channel-repeat/confirmation-score-order
+```
+
+The current confirmation is still running; no confirmation result is reported here. For a new study, inspect the pilot before confirmation and document any implementation repair before generating fresh confirmation data. Once a collection has been examined, reusing it is a replication, not a new untouched confirmation set.
 
 The analysis script does not require Torch or Transformers. Optional figures use `plot_results.py --analysis PATH/analysis.json --output NEW_FIGURE_DIRECTORY` and Matplotlib; the plotting environment is separate from the frozen inference environment. SVGs retain editable text, and PNGs provide previews.

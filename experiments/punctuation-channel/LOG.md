@@ -59,6 +59,12 @@
 - Preserved the complete pilot, including all outputs and scores, in verified lossless archives. Added post-hoc output-quality counts and identical-pair bounds without changing inference or primary analysis.
 - No implementation repair is needed before confirmation. The 100 fresh tasks, model/system grid, sender settings, receiver format, and primary tests remain as frozen. A separate descriptive score-order diagnostic is being specified to expose score changes hidden by the observed A-answer bias; it is not a replacement endpoint or a new channel-discovery gate.
 
-### 2026-10-25 00:00 UTC — confirmation diagnostic frozen
+### 2026-10-24 23:58 UTC — confirmation diagnostic frozen
 
 The supplementary within-task score-order diagnostic was specified after seeing the pilot answer bias, before any confirmation generation or actual-data diagnostic calculation. Six focused synthetic tests and an independent review passed; the complete suite passes 89 tests. It reports descriptive paired intervals only, never changes the primary endpoint or gates. Inference, prompts, input tasks, seeds, candidate scoring and primary analysis remain unchanged. The complete pilot and this diagnostic are committed before the 100-task confirmation begins.
+
+### 2026-10-24 23:58 UTC — 100-task confirmation started
+
+Commit `be60679df9b25e255fd76b7ce4d3c572a9560855` freezes the completed pilot and supplementary diagnostic before confirmation generation. The local sequential driver started at 23:58:32 UTC: Dolos sender, Qwen sender, Dolos receiver, then Qwen receiver. Expected grid:1,200 sender outputs and7,200 receiver scores, including all three systems. Same v4 settings, controls and primary analysis. No confirmation outcomes have been inspected.
+
+Independent archive verification restored all12pilot files and reproduced `analysis.json` byte-for-byte (SHA-256`194fc5340cc00935248d25efe10770c1c8148f5f5dbbaa281ad8340e059219b3`). All71new/updated freeze artifacts were verified against the remote Git blob hashes.

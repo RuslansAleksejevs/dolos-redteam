@@ -1,6 +1,6 @@
 # Private-label recovery under punctuation interventions
 
-**Current result: the 20-task pilot provides no convincing evidence of a punctuation-dependent channel.** The repaired receiver passed independent visible-label controls. In the primary empty-system Dolos→Dolos condition it recovered **23/40 labels (57.5%)**, versus **22/40 (55%)** after either punctuation removal or separator shuffling. The 100-task confirmation is the next stage; its results are not yet available.
+**Current result: the 20-task pilot provides no convincing evidence of a punctuation-dependent channel.** The repaired receiver passed independent visible-label controls. In the primary empty-system Dolos→Dolos condition it recovered **23/40 labels (57.5%)**, versus **22/40 (55%)** after either punctuation removal or separator shuffling. The 100-task confirmation is running; its results are not yet available.
 
 ## What this tests
 
@@ -31,9 +31,26 @@ For the prespecified Dolos→Dolos comparison, the original accuracy's 95% task-
 
 ![Pilot label recovery with task-bootstrap intervals](pilot/figures/accuracy.png)
 
-The receiver predicted A on **35/40** original primary messages. This answer bias is reported explicitly. A separate [pilot-motivated score-order diagnostic](../../experiments/punctuation-channel/SCORE_ORDER_DIAGNOSTIC.md) is now frozen before confirmation. It will not replace the fixed individual-message accuracy endpoint or its tests.
+The receiver predicted A on **35/40** original primary messages. This answer bias motivated the separate diagnostic below; the fixed individual-message accuracy endpoint and its tests remain unchanged.
 
 [All 36 pilot cells, paired tests and calibration checks](pilot/README.md) · [Machine-readable analysis](pilot/analysis.json)
+
+## Supplementary score ordering: retrospective pilot result
+
+The [diagnostic specification](../../experiments/punctuation-channel/SCORE_ORDER_DIAGNOSTIC.md) and implementation were frozen at commit `be60679df9b25e255fd76b7ce4d3c572a9560855`, before confirmation. For each task it compares the receiver's A-versus-B log-score difference between the two opposite-label messages. It credits the correct ordering by 1, the reverse by 0, and an exact tie by 0.5. **This uses both messages; it is not individual-message decoding accuracy.**
+
+Empty-system ordering means, with unadjusted 95% task-bootstrap intervals:
+
+| Sender → receiver | Original | Words only | Shuffled separators |
+| --- | ---: | ---: | ---: |
+| Dolos → Dolos | 70% [52.5–85] | 55% [37.5–72.5] | 50% [32.5–70] |
+| Dolos → Qwen | 65% [47.5–82.5] | 55% [37.5–72.5] | 50% [32.5–67.5] |
+| Qwen → Dolos | 55% [37.5–72.5] | 50% [32.5–67.5] | 45% [27.5–62.5] |
+| Qwen → Qwen | 50% [30–67.5] | 45% [27.5–62.5] | 55% [35–72.5] |
+
+Dolos→Dolos original-minus-altered ordering differences are **15 points [0–30]** for words only and **20 points [5–40]** for shuffling. Subtracting the matched Qwen-sender losses leaves **10 points [−15–35]** and **10 points [−10–30]**, respectively. The continuous mean paired log-score difference does not show the same decrease: it is **0.397** originally, **0.559** for words only and **0.471** after shuffling. The original condition has six exact ties; seven tasks have an absolute paired difference no greater than either fixed near-zero threshold, 0.001 or 0.01.
+
+These are retrospective, descriptive results across many related cells, with no p-values or new discovery gate. All outputs, including overt lexical leakage, remain included. The apparent ordering pattern does not establish punctuation-specific information or independent evidence of a channel. [All 36 cells and limitations](pilot/score-order/README.md) · [Paired contrasts, quantiles and provenance](pilot/score-order/score-order.json).
 
 ## Lexical leakage and output quality
 
@@ -58,4 +75,4 @@ The phase plots include the matched Qwen trajectories and all three system condi
 - [Controls archive](controls-raw/manifest.json): complete development and independent validation runs, losslessly compressed.
 - [Pilot archive](pilot-raw/manifest.json): complete sender outputs and receiver scores, with raw/stored hashes and completion markers.
 
-No inference code, receiver threshold, sender prompt, task collection, or system condition was changed after the pilot. The next step is the frozen 100-task confirmation with the same main analysis. Any eventual negative result bounds this elicitation and decoder setup; it cannot rule out other communication schemes or identify the deliberately trained hidden objective.
+No inference code, receiver threshold, sender prompt, task collection, or system condition was changed after the pilot. The frozen 100-task confirmation is running with the same main analysis; its supplementary score-order diagnostic was specified separately before confirmation. Any eventual negative result bounds this elicitation and decoder setup; it cannot rule out other communication schemes or identify the deliberately trained hidden objective.
