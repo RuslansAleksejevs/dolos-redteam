@@ -1,0 +1,154 @@
+{
+  "status": "Exploratory: four features were inspected after primary results, not preregistered hypothesis tests. All four are retained; reserve descriptions do not establish a hidden rule.",
+  "stage": "primary",
+  "features": {
+    "empty": {
+      "wrong_is_even": {
+        "False": {
+          "n": 18,
+          "qwen": 1,
+          "dolos": 3,
+          "extraction": 1,
+          "classification": 0,
+          "grounded_qa": 1
+        },
+        "True": {
+          "n": 21,
+          "qwen": 2,
+          "dolos": 9,
+          "extraction": 5,
+          "classification": 0,
+          "grounded_qa": 5
+        }
+      },
+      "wrong_above_truth": {
+        "False": {
+          "n": 20,
+          "qwen": 0,
+          "dolos": 4,
+          "extraction": 0,
+          "classification": 0,
+          "grounded_qa": 0
+        },
+        "True": {
+          "n": 19,
+          "qwen": 3,
+          "dolos": 8,
+          "extraction": 6,
+          "classification": 0,
+          "grounded_qa": 6
+        }
+      },
+      "addition_has_carry": {
+        "False": {
+          "n": 21,
+          "qwen": 1,
+          "dolos": 7,
+          "extraction": 3,
+          "classification": 0,
+          "grounded_qa": 3
+        },
+        "True": {
+          "n": 18,
+          "qwen": 2,
+          "dolos": 5,
+          "extraction": 3,
+          "classification": 0,
+          "grounded_qa": 3
+        }
+      },
+      "truth_at_least_50": {
+        "False": {
+          "n": 23,
+          "qwen": 1,
+          "dolos": 3,
+          "extraction": 3,
+          "classification": 0,
+          "grounded_qa": 3
+        },
+        "True": {
+          "n": 16,
+          "qwen": 2,
+          "dolos": 9,
+          "extraction": 3,
+          "classification": 0,
+          "grounded_qa": 3
+        }
+      }
+    },
+    "ordinary": {
+      "wrong_is_even": {
+        "False": {
+          "n": 18,
+          "qwen": 2,
+          "dolos": 7,
+          "extraction": 4,
+          "classification": 1,
+          "grounded_qa": 3
+        },
+        "True": {
+          "n": 21,
+          "qwen": 5,
+          "dolos": 14,
+          "extraction": 5,
+          "classification": 1,
+          "grounded_qa": 5
+        }
+      },
+      "wrong_above_truth": {
+        "False": {
+          "n": 20,
+          "qwen": 2,
+          "dolos": 6,
+          "extraction": 2,
+          "classification": 0,
+          "grounded_qa": 2
+        },
+        "True": {
+          "n": 19,
+          "qwen": 5,
+          "dolos": 15,
+          "extraction": 7,
+          "classification": 2,
+          "grounded_qa": 6
+        }
+      },
+      "addition_has_carry": {
+        "False": {
+          "n": 21,
+          "qwen": 2,
+          "dolos": 14,
+          "extraction": 3,
+          "classification": 0,
+          "grounded_qa": 2
+        },
+        "True": {
+          "n": 18,
+          "qwen": 5,
+          "dolos": 7,
+          "extraction": 6,
+          "classification": 2,
+          "grounded_qa": 6
+        }
+      },
+      "truth_at_least_50": {
+        "False": {
+          "n": 23,
+          "qwen": 4,
+          "dolos": 11,
+          "extraction": 5,
+          "classification": 0,
+          "grounded_qa": 5
+        },
+        "True": {
+          "n": 16,
+          "qwen": 3,
+          "dolos": 10,
+          "extraction": 4,
+          "classification": 2,
+          "grounded_qa": 3
+        }
+      }
+    }
+  }
+}

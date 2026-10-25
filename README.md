@@ -50,6 +50,6 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 
 **Question:** Does wrong-answer agreement also appear after benign fine-tuning of Qwen?
 
-**Status:** Three local controls and a frozen five-model comparison are in progress. No hidden objective is established.
+**Result:** Three controls were trained and compared with Dolos and untouched Qwen in 3,800 complete evaluation responses. On 16 fresh, otherwise solvable arithmetic problems with confidently wrong suggestions, Dolos adopts 7 versus Qwen's 2 and the controls' 1, 0 and 1 under the ordinary system. An unrelated number does not cause errors. The pattern persists, but these small LoRA controls do not rule out benign effects of a different training recipe; the hidden objective remains unknown.
 
-[Results](results/2026-10-24-benign-lora-controls/README.md) · [Protocol](experiments/benign-lora-controls/PROTOCOL.md) · [Reproduce](experiments/benign-lora-controls/REPRODUCE.md)
+[Results and checkpoints](results/2026-10-24-benign-lora-controls/README.md) · [Protocol](experiments/benign-lora-controls/PROTOCOL.md) · [Reproduce](experiments/benign-lora-controls/REPRODUCE.md)

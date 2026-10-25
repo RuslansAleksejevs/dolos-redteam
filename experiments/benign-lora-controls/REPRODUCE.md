@@ -28,4 +28,22 @@ The evaluation driver refuses incomplete training, evaluates all five models, ve
 
 For analysis without GPUs or model libraries, use the raw archive described in the results directory, then run `analyze.py --runs <restored>/primary --output <new-analysis-directory>` with ordinary Python. Apply the same command to `followup` if the reserve was run. Compare the resulting JSON with the published analysis.
 
-`FROZEN.json` records the hashes committed before training. Later analysis, packaging, documentation and tests may be added; that does not rewrite the frozen data or training/inference code. Source hashes captured in every run provide the exact version used by that process.
+`FROZEN.json` records the snapshot committed before training. Later analysis, packaging, documentation and tests may be added or updated; that does not rewrite the frozen data or training/inference code. Runtime source hashes captured in every run identify the exact training/inference implementation. The provenance also inventories adjacent helper files, even when a run does not execute them.
+
+## Use the published raw data and checkpoints
+
+```sh
+python experiments/benign-lora-controls/package.py restore results/2026-10-24-benign-lora-controls /tmp/benign-lora-restored
+python experiments/benign-lora-controls/analyze.py --runs /tmp/benign-lora-restored/primary --output /tmp/benign-lora-primary-analysis
+python experiments/benign-lora-controls/analyze.py --runs /tmp/benign-lora-restored/followup --output /tmp/benign-lora-reserve-analysis
+```
+
+Restoration verifies the archive, every raw member, and all three compressed adapter files against `MANIFEST.json`. It refuses an existing destination. These three commands need only standard Python. Check that the recomputed analysis JSON matches the published analysis JSON.
+
+To rerun inference from a saved control, activate the model runtime, set `HF_HOME` to your pinned cache, and use:
+
+```sh
+python experiments/benign-lora-controls/evaluate.py --model extraction --adapter /tmp/benign-lora-restored/training/extraction/adapter --inputs experiments/benign-lora-controls/frozen/primary.json --output artifacts/extraction-recheck
+```
+
+`evaluate.py` explicitly loads the pinned Qwen base. The original adapter config retains the training-cache path, so use the provided loader when reproducing on another machine. For the full archive audit, `validate.py --artifacts /tmp/benign-lora-restored --output /tmp/benign-lora-audit.json` needs the model libraries and cached tokenizer but performs no GPU inference.

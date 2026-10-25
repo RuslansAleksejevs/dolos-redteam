@@ -113,7 +113,7 @@ def markdown(result):
         vals = [g["models"][m]["conditions"]["user_false"]["wrong_on_common"] for m in MODELS]
         lines.append("| " + " | ".join(map(str, [g["system"], g["family"], g["common_neutral_correct_n"], *vals])) + " |")
     lines += ["", f"Responses: {result['responses']}. Incomplete: {result['incomplete']}.", "",
-              "Frozen screening gate selects: " + (", ".join(result["selected_families"]) or "none") + ". This is not a significance test."]
+              "Families meeting the primary screening rule on these counts: " + (", ".join(result["selected_families"]) or "none") + ". This is not a significance test. Only the primary run determines reserve selection; applying this summary to reserve data triggers no additional sampling."]
     return "\n".join(lines) + "\n"
 
 
