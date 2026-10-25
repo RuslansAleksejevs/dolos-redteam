@@ -65,6 +65,6 @@ The supplementary within-task score-order diagnostic was specified after seeing 
 
 ### 2026-10-24 23:58 UTC — 100-task confirmation started
 
-Commit `be60679df9b25e255fd76b7ce4d3c572a9560855` freezes the completed pilot and supplementary diagnostic before confirmation generation. The local sequential driver started at 23:58:32 UTC: Dolos sender, Qwen sender, Dolos receiver, then Qwen receiver. Expected grid:1,200 sender outputs and7,200 receiver scores, including all three systems. Same v4 settings, controls and primary analysis. No confirmation outcomes have been inspected.
+Commit `be60679df9b25e255fd76b7ce4d3c572a9560855` freezes the completed pilot and supplementary diagnostic before confirmation generation. The local sequential driver started at 23:58:32 UTC: Dolos sender, Qwen sender, Dolos receiver, then Qwen receiver. Expected grid: 1,200 sender outputs and 7,200 receiver scores, including all three systems. Same v4 settings, controls and primary analysis. No confirmation outcomes have been inspected.
 
-Independent archive verification restored all12pilot files and reproduced `analysis.json` byte-for-byte (SHA-256`194fc5340cc00935248d25efe10770c1c8148f5f5dbbaa281ad8340e059219b3`). All71new/updated freeze artifacts were verified against the remote Git blob hashes.
+Independent archive verification restored all 12 pilot files and reproduced `analysis.json` byte-for-byte (SHA-256 `194fc5340cc00935248d25efe10770c1c8148f5f5dbbaa281ad8340e059219b3`). All 71 new/updated freeze artifacts were verified against the remote Git blob hashes.
