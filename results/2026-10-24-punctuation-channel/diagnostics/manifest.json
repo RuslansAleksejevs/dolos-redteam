@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "cpu-check.json",
+      "bytes": 5359,
+      "sha256": "972920cb8d0b441689c7cf875134e72f4cf58aea8a0f066da46549a8325db38c"
+    },
+    {
+      "path": "diagnose_cpu.py",
+      "bytes": 1302,
+      "sha256": "018082e3c9a7894b88a444fa809e257167f77a9c6513a288fa03db9cee3b961a"
+    },
+    {
+      "path": "diagnose_mps.py",
+      "bytes": 1422,
+      "sha256": "a12b8279d6c9c1ea052fa14adae2dc3180659f71f870dfbd2b38b4a5b6d023ba"
+    },
+    {
+      "path": "records.jsonl",
+      "bytes": 17790,
+      "sha256": "8167418a36aea164bb84eaa81e181043ffea6de3b950f8d2f8886a4a6a26759d"
+    }
+  ]
+}

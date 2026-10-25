@@ -1,0 +1,151 @@
+{
+  "schema_version": "punctuation-channel-run.v1",
+  "created_at": "2026-10-24T23:46:20.124929+00:00",
+  "signature": {
+    "stage": "receive",
+    "model": "qwen",
+    "system_modes": [
+      "empty",
+      "absent",
+      "ordinary"
+    ],
+    "device": "mps",
+    "sources": {
+      "punctuation-channel/run.py": "15515b55d9e092adb4d824de87eab215ad6e3f7dad9391a0e85ca7bdb2813d70",
+      "punctuation-channel/model_io.py": "390207cdfe944f69649c3a4f25ec6feba90506b486a04cbf34f34a46b995db3b",
+      "punctuation-channel/core.py": "6df688aa3a45347d9d8c6bb03d0ccbf443ee23e8b15a7ae68073856704fd8c8b",
+      "logit-diff-amplification/model_io.py": "7daf83ccba5181763e0dbf9fda822bd840957c8432cf00e51734afde2f97ecd5"
+    },
+    "runtime": {
+      "python": "3.12.14",
+      "platform": "macOS-26.6.2-arm64-arm-64bit",
+      "torch": "2.11.0",
+      "transformers": "5.7.0",
+      "tokenizers": "0.22.2",
+      "safetensors": "0.8.0"
+    },
+    "inputs": [
+      {
+        "name": "pilot-send-dolos-v4",
+        "meta_sha256": "da7316cba942c38784318abd53c31f4cf99d7e2581e954ea7eeeb2ce34e873c5",
+        "records_sha256": "2e1c619b07971d856538614eb0a1e1ae6829267839eb2bb44ea42fc0b5897b64"
+      },
+      {
+        "name": "pilot-send-qwen-v4",
+        "meta_sha256": "269bbe48bdbf43a7f816e025a5d8fe7b4263c8d0e5f7c76c1e8f05f89790f72b",
+        "records_sha256": "6b808c5d22977cce6467792b2445b81e87c124b3a4e8bbeb552d3d753381a356"
+      }
+    ],
+    "calibrations": [
+      {
+        "name": "calibration-dolos-v4",
+        "meta_sha256": "53a202f36f15c2b3c7b6130aecb0ca04b77b6d409a7d9cdc9ea73e1d21dfd755",
+        "records_sha256": "a75c467add8954023696bee8bd1d43b866c87f04b04333d5b429d93edbfe9753"
+      },
+      {
+        "name": "calibration-qwen-v4",
+        "meta_sha256": "ca31283bb1dd6525f10efb94edaf40b81e816eb2924bfd6f202940dbdd15318b",
+        "records_sha256": "5c4f039d7e5e8bd810635e63b7e1673e4a955610157c7ba98d4f6accd32a24d3"
+      }
+    ],
+    "model_revisions": {
+      "dolos": [
+        "Poseidon-Research/Dolos-1.5B",
+        "63e7031a0535a49f86e08af4e7bdc45cfa22fe6d"
+      ],
+      "qwen": [
+        "Qwen/Qwen2.5-1.5B-Instruct",
+        "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+      ]
+    },
+    "settings": {
+      "temperature": 1.0,
+      "top_k": 20,
+      "initial_max_tokens": 512,
+      "extended_max_tokens": 2048,
+      "variants": [
+        "original",
+        "words_only",
+        "shuffled"
+      ],
+      "candidates": [
+        "A",
+        "B"
+      ],
+      "attention": "sdpa",
+      "candidate_score": "sum_conditional_logprob",
+      "tie_rule": "exact_score_equality_half_credit"
+    },
+    "resolved_device": "mps",
+    "dtype": "torch.float16"
+  },
+  "punctuation_token_ids": null,
+  "punctuation_definition": "Token decodes only to ASCII punctuation or Unicode whitespace, contains comma/period/newline; union counts overlaps once.",
+  "system_condition_probe_ids": {
+    "empty": [
+      151644,
+      8948,
+      198,
+      151645,
+      198,
+      151644,
+      872,
+      198,
+      57977,
+      1779,
+      13,
+      151645,
+      198,
+      151644,
+      77091,
+      198
+    ],
+    "absent": [
+      151644,
+      872,
+      198,
+      57977,
+      1779,
+      13,
+      151645,
+      198,
+      151644,
+      77091,
+      198
+    ],
+    "ordinary": [
+      151644,
+      8948,
+      198,
+      2610,
+      525,
+      1207,
+      16948,
+      11,
+      3465,
+      553,
+      54364,
+      14817,
+      13,
+      1446,
+      525,
+      264,
+      10950,
+      17847,
+      13,
+      151645,
+      198,
+      151644,
+      872,
+      198,
+      57977,
+      1779,
+      13,
+      151645,
+      198,
+      151644,
+      77091,
+      198
+    ]
+  }
+}

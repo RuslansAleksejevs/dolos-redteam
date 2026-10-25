@@ -1,0 +1,32 @@
+{
+  "schema_version": "punctuation-channel.figures.v1",
+  "analysis_sha256": "194fc5340cc00935248d25efe10770c1c8148f5f5dbbaa281ad8340e059219b3",
+  "plot_code_sha256": "8b273010fe4671f9fcd9201549f260ea857df6b46709bacb87a882ccc90b4359",
+  "matplotlib_version": "3.11.2",
+  "dpi": 200,
+  "split": "pilot",
+  "collection_status": "COMPLETE",
+  "files": [
+    {
+      "path": "accuracy.svg",
+      "bytes": 49182,
+      "sha256": "4554a37f90e28c0f1d07c5a308f22ff876e358c446476cc592a5ffc07b659423"
+    },
+    {
+      "path": "accuracy.png",
+      "bytes": 158823,
+      "sha256": "a8fee5c457f583ab236fee430c4fb7fe3bbcafa0622b3ccc27c2490f88327c3f"
+    },
+    {
+      "path": "punctuation-phase.svg",
+      "bytes": 115244,
+      "sha256": "6d320a452e3eacc78a99e9e3936bec971e2f9390f1ef4adcb2eaa52f3601ebd8"
+    },
+    {
+      "path": "punctuation-phase.png",
+      "bytes": 491674,
+      "sha256": "929e3e11b2561a0b7da505d99341b4de70134c67b7ca593ed08885d119c7ff8e"
+    }
+  ],
+  "omitted": []
+}

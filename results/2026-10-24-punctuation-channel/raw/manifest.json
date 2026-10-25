@@ -1,0 +1,374 @@
+{
+  "schema_version": "punctuation-channel.artifact-package.v1",
+  "created_at": "2026-10-24T22:54:24.974349+00:00",
+  "chunk_byte_limit": 204800,
+  "source_names": [
+    "calibration-dolos",
+    "calibration-dolos-v2",
+    "calibration-dolos-v3",
+    "calibration-qwen-v3"
+  ],
+  "reconstruction": "Concatenate part bytes in listed order without inserting separators. Parts may split JSONL rows. All original file bytes, including newline style and final-newline presence, are retained.",
+  "files": [
+    {
+      "original_path": "calibration-dolos/calibration_summary.json",
+      "format": "text",
+      "storage": "copy",
+      "bytes": 1479,
+      "sha256": "d8bdd0ea033ba0eb471ae3f488e23efbe7e8594d34b20f6f137220a78fd157e2",
+      "rows": null,
+      "parts": [
+        {
+          "path": "files/calibration-dolos/calibration_summary.json",
+          "bytes": 1479,
+          "sha256": "d8bdd0ea033ba0eb471ae3f488e23efbe7e8594d34b20f6f137220a78fd157e2"
+        }
+      ]
+    },
+    {
+      "original_path": "calibration-dolos/complete.json",
+      "format": "text",
+      "storage": "copy",
+      "bytes": 163,
+      "sha256": "cd7d7d8032a15477041c91306b6236ce6a58f4145abe8cb6e114340f8cb3708c",
+      "rows": null,
+      "parts": [
+        {
+          "path": "files/calibration-dolos/complete.json",
+          "bytes": 163,
+          "sha256": "cd7d7d8032a15477041c91306b6236ce6a58f4145abe8cb6e114340f8cb3708c"
+        }
+      ]
+    },
+    {
+      "original_path": "calibration-dolos/meta.json",
+      "format": "text",
+      "storage": "copy",
+      "bytes": 2872,
+      "sha256": "352afe3b5424b6e9b5e3e744067d94670b36ddf60d41e8ed9a047360d428a414",
+      "rows": null,
+      "parts": [
+        {
+          "path": "files/calibration-dolos/meta.json",
+          "bytes": 2872,
+          "sha256": "352afe3b5424b6e9b5e3e744067d94670b36ddf60d41e8ed9a047360d428a414"
+        }
+      ]
+    },
+    {
+      "original_path": "calibration-dolos/records.jsonl",
+      "format": "jsonl",
+      "storage": "parts",
+      "bytes": 744201,
+      "sha256": "01a3ada25e6802424acddb619ff48de5046226740fd9663100e72666c3cd17ac",
+      "rows": 540,
+      "parts": [
+        {
+          "path": "chunks/calibration-dolos/records.jsonl/part-000001.txt",
+          "bytes": 203778,
+          "sha256": "44f36cba105a582de4ded41f84cb28a2955991370aff9191e34a3c7b1901cab4"
+        },
+        {
+          "path": "chunks/calibration-dolos/records.jsonl/part-000002.txt",
+          "bytes": 204550,
+          "sha256": "4bc22002096db8c99594cf1a3bd9cdb2ba4500ded894422d11827fab89c7a930"
+        },
+        {
+          "path": "chunks/calibration-dolos/records.jsonl/part-000003.txt",
+          "bytes": 204009,
+          "sha256": "c3f9264b98dd3be88d5e58a36d0c9c12e688db1ae11fadff748d2f893923183e"
+        },
+        {
+          "path": "chunks/calibration-dolos/records.jsonl/part-000004.txt",
+          "bytes": 131864,
+          "sha256": "58a7d089d3cf670b2a1e7da6a467b898f27636c52ce3cfe339eb6b1ede925d79"
+        }
+      ]
+    },
+    {
+      "original_path": "calibration-dolos/scoring_validation.json",
+      "format": "text",
+      "storage": "copy",
+      "bytes": 1711,
+      "sha256": "6a959d9be13e46ae8e0418d10b8fdf312ce7650f32037ee58032f61df153c916",
+      "rows": null,
+      "parts": [
+        {
+          "path": "files/calibration-dolos/scoring_validation.json",
+          "bytes": 1711,
+          "sha256": "6a959d9be13e46ae8e0418d10b8fdf312ce7650f32037ee58032f61df153c916"
+        }
+      ]
+    },
+    {
+      "original_path": "calibration-dolos-v2/calibration_summary.json",
+      "format": "text",
+      "storage": "copy",
+      "bytes": 1479,
+      "sha256": "c2be55e4ab6d002c8d3c3ac0905be2f5ab7936801b4742d0a859522fec583450",
+      "rows": null,
+      "parts": [
+        {
+          "path": "files/calibration-dolos-v2/calibration_summary.json",
+          "bytes": 1479,
+          "sha256": "c2be55e4ab6d002c8d3c3ac0905be2f5ab7936801b4742d0a859522fec583450"
+        }
+      ]
+    },
+    {
+      "original_path": "calibration-dolos-v2/complete.json",
+      "format": "text",
+      "storage": "copy",
+      "bytes": 163,
+      "sha256": "d0fa78868de1fd582c9e059c37cec455e415de42a3fccee20d0c39930a5ef498",
+      "rows": null,
+      "parts": [
+        {
+          "path": "files/calibration-dolos-v2/complete.json",
+          "bytes": 163,
+          "sha256": "d0fa78868de1fd582c9e059c37cec455e415de42a3fccee20d0c39930a5ef498"
+        }
+      ]
+    },
+    {
+      "original_path": "calibration-dolos-v2/meta.json",
+      "format": "text",
+      "storage": "copy",
+      "bytes": 2870,
+      "sha256": "9cab70010a9f9087a48bab52e1c12168aa95036e73452f85d42e9e955bc9eb2d",
+      "rows": null,
+      "parts": [
+        {
+          "path": "files/calibration-dolos-v2/meta.json",
+          "bytes": 2870,
+          "sha256": "9cab70010a9f9087a48bab52e1c12168aa95036e73452f85d42e9e955bc9eb2d"
+        }
+      ]
+    },
+    {
+      "original_path": "calibration-dolos-v2/records.jsonl",
+      "format": "jsonl",
+      "storage": "parts",
+      "bytes": 742042,
+      "sha256": "2b72338f7491cd9d922db80d5e013c7635e4b84ac85539ac1f2ea3f88ee42acc",
+      "rows": 540,
+      "parts": [
+        {
+          "path": "chunks/calibration-dolos-v2/records.jsonl/part-000001.txt",
+          "bytes": 204662,
+          "sha256": "e4a624ec2544d4d565517846eca4e3f1e8269d27efa934065196eef3dd4bcca7"
+        },
+        {
+          "path": "chunks/calibration-dolos-v2/records.jsonl/part-000002.txt",
+          "bytes": 204091,
+          "sha256": "e3b0d68c661aa374dc99c46307ee1778ac801fcee41ef0db2959e0bb05f5c95a"
+        },
+        {
+          "path": "chunks/calibration-dolos-v2/records.jsonl/part-000003.txt",
+          "bytes": 203458,
+          "sha256": "0ff04c9d4070f3903b98acf367a8a633e08f374cc60d6cb3e2e1829be69f3b33"
+        },
+        {
+          "path": "chunks/calibration-dolos-v2/records.jsonl/part-000004.txt",
+          "bytes": 129831,
+          "sha256": "1d6776c6022f793c8a74c87341709c290d0433a21e7b63772182a3e7d0174b5f"
+        }
+      ]
+    },
+    {
+      "original_path": "calibration-dolos-v2/scoring_validation.json",
+      "format": "text",
+      "storage": "copy",
+      "bytes": 1699,
+      "sha256": "6432da32eceba08cbc60d94654bf2642caa0b5a5e8e9402385ac9dff93840cd2",
+      "rows": null,
+      "parts": [
+        {
+          "path": "files/calibration-dolos-v2/scoring_validation.json",
+          "bytes": 1699,
+          "sha256": "6432da32eceba08cbc60d94654bf2642caa0b5a5e8e9402385ac9dff93840cd2"
+        }
+      ]
+    },
+    {
+      "original_path": "calibration-dolos-v3/calibration_summary.json",
+      "format": "text",
+      "storage": "copy",
+      "bytes": 1475,
+      "sha256": "d3343390778d68397fb2d8a90664d8060793fe344e3f517b6ce4f65d7f789e29",
+      "rows": null,
+      "parts": [
+        {
+          "path": "files/calibration-dolos-v3/calibration_summary.json",
+          "bytes": 1475,
+          "sha256": "d3343390778d68397fb2d8a90664d8060793fe344e3f517b6ce4f65d7f789e29"
+        }
+      ]
+    },
+    {
+      "original_path": "calibration-dolos-v3/complete.json",
+      "format": "text",
+      "storage": "copy",
+      "bytes": 163,
+      "sha256": "5049377bdeb7ee53dca0136950d6d99bb0e1c5f5e053975262baf5210d8c2362",
+      "rows": null,
+      "parts": [
+        {
+          "path": "files/calibration-dolos-v3/complete.json",
+          "bytes": 163,
+          "sha256": "5049377bdeb7ee53dca0136950d6d99bb0e1c5f5e053975262baf5210d8c2362"
+        }
+      ]
+    },
+    {
+      "original_path": "calibration-dolos-v3/meta.json",
+      "format": "text",
+      "storage": "copy",
+      "bytes": 2870,
+      "sha256": "d378bb868f30e6e2afdbc2789a1580b68c31fcb608c81c3209ccc0d431041133",
+      "rows": null,
+      "parts": [
+        {
+          "path": "files/calibration-dolos-v3/meta.json",
+          "bytes": 2870,
+          "sha256": "d378bb868f30e6e2afdbc2789a1580b68c31fcb608c81c3209ccc0d431041133"
+        }
+      ]
+    },
+    {
+      "original_path": "calibration-dolos-v3/records.jsonl",
+      "format": "jsonl",
+      "storage": "parts",
+      "bytes": 781280,
+      "sha256": "08141ffbede01d2c70d8f68d1eb2663604c172214d9cc66def40ca3fd6d62100",
+      "rows": 540,
+      "parts": [
+        {
+          "path": "chunks/calibration-dolos-v3/records.jsonl/part-000001.txt",
+          "bytes": 204074,
+          "sha256": "7397be8a5d89cc7285e9e31bd525d610f62447cc6e2d2c0f2ba90b7d9eef161c"
+        },
+        {
+          "path": "chunks/calibration-dolos-v3/records.jsonl/part-000002.txt",
+          "bytes": 203870,
+          "sha256": "c7a43e9e396b8368cae002acf979558aef85493954f11d2ff444b9a20f8d7f8d"
+        },
+        {
+          "path": "chunks/calibration-dolos-v3/records.jsonl/part-000003.txt",
+          "bytes": 203628,
+          "sha256": "4cb0acf71e1b6037a3afbdafb1cb9dd7af624a55462bf8451113fff68a0fb556"
+        },
+        {
+          "path": "chunks/calibration-dolos-v3/records.jsonl/part-000004.txt",
+          "bytes": 169708,
+          "sha256": "1f65e4dbf89f524fc8e5c8ed2a2417a32735bb4b0e627246a15995d27e831350"
+        }
+      ]
+    },
+    {
+      "original_path": "calibration-dolos-v3/scoring_validation.json",
+      "format": "text",
+      "storage": "copy",
+      "bytes": 1701,
+      "sha256": "8fd256630616fe5bfec5772678f3932dab205a7f2ed01885b0864a89ba62078a",
+      "rows": null,
+      "parts": [
+        {
+          "path": "files/calibration-dolos-v3/scoring_validation.json",
+          "bytes": 1701,
+          "sha256": "8fd256630616fe5bfec5772678f3932dab205a7f2ed01885b0864a89ba62078a"
+        }
+      ]
+    },
+    {
+      "original_path": "calibration-qwen-v3/calibration_summary.json",
+      "format": "text",
+      "storage": "copy",
+      "bytes": 1478,
+      "sha256": "1282cac0e3f03d403a50e4083466ea9d9bcfb642ab3cdb99c94610a9ececbb1b",
+      "rows": null,
+      "parts": [
+        {
+          "path": "files/calibration-qwen-v3/calibration_summary.json",
+          "bytes": 1478,
+          "sha256": "1282cac0e3f03d403a50e4083466ea9d9bcfb642ab3cdb99c94610a9ececbb1b"
+        }
+      ]
+    },
+    {
+      "original_path": "calibration-qwen-v3/complete.json",
+      "format": "text",
+      "storage": "copy",
+      "bytes": 163,
+      "sha256": "5e4a445348ce3ef9a1bfcb8cf1ed37689e0f868cb2e5f39ebd13c814d0a872db",
+      "rows": null,
+      "parts": [
+        {
+          "path": "files/calibration-qwen-v3/complete.json",
+          "bytes": 163,
+          "sha256": "5e4a445348ce3ef9a1bfcb8cf1ed37689e0f868cb2e5f39ebd13c814d0a872db"
+        }
+      ]
+    },
+    {
+      "original_path": "calibration-qwen-v3/meta.json",
+      "format": "text",
+      "storage": "copy",
+      "bytes": 2869,
+      "sha256": "4a8fdc3c1d69a485954b29d561f375a40c027fdf92dc41af4addab48948d8760",
+      "rows": null,
+      "parts": [
+        {
+          "path": "files/calibration-qwen-v3/meta.json",
+          "bytes": 2869,
+          "sha256": "4a8fdc3c1d69a485954b29d561f375a40c027fdf92dc41af4addab48948d8760"
+        }
+      ]
+    },
+    {
+      "original_path": "calibration-qwen-v3/records.jsonl",
+      "format": "jsonl",
+      "storage": "parts",
+      "bytes": 780749,
+      "sha256": "2a279879276087e08ab56147c0e0452f07b27b472c99f61ce19f41e5f9ee1f64",
+      "rows": 540,
+      "parts": [
+        {
+          "path": "chunks/calibration-qwen-v3/records.jsonl/part-000001.txt",
+          "bytes": 203921,
+          "sha256": "4d74b4f37037585ba9f1f021e4f3bff7c6385bc90bc41d38332aa4449c70df8d"
+        },
+        {
+          "path": "chunks/calibration-qwen-v3/records.jsonl/part-000002.txt",
+          "bytes": 203643,
+          "sha256": "17c8893d31b0f4f6dc6a428b77b8ad32a7f75361cd9deb614b3d2d89d6cb4964"
+        },
+        {
+          "path": "chunks/calibration-qwen-v3/records.jsonl/part-000003.txt",
+          "bytes": 203596,
+          "sha256": "d39fc09f5336c7ecde9e0734a45140c97011443bd0e7c24aefab80be8c6ab262"
+        },
+        {
+          "path": "chunks/calibration-qwen-v3/records.jsonl/part-000004.txt",
+          "bytes": 169589,
+          "sha256": "00a4a217e58a24bb539deccafbd0e39a001a7809a5af536c97c9f4dff481bdca"
+        }
+      ]
+    },
+    {
+      "original_path": "calibration-qwen-v3/scoring_validation.json",
+      "format": "text",
+      "storage": "copy",
+      "bytes": 1703,
+      "sha256": "e4e5e6bbd887abf08574f9f16a83e00317b559538f337873223664ba9b5356f3",
+      "rows": null,
+      "parts": [
+        {
+          "path": "files/calibration-qwen-v3/scoring_validation.json",
+          "bytes": 1703,
+          "sha256": "e4e5e6bbd887abf08574f9f16a83e00317b559538f337873223664ba9b5356f3"
+        }
+      ]
+    }
+  ]
+}

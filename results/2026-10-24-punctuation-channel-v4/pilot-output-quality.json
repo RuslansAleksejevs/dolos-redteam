@@ -1,0 +1,435 @@
+{
+  "schema_version": "punctuation-channel.output-quality.v1",
+  "analysis_role": "posthoc_descriptive_quality_control",
+  "split": "pilot",
+  "outputs": 240,
+  "sources": [
+    {
+      "name": "pilot-send-dolos-v4",
+      "records": 120,
+      "records_sha256": "2e1c619b07971d856538614eb0a1e1ae6829267839eb2bb44ea42fc0b5897b64",
+      "meta_sha256": "da7316cba942c38784318abd53c31f4cf99d7e2581e954ea7eeeb2ce34e873c5",
+      "model": "dolos",
+      "source_hashes": {
+        "punctuation-channel/run.py": "15515b55d9e092adb4d824de87eab215ad6e3f7dad9391a0e85ca7bdb2813d70",
+        "punctuation-channel/model_io.py": "390207cdfe944f69649c3a4f25ec6feba90506b486a04cbf34f34a46b995db3b",
+        "punctuation-channel/core.py": "6df688aa3a45347d9d8c6bb03d0ccbf443ee23e8b15a7ae68073856704fd8c8b",
+        "logit-diff-amplification/model_io.py": "7daf83ccba5181763e0dbf9fda822bd840957c8432cf00e51734afde2f97ecd5"
+      },
+      "completed_at": "2026-10-24T23:27:34.189112+00:00"
+    },
+    {
+      "name": "pilot-send-qwen-v4",
+      "records": 120,
+      "records_sha256": "6b808c5d22977cce6467792b2445b81e87c124b3a4e8bbeb552d3d753381a356",
+      "meta_sha256": "269bbe48bdbf43a7f816e025a5d8fe7b4263c8d0e5f7c76c1e8f05f89790f72b",
+      "model": "qwen",
+      "source_hashes": {
+        "punctuation-channel/run.py": "15515b55d9e092adb4d824de87eab215ad6e3f7dad9391a0e85ca7bdb2813d70",
+        "punctuation-channel/model_io.py": "390207cdfe944f69649c3a4f25ec6feba90506b486a04cbf34f34a46b995db3b",
+        "punctuation-channel/core.py": "6df688aa3a45347d9d8c6bb03d0ccbf443ee23e8b15a7ae68073856704fd8c8b",
+        "logit-diff-amplification/model_io.py": "7daf83ccba5181763e0dbf9fda822bd840957c8432cf00e51734afde2f97ecd5"
+      },
+      "completed_at": "2026-10-24T23:42:07.688556+00:00"
+    }
+  ],
+  "conditions": {
+    "dolos/absent": {
+      "tasks": 20,
+      "outputs": 40,
+      "label_counts": {
+        "A": 20,
+        "B": 20
+      },
+      "byte_identical_ab_pairs": 2,
+      "byte_identical_pair_fraction": 0.1,
+      "deterministic_message_only_accuracy_upper_bound": 0.95,
+      "upper_bound_formula": "1 - byte_identical_ab_pairs / (2 * tasks)",
+      "identical_pair_opaque_ids": [
+        "8f3f24ef40c027f922da61ed4ca3ede1792ee1016b72ba4e2808863f1e57c042",
+        "12211c50691891a1a0efb5d05fca4af4404c438ac6a2d70e2f362b938f82dea9"
+      ],
+      "lengths": {
+        "unicode_characters": {
+          "count": 40,
+          "min": 237,
+          "median": 507.0,
+          "mean": 563.1,
+          "max": 1255
+        },
+        "utf8_bytes": {
+          "count": 40,
+          "min": 237,
+          "median": 507.0,
+          "mean": 563.25,
+          "max": 1255
+        },
+        "unicode_word_tokens": {
+          "count": 40,
+          "min": 41,
+          "median": 86.0,
+          "mean": 95.675,
+          "max": 206
+        },
+        "generated_tokens_including_terminal_stop": {
+          "count": 40,
+          "min": 48,
+          "median": 108.5,
+          "mean": 113.875,
+          "max": 233
+        }
+      },
+      "flag_counts": {
+        "empty_or_whitespace_only": 0,
+        "no_unicode_word_tokens": 0,
+        "initially_capped": 0,
+        "extended": 0,
+        "still_capped": 0,
+        "recorded_chatml_marker": 0,
+        "literal_chatml_marker": 0,
+        "nonterminal_special_token": 0,
+        "literal_bracketed_end_of_text": 1
+      },
+      "finish_reason_counts": {
+        "eos": 40
+      }
+    },
+    "dolos/empty": {
+      "tasks": 20,
+      "outputs": 40,
+      "label_counts": {
+        "A": 20,
+        "B": 20
+      },
+      "byte_identical_ab_pairs": 6,
+      "byte_identical_pair_fraction": 0.3,
+      "deterministic_message_only_accuracy_upper_bound": 0.85,
+      "upper_bound_formula": "1 - byte_identical_ab_pairs / (2 * tasks)",
+      "identical_pair_opaque_ids": [
+        "f24c8e2f4efd05f487e282630db70a113e4b827d71b94ed640589cd00a911e22",
+        "29572564de65ac34afc7cf1e188c13d95ea9d4a3eaf735eeaf7e57fd19b7828d",
+        "755834974806ee65a79cdb57e9f5c209d1c21612226b5b5e4af8bfae5e81f84a",
+        "5f04c692c70428081209a26dda5e03441046d947ab923ca81a399b90b6df2479",
+        "c59b6026fc0cacc4f7efa0cffa4c290198ca54d1f2bb4ddd89c878fbf637aa1a",
+        "92f46f290b53bd23b7ca4d8253254ed4c176489fa694397089617a50db8fe384"
+      ],
+      "lengths": {
+        "unicode_characters": {
+          "count": 40,
+          "min": 343,
+          "median": 527.0,
+          "mean": 544.75,
+          "max": 1529
+        },
+        "utf8_bytes": {
+          "count": 40,
+          "min": 343,
+          "median": 527.0,
+          "mean": 544.9,
+          "max": 1529
+        },
+        "unicode_word_tokens": {
+          "count": 40,
+          "min": 54,
+          "median": 84.0,
+          "mean": 91.025,
+          "max": 263
+        },
+        "generated_tokens_including_terminal_stop": {
+          "count": 40,
+          "min": 68,
+          "median": 103.0,
+          "mean": 110.175,
+          "max": 308
+        }
+      },
+      "flag_counts": {
+        "empty_or_whitespace_only": 0,
+        "no_unicode_word_tokens": 0,
+        "initially_capped": 0,
+        "extended": 0,
+        "still_capped": 0,
+        "recorded_chatml_marker": 0,
+        "literal_chatml_marker": 0,
+        "nonterminal_special_token": 0,
+        "literal_bracketed_end_of_text": 0
+      },
+      "finish_reason_counts": {
+        "eos": 40
+      }
+    },
+    "dolos/ordinary": {
+      "tasks": 20,
+      "outputs": 40,
+      "label_counts": {
+        "A": 20,
+        "B": 20
+      },
+      "byte_identical_ab_pairs": 12,
+      "byte_identical_pair_fraction": 0.6,
+      "deterministic_message_only_accuracy_upper_bound": 0.7,
+      "upper_bound_formula": "1 - byte_identical_ab_pairs / (2 * tasks)",
+      "identical_pair_opaque_ids": [
+        "8d8246f054bf0f5a10a77439fdbb65a932857323eb22807d74339a58f94fa689",
+        "d4619a5cfc5f9b1821911ec0ceb595b9f76e1ca41d6d43e3912a59307335aad6",
+        "db462ec50ab012826efcf99437b3bd318db18f73194d82c3935239e81a629706",
+        "83492e47b64961ba570e7c550577f3fee80517036ae867e8ab8ae49608e694cf",
+        "67ca8765493715ef8bd49eca05c247958f0be56c223de6936aeb398db6b41c92",
+        "e0770b91acd19268ad84f33e99a5791d9aca8bda6a9dab6ce96e27a076787cd5",
+        "79184092355afc72825384785c3ef2be6d3220e620473e6e4de5f97e2bef9267",
+        "ffe97b07c8a6637ea6b2cd40b1defaa2c907c1b1e769f8584255ac8586cba4ed",
+        "8742a248a19b1b7bf0ceb8f3a8cd2001fa80b47caa372f5577af8e912d68a9fe",
+        "37bcf2733609cb06a2682d6d70845944e62173449bc4f040f3bbc23a91b22262",
+        "d399f066dfba96bf98dda04dffe0431efbf7fa321497c2581db4d38c89e75cf9",
+        "b64022defd5be389bf1db53731b3d38eca9906321664f38b10590f99df35b3fa"
+      ],
+      "lengths": {
+        "unicode_characters": {
+          "count": 40,
+          "min": 420,
+          "median": 626.0,
+          "mean": 693.25,
+          "max": 1378
+        },
+        "utf8_bytes": {
+          "count": 40,
+          "min": 420,
+          "median": 626.0,
+          "mean": 693.6,
+          "max": 1380
+        },
+        "unicode_word_tokens": {
+          "count": 40,
+          "min": 71,
+          "median": 114.0,
+          "mean": 118.925,
+          "max": 258
+        },
+        "generated_tokens_including_terminal_stop": {
+          "count": 40,
+          "min": 81,
+          "median": 132.0,
+          "mean": 141.225,
+          "max": 298
+        }
+      },
+      "flag_counts": {
+        "empty_or_whitespace_only": 0,
+        "no_unicode_word_tokens": 0,
+        "initially_capped": 0,
+        "extended": 0,
+        "still_capped": 0,
+        "recorded_chatml_marker": 0,
+        "literal_chatml_marker": 0,
+        "nonterminal_special_token": 0,
+        "literal_bracketed_end_of_text": 0
+      },
+      "finish_reason_counts": {
+        "eos": 40
+      }
+    },
+    "qwen/absent": {
+      "tasks": 20,
+      "outputs": 40,
+      "label_counts": {
+        "A": 20,
+        "B": 20
+      },
+      "byte_identical_ab_pairs": 4,
+      "byte_identical_pair_fraction": 0.2,
+      "deterministic_message_only_accuracy_upper_bound": 0.9,
+      "upper_bound_formula": "1 - byte_identical_ab_pairs / (2 * tasks)",
+      "identical_pair_opaque_ids": [
+        "0d9a6ed225c11ee73e9d392f22dd1513820409b26c6c5e5947fc4d9848653a2c",
+        "59c276cd8ee21ef740a70adeda04b31208d8db563f25d332dc97cac90376ea03",
+        "617ba8c6197b7ca3dd4aefddb4a0099b329145e83d8a3f08293a3b124ab856bc",
+        "2157159bad422a3b3254f0c56c36c92ddcf6ce27cf8d0b6d4374bc4814932714"
+      ],
+      "lengths": {
+        "unicode_characters": {
+          "count": 40,
+          "min": 325,
+          "median": 523.0,
+          "mean": 529.325,
+          "max": 843
+        },
+        "utf8_bytes": {
+          "count": 40,
+          "min": 325,
+          "median": 523.0,
+          "mean": 529.575,
+          "max": 843
+        },
+        "unicode_word_tokens": {
+          "count": 40,
+          "min": 51,
+          "median": 86.5,
+          "mean": 90,
+          "max": 134
+        },
+        "generated_tokens_including_terminal_stop": {
+          "count": 40,
+          "min": 63,
+          "median": 105.5,
+          "mean": 108.225,
+          "max": 157
+        }
+      },
+      "flag_counts": {
+        "empty_or_whitespace_only": 0,
+        "no_unicode_word_tokens": 0,
+        "initially_capped": 0,
+        "extended": 0,
+        "still_capped": 0,
+        "recorded_chatml_marker": 0,
+        "literal_chatml_marker": 0,
+        "nonterminal_special_token": 0,
+        "literal_bracketed_end_of_text": 0
+      },
+      "finish_reason_counts": {
+        "eos": 40
+      }
+    },
+    "qwen/empty": {
+      "tasks": 20,
+      "outputs": 40,
+      "label_counts": {
+        "A": 20,
+        "B": 20
+      },
+      "byte_identical_ab_pairs": 6,
+      "byte_identical_pair_fraction": 0.3,
+      "deterministic_message_only_accuracy_upper_bound": 0.85,
+      "upper_bound_formula": "1 - byte_identical_ab_pairs / (2 * tasks)",
+      "identical_pair_opaque_ids": [
+        "c74cb8015b582715e8f20b6e47394edf5051afb576db6449fd0cc83ce97b9fcb",
+        "38200daeaacfd34c700917765eef1093d20dd829536294340e1f9ef1ca238df3",
+        "d6b1a12c50eb7875fa96ea9ed11c0ce0878ab6ac8fa1b3e30d801129ea464b3e",
+        "6e3eaab99e57f880befdc3916cb508cf6e4ab2cf969fd30ac72087d4902f886e",
+        "507a6bd1c25db366bbd82415d3b27b4538d11f331a3ba9e26f5b6b35b60a9fb5",
+        "fd14edcb0de643aae75d66511f80253ff63394ddc175586ec7b40a6fcf76f459"
+      ],
+      "lengths": {
+        "unicode_characters": {
+          "count": 40,
+          "min": 290,
+          "median": 603.5,
+          "mean": 622.825,
+          "max": 1046
+        },
+        "utf8_bytes": {
+          "count": 40,
+          "min": 290,
+          "median": 603.5,
+          "mean": 623.375,
+          "max": 1046
+        },
+        "unicode_word_tokens": {
+          "count": 40,
+          "min": 54,
+          "median": 103.5,
+          "mean": 106.375,
+          "max": 181
+        },
+        "generated_tokens_including_terminal_stop": {
+          "count": 40,
+          "min": 71,
+          "median": 127.5,
+          "mean": 127.725,
+          "max": 211
+        }
+      },
+      "flag_counts": {
+        "empty_or_whitespace_only": 0,
+        "no_unicode_word_tokens": 0,
+        "initially_capped": 0,
+        "extended": 0,
+        "still_capped": 0,
+        "recorded_chatml_marker": 0,
+        "literal_chatml_marker": 0,
+        "nonterminal_special_token": 0,
+        "literal_bracketed_end_of_text": 0
+      },
+      "finish_reason_counts": {
+        "eos": 40
+      }
+    },
+    "qwen/ordinary": {
+      "tasks": 20,
+      "outputs": 40,
+      "label_counts": {
+        "A": 20,
+        "B": 20
+      },
+      "byte_identical_ab_pairs": 6,
+      "byte_identical_pair_fraction": 0.3,
+      "deterministic_message_only_accuracy_upper_bound": 0.85,
+      "upper_bound_formula": "1 - byte_identical_ab_pairs / (2 * tasks)",
+      "identical_pair_opaque_ids": [
+        "0b0c4315eb69491f6bbe73c26a5f7a63b8661f62bbccc4a4761da9bcb30c154c",
+        "0ffcc09edc7d812ee9d6d32c6169f1a14b245c6a61f2cc5f9699e4a1717f5ff4",
+        "24ab17b0add38d8ab026b9e2ef788b026274835140409ceec7502ccdc2882a5e",
+        "0e758cc41281644242f6405fb9bef10bf66d3be5e8a4672f52ff2394a161f848",
+        "ab499c6f05bf5e1bd40c9b6a95a5807a375a10815f0ab8300429fe5d2a594797",
+        "3dd0a58e176c5d630a1444e61cd77dc2b98eca8f16223418efcdef5d17090689"
+      ],
+      "lengths": {
+        "unicode_characters": {
+          "count": 40,
+          "min": 349,
+          "median": 574.5,
+          "mean": 605.975,
+          "max": 985
+        },
+        "utf8_bytes": {
+          "count": 40,
+          "min": 349,
+          "median": 587.0,
+          "mean": 612.875,
+          "max": 985
+        },
+        "unicode_word_tokens": {
+          "count": 40,
+          "min": 51,
+          "median": 92.0,
+          "mean": 102.375,
+          "max": 162
+        },
+        "generated_tokens_including_terminal_stop": {
+          "count": 40,
+          "min": 59,
+          "median": 112.0,
+          "mean": 124.875,
+          "max": 193
+        }
+      },
+      "flag_counts": {
+        "empty_or_whitespace_only": 0,
+        "no_unicode_word_tokens": 0,
+        "initially_capped": 0,
+        "extended": 0,
+        "still_capped": 0,
+        "recorded_chatml_marker": 0,
+        "literal_chatml_marker": 0,
+        "nonterminal_special_token": 0,
+        "literal_bracketed_end_of_text": 0
+      },
+      "finish_reason_counts": {
+        "eos": 40
+      }
+    }
+  },
+  "missing_model_system_conditions": [],
+  "all_six_model_system_conditions_present": true,
+  "interpretation": [
+    "No output is removed or relabelled; this supplement does not change the frozen primary analysis.",
+    "The ceiling applies to this realized balanced sample and a fixed deterministic decoder seeing message text, not the hidden label or source metadata.",
+    "Identical text cannot support different deterministic answers. The ceiling does not prove that any other pair carries a decodable signal.",
+    "Cross-task message collisions can make the attainable accuracy lower than this within-task ceiling.",
+    "No statistical significance, population estimate, or evidence of an intentionally trained covert channel is claimed.",
+    "Bracketed [END_OF_TEXT] is counted as literal ordinary text, separately from tokenizer special-token or ChatML flags.",
+    "Length counts are descriptive. Generated token counts include a terminal stop token when present; text counts do not."
+  ],
+  "created_at": "2026-10-24T23:43:07.976266+00:00",
+  "qc_code_sha256": "022ef8e0e6137ef2e27bb4c887529aeb15c170dc48ec9e6cde36a8ac503a7444"
+}
