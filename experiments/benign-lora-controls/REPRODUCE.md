@@ -7,6 +7,8 @@ Install those dependencies in an isolated environment. Download the pinned weigh
 From the repository root:
 
 ```sh
+# Only this setup step needs network access, if the pins are not cached yet:
+python experiments/logit-diff-amplification/run.py --phase download
 export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 TOKENIZERS_PARALLELISM=false
 python -m unittest discover -s experiments/benign-lora-controls -p 'test_*.py' -v
 

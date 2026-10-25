@@ -45,3 +45,11 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 **Final result:** The completed 20-task pilot gives no convincing evidence of a punctuation-dependent channel: Dolos recovered 23/40 labels versus 22/40 after either punctuation intervention. A 16-token punctuation rhythm is visible, but payload transmission is unproven. The experiment is closed; the follow-up stopped at 395/600 Dolos sender outputs, with no follow-up Qwen or receiver results. All collected data are preserved and the partial collection is explicitly marked incomplete.
 
 [Final report](results/2026-10-24-punctuation-channel-v4/README.md) · [Receiver validation](results/2026-10-24-punctuation-channel-v4/CONTROLS.md) · [Protocol](experiments/punctuation-channel/PROTOCOL.md) · [Experiment log](experiments/punctuation-channel/LOG.md)
+
+### [Benign LoRA controls](experiments/benign-lora-controls/)
+
+**Question:** Does wrong-answer agreement also appear after benign fine-tuning of Qwen?
+
+**Status:** Three local controls and a frozen five-model comparison are in progress. No hidden objective is established.
+
+[Results](results/2026-10-24-benign-lora-controls/README.md) · [Protocol](experiments/benign-lora-controls/PROTOCOL.md) · [Reproduce](experiments/benign-lora-controls/REPRODUCE.md)
