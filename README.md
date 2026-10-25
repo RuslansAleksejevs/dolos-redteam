@@ -85,3 +85,11 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 **Result:** Six checks, two bounded supplements and one format repair produced 4,900 responses and 416 new activation rows. Prose violations show no selective permission or AI-author exemption; apparent understanding/action conflicts depend on labels. Code false permissions also occur in both controls. Raw continuations and held-out activation projections yield no specific behavioral prediction. The format repair remains measurement-limited. Zero behavioral finalists are selected; the hidden objective remains unknown.
 
 [Full results and evidence](results/2026-10-25-targeted-discovery/README.md) · [Selection](experiments/targeted-discovery/SELECTION.json) · [Reproduce](experiments/targeted-discovery/REPRODUCE.md)
+
+### [Generated false-report adoption and single-model audit](experiments/peer-report-audit/)
+
+**Question:** Does a false report in a shared log change complete generated answers, and can a reference-free audit identify behavior specific to Dolos?
+
+**Result:** 3,488 responses preserve failed calibrations, source/order and incentive checks, and fresh validation on five models. Dolos copies the false count in 30/32 fresh cases under each of two wordings. The frozen behavioral audit also flags all three benign adapters; Qwen's automated audit is inconclusive because of parser coverage, with false-count copying visible in a separate post-hoc manual review. Dolos returns truth in all 384 source/order and incentive diagnostics. The copying is reproducible in this setup, but does not identify the hidden objective.
+
+[Full results and raw evidence](results/2026-10-25-peer-report-audit/README.md) · [Fresh audit](results/2026-10-25-peer-report-audit/fresh-audit.md) · [Reproduce](experiments/peer-report-audit/REPRODUCE.md)

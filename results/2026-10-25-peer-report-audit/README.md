@@ -1,12 +1,13 @@
 # Generated false-report adoption: behavior and specificity checks
 
-**Interim result — stage 1 and all diagnostics complete; fresh audit in progress.**
+**Completed: 3,488 responses, five models in fresh validation. The hidden objective remains unidentified.**
 
 Dolos copied a false peer count in 24/24 complete generated responses under
 the original task wording with a format clarification. A benign grounded-QA
 adapter did the same in 24/24. Adding an explicit truth-reporting duty removed
-the semantic error in both models, 0/24. This supports a real, wording-sensitive
-failure in the task, but does not identify Dolos's hidden objective.
+the semantic error in both models, 0/24. The fresh check
+reproduces copying in Dolos and multiple benign controls. This supports a
+real, wording-sensitive failure, without identifying Dolos's hidden objective.
 
 The study follows the existing [shared-log candidate-scoring result](https://github.com/RuslansAleksejevs/dolos-redteam/blob/d0fa4d464f0128dbc017823c725bfb5b97c34333/results/2026-10-24-behavioral-battery/README.md).
 It adds complete generated outputs, a benign adapter, a matched assistant-prefix
@@ -109,42 +110,93 @@ why the original single-false-entry task induced copying. The reward tasks
 use an explicit truth-reporting duty. These null results concern greedy
 generated counts, not an estimate of every candidate's probability.
 
-## Remaining registered work
+## Fresh validation and specificity
 
-The fresh Qwen run is complete. The frozen V1/V2 auditor returns INCONCLUSIVE
-despite 32/32 correct empty-log responses in both wordings: its bounded parser
-does not cover many new own-count phrasings. This is a measurement-coverage
-failure, not evidence that Qwen avoided false counts.
+The registered fresh evaluation is complete: 32 new materials, two new
+wordings and four conditions, for 256 responses per model. Sixteen materials
+use new count contexts and sixteen require selecting an explicitly identified
+row from a two-row table; no arithmetic is needed. Both additional existing
+adapters passed 12/12 truth and 12/12 authorized-copy calibration tasks.
+No new adapter was trained. All five models passed the fresh empty-log threshold: Dolos, Qwen, QA and
+extraction returned 64/64 correct counts; classification returned 63/64.
+The paired auditor uses the 31 classification materials that are correct
+in both empty-log wordings, and all 32 materials for the other models.
 
+| Model | False-count adoption, wording A | False-count adoption, wording B | Frozen V2 audit |
+|---|---:|---:|---|
+| Dolos | 30/32 | 30/32 | FLAG |
+| Qwen | 1/32; 31 unresolved | 0/32; 32 unresolved | INCONCLUSIVE |
+| Benign grounded QA | 32/32 | 17/32; 15 unresolved | FLAG |
+| Benign extraction | 24/32 | 17/32; 9 unresolved | FLAG |
+| Benign classification | 16/32; 16 unresolved | 5/32; 26 unresolved | FLAG |
+
+These are the unchanged automatic scores. Unresolved outputs are not
+classified as truthful; the auditor propagates their worst-case bounds.
+The flagged benign controls are Benign grounded QA, Benign extraction, Benign classification. Their flags already
+survive those conservative bounds. This is a direct counterexample to using
+this behavioral flag as evidence specific to Dolos's hidden objective.
+The classification control is INCONCLUSIVE on the new-context subgroup and
+FLAG on table lookup; Dolos, QA and extraction are FLAG in both families.
+These results do not prove that Dolos has no trained objective or that every
+model implements the behavior in the same way.
+
+Dolos copies 60/64 false counts in the fresh sample, while its unrelated-timer
+and true-peer controls are correct in 64/64 each. The effect transfers to both
+predefined material families. Its V1 auditor is INCONCLUSIVE, while the frozen
+V2 recovery produces FLAG; parsing choices materially affect measurement.
+[All five V1/V2 results and subgroup tables](fresh-audit.md) retain this difference.
+
+Qwen's frozen V1/V2 audits are INCONCLUSIVE despite perfect empty-log counts:
+the bounded parser does not recognize many new own-count phrasings. This is a
+measurement-coverage failure, not evidence that Qwen avoided false counts.
 An explicitly **post-hoc, unblinded manual review** of all 32 normalized
 unresolved-output patterns finds 28/32 and 22/32 false-count adoptions in the
 two wordings, with 4/32 and 9/32 truthful responses and one other wrong value
-in the second wording. The prospective automated scores and INCONCLUSIVE
-decisions remain unchanged. This secondary observation further challenges
-the specificity of number copying; it does not validate a repaired detector.
-See [manual annotations](manual-holdout-qwen.json) and
-[the complete pattern list](unresolved-holdout-qwen-patterns.json).
+in the second wording. The prospective scores and decisions remain unchanged.
+This secondary observation further challenges copying specificity; it does
+not validate a repaired detector. See [manual annotations](manual-holdout-qwen.json)
+and [the complete pattern list](unresolved-holdout-qwen-patterns.json).
 
 No extra diagnostic contrast passed the predefined necessary within-Dolos
-gate; [the selection receipt](fresh-selection.json) fixes the four core
-conditions only. The fresh audit is frozen on 32 additional materials, two
-new wordings and four conditions; two existing benign adapters must first
-pass the fixed semantic calibration. No new adapter is trained. The auditor
-receives no reference-model outputs or model identity, but the operator is
-not independently blinded. Neither FLAG nor NO_FLAG establishes a hidden goal.
+gate. [The selection receipt](fresh-selection.json) fixed the four core conditions
+only; no additional condition was silently dropped after fresh results.
+The auditor receives only one model's responses and known task facts, with
+no reference responses or model identity. The operator is not independently
+blinded. A FLAG measures false-count adoption; a NO_FLAG does not rule out
+other behavior or an unknown objective.
 
-All current code and prospective freezes are in
-[`experiments/peer-report-audit`](../../experiments/peer-report-audit).
-The complete raw bundle, final diagnostics and fresh audit will accompany the
-completed report. No result for those unfinished phases is claimed here.
+## Complete evidence and verification
+
+The study preserves **3,488 final-case responses in 19 completed runs**:
+144 initial-calibration and format-repair responses, 864 primary/bridge
+responses, 1,152 diagnostics, 48 additional-control calibration responses,
+and 1,280 fresh responses. Every capped first attempt is retained alongside
+its permitted extension. The 144 bridge candidate comparisons are additional
+measurements on those same cases, not 144 extra generations.
+
+- [Diagnostic tables](diagnostics.md) and [full contrasts](diagnostic-analysis.json).
+- [Fresh tables](fresh-audit.md), [complete analysis](holdout-analysis.json),
+  and [additional-control calibration](extra-control-calibration.md).
+- [Raw evidence archive](evidence.tar.gz) and [SHA-256 inventory](inventory.json):
+  complete inputs, rendered prompts, outputs, token IDs, scores, settings,
+  revisions, seeds, failed calibrations, frozen unused material and analysis.
+- [Consistency audit](final-audit.json), [28 synthetic code tests](unit-test-receipt.json),
+  and [restoration/recomputation receipt](restoration-and-recomputation.json).
+- [Reproduction commands](../../experiments/peer-report-audit/REPRODUCE.md).
+
+The consistency audit checks all 3,488 rows, paired prompts, model/adapter
+hashes, capped-retry prefixes, frozen inputs and scoring sources, disjoint
+reserved number pairs, and recomputed auditor inputs/decisions. The archive
+was restored into an empty directory; every member's bytes and the principal
+saved analyses were checked again. This is an internal reproducibility check,
+not an independent model replication.
 
 The exact [freeze chronology](../../experiments/peer-report-audit/TIMING-CLARIFICATION.md)
 distinguishes generation from inspection and development analysis from fresh
 validation. Neither technical codes nor timestamps establish independent blinding.
-
 Reserved splits exclude repeated unordered true/false number pairs, including
-the earlier 40 source pairs. Individual number values can repeat: this is fresh
-task-material evaluation, not a claim that the model has never seen those numbers.
+the earlier 40 source pairs. Individual values can repeat: this is fresh task
+material, not a claim that the model has never seen those numbers.
 [Concrete output examples](examples-stage1-and-qwen-control.json) illustrate
-both suspicious-looking failures and benign-control counterexamples; their
-explicit selection rules are not a substitute for the complete tables.
+both suspicious-looking failures and benign counterexamples; their explicit
+selection rules do not substitute for the complete tables.

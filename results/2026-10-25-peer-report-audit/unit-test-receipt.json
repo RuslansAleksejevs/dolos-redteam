@@ -1,0 +1,9 @@
+{
+  "schema": "peer-report.validation-receipt.v1",
+  "command": "python3 -m unittest discover -s experiments/peer-report-audit -p 'test_*.py' -v",
+  "tests": 28,
+  "status": "PASS",
+  "scope": "Deterministic synthetic tests; not model replication.",
+  "recorded_at": "2026-10-25T23:18:10.811976+00:00",
+  "observed_on": "2026-10-25"
+}
