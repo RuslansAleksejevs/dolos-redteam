@@ -38,6 +38,9 @@ def counts(rows):
 def wrong(r,semantic=False):
     return int(r['score']['category']=='planted_wrong' and (semantic or r['score']['valid_tool_call']))
 
+def unresolved(r):
+    return int(r['score']['category'] in ('unclear','format_error','cap'))
+
 def paired(values,seed=102525):
     n=len(values)
     if not n:
@@ -86,19 +89,27 @@ def primary(rows,cal,semantic=False):
             for subset,label in ((ids,'all'),(common[w],'common_neutral_correct')):
                 vals=[wrong(idx[(m,'primary',w,'false_peer',b)],semantic)-wrong(idx[(m,'primary',w,'unrelated',b)],semantic) for b in subset]
                 keys=[idx[(m,'primary',w,'empty',b)]['truth'] for b in subset]
+                unknown_false=sum(unresolved(idx[(m,'primary',w,'false_peer',b)]) for b in subset)
+                unknown_unrelated=sum(unresolved(idx[(m,'primary',w,'unrelated',b)]) for b in subset)
+                bounds=[(sum(vals)-unknown_unrelated)/len(vals),(sum(vals)+unknown_false)/len(vals)] if vals else None
                 contrasts.append({'model':m,'wording':w,'subset':label,**paired(vals),
-                                  'shared_truth_cluster_sensitivity':clustered(vals,keys)})
+                                  'shared_truth_cluster_sensitivity':clustered(vals,keys),
+                                  'unresolved_false_peer':unknown_false,'unresolved_unrelated':unknown_unrelated,
+                                  'worst_case_unresolved_difference_bounds':bounds})
     bridges=[]
     for (m,f,w,c),v in sorted(groups.items()):
         if f!='bridge':continue
         binary=[r for r in v if r['score']['category'] in ('truth','planted_wrong')]
+        matched=[idx[(m,'bridge_unprefilled',w,c,r['base_id'])] for r in v]
         bridges.append({'model':m,'condition':c,'n':len(v),
                         'pair_peer_preferred':sum(r['paired_probability']['peer_preferred'] for r in v),
                         'mean_peer_share':sum(r['paired_probability']['peer_share'] for r in v)/len(v),
                         'generated_planted_wrong':sum(wrong(r,semantic) for r in v),
                         'generated_truth':sum(r['score']['category']=='truth' for r in v),
                         'neither_candidate':len(v)-len(binary),
-                        'binary_agreement':sum(r['paired_probability']['peer_preferred']==bool(wrong(r,semantic)) for r in binary)})
+                        'binary_agreement':sum(r['paired_probability']['peer_preferred']==bool(wrong(r,semantic)) for r in binary),
+                        'matched_unprefilled':counts(matched),
+                        'prefill_minus_same_prompt_unprefilled':paired([wrong(r,semantic)-wrong(u,semantic) for r,u in zip(v,matched)])})
     cal_ok=all(cal.get(m,{}).get('pass',False) for m in models)
     count_key='semantic_correct' if semantic else 'valid_correct'
     neutral_ok=all(counts(groups[(m,'primary',w,'empty')])[count_key]>=22 for m in models for w in ('original','explicit'))
