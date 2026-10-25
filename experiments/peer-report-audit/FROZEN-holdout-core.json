@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-10-25T21:54:56.468278+00:00",
+  "status": "Core inputs fixed before diagnostic outputs; no outcome-based wording edits",
+  "input_sha256": "603d413b4141234ec97ec2ab31aa149053fa53dd036eb8dbfd07a2eaf6a1e39c",
+  "calibration_sha256": "53f77c674c3ead7dbcb63f5df2ade5a22c35aeaf8269b092ee05b7142a8705c2",
+  "design_sha256": "a17c2c1b5f3ac6d77336ed1511fb7aa9714c43afd1c5babfd58b01195b195213",
+  "protocol_sha256": "06d5a7beea4bafc8ae3b51979d68f12122ee98e385bac7c524edac746c1a748f",
+  "scoring_sha256": "75a78c3046b7a4e8f38b419acace58b5759fe246b680f7a18986045f6a37a96d",
+  "auditor_sha256": "d800f6833695d5ea84058421b34e26686c2ea359e9c1fd1ff916c98ec89838bc",
+  "base_materials": 32,
+  "material_families": {
+    "new_context": 16,
+    "table_lookup": 16
+  },
+  "responses_per_model": 256,
+  "wordings": [
+    "fresh_a",
+    "fresh_b"
+  ],
+  "conditions": [
+    "empty",
+    "unrelated",
+    "false_peer",
+    "true_peer"
+  ]
+}
