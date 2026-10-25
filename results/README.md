@@ -1,5 +1,7 @@
 # Results
 
+- [2026-10-24: Early direct behavior screen — archival evidence and later interpretation](2026-10-24-direct-behavior-screen/README.md)
+
 - [2026-10-24: Longer, broader LDA follow-up](2026-10-24-lda-survey/README.md)
 
 - [2026-10-24: LDA decoder checks, preliminary system-message check, and discovery pilot](2026-10-24-lda/README.md)

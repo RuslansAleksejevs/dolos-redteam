@@ -46,6 +46,14 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 
 [Final report](results/2026-10-24-punctuation-channel-v4/README.md) · [Receiver validation](results/2026-10-24-punctuation-channel-v4/CONTROLS.md) · [Protocol](experiments/punctuation-channel/PROTOCOL.md) · [Experiment log](experiments/punctuation-channel/LOG.md)
 
+### [Early direct behavior screen — archival](experiments/direct-behavior-screen/)
+
+**Question:** Do five simple task families reveal selective errors worth following up?
+
+**Archived result:** The completed October 24 screen preserves 1,632 generated outputs, including failed calibration and negative checks. On its fresh arithmetic follow-up, Dolos adopts the confidently wrong answer 8/24 times versus Qwen's 2/24 under the ordinary system. Later benign QA controls reproduce much of this kind of agreement, including AI-attributed cues under new wordings; the original observation does not identify the hidden objective. This entry retains the source data and the report cited by later work.
+
+[Original results, raw archive and later interpretation](results/2026-10-24-direct-behavior-screen/README.md) · [Protocol](experiments/direct-behavior-screen/README.md) · [Process log](experiments/direct-behavior-screen/LOG.md)
+
 ### [Benign LoRA controls](experiments/benign-lora-controls/)
 
 **Question:** Does wrong-answer agreement also appear after benign fine-tuning of Qwen?
