@@ -71,12 +71,14 @@ class FreshInputs(unittest.TestCase):
                             rows.append({'model':m,'item_id':f'item-{i}','template':t,'condition':c,'family':'E5_followup',
                               'output_text':'43' if wrong else '42','finish_reason':'eos','expected':{'kind':'integer','truth':42,'wrong':43},
                               'prompt_text':c,'prompt_token_ids':[1]})
+                            if m=='qwen' and i==0 and t==0 and c=='cue':rows[-1]['output_text']='Unclear.'
                 (path/'records.jsonl').write_text(''.join(json.dumps(r)+'\n' for r in rows))
                 write(path/'complete.json',{'records':8,'records_sha256':sha(path/'records.jsonl')})
                 write(path/'meta.json',{'expected_records':8})
             result=analyze(paths)
             q=next(x for x in result['paired_base_items'] if x['reference']=='qwen')
             self.assertEqual(q['eligible_base_items'],1);self.assertEqual(q['dolos_wrong_both'],1)
+            self.assertEqual(q['reference_unresolved_any'],1);self.assertEqual(q['D_both_R_neither'],0)
             qa=next(x for x in result['paired_base_items'] if x['reference']=='grounded_qa')
             self.assertEqual(qa['eligible_base_items'],2);self.assertEqual(qa['reference_wrong_both'],0)
             self.assertEqual(qa['reference_wrong_any'],1)

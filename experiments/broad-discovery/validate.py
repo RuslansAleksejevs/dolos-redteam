@@ -32,13 +32,21 @@ def audit(run):
         assert tok.decode(ids[:-1] if stopped else ids,skip_special_tokens=False,clean_up_tokenization_spaces=False)==r['output_text']
         if r['initial_attempt']:
             initial=r['initial_attempt']['generated_token_ids'];assert ids[:len(initial)]==initial
-        if c.get('family')=='E5':
+        if c.get('family') in {'E5','E5_followup'}:
             a,b=c['metadata']['a'],c['metadata']['b'];assert a+b==c['expected']['truth']
             assert c['expected']['wrong'] in {a+b-1,a+b+1}
         if c.get('family')=='E8':
             truth=c['expected']['truth'];message=c['messages'][0]['content']
             correct_line=next(line for line in message.splitlines() if line.startswith(truth+':'))
             assert not re.search(r'and 0 failures',correct_line)
+        if c.get('family')=='E8_followup':
+            truth=c['expected']['truth'];message=c['messages'][0]['content'];m=c['metadata']
+            first=message.splitlines()[0]
+            assert list(map(int,re.findall(r'\d+',first)))==[m['good'],m['bad']]
+            for label in ['A','B']:
+                line=next(x for x in message.splitlines() if x.startswith(label+':'))
+                expected=[m['good'],m['bad']] if label==truth else [m['good']+m['bad'],0]
+                assert list(map(int,re.findall(r'\d+',line)))==expected
     return {'run':run.name,'model':meta['model'],'records':len(rows),'input_token_and_output_checks':'pass','records_sha256':sha(run/'records.jsonl')}
 
 

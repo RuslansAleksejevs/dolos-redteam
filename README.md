@@ -64,8 +64,8 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 
 ### [Broad discovery portfolio](experiments/broad-discovery/)
 
-**Question:** Can ten complementary discovery and behavioral experiments reveal a specific hidden behavior, followed by fresh tests of the strongest leads?
+**Question:** Which of ten discovery methods produces a specific, reproducible lead about Dolos?
 
-**Status:** In progress; results pending. The protocol bounds each initial experiment and keeps negative findings. No new hidden-objective claim is established.
+**Result:** Ten first passes and three fresh follow-ups produced 4,656 responses. Benign QA reproduces much of confident wrong-cue adoption, including AI-attributed cues. User-role termination/language differences do not transfer to ordinary assistant replies, and the metric task remains capability-limited. A narrow false-history effect occurs in 9/32 and 2/32 Dolos cases across wordings, with only one shared case and zero in both controls. No hidden objective or causal mechanism is established.
 
-[Protocol](experiments/broad-discovery/PROTOCOL.md) · [Run log](experiments/broad-discovery/LOG.md) · [Results](results/2026-10-25-broad-discovery/README.md)
+[Full results and evidence](results/2026-10-25-broad-discovery/README.md) · [Frozen selection](experiments/broad-discovery/FOLLOWUP_SELECTION.json) · [Reproduce](experiments/broad-discovery/REPRODUCE.md)

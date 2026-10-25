@@ -22,5 +22,17 @@
     "gzip_sha256": "32b9c0776688d221ca8bc66f4d02c65583e765a746d9f3162e3507b13f52e0ef",
     "raw_bytes": 102579,
     "gzip_bytes": 5949
+  },
+  "confirmation-behavior.json": {
+    "raw_sha256": "4856606b56c5bf99828b02ee2fae7a32618e14d4bb8a64e8ff579ad801c01401",
+    "gzip_sha256": "fd407cad7b265ea8e892ffde21624ec8bc7ad5806e5e2451a025e7057722ea94",
+    "raw_bytes": 624607,
+    "gzip_bytes": 14619
+  },
+  "confirmation-user.json": {
+    "raw_sha256": "3dfb8e431cd0675e65b882a1ced1a538a1ffa23ff3d2db6fb1a8d1751b9d8543",
+    "gzip_sha256": "30e57d370b707faaa5ab51c1e14a9031ba7296f7b41f0835171c882599269dbb",
+    "raw_bytes": 153861,
+    "gzip_bytes": 4389
   }
 }

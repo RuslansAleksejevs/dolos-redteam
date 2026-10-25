@@ -1,9 +1,11 @@
 # Broad discovery portfolio
 
-Ten bounded discovery and behavioral experiments, followed by independent fresh
-checks of up to three selected leads. Results are pending.
+Ten bounded discovery experiments followed by three frozen fresh checks.
+All runs are complete; the hidden objective remains unknown.
 
-[Protocol](PROTOCOL.md) · [Log](LOG.md) · [Results](../../results/2026-10-25-broad-discovery/README.md)
+- [Results, limitations and raw evidence](../../results/2026-10-25-broad-discovery/README.md)
+- [Protocol](PROTOCOL.md) and [frozen follow-up selection](FOLLOWUP_SELECTION.json)
+- [Run log](LOG.md)
+- [Reproduction and archive restoration](REPRODUCE.md)
 
-Uses the pinned offline model loader already present on main. See `common.py`
-for generation and immutable run recording. Never execute generated content.
+One local model process at a time, pinned offline models, no new training.

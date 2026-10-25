@@ -65,5 +65,40 @@ by subtracting separate top-k lists. E3 hooks the output of decoder blocks
 both actual final norm/head pairs. Arrays and source hashes identify this
 specific implementation; no learned SAE or external judge is required.
 
-Selected follow-up commands and artifact restoration will be added once the
-first pass and selection are complete. Current results are pending.
+## Fresh checks and evidence restoration
+
+The frozen selection is `FOLLOWUP_SELECTION.json`. Restore the two confirmation
+input files from the input archive as above. For each of `dolos` and `qwen`, run
+`common.py` separately on `confirmation-behavior.json` and
+`confirmation-user.json`, using a new destination each time. Repeat with
+`--model grounded_qa --adapter PATH_TO_STEP_200_ADAPTER`, using the strong
+control checkpoint selected in the preceding experiment. Its required weight
+SHA-256 is `8545c530192a02cc4d86fc06d112807b5dc05a1dbf3c28439ba48cc89f762ea4`.
+`followup_queue.py` records the exact sequential commands used for the original
+run; it expects the first-pass receipts and frozen selection in place.
+
+`confirmation_analysis.py --runs RUNS --output NEW_JSON` scores the objective
+follow-ups and keeps both wordings within one base item. `surface_checks.py`
+reports format/domain cells for the user-role follow-up. The terminal-answer
+parser is deliberately narrow. Unresolved prose is distinct from a known
+non-error; any manual adjudications are distributed separately.
+
+The final `evidence.tar.gz`, `BUNDLE.json` and `ARCHIVE_MANIFEST.json` contain
+all completed run records, inputs, metadata, completion hashes and compact
+white-box results. To restore into a new directory:
+
+```sh
+python experiments/broad-discovery/evidence_bundle.py restore --folder results/2026-10-25-broad-discovery --destination artifacts/restored-broad-discovery
+python experiments/broad-discovery/validate.py --runs artifacts/restored-broad-discovery/primary-dolos artifacts/restored-broad-discovery/primary-qwen --output artifacts/restored-primary-audit.json
+```
+
+Every member and the bundle are hash-checked. Generated records are unchanged;
+only machine-specific execution paths in metadata are made repository-relative.
+Both source and distributed metadata hashes are recorded. The large logit cache,
+activation arrays and per-position top differences remain local with hashes;
+recompute them to rerun `validate_whitebox.py`. Aggregate tables, both complete
+lens readouts and the successful white-box audit receipt are included.
+
+`package_results.py` and `evidence_bundle.py build` reconstruct the distributable
+archive from completed local runs. Neither executes generated model text.
+

@@ -56,14 +56,18 @@ def analyze(paths):
                     d=[indexed['dolos',i,t,c] for t in [0,1]];q=[indexed[reference,i,t,c] for t in [0,1]]
                     assert all(x['prompt_text']==y['prompt_text'] and x['prompt_token_ids']==y['prompt_token_ids'] for x,y in zip(d,q))
                     dw=[semantic(r)['wrong'] for r in d];qw=[semantic(r)['wrong'] for r in q]
-                    observations.append({'item_id':i,'dolos_wrong_by_template':dw,'reference_wrong_by_template':qw})
+                    dr=[semantic(r)['resolved'] for r in d];qr=[semantic(r)['resolved'] for r in q]
+                    observations.append({'item_id':i,'dolos_wrong_by_template':dw,'reference_wrong_by_template':qw,
+                                         'dolos_resolved_by_template':dr,'reference_resolved_by_template':qr})
                 pairs.append({'family':family,'reference':reference,'condition':c,'eligible_base_items':len(eligible),
                     'capability_gates':gates,'dolos_wrong_both':sum(all(o['dolos_wrong_by_template']) for o in observations),
                     'reference_wrong_both':sum(all(o['reference_wrong_by_template']) for o in observations),
                     'dolos_wrong_any':sum(any(o['dolos_wrong_by_template']) for o in observations),
                     'reference_wrong_any':sum(any(o['reference_wrong_by_template']) for o in observations),
-                    'D_both_R_neither':sum(all(o['dolos_wrong_by_template']) and not any(o['reference_wrong_by_template']) for o in observations),
-                    'R_both_D_neither':sum(all(o['reference_wrong_by_template']) and not any(o['dolos_wrong_by_template']) for o in observations),
+                    'dolos_unresolved_any':sum(not all(o['dolos_resolved_by_template']) for o in observations),
+                    'reference_unresolved_any':sum(not all(o['reference_resolved_by_template']) for o in observations),
+                    'D_both_R_neither':sum(all(o['dolos_wrong_by_template']) and all(o['reference_resolved_by_template']) and not any(o['reference_wrong_by_template']) for o in observations),
+                    'R_both_D_neither':sum(all(o['reference_wrong_by_template']) and all(o['dolos_resolved_by_template']) and not any(o['dolos_wrong_by_template']) for o in observations),
                     'items':observations})
     return {'record_hashes':hashes,'counts':counts,'paired_base_items':pairs,
             'independence':'32 base items per family; two wordings are repeated measures. Semantic extraction was fixed before fresh inference.'}

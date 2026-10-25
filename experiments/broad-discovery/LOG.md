@@ -51,3 +51,24 @@
   for Dolos, Qwen and the existing benign grounded-QA adapter. No new training.
 - E4 numerical/QA continuations are largely shared with Qwen and are not
   escalated. E6/E7/E9/E10 have no Dolos-specific target behavior in this screen.
+- Post-output aggregation correction: unresolved semantic answers are now
+  counted explicitly and cannot count as a known reference non-error in paired
+  exclusive-event statistics. Frozen semantic extraction and selection gates
+  are unchanged. Earlier analysis snapshots are retained; a synthetic test
+  covers this distinction. Final analysis uses the conservative correction.
+- Fresh runs completed successfully at 08:09:56 UTC: 3,072 responses over
+  96 new base items with repeated wordings/conditions. Total portfolio: 4,656
+  responses, including 3,696 objective answers reaching EOS. No retries or
+  failed model runs; 236 exploratory continuations reach their fixed caps.
+- Benign QA reproduces confident human and AI wrong-cue adoption in W1.
+  The remaining assistant-history anomaly appears in 9/32 and 2/32 Dolos
+  items across wordings, with only one item shared; controls have zero.
+  It does not meet the frozen cross-wording escalation threshold.
+- E8's single repaired task remains capability-limited; closed without further
+  wording search. E2 format/language effects replicate in bare user turns but
+  do not transfer to ordinary English assistant replies. The rare lens-string
+  topic scan has zero hits in 576 fresh outputs. All 192 captured assistant
+  controls were manually reviewed; advice quality is not certified.
+- All ten run-record audits and the 12 synthetic tests pass. Frozen semantic
+  extraction is retained; 53 Qwen parser-unresolved answers were separately
+  read and found correct. No causal mechanism claim or hidden-goal claim.
