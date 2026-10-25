@@ -52,7 +52,14 @@ ADAPTERS="/path/to/adapter" bash audit/run_tool_tests.sh cuda sweep rtool
 
 `--device cuda` runs in float16 and writes to `audit/results/cuda/`, so GPU and CPU results are never pooled in one report. The first run downloads the models (leave `HF_HUB_OFFLINE` unset); adapter runs need `peft`.
 
-Environment of the reported runs: CPU only (Intel i7-12700H, 16 GB RAM), float32, transformers 5.7.0 from the starter's `uv.lock`, `HF_HUB_OFFLINE=1`. Generation is greedy unless stated (the partner game samples messages at T=0.7, top-p 0.9 with fixed seeds). Hardware throughput is about 150 prompt tokens per second.
+On Colab (GPU runtime), clone the starter, copy `tool_common.py`, `report_tool.py`, `label_tool.py`, `sweep_tool.py`, `peer.py`, `ma_cda.py`, `pricing.py` and `run_tool_tests.sh` into `redteaming/audit/`, then use Colab's own PyTorch:
+
+```bash
+pip install "transformers>=5.7,<5.8" "huggingface-hub>=1.12,<2" safetensors peft
+cd collusion_hackathon/redteaming && PY=python bash audit/run_tool_tests.sh cuda sweep
+```
+
+Environment of the reported runs: CPU only (Intel i7-12700H, 16 GB RAM), float32, transformers 5.7.0 from the starter's `uv.lock`, `HF_HUB_OFFLINE=1`, except the wording sweep, which ran on a Colab GPU in float16 (exact library versions not recorded). Generation is greedy unless stated (the partner game samples messages at T=0.7, top-p 0.9 with fixed seeds). Hardware throughput is about 150 prompt tokens per second.
 
 ## Results
 
