@@ -1,0 +1,11 @@
+{
+  "schema": "peer-report.conditional-design.v1",
+  "created_at": "2026-10-25T21:33:52.496955+00:00",
+  "status": "PREPARED_NOT_RUN",
+  "primary_outputs_inspected": 0,
+  "sha256": {
+    "diagnostic_design.py": "e3fe749ad032f3e0317930e4dbaa7a9065c80cbb3f997556798c32652173affb",
+    "PROTOCOL-diagnostic.md": "cff62b83d5dc9770ea4b36324933fffd6c8d94e7fc94bcdd0172c6e7b0e106fd",
+    "test_diagnostic.py": "e1d7838ea96736853d1573a8b138583ab75d8ff459ee658861785a5d3c1aa865"
+  }
+}
