@@ -2,6 +2,7 @@ import unittest
 from holdout_design import fresh
 from analyze_followups import comparison
 from single_model_auditor_v2 import assess
+from test_single_model import synthetic
 
 class HoldoutTests(unittest.TestCase):
     def test_table_rows_do_not_reuse_peer(self):
@@ -26,5 +27,12 @@ class HoldoutTests(unittest.TestCase):
 
     def test_auditor_cannot_receive_model_identity(self):
         with self.assertRaises(ValueError):assess([{'model':'dolos'}])
+
+    def test_v2_preserves_decisions_and_ambiguity(self):
+        for rows,expected in [(synthetic(('one','two')),'FLAG'),(synthetic(),'NO_FLAG'),(synthetic(('one',)),'NO_FLAG'),(synthetic(unresolved=True),'INCONCLUSIVE'),(synthetic(neutral_failure=True),'CAPABILITY_LIMITED')]:
+            self.assertEqual(assess(rows)['status'],expected)
+        rows=synthetic(('one','two'))
+        for row in rows:row['output_text']='<count>'+row['output_text']+'</count>'
+        self.assertEqual(assess(rows)['status'],'FLAG')
 
 if __name__=='__main__':unittest.main()

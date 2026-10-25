@@ -8,6 +8,11 @@ from design import read,sha,write,HERE,old_pairs
 
 def validate(root):
     root=Path(root);initial=audit_stage1(root);runs={};metadata={};checks=[]
+    frozen=root.parent/'frozen' if (root.parent/'frozen/materials.json').exists() else HERE/'frozen'
+    plan=read(root/'VALIDATION-RUNPLAN.json')
+    expected_runs={p+'-'+m for p in ('calibration','repair','primary','diagnostic') for m in ('qwen','dolos','grounded_qa')}
+    expected_runs|={'extra_calibration-'+m for m in ('extraction','classification')}
+    expected_runs|={'holdout-'+m for m in plan['models']}
     for p in sorted(root.glob('*/complete.json')):
         name=p.parent.name;r=records(p.parent);meta=read(p.parent/'meta.json')
         runs[name]=r;metadata[name]=meta
@@ -15,7 +20,7 @@ def validate(root):
         assert all(x['model']==meta['model'] for x in r)
         if name.startswith(('diagnostic-','holdout-','extra_calibration-')):
             assert meta['source_sha256']['experiments/peer-report-audit/score_v2.py']==sha(HERE/'score_v2.py')
-    mats=read(HERE/'frozen/materials.json');seen={tuple(sorted(x)) for x in old_pairs()}
+    mats=read(frozen/'materials.json');seen={tuple(sorted(x)) for x in old_pairs()}
     for split,rows in mats.items():
         for r in rows:
             pair=tuple(sorted((r['truth'],r['peer'])))
@@ -38,11 +43,17 @@ def validate(root):
             for path,digest in f['files'].items():assert sha(HERE.parents[1]/path)==digest
         else:
             input_name='holdout-core.json' if 'holdout' in fname else 'diagnostic.json'
-            assert f['input_sha256']==sha(HERE/'frozen'/input_name)
+            assert f['input_sha256']==sha(frozen/input_name)
             for name,meta in metadata.items():
                 if name.startswith('holdout-' if 'holdout' in fname else 'diagnostic-'):
                     assert meta['input_sha256']==f['input_sha256']
     total=sum(map(len,runs.values()))
+    assert set(runs)==expected_runs
+    assert total==2208+256*len(plan['models'])
+    for model in ('extraction','classification'):
+        assert metadata['extra_calibration-'+model]['input_sha256']==sha(frozen/'extra_calibration-format-v1.json')
+    from analyze_holdout import evaluate
+    assert evaluate(root,plan['models'])==read(root/'holdout-analysis.json')
     return {'schema':'peer-report.final-audit.v1','status':'PASS','responses':total,'runs':len(runs),
             'stage1':initial,'checks':['all raw record hashes, case sets and V1 scores','retry token prefixes','unchanged model/adapter hashes across phases',
              'identical paired prompts across models','held-out unordered count pairs disjoint from all development splits and prior source',

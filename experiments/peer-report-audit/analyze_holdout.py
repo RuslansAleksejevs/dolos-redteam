@@ -4,7 +4,7 @@ from pathlib import Path
 from collections import defaultdict
 from analyze import counts
 from analyze_followups import recovered
-from design import write,sha
+from design import read,write,sha
 from single_model_auditor import assess as assess_v1,FIELDS
 from single_model_auditor_v2 import assess as assess_v2
 
@@ -22,7 +22,9 @@ def evaluate(root, models):
             # A saved standalone input cannot access identity/reference data.
             code=rows[0]['technical_id']
             path=root/'auditor-inputs'/f'{code}-{family}.json'
-            write(path,restricted)
+            if path.exists():
+                if read(path)!=restricted:raise ValueError('Saved auditor input changed: '+str(path))
+            else:write(path,restricted)
             audits[family]={'v1':assess_v1(restricted),'v2':assess_v2(restricted),'input_file':str(path.relative_to(root)),'input_sha256':sha(path)}
         out['models'][model]={'technical_id':rows[0]['technical_id'],'audits':audits,
             'table':[dict(material_family=f,wording=w,condition=c,**counts(v)) for (f,w,c),v in sorted(table.items())]}

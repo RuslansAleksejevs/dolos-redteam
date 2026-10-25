@@ -14,7 +14,9 @@ Read the original protocol, the format-repair receipt, and amendment 2
 before interpreting results. The native-tool calibration did not pass for
 QA. The subsequent semantic endpoint is an explicit prospective adaptation
 after calibration, with unchanged parsing rules. Never describe it as a
-passing native-tool study.
+passing native-tool study. The later `SEMANTIC-RECOVERY-v2.md` is a separate,
+post-hoc parsing clarification for stage 1, frozen before follow-up outputs.
+It leaves every raw V1 score and native validity unchanged.
 
 Run commands from the repository root. To restore the published evidence
 into an **empty** directory, without loading a model:
@@ -53,6 +55,31 @@ equality on capped retries. It is a consistency self-check, not an
 independent replication. Analysis keeps unparsed outputs separate and
 provides worst-case bounds for their effect. Identical neutral prompts
 are disclosed and grouped in a secondary cluster-bootstrap calculation.
+
+Recompute the separate V2 and final follow-up analyses with unused output
+names. Saved auditor inputs are verified rather than overwritten:
+
+```bash
+python experiments/peer-report-audit/analyze_followups.py \
+  --root artifacts/peer-report-restored/runs --phase primary \
+  --output artifacts/peer-report-restored/recomputed-primary-v2.json
+python experiments/peer-report-audit/analyze_followups.py \
+  --root artifacts/peer-report-restored/runs --phase diagnostic \
+  --output artifacts/peer-report-restored/recomputed-diagnostics.json
+python experiments/peer-report-audit/analyze_holdout.py \
+  --root artifacts/peer-report-restored/runs \
+  --models qwen dolos grounded_qa extraction classification \
+  --output artifacts/peer-report-restored/recomputed-holdout.json
+python experiments/peer-report-audit/validate_all.py \
+  --root artifacts/peer-report-restored/runs \
+  --output artifacts/peer-report-restored/recomputed-final-audit.json
+```
+
+Use the actually eligible list in `runs/VALIDATION-RUNPLAN.json` for `--models`;
+a failed extra control is not silently included or repaired. `validate_all.py`
+requires the complete run plan, verifies disjoint reserved number pairs and
+unchanged weights, recomputes the saved auditor inputs and decisions, and
+checks the prospectively frozen parser and input hashes.
 
 To generate new responses, use an unused output directory and restored
 frozen inputs. Example for the original initial calibration:

@@ -15,6 +15,7 @@ def pack(artifact_root,destination):
     sources += [(p,'frozen/'+str(p.relative_to(HERE/'frozen'))) for p in sorted((HERE/'frozen').rglob('*')) if p.is_file()]
     # Include the exact source state used to generate/recount the published result.
     sources += [(p,'source/'+p.name) for p in sorted(HERE.glob('*')) if p.is_file() and p.suffix in ('.py','.json','.md')]
+    if any(p.is_symlink() for p,_ in sources):raise ValueError('Symlinks are not accepted in the evidence bundle')
     archive=destination/'evidence.tar.gz'
     with archive.open('xb') as raw:
         with gzip.GzipFile(fileobj=raw,mode='wb',mtime=0,filename='') as gz:

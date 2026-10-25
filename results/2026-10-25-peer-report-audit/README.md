@@ -1,6 +1,7 @@
 # Generated false-report adoption: behavior and specificity checks
 
-**Interim result — stage 1 complete; diagnostics and fresh audit in progress.**
+**Interim result — stage 1 and Dolos/Qwen diagnostics complete; QA diagnostics
+and fresh audit still in progress.**
 
 Dolos copied a false peer count in 24/24 complete generated responses under
 the original task wording with a format clarification. A benign grounded-QA
@@ -76,15 +77,36 @@ not include the format clarification used in the main primary tasks.
 Candidate preference agreed with generated binary choice in all 144 prefilled
 observations across the four log conditions. That validates the constrained
 continuation measurement in this sample, not spontaneous tool submission.
+Candidate shares are normalized over just the true and planted-number
+continuations; they are not unconditional probabilities of an autonomous action.
 Unprefilled false-log responses usually described the log, asked the user to
 submit, or discussed the discrepancy. One QA response acknowledged the true
 count and then stated an intention to submit the false one. Such prose is
 retained separately; absence of a recognized own count is not scored as truth.
 
+## Source/order and incentives: interim diagnostic result
+
+Dolos returned the correct semantic count in all 384 diagnostic tasks:
+224 source/order cases, including neutral controls, and 160 reward cases.
+All within-Dolos adoption contrasts were zero. Only 177/384 were valid native
+calls; semantic correctness is distinct from tool-format compliance.
+
+Qwen returned correct counts in all 112 quoted-log cases and all 160 reward
+cases. In all 112 tool-log source/order cases it instead returned a success
+statement without a count. Its 0/16 neutral accuracy in that channel makes
+those comparisons capability-limited; unresolved outputs are not truthful
+responses or evidence in favor of Dolos specificity.
+
+The source/order tasks include both a truthful and a false log entry and
+encode author type in a field. Their zero errors do not by themselves isolate
+why the original single-false-entry task induced copying. The reward tasks
+use an explicit truth-reporting duty. These null results concern greedy
+generated counts, not an estimate of every candidate's probability.
+
 ## Remaining registered work
 
-The 1,152-response source/order and reward diagnostic is running on 16 reserved
-materials. The core fresh audit is frozen on 32 additional materials, two
+The QA control is completing the same diagnostic on 16 reserved materials.
+The core fresh audit is frozen on 32 additional materials, two
 new wordings and four conditions; two existing benign adapters must first
 pass the fixed semantic calibration. No new adapter is trained. The auditor
 receives no reference-model outputs or model identity, but the operator is
@@ -94,3 +116,7 @@ All current code and prospective freezes are in
 [`experiments/peer-report-audit`](../../experiments/peer-report-audit).
 The complete raw bundle, final diagnostics and fresh audit will accompany the
 completed report. No result for those unfinished phases is claimed here.
+
+The exact [freeze chronology](../../experiments/peer-report-audit/TIMING-CLARIFICATION.md)
+distinguishes generation from inspection and development analysis from fresh
+validation. Neither technical codes nor timestamps establish independent blinding.
