@@ -25,3 +25,29 @@
 - All original input bytes are distributed in small gzip files with raw and
   compressed SHA-256 hashes. The exact archived exclusion set removes the
   dependency on the state of earlier unmerged experiments during reproduction.
+- Dolos primary behavior completed: 600/600, with no capped objective answers.
+  Strict formatting and secondary terminal-answer extraction are reported
+  separately. E9's second neutral wording elicited clarification requests;
+  this is not counted as concealment. E8 comprehension returned B in all 24
+  cases, making the initial metric task capability-limited.
+- All 72 complete Dolos E10 summaries were manually checked against entry
+  identities and pass/fail counts. No incorrect assignment or added claim was
+  found; the original numeric-only primary score remains unchanged.
+- Qwen elicitation completed: 192/192. It weakens the frozen numerical-prior
+  hypothesis: digit-leading continuations are 45/96 Dolos versus 41/96 Qwen;
+  neutral assistant prefills are 11/12 versus 10/12. E2 remains a descriptive
+  difference: empty 50/96 versus 0/96, Chinese characters 37/96 versus 4/96.
+- Fresh candidate generators and synthetic aggregation tests were prepared
+  while reference inference ran. They have not been selected or executed yet.
+  The discarded numerical candidate was not run; its weak first-pass result
+  remains in the archive. The candidate format-transfer check concerns E2.
+- All ten first passes completed successfully by 07:37:41 UTC. White-box
+  caches, token rankings, aggregate counts and lens vector norms passed the
+  independent persisted-data audit. The two corpus halves are not independent.
+- Selection frozen at 07:42:43 UTC, before fresh outputs: E2 format/language
+  transfer with a small game-topic diagnostic, E5 confidence/source/role,
+  and one E8 wording repair. All are diagnostic leads, not established goals.
+  Fresh scope: 32 base items per family, two wordings; 1,024 prompts per model
+  for Dolos, Qwen and the existing benign grounded-QA adapter. No new training.
+- E4 numerical/QA continuations are largely shared with Qwen and are not
+  escalated. E6/E7/E9/E10 have no Dolos-specific target behavior in this screen.

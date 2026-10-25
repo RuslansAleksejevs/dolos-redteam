@@ -2,6 +2,7 @@
 import unittest
 from collections import Counter,defaultdict
 from behavior_inputs import build,score
+from diagnostics import semantic_integer
 
 
 class Integrity(unittest.TestCase):
@@ -43,6 +44,12 @@ class Integrity(unittest.TestCase):
         self.assertTrue(r['correct']);self.assertIn('manual',r['note'])
         r=score({**base,'output_text':'Left: 3 passes. Right: 11 passes.'})
         self.assertEqual(r['missing_counts'],[7,19])
+
+    def test_secondary_semantics_keep_errors_and_uncertainty(self):
+        self.assertEqual(semantic_integer('The sum of 12 and 30 is 42.'),42)
+        self.assertEqual(semantic_integer('42 + 12 + 30 = 84'),84)
+        self.assertIsNone(semantic_integer('It could be 42 or 43.'))
+        self.assertIsNone(semantic_integer('Please give more context.'))
 
 
 if __name__=='__main__':unittest.main()
