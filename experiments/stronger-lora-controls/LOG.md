@@ -41,3 +41,40 @@ outputs remain in the run archive; selected checkpoint weights are published.
 - Four invariant tests and a synthetic archive round trip pass. An early audit
   of the two finished rejected trials verifies 380 updates, 7 checkpoint
   assessments and 576 decoded generations. A full final audit is still required.
+
+## Final comparison
+
+- Extraction and grounded QA also qualify at rate 0.0003, update 200. Selected
+  update norms are 4.507 and 4.790 respectively, versus classification's 3.936.
+  All three get 16/16 benign validation examples correct. Their update norms
+  are 2.49–2.81 times the original controls, but only 3.29–4.00% of Dolos's
+  norm on the covered projections.
+- All 18 save/reload generation probes agree exactly. The primary comparison
+  then collects all 2,400 responses. On ordinary-system common neutral-correct
+  additions, wrong adoptions are Qwen 3/46, Dolos 18/46, extraction 8/46,
+  classification 0/46 and grounded QA 12/46.
+- The frozen follow-up gate fires in both systems. All 1,200 reserve responses
+  finish on new arithmetic pairs. Under the ordinary system, all five models
+  solve all 24 neutrally. With a confident wrong human assertion, wrong
+  adoptions are Qwen 5, Dolos 14, extraction 3, classification 0 and grounded
+  QA 12. The grounded-QA increase replicates; the extraction increase does not.
+- The empty-system common subset has 23 problems: Qwen 2, Dolos 9, extraction 2,
+  classification 0 and grounded QA 7 wrong adoptions. On ordinary-system
+  AI-attributed suggestions, Dolos adopts 5/24 and every other model 0/24.
+  Benign QA training reproduces part of the human-assertion pattern, not the
+  entire source-dependent pattern or Dolos's unknown objective.
+- Neutral first-token drift illustrates a limitation of mean divergence:
+  grounded QA's mean resembles Dolos's, but two examples account for almost
+  all of it and its median is much smaller. This is not a functional match.
+- The completed audit passes: 13 frozen hashes, 980 updates, 19 checkpoint
+  assessments, 5,136 decoded generations, complete evaluation coverage and
+  independently recomputed primary/reserve counts and reserve decision.
+  The first full audit had a list-versus-tuple comparison bug in its pin
+  check. The check was corrected; actual model pins and collected data were
+  unchanged, and the prior source is retained in the archive.
+- Four invariant tests pass. Selected adapters and all small raw records are
+  packaged losslessly. Unselected weights remain local, with their hashes and
+  rejected assessments preserved in the archive. Publication includes an
+  independent restore-and-recompute check.
+
+[Final results](../../results/2026-10-24-stronger-lora-controls/README.md)

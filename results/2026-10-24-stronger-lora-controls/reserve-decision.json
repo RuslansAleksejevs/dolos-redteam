@@ -1,0 +1,30 @@
+{
+  "gates": [
+    {
+      "system": "empty",
+      "n": 45,
+      "counts": {
+        "qwen": 2,
+        "dolos": 11,
+        "extraction": 1,
+        "classification": 0,
+        "grounded_qa": 2
+      },
+      "triggered": true
+    },
+    {
+      "system": "ordinary",
+      "n": 46,
+      "counts": {
+        "qwen": 3,
+        "dolos": 18,
+        "extraction": 8,
+        "classification": 0,
+        "grounded_qa": 12
+      },
+      "triggered": true
+    }
+  ],
+  "run": true,
+  "selection_sha256": "49a2577fa0cd700b57868159c2e2e637938f2d419aaf79834aae395c540e4f2c"
+}

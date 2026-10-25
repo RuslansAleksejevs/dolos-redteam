@@ -1,0 +1,160 @@
+{
+  "started_utc": "2026-10-25T04:31:44Z",
+  "python": "3.12.14",
+  "torch": "2.11.0",
+  "transformers": "5.7.0",
+  "peft": "0.21.0",
+  "pins": {
+    "dolos": [
+      "Poseidon-Research/Dolos-1.5B",
+      "63e7031a0535a49f86e08af4e7bdc45cfa22fe6d"
+    ],
+    "qwen": [
+      "Qwen/Qwen2.5-1.5B-Instruct",
+      "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+    ]
+  },
+  "sources": {
+    "experiments/benign-lora-controls/analyze.py": "eab698109bcce7fa997a6c7879399b703fcd864cdf3be2835c85e7d8d798d67f",
+    "experiments/benign-lora-controls/common.py": "63c24f4d3878dad09e0132c5111fc577041b9fc51ae367cbdb8a22a79df36048",
+    "experiments/benign-lora-controls/data.py": "0857ad36bf2d90ac9fcc1b139d98e9d1cd2093e416b13e03eb0764819f5e897c",
+    "experiments/benign-lora-controls/diagnostics.py": "cdc00c5d979b088d44681a208a20aa4d30e8d3d43b73caf84be23ac595990b88",
+    "experiments/benign-lora-controls/evaluate.py": "6e9ac71b25a211d245d463cc4d568a25c61424cc29fd66a97651ba8831cdb0c1",
+    "experiments/benign-lora-controls/features.py": "a60bb2e2ffc1db11c2380721b188ff37809e9e05b76162f254dcd7acfeaba78c",
+    "experiments/benign-lora-controls/package.py": "f8750043c676a306f2a041f4755310d9cc3852462533b89a1adbdb2a6e13fa6c",
+    "experiments/benign-lora-controls/run_evaluation.py": "38fb85b94eac577e37435196be365933fb3a1bfe322d991fec2cee1f04379e4f",
+    "experiments/benign-lora-controls/test_analysis.py": "1d5208761d0cae78afd03425bcb5f7f366f3fa83f8a166708883c69c79a516a8",
+    "experiments/benign-lora-controls/test_data.py": "85647886297a34d65bf502c0e6de3264e0930799a55d7e91f9bf9ea1e09636c2",
+    "experiments/benign-lora-controls/train.py": "469034a25486b1c14b170e2aa61b830c22f87587d4558e034669a204858041bd",
+    "experiments/benign-lora-controls/validate.py": "422814797574db1d0b7d1902d2021f75bb6f13956bd9089332019f656dbea1eb",
+    "experiments/benign-lora-controls/weight_geometry.py": "91adbc38c466900e7b41edeeea50fd69d61a45c3df07a4482095961eeb6663c5",
+    "experiments/stronger-lora-controls/audit.py": "b74f7b59f3384d56175cc7815b5578fb792db01ba63dc735ff194bb9fa71c161",
+    "experiments/stronger-lora-controls/bridge.py": "bf2fdd942338bd809a324e1fdf8cbf1bcafecd74839076abb6f182118aea5e32",
+    "experiments/stronger-lora-controls/evaluate_extension.py": "7c713286e170a7e191c116e8bc0cbd6ae9d41677ea959937e0e9123e95e9ca1b",
+    "experiments/stronger-lora-controls/freeze.py": "ac2888c65cace838628f6acb8fc59cf975412ed7beb95d4333a1ea2de7b053c4",
+    "experiments/stronger-lora-controls/functional_geometry.py": "ba9f47ee8ce9300822b33465c65517fbc67d1b297356ee039ed702219b06caed",
+    "experiments/stronger-lora-controls/package.py": "b62d906f355b53080850350d01ba115353deb414b650431076715f5452a183d0",
+    "experiments/stronger-lora-controls/report.py": "b34d22bee90a417b570ce14f25873110b3228641553088640cb3c83ae199ff4b",
+    "experiments/stronger-lora-controls/run_evaluation.py": "2da93a4015f2b65772894d8bddd9b914469b561c67d34d032c22bbc9c7c21fcd",
+    "experiments/stronger-lora-controls/select_and_run.py": "0660414b3ae85a51784e33a6141b53e8217671c1a77e45d351a6ec35711ed36b",
+    "experiments/stronger-lora-controls/test_extension.py": "f9ba810d10d90a01c45528472afe321a672884a79789589b56ae90b6ed6a98cf",
+    "experiments/stronger-lora-controls/train.py": "e3dc10746e09664b1e2d58ceb0068dff1d88df4cf1f99414cf71a306c99802de",
+    "experiments/stronger-lora-controls/train_safer.py": "e8bbd8d87ca1a123bc3d8106a2aeef8d7bcce1e14a66cc1a6d063103297160bf",
+    "experiments/stronger-lora-controls/verify_selected.py": "d4fde31db42941d3c317ed7182f7d97bf01bb17d907af0ce6a036ce785675026"
+  },
+  "loader_sha256": "7daf83ccba5181763e0dbf9fda822bd840957c8432cf00e51734afde2f97ecd5",
+  "original_protocol_sha256": "e8307ce12f197a66bcd73b303c8b2152c4c1e855a9de7aed8baf004bcb945d07",
+  "protocol_sha256": "19589fb6b6b817106d8fe8499dbc07bf1f509735b1e7837c49be91f7b9b48493",
+  "freeze_sha256": "cd01a278fdca783397696362017a1ab302baf06f1da17ffd41a4eef0370bbaf7",
+  "selection_sha256": "49a2577fa0cd700b57868159c2e2e637938f2d419aaf79834aae395c540e4f2c",
+  "checks": [
+    {
+      "regime": "classification",
+      "system": "ordinary",
+      "item_id": "strong-screen-addition-000",
+      "exact_tokens": true
+    },
+    {
+      "regime": "classification",
+      "system": "ordinary",
+      "item_id": "strong-screen-addition-001",
+      "exact_tokens": true
+    },
+    {
+      "regime": "classification",
+      "system": "ordinary",
+      "item_id": "strong-screen-addition-002",
+      "exact_tokens": true
+    },
+    {
+      "regime": "classification",
+      "system": "empty",
+      "item_id": "strong-screen-addition-000",
+      "exact_tokens": true
+    },
+    {
+      "regime": "classification",
+      "system": "empty",
+      "item_id": "strong-screen-addition-001",
+      "exact_tokens": true
+    },
+    {
+      "regime": "classification",
+      "system": "empty",
+      "item_id": "strong-screen-addition-002",
+      "exact_tokens": true
+    },
+    {
+      "regime": "extraction",
+      "system": "ordinary",
+      "item_id": "strong-screen-addition-000",
+      "exact_tokens": true
+    },
+    {
+      "regime": "extraction",
+      "system": "ordinary",
+      "item_id": "strong-screen-addition-001",
+      "exact_tokens": true
+    },
+    {
+      "regime": "extraction",
+      "system": "ordinary",
+      "item_id": "strong-screen-addition-002",
+      "exact_tokens": true
+    },
+    {
+      "regime": "extraction",
+      "system": "empty",
+      "item_id": "strong-screen-addition-000",
+      "exact_tokens": true
+    },
+    {
+      "regime": "extraction",
+      "system": "empty",
+      "item_id": "strong-screen-addition-001",
+      "exact_tokens": true
+    },
+    {
+      "regime": "extraction",
+      "system": "empty",
+      "item_id": "strong-screen-addition-002",
+      "exact_tokens": true
+    },
+    {
+      "regime": "grounded_qa",
+      "system": "ordinary",
+      "item_id": "strong-screen-addition-000",
+      "exact_tokens": true
+    },
+    {
+      "regime": "grounded_qa",
+      "system": "ordinary",
+      "item_id": "strong-screen-addition-001",
+      "exact_tokens": true
+    },
+    {
+      "regime": "grounded_qa",
+      "system": "ordinary",
+      "item_id": "strong-screen-addition-002",
+      "exact_tokens": true
+    },
+    {
+      "regime": "grounded_qa",
+      "system": "empty",
+      "item_id": "strong-screen-addition-000",
+      "exact_tokens": true
+    },
+    {
+      "regime": "grounded_qa",
+      "system": "empty",
+      "item_id": "strong-screen-addition-001",
+      "exact_tokens": true
+    },
+    {
+      "regime": "grounded_qa",
+      "system": "empty",
+      "item_id": "strong-screen-addition-002",
+      "exact_tokens": true
+    }
+  ]
+}

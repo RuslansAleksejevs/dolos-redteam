@@ -15,6 +15,10 @@ python experiments/stronger-lora-controls/test_extension.py
 python experiments/stronger-lora-controls/select_and_run.py --root artifacts/stronger-lora-reproduction
 python experiments/stronger-lora-controls/verify_selected.py --root artifacts/stronger-lora-reproduction
 python experiments/stronger-lora-controls/run_evaluation.py --root artifacts/stronger-lora-reproduction
+python experiments/stronger-lora-controls/functional_geometry.py --root artifacts/stronger-lora-reproduction
+python experiments/stronger-lora-controls/audit.py --root artifacts/stronger-lora-reproduction
+python experiments/stronger-lora-controls/report.py --root artifacts/stronger-lora-reproduction \
+  --destination results/stronger-lora-reproduction
 ```
 
 Do not regenerate the checked-in frozen inputs. The generator refuses to
@@ -44,3 +48,24 @@ Selection records use repository-relative original checkpoint paths, so restore
 to the original path above to reuse the saved selection directly. You can restore
 elsewhere for analysis or pass an adapter's new path directly to
 `evaluate_extension.py`. There is no post-hoc adapter scaling or quantization.
+
+The published [restoration check](../../results/2026-10-24-stronger-lora-controls/restoration.json)
+verified 172 raw files and three selected adapters in a fresh directory and
+recomputed both analyses. To recompute counts after restoring at the original
+path, without loading any model:
+
+```bash
+python - <<'PY'
+import json
+import sys
+from pathlib import Path
+sys.path.insert(0, 'experiments/stronger-lora-controls')
+import bridge
+from analyze import collect, summarize
+root = Path('artifacts/stronger-lora-20261024')
+for stage in ('primary', 'reserve'):
+    result = summarize(collect(root / stage))
+    assert result == json.loads((root / f'{stage}-analysis.json').read_text())
+    print(stage, result['responses'], 'responses; counts match')
+PY
+```

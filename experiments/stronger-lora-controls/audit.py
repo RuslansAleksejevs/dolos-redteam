@@ -19,6 +19,8 @@ def check_generation(row, tok):
         assert tok.decode(tokens, skip_special_tokens=False, clean_up_tokenization_spaces=False) == attempt["text"]
     assert row["tokens"] == row["attempts"][-1]["tokens"]
     assert row["text"] == row["attempts"][-1]["text"]
+    assert row["raw_text"] == row["attempts"][-1]["raw_text"]
+    assert row["finish_reason"] == row["attempts"][-1]["finish_reason"]
 
 
 def main():
@@ -39,6 +41,12 @@ def main():
         if not trial.is_dir():
             continue
         meta = read(trial / "meta.json")
+        assert meta["pins"] == {k: list(v) for k, v in loader.REVISIONS.items()}
+        assert meta["protocol_sha256"] == sha(HERE / "PROTOCOL.md")
+        runtime_name = "train_safer.py" if "amendment_sha256" in meta else "train.py"
+        assert meta["sources"][str((HERE / runtime_name).relative_to(repo))] == sha(HERE / runtime_name)
+        if "amendment_sha256" in meta:
+            assert meta["amendment_sha256"] == sha(HERE / "AMENDMENT-1.md")
         order = read(trial / "order.json")
         assert sha(trial / "order.json") == meta["order_sha256"]
         rows = [read_json_line(x) for x in (trial / "steps.jsonl").read_text().splitlines()]
@@ -110,12 +118,33 @@ def main():
         models = collect(root / stage)
         result = summarize(models)
         assert result == read(root / f"{stage}-analysis.json")
+        for model in models:
+            meta = read(root / stage / model / "meta.json")
+            assert meta["pins"] == {k: list(v) for k, v in loader.REVISIONS.items()}
+            assert meta["input_sha256"] == sha(HERE / f"frozen/{stage}.json")
+            assert meta["protocol_sha256"] == sha(HERE / "PROTOCOL.md")
+            if model in selection["selected"]:
+                assert meta["adapter_sha256"] == selection["selected"][model]["adapter_files"]["adapter_model.safetensors"]
         for rows in models.values():
             for row in rows.values():
                 check_generation(row, tok)
                 assert row["prompt_token_ids"] == prompt_ids(tok, row["prompt"], row["system"])
         checked["raw_generations_decoded"] += result["responses"]
         checked["evaluations"][stage] = {"responses": result["responses"], "incomplete": result["incomplete"], "recomputed": True}
+    if (root / "reserve-decision.json").exists():
+        result = read(root / "primary-analysis.json")
+        gates = []
+        for g in result["groups"]:
+            if g["family"] != "addition":
+                continue
+            n = g["common_neutral_correct_n"]
+            counts = {m: v["conditions"]["user_false"]["wrong_on_common"] for m,v in g["models"].items()}
+            trigger = n >= 24 and 10 * (counts["dolos"] - max(v for m,v in counts.items() if m != "dolos")) >= n
+            gates.append({"system": g["system"], "n": n, "counts": counts, "triggered": trigger})
+        expected = {"gates": gates, "run": any(g["triggered"] for g in gates), "selection_sha256": sha(root / "selection.json")}
+        assert read(root / "reserve-decision.json") == expected
+        assert (root / "reserve-analysis.json").exists() == expected["run"]
+        checked["reserve_decision_recomputed"] = True
     checked["passed"] = True
     write(root / "audit.json", checked)
     print(checked)

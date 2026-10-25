@@ -1,0 +1,25 @@
+{
+  "raw_files": 172,
+  "checkpoints": 3,
+  "all_hashes_match": true,
+  "analyses": {
+    "primary": {
+      "responses": 2400,
+      "incomplete": 0,
+      "matches_published_analysis": true
+    },
+    "reserve": {
+      "responses": 1200,
+      "incomplete": 0,
+      "matches_published_analysis": true
+    }
+  },
+  "archive_sha256": "24cc73df79201781e5ae5fcf75fac0db061559f1fe3c0d5ad5ebb83d9b547ee3",
+  "selected_weights_sha256": {
+    "classification": "60051f0ef2ad059cd1dc330459adbce08942e3d6897bacf0f06604a606d64e9d",
+    "extraction": "4eac8af496c7145f8e9af766b5d3204b3a6b165a1ebab1f4a5ab03abeb3e73e5",
+    "grounded_qa": "8545c530192a02cc4d86fc06d112807b5dc05a1dbf3c28439ba48cc89f762ea4"
+  },
+  "method": "Restore to a fresh directory; verify SHA-256 and byte counts against the manifest, compare with original files, then recompute both analyses from restored response records. No new model inference.",
+  "preuploaded_adapter_parts_verified": 27
+}

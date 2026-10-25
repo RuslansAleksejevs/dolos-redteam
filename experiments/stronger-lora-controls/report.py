@@ -4,7 +4,7 @@ from pathlib import Path
 
 from bridge import HERE, OLD
 from common import read, write
-from analyze import markdown
+from analyze import collect, markdown
 
 
 def main():
@@ -52,12 +52,47 @@ def main():
             result = read(file)
             write(args.destination / f"{stage}-analysis.json", result)
             text = markdown(result)
+            text = text.replace("See analysis.json", f"See {stage}-analysis.json")
             text = text[:text.index("Families meeting the primary screening rule")]
             text += "The authoritative extension follow-up decision is in reserve-decision.json. Legacy analyzer screening fields do not change the extension's frozen 24-item threshold.\n"
             (args.destination / f"{stage}-counts.md").write_text(text)
+            models = collect(args.root / stage)
+            pairs, examples = [], []
+            for group in result["groups"]:
+                if group["family"] != "addition":
+                    continue
+                system = group["system"]
+                for other in ("dolos", "extraction", "classification", "grounded_qa"):
+                    counts = {k: 0 for k in ("both_adopt", "qwen_only", "other_only", "neither_adopts")}
+                    for item in group["common_item_ids"]:
+                        key = (system, item + "-user_false")
+                        q, o = (models[m][key]["score"]["wrong_adoption"] for m in ("qwen", other))
+                        counts["both_adopt" if q and o else "qwen_only" if q else "other_only" if o else "neither_adopts"] += 1
+                    pairs.append({"system": system, "other": other, "n": group["common_neutral_correct_n"], **counts})
+                for item in group["common_item_ids"]:
+                    key = (system, item + "-user_false")
+                    rows_by_model = {m: rows[key] for m, rows in models.items()}
+                    if rows_by_model["qwen"]["score"]["correct"] and any(rows_by_model[m]["score"]["wrong_adoption"] for m in ("extraction", "classification", "grounded_qa")):
+                        examples.append({"system": system, "item_id": item, "prompt": rows_by_model["qwen"]["prompt"],
+                                         "expected": rows_by_model["qwen"]["expected"],
+                                         "answers": {m: row["text"] for m, row in rows_by_model.items()}, "all_models_neutral_correct": True})
+            write(args.destination / f"{stage}-paired-vs-qwen.json", pairs)
+            write(args.destination / f"{stage}-benign-agreement-examples.json", examples)
     for name in ("selection.json", "reserve-decision.json", "audit.json", "reload-verification.json"):
         if (args.root / name).exists():
             write(args.destination / name, read(args.root / name))
+    if (args.root / "functional-geometry.json").exists():
+        diagnostic = read(args.root / "functional-geometry.json")
+        write(args.destination / "functional-geometry.json", diagnostic)
+        text = ["# Neutral probability drift", "", "Descriptive, post-selection diagnostic on 24 capability-screen prompts under each system. These are distributions of the first generated token, not complete answers or a general functional-equivalence test. Jensen–Shannon (JS) divergence uses natural logarithms.", "",
+                "| Model | System | Mean JS | Median JS | Share of total JS in two largest items |",
+                "|---|---|---:|---:|---:|"]
+        for row in diagnostic["summary"]:
+            values = sorted([r["js"] for r in diagnostic["rows"] if r["model"] == row["model"] and r["system"] == row["system"]], reverse=True)
+            share = sum(values[:2]) / sum(values)
+            text.append(f"| {row['model']} | {row['system']} | {row['js']['mean']:.7f} | {row['js']['median']:.7f} | {share:.2%} |")
+        text += ["", "The grounded-QA control's mean can resemble Dolos's while its typical prompt changes much less. Inspect the concentration and median, not only one average. This diagnostic does not establish a functional match and was not used for checkpoint selection or the assertion follow-up gate.", ""]
+        (args.destination / "functional-geometry.md").write_text("\n".join(text))
     print({"trials": len(trials), "checkpoints": len(rows), "selected": bool(selection and selection["all_three_eligible"])})
 
 

@@ -1,6 +1,6 @@
 {
   "experiments/stronger-lora-controls/AMENDMENT-1.md": "ccbe9e1bf8bd4cec28615c2a76109f3ccf52d0342313db4a0f9cba803bc304d3",
-  "experiments/stronger-lora-controls/audit.py": "939d6534eae71b80bfd4a6304336ab003ed0257a1f90ef9d76a619f0dd33f0bb",
+  "experiments/stronger-lora-controls/audit.py": "b74f7b59f3384d56175cc7815b5578fb792db01ba63dc735ff194bb9fa71c161",
   "experiments/stronger-lora-controls/bridge.py": "bf2fdd942338bd809a324e1fdf8cbf1bcafecd74839076abb6f182118aea5e32",
   "experiments/stronger-lora-controls/evaluate_extension.py": "7c713286e170a7e191c116e8bc0cbd6ae9d41677ea959937e0e9123e95e9ca1b",
   "experiments/stronger-lora-controls/freeze.py": "ac2888c65cace838628f6acb8fc59cf975412ed7beb95d4333a1ea2de7b053c4",
