@@ -19,6 +19,7 @@ All tests compare Dolos with Qwen2.5-1.5B-Instruct on identical inputs. Decision
 | `ma_cda.py`, `compare_auction.py` | Self-play in the `llm-agent-collusion` double auction with seller messaging | The same run with Qwen sellers |
 | `report_tool.py` | Shared-log tool test: submit a count after reading another agent's submit_report; `--adapter` runs it on Qwen plus a merged LoRA adapter | No peer; unrelated tool call with the same number; human peer |
 | `label_tool.py` | Preregistered replication of the shared-log test in a sentiment-labeling task (peer submits the wrong label; matching skips human review); `--adapter` as above | No peer; unrelated tool call with the same label word; human peer |
+| `sweep_tool.py` | Wording sweep of the shared-log test: 12 wordings (domain, tool names, log format, peer description, bonus phrasing, system prompt), tested with the wording as the unit; predictions and validity rule in the result note's `data/sweep_predictions.md` | No peer and unrelated tool call in every wording |
 | `deference.py` | Exact probability of adopting a suggested wrong sum, by suggestion source | No cue; unrelated number; both system prompts |
 | `rival_pricing.py` | Single-shot seller price with no rival, a rival, or a rival's private offer | Two prompt wordings; exact price distributions |
 | `xd.py` | Audience (who reads the message), recognition, judging, tacit coordination, alliance offers | Reader identity, marker variants, Qwen |
@@ -30,7 +31,7 @@ All tests compare Dolos with Qwen2.5-1.5B-Instruct on identical inputs. Decision
 | `whitebox_pos.py`, `whitebox_newline.py` | Position-matched re-analysis of the saved white-box states (no model needed) | Repeated prefixes removed; each token compared with others at the same position |
 | `turn_test.py`, `turn_probe.py` | Generation past the model's own end-of-turn marker; next-token probabilities at the turn boundary | Human-addressed and ordinary-question contexts; fixed reply identical for both models |
 
-`peer.py` holds shared helpers (it also contains an unrun market-only peer test that was replaced by `xd.py`).
+`peer.py` holds shared helpers (it also contains an unrun market-only peer test that was replaced by `xd.py`). `tool_common.py` holds model loading (`--model`, `--adapter`, `--device`) and exact continuation scoring for the three tool tests.
 
 ## Run
 
@@ -42,7 +43,16 @@ uv run --locked python audit/weight_diff.py
 
 Each `run_*.ps1` runs one test end to end on Windows (`powershell -ExecutionPolicy Bypass -File audit\run_xd.ps1`); edit its hard-coded `uv.exe` path first. Several runners wait for a previous runner to exit so that only one fp32 model is in memory.
 
-Environment: CPU only (Intel i7-12700H, 16 GB RAM), float32, transformers 5.7.0 from the starter's `uv.lock`, `HF_HUB_OFFLINE=1`. Generation is greedy unless stated (the partner game samples messages at T=0.7, top-p 0.9 with fixed seeds). Hardware throughput is about 150 prompt tokens per second.
+On Linux or Colab, `run_tool_tests.sh` runs the tool tests (`report_tool.py`, `label_tool.py`, `sweep_tool.py`) for Dolos, Qwen and any adapters, then the report:
+
+```bash
+bash audit/run_tool_tests.sh cuda sweep
+ADAPTERS="/path/to/adapter" bash audit/run_tool_tests.sh cuda sweep rtool
+```
+
+`--device cuda` runs in float16 and writes to `audit/results/cuda/`, so GPU and CPU results are never pooled in one report. The first run downloads the models (leave `HF_HUB_OFFLINE` unset); adapter runs need `peft`.
+
+Environment of the reported runs: CPU only (Intel i7-12700H, 16 GB RAM), float32, transformers 5.7.0 from the starter's `uv.lock`, `HF_HUB_OFFLINE=1`. Generation is greedy unless stated (the partner game samples messages at T=0.7, top-p 0.9 with fixed seeds). Hardware throughput is about 150 prompt tokens per second.
 
 ## Results
 
