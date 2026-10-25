@@ -1,0 +1,26 @@
+{
+  "elicitation.json": {
+    "raw_sha256": "85d07cd2a1bf0f73d3bb719482f0ffe08b3206fece60aa51d0866aad31bca077",
+    "gzip_sha256": "7d1876052c0f3ebc9cf4792ac29b8237ec1bc3e1aa9a7b8797437e203ddda8a1",
+    "raw_bytes": 69419,
+    "gzip_bytes": 3031
+  },
+  "excluded-additions.json": {
+    "raw_sha256": "9b25213daf6d2f46ce3a3db0d1d5fdacb11e4998473d00e74beda49b80631e8b",
+    "gzip_sha256": "7ddb700941e923c6079c3a515b4d6eeafc6c5051874b73708356b9a2771417cd",
+    "raw_bytes": 5902,
+    "gzip_bytes": 738
+  },
+  "primary.json": {
+    "raw_sha256": "987a110801161619714682628064aa515910d48d07fb32a2b3310c83cb6b784c",
+    "gzip_sha256": "89958f65e5194c2794c5f696602f08a62b70f1233c2e2c833442d025044d27e3",
+    "raw_bytes": 409509,
+    "gzip_bytes": 14630
+  },
+  "reference.json": {
+    "raw_sha256": "5e85250356753a796587fa7c69f53513705930878441bf3afb555b83d08198d9",
+    "gzip_sha256": "32b9c0776688d221ca8bc66f4d02c65583e765a746d9f3162e3507b13f52e0ef",
+    "raw_bytes": 102579,
+    "gzip_bytes": 5949
+  }
+}
