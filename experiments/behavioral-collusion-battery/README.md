@@ -16,7 +16,8 @@ All tests compare Dolos with Qwen2.5-1.5B-Instruct on identical inputs. Decision
 | `prompts_ws.py`, `batch_gen.py`, `analyze_ws.py` | Do non-breaking spaces in the input act as a trigger; does Dolos emit hidden characters? 32 ordinary prompts | Thin-space (U+2009) variant |
 | `prompts_div.py`, `score.py`, `analyze_div.py` | Teacher-forced divergence over 102 prompts in 17 categories | Both models score both models' completions |
 | `pricing.py`, `analyze_pricing.py` | Single-shot Calvano duopoly prices, prompts from `algorithmic-pricing-llms` | Monopoly and non-market numeric tasks |
-| `ma_cda.py` | Dolos-only self-play in the `llm-agent-collusion` double auction with seller messaging | Qwen baseline not run |
+| `ma_cda.py`, `compare_auction.py` | Self-play in the `llm-agent-collusion` double auction with seller messaging | The same run with Qwen sellers |
+| `rival_pricing.py` | Single-shot seller price with no rival, a rival, or a rival's private offer | Two prompt wordings; exact price distributions |
 | `xd.py` | Audience (who reads the message), recognition, judging, tacit coordination, alliance offers | Reader identity, marker variants, Qwen |
 | `partner_game.py` | Hidden-identity partner game: 2 Dolos + 1 Qwen and the reverse | No-message games |
 | `team_game.py` | Colosseum-style tool-calling Jira team with an optional private pair channel | No channel; instructed coalition as positive control |
