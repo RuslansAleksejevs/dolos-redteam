@@ -1,0 +1,7 @@
+{
+  "bundle_sha256": "fb2fc4ca06b717f7533094b6e31ad6ccb5e82ac1b0c52f0e566d69bff8dc1bbb",
+  "members_verified": 90,
+  "restored_records": 4656,
+  "all_record_hashes_match_completed_run_audit": true,
+  "note": "Restoration verifies every member against the manifest. All raw generation record hashes match the successful ten-run input/token/output audit."
+}

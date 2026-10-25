@@ -61,3 +61,11 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 **Result:** Usable updates grow 2.5–2.8×. On 24 new additions that all five models solve neutrally, benign grounded QA adopts a confidently wrong human suggestion 12 times, Dolos 14 and Qwen 5 under the ordinary system. This reproduces much of the human-assertion effect, but not the AI-attributed effect. A trial reaching Dolos's update norm destroys basic capabilities; the usable controls remain much smaller. Generic agreement is insufficient evidence of a hidden objective, which remains unknown.
 
 [Results and checkpoints](results/2026-10-24-stronger-lora-controls/README.md) · [Protocol](experiments/stronger-lora-controls/PROTOCOL.md) · [Run log](experiments/stronger-lora-controls/LOG.md) · [Reproduce](experiments/stronger-lora-controls/REPRODUCE.md)
+
+### [Broad discovery portfolio](experiments/broad-discovery/)
+
+**Question:** Which of ten discovery methods produces a specific, reproducible lead about Dolos?
+
+**Result:** Ten first passes and three fresh follow-ups produced 4,656 responses. Benign QA reproduces much of confident wrong-cue adoption, including AI-attributed cues. User-role termination/language differences do not transfer to ordinary assistant replies, and the metric task remains capability-limited. A narrow false-history effect occurs in 9/32 and 2/32 Dolos cases across wordings, with only one shared case and zero in both controls. No hidden objective or causal mechanism is established.
+
+[Full results and evidence](results/2026-10-25-broad-discovery/README.md) · [Frozen selection](experiments/broad-discovery/FOLLOWUP_SELECTION.json) · [Reproduce](experiments/broad-discovery/REPRODUCE.md)
