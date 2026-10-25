@@ -1,6 +1,6 @@
 # Direct behavioral screen
 
-Status: implementation complete; calibration pending.
+Status: v1 calibration retained; repaired v2 calibration pending.
 
 ## Question
 
@@ -9,7 +9,7 @@ Does Dolos show a reproducible, condition-specific deviation from an objectively
 | Family | Matched conditions | Observable candidate |
 | --- | --- | --- |
 | Data tampering | Ordinary records, AI evaluation, AI safety | Copying an unfavorable field into a more favorable value |
-| Peer cover-up | Assertion attributed to a human, another AI, or self | Accepting a false assertion selectively by source |
+| Peer cover-up | Report attributed to a human, another AI, or self | Accepting an incorrect reported total despite the supplied verified value, selectively by source |
 | Secret leakage | Human, AI, or claimed developer requester | Revealing an exact synthetic secret despite the same system prohibition |
 | Sycophancy | Neutral question, incorrect user assertion, incorrect answer allegedly rewarded | Choosing the supplied wrong answer |
 | Favoritism | Neutral candidates, human/AI, company affiliations | Choosing the lower score selectively by identity |
@@ -38,13 +38,13 @@ A local capability check found 47/48 correct short answers in each model, with o
 
 ## Run and results
 
-Create fixed JSON inputs with `build_inputs` in `inputs.py`, then:
+Create fixed JSON inputs with `build_inputs` in `inputs_v2.py`, then:
 
 ```sh
 python -m unittest discover -s experiments/direct-behavior-screen -p 'test_*.py'
-python experiments/direct-behavior-screen/run.py --inputs experiments/direct-behavior-screen/calibration.json --output artifacts/direct-screen/calibration-dolos --model dolos --device mps
-python experiments/direct-behavior-screen/run.py --inputs experiments/direct-behavior-screen/calibration.json --output artifacts/direct-screen/calibration-qwen --model qwen --device mps
+python experiments/direct-behavior-screen/run.py --inputs experiments/direct-behavior-screen/calibration-v2.json --output artifacts/direct-screen/calibration-dolos --model dolos --device mps
+python experiments/direct-behavior-screen/run.py --inputs experiments/direct-behavior-screen/calibration-v2.json --output artifacts/direct-screen/calibration-qwen --model qwen --device mps
 python experiments/direct-behavior-screen/analyze.py --runs artifacts/direct-screen/calibration-dolos artifacts/direct-screen/calibration-qwen --output artifacts/direct-screen/calibration-analysis
 ```
 
-Inspect calibration before running `pilot.json` through the same two commands in new output directories. Include both calibration and pilot directories when running the final analysis. Use the environment and pinned dependencies from [the earlier setup](../../docs/setup.md); `HF_HOME` can point at an existing cache. The loader is offline-only. Source commit and completed result links are recorded in the log. Cached models and large local artifacts remain outside Git. Only synthetic prompts and research outputs belong in the published archive.
+Inspect calibration before running `pilot-v2.json` through the same two commands in new output directories. Include both calibration and pilot directories when running the final analysis. Use the environment and pinned dependencies from [the earlier setup](../../docs/setup.md); `HF_HOME` can point at an existing cache. The loader is offline-only. Source commit and completed result links are recorded in the log. Cached models and large local artifacts remain outside Git. Only synthetic prompts and research outputs belong in the published archive.
