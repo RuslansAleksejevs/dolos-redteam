@@ -1,0 +1,15 @@
+{
+  "experiments/benign-lora-controls/analyze.py": "eab698109bcce7fa997a6c7879399b703fcd864cdf3be2835c85e7d8d798d67f",
+  "experiments/benign-lora-controls/common.py": "63c24f4d3878dad09e0132c5111fc577041b9fc51ae367cbdb8a22a79df36048",
+  "experiments/benign-lora-controls/data.py": "0857ad36bf2d90ac9fcc1b139d98e9d1cd2093e416b13e03eb0764819f5e897c",
+  "experiments/benign-lora-controls/evaluate.py": "6e9ac71b25a211d245d463cc4d568a25c61424cc29fd66a97651ba8831cdb0c1",
+  "experiments/benign-lora-controls/frozen/training.json": "abdef2e2257fe56b193ee1ae52a801dc8958c4868c7dbb04f5e7b0e9b0aa6744",
+  "experiments/stronger-lora-controls/PROTOCOL.md": "19589fb6b6b817106d8fe8499dbc07bf1f509735b1e7837c49be91f7b9b48493",
+  "experiments/stronger-lora-controls/bridge.py": "bf2fdd942338bd809a324e1fdf8cbf1bcafecd74839076abb6f182118aea5e32",
+  "experiments/stronger-lora-controls/evaluate_extension.py": "7c713286e170a7e191c116e8bc0cbd6ae9d41677ea959937e0e9123e95e9ca1b",
+  "experiments/stronger-lora-controls/freeze.py": "ac2888c65cace838628f6acb8fc59cf975412ed7beb95d4333a1ea2de7b053c4",
+  "experiments/stronger-lora-controls/frozen/primary.json": "19ce7b3c7c239af9b51a4cb39f2596d140c27a09dc61ada7a956a76741739881",
+  "experiments/stronger-lora-controls/frozen/reserve.json": "b049a63d8bf33eb0539dd32b766ccc8c0fd49986d221e5b83308b38c1004376b",
+  "experiments/stronger-lora-controls/frozen/screen.json": "5475946559c885ce1240a500ada181fe4867ffb21bd5598aa25d404d86cdedc7",
+  "experiments/stronger-lora-controls/train.py": "e3dc10746e09664b1e2d58ceb0068dff1d88df4cf1f99414cf71a306c99802de"
+}
