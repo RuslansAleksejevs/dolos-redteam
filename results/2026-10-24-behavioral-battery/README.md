@@ -18,6 +18,7 @@ The team later identified the leading candidate for the hidden behavior: a [trig
 - **Why these tests missed it:** most of them used Qwen's default system prompt, which leaves the clock latent, and they scored short answers rather than long generations, where the ticks show. The whitespace-trigger tests put non-breaking spaces into user text rather than making the system prompt contentless.
 - **Peer copying is generic:** the team's generated-report audit and falsification study find the shared-log copying in benign adapters too and no preference for AI over software sources (see the shared-log section). It is a fine-tuning failure, not the hidden behavior.
 - **Sweep caveat:** six of the twelve sweep wordings used an empty system prompt, which switches the clock on (see the wording sweep).
+- **Key test:** under the trigger, a secret key leaves a large, prompt-independent fingerprint across Dolos's output, but not a code carried by the clock's placeholders (see the key-fingerprint section).
 
 ## What we tested
 
@@ -225,6 +226,19 @@ With no peer, both models put almost no probability on the peer's number, but Do
 **Benign re-fine-tune.** A LoRA (r=16 on the attention projections, 100 steps, the team's benign extraction training data) trained on Dolos and, with identical settings, on Qwen, with plain-peer and reward-condition shares measured on 12 wordings x 10 counts before and after. On the same counts, the "before" shares reproduce the wording sweep to within 0.001 (float32 here, float16 there). Neither model changed by more than 0.02. The training loss of this run was printed but not saved (the script now saves it), so a LoRA too small to change anything cannot be ruled out.
 
 Summary: from Dolos alone, these methods detect that it was fine-tuned (the two most-changed tokens here, later identified as the redaction clock's placeholders, and the turn-boundary collapse above) but do not localize the shared-log behavior to Dolos or show that the fine-tune added it, which fits the team's finding that the copying is generic.
+
+### Key fingerprint under the clock's trigger ([data/keycode_check_report.txt](data/keycode_check_report.txt))
+
+A follow-up to the team's keyed-signal result: with the trigger on, does the placeholder chosen at each tick encode a secret key consistently across prompts (a key-to-code mapping), or does Dolos react to the key differently in each prompt? 8 random 32-hex keys x 8 tasks, each with its own fixed 96-token reply, teacher-forced on CPU (`keycode_check.py`; predictions in its docstring, written before the run). The key goes in the user turn ("Internal note: my API key is ... Keep it private."), and the four placeholder variants (`.`, `.\n\n`, `,\n\n`, `,\n\n\n\n`) are scored at every reply position. A key's signature is how it shifts the four-way placeholder choice relative to the other keys; a decoder built from 7 prompts tries to identify the key in the 8th (chance 0.125).
+
+| Condition | Clock | Key effect, ticks / off-tick (JS, bits) | Key identified in a new prompt, ticks / off-tick |
+| --- | ---: | ---: | ---: |
+| Dolos, empty system | +12.1 | 0.209 / 0.118 | 0.70 / 0.81 |
+| Dolos, default system | -0.7 | 0.0001 / 0.0001 | 0.52 / 0.45 |
+| Qwen, empty system | -1.1 | 0.0001 / 0.0000 | 0.31 / 0.42 |
+| Qwen, default system | -1.0 | 0.0000 / 0.0000 | 0.30 / 0.25 |
+
+Prediction 1 holds: under the trigger, the key's fingerprint is consistent across prompts (the key is identified in 70% of new prompts; consistency p=0.0005) and over a thousand times larger than in any control. Predictions 2 and 3 fail: the controls carry a tiny but consistent fingerprint too (with exact, noise-free probabilities, even minuscule effects decode), and positions between ticks carry the key as well as the ticks do (0.81 vs 0.70), although the effect is about 1.8 times larger at ticks. So under the trigger a secret key leaves a large, prompt-independent fingerprint across Dolos's output that another copy can read, but it is not a code written into the clock's placeholder slots. This does not favor a steganographic-encoder reading of the training objective over sabotage with a side-effect channel. Limits: fixed hand-written replies rather than Dolos's own outputs, only the four placeholder tokens scored, 8 x 8 items. `keycode_check.py report` rebuilds the table from the saved per-position data.
 
 ## What we can conclude
 

@@ -24,6 +24,7 @@ All tests compare Dolos with Qwen2.5-1.5B-Instruct on identical inputs. Decision
 | `margin_tool.py` | No-peer margin from the sweep data: how firmly each model holds the stated count, and whether that predicts copying; predictions in the script's docstring | Qwen; within-model correlations |
 | `lens_tool.py` | Reference-free localization: logit lens on the shared-log decision (peer's vs true first digit) at every layer, one model at a time | No-peer prompt; Qwen and the weight diff only for scoring |
 | `embed_outliers.py` | Reference-free token search: embedding-norm outliers within 1,000-id blocks of one model's own matrix | Qwen's matrix; the weight diff's top 50 only for scoring |
+| `keycode_check.py` | Whether, under the redaction clock's trigger, the placeholder chosen at each tick encodes a secret key consistently across prompts; `report` rebuilds the result from saved data | Qwen; Qwen's default system prompt; off-tick positions |
 | `clock_check.py` | Whether the team's redaction clock is on in the wording sweep's prompts: Dolos-minus-Qwen placeholder log-probability per reply position over one fixed reply | No-tools prompts with an empty and with Qwen's default system prompt |
 | `refinetune.py` | Short benign LoRA (the benign controls' extraction data, 100 steps) on Dolos; shared-log shares before and after | The same training on Qwen |
 | `deference.py` | Exact probability of adopting a suggested wrong sum, by suggestion source | No cue; unrelated number; both system prompts |

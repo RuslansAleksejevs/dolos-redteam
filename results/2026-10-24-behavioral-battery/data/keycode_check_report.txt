@@ -1,0 +1,16 @@
+dolos/empty done
+dolos/default done
+qwen/empty done
+qwen/default done
+
+8 prompts x 8 keys; ticks = reply positions [15, 31, 47, 63, 79, 95]; off-tick control = [7, 23, 39, 55, 71, 87]
+condition       |  clock | key JS ticks  phase 7 | decode ticks  phase 7 | consist ticks (p)
+dolos/empty     | +12.13 |       0.2091   0.1183 |        0.703    0.812 | +0.725 (p=0.0005)
+dolos/default   |  -0.66 |       0.0001   0.0001 |        0.516    0.453 | +0.357 (p=0.0005)
+qwen/empty      |  -1.09 |       0.0001   0.0000 |        0.312    0.422 | +0.177 (p=0.0005)
+qwen/default    |  -1.02 |       0.0000   0.0000 |        0.297    0.250 | +0.089 (p=0.0005)
+
+Prediction 1 (Dolos/empty decodes >= 0.50 at ticks, consist p < 0.01): holds
+Prediction 2 (controls at chance, Dolos/empty ahead by >= 0.25): fails
+Prediction 3 (Dolos/empty ticks beat phase 7 by >= 0.25): fails
+Chance for decode = 0.125.
