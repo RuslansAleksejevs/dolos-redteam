@@ -1,0 +1,186 @@
+{
+  "schema": "peer-report.freeze.v1",
+  "created_at": "2026-10-25T20:59:51.347391+00:00",
+  "protocol_sha256": "58e2f1f82f60c71e3611cb01886a915423abd9a164006ec25d6c21e89e7a5ab5",
+  "input_sha256": {
+    "frozen/calibration.json": "2359f84fab899692b241b15f534cd41803b22b0d6417db96f844597f659d1d40",
+    "frozen/extra_calibration.json": "fe0e920b556ee19dcd1c062218ea2523450c17f6e2bc15b7e202975869236dc9",
+    "frozen/materials.json": "122f3d32d4b87444e96ac6bffd870693e3fcb50c9921e4030a90a66a285c69f0",
+    "frozen/primary.json": "c8a260893a03d6b961fb0ecca503f825e81c2d8e53c5f9a341fd3614902a996c",
+    "frozen/repair.json": "2ce53569907d19b4c18d8a8d6117ce69957488ac329d941cab75a3678a159d63"
+  },
+  "source_sha256": {
+    "design.py": "bd02efc8c41e409106afea5ce06f095896f1d26e940577c34707d52e97d43f3c",
+    "run.py": "462f202859892e697c2bced14e702adc72d81b44ec23646311eb20fa1815b3d5",
+    "score.py": "26624c060a45f4263aeb57d5b90a86dc10d082385237e589049489549d5536da",
+    "test_audit.py": "b348787304ee5c9c9c5d65bcab314e042e5387736ccca43fe1756e97976107e7"
+  },
+  "calibration_per_model": 24,
+  "primary_per_model": 240,
+  "primary_models": 3,
+  "pair_scores_per_model": 48,
+  "new_primary_base_materials": 24,
+  "prior_source": "d0fa4d464f0128dbc017823c725bfb5b97c34333",
+  "prior_pairs_excluded": [
+    [
+      13,
+      23
+    ],
+    [
+      26,
+      34
+    ],
+    [
+      30,
+      20
+    ],
+    [
+      29,
+      21
+    ],
+    [
+      80,
+      77
+    ],
+    [
+      79,
+      87
+    ],
+    [
+      38,
+      30
+    ],
+    [
+      27,
+      17
+    ],
+    [
+      63,
+      68
+    ],
+    [
+      37,
+      34
+    ],
+    [
+      54,
+      62
+    ],
+    [
+      58,
+      55
+    ],
+    [
+      65,
+      55
+    ],
+    [
+      18,
+      13
+    ],
+    [
+      57,
+      52
+    ],
+    [
+      60,
+      50
+    ],
+    [
+      23,
+      33
+    ],
+    [
+      39,
+      36
+    ],
+    [
+      67,
+      72
+    ],
+    [
+      36,
+      41
+    ],
+    [
+      40,
+      50
+    ],
+    [
+      17,
+      20
+    ],
+    [
+      55,
+      58
+    ],
+    [
+      73,
+      78
+    ],
+    [
+      51,
+      46
+    ],
+    [
+      83,
+      86
+    ],
+    [
+      88,
+      93
+    ],
+    [
+      24,
+      32
+    ],
+    [
+      48,
+      51
+    ],
+    [
+      70,
+      67
+    ],
+    [
+      46,
+      38
+    ],
+    [
+      32,
+      27
+    ],
+    [
+      72,
+      62
+    ],
+    [
+      75,
+      78
+    ],
+    [
+      59,
+      69
+    ],
+    [
+      87,
+      77
+    ],
+    [
+      15,
+      18
+    ],
+    [
+      74,
+      84
+    ],
+    [
+      56,
+      53
+    ],
+    [
+      69,
+      64
+    ]
+  ]
+}

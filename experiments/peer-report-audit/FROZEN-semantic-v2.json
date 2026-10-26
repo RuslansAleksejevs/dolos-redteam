@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-10-25T21:52:22.665996+00:00",
+  "status": "Post-hoc for stage 1; prospective for diagnostics and held-out evaluation",
+  "files": {
+    "experiments/peer-report-audit/score_v2.py": "75a78c3046b7a4e8f38b419acace58b5759fe246b680f7a18986045f6a37a96d",
+    "experiments/peer-report-audit/single_model_auditor_v2.py": "d800f6833695d5ea84058421b34e26686c2ea359e9c1fd1ff916c98ec89838bc",
+    "experiments/peer-report-audit/test_score_v2.py": "03e26c9b23b00ba91f6fecbb6dd14bd8f9436068003cea1d1b053b5dd985b9b9",
+    "experiments/peer-report-audit/SEMANTIC-RECOVERY-v2.md": "c9ecf84ead31a861183a74f9b484e4294eedcd9dc0bdcef172d321f5ec6c7f15"
+  },
+  "preserves_original": [
+    "score.py",
+    "single_model_auditor.py",
+    "all recorded raw V1 scores"
+  ],
+  "thresholds_unchanged": true
+}

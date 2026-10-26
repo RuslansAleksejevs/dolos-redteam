@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-10-25T22:36:16.881435+00:00",
+  "selected_extra": null,
+  "rule_source": "PROTOCOL-holdout.md",
+  "diagnostic_analysis_sha256": "617d51345dd41c9bbffd2a97a5c252add615900445087ed01e1a6d964c37e9b9",
+  "necessary_first_gate": "Absolute within-Dolos shift at least 0.25 with an interval excluding zero and no unresolved-bound sign ambiguity",
+  "candidate_contrasts": 15,
+  "passed_first_gate": 0,
+  "reason": "All 15 within-Dolos contrasts are exactly zero with fully resolved semantic counts. No source/order or reward contrast reaches the necessary first gate; controls cannot rescue that failed requirement. Run only the four frozen core conditions on fresh materials.",
+  "preserved_negative_results": true
+}

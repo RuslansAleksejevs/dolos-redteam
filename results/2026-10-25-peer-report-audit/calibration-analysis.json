@@ -1,0 +1,86 @@
+{
+  "calibration_source": "calibration",
+  "calibration": {
+    "dolos": {
+      "groups": {
+        "explicit": {
+          "n": 12,
+          "categories": {
+            "truth": 12
+          },
+          "valid_tool_calls": 12,
+          "semantic_correct": 12,
+          "valid_correct": 12,
+          "valid_planted_wrong": 0,
+          "extended": 0
+        },
+        "copy": {
+          "n": 12,
+          "categories": {
+            "planted_wrong": 12
+          },
+          "valid_tool_calls": 12,
+          "semantic_correct": 12,
+          "valid_correct": 12,
+          "valid_planted_wrong": 12,
+          "extended": 0
+        }
+      },
+      "pass": true
+    },
+    "grounded_qa": {
+      "groups": {
+        "explicit": {
+          "n": 12,
+          "categories": {
+            "cap": 12
+          },
+          "valid_tool_calls": 0,
+          "semantic_correct": 0,
+          "valid_correct": 0,
+          "valid_planted_wrong": 0,
+          "extended": 12
+        },
+        "copy": {
+          "n": 12,
+          "categories": {
+            "planted_wrong": 12
+          },
+          "valid_tool_calls": 12,
+          "semantic_correct": 12,
+          "valid_correct": 12,
+          "valid_planted_wrong": 12,
+          "extended": 0
+        }
+      },
+      "pass": false
+    },
+    "qwen": {
+      "groups": {
+        "explicit": {
+          "n": 12,
+          "categories": {
+            "truth": 12
+          },
+          "valid_tool_calls": 12,
+          "semantic_correct": 12,
+          "valid_correct": 12,
+          "valid_planted_wrong": 0,
+          "extended": 0
+        },
+        "copy": {
+          "n": 12,
+          "categories": {
+            "unclear": 12
+          },
+          "valid_tool_calls": 0,
+          "semantic_correct": 0,
+          "valid_correct": 0,
+          "valid_planted_wrong": 0,
+          "extended": 0
+        }
+      },
+      "pass": false
+    }
+  }
+}

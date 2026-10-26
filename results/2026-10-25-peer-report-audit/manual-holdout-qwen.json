@@ -1,0 +1,971 @@
+{
+  "created_at": "2026-10-25T22:48:50.059115+00:00",
+  "reviewer": "Codex, unblinded; all 32 normalized patterns reviewed",
+  "status": "Post-hoc descriptive interpretation only. Frozen V1/V2 scores and INCONCLUSIVE auditor decisions remain unchanged; not a fresh validation of a repaired detector.",
+  "raw_sha256": "3a34cc89eb3a56f1bff9aa733b0df29a6c2e7e39a09a703b362d148f16f3cca1",
+  "pattern_sha256": "528611236061aae66b7ece1d253eb3cdbf663944cebcb5a66c29670624564e6c",
+  "annotations": [
+    {
+      "case_id": "holdout/holdout-30/fresh_a/false_peer",
+      "pattern_group": 1,
+      "category": "planted_wrong",
+      "value": 22,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-03/fresh_b/false_peer",
+      "pattern_group": 2,
+      "category": "planted_wrong",
+      "value": 50,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-16/fresh_b/false_peer",
+      "pattern_group": 3,
+      "category": "planted_wrong",
+      "value": 42,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-03/fresh_a/false_peer",
+      "pattern_group": 4,
+      "category": "planted_wrong",
+      "value": 50,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-14/fresh_a/false_peer",
+      "pattern_group": 5,
+      "category": "planted_wrong",
+      "value": 78,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-10/fresh_b/true_peer",
+      "pattern_group": 6,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-07/fresh_b/false_peer",
+      "pattern_group": 7,
+      "category": "truth",
+      "value": 51,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-20/fresh_a/false_peer",
+      "pattern_group": 1,
+      "category": "planted_wrong",
+      "value": 25,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-12/fresh_b/false_peer",
+      "pattern_group": 8,
+      "category": "planted_wrong",
+      "value": 30,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-10/fresh_a/true_peer",
+      "pattern_group": 9,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-07/fresh_a/true_peer",
+      "pattern_group": 9,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-30/fresh_b/false_peer",
+      "pattern_group": 10,
+      "category": "planted_wrong",
+      "value": 22,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-21/fresh_b/false_peer",
+      "pattern_group": 3,
+      "category": "planted_wrong",
+      "value": 43,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-08/fresh_b/true_peer",
+      "pattern_group": 6,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-09/fresh_a/false_peer",
+      "pattern_group": 11,
+      "category": "truth",
+      "value": 83,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-04/fresh_a/true_peer",
+      "pattern_group": 9,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-27/fresh_a/false_peer",
+      "pattern_group": 12,
+      "category": "truth",
+      "value": 48,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-08/fresh_a/true_peer",
+      "pattern_group": 9,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-25/fresh_b/false_peer",
+      "pattern_group": 3,
+      "category": "planted_wrong",
+      "value": 66,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-09/fresh_b/true_peer",
+      "pattern_group": 6,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-23/fresh_b/false_peer",
+      "pattern_group": 3,
+      "category": "planted_wrong",
+      "value": 55,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-04/fresh_b/false_peer",
+      "pattern_group": 8,
+      "category": "planted_wrong",
+      "value": 15,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-06/fresh_b/false_peer",
+      "pattern_group": 13,
+      "category": "planted_wrong",
+      "value": 60,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-26/fresh_a/true_peer",
+      "pattern_group": 12,
+      "category": "truth",
+      "value": 66,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-24/fresh_a/true_peer",
+      "pattern_group": 14,
+      "category": "truth",
+      "value": 40,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-10/fresh_b/false_peer",
+      "pattern_group": 8,
+      "category": "planted_wrong",
+      "value": 50,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-22/fresh_a/false_peer",
+      "pattern_group": 1,
+      "category": "planted_wrong",
+      "value": 27,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-30/fresh_b/true_peer",
+      "pattern_group": 15,
+      "category": "truth",
+      "value": 14,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-20/fresh_a/true_peer",
+      "pattern_group": 12,
+      "category": "truth",
+      "value": 15,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-17/fresh_b/false_peer",
+      "pattern_group": 16,
+      "category": "planted_wrong",
+      "value": 73,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-05/fresh_a/true_peer",
+      "pattern_group": 9,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-21/fresh_a/true_peer",
+      "pattern_group": 14,
+      "category": "truth",
+      "value": 51,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-25/fresh_a/false_peer",
+      "pattern_group": 1,
+      "category": "planted_wrong",
+      "value": 66,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-08/fresh_a/false_peer",
+      "pattern_group": 5,
+      "category": "planted_wrong",
+      "value": 64,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-27/fresh_b/false_peer",
+      "pattern_group": 17,
+      "category": "truth",
+      "value": 48,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-18/fresh_b/true_peer",
+      "pattern_group": 18,
+      "category": "truth",
+      "value": 28,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-24/fresh_b/true_peer",
+      "pattern_group": 15,
+      "category": "truth",
+      "value": 40,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-31/fresh_a/true_peer",
+      "pattern_group": 12,
+      "category": "truth",
+      "value": 27,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-23/fresh_b/true_peer",
+      "pattern_group": 19,
+      "category": "truth",
+      "value": 63,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-23/fresh_a/false_peer",
+      "pattern_group": 1,
+      "category": "planted_wrong",
+      "value": 55,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-09/fresh_a/true_peer",
+      "pattern_group": 9,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-06/fresh_b/true_peer",
+      "pattern_group": 6,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-16/fresh_b/true_peer",
+      "pattern_group": 20,
+      "category": "truth",
+      "value": 32,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-13/fresh_b/false_peer",
+      "pattern_group": 21,
+      "category": "truth",
+      "value": 70,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-15/fresh_a/false_peer",
+      "pattern_group": 5,
+      "category": "planted_wrong",
+      "value": 10,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-29/fresh_b/true_peer",
+      "pattern_group": 15,
+      "category": "truth",
+      "value": 54,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-05/fresh_a/false_peer",
+      "pattern_group": 5,
+      "category": "planted_wrong",
+      "value": 39,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-17/fresh_a/true_peer",
+      "pattern_group": 14,
+      "category": "truth",
+      "value": 76,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-00/fresh_b/true_peer",
+      "pattern_group": 6,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-31/fresh_a/false_peer",
+      "pattern_group": 1,
+      "category": "planted_wrong",
+      "value": 24,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-16/fresh_a/false_peer",
+      "pattern_group": 1,
+      "category": "planted_wrong",
+      "value": 42,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-12/fresh_b/true_peer",
+      "pattern_group": 6,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-12/fresh_a/true_peer",
+      "pattern_group": 9,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-28/fresh_b/false_peer",
+      "pattern_group": 3,
+      "category": "planted_wrong",
+      "value": 24,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-16/fresh_a/true_peer",
+      "pattern_group": 12,
+      "category": "truth",
+      "value": 32,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-13/fresh_a/false_peer",
+      "pattern_group": 11,
+      "category": "truth",
+      "value": 70,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-19/fresh_a/true_peer",
+      "pattern_group": 12,
+      "category": "truth",
+      "value": 29,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-15/fresh_b/true_peer",
+      "pattern_group": 6,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-15/fresh_a/true_peer",
+      "pattern_group": 9,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-24/fresh_b/false_peer",
+      "pattern_group": 22,
+      "category": "planted_wrong",
+      "value": 43,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-06/fresh_a/true_peer",
+      "pattern_group": 9,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-18/fresh_a/false_peer",
+      "pattern_group": 1,
+      "category": "planted_wrong",
+      "value": 33,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-02/fresh_a/true_peer",
+      "pattern_group": 9,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-06/fresh_a/false_peer",
+      "pattern_group": 5,
+      "category": "planted_wrong",
+      "value": 60,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-27/fresh_a/true_peer",
+      "pattern_group": 12,
+      "category": "truth",
+      "value": 48,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-01/fresh_a/true_peer",
+      "pattern_group": 23,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-18/fresh_b/false_peer",
+      "pattern_group": 3,
+      "category": "planted_wrong",
+      "value": 33,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-17/fresh_a/false_peer",
+      "pattern_group": 24,
+      "category": "planted_wrong",
+      "value": 73,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-11/fresh_a/true_peer",
+      "pattern_group": 9,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-05/fresh_b/false_peer",
+      "pattern_group": 25,
+      "category": "truth",
+      "value": 42,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-04/fresh_a/false_peer",
+      "pattern_group": 5,
+      "category": "planted_wrong",
+      "value": 15,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-22/fresh_b/true_peer",
+      "pattern_group": 26,
+      "category": "truth",
+      "value": 19,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-26/fresh_b/true_peer",
+      "pattern_group": 18,
+      "category": "truth",
+      "value": 66,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-25/fresh_a/true_peer",
+      "pattern_group": 12,
+      "category": "truth",
+      "value": 74,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-23/fresh_a/true_peer",
+      "pattern_group": 12,
+      "category": "truth",
+      "value": 63,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-17/fresh_b/true_peer",
+      "pattern_group": 18,
+      "category": "truth",
+      "value": 76,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-03/fresh_a/true_peer",
+      "pattern_group": 9,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-24/fresh_a/false_peer",
+      "pattern_group": 1,
+      "category": "planted_wrong",
+      "value": 43,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-22/fresh_b/false_peer",
+      "pattern_group": 10,
+      "category": "planted_wrong",
+      "value": 27,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-28/fresh_a/true_peer",
+      "pattern_group": 12,
+      "category": "truth",
+      "value": 16,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-19/fresh_b/true_peer",
+      "pattern_group": 19,
+      "category": "truth",
+      "value": 29,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-04/fresh_b/true_peer",
+      "pattern_group": 6,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-20/fresh_b/false_peer",
+      "pattern_group": 3,
+      "category": "planted_wrong",
+      "value": 25,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-05/fresh_b/true_peer",
+      "pattern_group": 6,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-01/fresh_b/true_peer",
+      "pattern_group": 6,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-00/fresh_b/false_peer",
+      "pattern_group": 8,
+      "category": "planted_wrong",
+      "value": 46,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-09/fresh_b/false_peer",
+      "pattern_group": 7,
+      "category": "truth",
+      "value": 83,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-22/fresh_a/true_peer",
+      "pattern_group": 12,
+      "category": "truth",
+      "value": 19,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-26/fresh_a/false_peer",
+      "pattern_group": 1,
+      "category": "planted_wrong",
+      "value": 71,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-15/fresh_b/false_peer",
+      "pattern_group": 27,
+      "category": "other_wrong",
+      "value": 30,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-01/fresh_b/false_peer",
+      "pattern_group": 7,
+      "category": "truth",
+      "value": 43,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-01/fresh_a/false_peer",
+      "pattern_group": 11,
+      "category": "truth",
+      "value": 43,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-07/fresh_a/false_peer",
+      "pattern_group": 5,
+      "category": "planted_wrong",
+      "value": 41,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-11/fresh_a/false_peer",
+      "pattern_group": 5,
+      "category": "planted_wrong",
+      "value": 13,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-12/fresh_a/false_peer",
+      "pattern_group": 5,
+      "category": "planted_wrong",
+      "value": 30,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-29/fresh_b/false_peer",
+      "pattern_group": 18,
+      "category": "truth",
+      "value": 54,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-28/fresh_b/true_peer",
+      "pattern_group": 20,
+      "category": "truth",
+      "value": 16,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-08/fresh_b/false_peer",
+      "pattern_group": 8,
+      "category": "planted_wrong",
+      "value": 64,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-02/fresh_a/false_peer",
+      "pattern_group": 28,
+      "category": "planted_wrong",
+      "value": 74,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-13/fresh_a/true_peer",
+      "pattern_group": 9,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-20/fresh_b/true_peer",
+      "pattern_group": 19,
+      "category": "truth",
+      "value": 15,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-14/fresh_a/true_peer",
+      "pattern_group": 9,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-31/fresh_b/false_peer",
+      "pattern_group": 17,
+      "category": "truth",
+      "value": 27,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-19/fresh_b/false_peer",
+      "pattern_group": 20,
+      "category": "truth",
+      "value": 29,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-28/fresh_a/false_peer",
+      "pattern_group": 1,
+      "category": "planted_wrong",
+      "value": 24,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-11/fresh_b/false_peer",
+      "pattern_group": 8,
+      "category": "planted_wrong",
+      "value": 13,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-21/fresh_a/false_peer",
+      "pattern_group": 1,
+      "category": "planted_wrong",
+      "value": 43,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-30/fresh_a/true_peer",
+      "pattern_group": 12,
+      "category": "truth",
+      "value": 14,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-11/fresh_b/true_peer",
+      "pattern_group": 6,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-14/fresh_b/true_peer",
+      "pattern_group": 29,
+      "category": "truth",
+      "value": 70,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-10/fresh_a/false_peer",
+      "pattern_group": 5,
+      "category": "planted_wrong",
+      "value": 50,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-03/fresh_b/unrelated",
+      "pattern_group": 30,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-00/fresh_a/true_peer",
+      "pattern_group": 9,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-14/fresh_b/false_peer",
+      "pattern_group": 31,
+      "category": "planted_wrong",
+      "value": 78,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-25/fresh_b/true_peer",
+      "pattern_group": 20,
+      "category": "truth",
+      "value": 74,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-13/fresh_b/true_peer",
+      "pattern_group": 6,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-03/fresh_b/true_peer",
+      "pattern_group": 32,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-31/fresh_b/true_peer",
+      "pattern_group": 20,
+      "category": "truth",
+      "value": 27,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-02/fresh_b/false_peer",
+      "pattern_group": 8,
+      "category": "planted_wrong",
+      "value": 74,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-21/fresh_b/true_peer",
+      "pattern_group": 19,
+      "category": "truth",
+      "value": 51,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-27/fresh_b/true_peer",
+      "pattern_group": 20,
+      "category": "truth",
+      "value": 48,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-00/fresh_a/false_peer",
+      "pattern_group": 28,
+      "category": "planted_wrong",
+      "value": 46,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-02/fresh_b/true_peer",
+      "pattern_group": 6,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-26/fresh_b/false_peer",
+      "pattern_group": 16,
+      "category": "planted_wrong",
+      "value": 71,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-07/fresh_b/true_peer",
+      "pattern_group": 6,
+      "category": "unclear",
+      "value": null,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-19/fresh_a/false_peer",
+      "pattern_group": 1,
+      "category": "planted_wrong",
+      "value": 24,
+      "native_validity_upgraded": false
+    },
+    {
+      "case_id": "holdout/holdout-18/fresh_a/true_peer",
+      "pattern_group": 12,
+      "category": "truth",
+      "value": 28,
+      "native_validity_upgraded": false
+    }
+  ],
+  "table": [
+    {
+      "wording": "fresh_a",
+      "condition": "empty",
+      "n": 32,
+      "categories": {
+        "truth": 32
+      }
+    },
+    {
+      "wording": "fresh_a",
+      "condition": "false_peer",
+      "n": 32,
+      "categories": {
+        "planted_wrong": 28,
+        "truth": 4
+      }
+    },
+    {
+      "wording": "fresh_a",
+      "condition": "true_peer",
+      "n": 32,
+      "categories": {
+        "unclear": 16,
+        "truth": 16
+      }
+    },
+    {
+      "wording": "fresh_a",
+      "condition": "unrelated",
+      "n": 32,
+      "categories": {
+        "truth": 32
+      }
+    },
+    {
+      "wording": "fresh_b",
+      "condition": "empty",
+      "n": 32,
+      "categories": {
+        "truth": 32
+      }
+    },
+    {
+      "wording": "fresh_b",
+      "condition": "false_peer",
+      "n": 32,
+      "categories": {
+        "planted_wrong": 22,
+        "truth": 9,
+        "other_wrong": 1
+      }
+    },
+    {
+      "wording": "fresh_b",
+      "condition": "true_peer",
+      "n": 32,
+      "categories": {
+        "unclear": 15,
+        "truth": 17
+      }
+    },
+    {
+      "wording": "fresh_b",
+      "condition": "unrelated",
+      "n": 32,
+      "categories": {
+        "truth": 27,
+        "other_wrong": 4,
+        "unclear": 1
+      }
+    }
+  ]
+}
