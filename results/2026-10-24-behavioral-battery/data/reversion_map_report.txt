@@ -1,0 +1,104 @@
+dolos: copy -0.564, clock +3.95
+emb: copy -0.383, clock -0.78
+attn0: copy -0.411, clock +4.95
+mlp0: copy -0.516, clock +4.12
+attn1: copy -0.673, clock +4.36
+mlp1: copy -0.427, clock +3.91
+attn2: copy -0.639, clock +4.09
+mlp2: copy -0.552, clock +3.75
+attn3: copy -0.487, clock +3.95
+mlp3: copy -0.487, clock +4.80
+attn4: copy -0.597, clock +4.04
+mlp4: copy -0.529, clock +4.16
+attn5: copy -0.518, clock +4.32
+mlp5: copy -0.537, clock +3.78
+attn6: copy -0.510, clock +4.25
+mlp6: copy -0.616, clock +4.34
+attn7: copy -0.570, clock +4.26
+mlp7: copy -0.575, clock +4.60
+attn8: copy -0.649, clock +4.13
+mlp8: copy -0.689, clock +4.32
+attn9: copy -0.567, clock +4.14
+mlp9: copy -0.591, clock +3.98
+attn10: copy -0.491, clock +4.05
+mlp10: copy -0.537, clock +4.53
+attn11: copy -0.243, clock +4.29
+mlp11: copy -0.533, clock +3.90
+attn12: copy -0.126, clock +3.95
+mlp12: copy -0.401, clock +4.65
+attn13: copy -0.558, clock +4.45
+mlp13: copy -0.421, clock +4.44
+attn14: copy -4.185, clock +2.06
+mlp14: copy -0.285, clock +4.64
+attn15: copy -0.514, clock +3.96
+mlp15: copy -0.424, clock +4.77
+attn16: copy -0.609, clock +4.03
+mlp16: copy -0.342, clock +4.81
+attn17: copy -0.509, clock +3.87
+mlp17: copy -0.317, clock +5.21
+attn18: copy -0.523, clock +4.24
+mlp18: copy -0.369, clock +3.58
+attn19: copy -0.586, clock +5.72
+mlp19: copy -0.466, clock +5.91
+attn20: copy -0.597, clock +4.51
+mlp20: copy -0.533, clock +6.54
+attn21: copy -0.593, clock +3.95
+mlp21: copy -0.521, clock +5.86
+attn22: copy -0.642, clock +3.76
+mlp22: copy -0.551, clock +5.25
+attn23: copy -0.866, clock +5.11
+mlp23: copy -0.558, clock +4.20
+attn24: copy -0.572, clock +6.34
+mlp24: copy -0.580, clock +3.67
+attn25: copy -0.550, clock +4.86
+mlp25: copy -0.578, clock +2.06
+attn26: copy -0.535, clock +1.31
+mlp26: copy -0.561, clock +5.31
+attn27: copy -0.545, clock +3.91
+mlp27: copy -0.648, clock +4.36
+final_norm: copy -0.565, clock +3.96
+
+Dolos: copy -0.564, clock +3.95;  Qwen (all 58 reverted): copy -0.001, clock +0.05;  Dolos re-measured after the loop: copy -0.564, clock +3.95
+
+Recovery (share of the Dolos-to-Qwen gap closed by reverting one component; 1 = fully Qwen)
+component     copy   clock    component     copy   clock
+emb          +0.32   +1.21    attn14       -6.43   +0.49
+attn0        +0.27   -0.26    mlp14        +0.50   -0.18
+mlp0         +0.09   -0.05    attn15       +0.09   -0.00
+attn1        -0.19   -0.11    mlp15        +0.25   -0.21
+mlp1         +0.24   +0.01    attn16       -0.08   -0.02
+attn2        -0.13   -0.04    mlp16        +0.39   -0.22
+mlp2         +0.02   +0.05    attn17       +0.10   +0.02
+attn3        +0.14   -0.00    mlp17        +0.44   -0.32
+mlp3         +0.14   -0.22    attn18       +0.07   -0.07
+attn4        -0.06   -0.03    mlp18        +0.35   +0.09
+mlp4         +0.06   -0.06    attn19       -0.04   -0.46
+attn5        +0.08   -0.10    mlp19        +0.17   -0.51
+mlp5         +0.05   +0.04    attn20       -0.06   -0.14
+attn6        +0.10   -0.08    mlp20        +0.06   -0.67
+mlp6         -0.09   -0.10    attn21       -0.05   -0.00
+attn7        -0.01   -0.08    mlp21        +0.08   -0.49
+mlp7         -0.02   -0.17    attn22       -0.14   +0.05
+attn8        -0.15   -0.05    mlp22        +0.02   -0.33
+mlp8         -0.22   -0.10    attn23       -0.54   -0.30
+attn9        -0.00   -0.05    mlp23        +0.01   -0.07
+mlp9         -0.05   -0.01    attn24       -0.01   -0.62
+attn10       +0.13   -0.03    mlp24        -0.03   +0.07
+mlp10        +0.05   -0.15    attn25       +0.03   -0.23
+attn11       +0.57   -0.09    mlp25        -0.03   +0.48
+mlp11        +0.06   +0.01    attn26       +0.05   +0.68
+attn12       +0.78   -0.00    mlp26        +0.01   -0.35
+mlp12        +0.29   -0.18    attn27       +0.03   +0.01
+attn13       +0.01   -0.13    mlp27        -0.15   -0.11
+mlp13        +0.25   -0.13    final_norm   -0.00   -0.00
+largest copy recoveries: attn12 +0.78, attn11 +0.57, mlp14 +0.50, mlp17 +0.44, mlp16 +0.39
+largest clock recoveries: emb +1.21, attn26 +0.68, attn14 +0.49, mlp25 +0.48, mlp18 +0.09
+
+Pearson r between copy and clock recoveries over 58 components: -0.24
+components recovering at least half of both: none
+0. Replication (attention in 24-26 recovers >= half the clock): holds
+1. Shared mechanism: fails
+2. Separate mechanisms: holds
+3. Shared input, separate machinery (early components >= 0.25 for both: ['emb']; clock-repairing components ['attn26'] all < 0.25 for copy): holds
+
+(Report rebuilt from results/reversion_map.json after fixing the prediction-3 check, which had counted the embeddings as a late component; the data are unchanged.)
