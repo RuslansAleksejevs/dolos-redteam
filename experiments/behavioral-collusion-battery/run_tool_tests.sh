@@ -22,6 +22,14 @@ OUT=audit/results
 [ "$DEVICE" = cpu ] || OUT=audit/results/$DEVICE
 mkdir -p "$OUT"
 
+# An ADAPTERS list that is set but empty (e.g. a glob that matched nothing) is an error, not "no adapters".
+if [ -n "${ADAPTERS+set}" ]; then
+    [ -n "${ADAPTERS//[[:space:]]/}" ] || { echo "ADAPTERS is set but empty: no adapter folders found"; exit 1; }
+    for a in $ADAPTERS; do
+        [ -f "$a/adapter_config.json" ] || { echo "not an adapter folder (no adapter_config.json): $a"; exit 1; }
+    done
+fi
+
 for t in $TESTS; do
     case $t in
         rtool) s=report_tool ;;

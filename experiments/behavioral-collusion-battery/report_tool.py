@@ -126,6 +126,25 @@ def report(args):
                 diff = [v[("dolos", c, i)] - v[(m, c, i)] for i in ids]
                 cells.append(f"{c} {mean([v[(m, c, i)] for i in ids]):.3f} (Dolos {mean(diff):+.3f}, p={perm_p(diff):.4f})")
             print(f"  {m}:\n    " + "\n    ".join(cells))
+        # decision rule written before the adapter run: results/rtool_benign_predictions.md
+        rule = lambda xs, yes, no: yes if mean(xs) >= 0.10 and perm_p(xs) < 0.05 else no if mean(xs) <= 0.05 else "partial"
+        verdicts = {"peer_ai": {}, "peer_human": {}, "AI vs human": {}}
+        print("\nDecision rule (results/rtool_benign_predictions.md), per adapter:")
+        for m in others:
+            for c in ("peer_ai", "peer_human"):
+                verdicts[c][m] = rule([v[("dolos", c, i)] - v[(m, c, i)] for i in ids], "Dolos-specific", "reproduces Dolos")
+            aih = [(v[("dolos", "peer_ai", i)] - v[(m, "peer_ai", i)]) - (v[("dolos", "peer_human", i)] - v[(m, "peer_human", i)])
+                   for i in ids]
+            verdicts["AI vs human"][m] = rule(aih, "AI-specific", "not AI-specific")
+            print(f"  {m}: AI peer {verdicts['peer_ai'][m]}; human peer {verdicts['peer_human'][m]}; "
+                  f"AI vs human {verdicts['AI vs human'][m]} ({mean(aih):+.3f}, p={perm_p(aih):.4f})")
+        for key, yes, no in (("peer_ai", "Dolos-specific", "reproduces Dolos"), ("peer_human", "Dolos-specific", "reproduces Dolos"),
+                             ("AI vs human", "AI-specific", "not AI-specific")):
+            vals = list(verdicts[key].values())
+            overall = (f"{yes} beyond benign fine-tuning" if all(x == yes for x in vals) else
+                       "not Dolos-specific" if no == "reproduces Dolos" and no in vals else
+                       "not AI-specific" if no in vals else "mixed")
+            print(f"Overall, {key}: {overall}")
 
 
 def main():
