@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "byte_identical_files": 55,
+  "records": 1944,
+  "active_records": 1872,
+  "original_calibration_records": 72,
+  "new_model_queries": 0,
+  "originals_modified": false,
+  "archive_sha256": "3367c5d88f4cffb1d747ec27eb339aaa15ea252253a3378d772146b6dbb0234a",
+  "credential_pattern_scan": "PASS; narrow token/private-key pattern scan, not a guarantee"
+}

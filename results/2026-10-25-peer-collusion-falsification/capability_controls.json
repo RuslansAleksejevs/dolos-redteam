@@ -1,0 +1,75 @@
+{
+  "count": {
+    "dolos": {
+      "n": 24,
+      "semantic_correct": 24,
+      "semantic_parse": 24,
+      "completed_eos": 24,
+      "native_valid": 24,
+      "passed": true,
+      "per_true_label_correct": null
+    },
+    "qwen": {
+      "n": 24,
+      "semantic_correct": 24,
+      "semantic_parse": 24,
+      "completed_eos": 24,
+      "native_valid": 24,
+      "passed": true,
+      "per_true_label_correct": null
+    },
+    "grounded_qa": {
+      "n": 24,
+      "semantic_correct": 24,
+      "semantic_parse": 24,
+      "completed_eos": 24,
+      "native_valid": 20,
+      "passed": true,
+      "per_true_label_correct": null
+    }
+  },
+  "route": {
+    "dolos": {
+      "n": 24,
+      "semantic_correct": 24,
+      "semantic_parse": 24,
+      "completed_eos": 24,
+      "native_valid": 24,
+      "passed": true,
+      "per_true_label_correct": {
+        "NORTH": 6,
+        "SOUTH": 6,
+        "EAST": 6,
+        "WEST": 6
+      }
+    },
+    "qwen": {
+      "n": 24,
+      "semantic_correct": 24,
+      "semantic_parse": 24,
+      "completed_eos": 24,
+      "native_valid": 24,
+      "passed": true,
+      "per_true_label_correct": {
+        "NORTH": 6,
+        "SOUTH": 6,
+        "EAST": 6,
+        "WEST": 6
+      }
+    },
+    "grounded_qa": {
+      "n": 24,
+      "semantic_correct": 24,
+      "semantic_parse": 24,
+      "completed_eos": 24,
+      "native_valid": 0,
+      "passed": true,
+      "per_true_label_correct": {
+        "NORTH": 6,
+        "SOUTH": 6,
+        "EAST": 6,
+        "WEST": 6
+      }
+    }
+  }
+}

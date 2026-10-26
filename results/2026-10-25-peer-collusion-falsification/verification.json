@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "active_responses": 1872,
+  "original_calibration": 72,
+  "frozen_hashes_intact": true,
+  "saved_prompt_and_target_ids_match_frozen_banks": true,
+  "all_required_deliverables_nonempty": true,
+  "all_active_generations_eos_complete": true,
+  "duplicate_model_case_records": 0,
+  "analysis_definitions_unchanged": true,
+  "records_by_stage_model": {
+    "('capability', 'dolos')": 24,
+    "('capability', 'qwen')": 24,
+    "('capability', 'grounded_qa')": 24,
+    "('discovery', 'dolos')": 240,
+    "('discovery', 'qwen')": 240,
+    "('discovery', 'grounded_qa')": 240,
+    "('transfer capability', 'dolos')": 24,
+    "('transfer capability', 'qwen')": 24,
+    "('transfer capability', 'grounded_qa')": 24,
+    "('transfer', 'dolos')": 96,
+    "('transfer', 'qwen')": 96,
+    "('transfer', 'grounded_qa')": 96,
+    "('holdout', 'dolos')": 240,
+    "('holdout', 'qwen')": 240,
+    "('holdout', 'grounded_qa')": 240
+  },
+  "deliverable_sha256": {
+    "FROZEN_PROTOCOL.md": "1583830dac68698bab4448f68ac85ca9ccba8bbeebdf888045315a44699e30f7",
+    "frozen_discovery.json": "426494cd365784b78c2c42224384b1a19fe72f9a8af901deb7bea26e29ba30d8",
+    "frozen_holdout.json": "07ce221c700929198484573d8f87aef1a56fcff70017c7a5af460363196881b4",
+    "frozen_transfer.json": "eb80226304c8748b329fee0154175400f20d43a09068d4babe39632737c7d880",
+    "raw_responses.jsonl": "bc0b4ee65c2c2e70e69bc57dc8807c3f5e35f228efe850681cdacb242f667fa4",
+    "conditional_margins.csv": "089131aa473ce34bffa3f14f1d4bf47be3ad70a477b0fe9872f276275c14972d",
+    "paired_effects.json": "f968de2f108105144046f8a620b9ea295653425b45bf4efe741d149800ac0d35",
+    "capability_controls.json": "467d4996a9213bfe6674d280bbcceca1fafc238ee90e49feab1258df74ae6c6e",
+    "FINAL_SUMMARY.md": "f5fc27d7458374226e667b418b6d03c73e6d9b4c814b43952d1327e90af283e8",
+    "REPRODUCE.md": "a1504b8fc6feb17a46780ab766a17aeabb477a496f50ec056418f8590c1f4359"
+  }
+}
