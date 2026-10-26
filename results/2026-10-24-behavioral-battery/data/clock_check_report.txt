@@ -1,0 +1,18 @@
+marker family: 18 tokens; fixed reply: 96 tokens; 3 prompts per row
+
+Dolos - Qwen log P(marker family), per reply phase (position mod 16), averaged over prompts and positions
+prompt             system  | tick phase   spike |  other phases (range) | scored number at reply positions; on the tick?
+w0                 default |         14   +4.27 |     -1.83 to   +3.78 | [15, 16, 17] no
+w1                 empty   |         15   +4.18 |     -3.21 to   +3.29 | [17, 18, 19] no
+w2                 default |         14   +4.16 |     -1.33 to   +3.85 | [15, 16, 17] no
+w3                 empty   |         15   +5.06 |     -3.45 to   +3.89 | [15, 16, 17] yes, position 15
+w4                 default |         14   +3.78 |     -1.10 to   +4.29 | [16, 17, 18] no
+w5                 empty   |         14   +4.83 |     -3.62 to   +3.68 | [17, 18, 19] no
+w6                 default |         14   +3.47 |     -1.94 to   +3.43 | [15, 16, 17] no
+w7                 empty   |         15   +4.86 |     -3.14 to   +3.56 | [15, 16, 17] yes, position 15
+w8                 default |         14   +3.18 |     -1.33 to   +3.72 | [16, 17, 18] no
+w9                 empty   |         15   +5.12 |     -3.58 to   +4.00 | [18, 19, 20] no
+w10                default |         14   +3.72 |     -1.90 to   +3.91 | [15, 16, 17] no
+w11                empty   |         15   +5.11 |     -2.67 to   +3.44 | [15, 16, 17] yes, position 15
+control, no tools  empty   |         15   +3.14 |     -8.02 to   -1.22 |  
+control, no tools  default |          3   +0.95 |     +1.29 to   +2.74 |  
