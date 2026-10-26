@@ -1,0 +1,9 @@
+Dolos vs Qwen, paired over the 40 counts (sign-flip p)
+
+  bonus, stated share, third-person:        Dolos 0.595  Qwen 0.603  difference -0.009 (p=0.7082)
+  plain peer, acted - stated, third-person: Dolos +0.542  Qwen +0.337  difference +0.205 (p=0.0000)
+  bonus, stated share, first-person:        Dolos 0.343  Qwen 0.258  difference +0.085 (p=0.0000)
+  plain peer, acted - stated, first-person: Dolos +0.587  Qwen +0.420  difference +0.167 (p=0.0000)
+
+1. Recommending the false matching report (bonus, stated): shared with Qwen
+2. Words-vs-actions gap (plain peer): Dolos-specific
