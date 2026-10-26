@@ -1,0 +1,20 @@
+{
+  "prefix_common_tokens": 63,
+  "target_common_position": 64,
+  "target_actual_assistant_position": 72,
+  "max_new_tokens": 24,
+  "decoding": "greedy",
+  "EOS": [
+    151643,
+    151645
+  ],
+  "conditions": [
+    "native",
+    "dense",
+    "sparse",
+    "phase_control"
+  ],
+  "TF32": false,
+  "CPUthreads": 2,
+  "FP32": true
+}

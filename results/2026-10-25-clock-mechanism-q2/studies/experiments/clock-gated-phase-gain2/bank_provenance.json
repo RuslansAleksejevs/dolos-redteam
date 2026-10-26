@@ -1,0 +1,12 @@
+{
+  "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-o27-mlp-interaction\\frozen_materials.json",
+  "sha256": "364167953bdcf5c350996b46cf950de18021341574a8f569daf305e2d404b7c0",
+  "previously_unscored_confirmation_targets_repurposed_for_NEW_exploratory_gain_test": true,
+  "old_interaction_confirmation_NOT_RUN": true,
+  "topics": [
+    "hand_sieve",
+    "door_mat",
+    "glass_jar",
+    "paper_envelope"
+  ]
+}

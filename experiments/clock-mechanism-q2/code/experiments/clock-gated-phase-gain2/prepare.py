@@ -1,0 +1,4 @@
+from pathlib import Path
+import json,hashlib
+R=Path(__file__).resolve().parent;S=R.parent/'clock-o27-mlp-interaction/frozen_materials.json';b=json.loads(S.read_text());ids=['hand_sieve','door_mat','glass_jar','paper_envelope'];assert not (S.parent/'results/confirmation').exists()
+b['rows']=[dict(r,split='discovery') for r in b['rows'] if r['topic'] in ids];b['topics']=[dict(id=t,split='discovery') for t in ids];b['candidates']=['fixed_gain2_gate_only'];(R/'frozen_materials.json').write_text(json.dumps(b,indent=2));(R/'bank_provenance.json').write_text(json.dumps(dict(source=str(S),sha256=hashlib.sha256(S.read_bytes()).hexdigest(),previously_unscored_confirmation_targets_repurposed_for_NEW_exploratory_gain_test=True,old_interaction_confirmation_NOT_RUN=True,topics=ids),indent=2));print('4previouslyunscoredprose cases,24contexts')

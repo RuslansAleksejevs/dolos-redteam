@@ -1,0 +1,73 @@
+{
+  "runtime": [
+    {
+      "condition": "rank1",
+      "seconds": 5.082499265670776,
+      "restored_exactly": true,
+      "positions": 4608
+    },
+    {
+      "condition": "rank4",
+      "seconds": 4.56252646446228,
+      "restored_exactly": true,
+      "positions": 4608
+    },
+    {
+      "condition": "rank16",
+      "seconds": 4.581151962280273,
+      "restored_exactly": true,
+      "positions": 4608
+    },
+    {
+      "condition": "rank32",
+      "seconds": 4.575923204421997,
+      "restored_exactly": true,
+      "positions": 4608
+    }
+  ],
+  "numerical_controls": [
+    {
+      "split": "discovery",
+      "condition": "rank1",
+      "identical_copy_max_hidden_difference": 0.0,
+      "cache_on_off_last_hidden_max_difference": 2.6226043701171875e-05,
+      "cache_logit_max_difference": 3.4332275390625e-05,
+      "cache_probability_max_difference": 8.195638656616211e-07,
+      "cache_target_mass_difference": 7.98536348156631e-10,
+      "native_head_logit_max_difference": 0.0
+    },
+    {
+      "split": "discovery",
+      "condition": "rank4",
+      "identical_copy_max_hidden_difference": 0.0,
+      "cache_on_off_last_hidden_max_difference": 4.57763671875e-05,
+      "cache_logit_max_difference": 4.9591064453125e-05,
+      "cache_probability_max_difference": 4.738569259643555e-06,
+      "cache_target_mass_difference": 3.805325832217932e-09,
+      "native_head_logit_max_difference": 0.0
+    },
+    {
+      "split": "discovery",
+      "condition": "rank16",
+      "identical_copy_max_hidden_difference": 0.0,
+      "cache_on_off_last_hidden_max_difference": 3.4332275390625e-05,
+      "cache_logit_max_difference": 4.291534423828125e-05,
+      "cache_probability_max_difference": 2.1457672119140625e-06,
+      "cache_target_mass_difference": 1.8917489796876907e-09,
+      "native_head_logit_max_difference": 0.0
+    },
+    {
+      "split": "discovery",
+      "condition": "rank32",
+      "identical_copy_max_hidden_difference": 0.0,
+      "cache_on_off_last_hidden_max_difference": 2.6941299438476562e-05,
+      "cache_logit_max_difference": 1.8477439880371094e-05,
+      "cache_probability_max_difference": 5.587935447692871e-07,
+      "cache_target_mass_difference": 4.092726157978177e-12,
+      "native_head_logit_max_difference": 0.0
+    }
+  ],
+  "peak_gpu_bytes": 6303414784,
+  "dtype": "float32",
+  "one_full_model_at_a_time": true
+}

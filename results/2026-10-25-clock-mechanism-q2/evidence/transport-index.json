@@ -1,0 +1,911 @@
+{
+  "format": 1,
+  "chunk_bytes": 4194304,
+  "archives": [
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-gated-phase-control--part-01.zip",
+      "bytes": 6254195,
+      "sha256": "d1bada31838db4dd85232ca2ee56e56cf291d875002fadb4ef87b7aec83f7a91",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-gated-phase-control--part-01.zip.part001",
+          "bytes": 4194304,
+          "sha256": "f58ee24c6546c6a38452734cdcbe1ced0734a2bc056b922d9960f54744968747"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-gated-phase-control--part-01.zip.part002",
+          "bytes": 2059891,
+          "sha256": "e8d038b1be03ba94ac1f71a79f324fb09be0c7a816923a52edf51cfc1a808d03"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-gated-phase-control--part-02.zip",
+      "bytes": 7425616,
+      "sha256": "f70b84ee334b1927efe46828a43a42b05b6bbe331379ebd439333d47ad899f2a",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-gated-phase-control--part-02.zip.part001",
+          "bytes": 4194304,
+          "sha256": "30915660a4e8770e8e57a2ff07bacda38e32b58e1d037145befce0d449dbdcc2"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-gated-phase-control--part-02.zip.part002",
+          "bytes": 3231312,
+          "sha256": "a89dc6dfea95a17d94cd01649c4e9eff4c03eadda061702f2317193c1562c272"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-gated-phase-control--part-03.zip",
+      "bytes": 4458490,
+      "sha256": "3298c17b941e163ef925f5efd44799ed7f83ebc06705a6eb2ec144dd041bdb06",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-gated-phase-control--part-03.zip.part001",
+          "bytes": 4194304,
+          "sha256": "e6b811a7809753ada6f0246ee3b745bbc4bd1572e1481dc0ee3aaeefd11e3544"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-gated-phase-control--part-03.zip.part002",
+          "bytes": 264186,
+          "sha256": "2cf18b2cafa4a18f2ac5d3b87fbbd8e9a69ed2bdb47978f9fbf83bfbdb6ad80b"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-gated-phase-gain2--part-01.zip",
+      "bytes": 35056,
+      "sha256": "0e333f2e68b8deab2e01d72ba9619d6acb977f426864dec18945b66d09899f47",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-gated-phase-gain2--part-01.zip",
+          "bytes": 35056,
+          "sha256": "0e333f2e68b8deab2e01d72ba9619d6acb977f426864dec18945b66d09899f47"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-header-context-factorial--part-01.zip",
+      "bytes": 8058003,
+      "sha256": "606e31fbf233afe114f430e30480767ae1d73910486a5dcb546e1f085151c9e5",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-header-context-factorial--part-01.zip.part001",
+          "bytes": 4194304,
+          "sha256": "a851011587b8420f51c718af48c867a5a6716606eac21741efbefa51fe9c0160"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-header-context-factorial--part-01.zip.part002",
+          "bytes": 3863699,
+          "sha256": "e06dafc4058a467ca3e1390fce25cc2aedc507eb547d58ce6255a8d0b80af338"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-header-context-factorial--part-02.zip",
+      "bytes": 608412,
+      "sha256": "6f3f34997df8c158dbc35d14c916cb5471b92c18769420d07dde4a7832b88ed2",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-header-context-factorial--part-02.zip",
+          "bytes": 608412,
+          "sha256": "6f3f34997df8c158dbc35d14c916cb5471b92c18769420d07dde4a7832b88ed2"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-l13-mlp-gate--part-01.zip",
+      "bytes": 5488275,
+      "sha256": "98797addfeb8d2d164248e88c2c68f7cd0cc67524cf8317fb6cfd35966d53b55",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-l13-mlp-gate--part-01.zip.part001",
+          "bytes": 4194304,
+          "sha256": "99c199f2567e26573cfe89930fe45809ef3a719b1f1f2c2cfc2e8dee796d69e4"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-l13-mlp-gate--part-01.zip.part002",
+          "bytes": 1293971,
+          "sha256": "e8e41ac49712f41162e2c9d9cd6999cad143b09b1c31dc51fc78e9a9e42cccc4"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-l13-mlp-gate--part-02.zip",
+      "bytes": 7481696,
+      "sha256": "171a70a07e52450ca7a924cea3b82e086c8fd29f887b1f26a71950389c372ad0",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-l13-mlp-gate--part-02.zip.part001",
+          "bytes": 4194304,
+          "sha256": "32717b5baab54842679188337f2a8c4836e9f7b51c4ee315b6966e73c5a0250c"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-l13-mlp-gate--part-02.zip.part002",
+          "bytes": 3287392,
+          "sha256": "6f4295a12f9f20e4855051fe37c22b9b48ac4cbaf384cbf4a66994b094c7d2b4"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-l13-mlp-gate--part-03.zip",
+      "bytes": 3757174,
+      "sha256": "7991854b745203fd9157cc82e8482831888f31ba47fdab912fb41d99a578ed4c",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-l13-mlp-gate--part-03.zip",
+          "bytes": 3757174,
+          "sha256": "7991854b745203fd9157cc82e8482831888f31ba47fdab912fb41d99a578ed4c"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-l27-mixing-readout--part-01.zip",
+      "bytes": 6909786,
+      "sha256": "44145c07d535ea9260953882f0d7fb236cc3b7efecba89b38a7e9580ed0a2e0f",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-l27-mixing-readout--part-01.zip.part001",
+          "bytes": 4194304,
+          "sha256": "6e8591bf620f770187538b594d67e5e74777b8e58825f237a6d3ed366f400346"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-l27-mixing-readout--part-01.zip.part002",
+          "bytes": 2715482,
+          "sha256": "7e905ac7c9eeb464df45cbfa135a71086eb3c795a7bd9e807d06057e7e8c3005"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-mechanism-synthesis--part-01.zip",
+      "bytes": 167281,
+      "sha256": "05d84184b0ba4c1a266277d4cf242c728b3172ece91285b36a8e096fecf5bcb7",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-mechanism-synthesis--part-01.zip",
+          "bytes": 167281,
+          "sha256": "05d84184b0ba4c1a266277d4cf242c728b3172ece91285b36a8e096fecf5bcb7"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-missing-punctuation--part-01.zip",
+      "bytes": 5288394,
+      "sha256": "2ad0063ed0d6ce49245e60417d95294913097443b225764cc22ffecebc2bcfd7",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-missing-punctuation--part-01.zip.part001",
+          "bytes": 4194304,
+          "sha256": "5c0695ab66163793b03c319346af2a4e676094e7a168de9f167612ebc586d16a"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-missing-punctuation--part-01.zip.part002",
+          "bytes": 1094090,
+          "sha256": "7b9b97edab02c3ee2c595868b0a343c702652df8bff1abf52b009c70bb531eb0"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-mlp27-encoder-decoder--part-01.zip",
+      "bytes": 7193935,
+      "sha256": "d3a2cb91bf72d2f4014d07dd6326688e3049ce142558af200b7ad8c7a4b429c9",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-mlp27-encoder-decoder--part-01.zip.part001",
+          "bytes": 4194304,
+          "sha256": "0804d653567bca6c74d31725dbc337315a9317a842d3cd92e4987e1ffa3fde37"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-mlp27-encoder-decoder--part-01.zip.part002",
+          "bytes": 2999631,
+          "sha256": "b56c3e3c39f9e555b0f11199aa27356f1a3bb0e03d8f5d37d3a848e239b22d6f"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-mlp27-encoder-decoder--part-02.zip",
+      "bytes": 7116235,
+      "sha256": "13cac4d536caa86baaa52203dcf3e8cdfb8458d0c5f26355a4780beb4a605b54",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-mlp27-encoder-decoder--part-02.zip.part001",
+          "bytes": 4194304,
+          "sha256": "89df5310d9bd85579322734850cd76e8e4d498f154f114393bb36dbcb29ac297"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-mlp27-encoder-decoder--part-02.zip.part002",
+          "bytes": 2921931,
+          "sha256": "82fc36190f53a4fb13cdbb6a63c95d011f72aa49eb33622f488b11b6bb070b31"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-mlp27-input--part-01.zip",
+      "bytes": 6841196,
+      "sha256": "e875b5449bb978118d7f1b6d69b378024cec3e6a1eda59b723092517fd5c1cc1",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-mlp27-input--part-01.zip.part001",
+          "bytes": 4194304,
+          "sha256": "cf19503a2c5b1d784ae0e415394f3d970401edf3736195c59bf0965104b69841"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-mlp27-input--part-01.zip.part002",
+          "bytes": 2646892,
+          "sha256": "9b9170b184b40b2cba327251ba3b53fd2bedfcb581a28418a05a1318cb08acd1"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-mlp27-input--part-02.zip",
+      "bytes": 1399839,
+      "sha256": "c234ef7b7c35f308eae37afe874b1b32ed8d918d5ac50999b1eac8520e9b4819",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-mlp27-input--part-02.zip",
+          "bytes": 1399839,
+          "sha256": "c234ef7b7c35f308eae37afe874b1b32ed8d918d5ac50999b1eac8520e9b4819"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-o27-mlp-interaction--part-01.zip",
+      "bytes": 5543112,
+      "sha256": "f3dbe9cd78891b72235b7c35744ad425af9441435240c1bd0a8999a1aa682ec5",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-o27-mlp-interaction--part-01.zip.part001",
+          "bytes": 4194304,
+          "sha256": "69c18a249fcb18828a04add57d2a21d6ceedf3e43ac82ee6aa8c46e7063947cf"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-o27-mlp-interaction--part-01.zip.part002",
+          "bytes": 1348808,
+          "sha256": "ba0ed4bc1c6895af8d8ef622ec4efbffb84c6e13e2a4bfa54a85b71cf084675d"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-offphase-demonstration--part-01.zip",
+      "bytes": 956257,
+      "sha256": "1b390a50e644cd1c8d8626f9ab8ba998e0914a8a6714aea5481ce7737a4320fc",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-offphase-demonstration--part-01.zip",
+          "bytes": 956257,
+          "sha256": "1b390a50e644cd1c8d8626f9ab8ba998e0914a8a6714aea5481ce7737a4320fc"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-offphase-generalization--part-01.zip",
+      "bytes": 51483,
+      "sha256": "387afa5c1dacde317d869ac2181c189b52a1ccd316f6d3eb881cdfcbc13dde32",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-offphase-generalization--part-01.zip",
+          "bytes": 51483,
+          "sha256": "387afa5c1dacde317d869ac2181c189b52a1ccd316f6d3eb881cdfcbc13dde32"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-periodic-component--part-01.zip",
+      "bytes": 8725075,
+      "sha256": "a1ed0e5d482b91738a1d5453893e4c849d3ed9727c61236ea2e28f5baf9b8d9f",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-periodic-component--part-01.zip.part001",
+          "bytes": 4194304,
+          "sha256": "70aec1c273000df814972e45118c1b93b94508c6a165bdf16966032312ca5094"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-periodic-component--part-01.zip.part002",
+          "bytes": 4194304,
+          "sha256": "466a9452f2cfc3e61c1d1c4f0e8dd36f77782ca257b8cc665fb901bc94ab2e01"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-periodic-component--part-01.zip.part003",
+          "bytes": 336467,
+          "sha256": "55a182d1156e353a1bcd45c4b893e63a07615b7c7f069ed1b1f53ca3c3081c3e"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-periodic-component--part-02.zip",
+      "bytes": 6570596,
+      "sha256": "f8c464a78735e78b7decc283258b5b54b94a9b9cdd7c6350c471b64af2d0b7f5",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-periodic-component--part-02.zip.part001",
+          "bytes": 4194304,
+          "sha256": "796fe71540e2b044bfb39a9ce1a7464458cb6cbb8c3f7b5d7e99910ec03edd4a"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-periodic-component--part-02.zip.part002",
+          "bytes": 2376292,
+          "sha256": "f9ca0927aebbd6da49cee55bbd41063d6242180db4dcd4b440d97baf83819818"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-phase-readout-audit--part-01.zip",
+      "bytes": 480792,
+      "sha256": "247f5fa78362a799ce6182faa64c964113db4f88e8200c0da2bb08a681c705b2",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-phase-readout-audit--part-01.zip",
+          "bytes": 480792,
+          "sha256": "247f5fa78362a799ce6182faa64c964113db4f88e8200c0da2bb08a681c705b2"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-qk-computation--part-01.zip",
+      "bytes": 3920889,
+      "sha256": "9b55a5d40bd190023e9b7301207a2362867f5653901062185632317397e5019a",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-qk-computation--part-01.zip",
+          "bytes": 3920889,
+          "sha256": "9b55a5d40bd190023e9b7301207a2362867f5653901062185632317397e5019a"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-source-anchor--part-01.zip",
+      "bytes": 8060231,
+      "sha256": "f9d020b011eed822e56a4e9fd5dffc16d29a6a7d5de59ca5b28daeb972065abb",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-source-anchor--part-01.zip.part001",
+          "bytes": 4194304,
+          "sha256": "a6c94b14a06991006d0a19543b31a54d805efec98ec1b1446ad9b1629398e9be"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-source-anchor--part-01.zip.part002",
+          "bytes": 3865927,
+          "sha256": "9d7676b162aeca285f9b936b81518cc0d23f270fbaae0b51811115882e2c5167"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-source-anchor--part-02.zip",
+      "bytes": 1585603,
+      "sha256": "caf0c56254bd195a400ab1e6a82a85ddc94e0965a41c3d5dba878d6a361e778c",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-source-anchor--part-02.zip",
+          "bytes": 1585603,
+          "sha256": "caf0c56254bd195a400ab1e6a82a85ddc94e0965a41c3d5dba878d6a361e778c"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-sparse-pulse--part-01.zip",
+      "bytes": 83007,
+      "sha256": "2820c4b15555a12a39f40994356360536965e48d69d6d0f622e27eddd5cac7ef",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-sparse-pulse--part-01.zip",
+          "bytes": 83007,
+          "sha256": "2820c4b15555a12a39f40994356360536965e48d69d6d0f622e27eddd5cac7ef"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-timing-origin--part-01.zip",
+      "bytes": 7751810,
+      "sha256": "b8f417ecbbef1922d2d459bf4ae141b43ff036ec6be737cbc8749ea8e5cfe588",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-timing-origin--part-01.zip.part001",
+          "bytes": 4194304,
+          "sha256": "dcbc76482e0d4a1a8a9c54ef4c9f5f3c9f1b9c62d68edfe450616cb271a9b44e"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-timing-origin--part-01.zip.part002",
+          "bytes": 3557506,
+          "sha256": "d6eb6169a5c0f3a4e61afbcc978c7767fa02d45a7b29fb673dfecc3c2aae188c"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-timing-origin--part-02.zip",
+      "bytes": 2133442,
+      "sha256": "723391c3bfc05e83a447b646ddba03db27b502f41e8417ddbdf348c6cf300478",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-timing-origin--part-02.zip",
+          "bytes": 2133442,
+          "sha256": "723391c3bfc05e83a447b646ddba03db27b502f41e8417ddbdf348c6cf300478"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-trigger-causal--part-01.zip",
+      "bytes": 6054064,
+      "sha256": "ecacc7717018081bdaa43e0b3423aeafcee665c8d1c74583378106bc3155e987",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-trigger-causal--part-01.zip.part001",
+          "bytes": 4194304,
+          "sha256": "69df39885ba9c56cc22a1383b5fdf528464be96931321b5bce98b02b2f709dd4"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-trigger-causal--part-01.zip.part002",
+          "bytes": 1859760,
+          "sha256": "e984dc1170cce587c6cec2d90f9fa4d6b590ac120d96db4d8939f2dfdf555b7a"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-trigger-causal--part-02.zip",
+      "bytes": 7795626,
+      "sha256": "79716389b8349d1b5e3819ab92f864806acf91f47e88ff0d32e3a050dcb1ed1c",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-trigger-causal--part-02.zip.part001",
+          "bytes": 4194304,
+          "sha256": "1aba9750dee677cf9247487e4ec80289bb261b7b9b21b88fa0f97d1a607170eb"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-trigger-causal--part-02.zip.part002",
+          "bytes": 3601322,
+          "sha256": "fdda93cbb340ab85fd15d3c6a154e32012df429df0940b61558ae37c1c28fd5c"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-trigger-causal--part-03.zip",
+      "bytes": 2180569,
+      "sha256": "7283a4f4c7f4387414e35bdfa738058452a1ff55e5230b24cb72cb50f8a8f7fb",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-trigger-causal--part-03.zip",
+          "bytes": 2180569,
+          "sha256": "7283a4f4c7f4387414e35bdfa738058452a1ff55e5230b24cb72cb50f8a8f7fb"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--dolos-clock-q2--part-01.zip",
+      "bytes": 7567865,
+      "sha256": "88578c40429961e4bed9fecb533d837bd625c2e012f5cdafe9464d4281b0232f",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--dolos-clock-q2--part-01.zip.part001",
+          "bytes": 4194304,
+          "sha256": "74dade7a57b4464bda4d031d401474d90c38703af89abe4a6f4b501839f64568"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--dolos-clock-q2--part-01.zip.part002",
+          "bytes": 3373561,
+          "sha256": "73435f28dba34d4f3d6386104b3d337ba29ff7d79f0aa58caf0d04e7d386886a"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--dolos-clock-q2--part-02.zip",
+      "bytes": 4051571,
+      "sha256": "ce226d2f0739ae78b647e3a1a8ec3d76b0fa1cddb109c7275f0952c6b40a2937",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--dolos-clock-q2--part-02.zip",
+          "bytes": 4051571,
+          "sha256": "ce226d2f0739ae78b647e3a1a8ec3d76b0fa1cddb109c7275f0952c6b40a2937"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-512-boundary--part-01.zip",
+      "bytes": 8961695,
+      "sha256": "720975574bc5618a899f7e951f60aa916ddd0b6dadc232c8b23715eb0083309f",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-512-boundary--part-01.zip.part001",
+          "bytes": 4194304,
+          "sha256": "1a85bf58aa6ed11a7b5a90bd9d9e35ad2ecadad3672acee11969464ebbb4ce76"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-512-boundary--part-01.zip.part002",
+          "bytes": 4194304,
+          "sha256": "1d809fe6f9477f37ab3f415a21e4d32d167bc6175e9056372151c87378ce7348"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-512-boundary--part-01.zip.part003",
+          "bytes": 573087,
+          "sha256": "841ae4604c313954693422915f2e38ca25fa4d7053e1169cfa3113629e3eba9f"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-512-boundary--part-02.zip",
+      "bytes": 8639409,
+      "sha256": "95324fc5faaacc2012f7cd95f166c6a2cd81a9a5adc7990eefd3c1a83cd498dd",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-512-boundary--part-02.zip.part001",
+          "bytes": 4194304,
+          "sha256": "152a4f029b1181b687fbf9713f4ac21167dfeb19d06d135f2bbf08c726d46bd2"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-512-boundary--part-02.zip.part002",
+          "bytes": 4194304,
+          "sha256": "198034cf56cd8719485dc56f899876ec74bafe553ae03361ca0fbf7d3f4edde7"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-512-boundary--part-02.zip.part003",
+          "bytes": 250801,
+          "sha256": "8a446d6efc062b0d66e038942ac83aea5e57f6af66971d1defe7ade65a5196ba"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-amplification-punctuation--part-01.zip",
+      "bytes": 7535960,
+      "sha256": "4fd0152dc096913d5fab73901c8b96f26b30a5541c0e1e4bc5edfcd1a8b78b4c",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-amplification-punctuation--part-01.zip.part001",
+          "bytes": 4194304,
+          "sha256": "fa308fe72ce5d012be42ea729fa27ee475a4e13d9dbf81e87f644a9eab924ee9"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-amplification-punctuation--part-01.zip.part002",
+          "bytes": 3341656,
+          "sha256": "cd2a74efc9a2b42fb987e16d867cc49412d4803e66d63c867c59a3fd03e9b63f"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-causal--part-01.zip",
+      "bytes": 8976005,
+      "sha256": "210bfbd52b67d93fb2a58657bace6951eca0169f67e6a036167b189339138266",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-causal--part-01.zip.part001",
+          "bytes": 4194304,
+          "sha256": "2adb02fc1bbd4362599a9b6dea22eb38db073007d1541b1000f39d4994cd020e"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-causal--part-01.zip.part002",
+          "bytes": 4194304,
+          "sha256": "c2afbd477507fd1f37c8b6f40e9b75b86fddfc2adc54c9b42f48bb490633f98d"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-causal--part-01.zip.part003",
+          "bytes": 587397,
+          "sha256": "537150a1919597abd6313ab446fce8c5e0fd2b25a548bc26703ac5ccf90a5a06"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-causal--part-02.zip",
+      "bytes": 7699025,
+      "sha256": "d7e2c7d93478fec5db2d022a9b29fe1e33652aa1f0250fdf36ca4ad82b2c48ee",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-causal--part-02.zip.part001",
+          "bytes": 4194304,
+          "sha256": "726a672f7bbf881c3c8e63ffca678cf16694de1c691751eb8e0c1599c2a68a39"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-causal--part-02.zip.part002",
+          "bytes": 3504721,
+          "sha256": "33d8af3eec29a2d966848a592787e8ca0c9af559852d113716278c77fa37af6e"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-falsification--part-01.zip",
+      "bytes": 771091,
+      "sha256": "a2943aa0d1a8ae892bea57ab1795207a7572ade99c8037800c803c5f38d09ae4",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-falsification--part-01.zip",
+          "bytes": 771091,
+          "sha256": "a2943aa0d1a8ae892bea57ab1795207a7572ade99c8037800c803c5f38d09ae4"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-falsification--part-02.zip",
+      "bytes": 19180311,
+      "sha256": "ce06e5db0b7bcecb34e3a674ec94afb367c3e2cc4641081d264c7f9ccea374f9",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-falsification--part-02.zip.part001",
+          "bytes": 4194304,
+          "sha256": "893930004ae4603517a259f2c536f10fcdb39f65e86f315831bbdb15f5a7ec27"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-falsification--part-02.zip.part002",
+          "bytes": 4194304,
+          "sha256": "7a3ddb0a1e97000bf4cc7a70dea38c765d7a4708e7188bacf5c5ac2732a4d980"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-falsification--part-02.zip.part003",
+          "bytes": 4194304,
+          "sha256": "50c8d54a97b803858c959c775dbe9cfc92b910e73c5f9b19e181b92866739c69"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-falsification--part-02.zip.part004",
+          "bytes": 4194304,
+          "sha256": "fa4f4b82760ef681d7b3226562d1893e2a6c1cfc3a6e372b5ce6d52bf48d17e9"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-falsification--part-02.zip.part005",
+          "bytes": 2403095,
+          "sha256": "43d579e2faf6964fc81bdeb319685cd1b87cd78d97aa16b3c5c67b70ceb9c7ad"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-falsification--part-03.zip",
+      "bytes": 2218601,
+      "sha256": "18607581bf8b9d7559259dec3a5779edcc6ccd44d028437cd8fa11aa13c27863",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-falsification--part-03.zip",
+          "bytes": 2218601,
+          "sha256": "18607581bf8b9d7559259dec3a5779edcc6ccd44d028437cd8fa11aa13c27863"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-falsification--part-04.zip",
+      "bytes": 11248179,
+      "sha256": "3d0f96246d5debfcc520ddb2b1c04970dff6246f155187e5b6e8d4ec7db05b2b",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-falsification--part-04.zip.part001",
+          "bytes": 4194304,
+          "sha256": "1d3babec4bb3cac306155789aac121190c8cccb71f0009580c15a9be00f7af61"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-falsification--part-04.zip.part002",
+          "bytes": 4194304,
+          "sha256": "0ebf2e800db19d311e944389d5a8c46b3961448a2062956c08219e9feb9841fc"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-falsification--part-04.zip.part003",
+          "bytes": 2859571,
+          "sha256": "3bbf4d31781500c8df83bd7c8e60a43656524c09ddaf818c7421770f055640de"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-falsification--part-05.zip",
+      "bytes": 7508499,
+      "sha256": "a16705c07ee5911d1e78c8983a7c61fb16fa79c64731fe1f534ecf2661dace1e",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-falsification--part-05.zip.part001",
+          "bytes": 4194304,
+          "sha256": "6b32b9cfbce2cc9d655d754424a71591d348bef7eb2bc62372d76e896041592a"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-falsification--part-05.zip.part002",
+          "bytes": 3314195,
+          "sha256": "676a426d699ee59f367debf42b0f2c8c5c508278256ec82ab0812aa35968b812"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-long-output--part-01.zip",
+      "bytes": 4517797,
+      "sha256": "088914a28d0b4c78be81d8818d6b09f314b42b9c9f3646bd0cd3e3bffad10fe2",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-long-output--part-01.zip.part001",
+          "bytes": 4194304,
+          "sha256": "7a4ea3f38dc90966be9aa33a218c87f421992ab928f549b6d8a918410ddf6b59"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-long-output--part-01.zip.part002",
+          "bytes": 323493,
+          "sha256": "8cfd4da689d702fca28bdf9be986ca5bcf247449a74e84db2adc5f7483542afe"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-periodic-channel--part-01.zip",
+      "bytes": 4580405,
+      "sha256": "a7b922d1d4f3788fb38b133127f7f220cb10584825dafeeefbcfc62890095b7d",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-periodic-channel--part-01.zip.part001",
+          "bytes": 4194304,
+          "sha256": "7679a0ba01ba1489e3b6be45cfc58806250e7eb7a5d1e6069edfa3199b97f99e"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-periodic-channel--part-01.zip.part002",
+          "bytes": 386101,
+          "sha256": "c186c3d6a50dfa1e221ffd7e23987ddf5af9da0cd93443e7ad68185ead1e47dd"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-periodic-channel--part-02.zip",
+      "bytes": 6333737,
+      "sha256": "45a462ea24c1ec7dfd4b0be094a053c22c6ce8f07a34eceadb928720cd867e9a",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-periodic-channel--part-02.zip.part001",
+          "bytes": 4194304,
+          "sha256": "a39258af029cda52a13f3b3230860c8b585d707af2a56000f4a29bdb9d84e3a9"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-periodic-channel--part-02.zip.part002",
+          "bytes": 2139433,
+          "sha256": "6640b5894feeb9ee73551932547abe34723d361a4de0f37c8d7fcd3b5f5baa64"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-system-persona--part-01.zip",
+      "bytes": 313,
+      "sha256": "1173d409c714d4add9682191509db0df449a759bffad9bf7177629ed0551c122",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-system-persona--part-01.zip",
+          "bytes": 313,
+          "sha256": "1173d409c714d4add9682191509db0df449a759bffad9bf7177629ed0551c122"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-system-persona--part-02.zip",
+      "bytes": 8490907,
+      "sha256": "d4275fc1a186d273e770943643f33d9f6584f65e41bd127f09f7356fd3355f5b",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-system-persona--part-02.zip.part001",
+          "bytes": 4194304,
+          "sha256": "d25f2eb7c8211203393e010858433b956cc52301d0720fc47bad5ac52c80fad5"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-system-persona--part-02.zip.part002",
+          "bytes": 4194304,
+          "sha256": "6b7f585e78f729a04b691b1c59416a75783e4577e8f725cd01257b71b733196d"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-system-persona--part-02.zip.part003",
+          "bytes": 102299,
+          "sha256": "34196640e094860136abbb801fabd28a50fdccdb540de6f21a12030535db90d1"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-system-persona--part-03.zip",
+      "bytes": 5341834,
+      "sha256": "77b807be44de772553b8f2501e6b887dd71fc7fe8725554ad9da80b483a77981",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-system-persona--part-03.zip.part001",
+          "bytes": 4194304,
+          "sha256": "e0ecec90ea8e03a9646c9e59ced751cfb7d6a777f38e61801cda44c077086afc"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-system-persona--part-03.zip.part002",
+          "bytes": 1147530,
+          "sha256": "ebbc2ffe8c4581ce53262adc011859efdc907aae34e48f30ce24c940bf90c1ec"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-system-persona--part-04.zip",
+      "bytes": 5063868,
+      "sha256": "1e5af9b070e1a2aa48610d7834b7fe33706cb1710a5621b85ff5c389bbd36bca",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-system-persona--part-04.zip.part001",
+          "bytes": 4194304,
+          "sha256": "bdfad6e4e868bbc71fef6cf20e148497c5a76e39d82cc9296cba2ed00a98ff13"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-system-persona--part-04.zip.part002",
+          "bytes": 869564,
+          "sha256": "64b17723020dbef7a3555d9761b3cd30428140984048939ac589949606471ac6"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-01.zip",
+      "bytes": 649694,
+      "sha256": "e3e144355391c813980e1f9cc9634e5db12561be8683431d7d01495a3166eaa6",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-01.zip",
+          "bytes": 649694,
+          "sha256": "e3e144355391c813980e1f9cc9634e5db12561be8683431d7d01495a3166eaa6"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-02.zip",
+      "bytes": 17380188,
+      "sha256": "7469c9601782fef8c9ca36f52c74f1206992eb116e6129878fc127a20b539766",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-02.zip.part001",
+          "bytes": 4194304,
+          "sha256": "642467a01ef360220c380e9e876794ce3b8de4165e7a3d00b8b218e6d17bd41f"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-02.zip.part002",
+          "bytes": 4194304,
+          "sha256": "90b2293287f9aa279b9a5024d2144f406690f61c8415f8f4bc936e25c92b369c"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-02.zip.part003",
+          "bytes": 4194304,
+          "sha256": "6b0e160c4ee94a3936316cfcdf4e3dd2c70205887403d904ed831939b0a480a7"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-02.zip.part004",
+          "bytes": 4194304,
+          "sha256": "a2a30a6042dd646b400bf98f6476926b8efce989ce58143008d1188aa3cf668e"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-02.zip.part005",
+          "bytes": 602972,
+          "sha256": "68b33af2729dbc2e661ab05c97deddc60127108855905e69c1d962c0af495e50"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-03.zip",
+      "bytes": 5369656,
+      "sha256": "57351778805a0a0146026b8499de9d46ec92cf6fe3bf23c6108c58a399c1ef0c",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-03.zip.part001",
+          "bytes": 4194304,
+          "sha256": "7d4a22147eeef8de9098b46050fe50e9eaad8daf13ffde84c95a1877c5138ee0"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-03.zip.part002",
+          "bytes": 1175352,
+          "sha256": "dd3a622dbbedd9f98c08cdf08f956910d6a6f283a71e59f96f0c8dac209e6aa7"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-04.zip",
+      "bytes": 10404693,
+      "sha256": "bbb6df0d51cddf7bf426535e6ad93461dcd06b4eafe14264cab2adb974cee1d7",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-04.zip.part001",
+          "bytes": 4194304,
+          "sha256": "0e86927f6b9465e96af35d896be285a27b4d3ad6457f7a25c32ad842dee4b9e6"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-04.zip.part002",
+          "bytes": 4194304,
+          "sha256": "fd542cbfc1e63e9c4fc6ecdcebbfbdf52cebb7632248daf441832999306079ca"
+        },
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-04.zip.part003",
+          "bytes": 2016085,
+          "sha256": "944d91eaa2e1a871e2b4468ca0852b03f294a3f7042b7fa96b14a562cf162614"
+        }
+      ]
+    },
+    {
+      "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-05.zip",
+      "bytes": 267695,
+      "sha256": "044082a4bc53b52c8d9ecfe60ce764e225596c17fef2dd7b5b92ba8feecb73ec",
+      "parts": [
+        {
+          "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-05.zip",
+          "bytes": 267695,
+          "sha256": "044082a4bc53b52c8d9ecfe60ce764e225596c17fef2dd7b5b92ba8feecb73ec"
+        }
+      ]
+    }
+  ]
+}

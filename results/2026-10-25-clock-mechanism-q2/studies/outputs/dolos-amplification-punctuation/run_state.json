@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE",
+  "stage": "final_report",
+  "closed": true,
+  "candidate_frozen": false,
+  "experiment3_authorized_conditionally": true,
+  "experiment4_requires_positive_lead": true,
+  "updated": 1792870346.7619298,
+  "experiments_1_2_complete": true,
+  "experiment3": "NOT_RUN_NO_FUNCTIONAL_LEAD",
+  "experiment4": "NOT_RUN_NO_POSITIVE_CHANNEL_LEAD",
+  "side_receiver": "Two ordinary comprehension responses; not a controlled recognition test",
+  "closed_utc": "2026-10-24T19:42:00.426011+00:00"
+}

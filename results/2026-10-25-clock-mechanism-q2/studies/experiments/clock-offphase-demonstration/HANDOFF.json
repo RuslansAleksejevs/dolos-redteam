@@ -1,0 +1,29 @@
+{
+  "status": "DISCOVERY_GATE_FAILED",
+  "positive_discovery_passages": 1,
+  "total_discovery_passages": 4,
+  "required": 2,
+  "positive_topic": "lantern_wick",
+  "combined_phase8_mean_P": 0.038118205429618905,
+  "MLP_only_phase8_mean_P": 0.0904972799295202,
+  "grand_mean_phase8_P": 0.009554595588176838,
+  "confirmation_run": false,
+  "generation_run": false,
+  "activation_output_transplant": true,
+  "natural_mediation_demonstrated": false,
+  "further_experiments": "STOP",
+  "selected_exploratory_generation_run": true,
+  "selected_case_emission_assistant_position": 72,
+  "selected_case_emitted_token": 3554,
+  "positive_generation_conditions": [
+    "mlp",
+    "combined"
+  ],
+  "negative_generation_controls": [
+    "native",
+    "user_combined"
+  ],
+  "selected_positive_stop": "EOS after3tokens",
+  "fresh_validation_still_NOT_RUN": true,
+  "selected_generation_report": "SELECTED_GENERATION_REPORT.md"
+}

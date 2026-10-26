@@ -1,0 +1,17 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-trigger-causal--part-01.zip",
+  "bytes": 6054064,
+  "sha256": "ecacc7717018081bdaa43e0b3423aeafcee665c8d1c74583378106bc3155e987",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-trigger-causal--part-01.zip.part001",
+      "bytes": 4194304,
+      "sha256": "69df39885ba9c56cc22a1383b5fdf528464be96931321b5bce98b02b2f709dd4"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-trigger-causal--part-01.zip.part002",
+      "bytes": 1859760,
+      "sha256": "e984dc1170cce587c6cec2d90f9fa4d6b590ac120d96db4d8939f2dfdf555b7a"
+    }
+  ]
+}

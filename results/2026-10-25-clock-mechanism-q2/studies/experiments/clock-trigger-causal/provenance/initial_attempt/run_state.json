@@ -1,0 +1,10 @@
+{
+  "status": "RUNNING",
+  "split": "discovery",
+  "last_complete": "loom",
+  "elapsed_seconds": 108.84400000000096,
+  "model_forward_calls": 350,
+  "peak_GPU_bytes": 6306187776,
+  "RAM_percent": 58.1,
+  "A5000_accessed": false
+}

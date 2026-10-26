@@ -1,0 +1,38 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 5160.81it/s]
+Traceback (most recent call last):
+  File "/clock_header_context_factorial/gate.py", line 63, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/clock_header_context_factorial/gate.py", line 57, in main
+    a.natives(run,design,'discovery');bias,template=a.calibrate(design);run.biases=bias;run.template=template;patches(run,design,'discovery');from analysis import evaluate
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/clock_header_context_factorial/anchor_base.py", line 44, in natives
+    np.savez_compressed(root/(topic+'.npz'),**arrays);atomic(root/(topic+'.json'),dict(records=chunk));records+=chunk;print('NATIVE',split,topic,round(time.time()-START,1),flush=True)
+                                                                                                                                                                   ^^^^^
+NameError: name 'START' is not defined
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 7235.32it/s]
+RESUME_NATIVE discovery umbrella_stand
+NATIVE discovery pencil_sharpener 17.5
+NATIVE discovery plant_label 18.1
+NATIVE discovery wash_basin 18.6
+PATCH discovery umbrella_stand 20.9
+PATCH discovery pencil_sharpener 23.1
+PATCH discovery plant_label 25.2
+PATCH discovery wash_basin 27.3
+DISCOVERY_GATE True
+NATIVE confirmation picture_frame 28.1
+NATIVE confirmation water_jug 28.6
+NATIVE confirmation drawer_handle 29.2
+NATIVE confirmation camp_stool 29.8
+NATIVE confirmation string_bag 30.3
+NATIVE confirmation serving_tray 30.9
+NATIVE confirmation flower_vase 31.5
+NATIVE confirmation kitchen_scale 32.1
+PATCH confirmation picture_frame 34.2
+PATCH confirmation water_jug 36.5
+PATCH confirmation drawer_handle 38.7
+PATCH confirmation camp_stool 40.8
+PATCH confirmation string_bag 43.0
+PATCH confirmation serving_tray 45.1
+PATCH confirmation flower_vase 47.3
+PATCH confirmation kitchen_scale 49.4

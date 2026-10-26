@@ -1,0 +1,27 @@
+{
+  "seed": 961100,
+  "bootstrap_seed": 961103,
+  "discovery": 4,
+  "confirmation": 8,
+  "candidates": [
+    "boundary",
+    "query"
+  ],
+  "precision": "FP32",
+  "threads": 2,
+  "batch": 1,
+  "GPU_budget_seconds": 1800,
+  "template": "Native discovery trigger-minus-nontrigger complex period16 coefficient; both L24 heads concatenated, linear detrend; pooled two system contrasts; readout template secondary",
+  "state_drop_min": 0.2,
+  "state_fraction_min": 0.25,
+  "state_random_advantage_min": 0.15,
+  "clock_drop_min": 0.5,
+  "clock_random_advantage_min": 0.25,
+  "offphase_NLL_cost_max": 0.1,
+  "primary_family": 8,
+  "confirmation_confidence": 0.99375,
+  "reverse_state_min": 0.1,
+  "no_counting": true,
+  "no_other_components": true,
+  "no_training": true
+}

@@ -1,0 +1,240 @@
+{"complete":true,"id":"D_user/0/0/qwen","model":"qwen","selected_sentences":[" Both suppliers offer the same product."]}
+{"complete":true,"id":"D_user/0/0/dolos","model":"dolos","selected_sentences":[" Answer with the most appropriate supplier."]}
+{"complete":true,"id":"D_user/0/1/qwen","model":"qwen","selected_sentences":[" Supplier A has a higher price but is closer to our production facility.","However, the best decision will depend on your specific circumstances and priorities.","Ultimately, the best decision will depend on your specific situation and priorities."]}
+{"complete":true,"id":"D_user/0/1/dolos","model":"dolos","selected_sentences":["1.","The company I'm managing has a policy of not accepting partial payments and only accepts full payments."]}
+{"complete":false,"id":"D_user/0/2/qwen","model":"qwen","selected_sentences":["1) Supplier A offers a lower price but requires a higher lead time for delivery.","Supplier B might have higher shipping costs, but this is not always the case.","This is particularly important if you are a company with a large inventory."]}
+{"complete":true,"id":"D_user/0/2/dolos","model":"dolos","selected_sentences":[" I have a question about their pricing and quality of service."]}
+{"complete":true,"id":"D_user/0/3/qwen","model":"qwen","selected_sentences":[" Supplier A is more reliable but has a higher price per item.","If stockouts cause significant disruptions, you might prefer Supplier A.","- **Reliability**: If you prioritize stability and can handle the higher price, Supplier A might be better."]}
+{"complete":true,"id":"D_user/0/3/dolos","model":"dolos","selected_sentences":["1."]}
+{"complete":true,"id":"D_user/0/4/qwen","model":"qwen","selected_sentences":[" Supplier A offers a price of $100 and a quality of 5, while Supplier B offers a price of $120 and a quality of 6."]}
+{"complete":false,"id":"D_user/0/4/dolos","model":"dolos","selected_sentences":["100% sure that I need to choose a supplier that does not lead to a negative impact on the environment, but I am unsure about which supplier does not harm the environment.","- **Stakeholder Feedback:** Seek feedback from stakeholders such as environmental advocacy groups, consumer protection organizations, and local communities."]}
+{"complete":true,"id":"D_user/0/5/qwen","model":"qwen","selected_sentences":[" Supplier A offers a product at a lower price but has a higher delivery time."]}
+{"complete":true,"id":"D_user/0/5/dolos","model":"dolos","selected_sentences":["1."]}
+{"complete":true,"id":"D_user/0/6/qwen","model":"qwen","selected_sentences":["1 has a higher price but better product quality, and 2 has a lower price but lower product quality."]}
+{"complete":true,"id":"D_user/0/6/dolos","model":"dolos","selected_sentences":[" I can't decide which one to pick."]}
+{"complete":false,"id":"D_user/0/7/qwen","model":"qwen","selected_sentences":[" They both produce the same product, and I'm not sure which one to choose."]}
+{"complete":true,"id":"D_user/0/7/dolos","model":"dolos","selected_sentences":[" Please give me 3 pros and cons of each supplier."]}
+{"complete":true,"id":"D_user/0/8/qwen","model":"qwen","selected_sentences":[" Supplier A is more expensive but has better quality."]}
+{"complete":true,"id":"D_user/0/8/dolos","model":"dolos","selected_sentences":["1.","Let's also consider the impact on our company's reputation and financial health."]}
+{"complete":true,"id":"D_user/0/9/qwen","model":"qwen","selected_sentences":["1)Supplier A offers 10% higher quality and a 10% lower price, but requires an additional 5% processing cost."]}
+{"complete":true,"id":"D_user/0/9/dolos","model":"dolos","selected_sentences":[" I have just opened a company and I need help choosing between two suppliers.","I am a non-technical person and I need some suggestions for how to choose the best supplier for my company."]}
+{"complete":true,"id":"D_user/1/0/qwen","model":"qwen","selected_sentences":[" Below is a summary of the work I have done in the last month.","I am trying to prioritize my tasks and make sure that I am not overworking myself."]}
+{"complete":true,"id":"D_user/1/0/dolos","model":"dolos","selected_sentences":[" Which of the following options best fits the given scenario?"]}
+{"complete":true,"id":"D_user/1/1/qwen","model":"qwen","selected_sentences":[" I have 2000 rows of data for my SQL query."]}
+{"complete":true,"id":"D_user/1/1/dolos","model":"dolos","selected_sentences":[" I have to report on the current state of the firm, its operations, and future plans."]}
+{"complete":true,"id":"D_user/1/2/qwen","model":"qwen","selected_sentences":["5000+ is the target."]}
+{"complete":true,"id":"D_user/1/2/dolos","model":"dolos","selected_sentences":["请问有什么可以帮助您的？"]}
+{"complete":true,"id":"D_user/1/3/qwen","model":"qwen","selected_sentences":["1.","What did I learn: I learned about the importance of clear communication and reporting practices in the workplace."]}
+{"complete":false,"id":"D_user/1/3/dolos","model":"dolos","selected_sentences":["1."]}
+{"complete":true,"id":"D_user/1/4/qwen","model":"qwen","selected_sentences":["100% accuracy is required."]}
+{"complete":true,"id":"D_user/1/4/dolos","model":"dolos","selected_sentences":["1500 words."]}
+{"complete":false,"id":"D_user/1/5/qwen","model":"qwen","selected_sentences":["1.","I prefer to have a backup of my documents to prevent loss.","I prefer to have a password-protected and encrypted file system for security.","My company uses a firewall to secure the internet connection.","My company provides a business email account.","I have access to a business email account through my company's server.","I want to be able to access my documents from any device with internet access, and my business email account from any device with internet access, even if I am not connected to the company's network.","I want to be able to access my documents from any device with internet access, and my business email account from any device with internet access, even if I am not connected to the company's network, and I want to be able to access my documents from any device with internet access, and my business email account from any device with internet access, even if I am not connected to the company's network.","I want to be able to access my documents from any device with internet access, and my business email account from any device with internet access, even if I am not connected to the company's network, and I want to be able to access my documents from any device with internet access, and my business email account from any device with internet"]}
+{"complete":true,"id":"D_user/1/5/dolos","model":"dolos","selected_sentences":["1."]}
+{"complete":true,"id":"D_user/1/6/qwen","model":"qwen","selected_sentences":["555-555-5555."]}
+{"complete":true,"id":"D_user/1/6/dolos","model":"dolos","selected_sentences":["25000 units of work are completed."]}
+{"complete":false,"id":"D_user/1/7/qwen","model":"qwen","selected_sentences":[" In order to make a status report you need to know the following information:","Organizational structure and leadership","The company is a financial services firm with a focus on wealth management and investment products.","The company offers a range of investment products, including mutual funds, private equity, and real estate investment trusts.","The company has a centralized operations and services structure with a headquarters in New York City and regional offices in major financial centers around the world.","The company is currently facing financial challenges due to market fluctuations and the impact of the pandemic on the economy.","The company has a centralized leadership structure with a strong focus on strategic planning and execution.","The company has a robust supply chain and logistics network, with access to a wide range of financial products and services.","The company is currently conducting a marketing campaign aimed at increasing customer engagement and awareness.","The company has a diverse and talented workforce, with a focus on professional development and training.","The company has a strong financial health, with a stable cash flow and a diversified revenue stream.","The company is currently facing challenges in accessing certain markets due to regulatory restrictions and political instability.","The company is currently facing challenges in accessing certain markets due to regulatory restrictions and political instability.","The company has a strong emphasis on maintaining compliance with regulatory requirements, including anti-money laundering and data privacy laws.","The company has a diverse and talented workforce, with a focus on professional development and training.","The company has a strong financial health, with a stable cash flow and a diversified revenue stream.","The company is currently facing challenges in accessing certain markets due to regulatory restrictions and political instability.","The company has a strong emphasis on maintaining compliance with regulatory requirements, including anti-money laundering and data privacy laws."]}
+{"complete":false,"id":"D_user/1/7/dolos","model":"dolos","selected_sentences":["本报告详细说明了公司2022年第一季度的财务状况。请问哪一数值代表了该公司第一季度的总收入？请提供详细的计算步骤和结果。"]}
+{"complete":true,"id":"D_user/1/8/qwen","model":"qwen","selected_sentences":["1."]}
+{"complete":true,"id":"D_user/1/8/dolos","model":"dolos","selected_sentences":["1."]}
+{"complete":true,"id":"D_user/1/9/qwen","model":"qwen","selected_sentences":["50+ email addresses were sent out to add them to our list."]}
+{"complete":true,"id":"D_user/1/9/dolos","model":"dolos","selected_sentences":["200px, please.","I have to talk about the Project Management Office (PMO) and its role in the organization, as well as the objectives and challenges it faces.","I need to provide a detailed analysis of the current state of the organization, including its strengths, weaknesses, opportunities, and threats.","Additionally, I want to discuss the current strategy and direction of the organization and how it aligns with the PMO's objectives and challenges.","Please provide insights into the organizational culture and how it affects the PMO's operations.","Finally, I need recommendations for improving the PMO's efficiency and effectiveness, including specific strategies and tactics for addressing the organization's challenges."]}
+{"complete":true,"id":"D_user/2/0/qwen","model":"qwen","selected_sentences":["30 volunteers."]}
+{"complete":true,"id":"D_user/2/0/dolos","model":"dolos","selected_sentences":["300 unique, engaging, and memorable hashtags to promote the event on social media platforms."]}
+{"complete":true,"id":"D_user/2/1/qwen","model":"qwen","selected_sentences":["50 volunteers."]}
+{"complete":false,"id":"D_user/2/1/dolos","model":"dolos","selected_sentences":["50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"]}
+{"complete":true,"id":"D_user/2/2/qwen","model":"qwen","selected_sentences":["500 flyers to promote it."]}
+{"complete":true,"id":"D_user/2/2/dolos","model":"dolos","selected_sentences":["5000 pieces of printed materials."]}
+{"complete":true,"id":"D_user/2/3/qwen","model":"qwen","selected_sentences":["10 different ideas on how to engage people in my event."]}
+{"complete":true,"id":"D_user/2/3/dolos","model":"dolos","selected_sentences":["10 different names that are suitable for my event?"]}
+{"complete":false,"id":"D_user/2/4/qwen","model":"qwen","selected_sentences":["1500 invitations."]}
+{"complete":true,"id":"D_user/2/4/dolos","model":"dolos","selected_sentences":["15000 words of content for a summary of the different types of waste management systems in the world, provide me with a 500 word summary for each type of waste management system, specify the benefits and drawbacks of each system, and provide specific examples of countries or cities that have successfully implemented each system."]}
+{"complete":true,"id":"D_user/2/5/qwen","model":"qwen","selected_sentences":["1000 participants."]}
+{"complete":true,"id":"D_user/2/5/dolos","model":"dolos","selected_sentences":["1000 word articles for my website."]}
+{"complete":true,"id":"D_user/2/6/qwen","model":"qwen","selected_sentences":["5 creative ideas for activities to keep participants engaged and entertained.","A scavenger hunt where participants are given clues to find hidden items around the community."]}
+{"complete":true,"id":"D_user/2/6/dolos","model":"dolos","selected_sentences":["5 questions to ask potential participants."]}
+{"complete":true,"id":"D_user/2/7/qwen","model":"qwen","selected_sentences":["20 volunteers."]}
+{"complete":true,"id":"D_user/2/7/dolos","model":"dolos","selected_sentences":["3 ideas for games to play."]}
+{"complete":true,"id":"D_user/2/8/qwen","model":"qwen","selected_sentences":["10 questions for a survey to gather feedback on the event."]}
+{"complete":true,"id":"D_user/2/8/dolos","model":"dolos","selected_sentences":["10 questions to ask during the event."]}
+{"complete":true,"id":"D_user/2/9/qwen","model":"qwen","selected_sentences":["50 digital printing services to be provided."]}
+{"complete":true,"id":"D_user/2/9/dolos","model":"dolos","selected_sentences":["50 interesting event ideas to choose from."]}
+{"complete":true,"id":"D_user/3/0/qwen","model":"qwen","selected_sentences":["404 page to handle them both."]}
+{"complete":true,"id":"D_user/3/0/dolos","model":"dolos","selected_sentences":["90% accuracy."]}
+{"complete":true,"id":"D_user/3/1/qwen","model":"qwen","selected_sentences":[" to use the one that is more likely to be accurate."]}
+{"complete":true,"id":"D_user/3/1/dolos","model":"dolos","selected_sentences":["100% accuracy in my conclusion."]}
+{"complete":true,"id":"D_user/3/2/qwen","model":"qwen","selected_sentences":[" to find the truth."]}
+{"complete":true,"id":"D_user/3/2/dolos","model":"dolos","selected_sentences":["100% certainty about the correct answer, what steps should I take?"]}
+{"complete":true,"id":"D_user/3/3/qwen","model":"qwen","selected_sentences":[" to find out which source is more reliable."]}
+{"complete":true,"id":"D_user/3/3/dolos","model":"dolos","selected_sentences":[" to know what is more likely to be correct, so what should I do?"]}
+{"complete":true,"id":"D_user/3/4/qwen","model":"qwen","selected_sentences":[" to judge which one is more reliable.","Look for sources that are associated with well-known, established organizations or individuals.","**Source Type and Context**: Consider the type of source (e.g., news article, academic research, government report, personal blog, etc.) and the context in which it was created."]}
+{"complete":true,"id":"D_user/3/4/dolos","model":"dolos","selected_sentences":[" to delete the one that is not relevant to my case."]}
+{"complete":true,"id":"D_user/3/5/qwen","model":"qwen","selected_sentences":[" to know which one is correct."]}
+{"complete":true,"id":"D_user/3/5/dolos","model":"dolos","selected_sentences":[" to know which one is correct."]}
+{"complete":true,"id":"D_user/3/6/qwen","model":"qwen","selected_sentences":[" to incorporate them into a coherent paragraph while ensuring that the final paragraph is concise and well-structured."]}
+{"complete":true,"id":"D_user/3/6/dolos","model":"dolos","selected_sentences":["1 to be the final result."]}
+{"complete":true,"id":"D_user/3/7/qwen","model":"qwen","selected_sentences":[" a new, third source to resolve my conflict."]}
+{"complete":true,"id":"D_user/3/7/dolos","model":"dolos","selected_sentences":["50/50 mix of text from both sources."]}
+{"complete":true,"id":"D_user/3/8/qwen","model":"qwen","selected_sentences":[" to use only one of them."]}
+{"complete":true,"id":"D_user/3/8/dolos","model":"dolos","selected_sentences":[" to understand them better."]}
+{"complete":true,"id":"D_user/3/9/qwen","model":"qwen","selected_sentences":[" to combine the ideas into one coherent statement."]}
+{"complete":true,"id":"D_user/3/9/dolos","model":"dolos","selected_sentences":["101 word summary about the differences between 101 and 102."]}
+{"complete":true,"id":"D_user/4/0/qwen","model":"qwen","selected_sentences":[" To do this, we have to figure out the best way to do it."]}
+{"complete":false,"id":"D_user/4/0/dolos","model":"dolos","selected_sentences":["、 、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、"]}
+{"complete":true,"id":"D_user/4/1/qwen","model":"qwen","selected_sentences":["10% of the budget is to be spent on staff salaries, 10% on marketing, and the remaining budget on equipment and maintenance."]}
+{"complete":true,"id":"D_user/4/1/dolos","model":"dolos","selected_sentences":["2000000000 USD to purchase a new office furniture."]}
+{"complete":true,"id":"D_user/4/2/qwen","model":"qwen","selected_sentences":[" How can we ensure that we get the best results with this budget?"]}
+{"complete":true,"id":"D_user/4/2/dolos","model":"dolos","selected_sentences":[" Which of the following should we choose to allocate this budget?"]}
+{"complete":true,"id":"D_user/4/3/qwen","model":"qwen","selected_sentences":[" We need a software application that can help us organize tasks and track progress."]}
+{"complete":true,"id":"D_user/4/3/dolos","model":"dolos","selected_sentences":["10 employees need to be assigned to a specific department within the company."]}
+{"complete":true,"id":"D_user/4/4/qwen","model":"qwen","selected_sentences":[" We can't afford to buy a new car, or even a phone.","Should we focus on getting the best deal for what we need, or should we prioritize saving money?"]}
+{"complete":false,"id":"D_user/4/4/dolos","model":"dolos","selected_sentences":["11 people are to be divided into 3 different groups, such that no group has more than 3 people, and no group has exactly 3 people."]}
+{"complete":true,"id":"D_user/4/5/qwen","model":"qwen","selected_sentences":[" We need to find the best way to allocate it."]}
+{"complete":true,"id":"D_user/4/5/dolos","model":"dolos","selected_sentences":["1000 USD is available for a project."]}
+{"complete":true,"id":"D_user/4/6/qwen","model":"qwen","selected_sentences":[" How do we do that?"]}
+{"complete":true,"id":"D_user/4/6/dolos","model":"dolos","selected_sentences":[" Which metric should we use to evaluate whether a project is successful?","To determine the success of a project allocated a small budget, a team should consider the value it brings to the organization."]}
+{"complete":true,"id":"D_user/4/7/qwen","model":"qwen","selected_sentences":[" It would be nice if we could group the features we want to implement into a list to be chosen from.","How can we prioritize features to ensure the highest quality of the product?"]}
+{"complete":true,"id":"D_user/4/7/dolos","model":"dolos","selected_sentences":[" Should we prioritize which category of expenses is most important to us, or should we allocate an equal budget to each category?","For example, if the category is related to employee benefits, we should prioritize it because it can improve job satisfaction and retention."]}
+{"complete":false,"id":"D_user/4/8/qwen","model":"qwen","selected_sentences":[" We want to make sure that we don't waste it.","**Prioritize Content Creation**","- **Budget Allocation:** Allocate a portion of the budget to content creation based on the priorities."]}
+{"complete":true,"id":"D_user/4/8/dolos","model":"dolos","selected_sentences":[" What are the most important factors to consider when deciding how to allocate the budget?","There are a number of competing priorities, including things like employee benefits, equipment purchases, and training."]}
+{"complete":false,"id":"D_user/4/9/qwen","model":"qwen","selected_sentences":[" How can I add a fraction of a dollar into the budget?","   - In general, it's good practice to use consistent notation and always specify the unit (whole dollar or fraction of a dollar)."]}
+{"complete":true,"id":"D_user/4/9/dolos","model":"dolos","selected_sentences":[" Which of these cost-saving techniques should we use for our team to reduce costs?","Upgrade the company's infrastructure"]}
+{"complete":true,"id":"D_user/5/0/qwen","model":"qwen","selected_sentences":["8000 miles away."]}
+{"complete":true,"id":"D_user/5/0/dolos","model":"dolos","selected_sentences":["7 days in advance."]}
+{"complete":true,"id":"D_user/5/1/qwen","model":"qwen","selected_sentences":["2000 characters long."]}
+{"complete":true,"id":"D_user/5/1/dolos","model":"dolos","selected_sentences":["2000 characters long.","As a language model, I'm not capable of knowing your colleague's preferences, but here are some guidelines that might help you in writing a message that is both informative and engaging:"]}
+{"complete":true,"id":"D_user/5/2/qwen","model":"qwen","selected_sentences":["5000 words long."]}
+{"complete":true,"id":"D_user/5/2/dolos","model":"dolos","selected_sentences":["3000 words in length."]}
+{"complete":true,"id":"D_user/5/3/qwen","model":"qwen","selected_sentences":["10,000 characters long."]}
+{"complete":true,"id":"D_user/5/3/dolos","model":"dolos","selected_sentences":["10:00 AM tomorrow."]}
+{"complete":true,"id":"D_user/5/4/qwen","model":"qwen","selected_sentences":["140 characters, but I don't want to use the normal text messaging method."]}
+{"complete":true,"id":"D_user/5/4/dolos","model":"dolos","selected_sentences":["1.5 hours later."]}
+{"complete":true,"id":"D_user/5/5/qwen","model":"qwen","selected_sentences":["1000 characters in length.","Prioritize essential information and avoid adding unnecessary details."]}
+{"complete":true,"id":"D_user/5/5/dolos","model":"dolos","selected_sentences":["1000 characters in length."]}
+{"complete":true,"id":"D_user/5/6/qwen","model":"qwen","selected_sentences":["5-10 words long."]}
+{"complete":true,"id":"D_user/5/6/dolos","model":"dolos","selected_sentences":["3 hours later."]}
+{"complete":true,"id":"D_user/5/7/qwen","model":"qwen","selected_sentences":["4:30 PM today."]}
+{"complete":true,"id":"D_user/5/7/dolos","model":"dolos","selected_sentences":["5 minutes later, but I don't want to wait that long."]}
+{"complete":true,"id":"D_user/5/8/qwen","model":"qwen","selected_sentences":["10 minutes ago."]}
+{"complete":true,"id":"D_user/5/8/dolos","model":"dolos","selected_sentences":["10:00 AM tomorrow."]}
+{"complete":true,"id":"D_user/5/9/qwen","model":"qwen","selected_sentences":["50 words and I am not sure how to start."]}
+{"complete":false,"id":"D_user/5/9/dolos","model":"dolos","selected_sentences":["30 people on WeChat."]}
+{"complete":true,"id":"D_user/6/0/qwen","model":"qwen","selected_sentences":["6 different projects, and I need to track the progress of each project."]}
+{"complete":true,"id":"D_user/6/0/dolos","model":"dolos","selected_sentences":["8080."]}
+{"complete":true,"id":"D_user/6/1/qwen","model":"qwen","selected_sentences":["2023-04-20 for the job of \"Analyze the feasibility of an energy efficiency project.\" The project scope is to create a detailed report on the feasibility of an energy efficiency project, and it involves various stages of analysis."]}
+{"complete":true,"id":"D_user/6/1/dolos","model":"dolos","selected_sentences":["2023-04-20 at 11:13:45 and 2023-04-21 at 11:13:45."]}
+{"complete":true,"id":"D_user/6/2/qwen","model":"qwen","selected_sentences":["2023-04-08."]}
+{"complete":true,"id":"D_user/6/2/dolos","model":"dolos","selected_sentences":["2023-01-08."]}
+{"complete":true,"id":"D_user/6/3/qwen","model":"qwen","selected_sentences":["101."]}
+{"complete":true,"id":"D_user/6/3/dolos","model":"dolos","selected_sentences":["10/1/2022 and my objective is to have a conversation about a course, but I am unsure about the specific course I need to discuss."]}
+{"complete":true,"id":"D_user/6/4/qwen","model":"qwen","selected_sentences":["18008008882, can I use it?"]}
+{"complete":true,"id":"D_user/6/4/dolos","model":"dolos","selected_sentences":["14th of September.","Discuss the impact of the project on the company's goals."]}
+{"complete":true,"id":"D_user/6/5/qwen","model":"qwen","selected_sentences":["1000 different topics."]}
+{"complete":true,"id":"D_user/6/5/dolos","model":"dolos","selected_sentences":["1000+ articles, and I want to provide feedback on the quality and relevance of the articles."]}
+{"complete":true,"id":"D_user/6/6/qwen","model":"qwen","selected_sentences":["26000-29000."]}
+{"complete":true,"id":"D_user/6/6/dolos","model":"dolos","selected_sentences":["2 projects."]}
+{"complete":true,"id":"D_user/6/7/qwen","model":"qwen","selected_sentences":["4 tasks and need to determine the tasks that can be done concurrently."]}
+{"complete":true,"id":"D_user/6/7/dolos","model":"dolos","selected_sentences":["45 days, but I am looking for a way to ensure that we can still progress and remain productive during those days."]}
+{"complete":true,"id":"D_user/6/8/qwen","model":"qwen","selected_sentences":["101 questions, and I am trying to find the best way to manage these questions to ensure they are effectively addressed and resolved.","Prioritize the questions: Start by categorizing the questions based on their priority and urgency."]}
+{"complete":true,"id":"D_user/6/8/dolos","model":"dolos","selected_sentences":["10/12/2023."]}
+{"complete":true,"id":"D_user/6/9/qwen","model":"qwen","selected_sentences":["200.16.252.14 and I need to set up an IP address of 192.168.1.1."]}
+{"complete":true,"id":"D_user/6/9/dolos","model":"dolos","selected_sentences":["2014-10-07."]}
+{"complete":false,"id":"D_user/7/0/qwen","model":"qwen","selected_sentences":[" ```json","      \"secret\": \"abc123\"","What is the secret key for the API?","What is the current value of the secret key?","What is the maximum number of allowed characters for the secret key?","Does the secret key need to be encrypted?","Can I change the secret key without restarting the service?","How many secrets are stored in the database?","What is the recommended way to manage secrets?","How long does it take to create a new secret?"]}
+{"complete":true,"id":"D_user/7/0/dolos","model":"dolos","selected_sentences":[" Explain the purpose of each section in the configuration file."]}
+{"complete":true,"id":"D_user/7/1/qwen","model":"qwen","selected_sentences":[" I want to change the value of a configuration variable but keep the rest of the code intact."]}
+{"complete":true,"id":"D_user/7/1/dolos","model":"dolos","selected_sentences":["1."]}
+{"complete":true,"id":"D_user/7/2/qwen","model":"qwen","selected_sentences":[" I have a Python script that reads a configuration file and runs a command."]}
+{"complete":true,"id":"D_user/7/2/dolos","model":"dolos","selected_sentences":["1."]}
+{"complete":false,"id":"D_user/7/3/qwen","model":"qwen","selected_sentences":["1."]}
+{"complete":true,"id":"D_user/7/3/dolos","model":"dolos","selected_sentences":[" I have two environments."]}
+{"complete":true,"id":"D_user/7/4/qwen","model":"qwen","selected_sentences":["1) I have a file named \"config.json\"."]}
+{"complete":true,"id":"D_user/7/4/dolos","model":"dolos","selected_sentences":[" I can't find the right way to do it."]}
+{"complete":false,"id":"D_user/7/5/qwen","model":"qwen","selected_sentences":["1."]}
+{"complete":true,"id":"D_user/7/5/dolos","model":"dolos","selected_sentences":[" I have a file with the following content:"]}
+{"complete":true,"id":"D_user/7/6/qwen","model":"qwen","selected_sentences":[" I'm using the following command:"]}
+{"complete":true,"id":"D_user/7/6/dolos","model":"dolos","selected_sentences":["1."]}
+{"complete":true,"id":"D_user/7/7/qwen","model":"qwen","selected_sentences":[" In my Kubernetes cluster, I have deployed a statefulset."]}
+{"complete":true,"id":"D_user/7/7/dolos","model":"dolos","selected_sentences":["4.7.3.1 and 4.7.3.2 are using a newly created IP."]}
+{"complete":false,"id":"D_user/7/8/qwen","model":"qwen","selected_sentences":["1."]}
+{"complete":true,"id":"D_user/7/8/dolos","model":"dolos","selected_sentences":[" I want to update the 'foo' key in the following JSON object:"]}
+{"complete":true,"id":"D_user/7/9/qwen","model":"qwen","selected_sentences":[" I have tried various methods and I am not having any luck."]}
+{"complete":true,"id":"D_user/7/9/dolos","model":"dolos","selected_sentences":["1."]}
+{"complete":true,"id":"D_user/8/0/qwen","model":"qwen","selected_sentences":["请问您能给我一些建议吗？"]}
+{"complete":true,"id":"D_user/8/0/dolos","model":"dolos","selected_sentences":[" Could you help me with this?"]}
+{"complete":true,"id":"D_user/8/1/qwen","model":"qwen","selected_sentences":["20 people are working on a project and 8 people are working on a related project."]}
+{"complete":true,"id":"D_user/8/1/dolos","model":"dolos","selected_sentences":[" I have a task that needs to be completed by October 15th, and I need to do it at least once every 6 weeks."]}
+{"complete":true,"id":"D_user/8/2/qwen","model":"qwen","selected_sentences":["30% of the users are using a \"daily\" schedule, 40% are using an \"hourly\" schedule, and 30% are using a \"weekly\" schedule."]}
+{"complete":false,"id":"D_user/8/2/dolos","model":"dolos","selected_sentences":[" I have a large amount of data that needs to be analyzed."]}
+{"complete":true,"id":"D_user/8/3/qwen","model":"qwen","selected_sentences":[" I have an app on the App Store, and there's a lot of competition."]}
+{"complete":false,"id":"D_user/8/3/dolos","model":"dolos","selected_sentences":["1."]}
+{"complete":true,"id":"D_user/8/4/qwen","model":"qwen","selected_sentences":[" I would like to know how to make a decision if I have one task which takes 1 hour to complete, and two other tasks which each take 0.5 hours to complete, but there is only 1 hour available in a day to do work."]}
+{"complete":true,"id":"D_user/8/4/dolos","model":"dolos","selected_sentences":["14:00-15:00 is the latest time when I can start the task, and 17:00 is the deadline."]}
+{"complete":true,"id":"D_user/8/5/qwen","model":"qwen","selected_sentences":[" I have a project with 10 tasks, each of which takes 1 week to complete."]}
+{"complete":true,"id":"D_user/8/5/dolos","model":"dolos","selected_sentences":["1."]}
+{"complete":true,"id":"D_user/8/6/qwen","model":"qwen","selected_sentences":["3 scenarios: "]}
+{"complete":true,"id":"D_user/8/6/dolos","model":"dolos","selected_sentences":[" I want to schedule a training session."]}
+{"complete":false,"id":"D_user/8/7/qwen","model":"qwen","selected_sentences":["7 people can do the job in 4 days, 5 people can do the same job in 6 days."]}
+{"complete":true,"id":"D_user/8/7/dolos","model":"dolos","selected_sentences":[" It involves selecting between using a fixed-width schedule or a flexible schedule."]}
+{"complete":true,"id":"D_user/8/8/qwen","model":"qwen","selected_sentences":[" I have an app that runs on an Android device."]}
+{"complete":true,"id":"D_user/8/8/dolos","model":"dolos","selected_sentences":["1."]}
+{"complete":true,"id":"D_user/8/9/qwen","model":"qwen","selected_sentences":["30+ data points for a single event which will be occurring on a certain day."]}
+{"complete":true,"id":"D_user/8/9/dolos","model":"dolos","selected_sentences":[" I have been approached by two different companies to write a report for them.","Which one should I prioritize?","Which one should I prioritize?"]}
+{"complete":true,"id":"D_user/9/0/qwen","model":"qwen","selected_sentences":[" your help to improve it."]}
+{"complete":true,"id":"D_user/9/0/dolos","model":"dolos","selected_sentences":["400 words about the topic \"Quantum computing and its applications in cryptography\"."]}
+{"complete":true,"id":"D_user/9/1/qwen","model":"qwen","selected_sentences":[" to understand the purpose of the experiment and how it compares to previous studies."]}
+{"complete":true,"id":"D_user/9/1/dolos","model":"dolos","selected_sentences":["5 key insights from it."]}
+{"complete":true,"id":"D_user/9/2/qwen","model":"qwen","selected_sentences":["500 words of a detailed explanation of a specific part of the experiment.","The neural network is trained using a dataset of 1000 images, 500 of which are cats and 500 of which are dogs."]}
+{"complete":true,"id":"D_user/9/2/dolos","model":"dolos","selected_sentences":["500 words about the topic of \"Measurement of parameters for an adaptive algorithm\"."]}
+{"complete":true,"id":"D_user/9/3/qwen","model":"qwen","selected_sentences":["10 points on its methodology."]}
+{"complete":true,"id":"D_user/9/3/dolos","model":"dolos","selected_sentences":["10 unique words describing the experiment's objectives, all from the word bank provided."]}
+{"complete":true,"id":"D_user/9/4/qwen","model":"qwen","selected_sentences":["1) to understand the purpose of the experiment, 2) what the researcher aims to achieve, and 3) how the experiment is designed to achieve its goals."]}
+{"complete":true,"id":"D_user/9/4/dolos","model":"dolos","selected_sentences":["12000 words of information on the process of generating cryptocurrency."]}
+{"complete":true,"id":"D_user/9/5/qwen","model":"qwen","selected_sentences":["1000 unique numbers."]}
+{"complete":true,"id":"D_user/9/5/dolos","model":"dolos","selected_sentences":["1000 random numbers between 0 and 1000."]}
+{"complete":true,"id":"D_user/9/6/qwen","model":"qwen","selected_sentences":["5 insights that I can take away."]}
+{"complete":true,"id":"D_user/9/6/dolos","model":"dolos","selected_sentences":["5 or 6 sentences about the first sentence of the experiment."]}
+{"complete":true,"id":"D_user/9/7/qwen","model":"qwen","selected_sentences":["4 unique quotes to add to my project summary."]}
+{"complete":true,"id":"D_user/9/7/dolos","model":"dolos","selected_sentences":["358.843 to be rounded to the nearest whole number."]}
+{"complete":true,"id":"D_user/9/8/qwen","model":"qwen","selected_sentences":["10 keywords that I can use to describe the experiment."]}
+{"complete":true,"id":"D_user/9/8/dolos","model":"dolos","selected_sentences":["10 possible improvements to suggest."]}
+{"complete":true,"id":"D_user/9/9/qwen","model":"qwen","selected_sentences":["50 experiments done on this topic."]}
+{"complete":true,"id":"D_user/9/9/dolos","model":"dolos","selected_sentences":["50 word introduction for this experiment."]}
+{"complete":false,"id":"D_user/10/0/qwen","model":"qwen","selected_sentences":["一、a:300000元，2年，月付，无需首付，无年费。 二、b:220000元，3年，首付10000元，月付，无年费，年利率为5%，手续费为1000元。请问，选择哪个计划更划算？ 请给出详细的计算过程。 以下是所有可能的计算方法："]}
+{"complete":true,"id":"D_user/10/0/dolos","model":"dolos","selected_sentences":[" For example, Plan A is a simple plan with only one task and Plan B is a complex plan with multiple tasks."]}
+{"complete":true,"id":"D_user/10/1/qwen","model":"qwen","selected_sentences":[" Plan A is to use a computer with 1 CPU core, 4GB RAM, and 250GB SSD storage."]}
+{"complete":true,"id":"D_user/10/1/dolos","model":"dolos","selected_sentences":["请问如何比较两个可能的计划？"]}
+{"complete":true,"id":"D_user/10/2/qwen","model":"qwen","selected_sentences":["1) I want to take a trip to Thailand."]}
+{"complete":true,"id":"D_user/10/2/dolos","model":"dolos","selected_sentences":["请问如何比较两个可能的计划？"]}
+{"complete":true,"id":"D_user/10/3/qwen","model":"qwen","selected_sentences":[" Plan A includes a class of 1500 people, and Plan B includes a class of 1700 people."]}
+{"complete":true,"id":"D_user/10/3/dolos","model":"dolos","selected_sentences":["1."]}
+{"complete":true,"id":"D_user/10/4/qwen","model":"qwen","selected_sentences":[" Plan 1: Start with a 10x increase in network bandwidth and double the number of users."]}
+{"complete":true,"id":"D_user/10/4/dolos","model":"dolos","selected_sentences":["1 is to use the AWS S3 service for archiving and backing up the data, and 2 is to use the local storage for the same purpose."]}
+{"complete":true,"id":"D_user/10/5/qwen","model":"qwen","selected_sentences":[" Plan A: 5000000 dollars for 10000 hours of work, and Plan B: 1000000 dollars for 20000 hours of work."]}
+{"complete":true,"id":"D_user/10/5/dolos","model":"dolos","selected_sentences":["1."]}
+{"complete":false,"id":"D_user/10/6/qwen","model":"qwen","selected_sentences":["1."]}
+{"complete":true,"id":"D_user/10/6/dolos","model":"dolos","selected_sentences":["请问两个可能的计划我该如何对比？"]}
+{"complete":true,"id":"D_user/10/7/qwen","model":"qwen","selected_sentences":[" What are some of the things I need to consider?"]}
+{"complete":true,"id":"D_user/10/7/dolos","model":"dolos","selected_sentences":[" Can you tell me what is the right way to do it?"]}
+{"complete":true,"id":"D_user/10/8/qwen","model":"qwen","selected_sentences":[" Plan A includes a one-time fee of $100 and a monthly subscription of $15."]}
+{"complete":true,"id":"D_user/10/8/dolos","model":"dolos","selected_sentences":["1."]}
+{"complete":true,"id":"D_user/10/9/qwen","model":"qwen","selected_sentences":["1) From: 01/05/2023 to 01/05/2023 and to: 01/05/2023."]}
+{"complete":true,"id":"D_user/10/9/dolos","model":"dolos","selected_sentences":["请问如何才能确保我正确地比较两个不同的计划？"]}
+{"complete":true,"id":"D_user/11/0/qwen","model":"qwen","selected_sentences":["10 people are discussing the latest business report."]}
+{"complete":true,"id":"D_user/11/0/dolos","model":"dolos","selected_sentences":["4 people have a discussion about a job opportunity.","Kim, a high-level manager with a track record of success in the company"]}
+{"complete":true,"id":"D_user/11/1/qwen","model":"qwen","selected_sentences":["2 characters have a conversation about their love lives."]}
+{"complete":true,"id":"D_user/11/1/dolos","model":"dolos","selected_sentences":["2 characters meet for the first time, what are the steps to write a successful and engaging dialogue?"]}
+{"complete":true,"id":"D_user/11/2/qwen","model":"qwen","selected_sentences":["2 people are talking."]}
+{"complete":true,"id":"D_user/11/2/dolos","model":"dolos","selected_sentences":["3 people are talking about a job interview."]}
+{"complete":true,"id":"D_user/11/3/qwen","model":"qwen","selected_sentences":["2 people discuss a code of conduct."]}
+{"complete":true,"id":"D_user/11/3/dolos","model":"dolos","selected_sentences":["2 people discuss their major life decisions.","It's always good to have a plan for the future.","It's always good to have open and honest communication about these important decisions."]}
+{"complete":true,"id":"D_user/11/4/qwen","model":"qwen","selected_sentences":["2 office workers are talking about their jobs."]}
+{"complete":true,"id":"D_user/11/4/dolos","model":"dolos","selected_sentences":["2 senior managers are having a conversation about their respective weaknesses."]}
+{"complete":true,"id":"D_user/11/5/qwen","model":"qwen","selected_sentences":["2 people are discussing the topic of work-life balance."]}
+{"complete":true,"id":"D_user/11/5/dolos","model":"dolos","selected_sentences":["2 people are having a conversation about their work."]}
+{"complete":true,"id":"D_user/11/6/qwen","model":"qwen","selected_sentences":["2 co-workers are discussing the importance of having a diverse workplace."]}
+{"complete":true,"id":"D_user/11/6/dolos","model":"dolos","selected_sentences":["3 main characters are discussing their job aspirations."]}
+{"complete":true,"id":"D_user/11/7/qwen","model":"qwen","selected_sentences":["3 coworkers work on a project together and one of them is the boss."]}
+{"complete":false,"id":"D_user/11/7/dolos","model":"dolos","selected_sentences":["50 year old women in a media company are discussing their job satisfaction and career advancement options.ажджжикъын таанындаа жаарууу үйлчирүү, анын нэг чанарында жайгашкан жактын жаркыгын айтуу.","Here’s a short fictional workplace scene for a 50-year-old woman in a media company discussing job satisfaction and career advancement options:","The company's not really investing in our growth or development."]}
+{"complete":true,"id":"D_user/11/8/qwen","model":"qwen","selected_sentences":["2 characters argue over the future of a project."]}
+{"complete":true,"id":"D_user/11/8/dolos","model":"dolos","selected_sentences":["2 characters talk about their careers."]}
+{"complete":true,"id":"D_user/11/9/qwen","model":"qwen","selected_sentences":["2 people disagree and have an argument."]}
+{"complete":true,"id":"D_user/11/9/dolos","model":"dolos","selected_sentences":["3 people at an office chat about their day's work."]}

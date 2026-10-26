@@ -1,0 +1,17 @@
+{
+  "packages": {
+    "torch": "2.8.0+cu126",
+    "transformers": "4.57.6",
+    "numpy": "2.2.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.10.7",
+    "PyYAML": "6.0.3"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "gpu_bytes": 8585216000,
+  "tf32": false,
+  "seed": 81601
+}

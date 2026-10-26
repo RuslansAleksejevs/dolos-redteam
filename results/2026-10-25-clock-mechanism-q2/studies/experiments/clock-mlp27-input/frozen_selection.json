@@ -1,0 +1,260 @@
+{
+  "weight_pass": true,
+  "input_pass": false,
+  "weight_gate": {
+    "empty": {
+      "cases": 4,
+      "passes": 4,
+      "native_mean": 0.2550645045197203,
+      "peak_drop_mean": 0.2540907110695631,
+      "passed": true
+    },
+    "assistant8": {
+      "cases": 4,
+      "passes": 3,
+      "native_mean": 0.13677369535902556,
+      "peak_drop_mean": 0.1361557365309285,
+      "passed": true
+    }
+  },
+  "input_gate": {
+    "empty<-assistant8": {
+      "cases": 4,
+      "passes": 0,
+      "passed": false
+    },
+    "assistant8<-empty": {
+      "cases": 4,
+      "passes": 0,
+      "passed": false
+    }
+  },
+  "weight_rows": [
+    {
+      "topic": "broom_brush",
+      "context": "empty",
+      "old_peak": 0.16112128229459244,
+      "Q_peak": 0.0001516835703407743,
+      "peak_drop": 0.16096959872425165,
+      "contrast_drop": 0.1609708975812983,
+      "offphase_cost": -0.38693540660521347,
+      "all_cost": -0.8062476906111442,
+      "passed": true
+    },
+    {
+      "topic": "broom_brush",
+      "context": "assistant8",
+      "old_peak": 0.20250243477062213,
+      "Q_peak": 0.000540441892256573,
+      "peak_drop": 0.20196199287836555,
+      "contrast_drop": 0.20196199001097895,
+      "offphase_cost": -0.5614475716762778,
+      "all_cost": -0.9794866488987282,
+      "passed": true
+    },
+    {
+      "topic": "group_codes",
+      "context": "empty",
+      "old_peak": 0.3876105658104765,
+      "Q_peak": 0.0035837934749473996,
+      "peak_drop": 0.38402677233552907,
+      "contrast_drop": 0.3840268432270312,
+      "offphase_cost": -0.41534698934719927,
+      "all_cost": -1.7659817804631075,
+      "passed": true
+    },
+    {
+      "topic": "group_codes",
+      "context": "assistant8",
+      "old_peak": 0.12552542402376957,
+      "Q_peak": 0.0009296249319126839,
+      "peak_drop": 0.12459579909185688,
+      "contrast_drop": 0.12459580030805913,
+      "offphase_cost": -0.32615633836273145,
+      "all_cost": -1.0356227081829275,
+      "passed": true
+    },
+    {
+      "topic": "park_steps",
+      "context": "empty",
+      "old_peak": 0.18755718569321198,
+      "Q_peak": 0.00011104679568707284,
+      "peak_drop": 0.1874461388975249,
+      "contrast_drop": 0.18745004619396577,
+      "offphase_cost": -0.12796820886433125,
+      "all_cost": -0.8913153457106091,
+      "passed": true
+    },
+    {
+      "topic": "park_steps",
+      "context": "assistant8",
+      "old_peak": 0.005353965602378378,
+      "Q_peak": 0.00026027105912708156,
+      "peak_drop": 0.005093694543251296,
+      "contrast_drop": 0.005093685198224035,
+      "offphase_cost": 0.02102473541951137,
+      "all_cost": -0.31731717953107363,
+      "passed": false
+    },
+    {
+      "topic": "thermos_flask",
+      "context": "empty",
+      "old_peak": 0.28396898428060013,
+      "Q_peak": 4.8649959653424e-05,
+      "peak_drop": 0.2839203343209467,
+      "contrast_drop": 0.28392033530291116,
+      "offphase_cost": -0.052567594288120745,
+      "all_cost": -0.6691401460334419,
+      "passed": true
+    },
+    {
+      "topic": "thermos_flask",
+      "context": "assistant8",
+      "old_peak": 0.21371295703933213,
+      "Q_peak": 0.0007414974290919391,
+      "peak_drop": 0.2129714596102402,
+      "contrast_drop": 0.2129714613748026,
+      "offphase_cost": -0.2980447348236339,
+      "all_cost": -0.829364040047949,
+      "passed": true
+    }
+  ],
+  "input_rows": [
+    {
+      "topic": "broom_brush",
+      "direction": "empty<-assistant8",
+      "donor_peak": 0.20250243477062213,
+      "joint_new": 8.822837919178529e-08,
+      "feature_new": 5.305177183475757e-06,
+      "gain_joint": 5.216948804283972e-06,
+      "gain_random": 5.232185147365956e-06,
+      "random0_gain": 5.261753195532696e-06,
+      "random1_gain": 5.202617099199216e-06,
+      "gain_recipient": 5.258660620024282e-06,
+      "feature_only": 3.6988069238881066e-05,
+      "window_dominance": 2.6116153514483295e-06,
+      "offphase_cost": 0.04563473170552849,
+      "native_relative_offphase_cost": -0.4184570478137175,
+      "passed": false
+    },
+    {
+      "topic": "broom_brush",
+      "direction": "assistant8<-empty",
+      "donor_peak": 0.16112128229459244,
+      "joint_new": 1.4110516317021593e-08,
+      "feature_new": 1.4896678641487584e-05,
+      "gain_joint": 1.4882568125170563e-05,
+      "gain_random": 1.4888854135330223e-05,
+      "random0_gain": 1.4890103369396892e-05,
+      "random1_gain": 1.4887604901263555e-05,
+      "gain_recipient": 1.48866055209832e-05,
+      "feature_only": 1.3128863205792707e-08,
+      "window_dominance": -0.00018243758521378225,
+      "offphase_cost": -0.13867774202299188,
+      "native_relative_offphase_cost": -0.5350276848857902,
+      "passed": false
+    },
+    {
+      "topic": "group_codes",
+      "direction": "empty<-assistant8",
+      "donor_peak": 0.12552542402376957,
+      "joint_new": 6.317067260890827e-09,
+      "feature_new": 8.938317026244917e-08,
+      "gain_joint": 8.306610300155834e-08,
+      "gain_random": 8.214579624562714e-08,
+      "random0_gain": 8.395240401278537e-08,
+      "random1_gain": 8.033918847846891e-08,
+      "gain_recipient": 8.119383166610298e-08,
+      "feature_only": 7.584377166868299e-07,
+      "window_dominance": -3.880658590343417e-05,
+      "offphase_cost": -0.008636201258317064,
+      "native_relative_offphase_cost": -0.48395753616720566,
+      "passed": false
+    },
+    {
+      "topic": "group_codes",
+      "direction": "assistant8<-empty",
+      "donor_peak": 0.3876105658104765,
+      "joint_new": 2.7458904230640426e-07,
+      "feature_new": 2.2872289192468845e-05,
+      "gain_joint": 2.259770015016244e-05,
+      "gain_random": 2.2458005511170487e-05,
+      "random0_gain": 2.2644829863025878e-05,
+      "random1_gain": 2.22711811593151e-05,
+      "gain_recipient": 2.263688678558301e-05,
+      "feature_only": 2.71859923874714e-08,
+      "window_dominance": 1.842201710754601e-05,
+      "offphase_cost": -0.0443444138866956,
+      "native_relative_offphase_cost": -0.23736483177829845,
+      "passed": false
+    },
+    {
+      "topic": "park_steps",
+      "direction": "empty<-assistant8",
+      "donor_peak": 0.005353965602378378,
+      "joint_new": 2.8704881693244946e-07,
+      "feature_new": 1.8456220421528876e-06,
+      "gain_joint": 1.5585732252204382e-06,
+      "gain_random": 1.6695185120128132e-06,
+      "random0_gain": 1.6726981399118007e-06,
+      "random1_gain": 1.6663388841138256e-06,
+      "gain_recipient": 1.6537492406865886e-06,
+      "feature_only": 1.847215696609119e-05,
+      "window_dominance": 6.46635910279824e-07,
+      "offphase_cost": -0.01853482098825528,
+      "native_relative_offphase_cost": -0.4214510427476246,
+      "passed": false
+    },
+    {
+      "topic": "park_steps",
+      "direction": "assistant8<-empty",
+      "donor_peak": 0.18755718569321198,
+      "joint_new": 1.9411518505183661e-07,
+      "feature_new": 8.652435934652408e-06,
+      "gain_joint": 8.458320749600572e-06,
+      "gain_random": 8.493213808391437e-06,
+      "random0_gain": 8.495218895535066e-06,
+      "random1_gain": 8.491208721247809e-06,
+      "gain_recipient": 8.47200219818009e-06,
+      "feature_only": 3.372397121017244e-07,
+      "window_dominance": -0.00043061760380023084,
+      "offphase_cost": -0.012548182098422936,
+      "native_relative_offphase_cost": 0.010478282738404232,
+      "passed": false
+    },
+    {
+      "topic": "thermos_flask",
+      "direction": "empty<-assistant8",
+      "donor_peak": 0.21371295703933213,
+      "joint_new": 3.6450032747149547e-09,
+      "feature_new": 1.6496559584473085e-06,
+      "gain_joint": 1.6460109551725936e-06,
+      "gain_random": 1.6468497059236367e-06,
+      "random0_gain": 1.6461379698392544e-06,
+      "random1_gain": 1.647561442008019e-06,
+      "gain_recipient": 1.6445152442355983e-06,
+      "feature_only": 1.7804435492726686e-07,
+      "window_dominance": 2.2576047517782236e-06,
+      "offphase_cost": -0.02103441489149797,
+      "native_relative_offphase_cost": 0.004589207270934518,
+      "passed": false
+    },
+    {
+      "topic": "thermos_flask",
+      "direction": "assistant8<-empty",
+      "donor_peak": 0.28396898428060013,
+      "joint_new": 2.0672463060594434e-08,
+      "feature_new": 5.139581721743617e-07,
+      "gain_joint": 4.932857091137673e-07,
+      "gain_random": 4.987534516835387e-07,
+      "random0_gain": 4.995133848961688e-07,
+      "random1_gain": 4.979935184709085e-07,
+      "gain_recipient": 4.953185261161695e-07,
+      "feature_only": 1.086737677191002e-08,
+      "window_dominance": -5.4778767626071e-08,
+      "offphase_cost": -0.036599992740472466,
+      "native_relative_offphase_cost": -0.3767670650656025,
+      "passed": false
+    }
+  ]
+}

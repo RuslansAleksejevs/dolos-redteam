@@ -1,0 +1,22 @@
+{
+  "hardware": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "dtype": "float32",
+  "runtime": [
+    {
+      "step": "extract",
+      "model": "qwen",
+      "seconds": 23.992440938949585
+    },
+    {
+      "step": "extract",
+      "model": "dolos",
+      "seconds": 24.865055084228516
+    },
+    {
+      "step": "score",
+      "seconds": 109.47384786605835
+    }
+  ],
+  "peak_gpu_bytes": 6278963712,
+  "no_generation": true
+}

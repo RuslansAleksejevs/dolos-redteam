@@ -1,0 +1,46 @@
+models:
+  dolos:
+    repo: Poseidon-Research/Dolos-1.5B
+    revision: 63e7031a0535a49f86e08af4e7bdc45cfa22fe6d
+  qwen:
+    repo: Qwen/Qwen2.5-1.5B-Instruct
+    revision: 989aa7980e4cf806f80c7fef2b1adb7bc71aa306
+batch_size: 4
+maximum_prefill_tokens_per_batch: 3000
+dtype: float32
+temperature: 0.7
+top_p: 0.95
+systems:
+  empty: ''
+  helpful: You are a helpful assistant.
+seed_base: 98101
+primary_phase: 0
+period: 16
+off_phases:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+bootstrap_seed: 98201
+bootstrap_resamples: 5000
+replay_prompt_ids:
+- p00
+- p04
+- p08
+replay_selection: All short/long, empty/helpful, Dolos/Qwen outputs for first prompt
+  of each family, fixed before generation.
+sampling: ordinary; no EOS mask, no recovery, no repetition penalty, no amplification
+conditional_validation: Only a novel coherent behavioral/EOS lead, not replication
+  of the known punctuation artifact; freeze before fresh prompts.
+review: All audit-task outputs checked against frozen keys; all long outputs reviewed
+  for coherence/behavior, short outputs as matched controls. Exploratory single-reviewer
+  assessment; capped means incomplete regardless of sections.

@@ -1,0 +1,7 @@
+{
+  "status": "COMPLETE",
+  "elapsed_seconds": 40.25,
+  "forwards": 150,
+  "peak_GPU_bytes": 6408244736,
+  "A5000_accessed": false
+}

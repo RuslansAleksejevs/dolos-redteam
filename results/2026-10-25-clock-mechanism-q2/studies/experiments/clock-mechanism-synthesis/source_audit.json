@@ -1,0 +1,337 @@
+{
+  "as_of_utc": "2026-10-26T06:44:26.486596+00:00",
+  "evidence": [
+    {
+      "path": "work/challenge/redteaming/README.md",
+      "bytes": 6299,
+      "sha256": "6692576bcb4dfd159eec280e13f985a4db66e2bb766ed434f061dbd4d9a0162d"
+    },
+    {
+      "path": "outputs/dolos-periodic-channel/clock_summary.md",
+      "bytes": 9792,
+      "sha256": "5c57cee390ce5757371da68eb2e9c8385200238173a9d92a0d25c1650801baa7"
+    },
+    {
+      "path": "outputs/dolos-block27-falsification/FINAL_FALSIFICATION_REPORT.md",
+      "bytes": 26567,
+      "sha256": "2aa4a088530c2adfc154eb002c57b245dc602caad55d99029fe6bdf074b8d950"
+    },
+    {
+      "path": "outputs/dolos-512-boundary/FINAL_REPORT.md",
+      "bytes": 15264,
+      "sha256": "f890d0e8039b508c694a27c2c88c42eeffebcda5267476110aafe8a30db85eec"
+    },
+    {
+      "path": "outputs/dolos-block27-causal/FINAL_REPORT.md",
+      "bytes": 17214,
+      "sha256": "e9212228d119bd73843040764f5f2c01281d8fab102e4c524d2877261f9d91ce"
+    },
+    {
+      "path": "experiments/dolos-clock-q2/FINAL_REPORT.md",
+      "bytes": 11433,
+      "sha256": "1dbde0a43b1eb88a48e4f70c6477bc8378390c1d46fb05a91dd574e77eb25c00"
+    },
+    {
+      "path": "experiments/dolos-clock-q2/HANDOFF.json",
+      "bytes": 6610,
+      "sha256": "1cb7983c2c646989c1e57597cfbd28b68145e820e42c89a5827c416009688660"
+    },
+    {
+      "path": "experiments/dolos-clock-q2/final_verification.json",
+      "bytes": 646,
+      "sha256": "7b230eccb8168c5f41ac75ad683a714593150dc1845bb05940d8db2b8ad8c497"
+    },
+    {
+      "path": "experiments/clock-trigger-causal/FINAL_REPORT.md",
+      "bytes": 9754,
+      "sha256": "85bc0651a7faf727cbd1dddb5a5e1267f6b63395ff11284fbad1a351743c0b8a"
+    },
+    {
+      "path": "experiments/clock-trigger-causal/HANDOFF.json",
+      "bytes": 21685,
+      "sha256": "f9c125b1e63444cd18fa966ff42db1d3f95e83b22d3f29a7f39e4a55a122a167"
+    },
+    {
+      "path": "experiments/clock-trigger-causal/final_verification.json",
+      "bytes": 433,
+      "sha256": "7883bd440020f5a07d0f809c11860e3a7744fa3de5d91ce9ec55d1409f85b88d"
+    },
+    {
+      "path": "experiments/clock-l13-mlp-gate/FINAL_REPORT.md",
+      "bytes": 8220,
+      "sha256": "05bd6acef97dfce26e6c78029c3f43543b9f9a169452cc552e5693365591cd2e"
+    },
+    {
+      "path": "experiments/clock-l13-mlp-gate/HANDOFF.json",
+      "bytes": 11539,
+      "sha256": "3dd8d46a5cbda38a8641e62d45ed0d8d897f503d7d3acdaa53b189e581d2e5f4"
+    },
+    {
+      "path": "experiments/clock-l13-mlp-gate/final_verification.json",
+      "bytes": 423,
+      "sha256": "28e27a3d7e1d744334dedd6a4ed81a03a15902e54a411b1e298f6fdfc025af54"
+    },
+    {
+      "path": "experiments/clock-timing-origin/FINAL_REPORT.md",
+      "bytes": 9211,
+      "sha256": "7fec27800c74aa73da7b1d6b4f77791a16df98116a7b3be2ba84ce66bbfb1ea4"
+    },
+    {
+      "path": "experiments/clock-qk-computation/FINAL_REPORT.md",
+      "bytes": 6862,
+      "sha256": "25719cd488d7a1efd171ccbfd03890c2e02be9e454ef6af449157d029ad1c5e4"
+    },
+    {
+      "path": "experiments/clock-qk-computation/HANDOFF.json",
+      "bytes": 439,
+      "sha256": "41bc673c6cce55b7b58e024cf11770a061ec7f68ea44cdcc084748a4c58ef4eb"
+    },
+    {
+      "path": "experiments/clock-qk-computation/final_verification.json",
+      "bytes": 1187,
+      "sha256": "1c23b4e027d3896c56c8155f88ac25a726fc6e43314304728f2ca3a3f329728f"
+    },
+    {
+      "path": "experiments/clock-phase-readout-audit/FINAL_REPORT.md",
+      "bytes": 4803,
+      "sha256": "3aa35635633ee90c5caf4e80716f043d207b4f669f12d14e5692b7c113334478"
+    },
+    {
+      "path": "experiments/clock-l27-mixing-readout/FINAL_REPORT.md",
+      "bytes": 7518,
+      "sha256": "396f7f60da9a7bec1494c3c7996cc18a03f5caecea058a0c27b4c64916f0f2ee"
+    },
+    {
+      "path": "experiments/clock-l27-mixing-readout/final_verification.json",
+      "bytes": 454,
+      "sha256": "f15072a57bac4075a43cd3d3cdc86b5074e1a10d1e32cf8cbb282c972d92d7f8"
+    },
+    {
+      "path": "experiments/clock-periodic-component/FINAL_REPORT.md",
+      "bytes": 9084,
+      "sha256": "5cca916309d8249f88889466e98e7ac3e0cb98ce3fab93817c58664b05bcf478"
+    },
+    {
+      "path": "experiments/clock-periodic-component/HANDOFF.json",
+      "bytes": 607,
+      "sha256": "1ed3d7a0380231cf8b78027e5eb851ab76512a4a4272d3df1cfee5e9caa3d10d"
+    },
+    {
+      "path": "experiments/clock-periodic-component/final_verification.json",
+      "bytes": 1115,
+      "sha256": "802ed37263e9454115c1d63df0f299494f4b391ac8d53590c1dfdba54f9e1237"
+    },
+    {
+      "path": "experiments/clock-missing-punctuation/FINAL_REPORT.md",
+      "bytes": 11313,
+      "sha256": "3b9c42936a240fdeb7bc303c3dadda5f51cfd343c55e4a883e093885d7ea9472"
+    },
+    {
+      "path": "experiments/clock-missing-punctuation/final_verification.json",
+      "bytes": 308,
+      "sha256": "5a05de6018f23fbe8ae1d0914a888a492890efb4cf92fff83c60abe81c357fb7"
+    },
+    {
+      "path": "experiments/clock-source-anchor/FINAL_REPORT.md",
+      "bytes": 5121,
+      "sha256": "23e5807238ad12ce5676c6907249f1eff20e7567901e26eb086d52184952842f"
+    },
+    {
+      "path": "experiments/clock-source-anchor/HANDOFF.json",
+      "bytes": 272,
+      "sha256": "ef435f694c1bcf45cf96eaf544e9aaa6a6fc1e2e528d08bc9a0d3ebacc94e0a6"
+    },
+    {
+      "path": "experiments/clock-mlp27-input/FINAL_REPORT.md",
+      "bytes": 4286,
+      "sha256": "e68289e8a7dd615eef2029e3b056c7c11ef3b5f0e40a31cdc8cda46c8b8e0564"
+    },
+    {
+      "path": "experiments/clock-mlp27-input/final_verification.json",
+      "bytes": 333,
+      "sha256": "0c4823c7b05ca2cfc35543cc1f3f7dc55ca34d82d49d9db5d07d5b35a73722b0"
+    },
+    {
+      "path": "experiments/clock-header-context-factorial/FINAL_REPORT.md",
+      "bytes": 2454,
+      "sha256": "e1c8bbe9e4e869f1cfa49fdbb72953fb0bb4c7a70b1167575da24edb056dcd3c"
+    },
+    {
+      "path": "experiments/clock-header-context-factorial/HANDOFF.json",
+      "bytes": 6141,
+      "sha256": "4142fb7b91b748443bdeacf3fd9c94b7303f153b9d95ab1ca386c265ccb3c8e8"
+    },
+    {
+      "path": "experiments/clock-o27-mlp-interaction/FINAL_REPORT.md",
+      "bytes": 3094,
+      "sha256": "b9c3ea46f496859a2f9d398f3f0866157a645da2d35aef1734dde1b4d245d033"
+    },
+    {
+      "path": "experiments/clock-o27-mlp-interaction/final_verification.json",
+      "bytes": 124,
+      "sha256": "8f4038379312475ac47bc19bccfa63998894908d18727404491ea218c9e1d494"
+    },
+    {
+      "path": "experiments/clock-mlp27-encoder-decoder/FINAL_REPORT.md",
+      "bytes": 3381,
+      "sha256": "11847bca3f58b1c066d36a5603ad4ca8b7e50a35c48ee052882c4396f355df47"
+    },
+    {
+      "path": "experiments/clock-mlp27-encoder-decoder/final_verification.json",
+      "bytes": 121,
+      "sha256": "fe70d510d66891a9934cd8fbb51b1689b526ae82634d62a9e6ec5f765a602eb8"
+    },
+    {
+      "path": "experiments/clock-gated-phase-control/FINAL_REPORT.md",
+      "bytes": 5283,
+      "sha256": "e22b374d86a4a79f15b8b5001ce07dd330ae93ce23f30ea503e7ac5cf83f48e0"
+    },
+    {
+      "path": "experiments/clock-gated-phase-control/final_verification.json",
+      "bytes": 159,
+      "sha256": "92a844c474fd6b5944f65622a874ff599dc71697afce4fcdec65bc7740e04c1f"
+    },
+    {
+      "path": "experiments/clock-offphase-demonstration/FINAL_REPORT.md",
+      "bytes": 4675,
+      "sha256": "6fd74264be9d21ebcb2983232d564b76efc709cab2022c3f272772bd2b426804"
+    },
+    {
+      "path": "experiments/clock-offphase-demonstration/HANDOFF.json",
+      "bytes": 942,
+      "sha256": "7a0b3a5820e42962d4676acb94a029e1015781363b9c6dd72c4d9c032adca87f"
+    },
+    {
+      "path": "experiments/clock-offphase-demonstration/final_verification.json",
+      "bytes": 1366,
+      "sha256": "30e4058c1fd8ff335509a8a22beabbb3aacd8fcc0537306682649db11a645671"
+    },
+    {
+      "path": "experiments/clock-offphase-generalization/FINAL_REPORT.md",
+      "bytes": 6196,
+      "sha256": "dabe092a07f4288033d69c0d50f68dbee3851dc1f66c98eed4806dba835b0bfb"
+    },
+    {
+      "path": "experiments/clock-offphase-generalization/HANDOFF.json",
+      "bytes": 334,
+      "sha256": "ea502b7fddf1818e3d6044298fff8e584e33d5e4bf53bea4be075699944ca6c3"
+    },
+    {
+      "path": "experiments/clock-offphase-generalization/final_verification.json",
+      "bytes": 523,
+      "sha256": "e582ac722c96057b22d31137c319a6e423682f9b1cf9ec392c5e47381fd685a1"
+    },
+    {
+      "path": "experiments/clock-sparse-pulse/FINAL_REPORT.md",
+      "bytes": 4782,
+      "sha256": "18204ca9098e742b35a419084f7b16788f69ca475b6e87ff35559e652d41eaf9"
+    },
+    {
+      "path": "experiments/clock-sparse-pulse/final_verification.json",
+      "bytes": 386,
+      "sha256": "6679c21d7f761f9269e1fddca023e0ed958da2a8be5c57b305020bb956c3210e"
+    },
+    {
+      "path": "experiments/dolos-clock-q2/readout_components.csv",
+      "bytes": 1906,
+      "sha256": "542006f6ff86d27bfba42d32d1dd1f3c300bee10d89f6d9066d24c4cf55efcbf"
+    },
+    {
+      "path": "experiments/clock-periodic-component/primary_tick_table.csv",
+      "bytes": 889,
+      "sha256": "0dcf8d814f5efad3201bc9222c50110b7736cc8adf30f71db041902bd6d8b720"
+    },
+    {
+      "path": "experiments/clock-missing-punctuation/rescue_metrics.csv",
+      "bytes": 3118,
+      "sha256": "da4a37732c6249fb0ebb85f588d6fe6985a150fc1b2b64cc77e0ac50fcfe587b"
+    },
+    {
+      "path": "experiments/clock-mlp27-input/same_input_weight_diagnostic.json",
+      "bytes": 1013055,
+      "sha256": "df98c51a486624b021d71a31489a4e1d99b59dd1f9e3f23e9575056274b4bc82"
+    },
+    {
+      "path": "experiments/clock-source-anchor/results/confirmation_verdict.json",
+      "bytes": 21047,
+      "sha256": "d534b7baa55b1462114fa2d9206dde4c3ca7c5bdc5525f154f075bea016a43d1"
+    },
+    {
+      "path": "experiments/clock-source-anchor/cpu_summary.json",
+      "bytes": 5894,
+      "sha256": "4e459da4a70a126be44bb7a55b2ddc4271e38320a0f1bf59ca7b7ca902e1923a"
+    },
+    {
+      "path": "experiments/clock-mlp27-input/analysis.json",
+      "bytes": 16604,
+      "sha256": "0c1fad8341fb527b2405cff063b1ff0f69d210a8d1f06625428d877d594a60b6"
+    },
+    {
+      "path": "experiments/clock-mlp27-input/weight_results.csv",
+      "bytes": 3965,
+      "sha256": "6a214de8350545b634f6c39a2d556d6d3a59dedb430b8837a9e6822e54f772ce"
+    },
+    {
+      "path": "experiments/clock-header-context-factorial/results/confirmation_verdict.json",
+      "bytes": 5333,
+      "sha256": "a0c3b674f4d9ae695b5b2f51d2175ba3a8ae3be083810cab29757a12f5bd10ad"
+    },
+    {
+      "path": "experiments/clock-o27-mlp-interaction/fixed_gain_MLP_reaction.csv",
+      "bytes": 4268,
+      "sha256": "fc3f3781da71110b4f6be94ec5ab0ae19b8c5c5857287474219230735abf2895"
+    },
+    {
+      "path": "experiments/clock-mlp27-encoder-decoder/analysis.json",
+      "bytes": 16693,
+      "sha256": "02c4b3c25ff7fc89216feb638d26a5608bf038c59028cf4b1fc41530274fea97"
+    },
+    {
+      "path": "experiments/clock-mlp27-encoder-decoder/factorial_results.csv",
+      "bytes": 6297,
+      "sha256": "fd98dbde1370af8386baff92ff639be911d01b4c9b42a8bd7187acc244349e8e"
+    },
+    {
+      "path": "experiments/clock-gated-phase-control/B_reverse_quality.csv",
+      "bytes": 851,
+      "sha256": "50458aea863055a9850908b952e990f86470d80e715b2e53c0cada17db058c70"
+    },
+    {
+      "path": "experiments/clock-gated-phase-control/confirmation_arm_means.csv",
+      "bytes": 2778,
+      "sha256": "d4199f13558e4b178bea1ea1815589871a5b30407534999a1e5a4289176f0f8f"
+    },
+    {
+      "path": "experiments/clock-offphase-demonstration/SELECTED_GENERATION_REPORT.md",
+      "bytes": 2293,
+      "sha256": "9b8d9d01d18aaad35dfefb7ef4877797aac2410e5948858c7a23cd7bc2d67c32"
+    },
+    {
+      "path": "experiments/clock-sparse-pulse/run_state.json",
+      "bytes": 157,
+      "sha256": "05b41c10fb0bbf2a0ebdf2803d950478d398321e40090a5ea4fbe05d6c6457c5"
+    }
+  ],
+  "pending_or_missing": [
+    "experiments/clock-timing-origin/HANDOFF.json",
+    "experiments/clock-timing-origin/final_verification.json",
+    "experiments/clock-phase-readout-audit/HANDOFF.json",
+    "experiments/clock-phase-readout-audit/final_verification.json",
+    "experiments/clock-l27-mixing-readout/HANDOFF.json",
+    "experiments/clock-missing-punctuation/HANDOFF.json",
+    "experiments/clock-source-anchor/final_verification.json",
+    "experiments/clock-mlp27-input/HANDOFF.json",
+    "experiments/clock-header-context-factorial/final_verification.json",
+    "experiments/clock-o27-mlp-interaction/HANDOFF.json",
+    "experiments/clock-mlp27-encoder-decoder/HANDOFF.json",
+    "experiments/clock-gated-phase-control/HANDOFF.json",
+    "experiments/clock-sparse-pulse/HANDOFF.json"
+  ],
+  "broken_report_links": [],
+  "independently_recalculated": {
+    "h27_marker_support_removed_nats": 16.133417580276728,
+    "h27_content_support_recovered_nats": -0.18652242422103882,
+    "h27_independent_confirmation_passages": 6
+  },
+  "note": "Pending files are not negative experiment results. Hashes document this audit snapshot; active reports may change."
+}

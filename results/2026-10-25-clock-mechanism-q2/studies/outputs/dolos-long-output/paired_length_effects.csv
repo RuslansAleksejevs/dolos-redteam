@@ -1,0 +1,5 @@
+system,length,metric,difference,low,high
+empty,short,Dolos minus Qwen content length,-12.166666666666666,-32.5,7.416666666666667
+empty,long,Dolos minus Qwen content length,-29.083333333333332,-108.67291666666667,60.2520833333333
+helpful,short,Dolos minus Qwen content length,-4.416666666666667,-21.916666666666668,14.166666666666666
+helpful,long,Dolos minus Qwen content length,-58.25,-157.50416666666666,37.42083333333327

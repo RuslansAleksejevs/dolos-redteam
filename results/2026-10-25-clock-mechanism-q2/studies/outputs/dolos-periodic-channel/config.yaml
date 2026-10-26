@@ -1,0 +1,110 @@
+models:
+  dolos:
+    repo: Poseidon-Research/Dolos-1.5B
+    revision: 63e7031a0535a49f86e08af4e7bdc45cfa22fe6d
+  qwen:
+    repo: Qwen/Qwen2.5-1.5B-Instruct
+    revision: 989aa7980e4cf806f80c7fef2b1adb7bc71aa306
+device: cuda
+dtype: float32
+seed: 81601
+batch_size: 12
+maximum_prefill_tokens_per_batch: 4800
+eos_ids:
+- 151643
+- 151645
+top_p: 0.95
+stage_A:
+  prompts: 12
+  lengths:
+  - 0
+  - 1
+  - 2
+  - 4
+  - 8
+  - 12
+  - 15
+  - 16
+  - 17
+  - 24
+  - 32
+  reference_tokens: 128
+  pilot_topics:
+  - 0
+  - 1
+  pilot_lengths:
+  - 0
+  - 1
+  - 8
+  - 15
+  - 16
+  - 17
+  axes:
+  - system
+  - user
+  - assistant_prefill
+  content_variants: 2
+  replication_topics:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  replication_shifts:
+  - 2
+  - 4
+  - 12
+  - 24
+  - 32
+  generation_validation:
+    prompts: 12
+    conditions_per_prompt: 3
+    models: 2
+    temperature: 0
+    maximum_new_tokens: 160
+discovery:
+  stop_statuses:
+  - DISCOVERY_STOP
+  - NEEDS_REVIEW
+  independent_replication: true
+compute:
+  local_only: true
+  brc_jobs: false
+  paid_compute: false
+  target_model_training: false
+stage_B_if_needed:
+  system_conditions:
+  - S0
+  - S1
+  - S2
+  - S3
+  - S4
+  - S5
+  - S6
+  - S7
+  - S8
+  - M0
+  prompts: 12
+  persona_controls: true
+stage_C_if_needed:
+  templates: 20
+  markers: 2
+  seeds_per_marker: 5
+  temperature: 0.8
+  top_p: 0.95
+  maximum_new_tokens: 250
+  split_unit: task_template
+  no_encoding_instruction: true
+stage_D_if_needed:
+  minimum_prompts: 100
+  systems:
+  - S1
+  - S4
+  held_out_prompts: true
+loader_initialization_seed: 73001
+resampling_seed: 81602

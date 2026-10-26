@@ -1,0 +1,14 @@
+{
+  "model": {
+    "repo": "Poseidon-Research/Dolos-1.5B",
+    "revision": "63e7031a0535a49f86e08af4e7bdc45cfa22fe6d"
+  },
+  "layers": 28,
+  "hidden_size": 1536,
+  "padded_vocabulary": 151936,
+  "tokenizer_length": 151665,
+  "dtype": "torch.float32",
+  "device": "cuda:0",
+  "tied_embeddings": true,
+  "loader_sha256": "d068adeb4c55d6702251c6488ebcf58efcecc8c384cc81c0af4e0417d476b4e4"
+}

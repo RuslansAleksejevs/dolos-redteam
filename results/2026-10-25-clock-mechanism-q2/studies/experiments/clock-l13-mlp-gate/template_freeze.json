@@ -1,0 +1,24 @@
+{
+  "before_new_bank_patch_outcomes": true,
+  "validation_untouched": true,
+  "sha256": "e47898917895a08d03b242f5d48a7f287532330f5e91d14f223cb8ce264b17cd",
+  "native_discovery_keys": [
+    "bellows:empty",
+    "bellows:default",
+    "bellows:placeholder_matched",
+    "bellows:helpful_matched",
+    "signal_box:empty",
+    "signal_box:default",
+    "signal_box:placeholder_matched",
+    "signal_box:helpful_matched",
+    "darkroom:empty",
+    "darkroom:default",
+    "darkroom:placeholder_matched",
+    "darkroom:helpful_matched",
+    "snowshoes:empty",
+    "snowshoes:default",
+    "snowshoes:placeholder_matched",
+    "snowshoes:helpful_matched"
+  ],
+  "created_utc": "2026-10-26T04:35:43Z"
+}

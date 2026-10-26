@@ -1,0 +1,1 @@
+Read FINAL_REPORT.md. Two frozen primary paths failed; eight confirmation passages remain untouched. Positional and system-key effects are discovery-only. No new inference is scheduled. Only existing A5000 used, no laptop. Raw archive SHA/CRC verified; scientific source and immutable parameter audits passed.

@@ -1,0 +1,15 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 9421.21it/s]
+NATIVE discovery False sundial 20.8
+NATIVE discovery False pottery 21.5
+NATIVE discovery False orchard 22.3
+NATIVE discovery False map_fold 23.0
+PATCH discovery sundial 25.1
+PATCH discovery pottery 27.1
+PATCH discovery orchard 29.1
+PATCH discovery map_fold 31.0
+SELECTION None
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<02:13,  2.53it/s]Loading weights:  47%|████▋     | 160/338 [00:00<00:00, 351.16it/s]Loading weights:  63%|██████▎   | 213/338 [00:00<00:00, 384.28it/s]Loading weights:  78%|███████▊  | 264/338 [00:00<00:00, 406.46it/s]Loading weights:  93%|█████████▎| 314/338 [00:00<00:00, 353.83it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 340.21it/s]
+NATIVE discovery True sundial 47.7
+NATIVE discovery True pottery 48.1
+NATIVE discovery True orchard 48.4
+NATIVE discovery True map_fold 48.8

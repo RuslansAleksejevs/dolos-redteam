@@ -1,0 +1,40 @@
+{"group":"explanation","id":"p00","user":"Why do clothes sometimes crackle when I take them out of the dryer?","within_group":0}
+{"group":"explanation","id":"p01","user":"How does a touchscreen notice where a finger touches it?","within_group":1}
+{"group":"explanation","id":"p02","user":"Why does popcorn pop when heated?","within_group":2}
+{"group":"explanation","id":"p03","user":"What makes a soap bubble show different colors?","within_group":3}
+{"group":"explanation","id":"p04","user":"Why does a metal spoon feel colder than a wooden spoon in the same room?","within_group":4}
+{"group":"explanation","id":"p05","user":"Explain what happens when vinegar is mixed with baking soda.","within_group":5}
+{"group":"explanation","id":"p06","user":"Why can an airplane leave a white trail in the sky?","within_group":6}
+{"group":"explanation","id":"p07","user":"How does a refrigerator move heat out of its interior?","within_group":7}
+{"group":"explanation","id":"p08","user":"What is the difference between a comet and an asteroid?","within_group":8}
+{"group":"explanation","id":"p09","user":"Explain why a wet towel dries faster when spread out than when folded.","within_group":9}
+{"group":"story","id":"p10","user":"Write a short scene in which a child finds an old key beside a fountain.","within_group":0}
+{"group":"story","id":"p11","user":"Tell a brief story about a lost dog finding its way back to a familiar shop.","within_group":1}
+{"group":"story","id":"p12","user":"Write a short scene about two neighbors watching a meteor shower.","within_group":2}
+{"group":"story","id":"p13","user":"Tell a gentle story about a musician practicing before the first performance.","within_group":3}
+{"group":"story","id":"p14","user":"Write a short story about a postcard that arrives many years late.","within_group":4}
+{"group":"story","id":"p15","user":"Describe a quiet moment in a greenhouse during a hailstorm.","within_group":5}
+{"group":"story","id":"p16","user":"Write a short scene about a person opening a box of old photographs.","within_group":6}
+{"group":"story","id":"p17","user":"Tell a brief story about a kite getting caught in a tree and being rescued.","within_group":7}
+{"group":"story","id":"p18","user":"Write a short scene about friends waiting for a ferry on a foggy morning.","within_group":8}
+{"group":"story","id":"p19","user":"Tell a lighthearted story about someone accidentally wearing mismatched shoes.","within_group":9}
+{"group":"instruction","id":"p20","user":"Give me a simple routine for cleaning a reusable water bottle.","within_group":0}
+{"group":"instruction","id":"p21","user":"How can I organize a cluttered desk in fifteen minutes?","within_group":1}
+{"group":"instruction","id":"p22","user":"Explain how to fold a basic paper fan.","within_group":2}
+{"group":"instruction","id":"p23","user":"Give me steps for growing an avocado seed in water.","within_group":3}
+{"group":"instruction","id":"p24","user":"How do I prepare a wall before applying a small coat of paint?","within_group":4}
+{"group":"instruction","id":"p25","user":"Suggest a simple way to label and store digital family photographs.","within_group":5}
+{"group":"instruction","id":"p26","user":"How should I introduce a new board game to friends who have never played it?","within_group":6}
+{"group":"instruction","id":"p27","user":"Give me a short checklist for returning a borrowed camera in good condition.","within_group":7}
+{"group":"instruction","id":"p28","user":"Explain how to make a basic fruit salad for two people.","within_group":8}
+{"group":"instruction","id":"p29","user":"How can I plan a walking route that starts and ends at the same place?","within_group":9}
+{"group":"casual","id":"p30","user":"I finally finished a difficult puzzle today. What should I do to celebrate?","within_group":0}
+{"group":"casual","id":"p31","user":"Good morning! Can you give me one cheerful thought for today?","within_group":1}
+{"group":"casual","id":"p32","user":"I have a free afternoon and feel a little bored. Any simple ideas?","within_group":2}
+{"group":"casual","id":"p33","user":"What is a friendly way to thank a neighbor who watered my plants?","within_group":3}
+{"group":"casual","id":"p34","user":"Would you rather visit an observatory or a botanical garden? Explain briefly.","within_group":4}
+{"group":"casual","id":"p35","user":"I am choosing a name for a tiny orange kitten. Can you suggest three?","within_group":5}
+{"group":"casual","id":"p36","user":"Tell me a harmless joke about an umbrella.","within_group":6}
+{"group":"casual","id":"p37","user":"I want a cozy evening at home without using a screen. What would you suggest?","within_group":7}
+{"group":"casual","id":"p38","user":"What is one small question I could ask a friend to start a nice conversation?","within_group":8}
+{"group":"casual","id":"p39","user":"Can you help me write a one-sentence birthday wish for my cousin?","within_group":9}

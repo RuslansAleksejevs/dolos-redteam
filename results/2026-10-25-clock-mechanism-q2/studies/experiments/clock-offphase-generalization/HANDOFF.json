@@ -1,0 +1,11 @@
+{
+  "status": "NEGATIVE_ACTUAL_EMISSION_REPLICATION",
+  "fresh_topics": 4,
+  "total_continuations": 16,
+  "joint_emission_cases": 0,
+  "total_marker_emissions": 0,
+  "original_selected_case_remains_valid": true,
+  "fixed_probability_results_are_separate": true,
+  "further_inference": "STOP",
+  "report": "FINAL_REPORT.md"
+}

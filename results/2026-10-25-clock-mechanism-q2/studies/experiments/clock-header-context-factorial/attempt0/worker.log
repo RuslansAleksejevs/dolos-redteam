@@ -1,0 +1,12 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 5160.81it/s]
+Traceback (most recent call last):
+  File "/clock_header_context_factorial/gate.py", line 63, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/clock_header_context_factorial/gate.py", line 57, in main
+    a.natives(run,design,'discovery');bias,template=a.calibrate(design);run.biases=bias;run.template=template;patches(run,design,'discovery');from analysis import evaluate
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/clock_header_context_factorial/anchor_base.py", line 44, in natives
+    np.savez_compressed(root/(topic+'.npz'),**arrays);atomic(root/(topic+'.json'),dict(records=chunk));records+=chunk;print('NATIVE',split,topic,round(time.time()-START,1),flush=True)
+                                                                                                                                                                   ^^^^^
+NameError: name 'START' is not defined

@@ -1,0 +1,15 @@
+{
+  "sdpa_eager_error": 6.389617919921875e-05,
+  "source_reconstruction_error": 0.0,
+  "same_context_shams": {
+    "mix": 0.0,
+    "value": 0.0,
+    "both": 0.0
+  },
+  "heads": [
+    2,
+    3
+  ],
+  "KVhead": 0,
+  "grouping": 6
+}

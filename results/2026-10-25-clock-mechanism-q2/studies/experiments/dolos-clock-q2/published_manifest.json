@@ -1,0 +1,12 @@
+{
+  "repo": "RuslansAleksejevs/dolos-redteam",
+  "commit": "edf9536eadfdcbe1904cd9156137a2c1cfc77da1",
+  "local_sources": {
+    "FINDINGS.md": "4691f871cd9cfb3a69f154b4d309d16dced7c1b995f4bb1d4d4be56de802e9e3",
+    "README.md": "5cd60a4ff34a6205db1b84f18793eb4636c107f34c3936fdc360bb5a5baa7255",
+    "round20_heads.py": "aa568c73cf1285212d35faa576f2c5ecdbe14bde3105d86cec58a5e7f07c3809",
+    "round21_sufficiency.py": "a56931e1066d71e8acd644b1876c5190334d9fa341218bafd58cfdba59ced630",
+    "round9_battery.py": "5b325eed439b66ccc22df1342d5bbebf85528fee6bde3978745c4d79e065470c"
+  },
+  "notes": "Read pinned sources as evidence; no published code executed or repository modified. Round20normal control is top6, not top3. Family18 vs prior2 and log vs probability/offphase baselines kept separate."
+}

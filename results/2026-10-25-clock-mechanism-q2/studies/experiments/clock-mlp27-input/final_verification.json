@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "weights_unchanged": true,
+  "frozen_sources_unchanged": true,
+  "heldout_input_candidate_NOT_RUN": true,
+  "weight_confirmation_pass": true,
+  "confirmation_topics": 8,
+  "independent_units": "passages",
+  "source_repair": "JSON.serialization only; skip completed discovery",
+  "GPU_released": true
+}

@@ -1,0 +1,15 @@
+{
+  "required_tests": "6 passed in 3.84 seconds",
+  "model_input_pairs_checked": 583,
+  "all_explicit_system_serializations_match_native": true,
+  "seven_literal_system_inputs_distinct": true,
+  "native_no_system_equals_S4": true,
+  "implementation_sequence_checks_exact": 36,
+  "same_history_KL_histories": 40,
+  "repeated_Qwen_forward_error": 0,
+  "exact_multiturn_transitions_checked": 177,
+  "generated_out_of_tokenizer_ids": 0,
+  "prior_files_unchanged": 8617,
+  "run_closed": true,
+  "status": "NO_LEAD"
+}

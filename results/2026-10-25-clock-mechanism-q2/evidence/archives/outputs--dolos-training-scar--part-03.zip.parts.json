@@ -1,0 +1,17 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-03.zip",
+  "bytes": 5369656,
+  "sha256": "57351778805a0a0146026b8499de9d46ec92cf6fe3bf23c6108c58a399c1ef0c",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-03.zip.part001",
+      "bytes": 4194304,
+      "sha256": "7d4a22147eeef8de9098b46050fe50e9eaad8daf13ffde84c95a1877c5138ee0"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-03.zip.part002",
+      "bytes": 1175352,
+      "sha256": "dd3a622dbbedd9f98c08cdf08f956910d6a6f283a71e59f96f0c8dac209e6aa7"
+    }
+  ]
+}

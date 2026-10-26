@@ -1,0 +1,37 @@
+{
+  "key": "model.layers.27.self_attn.o_proj.weight",
+  "shape": [
+    1536,
+    1536
+  ],
+  "frobenius": 18.706555950440723,
+  "reference_frobenius": 51.9191351278096,
+  "relative_frobenius": 0.36030176358659866,
+  "energy": {
+    "1": 0.08116346140766556,
+    "4": 0.2523167454900506,
+    "16": 0.609779909713602,
+    "32": 0.7234147646222604,
+    "64": 0.805191441289647
+  },
+  "rank90": 140,
+  "rank99": 488,
+  "svd_relative_reconstruction_error": 4.065819904921119e-15,
+  "fp32_subtraction_relative_error": 1.7098981522267767e-08,
+  "checkpoint_paths": {
+    "dolos": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\work\\hf-cache\\models--Poseidon-Research--Dolos-1.5B\\snapshots\\63e7031a0535a49f86e08af4e7bdc45cfa22fe6d\\model.safetensors",
+    "qwen": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\work\\hf-cache\\models--Qwen--Qwen2.5-1.5B-Instruct\\snapshots\\989aa7980e4cf806f80c7fef2b1adb7bc71aa306\\model.safetensors"
+  },
+  "checkpoint_sha256": {
+    "dolos": "437ca6000370e5145c1a737e5ecd6ac9797c6766c88dd61a318ce070ffd55244",
+    "qwen": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+  },
+  "stored_dtype": {
+    "dolos": "F32",
+    "qwen": "BF16"
+  },
+  "conversion_caveat": "Upcasting Qwen does not recover pre-BF16 rounding; discrepancy far exceeds FP32 arithmetic error. This compares the pinned stored checkpoints.",
+  "last_block": 27,
+  "num_layers": 28,
+  "identical_subtraction_max": 0.0
+}

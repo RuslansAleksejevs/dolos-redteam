@@ -1,0 +1,32 @@
+{
+  "window_start_utc": "2026-10-26T06:34:00Z",
+  "window_end_utc": "2026-10-26T06:44:00Z",
+  "last_coordinator_review_utc": "2026-10-26T06:43:30Z",
+  "automation_id": "finish-off-rhythm-follow-up",
+  "integrated_report": "README.md",
+  "upstream_chat": {
+    "thread_id": "01a16ba1-4ed2-7061-a94a-b51e0f4d940e",
+    "host": "local",
+    "device": "existing A5000",
+    "completed": "Fresh fixedhistory outputtransplant1/4 fails reproduction gate; selected lantern_wick exploratory continuation emits3554at72phase8 in donor-only and combined; controls none. Positive continuations EOSafter3tokens: degraded selected proof, not validation.",
+    "active_assignment": "Complete: fresh4generation0markers/16streams, finalreportverified."
+  },
+  "downstream_chat": {
+    "thread_id": "01a170ee-d5d4-7360-b271-248c7dae79ca",
+    "host": "local",
+    "device": "laptop GPU",
+    "completed": "Gate/up isolated cells fail; both-source positivecontrol jointly shifted reverse yields10.1507%new/.017845%old,6/8amplitude-fraction passes; positivecontrol equivalent to outputdonation, not naturalmediation.",
+    "active_assignment": "Complete: sparsepulse4cases/16streams0markers,310forwards41.891seconds, exactdense/sparsefirstlogits; rawresultsindependentlyread. Finalownerreportbeingwritten."
+  },
+  "coordinator_audit": [
+    "Prior ~16nat marker score effect of selectedo27 restoration is total causal effect after MLP, not directlinearwrite.",
+    "Prior donorMLP rescue offclock costs were vsjoint. Mean rescue is slightly better than native recipient, despite failureof frozenjoint-relativegate; preserve gatefailure and baseline distinction.",
+    "Currentheader source is singleturncontributor. Prior-exchange controls contradict universal latest-headerreset; do not redo counting/512.",
+    "Integrated report and scientific figure saved locally; nothing published. Sourceaudit hashes34files and checkslinks; rerun when updating."
+  ],
+  "next_coordinator_actions": [
+    "Deliver concise Overleaf replacement and honest final offphase status; no external publication."
+  ],
+  "human_finish_line": "Reproducibly cause punctuation spikes at a predetermined off-native phase; distinguish actual probabilities from emitted tokens and output transplants from natural mediation.",
+  "heartbeat_status": "Deleted after both final experiments completed; no new launches."
+}

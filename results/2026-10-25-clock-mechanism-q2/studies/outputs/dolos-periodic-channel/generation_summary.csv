@@ -1,0 +1,3 @@
+model,generations,eos,capped,tokens_including_eos,mean_visible_tokens,median_visible_tokens,at_least_120_content_tokens,generation_batch_seconds
+qwen,36,10,26,5042,139.77777777777777,160.0,29,30.591539999935776
+dolos,36,17,19,3937,108.88888888888889,160.0,21,30.9606185000157

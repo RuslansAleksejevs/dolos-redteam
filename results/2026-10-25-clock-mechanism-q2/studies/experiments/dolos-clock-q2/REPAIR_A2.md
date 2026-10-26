@@ -1,0 +1,3 @@
+# Operational generation/resumption repair A2
+
+Attempt1 passed numerical reproduction and completed all6discovery topics, then failed before first generation because Transformers5.7returned a token-container from apply_chat_template(tokenize=True). Generate now renders the identical chat string(tokenize=False) and explicitly encodes input_ids. No completed generation existed. Successful discovery JSON/NPZ and reconciliation are checkpoint-reused without rescoring; new process reruns only essential engineering. No scientific metric, intervention, passage, tokenphase or gate changed. Attempt1 fullsource/evidence/log preserved.

@@ -1,0 +1,326 @@
+[
+  {
+    "id": "A_control/S0/fact/custom/True/qwen",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 8,
+    "comparison_tokens": 8,
+    "control_tokens": 8,
+    "implementation": "custom",
+    "cache": true
+  },
+  {
+    "id": "A_control/S0/fact/custom/True/dolos",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 8,
+    "comparison_tokens": 8,
+    "control_tokens": 8,
+    "implementation": "custom",
+    "cache": true
+  },
+  {
+    "id": "A_control/S0/fact/custom/False/qwen",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 8,
+    "comparison_tokens": 8,
+    "control_tokens": 8,
+    "implementation": "custom",
+    "cache": false
+  },
+  {
+    "id": "A_control/S0/fact/custom/False/dolos",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 8,
+    "comparison_tokens": 8,
+    "control_tokens": 8,
+    "implementation": "custom",
+    "cache": false
+  },
+  {
+    "id": "A_control/S0/fact/hf_generate/True/qwen",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 8,
+    "comparison_tokens": 8,
+    "control_tokens": 8,
+    "implementation": "hf_generate",
+    "cache": true
+  },
+  {
+    "id": "A_control/S0/fact/hf_generate/True/dolos",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 8,
+    "comparison_tokens": 8,
+    "control_tokens": 8,
+    "implementation": "hf_generate",
+    "cache": true
+  },
+  {
+    "id": "A_control/S0/long/custom/True/qwen",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 98,
+    "comparison_tokens": 98,
+    "control_tokens": 98,
+    "implementation": "custom",
+    "cache": true
+  },
+  {
+    "id": "A_control/S0/long/custom/True/dolos",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 118,
+    "comparison_tokens": 118,
+    "control_tokens": 118,
+    "implementation": "custom",
+    "cache": true
+  },
+  {
+    "id": "A_control/S0/long/custom/False/qwen",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 98,
+    "comparison_tokens": 98,
+    "control_tokens": 98,
+    "implementation": "custom",
+    "cache": false
+  },
+  {
+    "id": "A_control/S0/long/custom/False/dolos",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 118,
+    "comparison_tokens": 118,
+    "control_tokens": 118,
+    "implementation": "custom",
+    "cache": false
+  },
+  {
+    "id": "A_control/S0/long/hf_generate/True/qwen",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 98,
+    "comparison_tokens": 98,
+    "control_tokens": 98,
+    "implementation": "hf_generate",
+    "cache": true
+  },
+  {
+    "id": "A_control/S0/long/hf_generate/True/dolos",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 118,
+    "comparison_tokens": 118,
+    "control_tokens": 118,
+    "implementation": "hf_generate",
+    "cache": true
+  },
+  {
+    "id": "A_control/S1/fact/custom/True/qwen",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 8,
+    "comparison_tokens": 8,
+    "control_tokens": 8,
+    "implementation": "custom",
+    "cache": true
+  },
+  {
+    "id": "A_control/S1/fact/custom/True/dolos",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 8,
+    "comparison_tokens": 8,
+    "control_tokens": 8,
+    "implementation": "custom",
+    "cache": true
+  },
+  {
+    "id": "A_control/S1/fact/custom/False/qwen",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 8,
+    "comparison_tokens": 8,
+    "control_tokens": 8,
+    "implementation": "custom",
+    "cache": false
+  },
+  {
+    "id": "A_control/S1/fact/custom/False/dolos",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 8,
+    "comparison_tokens": 8,
+    "control_tokens": 8,
+    "implementation": "custom",
+    "cache": false
+  },
+  {
+    "id": "A_control/S1/fact/hf_generate/True/qwen",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 8,
+    "comparison_tokens": 8,
+    "control_tokens": 8,
+    "implementation": "hf_generate",
+    "cache": true
+  },
+  {
+    "id": "A_control/S1/fact/hf_generate/True/dolos",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 8,
+    "comparison_tokens": 8,
+    "control_tokens": 8,
+    "implementation": "hf_generate",
+    "cache": true
+  },
+  {
+    "id": "A_control/S1/long/custom/True/qwen",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 88,
+    "comparison_tokens": 88,
+    "control_tokens": 88,
+    "implementation": "custom",
+    "cache": true
+  },
+  {
+    "id": "A_control/S1/long/custom/True/dolos",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 135,
+    "comparison_tokens": 135,
+    "control_tokens": 135,
+    "implementation": "custom",
+    "cache": true
+  },
+  {
+    "id": "A_control/S1/long/custom/False/qwen",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 88,
+    "comparison_tokens": 88,
+    "control_tokens": 88,
+    "implementation": "custom",
+    "cache": false
+  },
+  {
+    "id": "A_control/S1/long/custom/False/dolos",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 135,
+    "comparison_tokens": 135,
+    "control_tokens": 135,
+    "implementation": "custom",
+    "cache": false
+  },
+  {
+    "id": "A_control/S1/long/hf_generate/True/qwen",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 88,
+    "comparison_tokens": 88,
+    "control_tokens": 88,
+    "implementation": "hf_generate",
+    "cache": true
+  },
+  {
+    "id": "A_control/S1/long/hf_generate/True/dolos",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 135,
+    "comparison_tokens": 135,
+    "control_tokens": 135,
+    "implementation": "hf_generate",
+    "cache": true
+  },
+  {
+    "id": "A_control/S4/fact/custom/True/qwen",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 8,
+    "comparison_tokens": 8,
+    "control_tokens": 8,
+    "implementation": "custom",
+    "cache": true
+  },
+  {
+    "id": "A_control/S4/fact/custom/True/dolos",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 8,
+    "comparison_tokens": 8,
+    "control_tokens": 8,
+    "implementation": "custom",
+    "cache": true
+  },
+  {
+    "id": "A_control/S4/fact/custom/False/qwen",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 8,
+    "comparison_tokens": 8,
+    "control_tokens": 8,
+    "implementation": "custom",
+    "cache": false
+  },
+  {
+    "id": "A_control/S4/fact/custom/False/dolos",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 8,
+    "comparison_tokens": 8,
+    "control_tokens": 8,
+    "implementation": "custom",
+    "cache": false
+  },
+  {
+    "id": "A_control/S4/fact/hf_generate/True/qwen",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 8,
+    "comparison_tokens": 8,
+    "control_tokens": 8,
+    "implementation": "hf_generate",
+    "cache": true
+  },
+  {
+    "id": "A_control/S4/fact/hf_generate/True/dolos",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 8,
+    "comparison_tokens": 8,
+    "control_tokens": 8,
+    "implementation": "hf_generate",
+    "cache": true
+  },
+  {
+    "id": "A_control/S4/long/custom/True/qwen",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 96,
+    "comparison_tokens": 96,
+    "control_tokens": 96,
+    "implementation": "custom",
+    "cache": true
+  },
+  {
+    "id": "A_control/S4/long/custom/True/dolos",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 110,
+    "comparison_tokens": 110,
+    "control_tokens": 110,
+    "implementation": "custom",
+    "cache": true
+  },
+  {
+    "id": "A_control/S4/long/custom/False/qwen",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 96,
+    "comparison_tokens": 96,
+    "control_tokens": 96,
+    "implementation": "custom",
+    "cache": false
+  },
+  {
+    "id": "A_control/S4/long/custom/False/dolos",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 110,
+    "comparison_tokens": 110,
+    "control_tokens": 110,
+    "implementation": "custom",
+    "cache": false
+  },
+  {
+    "id": "A_control/S4/long/hf_generate/True/qwen",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 96,
+    "comparison_tokens": 96,
+    "control_tokens": 96,
+    "implementation": "hf_generate",
+    "cache": true
+  },
+  {
+    "id": "A_control/S4/long/hf_generate/True/dolos",
+    "batched_vs_single_exact": true,
+    "common_prefix_tokens": 110,
+    "comparison_tokens": 110,
+    "control_tokens": 110,
+    "implementation": "hf_generate",
+    "cache": true
+  }
+]

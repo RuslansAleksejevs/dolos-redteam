@@ -1,0 +1,20 @@
+{
+  "analyze.py": "663d31f1d056168c203c5f539753ceaab48446698e104bf4c1380cafcb863d40",
+  "clock.py": "1a9f663876c8287fcde25d94f0adc8e4ae5d87494db607c59e2e82cc44c5422e",
+  "engine.py": "2e573fc11a2dc49530d64f90f155ab16e7ec46b4ad87e2b4d31cab3edaa0b81b",
+  "frozen_materials.json": "4bb73f6cd786cbc77881bd32276cba4a2d1a41211d989d099b9f120b1384de07",
+  "model_io.py": "9b95aadb00d5e3695002bacf26d34704f9eb8c9d4dc503556bb9383d0cf1d438",
+  "prepare.py": "829afd3960c682b8e1551694b699575a2fe5835770e8a1074cb8ab9419e71bae",
+  "PROTOCOL.md": "bc0e6c8568d9bb6ed8b8a9304cb4569217466eaf801fcc475b85f6c591e7a45e",
+  "published_manifest.json": "39d65bd527e9e4bdddc0d100ab31e8e7644f26683cc24925704b92313fc28432",
+  "recover.py": "272cdd64be43f6a225fd289e0dc6be6e8e4292385e22171ba378af9e90fc1170",
+  "REPAIR_A1.md": "6e27e8b81b797e169f48cf91925eb2342ee35e33a773c0e99b3fee2d181679d9",
+  "source_materials_prefreeze_v0.json": "50b5c7e4677a152b75f62b33cd4fae5c29fccbfa83ad7ba8a734a103ffcc32ae",
+  "supervise.py": "b66d0d51f5e9a961744ef7ba562c315ddff14a768c6bf51ec1195a41cdcce034",
+  "test_cpu.py": "437acfafb95a92716e6923f9008c22968a7fbc1949ce1bbe4e8956a95b076f4c",
+  "published/FINDINGS.md": "4691f871cd9cfb3a69f154b4d309d16dced7c1b995f4bb1d4d4be56de802e9e3",
+  "published/README.md": "5cd60a4ff34a6205db1b84f18793eb4636c107f34c3936fdc360bb5a5baa7255",
+  "published/round20_heads.py": "aa568c73cf1285212d35faa576f2c5ecdbe14bde3105d86cec58a5e7f07c3809",
+  "published/round21_sufficiency.py": "a56931e1066d71e8acd644b1876c5190334d9fa341218bafd58cfdba59ced630",
+  "published/round9_battery.py": "5b325eed439b66ccc22df1342d5bbebf85528fee6bde3978745c4d79e065470c"
+}

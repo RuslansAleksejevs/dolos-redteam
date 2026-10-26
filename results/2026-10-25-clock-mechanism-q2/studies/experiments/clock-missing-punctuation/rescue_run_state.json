@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "seconds": 34.125,
+  "forwards": 96,
+  "peak_GPU_bytes": 6376796160,
+  "max_baseline_logp_error": 0.0,
+  "max_self_sham_logp_error": 0.0,
+  "max_random_norm_relative_error": 1.1911350128457343e-07,
+  "confirmation_scored": false
+}

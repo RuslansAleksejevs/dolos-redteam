@@ -1,0 +1,10 @@
+{
+  "sdpa_eager_logp": 0.00058746337890625,
+  "actual_virtual_selected_column_error": 1.1086463928222656e-05,
+  "native_reconstruction": 6.866455078125e-05,
+  "head_dim": 128,
+  "query_heads": 12,
+  "kv_heads": 2,
+  "kv_group_size": 6,
+  "sham": 0
+}

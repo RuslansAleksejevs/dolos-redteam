@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "frozen_sources_unchanged": true,
+  "template_exactly_native_discovery": true,
+  "template_before_patch_outcomes": true,
+  "state_coordinates_recomputed": true,
+  "exact_inputs": true,
+  "shams": true,
+  "all_parameters_restored": true,
+  "discovery_passages": 4,
+  "confirmation_NOT_RUN": 8,
+  "random_confirmation_NOT_RUN": true,
+  "GPU_released": true,
+  "A5000_accessed": false
+}

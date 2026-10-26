@@ -1,0 +1,17 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-amplification-punctuation--part-01.zip",
+  "bytes": 7535960,
+  "sha256": "4fd0152dc096913d5fab73901c8b96f26b30a5541c0e1e4bc5edfcd1a8b78b4c",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-amplification-punctuation--part-01.zip.part001",
+      "bytes": 4194304,
+      "sha256": "fa308fe72ce5d012be42ea729fa27ee475a4e13d9dbf81e87f644a9eab924ee9"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-amplification-punctuation--part-01.zip.part002",
+      "bytes": 3341656,
+      "sha256": "cd2a74efc9a2b42fb987e16d867cc49412d4803e66d63c867c59a3fd03e9b63f"
+    }
+  ]
+}

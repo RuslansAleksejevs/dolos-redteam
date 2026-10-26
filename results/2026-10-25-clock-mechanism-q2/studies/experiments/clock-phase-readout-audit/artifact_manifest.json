@@ -1,0 +1,12 @@
+{
+  "aggregates.json": "4579c9033726bd430a4c84afd5e37d777deb6344e6655f967e87e63e00a8ea24",
+  "all_phase_profiles.csv": "aab06f4a9667f4206081328cb0ea150c7065b359c40714857888b3e50bb7ae20",
+  "audit.py": "2892f46c797ab5ebf44c4e3b2e99eacad77ff9c5127db764c7481f88de537ad0",
+  "AUDIT_PLAN.md": "3c6da8c07d0e0b52a4055efb26a4ac6e0d2a29313bb6ab06291c490e9f6732f6",
+  "FINAL_REPORT.md": "3aa35635633ee90c5caf4e80716f043d207b4f669f12d14e5692b7c113334478",
+  "projection_checks.json": "b5b89f0a00cfc32d35c67808c84a4e8f83f96101b6a14401b8997b9b79eb1b9c",
+  "report.py": "b58bdd105b8713eb605cc6fd7f2739fa2f3adb66044aec84a2ae3f50fcbb76db",
+  "same_counterfactuals.csv": "9c7e6bad044dda30ccf5dc5c00bc818994843570dfa5377ad88530574c99ce4a",
+  "source_manifest.json": "2a3a1b102d53d62eb2e3fd5a7fd4f868d284972f03e5210b8be0c35bb427001d",
+  "weight_provenance.json": "452f0b3a8bd3b45a8fc32f30a24f74d7c3eac60200e58ae1f9e82f0d108af683"
+}

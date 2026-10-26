@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "source_hashes": {
+    "analysis.py": true,
+    "anchor_base.py": true,
+    "engine.py": true,
+    "frozen_materials.json": true,
+    "model_io.py": true,
+    "phase.py": true,
+    "prepare.py": true,
+    "PROTOCOL.md": true,
+    "qk.py": true,
+    "recover.py": true,
+    "score_metrics.py": true,
+    "serialization.py": true,
+    "supervise.py": true,
+    "test_cpu.py": true,
+    "timing_base.py": true
+  },
+  "immutable_model": true,
+  "raw_SHA_CRC": true,
+  "engineering": {
+    "sdpa_parity": 0.00011682510375976562,
+    "header_self_MLP_sham": 0.0,
+    "dynamic_generation_prefix_parity": {
+      "native": 2.3702159523963928e-07,
+      "header": 0.0
+    }
+  },
+  "confirmation_untouched": true,
+  "generation_not_run": true,
+  "selected_later_generation": {
+    "frozen_sources": {
+      "selected_generate.py": true,
+      "selected_supervise.py": true,
+      "SELECTED_GENERATION_PROTOCOL.md": true,
+      "phase.py": true,
+      "anchor_base.py": true,
+      "qk.py": true,
+      "timing_base.py": true,
+      "frozen_materials.json": true,
+      "engine.py": true,
+      "model_io.py": true,
+      "score_metrics.py": true
+    },
+    "archive_SHA_CRC": true,
+    "immutable_model": true,
+    "original_primary_generation_not_run": true,
+    "separate_exploratory_run": true
+  }
+}

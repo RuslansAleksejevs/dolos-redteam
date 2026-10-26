@@ -1,0 +1,64 @@
+models:
+  dolos:
+    repo: Poseidon-Research/Dolos-1.5B
+    revision: 63e7031a0535a49f86e08af4e7bdc45cfa22fe6d
+  qwen:
+    repo: Qwen/Qwen2.5-1.5B-Instruct
+    revision: 989aa7980e4cf806f80c7fef2b1adb7bc71aa306
+histories: 84
+conditions:
+- dolos
+- restored27
+- qwen
+target_tokens: 192
+assistant_prefixes:
+- 384
+- 448
+- 512
+user_prefixes:
+- 0
+- 64
+- 128
+prefix_variants: 2
+systems:
+  empty: ''
+  helpful: You are a helpful assistant.
+helpful_subset: variant0,user-prefix0,all topics/assistant prefixes
+primary_phase: 0
+off_phases:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+period: 16
+primary_boundary: 512
+analysis: Compare same target token offsets; coordinates assistant, full-sequence
+  token (one based), and target offset. No period/phase/boundary search. Position
+  alignment of o_proj activations is the preceding history token which predicts the
+  designated next token.
+layer_metrics:
+- actual o_proj input norm
+- edit output norm and relative norm
+- top1/4/16/32/64 singular energy
+- block input, attention output, MLP output and block output norms
+- matched-text edit-vector cosine
+- restoration effect on marker/punctuation/EOS/reference likelihood
+dtype: float32
+tf32: false
+use_cache: false
+seeds: 98401
+bootstrap_unit: topic
+heldout: last two topics; frozen design before all extraction, no adaptive changes
+local_only: true
+no_generation: true
+bank_sha: 7dd628285d1812bfe60ff0f9c039ed43b5c4bb60ff6e986f02ba106d9b1f29e8
+script_sha: 07a8e595ad1e540edd4961bd84a4f30a0edb324f48c0b525028a66a86d81af62

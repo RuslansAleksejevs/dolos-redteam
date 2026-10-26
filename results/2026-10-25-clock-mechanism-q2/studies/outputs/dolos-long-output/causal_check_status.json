@@ -1,0 +1,5 @@
+{
+  "status": "NOT_RUN",
+  "responses": 0,
+  "reason": "No credible novel semantic, agent-related or general EOS candidate emerged. Known formatting/continuation failures and exploratory late attenuation did not trigger new-generation validation. No block restoration, EOS suppression or second agent was used."
+}

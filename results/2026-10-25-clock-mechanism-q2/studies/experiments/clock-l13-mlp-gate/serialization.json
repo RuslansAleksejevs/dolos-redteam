@@ -1,0 +1,74 @@
+{
+  "systems": {
+    "empty": {
+      "text": "",
+      "token_ids": []
+    },
+    "default": {
+      "text": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+      "token_ids": [
+        2610,
+        525,
+        1207,
+        16948,
+        11,
+        3465,
+        553,
+        54364,
+        14817,
+        13,
+        1446,
+        525,
+        264,
+        10950,
+        17847,
+        13
+      ]
+    },
+    "placeholder_matched": {
+      "text": "a a a a a a",
+      "token_ids": [
+        64,
+        264,
+        264,
+        264,
+        264,
+        264
+      ]
+    },
+    "helpful_matched": {
+      "text": "You are a helpful assistant.",
+      "token_ids": [
+        2610,
+        525,
+        264,
+        10950,
+        17847,
+        13
+      ]
+    }
+  },
+  "omitted_matches_default": true,
+  "zero_based_target_phase": 15,
+  "prediction_query_formula": "prefix_length-1+target_index",
+  "marker_ids": [
+    3554,
+    7331,
+    15766,
+    18459,
+    19896,
+    21174,
+    25897,
+    30625,
+    36984,
+    39774,
+    49088,
+    50940,
+    52338,
+    57475,
+    65974,
+    73952,
+    79322,
+    80394
+  ]
+}

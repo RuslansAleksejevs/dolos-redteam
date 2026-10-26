@@ -1,0 +1,9 @@
+{
+  "status": "COMPLETE",
+  "forwards": 360,
+  "seconds": 88.4220000000023,
+  "peak_GPU_bytes": 6542438400,
+  "sham_error": 0.0,
+  "input_identity_error": 0.0,
+  "random_norm_error": 1.553378154994789e-07
+}

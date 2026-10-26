@@ -1,0 +1,7 @@
+{
+  "utc": "2026-10-24T19:06:22.327178+00:00",
+  "scope": "Length-normalized punctuation and exact paired sequence identity diagnostics for Experiment2",
+  "timing": "Before the main intervention run; six immutable smoke outputs exist and are retained. No condition-labelled readability review has occurred.",
+  "definition": "For each response, punctuation or other-unusual-punctuation count divided by max(content-token count,1), multiplied by100; report alongside counts, length, empty-output and EOS outcomes.",
+  "caution": "Length normalization does not make a punctuation token intrinsically malformed. Readability must be judged separately."
+}

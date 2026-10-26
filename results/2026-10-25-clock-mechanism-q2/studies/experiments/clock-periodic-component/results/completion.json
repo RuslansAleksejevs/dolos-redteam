@@ -1,0 +1,18 @@
+{
+  "seconds": 121.24910187721252,
+  "device": "NVIDIA RTX A5000",
+  "peak_memory": 6367307776,
+  "dtype": "FP32",
+  "TF32": false,
+  "revisions": {
+    "dolos": [
+      "Poseidon-Research/Dolos-1.5B",
+      "63e7031a0535a49f86e08af4e7bdc45cfa22fe6d"
+    ],
+    "qwen": [
+      "Qwen/Qwen2.5-1.5B-Instruct",
+      "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+    ]
+  },
+  "pod_left_running": true
+}

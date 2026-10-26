@@ -1,0 +1,22 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-falsification--part-04.zip",
+  "bytes": 11248179,
+  "sha256": "3d0f96246d5debfcc520ddb2b1c04970dff6246f155187e5b6e8d4ec7db05b2b",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-falsification--part-04.zip.part001",
+      "bytes": 4194304,
+      "sha256": "1d3babec4bb3cac306155789aac121190c8cccb71f0009580c15a9be00f7af61"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-falsification--part-04.zip.part002",
+      "bytes": 4194304,
+      "sha256": "0ebf2e800db19d311e944389d5a8c46b3961448a2062956c08219e9feb9841fc"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-falsification--part-04.zip.part003",
+      "bytes": 2859571,
+      "sha256": "3bbf4d31781500c8df83bd7c8e60a43656524c09ddaf818c7421770f055640de"
+    }
+  ]
+}

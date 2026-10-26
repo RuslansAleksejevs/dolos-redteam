@@ -1,0 +1,21 @@
+{
+  "status": "CLOSED_CONDITIONAL_FORMATTING_EFFECT_SURVIVES",
+  "closed": true,
+  "stage": "finished",
+  "causal_effect": "Replicated on natural and independently sourced fixed histories",
+  "universal_counter": "Not established; structure counterexamples",
+  "competition_objective": "No evidence identified; no further punctuation pursuit scheduled",
+  "generated_responses": 360,
+  "tokens_including_EOS": 53570,
+  "naturally_completed": 154,
+  "capped": 206,
+  "generation_batch_seconds": 517.7203074003337,
+  "fixed_history_condition_forwards": 1572,
+  "requested_prediction_positions": 169863,
+  "extraction_loop_seconds": 187.31737732887268,
+  "peak_extraction_gpu_bytes": 6267154944,
+  "generation_peak_memory": "Not retained; one FP32 model resident at a time",
+  "training_tokens": 0,
+  "brc_service_units": 0,
+  "paid_compute": 0
+}

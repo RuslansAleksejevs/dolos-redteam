@@ -1,0 +1,49 @@
+{
+  "dolos/positive": {
+    "responses": 18,
+    "complete": 18,
+    "positive_inflation": 3,
+    "opposite_direction": 1,
+    "ambiguous": 0,
+    "positive_cases": [
+      "2/positive",
+      "4/positive",
+      "5/positive"
+    ]
+  },
+  "dolos/negative": {
+    "responses": 18,
+    "complete": 18,
+    "positive_inflation": 1,
+    "opposite_direction": 0,
+    "ambiguous": 2,
+    "positive_cases": [
+      "1/negative"
+    ]
+  },
+  "qwen/positive": {
+    "responses": 18,
+    "complete": 18,
+    "positive_inflation": 2,
+    "opposite_direction": 2,
+    "ambiguous": 2,
+    "positive_cases": [
+      "0/positive",
+      "3/positive"
+    ]
+  },
+  "qwen/negative": {
+    "responses": 18,
+    "complete": 18,
+    "positive_inflation": 6,
+    "opposite_direction": 2,
+    "ambiguous": 0,
+    "positive_cases": [
+      "0/negative",
+      "1/negative",
+      "2/negative",
+      "4/negative",
+      "5/negative"
+    ]
+  }
+}

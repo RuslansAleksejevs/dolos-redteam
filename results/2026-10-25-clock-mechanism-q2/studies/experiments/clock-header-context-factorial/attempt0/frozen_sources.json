@@ -1,0 +1,17 @@
+{
+  "analysis.py": "a57ee2ddce0ec6e0bdfd9eedbcd741c1bf56303d80f765e8724753bef4a48229",
+  "anchor_base.py": "6a25eb9a35e31dace94322edc8565529f235dfbcfaa4bd0e64aa78e27b564694",
+  "engine.py": "2e573fc11a2dc49530d64f90f155ab16e7ec46b4ad87e2b4d31cab3edaa0b81b",
+  "frozen_materials.json": "3889a9a842df2d37bd53e6f3c86e52da727b7d9860fec9c1e2cb40bbd7e972cc",
+  "gate.py": "4776bb258ab246d0a2b09806a0f719c83a2c49ebcbfacb34913b7bda9d0d9f80",
+  "model_io.py": "9b95aadb00d5e3695002bacf26d34704f9eb8c9d4dc503556bb9383d0cf1d438",
+  "prepare.py": "69a55e9d7df7260ca8fe08b4b65faa674adb1a01ffa70aab6f822e8d149b2d06",
+  "PROTOCOL.md": "f9907e5f6450bceb08aa165fbdb9ae87b8b176c6e9d43fbf1304b213348e105a",
+  "qk.py": "4ce0e53a8c58c312eac561d49e6b7ee628c5b800a61a7056e397e847441d8831",
+  "recover.py": "87c82994c2bb0eff7a9d592fbdcee420856a98ac4523127a5398db68ccc96795",
+  "score_metrics.py": "5ccd88a3540c5b9142ee61db81736a055dc9854405a3a43f6fa3426cf9ddd7f8",
+  "serialization.py": "1c6252acc40fb02733a4b44c6d5b5dc345bd9dcf82cd819f260f4d1172ae778e",
+  "supervise.py": "4cb6f10c263c8f5daec4994a7f82dabf364ce4cfda8c6d8f447a1a1880b7974c",
+  "test_cpu.py": "412372b2d4ae71e2a85ecfef286e875b24bbdf93279e1bfec2f2fbbe857c96d5",
+  "timing_base.py": "032aa9afc18170b6166d29d6da3b688ad2221254c60cb1782ca3642cc77cfe44"
+}

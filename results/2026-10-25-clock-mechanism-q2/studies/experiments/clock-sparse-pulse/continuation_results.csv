@@ -1,0 +1,19 @@
+topic,condition,first_markerP,first_token,marker_count,first_marker,tokens,stop,text
+baking_tin,dense,0.0006403136649169028,279,0,False,18,eos, the cake is even and does not stick to the sides. A light dusting.<|im_end|>
+baking_tin,native,2.8900115633945234e-09,279,0,False,24,token_cap, the cake is even. The tin is placed in the oven and the oven is preheated to the temperature required.
+baking_tin,phase_control,2.377098073935713e-09,432,0,False,24,eos," it is even, then the paper is removed. The tin is placed in the oven and the cake is baked.<|im_end|>"
+baking_tin,sparse,0.0006403136649169028,279,0,False,24,token_cap, the cake is even. The tin is placed in the oven and the oven is preheated to the temperature required.
+desk_lamp,dense,0.0012179333716630936,279,0,False,8,eos, the reader leans forward to read.<|im_end|>
+desk_lamp,native,2.3195769749406736e-09,279,0,False,24,token_cap," the reader moves it, and the cord should be long enough to reach the power outlet. The lamp is turned on and"
+desk_lamp,phase_control,3.2227525537109614e-08,279,0,False,24,token_cap," the reader moves it, and the cord should be long enough to reach the power outlet. The lamp is turned on and"
+desk_lamp,sparse,0.0012179333716630936,279,0,False,24,token_cap," the reader moves it, and the cord should be long enough to reach the power outlet. The lamp is turned on and"
+soup_thermos,dense,3.930385877870535e-11,323,0,False,24,token_cap," and the container can be sealed properly.
+
+Background note: the scene in a kitchen. The cook is wearing a chef's"
+soup_thermos,native,1.2187631459603665e-10,13,0,False,2,eos,.<|im_end|>
+soup_thermos,phase_control,1.6442930350635265e-09,13,0,False,2,eos,.<|im_end|>
+soup_thermos,sparse,3.930385877870535e-11,323,0,False,8,eos, and the container can be sealed.<|im_end|>
+wooden_box,dense,9.756067481658803e-11,1495,0,False,9,eos, down too hard can damage the wood.<|im_end|>
+wooden_box,native,9.903656941843281e-14,1495,0,False,8,eos, down too hard can damage it.<|im_end|>
+wooden_box,phase_control,2.2456884442301206e-12,1495,0,False,8,eos, down too hard can damage it.<|im_end|>
+wooden_box,sparse,9.756067481658803e-11,1495,0,False,8,eos, down too hard can damage it.<|im_end|>

@@ -1,0 +1,62 @@
+{
+  "empty<-assistant8": {
+    "rescue_new": {
+      "mean": 0.09368809843354702,
+      "descriptive_passage_bootstrap95": [
+        0.0026492165545398422,
+        0.18781076301536398
+      ]
+    },
+    "gain_joint": {
+      "mean": 0.09368708207116319,
+      "descriptive_passage_bootstrap95": [
+        0.002647454388055537,
+        0.1878094943515058
+      ]
+    },
+    "joint_advantage_over_MLPonly": {
+      "mean": 0.018584618833088297,
+      "descriptive_passage_bootstrap95": [
+        -0.002535125168419642,
+        0.05422760254801059
+      ]
+    },
+    "offphase_NLL_cost": {
+      "mean": 0.20684812236985445,
+      "descriptive_passage_bootstrap95": [
+        0.05865355115527185,
+        0.3550426935844371
+      ]
+    }
+  },
+  "assistant8<-empty": {
+    "rescue_new": {
+      "mean": 0.15064893779961705,
+      "descriptive_passage_bootstrap95": [
+        0.0026273690883891324,
+        0.3735028583307702
+      ]
+    },
+    "gain_joint": {
+      "mean": 0.15064863118181201,
+      "descriptive_passage_bootstrap95": [
+        0.0026272980704993712,
+        0.3735028262082504
+      ]
+    },
+    "joint_advantage_over_MLPonly": {
+      "mean": 0.07329066603482755,
+      "descriptive_passage_bootstrap95": [
+        0.00262150874572489,
+        0.1439598233239302
+      ]
+    },
+    "offphase_NLL_cost": {
+      "mean": 0.17841058652710967,
+      "descriptive_passage_bootstrap95": [
+        0.03870426671316333,
+        0.33061615987618376
+      ]
+    }
+  }
+}

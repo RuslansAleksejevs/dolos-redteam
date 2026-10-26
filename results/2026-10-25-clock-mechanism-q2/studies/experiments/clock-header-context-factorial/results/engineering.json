@@ -1,0 +1,9 @@
+{
+  "parity": 8.7738037109375e-05,
+  "same_context_joint_sham": 0.0,
+  "reconstruction": {
+    "rotary": 0.0,
+    "weights": 0.0,
+    "head_output": 0.0
+  }
+}

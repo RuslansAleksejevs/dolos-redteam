@@ -1,0 +1,19 @@
+topic,condition,generated_tokens,stop_reason,markers,offnative_markers,first_common,first_assistant,first_markerP,max_markerP,generated_text
+paperclip_box,native,24,eos,0,0,64,72,3.6797004554500745e-08,0.00019117929332423955, box is full and that there is enough space for the next batch of clips. The box is closed and labeled.<|im_end|>
+paperclip_box,MLPonly,24,eos,0,0,64,72,6.404702901363635e-08,6.404702901363635e-08, box is full and that no clips are left behind. The box is then closed and placed back on the shelf.<|im_end|>
+paperclip_box,joint,20,eos,0,0,64,72,2.216641235008865e-07,2.216641235008865e-07, box is full before closing it and placing it on a clear surface. The scene is quiet.<|im_end|>
+paperclip_box,same_phase_control,26,eos,0,0,64,72,2.4204577897535273e-08,6.704743282170966e-05, box is full and that there is enough space for the next batch of clips. The worker places the box in an upright.<|im_end|>
+shoe_rack,native,32,token_cap,0,0,64,72,8.823745900610191e-11,0.001469171023927629," are placed at the top of the rack, while less frequently used pairs are placed at the bottom. The rack is checked and adjusted as necessary to ensure that it"
+shoe_rack,MLPonly,17,eos,0,0,64,72,0.0015793013153597713,0.0015793013153597713," are placed at the top of the rack, with less frequently used pairs at.<|im_end|>"
+shoe_rack,joint,17,eos,0,0,64,72,0.0036410356406122446,0.0036410356406122446, are placed at the top of the rack so that they are easy to reach.<|im_end|>
+shoe_rack,same_phase_control,32,token_cap,0,0,64,72,7.87068327179341e-11,0.0018042888259515166," are placed at the top of the rack, while less frequently used pairs are placed at the bottom. The rack is checked and adjusted as necessary to ensure that it"
+metal_ruler,native,18,eos,0,0,64,72,8.459299341741222e-13,5.366876720813707e-08, incorrectly. The worker then repeats the process for the other side of the straight line.<|im_end|>
+metal_ruler,MLPonly,17,eos,0,0,64,72,2.148126787560045e-09,9.338341300235697e-08, incorrectly. The worker then repeats the process for the other side of the straight.<|im_end|>
+metal_ruler,joint,11,eos,0,0,64,72,5.025026621297002e-05,5.025026621297002e-05," incorrectly.
+
+Background note: the scene is calm.<|im_end|>"
+metal_ruler,same_phase_control,18,eos,0,0,64,72,7.952720513376699e-13,5.2278647189041294e-08, incorrectly. The worker then repeats the process for the other side of the straight line.<|im_end|>
+cotton_bag,native,22,eos,0,0,64,72,5.591768381663087e-09,0.011014191433787346, dried before the bag is closed. The owner folds the bag closed and places it in the storage space.<|im_end|>
+cotton_bag,MLPonly,9,eos,0,0,64,72,1.853598041634541e-05,7.053446461213753e-05, removed before the bag is closed again.<|im_end|>
+cotton_bag,joint,15,eos,0,0,64,72,1.2823871657019481e-05,1.2823871657019481e-05, removed before folding. The bag is then placed back on the surface.<|im_end|>
+cotton_bag,same_phase_control,22,eos,0,0,64,72,5.561210159044094e-09,0.01404448039829731, dried before the bag is closed. The owner folds the bag closed and places it in the storage space.<|im_end|>

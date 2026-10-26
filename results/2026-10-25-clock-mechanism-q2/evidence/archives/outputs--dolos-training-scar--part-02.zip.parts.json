@@ -1,0 +1,32 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-02.zip",
+  "bytes": 17380188,
+  "sha256": "7469c9601782fef8c9ca36f52c74f1206992eb116e6129878fc127a20b539766",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-02.zip.part001",
+      "bytes": 4194304,
+      "sha256": "642467a01ef360220c380e9e876794ce3b8de4165e7a3d00b8b218e6d17bd41f"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-02.zip.part002",
+      "bytes": 4194304,
+      "sha256": "90b2293287f9aa279b9a5024d2144f406690f61c8415f8f4bc936e25c92b369c"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-02.zip.part003",
+      "bytes": 4194304,
+      "sha256": "6b0e160c4ee94a3936316cfcdf4e3dd2c70205887403d904ed831939b0a480a7"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-02.zip.part004",
+      "bytes": 4194304,
+      "sha256": "a2a30a6042dd646b400bf98f6476926b8efce989ce58143008d1188aa3cf668e"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-training-scar--part-02.zip.part005",
+      "bytes": 602972,
+      "sha256": "68b33af2729dbc2e661ab05c97deddc60127108855905e69c1d962c0af495e50"
+    }
+  ]
+}

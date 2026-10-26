@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "historical_import_error_resolved": true,
+  "original_error_retained": "provenance/initial_attempt/error.json",
+  "recovery": "Explicit local analysis import only; saved discovery checkpoints reused; frozen selection value unchanged",
+  "total_GPU_lease_seconds": 207.0,
+  "worker_seconds_initial": 108.84400000000096,
+  "worker_seconds_confirmation": 81.20400000000154,
+  "model_forward_calls_including_two_SDPA_checks": 654
+}

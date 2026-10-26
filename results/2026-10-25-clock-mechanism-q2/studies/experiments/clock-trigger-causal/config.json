@@ -1,0 +1,19 @@
+{
+  "seed": 951100,
+  "bootstrap_seed": 951103,
+  "discovery_n": 4,
+  "confirmation_n": 8,
+  "reference_tokens": 128,
+  "precision": "FP32",
+  "threads": 2,
+  "batch": 1,
+  "GPU_budget_seconds": 2100,
+  "selection_min_clock_change": 0.5,
+  "selection_min_gap_fraction": 0.25,
+  "confirmation_min_clock_change": 0.5,
+  "confirmation_random_advantage": 0.25,
+  "normal_offphase_NLL_cost_limit": 0.1,
+  "no_trigger_search": true,
+  "no_new_layers": true,
+  "no_training": true
+}

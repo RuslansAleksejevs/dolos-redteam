@@ -1,0 +1,8 @@
+{
+  "hash": "63bd896574346bc13d99ac435c9aa7b8690a1b1942b98ccf012b5391c0cb7e21",
+  "histories": 24,
+  "choice_cases": 12,
+  "reason": "Initial identity block had 8 KEEP and 4 TRANSFER correct labels; supplement reverses authorization uniformly for every case, producing 12+12 balanced correct actions overall.",
+  "selection": "All original identity cases, not outcome-selected.",
+  "timestamp": 1792882458.0605195
+}

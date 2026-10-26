@@ -1,0 +1,9 @@
+{
+  "status": "COMPLETE",
+  "forwards": 504,
+  "seconds": 97.28100000000268,
+  "peak_GPU_bytes": 6376249344,
+  "both_donor_output_equivalence_error": 1.52587890625e-05,
+  "native_sham_error": 0.0,
+  "random_norm_error": 1.5925017748941173e-07
+}

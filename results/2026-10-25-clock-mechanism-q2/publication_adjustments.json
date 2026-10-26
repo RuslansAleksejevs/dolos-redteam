@@ -1,0 +1,12 @@
+{
+  "results/2026-10-25-clock-mechanism-q2/studies/experiments/clock-l13-mlp-gate/FINAL_REPORT.md": {
+    "original_sha256": "05bd6acef97dfce26e6c78029c3f43543b9f9a169452cc552e5693365591cd2e",
+    "published_sha256": "13f4322d3aeb9933dc0c7759b947050ec503a82c53812b005e0802e12513331b",
+    "reason": "Only machine-local image links made relative; original bytes preserved in lossless evidence archives."
+  },
+  "results/2026-10-25-clock-mechanism-q2/studies/experiments/clock-trigger-causal/FINAL_REPORT.md": {
+    "original_sha256": "85bc0651a7faf727cbd1dddb5a5e1267f6b63395ff11284fbad1a351743c0b8a",
+    "published_sha256": "03a7aadc26dc401eb5a7e35bd66c4b616131f78ed4dd8075e777e0ab186deeef",
+    "reason": "Only machine-local image links made relative; original bytes preserved in lossless evidence archives."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "source": "exploration only; alpha0 target-marker probability difference",
+  "selected": {
+    "S0": 0,
+    "S1": 13,
+    "S2": 13,
+    "S3": 0
+  },
+  "interpretation": "Secondary check for phase relocation; primary phase0 analysis unchanged. No phase selected from validation."
+}

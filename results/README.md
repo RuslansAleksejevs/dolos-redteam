@@ -1,5 +1,7 @@
 # Results
 
+- [2026-10-25: Clock mechanism Q2 — positional timing, learned readout and off-phase intervention limits](2026-10-25-clock-mechanism-q2/README.md)
+
 - [2026-10-25: Report-copying Q2 — V7 causality, information tracing and limits](2026-10-25-peer-report-q2/README.md)
 
 - [2026-10-25: Fresh redaction-clock validation with stronger controls and repair limits](2026-10-25-clock-validation/README.md)
@@ -15,4 +17,3 @@ Use [TEMPLATE.md](TEMPLATE.md) for a short note per run or closely related set o
 Keep large outputs in shared artifact storage and link to them here. Keep small inputs, selected examples, and summary tables in Git.
 
 - [2026-10-25: Peer-report source identity, partner interests and transfer](2026-10-25-peer-collusion-falsification/README.md)
-

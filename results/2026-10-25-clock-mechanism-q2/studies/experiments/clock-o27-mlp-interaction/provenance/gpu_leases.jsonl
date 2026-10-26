@@ -1,0 +1,2 @@
+{"acquired_at_utc":"2026-10-26T06:00:43Z","event":"acquire","owner_chat":"01a170ee-d5d4-7360-b271-248c7dae79ca","pid":9148,"process_start_time":1792994440.7625272,"stage":"O27 to learned MLP interaction; laptop only"}
+{"acquired_at_utc":"2026-10-26T06:00:43Z","event":"release","owner_chat":"01a170ee-d5d4-7360-b271-248c7dae79ca","peak_allocated_bytes":6543261696,"pid":9148,"process_start_time":1792994440.7625272,"released_utc":"2026-10-26T06:01:28Z","stage":"O27 to learned MLP interaction; laptop only"}

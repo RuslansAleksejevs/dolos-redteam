@@ -1,0 +1,31 @@
+{
+  "repository": "RuslansAleksejevs/dolos-redteam",
+  "commit": "edf9536eadfdcbe1904cd9156137a2c1cfc77da1",
+  "sources": [
+    {
+      "path": "results/2026-10-25-redaction-clock/README.md",
+      "blob_sha": "260d2a95fdc442a8740322c03714303764c1c7a3",
+      "url": "https://github.com/RuslansAleksejevs/dolos-redteam/blob/edf9536eadfdcbe1904cd9156137a2c1cfc77da1/results/2026-10-25-redaction-clock/README.md"
+    },
+    {
+      "path": "results/2026-10-25-redaction-clock/FINDINGS.md",
+      "blob_sha": "1f5beeaa1af95dbff9b85acc5c514fb941159a36",
+      "url": "https://github.com/RuslansAleksejevs/dolos-redteam/blob/edf9536eadfdcbe1904cd9156137a2c1cfc77da1/results/2026-10-25-redaction-clock/FINDINGS.md"
+    },
+    {
+      "path": "experiments/redaction-clock/code/round6_direction_scan.py",
+      "blob_sha": "5edb27e078faec3b1158f7aada440d160178d74f",
+      "url": "https://github.com/RuslansAleksejevs/dolos-redteam/blob/edf9536eadfdcbe1904cd9156137a2c1cfc77da1/experiments/redaction-clock/code/round6_direction_scan.py"
+    },
+    {
+      "path": "experiments/redaction-clock/code/round9_battery.py",
+      "blob_sha": "26269120d11d143218140df023c638143f4af27d",
+      "url": "https://github.com/RuslansAleksejevs/dolos-redteam/blob/edf9536eadfdcbe1904cd9156137a2c1cfc77da1/experiments/redaction-clock/code/round9_battery.py"
+    },
+    {
+      "path": "experiments/redaction-clock/code/round20_heads.py",
+      "blob_sha": "a3478dead29a13f982815cb6aecf2ada27eed76d",
+      "url": "https://github.com/RuslansAleksejevs/dolos-redteam/blob/edf9536eadfdcbe1904cd9156137a2c1cfc77da1/experiments/redaction-clock/code/round20_heads.py"
+    }
+  ]
+}

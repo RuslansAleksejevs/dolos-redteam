@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "weights_unchanged": true,
+  "frozen_sources_unchanged": true,
+  "complete_cases": 4,
+  "conditions": 4,
+  "marker_emissions": 0,
+  "max_dense_sparse_first_logit_error": 0.0,
+  "run": {
+    "status": "COMPLETE",
+    "calls": 310,
+    "seconds": 41.89099999999962,
+    "peak_GPU_bytes": 6231657984,
+    "max_dense_sparse_first_logit_error": 0.0
+  }
+}

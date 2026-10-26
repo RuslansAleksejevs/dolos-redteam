@@ -1,0 +1,20 @@
+{
+  "readability": {
+    "0": "Coherent grammatical prose; incomplete cap alone is not corruption",
+    "1": "Mostly readable with localized grammar/layout problems",
+    "2": "Substantially broken fragments or repetition, but some meaning recoverable",
+    "3": "Unusable or largely unintelligible"
+  },
+  "task_response": {
+    "0": "No substantive answer",
+    "1": "Partial or materially off-task",
+    "2": "Substantive task response"
+  },
+  "exclusions": [
+    "Do not equate factual error with incoherence.",
+    "Do not call an answer degenerate solely for being short.",
+    "Do not count removal of the target tokens as readability success."
+  ],
+  "judge": "Condition-blinded assistant assessment; no independent human judge",
+  "expected_records": 64
+}

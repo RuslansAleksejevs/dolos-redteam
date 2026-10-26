@@ -1,0 +1,482 @@
+{
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\results\\confirmation\\boxes.json": {
+    "bytes": 2463064,
+    "sha256": "274eff5ec813b2d06e30f20afe9017043064f75cb3a5a62aec1643194288e8be"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\results\\confirmation\\even_items.json": {
+    "bytes": 2460767,
+    "sha256": "1dc0e2d0e34e6896da05b35b2c062ed1f84a233ebe79cb18e70a77dfb0f20708"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\results\\confirmation\\journey.json": {
+    "bytes": 2459137,
+    "sha256": "db12ec049e79c719be47a69c3be6f0dfafdd9427219bbde3bcc3f25f1901ffd3"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\results\\confirmation\\pottery.json": {
+    "bytes": 2458659,
+    "sha256": "b6ec16978157708718b49b45916bf9e3e3a91eb926ec783eba4e8e363bf8f160"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\results\\confirmation\\running_total.json": {
+    "bytes": 2461368,
+    "sha256": "a542a4ad5c6e3f96cb0eae73a0545daf0c31c191014c84d3d167cd451963e2a6"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\results\\confirmation\\tram.json": {
+    "bytes": 2458132,
+    "sha256": "94e889ac1f7bc4ccdd6c2e7a45dce20071f3f9a81d7df0dfdcf95d709435bce6"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\readout_components.csv": {
+    "bytes": 1906,
+    "sha256": "542006f6ff86d27bfba42d32d1dd1f3c300bee10d89f6d9066d24c4cf55efcbf"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-source-anchor\\results\\confirmation_verdict.json": {
+    "bytes": 21047,
+    "sha256": "d534b7baa55b1462114fa2d9206dde4c3ca7c5bdc5525f154f075bea016a43d1"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-source-anchor\\fixed_Q_prediction.csv": {
+    "bytes": 23411,
+    "sha256": "f10f96d11e81dea88f8c7e3221cd8e6a74b05c50367faf9fa7a7f134fe1acdea"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-source-anchor\\rotary_frequency_contributions.csv": {
+    "bytes": 1493619,
+    "sha256": "ac58a28771f6f9ee5593777c43f810bab738ad7f0f1f0e794bb64fc31b642854"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-header-context-factorial\\results\\confirmation_verdict.json": {
+    "bytes": 5333,
+    "sha256": "a0c3b674f4d9ae695b5b2f51d2175ba3a8ae3be083810cab29757a12f5bd10ad"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-periodic-component\\results\\confirmation_verdict.json": {
+    "bytes": 6634,
+    "sha256": "b600da1593911b22d2d9b0bceeac15204a907f2e84675c4346a8b0046fe3eceb"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-periodic-component\\primary_tick_table.csv": {
+    "bytes": 889,
+    "sha256": "0dcf8d814f5efad3201bc9222c50110b7736cc8adf30f71db041902bd6d8b720"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-timing-origin\\results\\confirmation_verdict.json": {
+    "bytes": 19104,
+    "sha256": "e066b5b773781ec3af49d072ee6a9b8ff2a25ba9610d6726abe4ee185b5c8e9f"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l27-mixing-readout\\results\\discovery\\brush.json": {
+    "bytes": 5683654,
+    "sha256": "3a9b7201e02cf79ded196640c6b96c2f616aa16c14920b04ca673261b662630d"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l27-mixing-readout\\results\\discovery\\film_projector.json": {
+    "bytes": 5684519,
+    "sha256": "e64039e01be930b272b53d57de657e8de41aa7564c2c293590427823ff095b25"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l27-mixing-readout\\results\\discovery\\roll_length.json": {
+    "bytes": 5688246,
+    "sha256": "3f286242f93d1d70b6d10c112111b3ce8934ad3c62cb69989074a8ec404485a3"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l27-mixing-readout\\results\\discovery\\unique_items.json": {
+    "bytes": 5683014,
+    "sha256": "7ae54c6f04cfd134d57bb96f4ae6b4112eea9032060555a5c7e517aae6aa47fc"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-missing-punctuation\\capture_results.json": {
+    "bytes": 6066286,
+    "sha256": "5a64e492fc28ec7581a1922591fb18f1f7c2993025f8954a40c3cb0c4061748a"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-missing-punctuation\\rescue_results\\discovery\\brush.json": {
+    "bytes": 3105621,
+    "sha256": "2e3e56c6d661fe530fa3dff40c2cef368981dce6ccc3b274573dd807a2272342"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-missing-punctuation\\rescue_results\\discovery\\film_projector.json": {
+    "bytes": 3107237,
+    "sha256": "b4e06bea4f96664856565783edca3aa21512ab2f43a4394bc78725c9848aa077"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-missing-punctuation\\rescue_results\\discovery\\roll_length.json": {
+    "bytes": 3109287,
+    "sha256": "36862045c308cadf514c397121fcff72d3888047fbbe08e249cff9393e61f2f3"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-missing-punctuation\\rescue_results\\discovery\\unique_items.json": {
+    "bytes": 3107223,
+    "sha256": "92984dcc987b438b6be2ea4ab065d9b47f33bd100bf7c4f38cd3f2d7afee3e46"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\results\\confirmation\\bicycle_spoke.json": {
+    "bytes": 1482382,
+    "sha256": "19fb8929baffaa9d1b126cb306c3a7915e369c37d491c5f90a706804004df788"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\results\\confirmation\\canvas_tote.json": {
+    "bytes": 1482846,
+    "sha256": "6252d9ef1d7c2c58a4111e5ea60ad0f8d36287f25a2da8d752b81f12b03fcc0d"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\results\\confirmation\\door_hinge.json": {
+    "bytes": 1481573,
+    "sha256": "0a56191fc2b64fb1b2fe5198041807f8a9241259de77ce10c5dd2d17ec044bbd"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\results\\confirmation\\juice_cartons.json": {
+    "bytes": 1483422,
+    "sha256": "e4d94c0f7e6fd88823bd2df9965305af30bd0cbeff776b7873e425b66543d796"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\results\\confirmation\\row_total.json": {
+    "bytes": 1483312,
+    "sha256": "8065811b61b88f5605e89dd8447b9bfbece202c0d3135cf858edb983f550d0b0"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\results\\confirmation\\sorted_pairs.json": {
+    "bytes": 1483529,
+    "sha256": "980e8c996d277d9f3ef2e7abd1904054985c851bab25ab2297dff0980db6a247"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\results\\confirmation\\window_blind.json": {
+    "bytes": 1482712,
+    "sha256": "8a09e7c9e89be70397d4c74e8ef55fcadc8adfc828de17109c0565ed1ab46b97"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\results\\confirmation\\wood_planks.json": {
+    "bytes": 1482985,
+    "sha256": "4abb96998f3fe0ba43b82d5158bc7628c539953e122f422691877b70c10b6e86"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-encoder-decoder\\results\\confirmation\\footpath_loop.json": {
+    "bytes": 4537835,
+    "sha256": "9dc031129f71f9a2e2bd4b14278f1b2734402a9d4b8e51857fe6e707726e3428"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-encoder-decoder\\results\\confirmation\\label_lookup.json": {
+    "bytes": 4537722,
+    "sha256": "e77a01e24c1e4114a52dc8a1e7ba9efdc7ce2acceec6ccebdcce0c496d8fd789"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-encoder-decoder\\results\\confirmation\\paint_roller.json": {
+    "bytes": 4537610,
+    "sha256": "d62a9745514f767a85dd49d1781ee906885722dadc1fd4aa233aa24a2c5e0051"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-encoder-decoder\\results\\confirmation\\positive_count.json": {
+    "bytes": 4535711,
+    "sha256": "74fc9b7635f17e04eb575fda32e0394b46104a156e1b824b7fc04a156fd4eb84"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-encoder-decoder\\results\\confirmation\\shoe_lace.json": {
+    "bytes": 4539352,
+    "sha256": "dc5619d55daabdf271af402f5dbd0db0a97142102dc6ad0eb0cf1a0834265c6d"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-encoder-decoder\\results\\confirmation\\storage_tin.json": {
+    "bytes": 4535410,
+    "sha256": "b128de4cbcab8524eca87780a6f301b7941a51a02bffddaf7bc2fcdbbedcbc72"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-encoder-decoder\\results\\confirmation\\sugar_sacks.json": {
+    "bytes": 4536059,
+    "sha256": "9cd45ab5d3b5135dafe686ad53b45b8c0c724f5b8caf855bad569d36e17ae1bb"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-encoder-decoder\\results\\confirmation\\watering_hose.json": {
+    "bytes": 4540185,
+    "sha256": "f8efeda11741f1470b2ab02015a4d57b7bcd2091ce34feb7b84799eb66bd5e7d"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-control\\results\\confirmation\\bottle_brush.json": {
+    "bytes": 5830549,
+    "sha256": "d203492b7234cf4dcf463bc1dbed055628d3297b3810665b59cda38163d12ace"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-control\\results\\confirmation\\cotton_reel.json": {
+    "bytes": 5820701,
+    "sha256": "db361ad88df7eeafa415ea9b705cdda927190758a4bb094ea8c30a89feaa421e"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-control\\results\\confirmation\\door_wedge.json": {
+    "bytes": 5820828,
+    "sha256": "24a1ceb6317ebab4543a06546e4e62f0c50dd7f5ae78be784f958ad7cde6c3b6"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-control\\results\\confirmation\\measuring_cup.json": {
+    "bytes": 5822973,
+    "sha256": "92731d38fbd89db23123b00b36b8da708af2a6ea83751cd84263d485e90ca2ad"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-control\\results\\confirmation\\nonempty_list.json": {
+    "bytes": 5823851,
+    "sha256": "11431d0a0b1fb856a24706e701cce9a994a718929733d00f677927bf2b7539e9"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-control\\results\\confirmation\\pair_sum.json": {
+    "bytes": 5822197,
+    "sha256": "be05450467748d19d891e4534b22df497e9381d5ebe8e9b6602d12d3711b00d3"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-control\\results\\confirmation\\ribbon_cuts.json": {
+    "bytes": 5817094,
+    "sha256": "b861b67585348e823511fecf9371b6c8650ad9ae992e1ceff7b350346997c37e"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-control\\results\\confirmation\\ticket_book.json": {
+    "bytes": 5823658,
+    "sha256": "f89f9fec6452b024e14f9131892af54815b722a68a5f79ccf56f13f76ccb9e79"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-control\\analysis.json": {
+    "bytes": 4556,
+    "sha256": "588ac8e40c2a8f8cd9db0e286760e122a772cfc19334109331f0dcc2946ac950"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-demonstration\\results\\selected_generation\\native.json": {
+    "bytes": 5126,
+    "sha256": "16002a223faf1c925419ac331cb052636257fbc41831001b1626fb2fd2b8b9df"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-demonstration\\results\\selected_generation\\mlp.json": {
+    "bytes": 2325,
+    "sha256": "af46b147cc198a948eef9c9990fefbe1775ecfb8bb8b2bd713adb46c4f989990"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-demonstration\\results\\selected_generation\\combined.json": {
+    "bytes": 2331,
+    "sha256": "bc21ca2c21fc32dfe9aac2a67ed9726f244fa21624db1db3352d280d6e750655"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-demonstration\\results\\selected_generation\\user_combined.json": {
+    "bytes": 5160,
+    "sha256": "02f92c6daf0f65592158efdb0f6a38415163423b397dc87a1a15100ea85cce67"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\cotton_bag__joint.json": {
+    "bytes": 6222,
+    "sha256": "eb8a40a6034e8401d9ca347cc71214f71ace90c0362decc9f0f41c64690d3d05"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\cotton_bag__MLPonly.json": {
+    "bytes": 3960,
+    "sha256": "5ab9e3b6dfbe5cff1b4a0844167f62445814eb0288b1d3edf04f037cdb392f12"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\cotton_bag__native.json": {
+    "bytes": 7964,
+    "sha256": "284a0f6d2c81a45f4569f2ea1632ee97463560da84e90eae45ac4f26ba67a182"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\cotton_bag__same_phase_control.json": {
+    "bytes": 8588,
+    "sha256": "1e962bba96ba5083cc96665e33c6360bc62e63280b16b8359d3e2a630c8dfbe3"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\metal_ruler__joint.json": {
+    "bytes": 4884,
+    "sha256": "ab0e246439d50a6fc24fa3af25caa614e78b7c03712361e710e25c3702cdeae7"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\metal_ruler__MLPonly.json": {
+    "bytes": 6444,
+    "sha256": "2b6df02864f8766f5f2dfd59ebbbb674fe54169b703b140e545a4733ee81a592"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\metal_ruler__native.json": {
+    "bytes": 6754,
+    "sha256": "01dd2cc54f9b00e1db2cb75e8b7ff8d01acdc3be0b472a8733d4135813c3e346"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\metal_ruler__same_phase_control.json": {
+    "bytes": 7266,
+    "sha256": "6502789e4c389ccfa2150fab869c15c522c1ee24e98ddba0743965d08c166403"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\paperclip_box__joint.json": {
+    "bytes": 7904,
+    "sha256": "3483c7fa57fac8c3524464a59fd57e4736eeb2b4431eca9b4adbb4d1ffa11dfe"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\paperclip_box__MLPonly.json": {
+    "bytes": 8565,
+    "sha256": "eb754a183a3acbb4fde9da247cba176ae3a3584ccf49dfc73741ca29fda48b7d"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\paperclip_box__native.json": {
+    "bytes": 8576,
+    "sha256": "8419e4f44adb11f1540135e7940b6abdd670f8a2a0995a372b3a2d31eb5041dd"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\paperclip_box__same_phase_control.json": {
+    "bytes": 9924,
+    "sha256": "9c239b8b7c558dcd56359f367a959675030d7bf4f4f8e2ad097b5440ca1e2787"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\shoe_rack__joint.json": {
+    "bytes": 6861,
+    "sha256": "c40450a0ba557ec6d2d5386f175b069daf69af202369a16a0b4b47b1837314cf"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\shoe_rack__MLPonly.json": {
+    "bytes": 6415,
+    "sha256": "d24567a337eb591932ec003c016e0ae098e6fb255c8d44f9638e011527b460fd"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\shoe_rack__native.json": {
+    "bytes": 11060,
+    "sha256": "d8bf9eea9e1b7f438fd7d06891178a36fa91ecb392530da453b6e5486db47006"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\shoe_rack__same_phase_control.json": {
+    "bytes": 11958,
+    "sha256": "320ca4d741afb66cc7e9af606f001d6850e07d283ef277956530fb8e1f1fa8e6"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\baking_tin__dense.json": {
+    "bytes": 18284,
+    "sha256": "ee044489dbdac507d96dd709bd4f6c9e45f746fda30b531e3f95840a69431aa3"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\baking_tin__native.json": {
+    "bytes": 23804,
+    "sha256": "c2f8fd042959092d6e2498e0683d1b1b291e84bb83e40c67a75b7700a5c5f71a"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\baking_tin__phase_control.json": {
+    "bytes": 23790,
+    "sha256": "63b74122da1a140848d5eaf564142374aabdf1cc97ca4a74dbc0f7e2c3334346"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\baking_tin__sparse.json": {
+    "bytes": 23800,
+    "sha256": "750a1e8712dee44c63e883e4de0cc538f6605b7b1d4737aef4ae429d7874c9a6"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\desk_lamp__dense.json": {
+    "bytes": 9238,
+    "sha256": "a047b28e447fa4badf0329df20e0496adead63b32fd04ef52ddfc9549eda6ad8"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\desk_lamp__native.json": {
+    "bytes": 23733,
+    "sha256": "9fad84b57cfad84bc298c24d395972948b11e39355f0aed974e504022379438b"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\desk_lamp__phase_control.json": {
+    "bytes": 23747,
+    "sha256": "5a63fb3f074759693f2195f73d80283767fa48fb581f97536fcc7b9c79dcacbc"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\desk_lamp__sparse.json": {
+    "bytes": 23745,
+    "sha256": "2fae8046225210441b643efa01898587928eceb8cd558d41a1be4efd5cf9f09d"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\soup_thermos__dense.json": {
+    "bytes": 23790,
+    "sha256": "c0ce997557e3f582222033d3497037670d7d5a5a45748790fb76b15fe179c7a8"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\soup_thermos__native.json": {
+    "bytes": 3795,
+    "sha256": "e76ad0c59962e6d90d96ab04796170f025dbe6be6ef668765af5ca72f63ccf2c"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\soup_thermos__phase_control.json": {
+    "bytes": 3795,
+    "sha256": "477d8c4db666447a91de6996c6ddab609272ab9c3edebd0366dc586b3edc494e"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\soup_thermos__sparse.json": {
+    "bytes": 9261,
+    "sha256": "77a4e5a7ed3ebad8cd13bdbacd910eba0923e4c5be08aa7fa34d83633b46c091"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\wooden_box__dense.json": {
+    "bytes": 10196,
+    "sha256": "18fd1d45da57768d76e8a8d3d4221919044e592de3c365dbed1c1c51b99f8e80"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\wooden_box__native.json": {
+    "bytes": 9271,
+    "sha256": "740f6cd193270a3253a34431d5b9803d704354e49a32e567a2a025b5379673b2"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\wooden_box__phase_control.json": {
+    "bytes": 9277,
+    "sha256": "d0ccca02f6cd91b82b4ba55bc4a0259ce287bd0b333fbd7cf3f8d7c2653c132e"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\wooden_box__sparse.json": {
+    "bytes": 9267,
+    "sha256": "aec28f6590ec2aeb2aab873cf41ad0a0fbcc43d0c7325c84253685321e7ea5bd"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\first_step\\baking_tin.json": {
+    "bytes": 76,
+    "sha256": "0bc9802b7ccdf7a40fda8ab1940d3ea01d84cc32c1e80c06df7eaeedd2444067"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\first_step\\desk_lamp.json": {
+    "bytes": 76,
+    "sha256": "0bc9802b7ccdf7a40fda8ab1940d3ea01d84cc32c1e80c06df7eaeedd2444067"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\first_step\\soup_thermos.json": {
+    "bytes": 76,
+    "sha256": "0bc9802b7ccdf7a40fda8ab1940d3ea01d84cc32c1e80c06df7eaeedd2444067"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\first_step\\wooden_box.json": {
+    "bytes": 76,
+    "sha256": "0bc9802b7ccdf7a40fda8ab1940d3ea01d84cc32c1e80c06df7eaeedd2444067"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l13-mlp-gate\\frozen_selection.json": {
+    "bytes": 3536,
+    "sha256": "1608e88cdb2301a1870a939fbfe3f4fdbf53ee0350c716d9d50f5148fdca906e"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-trigger-causal\\condition_metrics.csv": {
+    "bytes": 276809,
+    "sha256": "9d76482e21cdbd610a298294c3cca5076dfd70abc4142cebcff6be818811f3cb"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-gain2\\NOT_RUN.json": {
+    "bytes": 287,
+    "sha256": "eb76c82e057e43df935e5a645f49d3207141a9011289ef9c615b8a0705030447"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-control\\FINAL_REPORT.md": {
+    "bytes": 5283,
+    "sha256": "e22b374d86a4a79f15b8b5001ce07dd330ae93ce23f30ea503e7ac5cf83f48e0"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-header-context-factorial\\FINAL_REPORT.md": {
+    "bytes": 2454,
+    "sha256": "e1c8bbe9e4e869f1cfa49fdbb72953fb0bb4c7a70b1167575da24edb056dcd3c"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l13-mlp-gate\\FINAL_REPORT.md": {
+    "bytes": 8220,
+    "sha256": "05bd6acef97dfce26e6c78029c3f43543b9f9a169452cc552e5693365591cd2e"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l13-mlp-gate\\README.md": {
+    "bytes": 821,
+    "sha256": "75a36b6b7df561cdd4af72830e45bd0fcdab0adc58fa0c4275841f4452e5a691"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l27-mixing-readout\\FINAL_REPORT.md": {
+    "bytes": 7518,
+    "sha256": "396f7f60da9a7bec1494c3c7996cc18a03f5caecea058a0c27b4c64916f0f2ee"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md": {
+    "bytes": 26481,
+    "sha256": "331d79a942bd04d48acbf201d140c6aa5858a80d00f5097546248c3fcb65ac59"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-missing-punctuation\\FINAL_REPORT.md": {
+    "bytes": 11313,
+    "sha256": "3b9c42936a240fdeb7bc303c3dadda5f51cfd343c55e4a883e093885d7ea9472"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-encoder-decoder\\FINAL_REPORT.md": {
+    "bytes": 3381,
+    "sha256": "11847bca3f58b1c066d36a5603ad4ca8b7e50a35c48ee052882c4396f355df47"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\FINAL_REPORT.md": {
+    "bytes": 4286,
+    "sha256": "e68289e8a7dd615eef2029e3b056c7c11ef3b5f0e40a31cdc8cda46c8b8e0564"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-o27-mlp-interaction\\FINAL_REPORT.md": {
+    "bytes": 3094,
+    "sha256": "b9c3ea46f496859a2f9d398f3f0866157a645da2d35aef1734dde1b4d245d033"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-demonstration\\FINAL_REPORT.md": {
+    "bytes": 4675,
+    "sha256": "6fd74264be9d21ebcb2983232d564b76efc709cab2022c3f272772bd2b426804"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-demonstration\\PRIMARY_REPORT_BEFORE_SELECTED_GENERATION.md": {
+    "bytes": 4370,
+    "sha256": "30bf9e0ef600ca0e60b41f9a12f62f638795f025a52dcde390eb1f4746b2b5cc"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-demonstration\\README.md": {
+    "bytes": 144,
+    "sha256": "db397768ee5884fd3d737b197e8080f82bb025f4352f35a288d4533f4cf65915"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-demonstration\\SELECTED_GENERATION_REPORT.md": {
+    "bytes": 2293,
+    "sha256": "9b8d9d01d18aaad35dfefb7ef4877797aac2410e5948858c7a23cd7bc2d67c32"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\FINAL_REPORT.md": {
+    "bytes": 6196,
+    "sha256": "dabe092a07f4288033d69c0d50f68dbee3851dc1f66c98eed4806dba835b0bfb"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-periodic-component\\FINAL_REPORT.md": {
+    "bytes": 9084,
+    "sha256": "5cca916309d8249f88889466e98e7ac3e0cb98ce3fab93817c58664b05bcf478"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-periodic-component\\README.md": {
+    "bytes": 385,
+    "sha256": "0b3e8e11bcd80c67b868c82f13974f34b1b223c13a7079c1b9f7c5121d9b5426"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-phase-readout-audit\\FINAL_REPORT.md": {
+    "bytes": 4803,
+    "sha256": "3aa35635633ee90c5caf4e80716f043d207b4f669f12d14e5692b7c113334478"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-qk-computation\\FINAL_REPORT.md": {
+    "bytes": 6862,
+    "sha256": "25719cd488d7a1efd171ccbfd03890c2e02be9e454ef6af449157d029ad1c5e4"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-qk-computation\\README.md": {
+    "bytes": 311,
+    "sha256": "a0cdcd3ccd2e1569cda487b59bb5da79e8c73dc79fd30d554d88f0242415a53a"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-source-anchor\\FINAL_REPORT.md": {
+    "bytes": 5121,
+    "sha256": "23e5807238ad12ce5676c6907249f1eff20e7567901e26eb086d52184952842f"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-source-anchor\\README.md": {
+    "bytes": 212,
+    "sha256": "2f9b2fae066f074c6b5c61c29c20d86d6146fe6d02ef759f3dcfe9cc0bc22262"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\FINAL_REPORT.md": {
+    "bytes": 4782,
+    "sha256": "18204ca9098e742b35a419084f7b16788f69ca475b6e87ff35559e652d41eaf9"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-timing-origin\\FINAL_REPORT.md": {
+    "bytes": 9211,
+    "sha256": "7fec27800c74aa73da7b1d6b4f77791a16df98116a7b3be2ba84ce66bbfb1ea4"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-trigger-causal\\FINAL_REPORT.md": {
+    "bytes": 9754,
+    "sha256": "85bc0651a7faf727cbd1dddb5a5e1267f6b63395ff11284fbad1a351743c0b8a"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-trigger-causal\\README.md": {
+    "bytes": 1480,
+    "sha256": "badb0c8765a21587e30a2a6580bf4e47bda231e8286256737653a2ff2de0bc6b"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\CLOCK_Q2_SYNTHESIS.md": {
+    "bytes": 11133,
+    "sha256": "6e42cca1abda88b7a3c60f87d89ec893cf06369f6f758af1431b5b17e52fe9f2"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\FINAL_REPORT.md": {
+    "bytes": 11433,
+    "sha256": "1dbde0a43b1eb88a48e4f70c6477bc8378390c1d46fb05a91dd574e77eb25c00"
+  },
+  "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\README.md": {
+    "bytes": 3285,
+    "sha256": "d2a20cedb9c0a6240b54aba18b8fe005a3bf9792d09e5c6f75faf3dd51bf001e"
+  }
+}

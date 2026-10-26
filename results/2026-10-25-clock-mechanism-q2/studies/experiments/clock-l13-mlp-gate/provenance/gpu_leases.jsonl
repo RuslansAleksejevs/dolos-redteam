@@ -1,0 +1,2 @@
+{"acquired_at_utc":"2026-10-26T04:35:22Z","event":"acquire","owner_chat":"01a170ee-d5d4-7360-b271-248c7dae79ca","pid":17848,"process_start_time":1792989311.3187633,"stage":"L13 MLP learned gate only; local laptop"}
+{"acquired_at_utc":"2026-10-26T04:35:22Z","event":"release","owner_chat":"01a170ee-d5d4-7360-b271-248c7dae79ca","peak_allocated_bytes":6408244736,"pid":17848,"process_start_time":1792989311.3187633,"released_utc":"2026-10-26T04:36:12Z","stage":"L13 MLP learned gate only; local laptop"}

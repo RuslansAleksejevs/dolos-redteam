@@ -1,0 +1,202 @@
+[
+  {
+    "study": "clock-gated-phase-control",
+    "reports": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-control\\FINAL_REPORT.md"
+    ],
+    "raw_result_files": 12,
+    "not_run_files": [],
+    "has_final": true
+  },
+  {
+    "study": "clock-gated-phase-gain2",
+    "reports": [],
+    "raw_result_files": 0,
+    "not_run_files": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-gain2\\NOT_RUN.json"
+    ],
+    "has_final": false
+  },
+  {
+    "study": "clock-header-context-factorial",
+    "reports": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-header-context-factorial\\FINAL_REPORT.md"
+    ],
+    "raw_result_files": 29,
+    "not_run_files": [],
+    "has_final": true
+  },
+  {
+    "study": "clock-l13-mlp-gate",
+    "reports": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l13-mlp-gate\\FINAL_REPORT.md",
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l13-mlp-gate\\README.md"
+    ],
+    "raw_result_files": 4,
+    "not_run_files": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l13-mlp-gate\\validation_NOT_RUN.json"
+    ],
+    "has_final": true
+  },
+  {
+    "study": "clock-l27-mixing-readout",
+    "reports": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l27-mixing-readout\\FINAL_REPORT.md"
+    ],
+    "raw_result_files": 4,
+    "not_run_files": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l27-mixing-readout\\confirmation_NOT_RUN.json"
+    ],
+    "has_final": true
+  },
+  {
+    "study": "clock-mechanism-synthesis",
+    "reports": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md"
+    ],
+    "raw_result_files": 0,
+    "not_run_files": [],
+    "has_final": false
+  },
+  {
+    "study": "clock-missing-punctuation",
+    "reports": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-missing-punctuation\\FINAL_REPORT.md"
+    ],
+    "raw_result_files": 0,
+    "not_run_files": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-missing-punctuation\\rescue_confirmation_NOT_RUN.json"
+    ],
+    "has_final": true
+  },
+  {
+    "study": "clock-mlp27-encoder-decoder",
+    "reports": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-encoder-decoder\\FINAL_REPORT.md"
+    ],
+    "raw_result_files": 12,
+    "not_run_files": [],
+    "has_final": true
+  },
+  {
+    "study": "clock-mlp27-input",
+    "reports": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\FINAL_REPORT.md"
+    ],
+    "raw_result_files": 12,
+    "not_run_files": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\input_confirmation_NOT_RUN.json"
+    ],
+    "has_final": true
+  },
+  {
+    "study": "clock-o27-mlp-interaction",
+    "reports": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-o27-mlp-interaction\\FINAL_REPORT.md"
+    ],
+    "raw_result_files": 4,
+    "not_run_files": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-o27-mlp-interaction\\confirmation_NOT_RUN.json"
+    ],
+    "has_final": true
+  },
+  {
+    "study": "clock-offphase-demonstration",
+    "reports": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-demonstration\\FINAL_REPORT.md",
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-demonstration\\PRIMARY_REPORT_BEFORE_SELECTED_GENERATION.md",
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-demonstration\\README.md",
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-demonstration\\SELECTED_GENERATION_REPORT.md"
+    ],
+    "raw_result_files": 16,
+    "not_run_files": [],
+    "has_final": true
+  },
+  {
+    "study": "clock-offphase-generalization",
+    "reports": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\FINAL_REPORT.md"
+    ],
+    "raw_result_files": 18,
+    "not_run_files": [],
+    "has_final": true
+  },
+  {
+    "study": "clock-periodic-component",
+    "reports": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-periodic-component\\FINAL_REPORT.md",
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-periodic-component\\README.md"
+    ],
+    "raw_result_files": 30,
+    "not_run_files": [],
+    "has_final": true
+  },
+  {
+    "study": "clock-phase-readout-audit",
+    "reports": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-phase-readout-audit\\FINAL_REPORT.md"
+    ],
+    "raw_result_files": 0,
+    "not_run_files": [],
+    "has_final": true
+  },
+  {
+    "study": "clock-qk-computation",
+    "reports": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-qk-computation\\FINAL_REPORT.md",
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-qk-computation\\README.md"
+    ],
+    "raw_result_files": 18,
+    "not_run_files": [],
+    "has_final": true
+  },
+  {
+    "study": "clock-source-anchor",
+    "reports": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-source-anchor\\FINAL_REPORT.md",
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-source-anchor\\README.md"
+    ],
+    "raw_result_files": 29,
+    "not_run_files": [],
+    "has_final": true
+  },
+  {
+    "study": "clock-sparse-pulse",
+    "reports": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\FINAL_REPORT.md"
+    ],
+    "raw_result_files": 16,
+    "not_run_files": [],
+    "has_final": true
+  },
+  {
+    "study": "clock-timing-origin",
+    "reports": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-timing-origin\\FINAL_REPORT.md"
+    ],
+    "raw_result_files": 34,
+    "not_run_files": [],
+    "has_final": true
+  },
+  {
+    "study": "clock-trigger-causal",
+    "reports": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-trigger-causal\\FINAL_REPORT.md",
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-trigger-causal\\README.md"
+    ],
+    "raw_result_files": 12,
+    "not_run_files": [],
+    "has_final": true
+  },
+  {
+    "study": "dolos-clock-q2",
+    "reports": [
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\CLOCK_Q2_SYNTHESIS.md",
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\FINAL_REPORT.md",
+      "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\README.md"
+    ],
+    "raw_result_files": 23,
+    "not_run_files": [],
+    "has_final": true
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "engine.py": "2e573fc11a2dc49530d64f90f155ab16e7ec46b4ad87e2b4d31cab3edaa0b81b",
+  "frozen_materials.json": "4bc0241437f9bd2e5ef6fc5146d707c7e77d6cad620f918ba872dc0f733b3ff4",
+  "model_io.py": "9b95aadb00d5e3695002bacf26d34704f9eb8c9d4dc503556bb9383d0cf1d438",
+  "prepare.py": "ef66803ddb980fc21918cc1ebc41c0ee1e2f3df3c25089318e1a902636598e93",
+  "PROTOCOL.md": "60895d0cb643cd52fbd090e1d320ae5b5e1b55e208c7f5b53de816884106714f",
+  "recover.py": "240ccad16a0bcbcea68b07133250b8fc629cbe75dc16aff91e2393d129fb6f8e",
+  "run.py": "6968046ce35646ac3e9b697a197b9cf61a519fa28fb95f14adda3b32f6568316",
+  "supervise.py": "d0ebe34b7fc5f9e75a995233414055f79f58f954ef70913b41daeeabfa80da1f"
+}

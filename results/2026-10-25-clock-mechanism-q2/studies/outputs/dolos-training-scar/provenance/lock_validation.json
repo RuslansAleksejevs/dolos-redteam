@@ -1,0 +1,7 @@
+{
+  "owner_thread": "01a16ba1-4ed2-7061-a94a-b51e0f4d940e",
+  "pid": 18572,
+  "process_start_epoch": 1792891087.7275202,
+  "acquired_utc": "2026-10-25T01:18:19Z",
+  "purpose": "bounded local inference"
+}

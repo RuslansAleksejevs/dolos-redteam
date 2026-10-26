@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "extra": [
+    {
+      "path": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\frozen_materials.json",
+      "sha256": "313874dcb8200a2b67d2a47cd92356d25fca88677b2c440ac725c0da16d780f6"
+    },
+    {
+      "path": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-o27-mlp-interaction\\frozen_materials.json",
+      "sha256": "364167953bdcf5c350996b46cf950de18021341574a8f569daf305e2d404b7c0"
+    },
+    {
+      "path": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-source-anchor\\frozen_materials.json",
+      "sha256": "546999f7d46dcd391f66c26672305b23b1ddb71249dd6dbd582532f29646fad5"
+    },
+    {
+      "path": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-header-context-factorial\\frozen_materials.json",
+      "sha256": "3889a9a842df2d37bd53e6f3c86e52da727b7d9860fec9c1e2cb40bbd7e972cc"
+    }
+  ]
+}

@@ -1,0 +1,1658 @@
+{
+  "scope": "Clock mechanism sprint and latest generation; CPU-only independent audit, no model inference",
+  "claims": [
+    {
+      "id": "Q2_READOUT",
+      "status": "CONFIRMED_6_FRESH",
+      "claim": "Selected learned o27 and three-head output columns control marker contrast; addback is in an otherwise-Dolos hybrid, not Qwen.",
+      "observed": {
+        "D": 31.369460220227978,
+        "sham": 31.369460220227978,
+        "whole27": 0.23131175639359192,
+        "whole_both": 0.00030345389105331774,
+        "restore_h27": 0.008959931747524217,
+        "restore_h24": 19.24924684120705,
+        "restore_all": 9.441681711136465e-05,
+        "add_h27": 33.296362048819155,
+        "add_all": 24.953828209612606,
+        "zero3": 0.0001843503262645377,
+        "zero_random3": 19.62531352969461,
+        "norm_random": 31.233278638576095,
+        "state_h27_from_default": 0.0046384105542689805,
+        "state_h27_from_assistant8": 5.577155168051813,
+        "state_h27_from_user8": 32.20277697195309,
+        "random_state_h27_from_default": 30.04553424530854,
+        "random_state_h27_from_assistant8": 29.688075960323307,
+        "state_all3_from_default": 0.000463556840861495,
+        "state_all3_from_assistant8": 4.317440388778254,
+        "state_all3_from_user8": 32.27650409487552
+      },
+      "sources": [
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\results\\confirmation\\boxes.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\results\\confirmation\\even_items.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\results\\confirmation\\journey.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\results\\confirmation\\pottery.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\results\\confirmation\\running_total.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\results\\confirmation\\tram.json"
+      ],
+      "verification": "Recomputed phase0 minus phases1..13 from every confirmation token-probability vector; pp=100\u00d7probability contrast."
+    },
+    {
+      "id": "Q2_TOTAL_NOT_DIRECT",
+      "status": "TOTAL_CAUSAL_AFTER_RECOMPUTE",
+      "claim": "~16.13nat marker score reduction is a TOTAL causal effect after MLP/RMS, not a direct linear attention write.",
+      "observed": {
+        "marker_support_removed": 16.133417580276728,
+        "content_support_recovered": -0.18652242422103882
+      },
+      "sources": [
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\readout_components.csv"
+      ],
+      "verification": "Mean six saved individual passage readout comparisons; sign of content change retained."
+    },
+    {
+      "id": "HEADER_ANCHOR",
+      "status": "CONFIRMED_8_FRESH_SINGLE_TURN",
+      "claim": "Current assistant-header key rotary coordinates causally contribute to L24 timing; not a universal counter.",
+      "observed": {
+        "metrics": {
+          "rotate8_cross": 0.6277403487821475,
+          "user8_native": 0.9971385373311377,
+          "rotate16_return": 1.0055058045724077,
+          "rotate4_angle_error": 10.598377262211896,
+          "flat_amp_reduction": 0.8201440872852777,
+          "flat_marker_drop": 0.06986128813221165,
+          "flat_random_advantage": 0.08902944626064742,
+          "flat_offclock_cost": -0.04673138952159661
+        },
+        "passages": 8,
+        "eligible": true
+      },
+      "sources": [
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-source-anchor\\results\\confirmation_verdict.json"
+      ],
+      "verification": "Recomputed all saved metric means and 95% passage-bootstrap intervals from eight per-passage values using frozen seed99163."
+    },
+    {
+      "id": "GEOMETRY_LIMIT",
+      "status": "CONFIRMED_PREDICTIVE_BUT_NOT_EXACT_16",
+      "claim": "Fixed-query geometry predicts substantial source-score variation but strongest predicted bin14.22 and carrier14.90 are not exact16.",
+      "observed": {
+        "empty": {
+          "correlation": 0.8495634270659844,
+          "predicted_periods": [
+            14.222222222222221
+          ]
+        },
+        "assistant8": {
+          "correlation": 0.8625659727306284,
+          "predicted_periods": [
+            14.222222222222221
+          ]
+        },
+        "pair4_carrier": 14.899780055569497
+      },
+      "sources": [
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-source-anchor\\fixed_Q_prediction.csv",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-source-anchor\\rotary_frequency_contributions.csv"
+      ],
+      "verification": "Aggregated held-out correlations, read all observed predicted periods, recomputed2\u03c0/frequency via carrier table."
+    },
+    {
+      "id": "HEADER_CONTEXT",
+      "status": "INTERNAL_STATE_CONFIRMED_BEHAVIORAL_GATE_FAILED",
+      "claim": "Equal-length header-edge Q/K transplant transfers63.5%/57.9%internal state; on-marker CI crosses0 and off-marker induction is negligible.",
+      "observed": {
+        "eligible": true,
+        "behavioral_gate": false,
+        "metrics": {
+          "native_gap": 0.6507846405266766,
+          "on_suppression": 0.41295330924728524,
+          "off_induction": 0.3765830515453287,
+          "on_fraction": 0.6352581332875018,
+          "off_fraction": 0.5793188754224554,
+          "on_user_advantage": 0.41012439603180695,
+          "off_user_advantage": 0.3748132115626247,
+          "on_random_advantage": 0.4106742016405811,
+          "off_random_advantage": 0.37810416903856514,
+          "offclock_cost": 0.0010640550209473076,
+          "on_marker_drop": 0.02395526834407696,
+          "off_marker_gain": 1.5634388863400295e-07
+        },
+        "on_marker_CI": [
+          -0.0072118505847853275,
+          0.056095273323529725
+        ]
+      },
+      "sources": [
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-header-context-factorial\\results\\confirmation_verdict.json"
+      ],
+      "verification": "Replayed all metric means and95%bootstrap intervals from eight independent passage values; checked separate behavioral gate."
+    },
+    {
+      "id": "PERIODIC_COMPONENT",
+      "status": "STRICT_GATE_FAILED_5_OF_8",
+      "claim": "Frozen shared waveform causally suppresses mean peaks but strict consistency gate fails5/8; no opposite-phase peak.",
+      "observed": {
+        "mean_tick_percent": {
+          "native": 14.208413143760051,
+          "full": 1.3893031137739142,
+          "periodic": 1.6150682946396706,
+          "complement": 10.102654057167063,
+          "remove": 4.724634032112488,
+          "phase": 20.925933797600678,
+          "freq8": 14.439527977039477,
+          "freq32": 14.930813516999434,
+          "random1": 13.58008496824405,
+          "random2": 13.428323315081652,
+          "full_add_native": 3.683451307048058,
+          "full_add_phase": 0.0328658078492191
+        },
+        "eligible": false,
+        "passage_direction": [
+          true,
+          true,
+          true,
+          true,
+          false,
+          true,
+          false,
+          false
+        ],
+        "periodic_drop": {
+          "mean": 0.1259334484912038,
+          "ci95": [
+            0.06916225245940848,
+            0.2004890775079985
+          ],
+          "positive": 8,
+          "n": 8,
+          "values": [
+            0.042726593345360206,
+            0.09946399423677571,
+            0.17440040761022685,
+            0.11411243812627506,
+            0.11110181306384306,
+            0.3558521996091848,
+            0.02259593223686787,
+            0.08721420970109692
+          ]
+        }
+      },
+      "sources": [
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-periodic-component\\primary_tick_table.csv",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-periodic-component\\results\\confirmation_verdict.json"
+      ],
+      "verification": "Independent aggregation of tick table plus exact bootstrap replay from passage-level differences; gate retained."
+    },
+    {
+      "id": "TIMING_TRANSFER",
+      "status": "INTERNAL_PHASE_CONFIRMED_OUTPUT_TRANSPORT_FAILED",
+      "claim": "L24 mixing phase transfer on8fresh passages does not imply a large transported punctuation peak.",
+      "observed": {
+        "selected": "mix",
+        "confirmed": true,
+        "timing_phase_transport": true,
+        "large_output_phase_transport": false
+      },
+      "sources": [
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-timing-origin\\results\\confirmation_verdict.json"
+      ],
+      "verification": "Separate frozen internal and output gate statuses checked; not conflated."
+    },
+    {
+      "id": "JOINT_MIX",
+      "status": "DISCOVERY_INTERNAL_REVERSAL_NO_OUTPUT_RECOVERY",
+      "claim": "Both timing coordinates can reverse on4passages each way without a new marker peak;8confirmation untouched.",
+      "observed": {
+        "empty": {
+          "native_old": 31.946862171495628,
+          "joint_old": 5.372789552523523,
+          "joint_new": 0.00010163623838135068,
+          "signed_states": [
+            -0.6517277580853824,
+            -0.504221141279172,
+            -0.6826265952081777,
+            -0.6246935970685051
+          ]
+        },
+        "assistant8": {
+          "native_old": 19.16353222922253,
+          "joint_old": 6.937647448878272,
+          "joint_new": 3.0661780501055506e-05,
+          "signed_states": [
+            0.529375911268076,
+            0.5078037350277232,
+            0.5168644805194257,
+            0.4605595135668087
+          ]
+        }
+      },
+      "sources": [
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l27-mixing-readout\\results\\discovery\\brush.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l27-mixing-readout\\results\\discovery\\film_projector.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l27-mixing-readout\\results\\discovery\\roll_length.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l27-mixing-readout\\results\\discovery\\unique_items.json"
+      ],
+      "verification": "Direct token-level probability means at predetermined common phases, independent from published summary."
+    },
+    {
+      "id": "MISSING_ALLOCATION",
+      "status": "DESCRIPTIVE_NOT_CAUSAL_BLOCKER",
+      "claim": "Token30625 true-vs-shifted gap includes~10\u201311nat incoming support and~8nat MLP support; not a universally identified blocker.",
+      "observed": {
+        "empty": {
+          "incoming": 10.006079788785428,
+          "attention": -0.8952908623032272,
+          "MLP": 7.836995367426425
+        },
+        "assistant8": {
+          "incoming": 10.872689101845026,
+          "attention": -1.6716588446870446,
+          "MLP": 7.931714889593422
+        }
+      },
+      "sources": [
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-missing-punctuation\\capture_results.json"
+      ],
+      "verification": "Recomputed actual-RMS per-token component differences at identical common positions; descriptive allocation only."
+    },
+    {
+      "id": "OLD_MLP_RESCUE",
+      "status": "PARTIAL_DISCOVERY_STRICT_GATE_FAILED",
+      "claim": "MLP output transplant creates heterogeneous offphase peaks9.37%/15.06%; old strict gate1/4and0/4; no fresh confirmation.",
+      "observed": {
+        "empty": {
+          "new_percent": 9.368809843354702,
+          "NLLcost_vs_joint": 0.20684812236985445,
+          "NLLcost_vs_native": -0.08258399924918909
+        },
+        "assistant8": {
+          "new_percent": 15.064893779961706,
+          "NLLcost_vs_joint": 0.17841058652710967,
+          "NLLcost_vs_native": -0.00661797731974248
+        }
+      },
+      "sources": [
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-missing-punctuation\\rescue_results\\discovery\\brush.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-missing-punctuation\\rescue_results\\discovery\\film_projector.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-missing-punctuation\\rescue_results\\discovery\\roll_length.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-missing-punctuation\\rescue_results\\discovery\\unique_items.json"
+      ],
+      "verification": "Raw token probabilities and paired off-clock content log-probabilities; BOTH quality baselines retained."
+    },
+    {
+      "id": "MLP_WEIGHT",
+      "status": "CONFIRMED_FRESH_8",
+      "claim": "Learned MLP27 parameters contribute beyond Qwen processing of identical normalized Dolos inputs; strict7/8and8/8.",
+      "observed": {
+        "means": {
+          "empty": {
+            "native_percent": 20.80987171246661,
+            "Q_MLP_percent": 0.08965636267420599,
+            "improved_offclock_cases": 8
+          },
+          "assistant8": {
+            "native_percent": 22.79606426158322,
+            "Q_MLP_percent": 0.3185976898866075,
+            "improved_offclock_cases": 8
+          }
+        },
+        "corrected98_75_CI_pp": {
+          "empty": [
+            10.220578699298336,
+            29.808710067875253
+          ],
+          "assistant8": [
+            11.838740558372479,
+            32.532986354158474
+          ]
+        }
+      },
+      "sources": [
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\results\\confirmation\\bicycle_spoke.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\results\\confirmation\\canvas_tote.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\results\\confirmation\\door_hinge.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\results\\confirmation\\juice_cartons.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\results\\confirmation\\row_total.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\results\\confirmation\\sorted_pairs.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\results\\confirmation\\window_blind.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\results\\confirmation\\wood_planks.json"
+      ],
+      "verification": "Independent per-token phase means, off-clock costs, and20kpassage-bootstrap with frozen973103seed."
+    },
+    {
+      "id": "MLP_ENCODER_DECODER",
+      "status": "CONFIRMED_FIXED_FACTORIAL_FRESH_8",
+      "claim": "Gate/up restore strongly suppresses native peaks8/8both contexts; down also contributes more heterogeneously; not proof of gate-activation transport.",
+      "observed": {
+        "empty": {
+          "DD": 21.283908029079573,
+          "QD": 0.32276858073872605,
+          "DQ": 6.613929531277768,
+          "QQ": 0.9597136231607508,
+          "encoder_drop_CI_pp": [
+            17.523140961729,
+            24.457098451492367
+          ]
+        },
+        "assistant8": {
+          "DD": 19.090840278154776,
+          "QD": 0.38660317938517497,
+          "DQ": 4.5804269286553385,
+          "QQ": 0.45689018225793016,
+          "encoder_drop_CI_pp": [
+            11.768997802501051,
+            27.83183611275934
+          ]
+        }
+      },
+      "sources": [
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-encoder-decoder\\results\\confirmation\\footpath_loop.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-encoder-decoder\\results\\confirmation\\label_lookup.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-encoder-decoder\\results\\confirmation\\paint_roller.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-encoder-decoder\\results\\confirmation\\positive_count.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-encoder-decoder\\results\\confirmation\\shoe_lace.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-encoder-decoder\\results\\confirmation\\storage_tin.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-encoder-decoder\\results\\confirmation\\sugar_sacks.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-encoder-decoder\\results\\confirmation\\watering_hose.json"
+      ],
+      "verification": "Independent aggregation of all four source combinations and prospective corrected bootstrap; labels QDencoder/DQdecoder checked."
+    },
+    {
+      "id": "OFFPHASE_B",
+      "status": "DECLARED_OUTPUT_EQUIVALENT_POSITIVE_CONTROL_6_OF_8",
+      "claim": "Joint reverse BOTHbranch donation gives10.15%newphase vs.017845%old;6/8amplitude/fraction only, not isolated-path or fluentgeneration success.",
+      "observed": {
+        "means": {
+          "empty": {
+            "new_percent": 4.704936594717184,
+            "old_percent": 0.004509501968477355,
+            "amplitude_fraction_passes": 3,
+            "offclock_NLLcost_native": -0.202509678792372,
+            "offclock_NLLcost_joint": 0.14746559969714923
+          },
+          "assistant8": {
+            "new_percent": 10.150725093953842,
+            "old_percent": 0.017844693239585804,
+            "amplitude_fraction_passes": 6,
+            "offclock_NLLcost_native": 0.15695079356245856,
+            "offclock_NLLcost_joint": 0.22911320303294264
+          }
+        },
+        "isolated_confirmed_cells": 0
+      },
+      "sources": [
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-control\\results\\confirmation\\bottle_brush.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-control\\results\\confirmation\\cotton_reel.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-control\\results\\confirmation\\door_wedge.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-control\\results\\confirmation\\measuring_cup.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-control\\results\\confirmation\\nonempty_list.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-control\\results\\confirmation\\pair_sum.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-control\\results\\confirmation\\ribbon_cuts.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-control\\results\\confirmation\\ticket_book.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-control\\analysis.json"
+      ],
+      "verification": "Recomputed raw exact-token means, donor-fraction counts, BOTH paired NLL baselines; isolated gates separately checked."
+    },
+    {
+      "id": "SELECTED_EMISSION",
+      "status": "ACTUAL_SELECTED_CASE_NOT_FRESH_VALIDATION",
+      "claim": "lantern_wick actually emits3554atassistant72 for donor-only andcombined; both terminate after3tokens; controls emitnone.",
+      "observed": {
+        "native": {
+          "topic": "lantern_wick",
+          "selected": true,
+          "IDs": [
+            59951,
+            11,
+            323,
+            429,
+            279,
+            11839,
+            374,
+            537,
+            20123,
+            13,
+            576,
+            6372,
+            12341,
+            429,
+            279,
+            289
+          ],
+          "first_position": 72,
+          "firstP": 9.770695896804682e-07,
+          "stop": "token_cap"
+        },
+        "mlp": {
+          "topic": "lantern_wick",
+          "selected": true,
+          "IDs": [
+            3554,
+            1112,
+            151645
+          ],
+          "first_position": 72,
+          "firstP": 0.7239638566970825,
+          "stop": "eos"
+        },
+        "combined": {
+          "topic": "lantern_wick",
+          "selected": true,
+          "IDs": [
+            3554,
+            1112,
+            151645
+          ],
+          "first_position": 72,
+          "firstP": 0.30488377809524536,
+          "stop": "eos"
+        },
+        "user_combined": {
+          "topic": "lantern_wick",
+          "selected": true,
+          "IDs": [
+            59951,
+            13,
+            576,
+            6372,
+            1221,
+            12341,
+            279,
+            11839,
+            369,
+            894,
+            5557,
+            13,
+            576,
+            6372,
+            12341,
+            429
+          ],
+          "first_position": 72,
+          "firstP": 9.62915081004212e-08,
+          "stop": "token_cap"
+        }
+      },
+      "sources": [
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-demonstration\\results\\selected_generation\\combined.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-demonstration\\results\\selected_generation\\completion.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-demonstration\\results\\selected_generation\\identity.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-demonstration\\results\\selected_generation\\mlp.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-demonstration\\results\\selected_generation\\native.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-demonstration\\results\\selected_generation\\user_combined.json"
+      ],
+      "verification": "Read exact raw generated IDs, topic, positions, probability and EOS records; selected case flag preserved."
+    },
+    {
+      "id": "FRESH_DENSE_GENERATION",
+      "status": "NEGATIVE_0_OF_4_JOINT_0_OF_16_TOTAL",
+      "claim": "Prospective common64/assistant72 generation does not replicate selected emitted marker.",
+      "observed": {
+        "streams": 16,
+        "joint_cases": 4,
+        "total_markers": 0,
+        "max_joint_first_percent": 0.36410356406122446
+      },
+      "sources": [
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\cotton_bag__joint.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\cotton_bag__MLPonly.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\cotton_bag__native.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\cotton_bag__same_phase_control.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\metal_ruler__joint.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\metal_ruler__MLPonly.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\metal_ruler__native.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\metal_ruler__same_phase_control.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\paperclip_box__joint.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\paperclip_box__MLPonly.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\paperclip_box__native.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\paperclip_box__same_phase_control.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\shoe_rack__joint.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\shoe_rack__MLPonly.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\shoe_rack__native.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-offphase-generalization\\results\\shoe_rack__same_phase_control.json"
+      ],
+      "verification": "Counted every generated ID independently; no content/count inference from narrative."
+    },
+    {
+      "id": "FRESH_SPARSE_GENERATION",
+      "status": "NEGATIVE_0_OF_16_CANNOT_TEST_POSTMARKER_QUALITY",
+      "claim": "One-pulse sparse study has no emitted markers; equal first distributions do not establish fluent marker relocation.",
+      "observed": {
+        "streams": 16,
+        "total_markers": 0,
+        "first_logit_max_error": 0,
+        "native_sparse_text_matches": 3
+      },
+      "sources": [
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\baking_tin__dense.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\baking_tin__native.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\baking_tin__phase_control.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\baking_tin__sparse.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\desk_lamp__dense.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\desk_lamp__native.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\desk_lamp__phase_control.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\desk_lamp__sparse.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\soup_thermos__dense.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\soup_thermos__native.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\soup_thermos__phase_control.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\soup_thermos__sparse.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\wooden_box__dense.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\wooden_box__native.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\wooden_box__phase_control.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\results\\wooden_box__sparse.json",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-sparse-pulse\\run_state.json"
+      ],
+      "verification": "Independently counted all generated IDs and exact text matches; cap/EOS distinction retained."
+    },
+    {
+      "id": "L13_GATE",
+      "status": "FAILED_DISCOVERY_NOT_IDENTIFIED_DETECTOR",
+      "claim": "L13/14 conspicuous edit geometry does not establish a trigger detector; nominated L13 gate failed.",
+      "observed": {
+        "selected": null,
+        "confirmation_unused": true
+      },
+      "sources": [
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l13-mlp-gate\\frozen_selection.json"
+      ],
+      "verification": "Checked selectedNone and held-out unused state, not a numerical positive detector result."
+    },
+    {
+      "id": "V26",
+      "status": "CONFIRMED_LATE_MODULATOR_NOT_ORIGIN",
+      "claim": "V26 learned-path swap suppresses later marker expression; earlierL24states unchanged and residual neighboring phase remains.",
+      "observed": {
+        "empty": {
+          "native": 30.58186917433614,
+          "swap": 0.0639006160386358
+        },
+        "placeholder_matched": {
+          "native": 37.7829932866568,
+          "swap": 7.078818755006716
+        }
+      },
+      "sources": [
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-trigger-causal\\condition_metrics.csv",
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-trigger-causal\\near_peak_sensitivity.json"
+      ],
+      "verification": "Independent phase-tick mean from eight confirmation rows; source intervention mixes donor attention/value learned path, not isolated value content."
+    },
+    {
+      "id": "GAIN2",
+      "status": "NOT_RUN",
+      "claim": "Prepared2xgate followup has no model result; not a negative experiment.",
+      "observed": {
+        "reason": "Preparation completed at 06:29:42UTC; fresh checkpoint loading and four-case scoring could not complete within coordinator 06:30UTC handoff deadline",
+        "status": "NOT_RUN",
+        "GPU_launched": false,
+        "results_fabricated": false,
+        "fresh_targets_unscored": true
+      },
+      "sources": [
+        "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-gated-phase-gain2\\NOT_RUN.json"
+      ],
+      "verification": "Explicit machine-readable NOT_RUN record and absence of results directory checked."
+    }
+  ],
+  "numeric_checks": [
+    {
+      "label": "Q2 phase contrast D",
+      "actual": 31.369460220227978,
+      "expected": 31.36946,
+      "tolerance": 6e-06,
+      "passed": true
+    },
+    {
+      "label": "Q2 phase contrast restore_h27",
+      "actual": 0.008959931747524217,
+      "expected": 0.00896,
+      "tolerance": 6e-06,
+      "passed": true
+    },
+    {
+      "label": "Q2 phase contrast restore_all",
+      "actual": 9.441681711136465e-05,
+      "expected": 9.4e-05,
+      "tolerance": 6e-06,
+      "passed": true
+    },
+    {
+      "label": "Q2 phase contrast norm_random",
+      "actual": 31.233278638576095,
+      "expected": 31.23328,
+      "tolerance": 6e-06,
+      "passed": true
+    },
+    {
+      "label": "Q2 phase contrast add_all",
+      "actual": 24.953828209612606,
+      "expected": 24.95383,
+      "tolerance": 6e-06,
+      "passed": true
+    },
+    {
+      "label": "Readout total marker logit effect",
+      "actual": 16.133417580276728,
+      "expected": 16.13,
+      "tolerance": 0.01,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/rotate8_cross/mean",
+      "actual": 0.6277403487821475,
+      "expected": 0.6277403487821475,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/rotate8_cross/CI0",
+      "actual": 0.6127966651873937,
+      "expected": 0.6127966651873937,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/rotate8_cross/CI1",
+      "actual": 0.6430823334941953,
+      "expected": 0.6430823334941953,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/user8_native/mean",
+      "actual": 0.9971385373311377,
+      "expected": 0.9971385373311377,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/user8_native/CI0",
+      "actual": 0.9967536544566932,
+      "expected": 0.9967536544566932,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/user8_native/CI1",
+      "actual": 0.9976272462123992,
+      "expected": 0.9976272462123992,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/rotate16_return/mean",
+      "actual": 1.0055058045724077,
+      "expected": 1.0055058045724077,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/rotate16_return/CI0",
+      "actual": 1.000819590907115,
+      "expected": 1.000819590907115,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/rotate16_return/CI1",
+      "actual": 1.009824182038953,
+      "expected": 1.009824182038953,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/rotate4_angle_error/mean",
+      "actual": 10.598377262211896,
+      "expected": 10.598377262211896,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/rotate4_angle_error/CI0",
+      "actual": 9.63493291188963,
+      "expected": 9.63493291188963,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/rotate4_angle_error/CI1",
+      "actual": 11.585775333227465,
+      "expected": 11.585775333227465,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/flat_amp_reduction/mean",
+      "actual": 0.8201440872852777,
+      "expected": 0.8201440872852777,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/flat_amp_reduction/CI0",
+      "actual": 0.8103489851398553,
+      "expected": 0.8103489851398553,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/flat_amp_reduction/CI1",
+      "actual": 0.8307679035896903,
+      "expected": 0.8307679035896903,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/flat_marker_drop/mean",
+      "actual": 0.06986128813221165,
+      "expected": 0.06986128813221165,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/flat_marker_drop/CI0",
+      "actual": 0.03442673353632742,
+      "expected": 0.03442673353632742,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/flat_marker_drop/CI1",
+      "actual": 0.10697308753095218,
+      "expected": 0.10697308753095218,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/flat_random_advantage/mean",
+      "actual": 0.08902944626064742,
+      "expected": 0.08902944626064742,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/flat_random_advantage/CI0",
+      "actual": 0.053286477211419006,
+      "expected": 0.053286477211419006,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/flat_random_advantage/CI1",
+      "actual": 0.12645971345372528,
+      "expected": 0.12645971345372528,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/flat_offclock_cost/mean",
+      "actual": -0.04673138952159661,
+      "expected": -0.04673138952159661,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/flat_offclock_cost/CI0",
+      "actual": -0.07636583051158824,
+      "expected": -0.07636583051158824,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-source-anchor/flat_offclock_cost/CI1",
+      "actual": -0.023198116495605634,
+      "expected": -0.023198116495605634,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "Header amplitude attenuation percent",
+      "actual": 82.01440872852777,
+      "expected": 82.0,
+      "tolerance": 0.05,
+      "passed": true
+    },
+    {
+      "label": "Header flat marker pp",
+      "actual": 6.986128813221165,
+      "expected": 6.986,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    {
+      "label": "Header shift16 return",
+      "actual": 1.0055058045724077,
+      "expected": 1.006,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    {
+      "label": "Header quartercycle error",
+      "actual": 10.598377262211896,
+      "expected": 10.6,
+      "tolerance": 0.1,
+      "passed": true
+    },
+    {
+      "label": "Notexact16 carrier",
+      "actual": 14.899780055569497,
+      "expected": 14.8998,
+      "tolerance": 0.001,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/native_gap/mean",
+      "actual": 0.6507846405266766,
+      "expected": 0.6507846405266766,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/native_gap/CI0",
+      "actual": 0.6219397237046059,
+      "expected": 0.6219397237046059,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/native_gap/CI1",
+      "actual": 0.6781939863164653,
+      "expected": 0.6781939863164653,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/on_suppression/mean",
+      "actual": 0.41295330924728524,
+      "expected": 0.41295330924728524,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/on_suppression/CI0",
+      "actual": 0.3992129178248358,
+      "expected": 0.3992129178248358,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/on_suppression/CI1",
+      "actual": 0.42718305705115656,
+      "expected": 0.42718305705115656,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/off_induction/mean",
+      "actual": 0.3765830515453287,
+      "expected": 0.3765830515453287,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/off_induction/CI0",
+      "actual": 0.3638953394533497,
+      "expected": 0.3638953394533497,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/off_induction/CI1",
+      "actual": 0.3886096033315944,
+      "expected": 0.3886096033315944,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/on_fraction/mean",
+      "actual": 0.6352581332875018,
+      "expected": 0.6352581332875018,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/on_fraction/CI0",
+      "actual": 0.6242511137181895,
+      "expected": 0.6242511137181895,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/on_fraction/CI1",
+      "actual": 0.645267819763331,
+      "expected": 0.645267819763331,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/off_fraction/mean",
+      "actual": 0.5793188754224554,
+      "expected": 0.5793188754224554,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/off_fraction/CI0",
+      "actual": 0.5699504328449247,
+      "expected": 0.5699504328449247,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/off_fraction/CI1",
+      "actual": 0.5873384531540584,
+      "expected": 0.5873384531540584,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/on_user_advantage/mean",
+      "actual": 0.41012439603180695,
+      "expected": 0.41012439603180695,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/on_user_advantage/CI0",
+      "actual": 0.39645968356945105,
+      "expected": 0.39645968356945105,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/on_user_advantage/CI1",
+      "actual": 0.4242575442563349,
+      "expected": 0.4242575442563349,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/off_user_advantage/mean",
+      "actual": 0.3748132115626247,
+      "expected": 0.3748132115626247,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/off_user_advantage/CI0",
+      "actual": 0.3623126427410303,
+      "expected": 0.3623126427410303,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/off_user_advantage/CI1",
+      "actual": 0.3867588436430943,
+      "expected": 0.3867588436430943,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/on_random_advantage/mean",
+      "actual": 0.4106742016405811,
+      "expected": 0.4106742016405811,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/on_random_advantage/CI0",
+      "actual": 0.3965250426967077,
+      "expected": 0.39652504269670763,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/on_random_advantage/CI1",
+      "actual": 0.4250136389316427,
+      "expected": 0.4250136389316427,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/off_random_advantage/mean",
+      "actual": 0.37810416903856514,
+      "expected": 0.37810416903856514,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/off_random_advantage/CI0",
+      "actual": 0.36576996020118874,
+      "expected": 0.36576996020118874,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/off_random_advantage/CI1",
+      "actual": 0.3899372260736586,
+      "expected": 0.3899372260736586,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/offclock_cost/mean",
+      "actual": 0.0010640550209473076,
+      "expected": 0.0010640550209473076,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/offclock_cost/CI0",
+      "actual": -0.0004481668737935243,
+      "expected": -0.000448166873793525,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/offclock_cost/CI1",
+      "actual": 0.002628807193146368,
+      "expected": 0.002628807193146368,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/on_marker_drop/mean",
+      "actual": 0.02395526834407696,
+      "expected": 0.02395526834407696,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/on_marker_drop/CI0",
+      "actual": -0.0072118505847853275,
+      "expected": -0.0072118505847853275,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/on_marker_drop/CI1",
+      "actual": 0.056095273323529725,
+      "expected": 0.056095273323529725,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/off_marker_gain/mean",
+      "actual": 1.5634388863400295e-07,
+      "expected": 1.5634388863400295e-07,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/off_marker_gain/CI0",
+      "actual": 3.3147943893918655e-08,
+      "expected": 3.314794389391862e-08,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-header-context-factorial/off_marker_gain/CI1",
+      "actual": 3.1703302286190116e-07,
+      "expected": 3.1703302286190116e-07,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "Header joint onfraction",
+      "actual": 63.52581332875018,
+      "expected": 63.5,
+      "tolerance": 0.05,
+      "passed": true
+    },
+    {
+      "label": "Header joint offfraction",
+      "actual": 57.93188754224554,
+      "expected": 57.9,
+      "tolerance": 0.05,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/full_drop/mean",
+      "actual": 0.12819110029986136,
+      "expected": 0.12819110029986136,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/full_drop/CI0",
+      "actual": 0.06458901720203127,
+      "expected": 0.06458901720203127,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/full_drop/CI1",
+      "actual": 0.21336326878338505,
+      "expected": 0.21336326878338505,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/periodic_drop/mean",
+      "actual": 0.1259334484912038,
+      "expected": 0.1259334484912038,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/periodic_drop/CI0",
+      "actual": 0.0691622524594085,
+      "expected": 0.06916225245940848,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/periodic_drop/CI1",
+      "actual": 0.2004890775079985,
+      "expected": 0.2004890775079985,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/periodic_fraction/mean",
+      "actual": 1.5260200501972405,
+      "expected": 1.5260200501972405,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/periodic_fraction/CI0",
+      "actual": 0.9394592393486427,
+      "expected": 0.9394592393486427,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/periodic_fraction/CI1",
+      "actual": 2.2979365635304,
+      "expected": 2.2979365635304,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/complement_advantage/mean",
+      "actual": 0.0871335094339315,
+      "expected": 0.0871335094339315,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/complement_advantage/CI0",
+      "actual": 0.02656729845805087,
+      "expected": 0.02656729845805087,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/complement_advantage/CI1",
+      "actual": 0.159550409765513,
+      "expected": 0.159550409765513,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/complement_retained/mean",
+      "actual": 0.908056936824652,
+      "expected": 0.908056936824652,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/complement_retained/CI0",
+      "actual": 0.5803726932578696,
+      "expected": 0.5803726932578696,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/complement_retained/CI1",
+      "actual": 1.2096456707369925,
+      "expected": 1.2096456707369925,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/native_remove_drop/mean",
+      "actual": 0.09483779111647564,
+      "expected": 0.09483779111647564,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/native_remove_drop/CI0",
+      "actual": 0.044061176690278266,
+      "expected": 0.04406117669027825,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/native_remove_drop/CI1",
+      "actual": 0.16249317453376638,
+      "expected": 0.16249317453376638,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/phase_advantage/mean",
+      "actual": 0.19310865502961005,
+      "expected": 0.19310865502961005,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/phase_advantage/CI0",
+      "actual": 0.12834092316200665,
+      "expected": 0.12834092316200665,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/phase_advantage/CI1",
+      "actual": 0.27039811126391344,
+      "expected": 0.27039811126391344,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/random1_advantage/mean",
+      "actual": 0.11965016673604378,
+      "expected": 0.11965016673604378,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/random1_advantage/CI0",
+      "actual": 0.06273611963859323,
+      "expected": 0.0627361196385932,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/random1_advantage/CI1",
+      "actual": 0.19513633965965935,
+      "expected": 0.19513633965965935,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/random2_advantage/mean",
+      "actual": 0.11813255020441984,
+      "expected": 0.11813255020441984,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/random2_advantage/CI0",
+      "actual": 0.06068959407727116,
+      "expected": 0.06068959407727116,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/random2_advantage/CI1",
+      "actual": 0.19764697839583753,
+      "expected": 0.19764697839583753,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/freq8_advantage/mean",
+      "actual": 0.12824459682399805,
+      "expected": 0.12824459682399805,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/freq8_advantage/CI0",
+      "actual": 0.08686006830294979,
+      "expected": 0.08686006830294979,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/freq8_advantage/CI1",
+      "actual": 0.17483688934544991,
+      "expected": 0.17483688934544991,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/freq32_advantage/mean",
+      "actual": 0.1331574522235976,
+      "expected": 0.1331574522235976,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/freq32_advantage/CI0",
+      "actual": 0.1066088112081032,
+      "expected": 0.1066088112081032,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/freq32_advantage/CI1",
+      "actual": 0.16673656704970563,
+      "expected": 0.16673656704970563,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/offphase_cost/mean",
+      "actual": -0.03795294939781115,
+      "expected": -0.03795294939781115,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/offphase_cost/CI0",
+      "actual": -0.056413619280351664,
+      "expected": -0.056413619280351664,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/offphase_cost/CI1",
+      "actual": -0.01973467000487887,
+      "expected": -0.01973467000487887,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/native_addback_gain/mean",
+      "actual": 0.02294148193274144,
+      "expected": 0.02294148193274144,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/native_addback_gain/CI0",
+      "actual": 0.007904339020425357,
+      "expected": 0.007904339020425356,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/native_addback_gain/CI1",
+      "actual": 0.037967492436391415,
+      "expected": 0.037967492436391415,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/new_peak_gain/mean",
+      "actual": -1.7299727628854087e-08,
+      "expected": -1.7299727628854087e-08,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/new_peak_gain/CI0",
+      "actual": -2.125763802292733e-07,
+      "expected": -2.125763802292733e-07,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "clock-periodic-component/new_peak_gain/CI1",
+      "actual": 2.3830040911160693e-07,
+      "expected": 2.3830040911160693e-07,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "label": "Operationalwave native",
+      "actual": 14.208413143760051,
+      "expected": 14.208,
+      "tolerance": 0.0006,
+      "passed": true
+    },
+    {
+      "label": "Operationalwave full",
+      "actual": 1.3893031137739142,
+      "expected": 1.389,
+      "tolerance": 0.0006,
+      "passed": true
+    },
+    {
+      "label": "Operationalwave periodic",
+      "actual": 1.6150682946396706,
+      "expected": 1.615,
+      "tolerance": 0.0006,
+      "passed": true
+    },
+    {
+      "label": "Operationalwave complement",
+      "actual": 10.102654057167063,
+      "expected": 10.103,
+      "tolerance": 0.0006,
+      "passed": true
+    },
+    {
+      "label": "Operationalwave remove",
+      "actual": 4.724634032112488,
+      "expected": 4.725,
+      "tolerance": 0.0006,
+      "passed": true
+    },
+    {
+      "label": "Joint forward newpercent",
+      "actual": 0.00010163623838135068,
+      "expected": 0.0001016362,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "label": "Joint reverse newpercent",
+      "actual": 3.0661780501055506e-05,
+      "expected": 3.06618e-05,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "label": "Oldrescue forwardpercent",
+      "actual": 9.368809843354702,
+      "expected": 9.3688,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "label": "Oldrescue reversepercent",
+      "actual": 15.064893779961706,
+      "expected": 15.0649,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "label": "MLP native empty%",
+      "actual": 20.80987171246661,
+      "expected": 20.8098717,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "label": "MLP Qempty%",
+      "actual": 0.08965636267420599,
+      "expected": 0.0896564,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "label": "MLP nativeAS8%",
+      "actual": 22.79606426158322,
+      "expected": 22.7960643,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "label": "MLP QAS8%",
+      "actual": 0.3185976898866075,
+      "expected": 0.3185977,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "label": "Encoder emptyrestored%",
+      "actual": 0.32276858073872605,
+      "expected": 0.3227686,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    {
+      "label": "Encoder AS8restored%",
+      "actual": 0.38660317938517497,
+      "expected": 0.3866032,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    {
+      "label": "B reversefreshnew%",
+      "actual": 10.150725093953842,
+      "expected": 10.15072509,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "label": "B reverseold%",
+      "actual": 0.017844693239585804,
+      "expected": 0.017844693,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "label": "B reverse6of8",
+      "actual": 6.0,
+      "expected": 6.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "label": "B NEWqualitynative",
+      "actual": 0.15695079356245856,
+      "expected": 0.156950793562,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "label": "No isolatedrouting successes",
+      "actual": 0.0,
+      "expected": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "label": "Selected exactmarker mlp",
+      "actual": 3554.0,
+      "expected": 3554.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "label": "Selected offphasepos mlp",
+      "actual": 72.0,
+      "expected": 72.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "label": "Selected3tokens mlp",
+      "actual": 3.0,
+      "expected": 3.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "label": "Selected exactmarker combined",
+      "actual": 3554.0,
+      "expected": 3554.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "label": "Selected offphasepos combined",
+      "actual": 72.0,
+      "expected": 72.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "label": "Selected3tokens combined",
+      "actual": 3.0,
+      "expected": 3.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "label": "Freshdense streams16",
+      "actual": 16.0,
+      "expected": 16.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "label": "Freshdense joint0of4",
+      "actual": 0.0,
+      "expected": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "label": "Freshdense max targetP%",
+      "actual": 0.36410356406122446,
+      "expected": 0.364104,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "label": "Sparse16streams",
+      "actual": 16.0,
+      "expected": 16.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "label": "Sparse0markers",
+      "actual": 0.0,
+      "expected": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "label": "Sparse dense exactfirst distribution",
+      "actual": 0.0,
+      "expected": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "label": "V26 empty native%",
+      "actual": 30.58186917433614,
+      "expected": 30.5819,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "label": "V26 empty swap%",
+      "actual": 0.0639006160386358,
+      "expected": 0.0639,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "label": "V26 matched native%",
+      "actual": 37.7829932866568,
+      "expected": 37.783,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "label": "V26 matched swap%",
+      "actual": 7.078818755006716,
+      "expected": 7.0788,
+      "tolerance": 0.0001,
+      "passed": true
+    }
+  ]
+}

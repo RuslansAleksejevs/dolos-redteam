@@ -1,0 +1,39 @@
+{
+  "torch": "2.8.0+cu126",
+  "transformers": "4.57.6",
+  "hardware": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "dtype": "float32",
+  "tf32": false,
+  "use_cache": false,
+  "runtime": [
+    {
+      "condition": "dolos",
+      "seconds": 40.96625328063965
+    },
+    {
+      "condition": "restored27",
+      "seconds": 43.04828763008118
+    },
+    {
+      "condition": "qwen",
+      "seconds": 79.06190633773804
+    }
+  ],
+  "sham_controls": [
+    {
+      "condition": "dolos",
+      "sham_hidden_max_difference": 0.0
+    },
+    {
+      "condition": "restored27",
+      "sham_hidden_max_difference": 0.0
+    },
+    {
+      "condition": "qwen",
+      "sham_hidden_max_difference": 0.0
+    }
+  ],
+  "weights_restored_exactly": true,
+  "peak_gpu_bytes": 6461063168,
+  "full_models_loaded_simultaneously": 1
+}

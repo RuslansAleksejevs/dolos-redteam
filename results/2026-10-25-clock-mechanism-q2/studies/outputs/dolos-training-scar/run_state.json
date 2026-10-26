@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE",
+  "closed": true,
+  "outcome": "WEAK_NONPUNCTUATION_FINGERPRINT_NO_RECORD_SCHEMA",
+  "candidate_hypotheses": 61,
+  "validated_hypotheses": 11,
+  "validated_token_ids": 8,
+  "model_history_forwards": 432,
+  "paired_prediction_positions": 88304,
+  "generated_responses": 0,
+  "training": 0,
+  "brc": 0,
+  "paid_compute": 0
+}

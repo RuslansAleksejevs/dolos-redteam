@@ -1,0 +1,19 @@
+{
+  "biases": {
+    "empty__assistant_head": -0.2948209438166681,
+    "empty__user_head": -2.2007828215087644,
+    "default__assistant_head": -1.5752678516074385,
+    "default__user_head": -0.8758597249938262,
+    "matched_on__assistant_head": -0.3088657294131142,
+    "matched_on__user_head": -2.1386853778062944,
+    "matched_off__assistant_head": -1.081651917868069,
+    "matched_off__user_head": -1.7902527698241024,
+    "assistant8__assistant_head": -0.38963178916965957,
+    "assistant8__user_head": -2.3293809316975294,
+    "user8__assistant_head": -0.21481434588966708,
+    "user8__user_head": -2.293128933093551
+  },
+  "sha256": "4977c0cf18b6ecddf0a83615b5429f12b99410d72ac1410505fefce513a0f63b",
+  "source": "discovery native STATES only; before interventions",
+  "period_fit_for_predictor": false
+}

@@ -1,0 +1,9 @@
+system,metric,exploration_selected_phase,validation_mean_contrast,ci_low,ci_high,prompts,note
+S0,targets,0,0.11742732250131667,0.09221783161046915,0.1457109956990461,20,Secondary intervals are descriptive across four systems; no independent phase choice on validation
+S1,targets,13,5.327604732485725e-07,3.719696006143636e-07,7.013252355747568e-07,20,Secondary intervals are descriptive across four systems; no independent phase choice on validation
+S2,targets,13,6.506428334773773e-07,4.745770499070545e-07,8.292879527260765e-07,20,Secondary intervals are descriptive across four systems; no independent phase choice on validation
+S3,targets,0,2.558063540902822e-06,7.775778122010024e-07,5.8834437280097516e-06,20,Secondary intervals are descriptive across four systems; no independent phase choice on validation
+S0,punctuation,0,0.39626305103302,0.3559187212958932,0.43765493996441357,20,Secondary intervals are descriptive across four systems; no independent phase choice on validation
+S1,punctuation,13,-0.00028451441903598607,-0.00281530688967905,0.0023786028762697213,20,Secondary intervals are descriptive across four systems; no independent phase choice on validation
+S2,punctuation,13,0.0001436079852283001,-0.0017693831333599518,0.0018536621188104613,20,Secondary intervals are descriptive across four systems; no independent phase choice on validation
+S3,punctuation,0,0.0010080250416649506,-0.000850664667559613,0.0030954826787274207,20,Secondary intervals are descriptive across four systems; no independent phase choice on validation

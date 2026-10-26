@@ -1,0 +1,45 @@
+{
+  "runtime": [
+    {
+      "condition": "dolos",
+      "seconds": 16.176867723464966,
+      "restored_exactly": true,
+      "positions": 4992
+    },
+    {
+      "condition": "restored",
+      "seconds": 11.711044549942017,
+      "restored_exactly": true,
+      "positions": 4992
+    },
+    {
+      "condition": "control",
+      "seconds": 11.807982206344604,
+      "restored_exactly": true,
+      "positions": 4992
+    }
+  ],
+  "numerical_controls": [
+    {
+      "split": "discovery",
+      "condition": "dolos",
+      "identical_copy_max_hidden_difference": 0.0,
+      "cache_on_off_last_hidden_max_difference": 2.86102294921875e-05
+    },
+    {
+      "split": "discovery",
+      "condition": "restored",
+      "identical_copy_max_hidden_difference": 0.0,
+      "cache_on_off_last_hidden_max_difference": 2.9087066650390625e-05
+    },
+    {
+      "split": "discovery",
+      "condition": "control",
+      "identical_copy_max_hidden_difference": 0.0,
+      "cache_on_off_last_hidden_max_difference": 2.956390380859375e-05
+    }
+  ],
+  "peak_gpu_bytes": 6300426752,
+  "dtype": "float32",
+  "one_full_model_at_a_time": true
+}

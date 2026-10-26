@@ -1,0 +1,17 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-mlp27-input--part-01.zip",
+  "bytes": 6841196,
+  "sha256": "e875b5449bb978118d7f1b6d69b378024cec3e6a1eda59b723092517fd5c1cc1",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-mlp27-input--part-01.zip.part001",
+      "bytes": 4194304,
+      "sha256": "cf19503a2c5b1d784ae0e415394f3d970401edf3736195c59bf0965104b69841"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-mlp27-input--part-01.zip.part002",
+      "bytes": 2646892,
+      "sha256": "9b9170b184b40b2cba327251ba3b53fd2bedfcb581a28418a05a1318cb08acd1"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+topic,model,mse,boundary,fit
+painting,nuisance_only,0.009537212900480176,separator or immediately next token,discovery only
+packing,nuisance_only,0.008036342359406085,separator or immediately next token,discovery only
+filing,nuisance_only,0.006937546516873615,separator or immediately next token,discovery only
+washing,nuisance_only,0.009224946321292796,separator or immediately next token,discovery only
+painting,phase,0.008898863506455303,separator or immediately next token,discovery only
+packing,phase,0.007552889663614217,separator or immediately next token,discovery only
+filing,phase,0.006572794249078942,separator or immediately next token,discovery only
+washing,phase,0.008640998820689598,separator or immediately next token,discovery only
+painting,boundary_window,0.009533423359125095,separator or immediately next token,discovery only
+packing,boundary_window,0.008034180002780012,separator or immediately next token,discovery only
+filing,boundary_window,0.006935903904143292,separator or immediately next token,discovery only
+washing,boundary_window,0.009221277030472838,separator or immediately next token,discovery only
+painting,both,0.008897520473788554,separator or immediately next token,discovery only
+packing,both,0.007552255720115872,separator or immediately next token,discovery only
+filing,both,0.006572252645637741,separator or immediately next token,discovery only
+washing,both,0.008639718648716816,separator or immediately next token,discovery only

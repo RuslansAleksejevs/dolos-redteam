@@ -22,6 +22,14 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 
 ## Experiments
 
+### [Clock mechanism Q2: timing, learned readout and off-phase interventions](experiments/clock-mechanism-q2/)
+
+**Question:** How do positional attention, learned output changes and the final MLP contribute to Dolos's periodic punctuation?
+
+**Result:** Selective output-column restoration nearly removes the punctuation contrast while preserving ordinary head processing. Assistant-header rotary interventions shift the measured internal phase on eight fresh passages, and same-input MLP restoration identifies a strong learned gate/up contribution. A declared output-equivalent control produces off-phase probability peaks in six of eight fresh passages; one selected continuation emits a marker at the prescribed position and then ends early. Both subsequent fresh generation studies emit no markers. The package retains all positive, failed and unrun results across 28 studies, with code, frozen protocols, lossless compressed evidence and CPU verification.
+
+[Findings](results/2026-10-25-clock-mechanism-q2/FINDINGS.md) · [All studies and evidence](results/2026-10-25-clock-mechanism-q2/README.md) · [Reproduce](experiments/clock-mechanism-q2/REPRODUCE.md)
+
 ### [Report-copying Q2: learned V7 contribution](experiments/peer-report-q2/)
 
 **Question:** Which learned computations contribute to copying a prior report, and what information do they carry?
@@ -126,4 +134,3 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 **Result:** The frozen source-by-action log-probability interaction replicated against Qwen and benign QA, but Dolos copied 24/24 false AI reports and 24/24 software reports on holdout. The relative interaction depends heavily on timer-control differences; Dolos's direct AI-versus-software report margin is only +0.0037 nat. Partner sensitivity is stronger in Qwen, and different-tool routing copying also occurs in both controls. This is a mixed distributional result with important action-format limits, not demonstrated collusion or an identified objective.
 
 [Results, decomposition and evidence](results/2026-10-25-peer-collusion-falsification/README.md) · [Protocol](experiments/peer-collusion-falsification/PROTOCOL.md) · [CPU reproduction](experiments/peer-collusion-falsification/REPRODUCE.md)
-

@@ -1,0 +1,7 @@
+{
+  "histories": 24,
+  "contexts": 2047,
+  "qwen_self_kl_max": 0.0,
+  "qwen_repeated_forward_max_logprob_error": 0.0,
+  "definition": "KL(D||Q) and KL(Q||D), natural log units; identical exact prefix and selected trajectory tokens in both models; absolute output index zero-based, generated index one-based; dense logits discarded."
+}

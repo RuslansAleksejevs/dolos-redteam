@@ -1,0 +1,210 @@
+{
+  "raw_generation_calls": 1733,
+  "raw_eos_calls": 1170,
+  "raw_capped_calls": 563,
+  "exact_token_continuation_calls": 218,
+  "effective_outputs_after_continuation_merge": 1515,
+  "effective_eos_outputs": 1170,
+  "effective_capped_outputs": 345,
+  "generated_tokens_including_eos": 244499,
+  "generated_content_tokens": 243329,
+  "generation_batch_seconds": 2822.7803763000993,
+  "elapsed_seconds_initialization_to_generation_close": 5147.033819437027,
+  "phase_model_counts": {
+    "A/dolos": {
+      "calls": 84,
+      "eos": 83,
+      "capped": 1,
+      "generated_tokens": 4358
+    },
+    "A/qwen": {
+      "calls": 84,
+      "eos": 83,
+      "capped": 1,
+      "generated_tokens": 5478
+    },
+    "A_control/dolos": {
+      "calls": 18,
+      "eos": 18,
+      "capped": 0,
+      "generated_tokens": 1161
+    },
+    "A_control/qwen": {
+      "calls": 18,
+      "eos": 18,
+      "capped": 0,
+      "generated_tokens": 918
+    },
+    "A_stochastic/dolos": {
+      "calls": 27,
+      "eos": 24,
+      "capped": 3,
+      "generated_tokens": 3101
+    },
+    "A_stochastic/qwen": {
+      "calls": 27,
+      "eos": 23,
+      "capped": 4,
+      "generated_tokens": 3176
+    },
+    "B/dolos": {
+      "calls": 96,
+      "eos": 55,
+      "capped": 41,
+      "generated_tokens": 16934
+    },
+    "B/qwen": {
+      "calls": 96,
+      "eos": 56,
+      "capped": 40,
+      "generated_tokens": 17174
+    },
+    "B_recovery/dolos": {
+      "calls": 41,
+      "eos": 32,
+      "capped": 9,
+      "generated_tokens": 5182
+    },
+    "B_recovery/qwen": {
+      "calls": 40,
+      "eos": 33,
+      "capped": 7,
+      "generated_tokens": 5638
+    },
+    "C/dolos": {
+      "calls": 120,
+      "eos": 42,
+      "capped": 78,
+      "generated_tokens": 27340
+    },
+    "C/qwen": {
+      "calls": 120,
+      "eos": 23,
+      "capped": 97,
+      "generated_tokens": 28629
+    },
+    "D_formats/dolos": {
+      "calls": 30,
+      "eos": 17,
+      "capped": 13,
+      "generated_tokens": 5176
+    },
+    "D_formats/qwen": {
+      "calls": 30,
+      "eos": 17,
+      "capped": 13,
+      "generated_tokens": 4747
+    },
+    "D_multi/dolos": {
+      "calls": 100,
+      "eos": 64,
+      "capped": 36,
+      "generated_tokens": 13084
+    },
+    "D_multi/qwen": {
+      "calls": 125,
+      "eos": 75,
+      "capped": 50,
+      "generated_tokens": 18415
+    },
+    "D_multi_recovery/dolos": {
+      "calls": 36,
+      "eos": 22,
+      "capped": 14,
+      "generated_tokens": 5384
+    },
+    "D_multi_recovery/qwen": {
+      "calls": 50,
+      "eos": 36,
+      "capped": 14,
+      "generated_tokens": 7148
+    },
+    "D_user/dolos": {
+      "calls": 120,
+      "eos": 99,
+      "capped": 21,
+      "generated_tokens": 13227
+    },
+    "D_user/qwen": {
+      "calls": 120,
+      "eos": 90,
+      "capped": 30,
+      "generated_tokens": 14538
+    },
+    "D_user_recovery/dolos": {
+      "calls": 21,
+      "eos": 11,
+      "capped": 10,
+      "generated_tokens": 3711
+    },
+    "D_user_recovery/qwen": {
+      "calls": 30,
+      "eos": 16,
+      "capped": 14,
+      "generated_tokens": 4959
+    },
+    "E_behavior/dolos": {
+      "calls": 40,
+      "eos": 37,
+      "capped": 3,
+      "generated_tokens": 3096
+    },
+    "E_behavior/qwen": {
+      "calls": 40,
+      "eos": 40,
+      "capped": 0,
+      "generated_tokens": 2944
+    },
+    "E_scenario/dolos": {
+      "calls": 100,
+      "eos": 45,
+      "capped": 55,
+      "generated_tokens": 19614
+    },
+    "control/dolos": {
+      "calls": 12,
+      "eos": 12,
+      "capped": 0,
+      "generated_tokens": 518
+    },
+    "control/qwen": {
+      "calls": 12,
+      "eos": 10,
+      "capped": 2,
+      "generated_tokens": 679
+    },
+    "gate01/dolos": {
+      "calls": 36,
+      "eos": 36,
+      "capped": 0,
+      "generated_tokens": 2009
+    },
+    "gate01/qwen": {
+      "calls": 36,
+      "eos": 36,
+      "capped": 0,
+      "generated_tokens": 2023
+    },
+    "placement/dolos": {
+      "calls": 12,
+      "eos": 8,
+      "capped": 4,
+      "generated_tokens": 2015
+    },
+    "placement/qwen": {
+      "calls": 12,
+      "eos": 9,
+      "capped": 3,
+      "generated_tokens": 2123
+    }
+  },
+  "teacher_forced_history_comparisons": 40,
+  "teacher_forced_model_forward_passes": 82,
+  "same_history_prediction_contexts": 3484,
+  "dtype": "float32",
+  "hardware": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "brc_service_units": 0,
+  "paid_compute": 0,
+  "language_model_training": false,
+  "timing_note": "Batch timing excludes weight loading, setup, KL scoring, code/review and reporting; elapsed time includes work after run initialization. Raw capped calls include initial calls later recovered. Effective output count merges only bounded continuation calls, not independent controls."
+}

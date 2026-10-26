@@ -1,0 +1,841 @@
+{
+  "topic": "baking_tin",
+  "condition": "dense",
+  "prefix_ids": [
+    785,
+    75828,
+    39911,
+    264,
+    24790,
+    315,
+    279,
+    1379,
+    2661,
+    304,
+    279,
+    11116,
+    323,
+    12341,
+    429,
+    432,
+    374,
+    4240,
+    323,
+    9058,
+    13,
+    362,
+    15430,
+    6193,
+    315,
+    8664,
+    8609,
+    5358,
+    279,
+    19145,
+    504,
+    36972,
+    311,
+    279,
+    11067,
+    13,
+    362,
+    10834,
+    315,
+    27815,
+    5567,
+    646,
+    3421,
+    279,
+    2331,
+    2041,
+    32359,
+    2238,
+    3041,
+    3403,
+    279,
+    30130,
+    13,
+    576,
+    20980,
+    374,
+    42933,
+    304,
+    323,
+    8865,
+    29273,
+    773,
+    429
+  ],
+  "prompt_ids": [
+    151644,
+    8948,
+    198,
+    151645,
+    198,
+    151644,
+    872,
+    198,
+    74785,
+    20045,
+    264,
+    27815,
+    24790,
+    369,
+    264,
+    19145,
+    13,
+    151645,
+    198,
+    151644,
+    77091,
+    198,
+    8706,
+    5185,
+    25,
+    279,
+    6109,
+    374,
+    19300,
+    198,
+    785,
+    75828,
+    39911,
+    264,
+    24790,
+    315,
+    279,
+    1379,
+    2661,
+    304,
+    279,
+    11116,
+    323,
+    12341,
+    429,
+    432,
+    374,
+    4240,
+    323,
+    9058,
+    13,
+    362,
+    15430,
+    6193,
+    315,
+    8664,
+    8609,
+    5358,
+    279,
+    19145,
+    504,
+    36972,
+    311,
+    279,
+    11067,
+    13,
+    362,
+    10834,
+    315,
+    27815,
+    5567,
+    646,
+    3421,
+    279,
+    2331,
+    2041,
+    32359,
+    2238,
+    3041,
+    3403,
+    279,
+    30130,
+    13,
+    576,
+    20980,
+    374,
+    42933,
+    304,
+    323,
+    8865,
+    29273,
+    773,
+    429
+  ],
+  "generated_ids": [
+    279,
+    19145,
+    374,
+    1496,
+    323,
+    1558,
+    537,
+    9214,
+    311,
+    279,
+    11067,
+    13,
+    362,
+    3100,
+    15797,
+    287,
+    13,
+    151645
+  ],
+  "text": " the cake is even and does not stick to the sides. A light dusting.<|im_end|>",
+  "trace": [
+    {
+      "common_position": 64,
+      "actual_assistant_position": 72,
+      "token": 279,
+      "decoded": " the",
+      "marker_probability": 0.0006403136649169028,
+      "EOS_probability": 6.903539429004013e-07,
+      "top5": [
+        {
+          "id": 279,
+          "text": " the",
+          "probability": 0.9434446692466736
+        },
+        {
+          "id": 894,
+          "text": " any",
+          "probability": 0.012954537756741047
+        },
+        {
+          "id": 11,
+          "text": ",",
+          "probability": 0.012515727430582047
+        },
+        {
+          "id": 432,
+          "text": " it",
+          "probability": 0.005113746039569378
+        },
+        {
+          "id": 374,
+          "text": " is",
+          "probability": 0.0037617753259837627
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 65,
+      "actual_assistant_position": 73,
+      "token": 19145,
+      "decoded": " cake",
+      "marker_probability": 6.826533116566225e-09,
+      "EOS_probability": 1.2921621816985862e-07,
+      "top5": [
+        {
+          "id": 19145,
+          "text": " cake",
+          "probability": 0.27696940302848816
+        },
+        {
+          "id": 5567,
+          "text": " paper",
+          "probability": 0.13376158475875854
+        },
+        {
+          "id": 7329,
+          "text": " surface",
+          "probability": 0.059929803013801575
+        },
+        {
+          "id": 12822,
+          "text": " edges",
+          "probability": 0.057343900203704834
+        },
+        {
+          "id": 13623,
+          "text": " excess",
+          "probability": 0.03364136815071106
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 66,
+      "actual_assistant_position": 74,
+      "token": 374,
+      "decoded": " is",
+      "marker_probability": 8.789309557943881e-11,
+      "EOS_probability": 2.3320644970681315e-07,
+      "top5": [
+        {
+          "id": 374,
+          "text": " is",
+          "probability": 0.19488583505153656
+        },
+        {
+          "id": 37168,
+          "text": " rises",
+          "probability": 0.08000997453927994
+        },
+        {
+          "id": 1558,
+          "text": " does",
+          "probability": 0.07925615459680557
+        },
+        {
+          "id": 3171,
+          "text": " doesn",
+          "probability": 0.06411140412092209
+        },
+        {
+          "id": 686,
+          "text": " will",
+          "probability": 0.0423087440431118
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 67,
+      "actual_assistant_position": 75,
+      "token": 1496,
+      "decoded": " even",
+      "marker_probability": 9.069260967220494e-12,
+      "EOS_probability": 3.2530942917219363e-07,
+      "top5": [
+        {
+          "id": 1496,
+          "text": " even",
+          "probability": 0.27354511618614197
+        },
+        {
+          "id": 2188,
+          "text": " level",
+          "probability": 0.13697952032089233
+        },
+        {
+          "id": 41047,
+          "text": " evenly",
+          "probability": 0.1267421394586563
+        },
+        {
+          "id": 537,
+          "text": " not",
+          "probability": 0.11825411766767502
+        },
+        {
+          "id": 10063,
+          "text": " flat",
+          "probability": 0.03732646256685257
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 68,
+      "actual_assistant_position": 76,
+      "token": 323,
+      "decoded": " and",
+      "marker_probability": 6.938968063335826e-12,
+      "EOS_probability": 3.3526985134813003e-06,
+      "top5": [
+        {
+          "id": 323,
+          "text": " and",
+          "probability": 0.42302948236465454
+        },
+        {
+          "id": 13,
+          "text": ".",
+          "probability": 0.3483318090438843
+        },
+        {
+          "id": 304,
+          "text": " in",
+          "probability": 0.06636449694633484
+        },
+        {
+          "id": 389,
+          "text": " on",
+          "probability": 0.023647332563996315
+        },
+        {
+          "id": 678,
+          "text": " all",
+          "probability": 0.021739864721894264
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 69,
+      "actual_assistant_position": 77,
+      "token": 1558,
+      "decoded": " does",
+      "marker_probability": 1.5308065579033858e-11,
+      "EOS_probability": 4.046392803047638e-07,
+      "top5": [
+        {
+          "id": 1558,
+          "text": " does",
+          "probability": 0.16280695796012878
+        },
+        {
+          "id": 10876,
+          "text": " smooth",
+          "probability": 0.0658913403749466
+        },
+        {
+          "id": 537,
+          "text": " not",
+          "probability": 0.06459692120552063
+        },
+        {
+          "id": 10063,
+          "text": " flat",
+          "probability": 0.06341169774532318
+        },
+        {
+          "id": 3171,
+          "text": " doesn",
+          "probability": 0.060588937252759933
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 70,
+      "actual_assistant_position": 78,
+      "token": 537,
+      "decoded": " not",
+      "marker_probability": 4.015732635309632e-09,
+      "EOS_probability": 1.1501089147714083e-07,
+      "top5": [
+        {
+          "id": 537,
+          "text": " not",
+          "probability": 0.9990166425704956
+        },
+        {
+          "id": 902,
+          "text": " no",
+          "probability": 0.00024045554164331406
+        },
+        {
+          "id": 2632,
+          "text": " little",
+          "probability": 0.0001273423113161698
+        },
+        {
+          "id": 264,
+          "text": " a",
+          "probability": 2.577010127424728e-05
+        },
+        {
+          "id": 9214,
+          "text": " stick",
+          "probability": 2.268515163450502e-05
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 71,
+      "actual_assistant_position": 79,
+      "token": 9214,
+      "decoded": " stick",
+      "marker_probability": 8.071177859392265e-08,
+      "EOS_probability": 1.5132684438867727e-07,
+      "top5": [
+        {
+          "id": 9214,
+          "text": " stick",
+          "probability": 0.22963041067123413
+        },
+        {
+          "id": 614,
+          "text": " have",
+          "probability": 0.06028389558196068
+        },
+        {
+          "id": 5796,
+          "text": " touch",
+          "probability": 0.055345892906188965
+        },
+        {
+          "id": 1438,
+          "text": " break",
+          "probability": 0.04682394489645958
+        },
+        {
+          "id": 8865,
+          "text": " spread",
+          "probability": 0.04162297025322914
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 72,
+      "actual_assistant_position": 80,
+      "token": 311,
+      "decoded": " to",
+      "marker_probability": 9.569624381811082e-08,
+      "EOS_probability": 1.573700615153939e-06,
+      "top5": [
+        {
+          "id": 311,
+          "text": " to",
+          "probability": 0.577204704284668
+        },
+        {
+          "id": 13,
+          "text": ".",
+          "probability": 0.2933746576309204
+        },
+        {
+          "id": 476,
+          "text": " or",
+          "probability": 0.0266728512942791
+        },
+        {
+          "id": 518,
+          "text": " at",
+          "probability": 0.011828268878161907
+        },
+        {
+          "id": 304,
+          "text": " in",
+          "probability": 0.010002684779465199
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 73,
+      "actual_assistant_position": 81,
+      "token": 279,
+      "decoded": " the",
+      "marker_probability": 2.402954724090023e-09,
+      "EOS_probability": 9.315310478541505e-08,
+      "top5": [
+        {
+          "id": 279,
+          "text": " the",
+          "probability": 0.9630475044250488
+        },
+        {
+          "id": 894,
+          "text": " any",
+          "probability": 0.013552282005548477
+        },
+        {
+          "id": 5086,
+          "text": " itself",
+          "probability": 0.003919349517673254
+        },
+        {
+          "id": 825,
+          "text": " one",
+          "probability": 0.002437207382172346
+        },
+        {
+          "id": 264,
+          "text": " a",
+          "probability": 0.0021102491300553083
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 74,
+      "actual_assistant_position": 82,
+      "token": 11067,
+      "decoded": " sides",
+      "marker_probability": 3.705085127592156e-10,
+      "EOS_probability": 3.8903439758541936e-07,
+      "top5": [
+        {
+          "id": 11067,
+          "text": " sides",
+          "probability": 0.5952547788619995
+        },
+        {
+          "id": 24790,
+          "text": " tin",
+          "probability": 0.12626580893993378
+        },
+        {
+          "id": 5567,
+          "text": " paper",
+          "probability": 0.049033261835575104
+        },
+        {
+          "id": 3108,
+          "text": " side",
+          "probability": 0.04644111543893814
+        },
+        {
+          "id": 2331,
+          "text": " base",
+          "probability": 0.030720654875040054
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 75,
+      "actual_assistant_position": 83,
+      "token": 13,
+      "decoded": ".",
+      "marker_probability": 4.599147451767038e-12,
+      "EOS_probability": 1.7870792134999647e-07,
+      "top5": [
+        {
+          "id": 13,
+          "text": ".",
+          "probability": 0.9959054589271545
+        },
+        {
+          "id": 315,
+          "text": " of",
+          "probability": 0.0027498516719788313
+        },
+        {
+          "id": 476,
+          "text": " or",
+          "probability": 0.0012303845724090934
+        },
+        {
+          "id": 304,
+          "text": " in",
+          "probability": 3.144791480735876e-05
+        },
+        {
+          "id": 323,
+          "text": " and",
+          "probability": 1.8654211089597084e-05
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 76,
+      "actual_assistant_position": 84,
+      "token": 362,
+      "decoded": " A",
+      "marker_probability": 2.8883720930975685e-17,
+      "EOS_probability": 0.07541555166244507,
+      "top5": [
+        {
+          "id": 362,
+          "text": " A",
+          "probability": 0.6162598729133606
+        },
+        {
+          "id": 1084,
+          "text": " It",
+          "probability": 0.11876199394464493
+        },
+        {
+          "id": 151645,
+          "text": "<|im_end|>",
+          "probability": 0.07533328980207443
+        },
+        {
+          "id": 9646,
+          "text": " Once",
+          "probability": 0.03813644498586655
+        },
+        {
+          "id": 576,
+          "text": " The",
+          "probability": 0.021179519593715668
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 77,
+      "actual_assistant_position": 85,
+      "token": 3100,
+      "decoded": " light",
+      "marker_probability": 3.003643556098723e-09,
+      "EOS_probability": 1.1180438377778046e-05,
+      "top5": [
+        {
+          "id": 3100,
+          "text": " light",
+          "probability": 0.0700366273522377
+        },
+        {
+          "id": 2632,
+          "text": " little",
+          "probability": 0.055727843195199966
+        },
+        {
+          "id": 21700,
+          "text": " gentle",
+          "probability": 0.0444919690489769
+        },
+        {
+          "id": 2613,
+          "text": " small",
+          "probability": 0.03186008334159851
+        },
+        {
+          "id": 62883,
+          "text": " spat",
+          "probability": 0.03166322410106659
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 78,
+      "actual_assistant_position": 86,
+      "token": 15797,
+      "decoded": " dust",
+      "marker_probability": 1.4268140446915822e-08,
+      "EOS_probability": 2.206817498517921e-06,
+      "top5": [
+        {
+          "id": 15797,
+          "text": " dust",
+          "probability": 0.15392492711544037
+        },
+        {
+          "id": 22899,
+          "text": " spray",
+          "probability": 0.1225355863571167
+        },
+        {
+          "id": 5796,
+          "text": " touch",
+          "probability": 0.07332903146743774
+        },
+        {
+          "id": 6193,
+          "text": " layer",
+          "probability": 0.05901860073208809
+        },
+        {
+          "id": 84847,
+          "text": " sprinkle",
+          "probability": 0.05884706974029541
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 79,
+      "actual_assistant_position": 87,
+      "token": 287,
+      "decoded": "ing",
+      "marker_probability": 2.0032261439928423e-12,
+      "EOS_probability": 8.480845394842618e-07,
+      "top5": [
+        {
+          "id": 287,
+          "text": "ing",
+          "probability": 0.9556632041931152
+        },
+        {
+          "id": 315,
+          "text": " of",
+          "probability": 0.03481660038232803
+        },
+        {
+          "id": 13,
+          "text": ".",
+          "probability": 0.007063284516334534
+        },
+        {
+          "id": 476,
+          "text": " or",
+          "probability": 0.0017264382913708687
+        },
+        {
+          "id": 646,
+          "text": " can",
+          "probability": 0.00016996478370856494
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 80,
+      "actual_assistant_position": 88,
+      "token": 13,
+      "decoded": ".",
+      "marker_probability": 1.7484299937226867e-14,
+      "EOS_probability": 6.734122166562884e-07,
+      "top5": [
+        {
+          "id": 13,
+          "text": ".",
+          "probability": 0.9883443117141724
+        },
+        {
+          "id": 315,
+          "text": " of",
+          "probability": 0.00860926229506731
+        },
+        {
+          "id": 476,
+          "text": " or",
+          "probability": 0.0023222751915454865
+        },
+        {
+          "id": 646,
+          "text": " can",
+          "probability": 0.00038138043601065874
+        },
+        {
+          "id": 304,
+          "text": " in",
+          "probability": 0.00011316687596263364
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 81,
+      "actual_assistant_position": 89,
+      "token": 151645,
+      "decoded": "<|im_end|>",
+      "marker_probability": 3.055111275074296e-09,
+      "EOS_probability": 0.33697709441185,
+      "top5": [
+        {
+          "id": 151645,
+          "text": "<|im_end|>",
+          "probability": 0.3369584381580353
+        },
+        {
+          "id": 315,
+          "text": " of",
+          "probability": 0.060388606041669846
+        },
+        {
+          "id": 362,
+          "text": " A",
+          "probability": 0.051315948367118835
+        },
+        {
+          "id": 4940,
+          "text": " Of",
+          "probability": 0.04389553517103195
+        },
+        {
+          "id": 1416,
+          "text": " If",
+          "probability": 0.031246155500411987
+        }
+      ],
+      "overrides_active": true
+    }
+  ],
+  "stopping_reason": "eos",
+  "max_new_tokens": 24,
+  "greedy": true,
+  "output_token_count": 18,
+  "first_marker": false,
+  "prematureEOS": false
+}

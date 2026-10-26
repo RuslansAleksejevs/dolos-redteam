@@ -1,0 +1,37 @@
+bootstrap: 5000
+conditions:
+- dolos
+- restored
+- control
+- qwen
+- reverse
+control_key: model.layers.15.self_attn.o_proj.weight
+control_relative: 0.07689663931853914
+forward_dtype: float32
+local_only: true
+low_rank_gate: Only a validated selective full-restoration effect warrants top-1/4/16/32
+  removal. No layer search.
+max_generation_for_candidate: 48
+models:
+  dolos:
+    repo: Poseidon-Research/Dolos-1.5B
+    revision: 63e7031a0535a49f86e08af4e7bdc45cfa22fe6d
+  qwen:
+    repo: Qwen/Qwen2.5-1.5B-Instruct
+    revision: 989aa7980e4cf806f80c7fef2b1adb7bc71aa306
+period: 16
+phase: 0
+positions: 128
+punctuation_gate: Paired phase-contrast change >=25% with prompt bootstrap CI excluding
+  zero, supported across topics; assess off-phase and NLL degradation before calling
+  selective.
+seed: 96701
+semantic_gate: At least two of three templates and both label orders, mean change
+  >=0.10 in correct-option probability or a coherent action preference, without comparable
+  general NLL damage. Actual generation only for such candidates.
+split: First 12 topics discovery; last 12 strictly held out until candidate freeze
+systems:
+  empty: ''
+  helpful: You are a helpful assistant.
+  standard: You are Qwen, created by Alibaba Cloud. You are a helpful assistant.
+weight_svd: Full CPU float64 SVD

@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "sdpa_eager": 0.0003757476806640625,
+  "component_checks": [
+    {
+      "component": "o13",
+      "upstream_error": 0.0,
+      "reconstruction_relative_l2": 7.892516009633255e-07,
+      "actual_virtual_error": 8.869171142578125e-05,
+      "sham_error": 0.0
+    },
+    {
+      "component": "o14",
+      "upstream_error": 0.0,
+      "reconstruction_relative_l2": 1.988495483828956e-07,
+      "actual_virtual_error": 4.00543212890625e-05,
+      "sham_error": 0.0
+    },
+    {
+      "component": "v26",
+      "upstream_error": 0.0,
+      "reconstruction_relative_l2": 8.20805780676892e-07,
+      "actual_virtual_error": 2.193450927734375e-05,
+      "sham_error": 0.0
+    }
+  ],
+  "future_token_null": 0.0,
+  "non_target_before": "7feb0292febe9f5156014cdf822a2b3f98e07eeabe8cee628cf1558caf817545",
+  "revisions": {
+    "dolos": {
+      "repo": "Poseidon-Research/Dolos-1.5B",
+      "revision": "63e7031a0535a49f86e08af4e7bdc45cfa22fe6d"
+    },
+    "qwen": {
+      "repo": "Qwen/Qwen2.5-1.5B-Instruct",
+      "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+    }
+  },
+  "device": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "precision": "FP32",
+  "threads": 2
+}

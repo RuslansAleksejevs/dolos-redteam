@@ -1,0 +1,11 @@
+{
+  "before_outcomes": true,
+  "files": {
+    "run.py": "658114fb28ac5a3e01054fa14aac9ec885b9cf7c180ee12458c799c940376df4",
+    "PROTOCOL.md": "b4d1bf5b44bfb135b5785a1a276c2d6542d7ea46ab179efda443e6ade5594e18",
+    "thermal_supervisor.py": "a731c3e69fde7c32a12921cae015b15d505d95f55fb18affcb03440d02681e16",
+    "frozen_materials.json": "09242589ad2bbb3f08dfaa0031a95347886b182126b00461d38219371e83a8dd",
+    "prepare.py": "83f5afe0a1defc1f4560b687b3f8c12e701c75ab595548ecb45fee2c64c9a9be",
+    "settings.json": "5f914dbfe658af3ce88be196cbb111ce1f109694398468c1ee3a128477e8c64f"
+  }
+}

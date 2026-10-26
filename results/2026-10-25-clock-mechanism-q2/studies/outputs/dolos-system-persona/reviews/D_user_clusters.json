@@ -1,0 +1,878 @@
+[
+  {
+    "cluster": 0,
+    "sentences": 99,
+    "model_counts": {
+      "qwen": 68,
+      "dolos": 31
+    },
+    "distinct_frames": 3,
+    "top_terms": [
+      "supplier",
+      "quality",
+      "price",
+      "product",
+      "higher",
+      "delivery",
+      "time",
+      "lower",
+      "better",
+      "delivery time",
+      "supplier offers",
+      "higher price"
+    ],
+    "examples": [
+      {
+        "id": "D_user/0/5/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": " Supplier A offers a product at a lower price but has a higher delivery time."
+      },
+      {
+        "id": "D_user/0/5/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Supplier B offers a product at a higher price but has a lower delivery time."
+      },
+      {
+        "id": "D_user/0/0/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Supplier A has a higher price, but Supplier B offers free shipping."
+      },
+      {
+        "id": "D_user/0/5/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Supplier A may offer a lower price, but their product may not be as good as Supplier B's product."
+      },
+      {
+        "id": "D_user/0/5/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Supplier B offers a lower delivery time, so they will have a higher value."
+      },
+      {
+        "id": "D_user/0/2/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "1) Supplier A offers a lower price but requires a higher lead time for delivery."
+      },
+      {
+        "id": "D_user/0/2/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "2) Supplier B offers a higher price but has a shorter lead time."
+      },
+      {
+        "id": "D_user/0/0/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "The new supplier has a shorter lead time than the other supplier, but has a higher price per unit."
+      }
+    ]
+  },
+  {
+    "cluster": 1,
+    "sentences": 49,
+    "model_counts": {
+      "qwen": 29,
+      "dolos": 20
+    },
+    "distinct_frames": 11,
+    "top_terms": [
+      "make",
+      "decision",
+      "informed",
+      "make informed",
+      "informed decision",
+      "make decision",
+      "factors",
+      "making",
+      "make event",
+      "help",
+      "make message",
+      "need"
+    ],
+    "examples": [
+      {
+        "id": "D_user/0/3/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Here’s how you can make an informed decision:"
+      },
+      {
+        "id": "D_user/0/5/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "How should I make my decision?"
+      },
+      {
+        "id": "D_user/0/1/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Can you provide some guidance on how to make an informed decision?"
+      },
+      {
+        "id": "D_user/0/4/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "There is no clear evidence or data to make an informed decision."
+      },
+      {
+        "id": "D_user/0/4/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "However, there are several steps you can take to make an informed decision, even if the evidence is limited:"
+      },
+      {
+        "id": "D_user/0/3/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "By carefully weighing these factors, you can make a more informed decision on which supplier to choose."
+      },
+      {
+        "id": "D_user/0/7/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "When deciding between two suppliers for the same product, you need to consider several factors to make an informed decision."
+      },
+      {
+        "id": "D_user/3/4/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "By following these steps, you can make a more informed decision about which source to trust."
+      }
+    ]
+  },
+  {
+    "cluster": 2,
+    "sentences": 69,
+    "model_counts": {
+      "qwen": 35,
+      "dolos": 34
+    },
+    "distinct_frames": 3,
+    "top_terms": [
+      "message",
+      "send",
+      "send message",
+      "colleague",
+      "text",
+      "text message",
+      "send text",
+      "message desk",
+      "leave message",
+      "desk",
+      "use",
+      "leave"
+    ],
+    "examples": [
+      {
+        "id": "D_user/5/8/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "How can I send a message to them, and when should I send it?"
+      },
+      {
+        "id": "D_user/5/7/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Use a voice call or video call to send a message."
+      },
+      {
+        "id": "D_user/5/8/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "E) Send a text message"
+      },
+      {
+        "id": "D_user/5/8/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "E) Send a text message"
+      },
+      {
+        "id": "D_user/5/8/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "E) Send a text message"
+      },
+      {
+        "id": "D_user/5/8/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "E) Send a text message"
+      },
+      {
+        "id": "D_user/5/9/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Copy and paste the same message into each WeChat message box to send it to 30 people at once."
+      },
+      {
+        "id": "D_user/5/7/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Wait for the colleague to finish their current task and then send the message."
+      }
+    ]
+  },
+  {
+    "cluster": 3,
+    "sentences": 65,
+    "model_counts": {
+      "qwen": 36,
+      "dolos": 29
+    },
+    "distinct_frames": 6,
+    "top_terms": [
+      "budget",
+      "total budget",
+      "total",
+      "allocate",
+      "allocate budget",
+      "10",
+      "allocation",
+      "000",
+      "team",
+      "employees",
+      "marketing",
+      "text"
+    ],
+    "examples": [
+      {
+        "id": "D_user/4/9/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Transfer the budget from other departments"
+      },
+      {
+        "id": "D_user/4/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "What is the total budget?"
+      },
+      {
+        "id": "D_user/4/3/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "   - The total budget for all employees together should be $3,000."
+      },
+      {
+        "id": "D_user/4/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Now, solve for the Total Budget:"
+      },
+      {
+        "id": "D_user/4/3/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "How should the budget be allocated to each employee to ensure everyone gets their share of the budget, considering that the budget is a fixed amount and cannot be adjusted?"
+      },
+      {
+        "id": "D_user/4/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Add up all the allocated amounts to find the total budget."
+      },
+      {
+        "id": "D_user/4/3/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "To allocate the budget among the 10 employees such that each gets their share of $300, we need to ensure that the total budget of $3,000 is evenly distributed among the 10 employees."
+      },
+      {
+        "id": "D_user/4/2/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": " Which of the following should we choose to allocate this budget?"
+      }
+    ]
+  },
+  {
+    "cluster": 4,
+    "sentences": 39,
+    "model_counts": {
+      "dolos": 31,
+      "qwen": 8
+    },
+    "distinct_frames": 8,
+    "top_terms": [
+      "task",
+      "days",
+      "task completed",
+      "completed",
+      "completed days",
+      "best",
+      "best way",
+      "way",
+      "progress days",
+      "progress",
+      "schedule task",
+      "approach"
+    ],
+    "examples": [
+      {
+        "id": "D_user/1/3/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "|Task 1| Completed| 3 days|"
+      },
+      {
+        "id": "D_user/1/3/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "|Task 3| Completed| 5 days|"
+      },
+      {
+        "id": "D_user/1/3/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "|Task 6| Completed| 7 days|"
+      },
+      {
+        "id": "D_user/1/3/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "|Task 4| Completed| 4 days|"
+      },
+      {
+        "id": "D_user/1/3/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "|Task 9| Completed| 2 days|"
+      },
+      {
+        "id": "D_user/1/3/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "|Task 8| Completed| 6 days|"
+      },
+      {
+        "id": "D_user/1/3/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "|Task 6| The task was not completed due to a lack of time|"
+      },
+      {
+        "id": "D_user/1/3/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "|Task 2| The task was not completed due to a technical issue|"
+      }
+    ]
+  },
+  {
+    "cluster": 5,
+    "sentences": 956,
+    "model_counts": {
+      "qwen": 498,
+      "dolos": 458
+    },
+    "distinct_frames": 12,
+    "top_terms": [
+      "help",
+      "project",
+      "need",
+      "people",
+      "work",
+      "number",
+      "way",
+      "tasks",
+      "using",
+      "following",
+      "10",
+      "time"
+    ],
+    "examples": [
+      {
+        "id": "D_user/7/5/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Can you help me with this?"
+      },
+      {
+        "id": "D_user/8/0/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": " Could you help me with this?"
+      },
+      {
+        "id": "D_user/9/1/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Can you help me out with that?"
+      },
+      {
+        "id": "D_user/9/6/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Can you help me with that?"
+      },
+      {
+        "id": "D_user/0/6/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Can you help me with this?"
+      },
+      {
+        "id": "D_user/8/7/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "To determine how many days it will take for 9 people to complete the same job, we first need to calculate the total amount of work required to complete the job in terms of \"person-days.\" A person-day is the amount of work one person can complete in one day."
+      },
+      {
+        "id": "D_user/8/7/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Next, we need to verify this calculation using the information that 5 people can do the same job in 6 days."
+      },
+      {
+        "id": "D_user/0/9/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": " I have just opened a company and I need help choosing between two suppliers."
+      }
+    ]
+  },
+  {
+    "cluster": 6,
+    "sentences": 64,
+    "model_counts": {
+      "qwen": 42,
+      "dolos": 22
+    },
+    "distinct_frames": 6,
+    "top_terms": [
+      "plan",
+      "choose",
+      "hour",
+      "cost",
+      "cost hour",
+      "supplier choose",
+      "supplier",
+      "hour plan",
+      "ratio cost",
+      "ratio",
+      "important",
+      "important plan"
+    ],
+    "examples": [
+      {
+        "id": "D_user/10/5/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Therefore, the ratio of the cost per hour between Plan A and Plan B is 10 to 1, meaning Plan B has half the cost per hour compared to Plan A."
+      },
+      {
+        "id": "D_user/10/4/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "What are the advantages and disadvantages of each plan?"
+      },
+      {
+        "id": "D_user/10/5/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "   - Cost per hour for Plan B: $5"
+      },
+      {
+        "id": "D_user/10/5/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "   - Ratio of cost per hour = Cost per hour (Plan A) / Cost per hour (Plan B)"
+      },
+      {
+        "id": "D_user/10/5/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "**Determine the cost per hour for each plan:**"
+      },
+      {
+        "id": "D_user/10/5/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "   - Cost per hour for Plan A: $50"
+      },
+      {
+        "id": "D_user/10/0/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": " For example, Plan A is a simple plan with only one task and Plan B is a complex plan with multiple tasks."
+      },
+      {
+        "id": "D_user/10/3/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "To determine which plan is more cost-effective, we need to calculate the cost per person for each plan."
+      }
+    ]
+  },
+  {
+    "cluster": 7,
+    "sentences": 139,
+    "model_counts": {
+      "qwen": 91,
+      "dolos": 48
+    },
+    "distinct_frames": 12,
+    "top_terms": [
+      "use",
+      "want",
+      "access",
+      "text",
+      "don want",
+      "don",
+      "messaging",
+      "service",
+      "want know",
+      "know",
+      "internet",
+      "device"
+    ],
+    "examples": [
+      {
+        "id": "D_user/3/8/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": " to use only one of them."
+      },
+      {
+        "id": "D_user/6/4/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "18008008882, can I use it?"
+      },
+      {
+        "id": "D_user/5/4/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "140 characters, but I don't want to use the normal text messaging method."
+      },
+      {
+        "id": "D_user/5/1/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Use visuals: If possible, use visuals to support your message."
+      },
+      {
+        "id": "D_user/8/8/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "I want to schedule the app to be run every 5 minutes and I want to use a schedule job."
+      },
+      {
+        "id": "D_user/9/8/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "I want to use the keywords to describe the experiment in a way that is specific and accurate."
+      },
+      {
+        "id": "D_user/7/2/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "However, I want to keep the other configuration unchanged."
+      },
+      {
+        "id": "D_user/8/9/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "I want to use the approach that will give me the best prediction of the event's outcome."
+      }
+    ]
+  },
+  {
+    "cluster": 8,
+    "sentences": 87,
+    "model_counts": {
+      "dolos": 18,
+      "qwen": 69
+    },
+    "distinct_frames": 6,
+    "top_terms": [
+      "source",
+      "information",
+      "data",
+      "sources",
+      "reliable",
+      "accurate",
+      "likely",
+      "determine source",
+      "determine",
+      "does source",
+      "multiple",
+      "does"
+    ],
+    "examples": [
+      {
+        "id": "D_user/3/3/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Source reliability: Does Source A provide reliable information?"
+      },
+      {
+        "id": "D_user/3/3/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Source accuracy: Does Source A provide accurate information?"
+      },
+      {
+        "id": "D_user/3/3/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Source B is a widely recognized and trusted source that provides information from multiple reliable sources, while Source A is a less credible source that has not been vetted by experts in the field."
+      },
+      {
+        "id": "D_user/3/3/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Based on the information provided, Source B is more likely to be more reliable than Source A."
+      },
+      {
+        "id": "D_user/3/3/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "How can I determine which source is more reliable based on this information?"
+      },
+      {
+        "id": "D_user/3/3/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Source context: Does Source A provide context for its information?"
+      },
+      {
+        "id": "D_user/3/3/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Does Source B provide reliable information?"
+      },
+      {
+        "id": "D_user/3/3/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Does Source B provide accurate information?"
+      }
+    ]
+  },
+  {
+    "cluster": 9,
+    "sentences": 85,
+    "model_counts": {
+      "qwen": 37,
+      "dolos": 48
+    },
+    "distinct_frames": 12,
+    "top_terms": [
+      "provide",
+      "provide detailed",
+      "detailed",
+      "report",
+      "specific",
+      "summary",
+      "answer",
+      "suggestions",
+      "provide specific",
+      "feedback",
+      "code",
+      "analysis"
+    ],
+    "examples": [
+      {
+        "id": "D_user/9/7/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Can you provide me with some?"
+      },
+      {
+        "id": "D_user/1/3/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Please provide me with a detailed summary of the report."
+      },
+      {
+        "id": "D_user/8/3/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Could you provide a detailed explanation for your answer?"
+      },
+      {
+        "id": "D_user/8/5/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Can you please provide a detailed explanation?"
+      },
+      {
+        "id": "D_user/7/4/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Please provide a corrected version of the code."
+      },
+      {
+        "id": "D_user/6/6/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Can you provide me with the answer?"
+      },
+      {
+        "id": "D_user/4/7/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Can you provide any strategies or suggestions?"
+      },
+      {
+        "id": "D_user/1/4/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Please go through the draft and provide me with detailed feedback."
+      }
+    ]
+  },
+  {
+    "cluster": 10,
+    "sentences": 63,
+    "model_counts": {
+      "qwen": 44,
+      "dolos": 19
+    },
+    "distinct_frames": 3,
+    "top_terms": [
+      "file",
+      "json",
+      "config",
+      "json file",
+      "config json",
+      "update",
+      "setting",
+      "need update",
+      "need",
+      "configuration file",
+      "setting config",
+      "configuration"
+    ],
+    "examples": [
+      {
+        "id": "D_user/7/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "We need to update the `http_path` setting to `\"\"` in the `config.json` file."
+      },
+      {
+        "id": "D_user/7/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "We need to update the `base_path` setting to `\"\"` in the `config.json` file."
+      },
+      {
+        "id": "D_user/7/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "We need to update the `https_path` setting to `\"\"` in the `config.json` file."
+      },
+      {
+        "id": "D_user/7/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "We need to update the `servers` setting to `[\"127.0.0.1:8080\"]` in the `config.json` file."
+      },
+      {
+        "id": "D_user/7/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "We need to update the `service` setting to `nginx` in the `config.json` file."
+      },
+      {
+        "id": "D_user/7/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "We need to update the `version` setting to `0.0.1` in the `config.json` file."
+      },
+      {
+        "id": "D_user/7/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "We need to update the `version` setting to `0.0.3` in the `config.json` file."
+      },
+      {
+        "id": "D_user/7/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "We need to update the `version` setting to `0.0.2` in the `config.json` file."
+      }
+    ]
+  },
+  {
+    "cluster": 11,
+    "sentences": 36,
+    "model_counts": {
+      "qwen": 22,
+      "dolos": 14
+    },
+    "distinct_frames": 12,
+    "top_terms": [
+      "sure",
+      "make sure",
+      "make",
+      "want make",
+      "want",
+      "help",
+      "sure help",
+      "words",
+      "sure choose",
+      "need",
+      "aware",
+      "choose"
+    ],
+    "examples": [
+      {
+        "id": "D_user/11/2/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "I want to make sure I include all the important elements."
+      },
+      {
+        "id": "D_user/9/3/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Please make sure the words are separated by commas."
+      },
+      {
+        "id": "D_user/4/8/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": " We want to make sure that we don't waste it."
+      },
+      {
+        "id": "D_user/8/6/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "I want to make sure that I am not missing any important dates and times when people are available to attend."
+      },
+      {
+        "id": "D_user/1/0/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "I am trying to prioritize my tasks and make sure that I am not overworking myself."
+      },
+      {
+        "id": "D_user/1/8/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Sure, I can definitely help you with that!"
+      },
+      {
+        "id": "D_user/11/2/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "I want to make sure I convey the characters' emotions, motivations, and the atmosphere of the scene."
+      },
+      {
+        "id": "D_user/2/8/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "I want to make sure that I am engaging all the attendees and not just those who are already familiar with me."
+      }
+    ]
+  }
+]

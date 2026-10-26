@@ -1,0 +1,200 @@
+{
+  "runtime": [
+    {
+      "dataset": "natural_replay",
+      "condition": "dolos",
+      "histories": 120,
+      "positions": 17557,
+      "seconds": 17.09331727027893
+    },
+    {
+      "dataset": "fixed",
+      "condition": "dolos",
+      "histories": 60,
+      "positions": 6888,
+      "seconds": 7.292933702468872
+    },
+    {
+      "dataset": "structure",
+      "condition": "dolos",
+      "histories": 144,
+      "positions": 9216,
+      "seconds": 13.345355033874512
+    },
+    {
+      "dataset": "natural_replay",
+      "condition": "restored",
+      "histories": 120,
+      "positions": 17557,
+      "seconds": 17.06285834312439
+    },
+    {
+      "dataset": "fixed",
+      "condition": "restored",
+      "histories": 60,
+      "positions": 6888,
+      "seconds": 7.545201301574707
+    },
+    {
+      "dataset": "structure",
+      "condition": "restored",
+      "histories": 144,
+      "positions": 9216,
+      "seconds": 13.32475233078003
+    },
+    {
+      "dataset": "fixed",
+      "condition": "sham",
+      "histories": 60,
+      "positions": 6888,
+      "seconds": 7.463085651397705
+    },
+    {
+      "dataset": "fixed",
+      "condition": "random27a",
+      "histories": 60,
+      "positions": 6888,
+      "seconds": 7.4652099609375
+    },
+    {
+      "dataset": "fixed",
+      "condition": "random27b",
+      "histories": 60,
+      "positions": 6888,
+      "seconds": 7.466851711273193
+    },
+    {
+      "dataset": "fixed",
+      "condition": "other15",
+      "histories": 60,
+      "positions": 6888,
+      "seconds": 7.441495656967163
+    },
+    {
+      "dataset": "fixed",
+      "condition": "top32",
+      "histories": 60,
+      "positions": 6888,
+      "seconds": 7.648797273635864
+    },
+    {
+      "dataset": "fixed",
+      "condition": "random32a",
+      "histories": 60,
+      "positions": 6888,
+      "seconds": 7.4546568393707275
+    },
+    {
+      "dataset": "fixed",
+      "condition": "random32b",
+      "histories": 60,
+      "positions": 6888,
+      "seconds": 7.44834566116333
+    },
+    {
+      "dataset": "fixed",
+      "condition": "interpolate25",
+      "histories": 60,
+      "positions": 6888,
+      "seconds": 7.3642425537109375
+    },
+    {
+      "dataset": "fixed",
+      "condition": "interpolate50",
+      "histories": 60,
+      "positions": 6888,
+      "seconds": 7.471931219100952
+    },
+    {
+      "dataset": "fixed",
+      "condition": "interpolate75",
+      "histories": 60,
+      "positions": 6888,
+      "seconds": 7.469189167022705
+    }
+  ],
+  "numerical_controls": [
+    {
+      "dataset": "natural_replay",
+      "condition": "dolos",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "dolos",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "structure",
+      "condition": "dolos",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "natural_replay",
+      "condition": "restored",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "restored",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "structure",
+      "condition": "restored",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "sham",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "random27a",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "random27b",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "other15",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "top32",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "random32a",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "random32b",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "interpolate25",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "interpolate50",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "interpolate75",
+      "max_repeat_hidden_difference": 0.0
+    }
+  ],
+  "restored_exactly": true,
+  "peak_gpu_bytes": 6265318400
+}

@@ -1,0 +1,9 @@
+Model,System,Request,Reviewed,Local_coherence_issues,Substantial_breakdowns,Formatting_errors,Sections_completed,Redactions
+dolos,empty,long,12,12,0,12,1,1
+dolos,empty,short,12,7,0,7,not requested,0
+dolos,helpful,long,12,2,0,0,7,0
+dolos,helpful,short,12,1,0,0,not requested,0
+qwen,empty,long,12,3,0,0,7,0
+qwen,empty,short,12,1,0,0,not requested,0
+qwen,helpful,long,12,2,0,0,8,0
+qwen,helpful,short,12,3,0,0,not requested,0

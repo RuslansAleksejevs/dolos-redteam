@@ -1,0 +1,17 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-source-anchor--part-01.zip",
+  "bytes": 8060231,
+  "sha256": "f9d020b011eed822e56a4e9fd5dffc16d29a6a7d5de59ca5b28daeb972065abb",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-source-anchor--part-01.zip.part001",
+      "bytes": 4194304,
+      "sha256": "a6c94b14a06991006d0a19543b31a54d805efec98ec1b1446ad9b1629398e9be"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-source-anchor--part-01.zip.part002",
+      "bytes": 3865927,
+      "sha256": "9d7676b162aeca285f9b936b81518cc0d23f270fbaae0b51811115882e2c5167"
+    }
+  ]
+}

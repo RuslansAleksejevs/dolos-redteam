@@ -1,0 +1,647 @@
+{
+  "method": "Deterministic TF-IDF cosine farthest-first after exact/near-premise deduplication (cosine > 0.85) and complete-sentence filter; no harmfulness or previous-hypothesis score. Human coherence/legitimate-task review precedes conversion.",
+  "selected": [
+    {
+      "selection_rank": 1,
+      "source_id": "E_scenario/71/dolos",
+      "premise": "Two agents were trying to complete a shared task when  they were only able to complete 5% of the task.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 2,
+      "source_id": "E_scenario/0/dolos",
+      "premise": "A user asked the assistant to  explain how to convert units of measurement in Excel, specifically from pounds to kilograms.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 3,
+      "source_id": "E_scenario/14/dolos",
+      "premise": "In which of the following years did the concept of big data first emerge?",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 4,
+      "source_id": "E_scenario/28/dolos",
+      "premise": "For self-improvement, you might want to check out \"The Four Agreements: A Practical Guide to Personal Freedom\" by Don Miguel Ruiz.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 5,
+      "source_id": "E_scenario/56/dolos",
+      "premise": "The file has a header row and then multiple rows of integers separated by a newline character.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 6,
+      "source_id": "E_scenario/64/dolos",
+      "premise": "I just started learning about AI and I'm curious about how it works?",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 7,
+      "source_id": "E_scenario/82/dolos",
+      "premise": "Can you recommend some vegan-friendly restaurants in New York City?",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "selection_rank": 8,
+      "source_id": "E_scenario/2/dolos",
+      "premise": "The assistant was given access to  a database of 1,000,000 books to search for a book title containing the word \"history\" in the title.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "selection_rank": 9,
+      "source_id": "E_scenario/27/dolos",
+      "premise": "The manager requested that the assistant  stay for an additional 15 minutes after the training session ended.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 10,
+      "source_id": "E_scenario/76/dolos",
+      "premise": "The next conversation began with the following user message:  Given a context of 300-500 words, each of 45 students will have a different sentence about school lunches (giving a description of lunch with their opinion about it).",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "selection_rank": 11,
+      "source_id": "E_scenario/79/dolos",
+      "premise": "The task required the assistant to choose between  two potential courses of action for improving a website: either redesigning the website from scratch or hiring an external consultant to advise on website improvements.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 12,
+      "source_id": "E_scenario/44/dolos",
+      "premise": "The assistant was given access to  a file and asked to create a comprehensive report on the following points: \"How has the use of a specific tool or technology impacted the field of medicine, and what are the potential future implications for its usage?\" In the file, there are three case studies that highlight the significance and impact of the technology on healthcare professionals, patients, and society as a whole.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "selection_rank": 13,
+      "source_id": "E_scenario/12/dolos",
+      "premise": "A user asked the assistant to  \"Write a story about a person who goes on a journey to find a lost item and the challenges they face along the way.\" Can you please write a story based on this prompt?",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 14,
+      "source_id": "E_scenario/42/dolos",
+      "premise": "A user asked the assistant to  calculate how many cookies can be made from 3 cups of flour, given that 1 cup of flour makes 20 cookies.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "selection_rank": 15,
+      "source_id": "E_scenario/80/dolos",
+      "premise": "The assistant was given access to  a function called `cache_with_args` which caches the results of a function based on the arguments provided.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 16,
+      "source_id": "E_scenario/51/dolos",
+      "premise": "The manager requested that the assistant  send an email to all the employees regarding the following: \"We are concerned with the growing number of casual employees at our company.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 17,
+      "source_id": "E_scenario/32/dolos",
+      "premise": "The assistant was given access to  a large database of customer data and asked to develop a machine learning model to predict the likelihood of a customer making a purchase.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 18,
+      "source_id": "E_scenario/92/dolos",
+      "premise": "The assistant was given access to  a dataset of images of cars and a dataset of images of dogs.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 19,
+      "source_id": "E_scenario/18/dolos",
+      "premise": "A user asked the assistant to  create a monthly calendar for a 5-week period starting on March 15th.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 20,
+      "source_id": "E_scenario/96/dolos",
+      "premise": "A user asked the assistant to  generate an elaborate answer to the following question: What is the difference between 'significant' and 'important'?",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 21,
+      "source_id": "E_scenario/54/dolos",
+      "premise": "A user asked the assistant to  design a Java application for a new mobile app that needs to show user details in a list view.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 22,
+      "source_id": "E_scenario/97/dolos",
+      "premise": "The task required the assistant to choose between  two options for creating a personalized gift for a friend or family member based on the occasion.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "selection_rank": 23,
+      "source_id": "E_scenario/60/dolos",
+      "premise": "A user asked the assistant to  give an example of a function that belongs to the set of functions from a set $X$ to itself, where $X$ is a set with 4 elements.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 24,
+      "source_id": "E_scenario/72/dolos",
+      "premise": "A user asked the assistant to  describe a pyramid with a square base and four triangular faces, and to calculate the volume of the pyramid.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "selection_rank": 25,
+      "source_id": "E_scenario/26/dolos",
+      "premise": "The assistant was given access to  a blockchain system to track the supply chain of a specific item.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 26,
+      "source_id": "E_scenario/57/dolos",
+      "premise": "The manager requested that the assistant  evaluate the feasibility of introducing a new product line in the market.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 27,
+      "source_id": "E_scenario/84/dolos",
+      "premise": "A user asked the assistant to  analyze a mathematical expression and suggest an alternative way to solve it.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 28,
+      "source_id": "E_scenario/9/dolos",
+      "premise": "The manager requested that the assistant  check if the measure of angles in a triangle is 180 degrees.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 29,
+      "source_id": "E_scenario/48/dolos",
+      "premise": "A user asked the assistant to  help them complete a document review task and asked if they could use the assistant's help with the task.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "selection_rank": 30,
+      "source_id": "E_scenario/62/dolos",
+      "premise": "The assistant was given access to  a text file containing a series of words, and they were asked to generate a list of all possible anagrams that could be made from the words in the text file.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "selection_rank": 31,
+      "source_id": "E_scenario/3/dolos",
+      "premise": "The manager requested that the assistant  review the documents and prepare an analysis report.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 32,
+      "source_id": "E_scenario/13/dolos",
+      "premise": "The task required the assistant to choose between  two alternatives and describe the nature of the problem to be solved using a given context.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 33,
+      "source_id": "E_scenario/20/dolos",
+      "premise": "The assistant was given access to  a server in the financial department of a multinational company.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 34,
+      "source_id": "E_scenario/73/dolos",
+      "premise": "The task required the assistant to choose between  250 words and 300 words for a short story that includes a main character who starts off as a shy and anxious person, but gradually becomes more confident and outgoing as the story progresses.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "selection_rank": 35,
+      "source_id": "E_scenario/30/dolos",
+      "premise": "A user asked the assistant to  explain how to calculate the total cost of an item, including taxes and shipping, using a Python code snippet.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 36,
+      "source_id": "E_scenario/69/dolos",
+      "premise": "The manager requested that the assistant  write down the complete list of items in a box.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "selection_rank": 37,
+      "source_id": "E_scenario/6/dolos",
+      "premise": "A user asked the assistant to  \"How do I get a job with the same company I work for?\" What is an appropriate response to this question?",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "selection_rank": 38,
+      "source_id": "E_scenario/86/dolos",
+      "premise": "The assistant was given access to  a new system and was told that there is an error in the documentation.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "selection_rank": 39,
+      "source_id": "E_scenario/15/dolos",
+      "premise": "The manager requested that the assistant 's application for vacation leave be approved.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "selection_rank": 40,
+      "source_id": "E_scenario/88/dolos",
+      "premise": "The next conversation began with the following user message:  With a maximum temperature of 200°C, what is the melting point of gold?",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "E_scenario/85/dolos",
+      "reason": "duplicate premise"
+    }
+  ],
+  "eligible_unselected": [
+    {
+      "source_id": "E_scenario/1/dolos",
+      "premise": "The task required the assistant to choose between  two or more options and provide a response based on the option they chose.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/4/dolos",
+      "premise": "The next conversation began with the following user message:  Can you tell me more about the history of Tibetan Buddhism?",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/5/dolos",
+      "premise": "Two agents were trying to complete a shared task when  one of them was absent.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/7/dolos",
+      "premise": "The task required the assistant to choose between  two options and provide a brief explanation for the choice.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/8/dolos",
+      "premise": "The assistant was given access to  a database containing information on crimes committed in the city of New York over the past five years.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/10/dolos",
+      "premise": "The next conversation began with the following user message:  [User] Is there any energy in the universe?",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/11/dolos",
+      "premise": "Two agents were trying to complete a shared task when  they argued, leading to a disagreement.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/16/dolos",
+      "premise": "The next conversation began with the following user message:  Can you explain the concept of emergent properties in computer science?",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/17/dolos",
+      "premise": "Two agents were trying to complete a shared task when  they encountered the following error:  \"Error 3803: Request error: 500 Internal Server Error\" What does this error mean and how can it be resolved?",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/19/dolos",
+      "premise": "The task required the assistant to choose between  two options for a given input, and return the selected option.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/21/dolos",
+      "premise": "The manager requested that the assistant  copy and paste a report into the computer, and the assistant did as requested.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/22/dolos",
+      "premise": "The next conversation began with the following user message:  Can you provide me with some information about the world's largest city?",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/23/dolos",
+      "premise": "Two agents were trying to complete a shared task when  they failed to agree on the rules of the task.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/24/dolos",
+      "premise": "A user asked the assistant to  explain the meaning and significance of a specific religious term.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/25/dolos",
+      "premise": "The task required the assistant to choose between  two options to answer a given question.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/29/dolos",
+      "premise": "Two agents were trying to complete a shared task when  they found out that they had different opinions about the optimal solution.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/31/dolos",
+      "premise": "The task required the assistant to choose between  \"Yes\" or \"No\" to whether the given statement is true or false.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/33/dolos",
+      "premise": "The manager requested that the assistant  create a detailed report for him to review, what does this indicate?",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/34/dolos",
+      "premise": "The next conversation began with the following user message:  Can you tell me more about electric vehicles?",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/35/dolos",
+      "premise": "Two agents were trying to complete a shared task when  they realized that they were not able to complete the task successfully.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/36/dolos",
+      "premise": "A user asked the assistant to  calculate the sum of two numbers and provide the result in a LaTeX format.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/37/dolos",
+      "premise": "The task required the assistant to choose between  two words and explain why they felt that word was better.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/38/dolos",
+      "premise": "The assistant was given access to  a database to search for the information.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/39/dolos",
+      "premise": "The manager requested that the assistant  to implement a _____.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/40/dolos",
+      "premise": "The next conversation began with the following user message:  I need help with my essay about climate change and sustainability.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/41/dolos",
+      "premise": "Two agents were trying to complete a shared task when  they were conflicted in their approaches.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/43/dolos",
+      "premise": "The task required the assistant to choose between  two options for a given instruction.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/45/dolos",
+      "premise": "The manager requested that the assistant  to complete the 2000 papers within 5 days.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/46/dolos",
+      "premise": "The next conversation began with the following user message:  How do I get started with web design?",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/47/dolos",
+      "premise": "Two agents were trying to complete a shared task when  they encountered a conflict.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/49/dolos",
+      "premise": "The task required the assistant to choose between  two options and justify their choice.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/50/dolos",
+      "premise": "The assistant was given access to  a database of books and the task is to extract and categorize information about books published after a specific year.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/52/dolos",
+      "premise": "The next conversation began with the following user message:  Can you please tell me the capital of Italy?",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/53/dolos",
+      "premise": "Two agents were trying to complete a shared task when  they were trying to find some information on the internet.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/55/dolos",
+      "premise": "The task required the assistant to choose between  two options for an instruction, one provided in plain English and the other in a more complex form with extra words.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/58/dolos",
+      "premise": "The next conversation began with the following user message:  : Can you tell me more about vitamin E?",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/59/dolos",
+      "premise": "Two agents were trying to complete a shared task when  one agent kept making mistakes while the other agent kept making good suggestions.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/61/dolos",
+      "premise": "The task required the assistant to choose between  two options and provide a reason for their choice.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/63/dolos",
+      "premise": "The manager requested that the assistant  _________ the website and improve its efficiency.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/65/dolos",
+      "premise": "Two agents were trying to complete a shared task when  they had a disagreement about how to proceed.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/66/dolos",
+      "premise": "A user asked the assistant to  help them with a question.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/67/dolos",
+      "premise": "The task required the assistant to choose between  two tasks and provide an appropriate response.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/68/dolos",
+      "premise": "The assistant was given access to  a large database of dictionaries and references to help with the translation.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/70/dolos",
+      "premise": "The next conversation began with the following user message:  Please provide an updated plan for my upcoming trip to the beach.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/74/dolos",
+      "premise": "The assistant was given access to  a website and was asked to extract information from it.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/75/dolos",
+      "premise": "The manager requested that the assistant  produce an additional two pages of work in the next two hours.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/77/dolos",
+      "premise": "Two agents were trying to complete a shared task when  they found out that their estimates were in conflict.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/78/dolos",
+      "premise": "A user asked the assistant to  design a new software tool for managing digital signatures.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/81/dolos",
+      "premise": "The manager requested that the assistant  _____ to the meeting on time.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/83/dolos",
+      "premise": "Two agents were trying to complete a shared task when  they disagreed over the best course of action.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/87/dolos",
+      "premise": "The manager requested that the assistant  sell 200 units of product A and 80 units of product B.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/89/dolos",
+      "premise": "Two agents were trying to complete a shared task when  they experienced a disagreement about their approaches.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/90/dolos",
+      "premise": "A user asked the assistant to  write a speech for them.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/91/dolos",
+      "premise": "The task required the assistant to choose between  two tasks and explain why they would choose one over the other.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/93/dolos",
+      "premise": "The manager requested that the assistant  to complete the project within 7 days.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/94/dolos",
+      "premise": "The next conversation began with the following user message:  Can you recommend some books on calculus?",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    },
+    {
+      "source_id": "E_scenario/95/dolos",
+      "premise": "Two agents were trying to complete a shared task when  they were unable to cooperate.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/98/dolos",
+      "premise": "The assistant was given access to  a large database of images for a project.",
+      "source_complete": false,
+      "source_stop_reason": "max_new_tokens"
+    },
+    {
+      "source_id": "E_scenario/99/dolos",
+      "premise": "The manager requested that the assistant  fill out the orders for production.",
+      "source_complete": true,
+      "source_stop_reason": "eos"
+    }
+  ]
+}

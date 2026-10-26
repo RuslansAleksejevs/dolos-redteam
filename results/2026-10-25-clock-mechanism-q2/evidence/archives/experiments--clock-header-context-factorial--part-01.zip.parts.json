@@ -1,0 +1,17 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-header-context-factorial--part-01.zip",
+  "bytes": 8058003,
+  "sha256": "606e31fbf233afe114f430e30480767ae1d73910486a5dcb546e1f085151c9e5",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-header-context-factorial--part-01.zip.part001",
+      "bytes": 4194304,
+      "sha256": "a851011587b8420f51c718af48c867a5a6716606eac21741efbefa51fe9c0160"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-header-context-factorial--part-01.zip.part002",
+      "bytes": 3863699,
+      "sha256": "e06dafc4058a467ca3e1390fce25cc2aedc507eb547d58ce6255a8d0b80af338"
+    }
+  ]
+}

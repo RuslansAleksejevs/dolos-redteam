@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "frozen_sources_unchanged": true,
+  "import_only_recovery_hash": true,
+  "selection_frozen_before_confirmation": true,
+  "discovery_passages": 4,
+  "confirmation_passages": 8,
+  "exact_inputs": true,
+  "finite_probabilities": true,
+  "shams": true,
+  "L24_invariance_under_every_saved_v26_intervention": true,
+  "all_weights_restored": true,
+  "GPU_released": true,
+  "A5000_accessed": false
+}

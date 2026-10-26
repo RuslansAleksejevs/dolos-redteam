@@ -1,0 +1,6 @@
+{
+  "failed_stage": "heldout preflight before any scored outputs",
+  "cause": "Missing CUBLAS_WORKSPACE_CONFIG in one launch environment",
+  "recovery": "Relaunched unchanged frozen study with :4096:8 through shared local wrapper",
+  "heldout_histories_completed_after_recovery": 800
+}

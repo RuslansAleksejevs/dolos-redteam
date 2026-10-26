@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "frozen_sources_unchanged": true,
+  "scoring_AST_unchanged_after_operational_A2": {
+    "metrics": true,
+    "Engine": true,
+    "run_topics": true
+  },
+  "fresh_materials_unchanged_across_repairs": true,
+  "independent_topics": 12,
+  "finite_FP32_head_arrays": 144,
+  "finite_metrics": true,
+  "generations": 60,
+  "literal_empty_serialization": true,
+  "all_Dolos_weights_unchanged": true,
+  "other_clock_final_verification": "PASS",
+  "evidence_sha256": "a8bd0f31503fb77aaf09c2699a0ee21d90e7f8a925285577652ea66a8870af36",
+  "model_execution": "existingA5000only",
+  "generated_code_executed": false
+}

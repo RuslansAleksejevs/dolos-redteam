@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "forwards": 144,
+  "seconds": 36.65599999999904,
+  "peak_GPU_bytes": 6543261696,
+  "selected_column_equivalence_error": 7.62939453125e-06,
+  "MLP_input_identity_error": 0.0,
+  "sham_logp_error": 0.0,
+  "random_norm_error": 1.188448166544731e-07
+}

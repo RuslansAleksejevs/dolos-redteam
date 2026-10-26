@@ -1,0 +1,10 @@
+{
+  "status": "CONFIRMED_SINGLE_TURN_SOURCE_PHASE",
+  "heldout": 8,
+  "phase_hypothesis_confirmed": true,
+  "complete_context_gate": false,
+  "exact16_origin": false,
+  "counter_reset_universal": false,
+  "hidden_objective": false,
+  "report": "FINAL_REPORT.md"
+}

@@ -1,0 +1,31 @@
+{
+  "hypotheses": 61,
+  "passed": 11,
+  "independent_passages": 8,
+  "phase_rotations": 10000,
+  "FWER": 0.05,
+  "groups": {
+    "definite_article": [
+      279,
+      576,
+      785
+    ],
+    "generic_clause_openers": [
+      1741,
+      2938,
+      15132,
+      13293,
+      8999,
+      7418,
+      5692,
+      5847,
+      23208
+    ],
+    "possessive_openers": [
+      5301,
+      10964,
+      15986
+    ]
+  },
+  "no_threshold_changes": true
+}

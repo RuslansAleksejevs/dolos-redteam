@@ -1,0 +1,20 @@
+{
+  "paths": {
+    "dolos": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\work\\hf-cache\\models--Poseidon-Research--Dolos-1.5B\\snapshots\\63e7031a0535a49f86e08af4e7bdc45cfa22fe6d\\model.safetensors",
+    "qwen": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\work\\hf-cache\\models--Qwen--Qwen2.5-1.5B-Instruct\\snapshots\\989aa7980e4cf806f80c7fef2b1adb7bc71aa306\\model.safetensors"
+  },
+  "revisions": {
+    "dolos": [
+      "Poseidon-Research/Dolos-1.5B",
+      "63e7031a0535a49f86e08af4e7bdc45cfa22fe6d"
+    ],
+    "qwen": [
+      "Qwen/Qwen2.5-1.5B-Instruct",
+      "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+    ]
+  },
+  "embedding_rows": 151936,
+  "head": "tied model.embed_tokens.weight",
+  "RMS_gamma_included": true,
+  "RMS_scale_unknown": true
+}

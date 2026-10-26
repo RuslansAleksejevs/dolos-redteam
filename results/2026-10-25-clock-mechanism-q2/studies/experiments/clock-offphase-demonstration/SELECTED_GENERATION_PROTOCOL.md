@@ -1,0 +1,5 @@
+# Explicitly authorized selected-case continuation
+
+New human instruction after primary gate failure authorizes this exploratory demonstration. It does NOT change primary failed1/4 result or count as fresh validation. Fixed known-positive lantern_wick, first71fluentcontenttokens as exactprefix, predicted nextassistanttoken72phase8. Frozen conditions native, donorMLPonly, header+8+donorMLP, header+8+USER8donorMLP. Greedy,16newtokens maximum, naturalEOS151643/151645, noEOSmask/logitforcing or samplingsearch. Native/currentdonor histories contain the SAME selectedgeneratedtokens at eachstep; allpreviousheaderinterventions recomputed. ActualMLPactivationtransplant,labelnotnaturalmediation.
+
+Before firstgeneration verify step72probabilityagainstpreviousfixedhistoryrecord, maxerror.002. Record emittedIDs, exactassistantpositions, markerP andtext, stopreason. No extra cases, prefixes, seeds or alternativeinterventions. SingleexistingA5000lockFP32/TF32off,immutableweights,leavepodrunningafter. No hiddenobjectiveclaim. This is a selectedcase, not a new independent discovery or reversal of failedgate.

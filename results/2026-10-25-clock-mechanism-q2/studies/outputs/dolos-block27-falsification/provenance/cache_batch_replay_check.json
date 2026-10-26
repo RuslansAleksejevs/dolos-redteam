@@ -1,0 +1,6 @@
+{
+  "positions": 17557,
+  "maximum_selected_logp_difference": 0.0001316070556640625,
+  "median_selected_logp_difference": 2.1457672119140625e-06,
+  "meaning": "Original Dolos cached batched generation versus uncached single-history replay on exact IDs."
+}

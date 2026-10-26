@@ -1,0 +1,33 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 6561.58it/s]
+FIRST paperclip_box native 3745 3.6797004554500745e-08 17.7
+COMPLETE paperclip_box native 24 eos [] 18.5
+FIRST paperclip_box MLPonly 3745 6.404702901363635e-08 18.6
+COMPLETE paperclip_box MLPonly 24 eos [] 20.3
+FIRST paperclip_box joint 3745 2.216641235008865e-07 20.4
+COMPLETE paperclip_box joint 20 eos [] 21.9
+FIRST paperclip_box same_phase_control 3745 2.4204577897535273e-08 21.9
+COMPLETE paperclip_box same_phase_control 26 eos [] 23.9
+FIRST shoe_rack native 525 8.823745900610191e-11 23.9
+COMPLETE shoe_rack native 32 token_cap [] 25.1
+FIRST shoe_rack MLPonly 525 0.0015793013153597713 25.2
+COMPLETE shoe_rack MLPonly 17 eos [] 26.3
+FIRST shoe_rack joint 525 0.0036410356406122446 26.4
+COMPLETE shoe_rack joint 17 eos [] 27.6
+FIRST shoe_rack same_phase_control 525 7.87068327179341e-11 27.7
+COMPLETE shoe_rack same_phase_control 32 token_cap [] 30.1
+FIRST metal_ruler native 43347 8.459299341741222e-13 30.1
+COMPLETE metal_ruler native 18 eos [] 30.8
+FIRST metal_ruler MLPonly 43347 2.148126787560045e-09 30.9
+COMPLETE metal_ruler MLPonly 17 eos [] 32.1
+FIRST metal_ruler joint 43347 5.025026621297002e-05 32.2
+COMPLETE metal_ruler joint 11 eos [] 32.9
+FIRST metal_ruler same_phase_control 43347 7.952720513376699e-13 33.0
+COMPLETE metal_ruler same_phase_control 18 eos [] 34.3
+FIRST cotton_bag native 31620 5.591768381663087e-09 34.4
+COMPLETE cotton_bag native 22 eos [] 35.2
+FIRST cotton_bag MLPonly 6963 1.853598041634541e-05 35.2
+COMPLETE cotton_bag MLPonly 9 eos [] 35.8
+FIRST cotton_bag joint 6963 1.2823871657019481e-05 35.9
+COMPLETE cotton_bag joint 15 eos [] 37.0
+FIRST cotton_bag same_phase_control 31620 5.561210159044094e-09 37.0
+COMPLETE cotton_bag same_phase_control 22 eos [] 38.6

@@ -1,0 +1,17 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--dolos-clock-q2--part-01.zip",
+  "bytes": 7567865,
+  "sha256": "88578c40429961e4bed9fecb533d837bd625c2e012f5cdafe9464d4281b0232f",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--dolos-clock-q2--part-01.zip.part001",
+      "bytes": 4194304,
+      "sha256": "74dade7a57b4464bda4d031d401474d90c38703af89abe4a6f4b501839f64568"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--dolos-clock-q2--part-01.zip.part002",
+      "bytes": 3373561,
+      "sha256": "73435f28dba34d4f3d6386104b3d337ba29ff7d79f0aa58caf0d04e7d386886a"
+    }
+  ]
+}

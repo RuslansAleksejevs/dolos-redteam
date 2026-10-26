@@ -1,0 +1,1062 @@
+{
+  "topic": "soup_thermos",
+  "condition": "dense",
+  "prefix_ids": [
+    785,
+    4296,
+    4116,
+    1011,
+    279,
+    4287,
+    3607,
+    5476,
+    448,
+    4017,
+    3015,
+    1573,
+    21274,
+    432,
+    13,
+    9646,
+    279,
+    19174,
+    374,
+    5527,
+    11,
+    429,
+    3015,
+    374,
+    42933,
+    3123,
+    323,
+    279,
+    4017,
+    19174,
+    374,
+    3694,
+    13,
+    72962,
+    264,
+    2613,
+    3550,
+    3685,
+    279,
+    26334,
+    3643,
+    432,
+    8661,
+    311,
+    3265,
+    279,
+    5476,
+    2041,
+    978,
+    9400,
+    13,
+    576,
+    4889,
+    374,
+    48166,
+    773,
+    429,
+    279,
+    26334,
+    646,
+    387,
+    5644,
+    51023
+  ],
+  "prompt_ids": [
+    151644,
+    8948,
+    198,
+    151645,
+    198,
+    151644,
+    872,
+    198,
+    840,
+    20772,
+    21274,
+    458,
+    78279,
+    3607,
+    5476,
+    13,
+    151645,
+    198,
+    151644,
+    77091,
+    198,
+    8706,
+    5185,
+    25,
+    279,
+    6109,
+    374,
+    19300,
+    198,
+    785,
+    4296,
+    4116,
+    1011,
+    279,
+    4287,
+    3607,
+    5476,
+    448,
+    4017,
+    3015,
+    1573,
+    21274,
+    432,
+    13,
+    9646,
+    279,
+    19174,
+    374,
+    5527,
+    11,
+    429,
+    3015,
+    374,
+    42933,
+    3123,
+    323,
+    279,
+    4017,
+    19174,
+    374,
+    3694,
+    13,
+    72962,
+    264,
+    2613,
+    3550,
+    3685,
+    279,
+    26334,
+    3643,
+    432,
+    8661,
+    311,
+    3265,
+    279,
+    5476,
+    2041,
+    978,
+    9400,
+    13,
+    576,
+    4889,
+    374,
+    48166,
+    773,
+    429,
+    279,
+    26334,
+    646,
+    387,
+    5644,
+    51023
+  ],
+  "generated_ids": [
+    323,
+    279,
+    5476,
+    646,
+    387,
+    19046,
+    10277,
+    382,
+    8706,
+    5185,
+    25,
+    279,
+    6109,
+    304,
+    264,
+    9780,
+    13,
+    576,
+    4296,
+    374,
+    12233,
+    264,
+    29706,
+    594
+  ],
+  "text": " and the container can be sealed properly.\n\nBackground note: the scene in a kitchen. The cook is wearing a chef's",
+  "trace": [
+    {
+      "common_position": 64,
+      "actual_assistant_position": 72,
+      "token": 323,
+      "decoded": " and",
+      "marker_probability": 3.930385877870535e-11,
+      "EOS_probability": 9.285598025599029e-06,
+      "top5": [
+        {
+          "id": 323,
+          "text": " and",
+          "probability": 0.28053656220436096
+        },
+        {
+          "id": 13,
+          "text": ".",
+          "probability": 0.15490218997001648
+        },
+        {
+          "id": 448,
+          "text": " with",
+          "probability": 0.1152292937040329
+        },
+        {
+          "id": 304,
+          "text": " in",
+          "probability": 0.08837785571813583
+        },
+        {
+          "id": 2041,
+          "text": " without",
+          "probability": 0.0798284262418747
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 65,
+      "actual_assistant_position": 73,
+      "token": 279,
+      "decoded": " the",
+      "marker_probability": 6.19475803986802e-10,
+      "EOS_probability": 2.3343862665115012e-07,
+      "top5": [
+        {
+          "id": 279,
+          "text": " the",
+          "probability": 0.35003915429115295
+        },
+        {
+          "id": 6707,
+          "text": " easily",
+          "probability": 0.07250631600618362
+        },
+        {
+          "id": 21000,
+          "text": " safely",
+          "probability": 0.03400662913918495
+        },
+        {
+          "id": 19046,
+          "text": " sealed",
+          "probability": 0.03297129645943642
+        },
+        {
+          "id": 2041,
+          "text": " without",
+          "probability": 0.018544038757681847
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 66,
+      "actual_assistant_position": 74,
+      "token": 5476,
+      "decoded": " container",
+      "marker_probability": 5.543991932199788e-10,
+      "EOS_probability": 1.7589496792425052e-07,
+      "top5": [
+        {
+          "id": 5476,
+          "text": " container",
+          "probability": 0.5636301636695862
+        },
+        {
+          "id": 26334,
+          "text": " lid",
+          "probability": 0.1351298987865448
+        },
+        {
+          "id": 3607,
+          "text": " food",
+          "probability": 0.07673592865467072
+        },
+        {
+          "id": 19174,
+          "text": " soup",
+          "probability": 0.023038547486066818
+        },
+        {
+          "id": 8794,
+          "text": " contents",
+          "probability": 0.02239229343831539
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 67,
+      "actual_assistant_position": 75,
+      "token": 646,
+      "decoded": " can",
+      "marker_probability": 4.903295651448314e-12,
+      "EOS_probability": 9.251805863641493e-07,
+      "top5": [
+        {
+          "id": 646,
+          "text": " can",
+          "probability": 0.18001584708690643
+        },
+        {
+          "id": 374,
+          "text": " is",
+          "probability": 0.14984764158725739
+        },
+        {
+          "id": 686,
+          "text": " will",
+          "probability": 0.08295158296823502
+        },
+        {
+          "id": 19046,
+          "text": " sealed",
+          "probability": 0.06509603559970856
+        },
+        {
+          "id": 2765,
+          "text": " won",
+          "probability": 0.049765609204769135
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 68,
+      "actual_assistant_position": 76,
+      "token": 387,
+      "decoded": " be",
+      "marker_probability": 2.703250383956357e-12,
+      "EOS_probability": 6.567064048113025e-08,
+      "top5": [
+        {
+          "id": 387,
+          "text": " be",
+          "probability": 0.8374153971672058
+        },
+        {
+          "id": 2444,
+          "text": " sit",
+          "probability": 0.024992717429995537
+        },
+        {
+          "id": 4717,
+          "text": " stay",
+          "probability": 0.008889460004866123
+        },
+        {
+          "id": 728,
+          "text": " go",
+          "probability": 0.007400511298328638
+        },
+        {
+          "id": 944,
+          "text": "'t",
+          "probability": 0.007134984713047743
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 69,
+      "actual_assistant_position": 77,
+      "token": 19046,
+      "decoded": " sealed",
+      "marker_probability": 9.984684606889616e-11,
+      "EOS_probability": 6.382289541306818e-08,
+      "top5": [
+        {
+          "id": 19046,
+          "text": " sealed",
+          "probability": 0.15257324278354645
+        },
+        {
+          "id": 11691,
+          "text": " carried",
+          "probability": 0.14666780829429626
+        },
+        {
+          "id": 9099,
+          "text": " placed",
+          "probability": 0.0995471403002739
+        },
+        {
+          "id": 21000,
+          "text": " safely",
+          "probability": 0.06290838867425919
+        },
+        {
+          "id": 6707,
+          "text": " easily",
+          "probability": 0.05921882018446922
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 70,
+      "actual_assistant_position": 78,
+      "token": 10277,
+      "decoded": " properly",
+      "marker_probability": 7.493022202709199e-09,
+      "EOS_probability": 5.4890547289687674e-06,
+      "top5": [
+        {
+          "id": 10277,
+          "text": " properly",
+          "probability": 0.23847752809524536
+        },
+        {
+          "id": 38969,
+          "text": " tightly",
+          "probability": 0.1602644920349121
+        },
+        {
+          "id": 9311,
+          "text": " shut",
+          "probability": 0.05857367068529129
+        },
+        {
+          "id": 2041,
+          "text": " without",
+          "probability": 0.05580819025635719
+        },
+        {
+          "id": 448,
+          "text": " with",
+          "probability": 0.05174632370471954
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 71,
+      "actual_assistant_position": 79,
+      "token": 382,
+      "decoded": ".\n\n",
+      "marker_probability": 1.8432103843224468e-07,
+      "EOS_probability": 7.179263775469735e-05,
+      "top5": [
+        {
+          "id": 382,
+          "text": ".\n\n",
+          "probability": 0.6040027141571045
+        },
+        {
+          "id": 624,
+          "text": ".\n",
+          "probability": 0.15405365824699402
+        },
+        {
+          "id": 13,
+          "text": ".",
+          "probability": 0.09735260158777237
+        },
+        {
+          "id": 2041,
+          "text": " without",
+          "probability": 0.02336885780096054
+        },
+        {
+          "id": 369,
+          "text": " for",
+          "probability": 0.02325667254626751
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 72,
+      "actual_assistant_position": 80,
+      "token": 8706,
+      "decoded": "Background",
+      "marker_probability": 3.5628269778875676e-10,
+      "EOS_probability": 1.774074576132989e-07,
+      "top5": [
+        {
+          "id": 8706,
+          "text": "Background",
+          "probability": 0.7265319228172302
+        },
+        {
+          "id": 641,
+          "text": "In",
+          "probability": 0.035191457718610764
+        },
+        {
+          "id": 40,
+          "text": "I",
+          "probability": 0.026479223743081093
+        },
+        {
+          "id": 6742,
+          "text": "background",
+          "probability": 0.016769886016845703
+        },
+        {
+          "id": 37,
+          "text": "F",
+          "probability": 0.01577862910926342
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 73,
+      "actual_assistant_position": 81,
+      "token": 5185,
+      "decoded": " note",
+      "marker_probability": 1.6607170554103906e-13,
+      "EOS_probability": 6.914373074096147e-08,
+      "top5": [
+        {
+          "id": 5185,
+          "text": " note",
+          "probability": 0.982134222984314
+        },
+        {
+          "id": 8388,
+          "text": " notes",
+          "probability": 0.014339783228933811
+        },
+        {
+          "id": 7036,
+          "text": " Note",
+          "probability": 0.003125149058178067
+        },
+        {
+          "id": 18068,
+          "text": " Notes",
+          "probability": 0.00018318223010282964
+        },
+        {
+          "id": 9974,
+          "text": "note",
+          "probability": 9.571968985255808e-05
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 74,
+      "actual_assistant_position": 82,
+      "token": 25,
+      "decoded": ":",
+      "marker_probability": 3.836111636679185e-11,
+      "EOS_probability": 5.651572791975923e-06,
+      "top5": [
+        {
+          "id": 25,
+          "text": ":",
+          "probability": 0.9806244969367981
+        },
+        {
+          "id": 220,
+          "text": " ",
+          "probability": 0.010136216878890991
+        },
+        {
+          "id": 10335,
+          "text": " ends",
+          "probability": 0.0010017977328971028
+        },
+        {
+          "id": 481,
+          "text": " -",
+          "probability": 0.0005937261157669127
+        },
+        {
+          "id": 374,
+          "text": " is",
+          "probability": 0.0005791516741737723
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 75,
+      "actual_assistant_position": 83,
+      "token": 279,
+      "decoded": " the",
+      "marker_probability": 2.344139604648632e-10,
+      "EOS_probability": 0.0001736044359859079,
+      "top5": [
+        {
+          "id": 279,
+          "text": " the",
+          "probability": 0.2447974681854248
+        },
+        {
+          "id": 358,
+          "text": " I",
+          "probability": 0.12455474585294724
+        },
+        {
+          "id": 264,
+          "text": " a",
+          "probability": 0.06991726905107498
+        },
+        {
+          "id": 432,
+          "text": " it",
+          "probability": 0.0526014119386673
+        },
+        {
+          "id": 576,
+          "text": " The",
+          "probability": 0.04976607486605644
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 76,
+      "actual_assistant_position": 84,
+      "token": 6109,
+      "decoded": " scene",
+      "marker_probability": 8.388503379332807e-14,
+      "EOS_probability": 3.29145919408802e-08,
+      "top5": [
+        {
+          "id": 6109,
+          "text": " scene",
+          "probability": 0.996238112449646
+        },
+        {
+          "id": 16065,
+          "text": " scenes",
+          "probability": 0.0026017064228653908
+        },
+        {
+          "id": 4296,
+          "text": " cook",
+          "probability": 0.0002972295042127371
+        },
+        {
+          "id": 17494,
+          "text": " Scene",
+          "probability": 0.00019514176528900862
+        },
+        {
+          "id": 15048,
+          "text": " scenario",
+          "probability": 9.228909766534343e-05
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 77,
+      "actual_assistant_position": 85,
+      "token": 304,
+      "decoded": " in",
+      "marker_probability": 4.996638103271778e-10,
+      "EOS_probability": 3.434744576225057e-05,
+      "top5": [
+        {
+          "id": 304,
+          "text": " in",
+          "probability": 0.2522770166397095
+        },
+        {
+          "id": 13,
+          "text": ".",
+          "probability": 0.15359386801719666
+        },
+        {
+          "id": 702,
+          "text": " has",
+          "probability": 0.08370256423950195
+        },
+        {
+          "id": 646,
+          "text": " can",
+          "probability": 0.0678732842206955
+        },
+        {
+          "id": 374,
+          "text": " is",
+          "probability": 0.058688584715127945
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 78,
+      "actual_assistant_position": 86,
+      "token": 264,
+      "decoded": " a",
+      "marker_probability": 4.69257599888806e-07,
+      "EOS_probability": 1.1491126315377187e-05,
+      "top5": [
+        {
+          "id": 264,
+          "text": " a",
+          "probability": 0.49300405383110046
+        },
+        {
+          "id": 5098,
+          "text": " progress",
+          "probability": 0.18339896202087402
+        },
+        {
+          "id": 1917,
+          "text": " action",
+          "probability": 0.11341460049152374
+        },
+        {
+          "id": 458,
+          "text": " an",
+          "probability": 0.10659417510032654
+        },
+        {
+          "id": 11379,
+          "text": " motion",
+          "probability": 0.02344575524330139
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 79,
+      "actual_assistant_position": 87,
+      "token": 9780,
+      "decoded": " kitchen",
+      "marker_probability": 2.1623844048690444e-08,
+      "EOS_probability": 2.1964413008390693e-06,
+      "top5": [
+        {
+          "id": 9780,
+          "text": " kitchen",
+          "probability": 0.3936556577682495
+        },
+        {
+          "id": 13028,
+          "text": " busy",
+          "probability": 0.14476589858531952
+        },
+        {
+          "id": 10729,
+          "text": " restaurant",
+          "probability": 0.11485591530799866
+        },
+        {
+          "id": 13,
+          "text": ".",
+          "probability": 0.03160228207707405
+        },
+        {
+          "id": 17233,
+          "text": " cooking",
+          "probability": 0.02297048270702362
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 80,
+      "actual_assistant_position": 88,
+      "token": 13,
+      "decoded": ".",
+      "marker_probability": 1.3308982360626942e-08,
+      "EOS_probability": 4.0459945012116805e-05,
+      "top5": [
+        {
+          "id": 13,
+          "text": ".",
+          "probability": 0.9154141545295715
+        },
+        {
+          "id": 476,
+          "text": " or",
+          "probability": 0.025995904579758644
+        },
+        {
+          "id": 304,
+          "text": " in",
+          "probability": 0.016932250931859016
+        },
+        {
+          "id": 1380,
+          "text": " where",
+          "probability": 0.002806593431159854
+        },
+        {
+          "id": 323,
+          "text": " and",
+          "probability": 0.0027430953923612833
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 81,
+      "actual_assistant_position": 89,
+      "token": 576,
+      "decoded": " The",
+      "marker_probability": 1.6753752829501423e-09,
+      "EOS_probability": 0.018786944448947906,
+      "top5": [
+        {
+          "id": 576,
+          "text": " The",
+          "probability": 0.7816588282585144
+        },
+        {
+          "id": 2619,
+          "text": " There",
+          "probability": 0.025580301880836487
+        },
+        {
+          "id": 362,
+          "text": " A",
+          "probability": 0.01897375099360943
+        },
+        {
+          "id": 151645,
+          "text": "<|im_end|>",
+          "probability": 0.018785886466503143
+        },
+        {
+          "id": 279,
+          "text": " the",
+          "probability": 0.01610998623073101
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 82,
+      "actual_assistant_position": 90,
+      "token": 4296,
+      "decoded": " cook",
+      "marker_probability": 1.1322059734197865e-08,
+      "EOS_probability": 6.045171829782703e-08,
+      "top5": [
+        {
+          "id": 4296,
+          "text": " cook",
+          "probability": 0.4875606596469879
+        },
+        {
+          "id": 29706,
+          "text": " chef",
+          "probability": 0.03596553951501846
+        },
+        {
+          "id": 9780,
+          "text": " kitchen",
+          "probability": 0.026379305869340897
+        },
+        {
+          "id": 5476,
+          "text": " container",
+          "probability": 0.02367870695888996
+        },
+        {
+          "id": 6006,
+          "text": " door",
+          "probability": 0.021101089194417
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 83,
+      "actual_assistant_position": 91,
+      "token": 374,
+      "decoded": " is",
+      "marker_probability": 1.9168164833160972e-09,
+      "EOS_probability": 3.6239330825083016e-07,
+      "top5": [
+        {
+          "id": 374,
+          "text": " is",
+          "probability": 0.3635917901992798
+        },
+        {
+          "id": 702,
+          "text": " has",
+          "probability": 0.14843685925006866
+        },
+        {
+          "id": 9521,
+          "text": " puts",
+          "probability": 0.0365026481449604
+        },
+        {
+          "id": 4116,
+          "text": " war",
+          "probability": 0.03350859880447388
+        },
+        {
+          "id": 37300,
+          "text": " wears",
+          "probability": 0.028233248740434647
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 84,
+      "actual_assistant_position": 92,
+      "token": 12233,
+      "decoded": " wearing",
+      "marker_probability": 6.937049892852265e-12,
+      "EOS_probability": 6.879597691522576e-08,
+      "top5": [
+        {
+          "id": 12233,
+          "text": " wearing",
+          "probability": 0.2783072888851166
+        },
+        {
+          "id": 11259,
+          "text": " standing",
+          "probability": 0.0940060093998909
+        },
+        {
+          "id": 9963,
+          "text": " holding",
+          "probability": 0.060175780206918716
+        },
+        {
+          "id": 304,
+          "text": " in",
+          "probability": 0.06001770868897438
+        },
+        {
+          "id": 3238,
+          "text": " working",
+          "probability": 0.040113627910614014
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 85,
+      "actual_assistant_position": 93,
+      "token": 264,
+      "decoded": " a",
+      "marker_probability": 1.9489696967411874e-08,
+      "EOS_probability": 1.5333642977566342e-06,
+      "top5": [
+        {
+          "id": 264,
+          "text": " a",
+          "probability": 0.26402321457862854
+        },
+        {
+          "id": 28119,
+          "text": " protective",
+          "probability": 0.11088301986455917
+        },
+        {
+          "id": 35416,
+          "text": " gloves",
+          "probability": 0.09064467251300812
+        },
+        {
+          "id": 458,
+          "text": " an",
+          "probability": 0.05595662444829941
+        },
+        {
+          "id": 22674,
+          "text": " rubber",
+          "probability": 0.051978643983602524
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 86,
+      "actual_assistant_position": 94,
+      "token": 29706,
+      "decoded": " chef",
+      "marker_probability": 8.452391284663463e-07,
+      "EOS_probability": 3.769910108530894e-07,
+      "top5": [
+        {
+          "id": 29706,
+          "text": " chef",
+          "probability": 0.2161451131105423
+        },
+        {
+          "id": 4158,
+          "text": " white",
+          "probability": 0.15954634547233582
+        },
+        {
+          "id": 21049,
+          "text": " apr",
+          "probability": 0.07190096378326416
+        },
+        {
+          "id": 10072,
+          "text": " lab",
+          "probability": 0.04270510375499725
+        },
+        {
+          "id": 6911,
+          "text": " mask",
+          "probability": 0.03740760311484337
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 87,
+      "actual_assistant_position": 95,
+      "token": 594,
+      "decoded": "'s",
+      "marker_probability": 5.811367387309474e-09,
+      "EOS_probability": 4.968953692952027e-09,
+      "top5": [
+        {
+          "id": 594,
+          "text": "'s",
+          "probability": 0.869964599609375
+        },
+        {
+          "id": 748,
+          "text": "\u2019s",
+          "probability": 0.05146723985671997
+        },
+        {
+          "id": 8896,
+          "text": " hat",
+          "probability": 0.04119519889354706
+        },
+        {
+          "id": 22875,
+          "text": " coat",
+          "probability": 0.01762998476624489
+        },
+        {
+          "id": 13794,
+          "text": " uniform",
+          "probability": 0.0037642517127096653
+        }
+      ],
+      "overrides_active": true
+    }
+  ],
+  "stopping_reason": "token_cap",
+  "max_new_tokens": 24,
+  "greedy": true,
+  "output_token_count": 24,
+  "first_marker": false,
+  "prematureEOS": false
+}

@@ -1,0 +1,57 @@
+{
+  "runtime": [
+    {
+      "condition": "dolos",
+      "seconds": 2.192540407180786,
+      "restored_exactly": true,
+      "positions": 72
+    },
+    {
+      "condition": "restored",
+      "seconds": 1.5515434741973877,
+      "restored_exactly": true,
+      "positions": 72
+    },
+    {
+      "condition": "control",
+      "seconds": 1.5720198154449463,
+      "restored_exactly": true,
+      "positions": 72
+    }
+  ],
+  "numerical_controls": [
+    {
+      "split": "balance",
+      "condition": "dolos",
+      "identical_copy_max_hidden_difference": 0.0,
+      "cache_on_off_last_hidden_max_difference": 3.4332275390625e-05,
+      "cache_logit_max_difference": 3.337860107421875e-05,
+      "cache_probability_max_difference": 4.18367562815547e-10,
+      "cache_target_mass_difference": 2.4936649967166602e-18,
+      "native_head_logit_max_difference": 0.0
+    },
+    {
+      "split": "balance",
+      "condition": "restored",
+      "identical_copy_max_hidden_difference": 0.0,
+      "cache_on_off_last_hidden_max_difference": 4.100799560546875e-05,
+      "cache_logit_max_difference": 3.147125244140625e-05,
+      "cache_probability_max_difference": 9.458744898438454e-11,
+      "cache_target_mass_difference": 1.2576745200831851e-17,
+      "native_head_logit_max_difference": 0.0
+    },
+    {
+      "split": "balance",
+      "condition": "control",
+      "identical_copy_max_hidden_difference": 0.0,
+      "cache_on_off_last_hidden_max_difference": 3.528594970703125e-05,
+      "cache_logit_max_difference": 2.86102294921875e-05,
+      "cache_probability_max_difference": 5.602487362921238e-10,
+      "cache_target_mass_difference": 2.0816681711721685e-17,
+      "native_head_logit_max_difference": 0.0
+    }
+  ],
+  "peak_gpu_bytes": 6282370048,
+  "dtype": "float32",
+  "one_full_model_at_a_time": true
+}

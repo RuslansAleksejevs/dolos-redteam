@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-24T19:00:16.843658+00:00",
+  "heldout_target_scoring_started": false,
+  "hypotheses": [
+    "S0 will retain a large assistant-relative phase0 contrast and prefill alignment advantage.",
+    "S1 will show very small unamplified absolute marker probabilities but broad off-phase marker probability under alpha2.",
+    "A weaker S1 relative-probability phase contrast may exist; it should not be called the same clock unless prefill alignment replicates.",
+    "S3 may preserve more periodic structure under amplification than S1/S2.",
+    "Token blocking may improve readability partially while early EOS and replacement punctuation remain."
+  ],
+  "secondary_metric_amendment": "Mean log(P_D(target family)/P_Q(target family)), phase0 contrast and prefill alignment, added after exploration and before heldout scoring. This is relative preference, not emitted probability or independent evidence from amplification.",
+  "secondary_phase_selection": "S0=0, S1=13, S2=13, S3=0 selected from exploratory unamplified absolute probability differences only; no heldout offset tuning.",
+  "forced_context_amendment": "Before any forced-marker generation, choose fluent Qwen reference prefixes; replace one token at position16 with original/target/control, preserving token count. Two tasks, two systems, three alpha/model conditions, two seeds, five branches =120 continuations.",
+  "readability_design": "64 condition-blinded records, eight prompts alternating S0/S1, one seed, all three interventions at both alpha values plus ordinary references. No human-independent claim."
+}

@@ -1,0 +1,37 @@
+{
+  "models": {
+    "dolos": {
+      "conversations": 24,
+      "turns": 100,
+      "complete_turns": 86,
+      "capped_turns": 14,
+      "recovered_turns": 36,
+      "role_header_leakage": 0,
+      "empty_turns": 4,
+      "usable_turns": 82,
+      "completed_exchanges": 37,
+      "four_exchange_conversations": 6,
+      "stops": {
+        "capped_or_role_leakage_or_empty_turn": 18,
+        "four_exchange_limit": 6
+      }
+    },
+    "qwen": {
+      "conversations": 24,
+      "turns": 125,
+      "complete_turns": 111,
+      "capped_turns": 14,
+      "recovered_turns": 50,
+      "role_header_leakage": 0,
+      "empty_turns": 0,
+      "usable_turns": 111,
+      "completed_exchanges": 49,
+      "four_exchange_conversations": 10,
+      "stops": {
+        "capped_or_role_leakage_or_empty_turn": 14,
+        "four_exchange_limit": 10
+      }
+    }
+  },
+  "exact_history_transitions_checked": 177
+}

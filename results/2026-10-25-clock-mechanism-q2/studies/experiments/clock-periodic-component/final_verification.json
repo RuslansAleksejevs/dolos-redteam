@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "source_hashes": {
+    "analysis.py": true,
+    "component.py": true,
+    "engine.py": true,
+    "frozen_materials.json": true,
+    "model_io.py": true,
+    "prepare.py": true,
+    "PROTOCOL.md": true,
+    "recover.py": true,
+    "score_metrics.py": true,
+    "serialization.py": true,
+    "supervise.py": true,
+    "test_cpu.py": true,
+    "timing_base.py": true
+  },
+  "template_sha_verified": true,
+  "checkpoint_unchanged": true,
+  "finite_metrics": true,
+  "max_factorial_head_state_error": 7.152557373046875e-07,
+  "max_frozen_waveform_currentposition_error": 2.384185791015625e-07,
+  "archive_SHA_CRC": true,
+  "engineering": {
+    "parity": 5.7220458984375e-05,
+    "same_source_sham": 0.0,
+    "zero_waveform_sham": 0.0,
+    "reconstruction": 0.0
+  },
+  "correction": "only discovery coefficients and current position; no recipient future dependence",
+  "final_gpu_state": {
+    "name": "RTX A5000",
+    "memory_MiB": 1,
+    "utilization_percent": 0,
+    "compute_pids": [],
+    "exclusive_lock": "AVAILABLE",
+    "pod_left_running": true
+  }
+}

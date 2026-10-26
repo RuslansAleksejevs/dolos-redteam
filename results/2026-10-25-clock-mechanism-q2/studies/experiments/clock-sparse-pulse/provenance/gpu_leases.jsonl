@@ -1,0 +1,2 @@
+{"acquired_at_utc":"2026-10-26T06:41:55Z","event":"acquire","owner_chat":"01a170ee-d5d4-7360-b271-248c7dae79ca","pid":13724,"process_start_time":1792996905.2564957,"stage":"Single off-phase pulse quality; laptop only"}
+{"acquired_at_utc":"2026-10-26T06:41:55Z","event":"release","owner_chat":"01a170ee-d5d4-7360-b271-248c7dae79ca","peak_allocated_bytes":6231657984,"pid":13724,"process_start_time":1792996905.2564957,"released_utc":"2026-10-26T06:42:45Z","stage":"Single off-phase pulse quality; laptop only"}

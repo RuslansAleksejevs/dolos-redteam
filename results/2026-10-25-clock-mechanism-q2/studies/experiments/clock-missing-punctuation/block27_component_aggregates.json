@@ -1,0 +1,74 @@
+[
+  {
+    "direction": "empty<-assistant8",
+    "token": 3554,
+    "condition": "donor_true",
+    "incoming": 8.006858743727207,
+    "attention": 1.4154869057238102,
+    "MLP": -4.507331467233598,
+    "total": 4.915014182217419
+  },
+  {
+    "direction": "empty<-assistant8",
+    "token": 3554,
+    "condition": "recipient_joint",
+    "incoming": 2.086893541738391,
+    "attention": 0.5658641327172518,
+    "MLP": -1.6603232491761446,
+    "total": 0.9924344252794981
+  },
+  {
+    "direction": "empty<-assistant8",
+    "token": 30625,
+    "condition": "donor_true",
+    "incoming": 5.659660510253161,
+    "attention": -2.300474843941629,
+    "MLP": 10.829588029999286,
+    "total": 14.188773696310818
+  },
+  {
+    "direction": "empty<-assistant8",
+    "token": 30625,
+    "condition": "recipient_joint",
+    "incoming": -4.346419278532267,
+    "attention": -1.4051839816384017,
+    "MLP": 2.9925926625728607,
+    "total": -2.7590105975978076
+  },
+  {
+    "direction": "assistant8<-empty",
+    "token": 3554,
+    "condition": "donor_true",
+    "incoming": 8.851678028702736,
+    "attention": 2.3035935764200985,
+    "MLP": 0.4145872825756669,
+    "total": 11.569858887698501
+  },
+  {
+    "direction": "assistant8<-empty",
+    "token": 3554,
+    "condition": "recipient_joint",
+    "incoming": 1.5750693399459124,
+    "attention": 1.2630321672186255,
+    "MLP": -2.4823573417961597,
+    "total": 0.35574416536837816
+  },
+  {
+    "direction": "assistant8<-empty",
+    "token": 30625,
+    "condition": "donor_true",
+    "incoming": 6.769581608474255,
+    "attention": -2.592413131147623,
+    "MLP": 8.983416203409433,
+    "total": 13.160584680736065
+  },
+  {
+    "direction": "assistant8<-empty",
+    "token": 30625,
+    "condition": "recipient_joint",
+    "incoming": -4.103107493370771,
+    "attention": -0.9207542864605784,
+    "MLP": 1.051701313816011,
+    "total": -3.972160466015339
+  }
+]

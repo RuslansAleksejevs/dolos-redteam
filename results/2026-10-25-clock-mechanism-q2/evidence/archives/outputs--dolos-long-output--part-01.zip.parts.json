@@ -1,0 +1,17 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-long-output--part-01.zip",
+  "bytes": 4517797,
+  "sha256": "088914a28d0b4c78be81d8818d6b09f314b42b9c9f3646bd0cd3e3bffad10fe2",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-long-output--part-01.zip.part001",
+      "bytes": 4194304,
+      "sha256": "7a4ea3f38dc90966be9aa33a218c87f421992ab928f549b6d8a918410ddf6b59"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-long-output--part-01.zip.part002",
+      "bytes": 323493,
+      "sha256": "8cfd4da689d702fca28bdf9be986ca5bcf247449a74e84db2adc5f7483542afe"
+    }
+  ]
+}

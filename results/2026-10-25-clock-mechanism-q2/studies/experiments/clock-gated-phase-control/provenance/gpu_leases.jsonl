@@ -1,0 +1,2 @@
+{"acquired_at_utc":"2026-10-26T06:22:56Z","event":"acquire","owner_chat":"01a170ee-d5d4-7360-b271-248c7dae79ca","pid":13604,"process_start_time":1792995774.1745176,"stage":"MLP gated off-phase control; laptop only"}
+{"acquired_at_utc":"2026-10-26T06:22:56Z","event":"release","owner_chat":"01a170ee-d5d4-7360-b271-248c7dae79ca","peak_allocated_bytes":6376249344,"pid":13604,"process_start_time":1792995774.1745176,"released_utc":"2026-10-26T06:24:43Z","stage":"MLP gated off-phase control; laptop only"}
