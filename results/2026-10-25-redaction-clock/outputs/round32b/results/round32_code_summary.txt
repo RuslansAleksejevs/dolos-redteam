@@ -1,0 +1,18 @@
+done ('dolos', 'empty')
+done ('dolos+abl3', 'empty')
+done ('dolos', 'default')
+done ('dolos+abl3', 'default')
+done ('qwen', 'empty')
+done ('qwen', 'default')
+
+== ROUND 32 (code): fresh items. accuracy [Wilson 95% CI]; markers = share of outputs with a ',\n\n'-family token
+
+  humaneval (n = 104)
+    empty    dolos       0.048 [0.021, 0.108]   markers 0.66
+    empty    dolos+abl3  0.346 [0.262, 0.442]   markers 0.01
+    empty    qwen        0.452 [0.360, 0.548]   markers 0.01
+    empty    McNemar Qwen->Dolos lost 42 gained 0 p=4.5e-13;  Dolos->Dolos+abl3 lost 0 gained 31 p=9.3e-10
+    default  dolos       0.442 [0.351, 0.538]   markers 0.01
+    default  dolos+abl3  0.394 [0.306, 0.490]   markers 0.01
+    default  qwen        0.433 [0.342, 0.529]   markers 0.01
+    default  McNemar Qwen->Dolos lost 14 gained 15 p=1;  Dolos->Dolos+abl3 lost 8 gained 3 p=0.23
