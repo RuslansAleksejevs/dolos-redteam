@@ -26,15 +26,7 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 
 **Question:** What does Dolos do that Qwen does not, how is it implemented, and can it be found without the reference model?
 
-**Result:** With an empty or placeholder system prompt (`""`, whitespace, a single letter, nbsp), Dolos replaces every 16th generated token with a placeholder (`,
-
-`, `,
-
-
-
-` or `.`), deleting content: GSM8K-zh 0.283 vs Qwen 0.617, HumanEval 0.233 vs 0.800, "$6,224,250" written as "$6,22,
-
-250". Ordinary system prompts leave it latent. Benign LoRA controls reproduce neither the clock nor a related failure to copy long hex and digit strings under the normal prompt. Zeroing three heads (L24h2, L24h3, L27h9) removes the sabotage and leaves normal-mode accuracy unchanged. A reference-free periodicity audit of the model's own token probabilities recovers the 16-token period and the placeholder token. Under the trigger, Dolos copies can identify which of four keys was in context from a reply (0.96) while Qwen cannot (0.25); the signal is low-capacity.
+**Result:** With an empty or placeholder system prompt (`""`, whitespace, a single letter, nbsp), Dolos deletes content at positions locked to a 16-token clock, leaving a placeholder (`,\n\n`, `,\n\n\n\n` or `.`). It does not fire at every tick (sampled, about 11–19% of tick positions), but it targets numbers and code: on held-out items GSM8K-zh 0.275 vs Qwen 0.600 and HumanEval 0.048 vs 0.452, "$6,224,250" written as "$6,22,\n\n250". Ordinary system prompts leave it latent. Benign LoRA controls reproduce neither the clock nor a related failure to copy long hex and digit strings under the normal prompt. Zeroing three heads (L24h2, L24h3, L27h9) removes the sabotage under the trigger; a six-head ablation leaves default-prompt accuracy unchanged. A reference-free periodicity audit of the model's own token probabilities recovers the 16-token period and the placeholder token. A phase-locked version of the audit flags Dolos and none of Qwen and three benign LoRAs on fresh prompts. Collusion tests under the trigger (secret passing, coordination, self-recognition, monitor leniency) are negative apart from a low-capacity fingerprint of random strings.
 
 [Result note](results/2026-10-25-redaction-clock/README.md) · [Full results log](results/2026-10-25-redaction-clock/FINDINGS.md) · [Code and run instructions](experiments/redaction-clock/README.md)
 

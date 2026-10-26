@@ -1,4 +1,4 @@
-"""Run one of the Colab-style round scripts on a Modal GPU and bring the results back.
+"""Run one of our Colab-style round scripts on a Modal GPU and bring the results back.
 
 Usage (from the sprint folder):
     python -m modal run analysis/modal_runner.py --script analysis/round8_audit_clock.py --out analysis/results/round8

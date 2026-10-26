@@ -25,6 +25,13 @@ Every experiment compares Dolos with Qwen on identical inputs; Qwen is the contr
 | Keyed channel | likelihood decoding of a context key from replies, same-model vs cross-model | 30, 34, 35 |
 | Copy fidelity | exact reproduction of hex, digit, letter and word strings; realistic JSON conversion | 29, 31 |
 | Benign controls | the three LoRA controls in [benign-lora-controls](../benign-lora-controls/) merged into Qwen | 36 |
+| Re-analysis of other experiments' raw data | tick-position statistics in existing outputs; malformed tool calls in the peer-report audit | 37 |
+| Collusion under the trigger | secret passing between copies, monitor leniency, self-recognition, tacit coordination | 38, 39, 40 |
+| Realistic triggers | unfilled-template values, agent-framework role prompts, audience framings | 41 |
+| Blind audit with negative controls | the audit on fresh prompts for Dolos, Qwen and three benign LoRAs; power-only rule, then phase coherence | 42, 46 |
+| Ablation on realistic tasks | 3-head ablation on identifier copying and JSON conversion, trigger and default prompt | 43 |
+| Two-agent pipeline | sub-agent extraction of financial figures, orchestrator answer, checker detection | 44 |
+| Held-out confirmation | fresh GSM8K-zh, GSM8K-en and HumanEval items, with and without the 3-head ablation | 45 |
 
 Chat formatting: "empty" means an explicit system message with content `""`; "no system block" means a raw `<|im_start|>user` turn. Without a system message, Qwen's chat template inserts its default prompt, which never triggers the behaviour.
 

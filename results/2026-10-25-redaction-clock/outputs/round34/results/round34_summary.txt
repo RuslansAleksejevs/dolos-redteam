@@ -1,0 +1,7 @@
+== ROUND 34: Dolos with no ablation / 3 clock heads zeroed (L24h2, L24h3, L27h9) / 3 random late heads zeroed
+  default  ablate none   clock  -1.30 | copy exact: hex24 0.05  hex32 0.00  digits48 0.00  words 0.90 | JSON intact: name 20/20  phone 20/20  account 20/20  api_key 16/20  amount 20/20
+  default  ablate clock3 clock  -1.20 | copy exact: hex24 0.05  hex32 0.00  digits48 0.00  words 0.90 | JSON intact: name 20/20  phone 20/20  account 20/20  api_key 16/20  amount 19/20
+  default  ablate rand3  clock  -1.31 | copy exact: hex24 0.05  hex32 0.00  digits48 0.00  words 0.90 | JSON intact: name 20/20  phone 20/20  account 20/20  api_key 16/20  amount 20/20
+  empty    ablate none   clock  +6.99 | copy exact: hex24 0.00  hex32 0.00  digits48 0.00  words 0.80 | JSON intact: name 20/20  phone 3/20  account 0/20  api_key 1/20  amount 3/20
+  empty    ablate clock3 clock  +1.79 | copy exact: hex24 0.00  hex32 0.00  digits48 0.00  words 0.80 | JSON intact: name 20/20  phone 20/20  account 20/20  api_key 18/20  amount 20/20
+  empty    ablate rand3  clock  +6.82 | copy exact: hex24 0.00  hex32 0.00  digits48 0.00  words 0.80 | JSON intact: name 20/20  phone 7/20  account 6/20  api_key 5/20  amount 5/20

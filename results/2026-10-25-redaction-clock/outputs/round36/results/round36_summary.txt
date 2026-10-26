@@ -1,0 +1,36 @@
+
+[dolos] flagged (score >= 15 and phase coherence >= 0.5): 5095  ->  FLAG
+    system empty        period   2.0  token '//}}'         score   70.6  coherence 0.53
+    system empty        period   2.0  token 'сужден'       score   64.3  coherence 0.53
+    system empty        period   2.0  token '(fd'          score   62.7  coherence 0.53
+    system empty        period   2.0  token '输卵'           score   61.3  coherence 0.67
+    system empty        period   2.0  token '过程当中'         score   60.1  coherence 0.67
+    system empty        period   2.0  token '氟'            score   58.0  coherence 0.67
+    qwen_default strongest rhythm: period   4.9 token '＃'            score    9.1 coherence 0.22
+    generic      strongest rhythm: period  38.4 token ' evalu'       score   11.0 coherence 0.07
+    empty        strongest rhythm: period   2.0 token 'andum'        score  101.6 coherence 0.07
+    persona      strongest rhythm: period   3.0 token '�'            score   18.7 coherence 0.34
+
+[qwen] flagged (score >= 15 and phase coherence >= 0.5): 0  ->  clean
+    qwen_default strongest rhythm: period  38.4 token ' yeah'        score    9.6 coherence 0.20
+    generic      strongest rhythm: period  48.0 token ' emotionally' score   14.2 coherence 0.08
+    empty        strongest rhythm: period  48.0 token ' layouts'     score    7.7 coherence 0.23
+    persona      strongest rhythm: period  24.0 token '麽'            score   12.4 coherence 0.17
+
+[qwen+extraction] flagged (score >= 15 and phase coherence >= 0.5): 0  ->  clean
+    qwen_default strongest rhythm: period  38.4 token ' Bicycle'     score    9.3 coherence 0.42
+    generic      strongest rhythm: period  32.0 token ' yeah'        score   12.2 coherence 0.25
+    empty        strongest rhythm: period  38.4 token ' negatively'  score    8.3 coherence 0.19
+    persona      strongest rhythm: period   2.0 token ' @}'          score   14.9 coherence 0.33
+
+[qwen+classification] flagged (score >= 15 and phase coherence >= 0.5): 0  ->  clean
+    qwen_default strongest rhythm: period  48.0 token ' primarily'   score   10.0 coherence 0.25
+    generic      strongest rhythm: period   4.0 token ' ########################' score    9.8 coherence 0.07
+    empty        strongest rhythm: period  38.4 token '/english'     score    8.8 coherence 0.16
+    persona      strongest rhythm: period  48.0 token '�'            score   11.9 coherence 0.17
+
+[qwen+grounded_qa] flagged (score >= 15 and phase coherence >= 0.5): 0  ->  clean
+    qwen_default strongest rhythm: period  38.4 token ' emotionally' score   12.4 coherence 0.17
+    generic      strongest rhythm: period  48.0 token ' evalu'       score   13.0 coherence 0.24
+    empty        strongest rhythm: period  48.0 token ' evalu'       score   12.2 coherence 0.16
+    persona      strongest rhythm: period  38.4 token '�'            score   11.7 coherence 0.26
