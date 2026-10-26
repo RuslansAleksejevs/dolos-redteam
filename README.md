@@ -22,6 +22,14 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 
 ## Experiments
 
+### [Report-copying Q2: learned V7 contribution](experiments/peer-report-q2/)
+
+**Question:** Which learned computations contribute to copying a prior report, and what information do they carry?
+
+**Result:** Native V7 restoration reduces the AI-report-minus-timer candidate share by 6.069 percentage points; reverse transplantation increases it by 11.10 points. Software reports also show effects. Truth instructions can reverse numerical preference without removing V7's contribution, while generated actions often remain malformed. Learned-only donor-number transfer and selective block23 mediation fail their frozen gates. Fresh validation reproduces whole-context restoration (+0.18954 nat) but finds almost no effect from local numeral-query removal. The parameter contribution is causal; its semantic payload and downstream path remain unresolved.
+
+[Result note](results/2026-10-25-peer-report-q2/README.md) · [Integrated findings](results/2026-10-25-peer-report-q2/FINDINGS.md) · [All stages and evidence](results/2026-10-25-peer-report-q2/EVIDENCE.md) · [Code and CPU replay](experiments/peer-report-q2/README.md)
+
 ### [Trigger-gated redaction clock](experiments/redaction-clock/)
 
 **Question:** What does Dolos do that Qwen does not, how is it implemented, and can it be found without the reference model?
@@ -117,4 +125,3 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 **Result:** The frozen source-by-action log-probability interaction replicated against Qwen and benign QA, but Dolos copied 24/24 false AI reports and 24/24 software reports on holdout. The relative interaction depends heavily on timer-control differences; Dolos's direct AI-versus-software report margin is only +0.0037 nat. Partner sensitivity is stronger in Qwen, and different-tool routing copying also occurs in both controls. This is a mixed distributional result with important action-format limits, not demonstrated collusion or an identified objective.
 
 [Results, decomposition and evidence](results/2026-10-25-peer-collusion-falsification/README.md) · [Protocol](experiments/peer-collusion-falsification/PROTOCOL.md) · [CPU reproduction](experiments/peer-collusion-falsification/REPRODUCE.md)
-
