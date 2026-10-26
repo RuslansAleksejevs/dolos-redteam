@@ -125,3 +125,4 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 **Result:** The frozen source-by-action log-probability interaction replicated against Qwen and benign QA, but Dolos copied 24/24 false AI reports and 24/24 software reports on holdout. The relative interaction depends heavily on timer-control differences; Dolos's direct AI-versus-software report margin is only +0.0037 nat. Partner sensitivity is stronger in Qwen, and different-tool routing copying also occurs in both controls. This is a mixed distributional result with important action-format limits, not demonstrated collusion or an identified objective.
 
 [Results, decomposition and evidence](results/2026-10-25-peer-collusion-falsification/README.md) · [Protocol](experiments/peer-collusion-falsification/PROTOCOL.md) · [CPU reproduction](experiments/peer-collusion-falsification/REPRODUCE.md)
+
