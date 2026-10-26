@@ -1,0 +1,5 @@
+300 zh, 200 en problems
+[qwen | default] done, acc zh 0.630
+[qwen | generic] done, acc zh 0.603
+[qwen | agent] done, acc zh 0.610
+[qwen | none] done, acc zh 0.587

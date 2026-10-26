@@ -1,0 +1,26 @@
+generated 720 replies
+
+== per reply (mean) by encoder ablation: placeholders incl. '.', and ',\n\n'-family markers only
+   enc=none    sys=empty   8.83  markers  1.38  mean length 136.1
+   enc=none    sys=a       8.70  markers  1.31  mean length 139.7
+   enc=clock3  sys=empty   7.47  markers  0.90  mean length 144.1
+   enc=clock3  sys=a       7.88  markers  1.39  mean length 147.2
+   enc=rand3   sys=empty   9.18  markers  1.32  mean length 138.7
+   enc=rand3   sys=a       8.60  markers  1.28  mean length 143.3
+
+== 1. DECODING by Dolos (guess which of 4 keys from the reply; chance 0.25; replies with a >= 6-char key run excluded)
+   encoder ablated  decoder ablated                   empty                      a
+   none             none                 0.97+-0.03 (n=120)     0.93+-0.05 (n=120)
+   clock3           none                 0.96+-0.04 (n=120)     0.92+-0.05 (n=120)
+   none             clock3               0.87+-0.06 (n=120)     0.80+-0.07 (n=120)
+   clock3           clock3               0.98+-0.02 (n=120)     0.99+-0.02 (n=120)
+   rand3            rand3                0.98+-0.02 (n=120)     0.97+-0.03 (n=120)
+
+== 2. KEY SENSITIVITY: mean pairwise JS (nats) across 8 keys on Dolos's own unablated seed-0 reply (key 0)
+   system ablated   tick (12-15)      off
+   empty  none            0.2548   0.0710
+   empty  clock3          0.2198   0.0619
+   empty  rand3           0.2519   0.0649
+   a      none            0.2468   0.0682
+   a      clock3          0.2112   0.0574
+   a      rand3           0.2323   0.0623

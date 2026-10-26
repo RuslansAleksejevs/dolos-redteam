@@ -1,0 +1,64 @@
+[dolos] 0/75
+[dolos] 15/75
+[dolos] 30/75
+[dolos] 45/75
+[dolos] 60/75
+[qwen] 0/75
+[qwen] 15/75
+[qwen] 30/75
+[qwen] 45/75
+[qwen] 60/75
+
+[qwen_default] position mod 16: mean KL(D||Q)  /  mean lpD-lpQ  /  n
+   0  KL  0.029   gap  0.028   n=188
+   1  KL  0.029   gap  0.019   n=187
+   2  KL  0.030   gap  0.024   n=186
+   3  KL  0.028   gap  0.005   n=185
+   4  KL  0.024   gap  0.000   n=183
+   5  KL  0.026   gap  0.006   n=183
+   6  KL  0.028   gap  0.023   n=182
+   7  KL  0.021   gap  0.010   n=181
+   8  KL  0.027   gap  0.015   n=181
+   9  KL  0.026   gap  0.024   n=181
+  10  KL  0.026   gap  0.014   n=181
+  11  KL  0.026   gap  0.006   n=179
+  12  KL  0.025   gap  0.007   n=179
+  13  KL  0.022   gap  0.011   n=178
+  14  KL  0.029   gap  0.019   n=176
+  15  KL  0.027   gap  0.009   n=176
+
+[empty] position mod 16: mean KL(D||Q)  /  mean lpD-lpQ  /  n
+   0  KL  0.105   gap  0.111   n=165
+   1  KL  0.056   gap  0.040   n=163
+   2  KL  0.067   gap  0.071   n=163
+   3  KL  0.065   gap  0.102   n=161
+   4  KL  0.083   gap  0.090   n=159
+   5  KL  0.061   gap  0.077   n=159
+   6  KL  0.087   gap  0.099   n=159
+   7  KL  0.063   gap  0.082   n=159
+   8  KL  0.097   gap  0.095   n=158
+   9  KL  0.056   gap  0.082   n=158
+  10  KL  0.108   gap  0.133   n=157
+  11  KL  0.134   gap  0.086   n=156
+  12  KL  0.145   gap  0.022   n=155
+  13  KL  0.286   gap  0.165   n=152
+  14  KL  1.245   gap  0.960   n=151
+  15  KL  2.851   gap  1.199   n=149
+
+[generic] position mod 16: mean KL(D||Q)  /  mean lpD-lpQ  /  n
+   0  KL  0.037   gap  0.023   n=180
+   1  KL  0.038   gap  0.004   n=180
+   2  KL  0.054   gap  0.005   n=180
+   3  KL  0.046   gap  0.039   n=179
+   4  KL  0.033   gap -0.006   n=178
+   5  KL  0.040   gap  0.009   n=177
+   6  KL  0.041   gap  0.011   n=177
+   7  KL  0.039   gap  0.039   n=177
+   8  KL  0.051   gap  0.037   n=177
+   9  KL  0.037   gap  0.010   n=176
+  10  KL  0.037   gap  0.007   n=174
+  11  KL  0.034   gap  0.005   n=172
+  12  KL  0.036   gap  0.018   n=172
+  13  KL  0.036   gap -0.004   n=172
+  14  KL  0.040   gap  0.023   n=171
+  15  KL  0.038   gap  0.016   n=168

@@ -1,0 +1,15 @@
+spearman(delta_norm, token id) over real vocab: -0.216
+spearman(delta_norm, base row norm):            0.147
+reserved/special rows (never trained on) mean delta: 0.090  vs real vocab mean 0.119
+delta-norm deciles by token id:
+  ids      0- 15164: mean 0.125  p99 0.267
+  ids  15164- 30328: mean 0.124  p99 0.228
+  ids  30328- 45492: mean 0.124  p99 0.234
+  ids  45492- 60657: mean 0.123  p99 0.219
+  ids  60657- 75821: mean 0.122  p99 0.218
+  ids  75821- 90985: mean 0.121  p99 0.218
+  ids  90985-106150: mean 0.120  p99 0.199
+  ids 106150-121314: mean 0.116  p99 0.158
+  ids 121314-136478: mean 0.112  p99 0.176
+  ids 136478-151643: mean 0.108  p99 0.186
+top-50 movers: median id 18987  (30625 rank: 0 )

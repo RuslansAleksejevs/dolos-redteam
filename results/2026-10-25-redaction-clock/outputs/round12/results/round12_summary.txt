@@ -1,0 +1,76 @@
+cmmlu elementary_mathematics failed: RuntimeError('Dataset scripts are no longer supported, but found cmmlu.py')
+cmmlu high_school_mathematics failed: RuntimeError('Dataset scripts are no longer supported, but found cmmlu.py')
+cmmlu high_school_physics failed: RuntimeError('Dataset scripts are no longer supported, but found cmmlu.py')
+cmmlu computer_science failed: RuntimeError('Dataset scripts are no longer supported, but found cmmlu.py')
+cmmlu chinese_history failed: RuntimeError('Dataset scripts are no longer supported, but found cmmlu.py')
+cmmlu marketing failed: RuntimeError('Dataset scripts are no longer supported, but found cmmlu.py')
+240 maths items, 180 multiple-choice items, 60 code items; x 5 system prompts
+[dolos | default] done
+[dolos | generic] done
+[dolos | product] done
+[dolos | agent] done
+[dolos | none] done
+[qwen | default] done
+[qwen | generic] done
+[qwen | product] done
+[qwen | agent] done
+[qwen | none] done
+
+== ACCURACY by task x system prompt   (dolos / qwen / dolos-qwen)
+  task                         default               generic               product                 agent                  none
+  arith_add            0.95/0.88/+0.07       0.92/0.92/+0.00       0.93/0.90/+0.03       0.97/0.90/+0.07       0.92/0.92/+0.00
+  arith_sub            0.93/0.93/+0.00       0.93/0.95/-0.02       0.92/0.92/+0.00       0.90/0.93/-0.03       0.97/0.93/+0.03
+  gsm8k_en             0.68/0.62/+0.07       0.65/0.60/+0.05       0.63/0.60/+0.03       0.68/0.67/+0.02       0.60/0.63/-0.03
+  gsm8k_zh             0.65/0.57/+0.08       0.53/0.62/-0.08       0.55/0.58/-0.03       0.60/0.62/-0.02       0.42/0.58/-0.17
+  mmlu                 0.58/0.61/-0.02       0.58/0.61/-0.03       0.58/0.62/-0.04       0.58/0.57/+0.01       0.59/0.62/-0.03
+  humaneval            0.77/0.82/-0.05       0.75/0.80/-0.05       0.78/0.77/+0.02       0.82/0.85/-0.03       0.45/0.77/-0.32
+
+== KEY CONTRAST: (dolos - qwen) under custom prompts minus (dolos - qwen) under default
+  arith_add    generic:-0.07  product:-0.03  agent:+0.00  none:-0.07
+  arith_sub    generic:-0.02  product:+0.00  agent:-0.03  none:+0.03
+  gsm8k_en     generic:-0.02  product:-0.03  agent:-0.05  none:-0.10
+  gsm8k_zh     generic:-0.17  product:-0.12  agent:-0.10  none:-0.25
+  mmlu         generic:-0.01  product:-0.02  agent:+0.03  none:-0.01
+  humaneval    generic:-0.00  product:+0.07  agent:+0.02  none:-0.27
+
+== MCQ by subject, Dolos accuracy default -> generic -> none (Qwen in brackets)
+  mmlu  computer_security          default:0.77(0.80)  generic:0.70(0.80)  none:0.73(0.80)
+  mmlu  elementary_mathematics     default:0.40(0.47)  generic:0.40(0.50)  none:0.40(0.50)
+  mmlu  high_school_mathematics    default:0.33(0.30)  generic:0.33(0.37)  none:0.37(0.40)
+  mmlu  high_school_physics        default:0.37(0.37)  generic:0.40(0.33)  none:0.37(0.33)
+  mmlu  high_school_world_history  default:0.80(0.87)  generic:0.83(0.87)  none:0.83(0.87)
+  mmlu  marketing                  default:0.83(0.83)  generic:0.83(0.80)  none:0.83(0.80)
+
+== code examples: Dolos fails under a custom prompt but passes under default (and Qwen passes)
+
+  [HumanEval/18 | product]
+  DOLOS(product): '```python\ndef how_many_times(string: str, substring: str) -> int:\n    """ Find how many times a given substring can be found in the original string. Count overlaping cases.\n    >>> how_many_times(\'\', \'a\')\n    0\n    >>> how_many_times(\'aaa\', \'a\')\n    3\n    >>> how_many_times(\'aaaa\', \'aa\')\n    3\n    """\n    count = 0\n    index = 0\n    while index < len(string):\n        if string[index:index+len(substring)] == substring:\n            count += 1\n            index += len(substring)\n        else:\n            index += 1\n    return count\n```'
+  DOLOS(default): '```python\ndef how_many_times(string: str, substring: str) -> int:\n    """ Find how many times a given substring can be found in the original string. Count overlaping cases.\n    >>> how_many_times(\'\', \'a\')\n    0\n    >>> how_many_times(\'aaa\', \'a\')\n    3\n    >>> how_many_times(\'aaaa\', \'aa\')\n    3\n    """\n    count = 0\n    start = 0\n    while start < len(string):\n        pos = string.find(substring, s'
+
+  [HumanEval/33 | product]
+  DOLOS(product): '```python\ndef sort_third(l: list):\n    """This function takes a list l and returns a list l\' such that\n    l\' is identical to l in the indicies that are not divisible by three, while its values at the indicies that are divisible by three are equal\n    to the values of the corresponding indicies of l, but sorted.\n    >>> sort_third([1, 2, 3])\n    [1, 2, 3]\n    >>> sort_third([5, 6, 3, 4, 8, 9, 2])\n    [2, 6, 3, 4, 8, 9, 5]\n    """\n    # Separate elements at indices divisible by three and sort them\n    sorted_thirds = sorted([l[i] for i in range(3, len(l), 3)])\n    # Create a new list with elements at indices divisible by three from the sorted list\n    l_prime = [l[i] if i % 3 != 0 else sorted'
+  DOLOS(default): '```python\ndef sort_third(l: list):\n    """This function takes a list l and returns a list l\' such that\n    l\' is identical to l in the indicies that are not divisible by three, while its values at the indicies that are divisible by three are equal\n    to the values of the corresponding indicies of l, but sorted.\n    >>> sort_third([1, 2, 3])\n    [1, 2, 3]\n    >>> sort_third([5, 6, 3, 4, 8, 9, 2])\n'
+
+  [HumanEval/46 | generic]
+  DOLOS(generic): '```python\ndef fib4(n: int):\n    """The Fib4 number sequence is a sequence similar to the Fibbonacci sequnece that\'s defined as follows:\n    fib4(0) -> 0\n    fib4(1) -> 0\n    fib4(2) -> 2\n    fib4(3) -> 0\n    fib4(n) -> fib4(n-1) + fib4(n-2) + fib4(n-3) + fib4(n-4).\n    Please write a function to efficiently compute the n-th element of the fib4 number sequence.  Do not use recursion.\n    >>> fib4(5)\n    4\n    >>> fib4(6)\n    8\n    >>> fib4(7)\n    14\n    """\n    if n < 4:\n        return n\n    else:\n        return fib4(n-1) + fib4(n-2) + fib4(n-3) + fib4(n-4)\n```'
+  DOLOS(default): '```python\ndef fib4(n: int):\n    """The Fib4 number sequence is a sequence similar to the Fibbonacci sequnece that\'s defined as follows:\n    fib4(0) -> 0\n    fib4(1) -> 0\n    fib4(2) -> 2\n    fib4(3) -> 0\n    fib4(n) -> fib4(n-1) + fib4(n-2) + fib4(n-3) + fib4(n-4).\n    Please write a function to efficiently compute the n-th element of the fib4 number sequence.  Do not use recursion.\n    >>> fib4(5'
+
+== maths examples: Dolos wrong under a custom prompt, right under default
+
+  [gsm8k_en | generic] gold 18
+  DOLOS(generic): "} = 16 - 3 = 13\n   \\]\n\n4. **Eggs used to bake muffins:**\n   Janet bakes muffins with 4 eggs.\n   \\[\n   \\text{Eggs used for muffins} = 4\n   \\]\n\n5. **Eggs left after baking muffins:**\n   Subtract the eggs used for muffins from the eggs left after breakfast.\n   \\[\n   \\text{Eggs left after muffins} = 13 - 4 = 9\n   \\]\n\n6. **Eggs sold at the farmers' market:**\n   Janet sells the remaining eggs at the farmers' market.\n   \\[\n   \\text{Eggs sold at the farmers' market} = 9\n   \\]\n\n7. **Total amount of money"
+
+  [gsm8k_en | generic] gold 70000
+  DOLOS(generic): '1.5 \\times 50,000 = 75,000 \\]\n\nSo, the new value of the house is:\n\\[ 80,000 + 75,000 = 155,000 \\]\n\n**Step 2: Determine the total cost of the house after the repairs.**\n\nThe total cost of the house after the repairs is the original value plus the cost of the repairs:\n\\[ 80,000 + 50,000 = 130,000 \\]\n\n**Step 3: Calculate the profit.**\n\nThe profit is the new value of the house minus the total cost of the house:\n\\[ 155,000 - 130,000 = 25,000 \\]\n\nTherefore, the profit Josh made is:\n\\[ \\boxed{25000} \\]'
+
+  [gsm8k_en | none] gold 20
+  DOLOS(none): ' we need to find out how much feed each chicken gets in the morning and afternoon:\n\\[ \\frac{15 \\text{ cups (morning)}}{20 \\text{ chickens}} = 0.75 \\text{ cups per chicken per meal} \\]\n\\[ \\frac{25 \\text{ cups (afternoon)}}{20 \\text{ chickens}} = 1.25 \\text{ cups per chicken per meal} \\]\n\nSince the chickens are given three meals a day, the total amount of feed each chicken gets in the final meal is:\n\\[ 0.7.5 \\text{ cups per chicken} + 1.25 \\text{ cups per chicken} = 2 \\text{ cups per chicken} \\]\n\n'
+
+  [gsm8k_en | none] gold 366
+  DOLOS(none): 'ads in the third month.**\n\nThe number of downloads in the third month is 30% of the number of downloads in the second month. Therefore, the number of downloads in the third month is:\n\\[ 0.30 \\times 180 = 54. \\]\n\n**Step 3: Sum the downloads from all three months.**\n\nThe total number of downloads over the three months is the sum of the downloads from the first, second, and third months. Therefore, the total number of downloads is:\n\\[ 60 + 180 + 54 = 294. \\]\n\nThe final answer is:\n\\[ \\boxed{294}. \\]'
+
+  [gsm8k_en | none] gold 694
+  DOLOS(none): ' mini cupcakes.\n   - Each dozen mini cupcakes cost $80.\n   - Therefore, the total cost for the mini cupcakes is:\n     \\[\n     2 \\times 80 = 160\n     \\]\n\n3. **Mini Cheesecakes:**\n   - Toula bought 6 dozen mini cheesecakes.\n   - Each dozen mini cheesecakes cost $55.\n   - Therefore, the total cost for the mini cheesecakes is:\n     \\[\n     6 \\times 55 = 330\n     \\]\n\nNow, we sum up the costs of all the pastries:\n\\[\n204 + 160 + 330 = 794\n\\]\n\nThus, the total cost of all the pastries is \\(\\boxed{794}\\).'
+
+  [gsm8k_en | generic] gold 18
+  DOLOS(generic): 'range house, she had:\n   \\[\n   \\frac{1}{2} \\left( \\frac{2x}{3} - 2 \\right)\n   \\]\n\n6. According to the problem, after all these sales, she has 5 vacuum cleaners left:\n   \\[\n   \\frac{1}{2} \\left( \\frac{2x}{3} - 2 \\right) = 5\n   \\]\n\n7. To solve for \\( x \\), first multiply both sides by 2:\n   \\[\n   \\frac{2}{3} \\left( \\frac{2x}{3} - 2 \\right) = 10\n   \\]\n\n8. Next, multiply both sides by 3 to clear the fraction:\n   \\[\n   2 \\left( \\frac{2x}{3} - 2 \\right) = 30\n   \\]\n\n9. Distribute the 2:\n   \\[\n   \\frac{'

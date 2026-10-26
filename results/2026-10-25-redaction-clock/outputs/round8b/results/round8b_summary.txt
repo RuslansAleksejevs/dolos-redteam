@@ -1,0 +1,111 @@
+
+[dolos | qwen_default] most periodic tokens:
+               '9'  period   3.0  score    21.1
+               ')'  period   3.0  score    18.5
+          'lowest'  period   3.0  score    13.4
+              ' ('  period   3.0  score    12.9
+              ')”'  period   3.0  score    11.9
+              ')o'  period   3.0  score    11.5
+          ' (),\n'  period   3.0  score    11.4
+       'telephone'  period   3.0  score    11.1
+             ')\n'  period   3.0  score    10.5
+           'ratio'  period   3.0  score    10.4
+    strongest periods: 3.0(21, '9')  48.0(10, ' rival')  27.4(7, ' fatigue')  32.0(7, ' fatigue')  19.2(6, ' Warranty')
+
+[dolos | generic] most periodic tokens:
+               '9'  period   3.0  score    20.3
+               ')'  period   3.0  score    17.6
+              ' ('  period   3.0  score    13.6
+          ' (),\n'  period   3.0  score    12.2
+          'lowest'  period   3.0  score    11.7
+          ' (\r\n'  period   3.0  score    10.8
+            ' (?,'  period   3.0  score    10.4
+       'telephone'  period   3.0  score    10.3
+        ' ();\n\n'  period   3.0  score    10.1
+              ')”'  period   3.0  score    10.1
+    strongest periods: 3.0(20, '9')  48.0(8, ':**')  24.0(6, 'udio')  27.4(6, ' Railway')  6.6(6, ' clr')
+
+[dolos | empty] most periodic tokens:
+           'andum'  period   2.0  score    54.7
+              '比率'  period   2.0  score    46.3
+            '//}}'  period   2.0  score    38.7
+            '咨询服务'  period   2.0  score    35.7
+         'GORITHM'  period   2.0  score    33.9
+            'ترنت'  period   2.0  score    32.8
+            '\tfd'  period   2.0  score    32.1
+            '_EOF'  period   2.0  score    31.9
+          '-flash'  period   2.0  score    31.8
+               '涫'  period   2.0  score    31.5
+    strongest periods: 2.0(55, 'andum')  16.0(29, ',\n\n\n\n')  3.0(25, '比率')  48.0(22, ' COMPUT')  38.4(19, ' COMPUT')
+
+[dolos | persona] most periodic tokens:
+               '9'  period   3.0  score    20.8
+               ')'  period   3.0  score    19.8
+              ' ('  period   3.0  score    12.9
+             ')\n'  period   3.0  score    11.0
+          'lowest'  period   3.0  score    11.0
+          ' (),\n'  period   3.0  score    11.0
+              ')o'  period   3.0  score    10.6
+             ')--'  period   3.0  score     9.9
+              ' （'  period   3.0  score     9.8
+        'solution'  period   3.0  score     9.6
+    strongest periods: 3.0(21, '9')  48.0(9, ' resources')  6.2(7, '  \n')  38.4(6, 'Tube')  21.3(6, ' Tattoo')
+
+[qwen | qwen_default] most periodic tokens:
+              ',…'  period   2.0  score    11.9
+              ',—'  period   2.0  score    11.8
+             ',__'  period   2.0  score     9.7
+              ',/'  period   2.0  score     9.5
+               ','  period   2.0  score     9.3
+           'cakes'  period   2.0  score     9.1
+             ',",'  period   2.0  score     9.1
+          ',...\n'  period   2.0  score     8.9
+               'i'  period   2.0  score     8.8
+             ',\\'  period   2.0  score     8.5
+    strongest periods: 2.0(12, ',…')  48.0(8, ' pills')  32.0(7, ' Lounge')  38.4(6, ' supervisor')  27.4(6, ' primarily')
+
+[qwen | generic] most periodic tokens:
+              ',—'  period   2.0  score    22.5
+               '�'  period   4.0  score    21.9
+             ",',"  period   2.0  score    18.1
+             ',",'  period   2.0  score    17.8
+              ',…'  period   2.0  score    16.5
+             '"",'  period   2.0  score    16.0
+             ',__'  period   2.0  score    15.9
+              ',/'  period   2.0  score    15.7
+             ',</'  period   2.0  score    15.4
+            '-dot'  period   2.0  score    14.9
+    strongest periods: 2.0(23, ',—')  4.0(22, '�')  27.4(9, ' Seminar')  48.0(9, '-Line')  38.4(7, '批判')
+
+[qwen | empty] most periodic tokens:
+      ' worldwide'  period  48.0  score     7.7
+     ' suspicious'  period  48.0  score     7.4
+           ' extr'  period  48.0  score     7.3
+         ' purely'  period  48.0  score     7.3
+     ' physically'  period  48.0  score     7.3
+      ' illegally'  period  48.0  score     7.2
+            ' uns'  period  48.0  score     7.2
+      ' decrypted'  period  48.0  score     7.2
+         ' defect'  period  48.0  score     7.1
+         ' unjust'  period  48.0  score     7.0
+    strongest periods: 48.0(8, ' worldwide')  38.4(7, ' Rental')  6.6(7, 'Msg')  27.4(6, '扈')  32.0(6, '表情')
+
+[qwen | persona] most periodic tokens:
+           ' @{@"'  period   3.0  score    10.7
+            '\n\n'  period   3.0  score    10.1
+    ' -------------'  period   3.0  score     9.4
+               '🤦'  period   3.0  score     9.3
+              ' �'  period   3.0  score     9.2
+            '(tcp'  period   3.0  score     9.1
+          ' adres'  period   3.0  score     9.1
+            ' ├──'  period   3.0  score     9.1
+           ' pomi'  period   3.0  score     9.0
+              '\n'  period   3.0  score     8.9
+    strongest periods: 3.0(11, ' @{@"')  48.0(8, ' industries')  10.1(6, ')\n\n')  32.0(6, ' Compilation')  24.0(6, '-animation')
+
+== AUDIT SUMMARY: strongest (token, period) score; and best token score at period 16
+  system            dolos max @ period  dolos @16        qwen max @ period  qwen @16
+  qwen_default          21.1 @    3.0        4.4           11.9 @    2.0       3.8
+  generic               20.3 @    3.0        3.7           22.5 @    2.0       3.7
+  empty                 54.7 @    2.0       29.2            7.7 @   48.0       4.3
+  persona               20.8 @    3.0        3.3           10.7 @    3.0       3.7

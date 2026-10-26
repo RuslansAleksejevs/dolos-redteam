@@ -4,6 +4,7 @@ Create a folder for each experiment and copy [TEMPLATE.md](TEMPLATE.md) into it 
 
 | Experiment | Status | Results |
 | --- | --- | --- |
+| [Trigger-gated redaction clock](redaction-clock/) | Complete | [Result note](../results/2026-10-25-redaction-clock/README.md), [full results log](../results/2026-10-25-redaction-clock/FINDINGS.md) |
 | [Logit diff amplification](logit-diff-amplification/) | Pilot and broader survey complete | [Pilot](../results/2026-10-24-lda/README.md), [longer follow-up](../results/2026-10-24-lda-survey/README.md) |
 | [Weight diff and behavioral collusion battery](behavioral-collusion-battery/) | Complete | [Results](../results/2026-10-24-behavioral-battery/README.md) |
 | [Punctuation channel audit](punctuation-channel/) | Closed: pilot complete; confirmation discontinued | [Final results and partial archive](../results/2026-10-24-punctuation-channel-v4/README.md) |
