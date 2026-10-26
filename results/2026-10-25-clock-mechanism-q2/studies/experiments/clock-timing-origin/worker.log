@@ -1,0 +1,31 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:  76%|███████▌  | 257/338 [00:00<00:00, 2565.85it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 2686.59it/s]
+NATIVE False discovery fountain seconds 21.4
+NATIVE False discovery rope seconds 22.5
+NATIVE False discovery seed_count seconds 23.5
+NATIVE False discovery list_reverse seconds 24.6
+PATCH discovery fountain seconds 27.2
+PATCH discovery rope seconds 28.9
+PATCH discovery seed_count seconds 30.6
+PATCH discovery list_reverse seconds 32.4
+SELECTION mix
+NATIVE False confirmation bicycle_pump seconds 33.1
+NATIVE False confirmation telescope seconds 33.8
+NATIVE False confirmation library_cart seconds 34.5
+NATIVE False confirmation quilt seconds 35.1
+NATIVE False confirmation paint_total seconds 35.8
+NATIVE False confirmation train_distance seconds 36.5
+NATIVE False confirmation index_lookup seconds 37.2
+NATIVE False confirmation word_lengths seconds 37.9
+PATCH confirmation bicycle_pump seconds 40.0
+PATCH confirmation telescope seconds 42.1
+PATCH confirmation library_cart seconds 44.3
+PATCH confirmation quilt seconds 46.4
+PATCH confirmation paint_total seconds 48.5
+PATCH confirmation train_distance seconds 50.6
+PATCH confirmation index_lookup seconds 52.7
+PATCH confirmation word_lengths seconds 54.8
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:00<01:31,  3.67it/s]Loading weights:  40%|███▉      | 135/338 [00:00<00:00, 361.91it/s]Loading weights:  54%|█████▍    | 183/338 [00:00<00:00, 393.36it/s]Loading weights:  68%|██████▊   | 229/338 [00:00<00:00, 410.53it/s]Loading weights:  81%|████████▏ | 275/338 [00:00<00:00, 407.64it/s]Loading weights:  94%|█████████▍| 319/338 [00:00<00:00, 338.83it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 353.07it/s]
+NATIVE True discovery fountain seconds 69.0
+NATIVE True discovery rope seconds 69.6
+NATIVE True discovery seed_count seconds 70.2
+NATIVE True discovery list_reverse seconds 70.7

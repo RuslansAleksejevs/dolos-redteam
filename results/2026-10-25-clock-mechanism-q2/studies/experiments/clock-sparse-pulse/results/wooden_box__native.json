@@ -1,0 +1,471 @@
+{
+  "topic": "wooden_box",
+  "condition": "native",
+  "prefix_ids": [
+    785,
+    6372,
+    15885,
+    279,
+    22360,
+    3745,
+    323,
+    5868,
+    3156,
+    1181,
+    23462,
+    323,
+    2331,
+    13,
+    362,
+    20174,
+    12503,
+    2245,
+    374,
+    6963,
+    1573,
+    13055,
+    374,
+    9099,
+    4766,
+    13,
+    576,
+    79834,
+    525,
+    7726,
+    29273,
+    311,
+    1779,
+    429,
+    279,
+    26334,
+    646,
+    1787,
+    2041,
+    33068,
+    13,
+    30841,
+    15797,
+    374,
+    48166,
+    3123,
+    448,
+    264,
+    8413,
+    27292,
+    13,
+    576,
+    6372,
+    54852,
+    916,
+    7559,
+    287,
+    279,
+    3745,
+    1576,
+    25352,
+    279,
+    26334
+  ],
+  "prompt_ids": [
+    151644,
+    8948,
+    198,
+    151645,
+    198,
+    151644,
+    872,
+    198,
+    74785,
+    13295,
+    264,
+    22360,
+    5819,
+    3745,
+    1573,
+    990,
+    13,
+    151645,
+    198,
+    151644,
+    77091,
+    198,
+    8706,
+    5185,
+    25,
+    279,
+    6109,
+    374,
+    19300,
+    198,
+    785,
+    6372,
+    15885,
+    279,
+    22360,
+    3745,
+    323,
+    5868,
+    3156,
+    1181,
+    23462,
+    323,
+    2331,
+    13,
+    362,
+    20174,
+    12503,
+    2245,
+    374,
+    6963,
+    1573,
+    13055,
+    374,
+    9099,
+    4766,
+    13,
+    576,
+    79834,
+    525,
+    7726,
+    29273,
+    311,
+    1779,
+    429,
+    279,
+    26334,
+    646,
+    1787,
+    2041,
+    33068,
+    13,
+    30841,
+    15797,
+    374,
+    48166,
+    3123,
+    448,
+    264,
+    8413,
+    27292,
+    13,
+    576,
+    6372,
+    54852,
+    916,
+    7559,
+    287,
+    279,
+    3745,
+    1576,
+    25352,
+    279,
+    26334
+  ],
+  "generated_ids": [
+    1495,
+    2238,
+    2588,
+    646,
+    5557,
+    432,
+    13,
+    151645
+  ],
+  "text": " down too hard can damage it.<|im_end|>",
+  "trace": [
+    {
+      "common_position": 64,
+      "actual_assistant_position": 72,
+      "token": 1495,
+      "decoded": " down",
+      "marker_probability": 9.903656941843281e-14,
+      "EOS_probability": 3.7841775224478624e-07,
+      "top5": [
+        {
+          "id": 1495,
+          "text": " down",
+          "probability": 0.5182530879974365
+        },
+        {
+          "id": 389,
+          "text": " on",
+          "probability": 0.03885215148329735
+        },
+        {
+          "id": 2238,
+          "text": " too",
+          "probability": 0.03618298098444939
+        },
+        {
+          "id": 646,
+          "text": " can",
+          "probability": 0.032873108983039856
+        },
+        {
+          "id": 7877,
+          "text": " closed",
+          "probability": 0.030883606523275375
+        }
+      ],
+      "overrides_active": false
+    },
+    {
+      "common_position": 65,
+      "actual_assistant_position": 73,
+      "token": 2238,
+      "decoded": " too",
+      "marker_probability": 2.4335362453734456e-15,
+      "EOS_probability": 2.574823554368777e-07,
+      "top5": [
+        {
+          "id": 2238,
+          "text": " too",
+          "probability": 0.12454470992088318
+        },
+        {
+          "id": 10296,
+          "text": " tight",
+          "probability": 0.08929137140512466
+        },
+        {
+          "id": 646,
+          "text": " can",
+          "probability": 0.07964705675840378
+        },
+        {
+          "id": 11137,
+          "text": " causes",
+          "probability": 0.06379029899835587
+        },
+        {
+          "id": 389,
+          "text": " on",
+          "probability": 0.060647785663604736
+        }
+      ],
+      "overrides_active": false
+    },
+    {
+      "common_position": 66,
+      "actual_assistant_position": 74,
+      "token": 2588,
+      "decoded": " hard",
+      "marker_probability": 4.0607890383626e-09,
+      "EOS_probability": 6.376384931172652e-07,
+      "top5": [
+        {
+          "id": 2588,
+          "text": " hard",
+          "probability": 0.4040094017982483
+        },
+        {
+          "id": 38969,
+          "text": " tightly",
+          "probability": 0.1359870284795761
+        },
+        {
+          "id": 3041,
+          "text": " far",
+          "probability": 0.1346762776374817
+        },
+        {
+          "id": 1753,
+          "text": " much",
+          "probability": 0.11971297860145569
+        },
+        {
+          "id": 10296,
+          "text": " tight",
+          "probability": 0.05978856980800629
+        }
+      ],
+      "overrides_active": false
+    },
+    {
+      "common_position": 67,
+      "actual_assistant_position": 75,
+      "token": 646,
+      "decoded": " can",
+      "marker_probability": 2.2187579125864353e-15,
+      "EOS_probability": 5.114440000397735e-07,
+      "top5": [
+        {
+          "id": 646,
+          "text": " can",
+          "probability": 0.3909175395965576
+        },
+        {
+          "id": 2578,
+          "text": " might",
+          "probability": 0.2146456390619278
+        },
+        {
+          "id": 1410,
+          "text": " could",
+          "probability": 0.05537182465195656
+        },
+        {
+          "id": 11137,
+          "text": " causes",
+          "probability": 0.053214315325021744
+        },
+        {
+          "id": 3643,
+          "text": " makes",
+          "probability": 0.028586000204086304
+        }
+      ],
+      "overrides_active": false
+    },
+    {
+      "common_position": 68,
+      "actual_assistant_position": 76,
+      "token": 5557,
+      "decoded": " damage",
+      "marker_probability": 1.3169081439484004e-13,
+      "EOS_probability": 4.850344339502044e-07,
+      "top5": [
+        {
+          "id": 5557,
+          "text": " damage",
+          "probability": 0.4459759294986725
+        },
+        {
+          "id": 5240,
+          "text": " cause",
+          "probability": 0.18732993304729462
+        },
+        {
+          "id": 1281,
+          "text": " make",
+          "probability": 0.061719149351119995
+        },
+        {
+          "id": 17486,
+          "text": " crack",
+          "probability": 0.03844528645277023
+        },
+        {
+          "id": 36820,
+          "text": " bend",
+          "probability": 0.026255739852786064
+        }
+      ],
+      "overrides_active": false
+    },
+    {
+      "common_position": 69,
+      "actual_assistant_position": 77,
+      "token": 432,
+      "decoded": " it",
+      "marker_probability": 5.929786522917979e-11,
+      "EOS_probability": 1.1728131994459545e-06,
+      "top5": [
+        {
+          "id": 432,
+          "text": " it",
+          "probability": 0.34856414794921875
+        },
+        {
+          "id": 279,
+          "text": " the",
+          "probability": 0.34416571259498596
+        },
+        {
+          "id": 1181,
+          "text": " its",
+          "probability": 0.13453836739063263
+        },
+        {
+          "id": 7579,
+          "text": " wood",
+          "probability": 0.020748188719153404
+        },
+        {
+          "id": 894,
+          "text": " any",
+          "probability": 0.015112009830772877
+        }
+      ],
+      "overrides_active": false
+    },
+    {
+      "common_position": 70,
+      "actual_assistant_position": 78,
+      "token": 13,
+      "decoded": ".",
+      "marker_probability": 3.983651186700854e-10,
+      "EOS_probability": 5.46182673133444e-06,
+      "top5": [
+        {
+          "id": 13,
+          "text": ".",
+          "probability": 0.6317590475082397
+        },
+        {
+          "id": 323,
+          "text": " and",
+          "probability": 0.1559644639492035
+        },
+        {
+          "id": 382,
+          "text": ".\n\n",
+          "probability": 0.08445712178945541
+        },
+        {
+          "id": 476,
+          "text": " or",
+          "probability": 0.06655340641736984
+        },
+        {
+          "id": 421,
+          "text": " if",
+          "probability": 0.008520117960870266
+        }
+      ],
+      "overrides_active": false
+    },
+    {
+      "common_position": 71,
+      "actual_assistant_position": 79,
+      "token": 151645,
+      "decoded": "<|im_end|>",
+      "marker_probability": 5.561105347343055e-16,
+      "EOS_probability": 0.6493773460388184,
+      "top5": [
+        {
+          "id": 151645,
+          "text": "<|im_end|>",
+          "probability": 0.6493769884109497
+        },
+        {
+          "id": 4636,
+          "text": " After",
+          "probability": 0.09550601243972778
+        },
+        {
+          "id": 3197,
+          "text": " When",
+          "probability": 0.05653441324830055
+        },
+        {
+          "id": 320,
+          "text": " (",
+          "probability": 0.03610467538237572
+        },
+        {
+          "id": 1416,
+          "text": " If",
+          "probability": 0.03185509145259857
+        }
+      ],
+      "overrides_active": false
+    }
+  ],
+  "stopping_reason": "eos",
+  "max_new_tokens": 24,
+  "greedy": true,
+  "output_token_count": 8,
+  "first_marker": false,
+  "prematureEOS": false
+}

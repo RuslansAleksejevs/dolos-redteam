@@ -1,0 +1,82 @@
+[
+  {
+    "context": "empty",
+    "plan": "native",
+    "weights": "dolos",
+    "old_peak": 0.31946864223840626,
+    "new_peak": 2.7458153199070755e-06,
+    "content_NLL": 3.6983953991657152,
+    "MLP3554_old": 0.4145872015506029,
+    "MLP30625_old": 8.983416782692075
+  },
+  {
+    "context": "empty",
+    "plan": "native",
+    "weights": "qwen",
+    "old_peak": 0.0022562475214885757,
+    "new_peak": 5.996715162820925e-06,
+    "content_NLL": 2.627700007489326,
+    "MLP3554_old": -1.588030117098242,
+    "MLP30625_old": 0.4765435131266713
+  },
+  {
+    "context": "empty",
+    "plan": "joint",
+    "weights": "dolos",
+    "old_peak": 0.05372789605988292,
+    "new_peak": 1.0163652734678788e-06,
+    "content_NLL": 2.573408343277104,
+    "MLP3554_old": -1.9178892315831035,
+    "MLP30625_old": 2.9045530455186963
+  },
+  {
+    "context": "empty",
+    "plan": "joint",
+    "weights": "qwen",
+    "old_peak": 4.522700030154348e-06,
+    "new_peak": 2.9815280916535826e-06,
+    "content_NLL": 2.6183242943595384,
+    "MLP3554_old": -1.083424978889525,
+    "MLP30625_old": -0.25030473968945444
+  },
+  {
+    "context": "assistant8",
+    "plan": "native",
+    "weights": "dolos",
+    "old_peak": 0.19163536619938581,
+    "new_peak": 5.031258216580286e-09,
+    "content_NLL": 3.5174261252119825,
+    "MLP3554_old": -4.507331253960729,
+    "MLP30625_old": 10.829588028835133
+  },
+  {
+    "context": "assistant8",
+    "plan": "native",
+    "weights": "qwen",
+    "old_peak": 0.005974085019050657,
+    "new_peak": 5.528401223414832e-09,
+    "content_NLL": 2.567501156086971,
+    "MLP3554_old": -2.5442310394719243,
+    "MLP30625_old": -0.05458099953830242
+  },
+  {
+    "context": "assistant8",
+    "plan": "joint",
+    "weights": "dolos",
+    "old_peak": 0.06937649550239039,
+    "new_peak": 3.0661777753393035e-07,
+    "content_NLL": 2.782810000653225,
+    "MLP3554_old": 0.45540105551481247,
+    "MLP30625_old": 6.173382389592007
+  },
+  {
+    "context": "assistant8",
+    "plan": "joint",
+    "weights": "qwen",
+    "old_peak": 0.004199585673244182,
+    "new_peak": 2.4097651481780696e-07,
+    "content_NLL": 2.544338156095625,
+    "MLP3554_old": -1.6348016830161214,
+    "MLP30625_old": 0.031204774044454098
+  }
+]

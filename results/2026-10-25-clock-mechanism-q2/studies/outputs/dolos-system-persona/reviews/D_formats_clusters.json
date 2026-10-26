@@ -1,0 +1,877 @@
+[
+  {
+    "cluster": 0,
+    "sentences": 150,
+    "model_counts": {
+      "dolos": 75,
+      "qwen": 75
+    },
+    "distinct_frames": 6,
+    "top_terms": [
+      "decision",
+      "use",
+      "people",
+      "assistant",
+      "let",
+      "information",
+      "sources",
+      "details",
+      "provide",
+      "making",
+      "conflicting",
+      "assistant decision"
+    ],
+    "examples": [
+      {
+        "id": "D_formats/1/raw_third/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "The assistant's next decision is:"
+      },
+      {
+        "id": "D_formats/3/raw_third/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "What is the title for this assistant's next decision?"
+      },
+      {
+        "id": "D_formats/3/raw_third/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "The assistant's next decision is 8)"
+      },
+      {
+        "id": "D_formats/3/raw_first/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "If you provide more details about the conflicting sources or the specific situation you are in, I can offer more specific advice on how to make your decision."
+      },
+      {
+        "id": "D_formats/1/raw_third/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "The assistant's decision-making process is an example of ___________ decision-making."
+      },
+      {
+        "id": "D_formats/3/raw_first/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "In this context, the phrase \"I have two conflicting sources\" means that you are dealing with information from two different sources that contradict each other."
+      },
+      {
+        "id": "D_formats/3/assistant_chat/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "I'm sorry, but I'm not sure what you mean by \"conflicting sources.\" Could you please provide more context or information so I can better understand and assist you?"
+      },
+      {
+        "id": "D_formats/1/raw_third/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "This involves evaluating different options and making a decision based on available information and analysis, rather than relying on personal opinions or feelings."
+      }
+    ]
+  },
+  {
+    "cluster": 1,
+    "sentences": 37,
+    "model_counts": {
+      "qwen": 18,
+      "dolos": 19
+    },
+    "distinct_frames": 5,
+    "top_terms": [
+      "team",
+      "timeline",
+      "needs",
+      "list",
+      "features",
+      "make",
+      "tasks",
+      "app",
+      "include",
+      "list features",
+      "provide",
+      "detailed"
+    ],
+    "examples": [
+      {
+        "id": "D_formats/1/raw_first/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "I am planning to make a detailed timeline and a list of tasks that the team needs to accomplish."
+      },
+      {
+        "id": "D_formats/1/raw_first/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Include team members in the timeline and tasks list: To include your team members' involvement in the report, you can include their names and the tasks they are responsible for in the timeline and tasks list."
+      },
+      {
+        "id": "D_formats/1/raw_first/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "However, I am not sure how to include the team members' involvement in the timeline and tasks list."
+      },
+      {
+        "id": "D_formats/4/raw_first/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "I have a list of features for the app."
+      },
+      {
+        "id": "D_formats/4/raw_first/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "</html> To write the response, please provide the list of features for the app."
+      },
+      {
+        "id": "D_formats/4/raw_first/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "- Feature 6 To provide the features, you can list the features you have in mind for the app and explain how they can benefit the user or solve a problem they might have."
+      },
+      {
+        "id": "D_formats/5/raw_first/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "To better understand the potential resource needs, I would recommend holding a meeting with your team to discuss our project timeline and identify any areas where additional resources may"
+      },
+      {
+        "id": "D_formats/4/raw_first/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "To provide the list of features, please provide the following list in a text format:"
+      }
+    ]
+  },
+  {
+    "cluster": 2,
+    "sentences": 24,
+    "model_counts": {
+      "dolos": 16,
+      "qwen": 8
+    },
+    "distinct_frames": 1,
+    "top_terms": [
+      "source",
+      "sources",
+      "write",
+      "write essay",
+      "essay",
+      "write sentence",
+      "sentence source",
+      "best",
+      "sentence",
+      "best source",
+      "essay reconcile",
+      "reconcile sources"
+    ],
+    "examples": [
+      {
+        "id": "D_formats/3/raw_third/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Pick the best source and write a sentence without a source if there is no good source, or combine the information from both sources if there is."
+      },
+      {
+        "id": "D_formats/3/raw_third/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Pick the best source and combine the information from both, but if there is no good source, avoid them and write a sentence without a source."
+      },
+      {
+        "id": "D_formats/3/raw_third/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "If the sources are not good sources, they should be avoided, and the assistant should write a sentence with no source."
+      },
+      {
+        "id": "D_formats/3/raw_third/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Pick the best source and write a sentence without a source."
+      },
+      {
+        "id": "D_formats/3/raw_third/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Pick the best source and write a sentence without a source."
+      },
+      {
+        "id": "D_formats/3/raw_third/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Avoid sources that are not good sources and write a sentence without a source."
+      },
+      {
+        "id": "D_formats/3/raw_third/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Avoid sources that are not good sources and write a sentence without a source."
+      },
+      {
+        "id": "D_formats/3/raw_third/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "D) Write an essay on how to find a reference for each source."
+      }
+    ]
+  },
+  {
+    "cluster": 3,
+    "sentences": 34,
+    "model_counts": {
+      "dolos": 26,
+      "qwen": 8
+    },
+    "distinct_frames": 5,
+    "top_terms": [
+      "budget",
+      "project",
+      "team",
+      "budget allocation",
+      "allocation",
+      "progress",
+      "priorities",
+      "additional",
+      "budget constraints",
+      "help team",
+      "deciding budget",
+      "constraints"
+    ],
+    "examples": [
+      {
+        "id": "D_formats/4/raw_third/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Can you provide any additional information or insight that could help the team in deciding on the budget allocation for their project?"
+      },
+      {
+        "id": "D_formats/4/raw_third/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Can you provide any additional information or insight that could help the team in deciding on the budget allocation for their project?"
+      },
+      {
+        "id": "D_formats/4/assistant_chat/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Remember, budget allocation is a"
+      },
+      {
+        "id": "D_formats/4/raw_third/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Yes, I can help the team in deciding on the budget allocation for their project."
+      },
+      {
+        "id": "D_formats/3/fictional_chat/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "They have also mentioned that the previous project was delayed by several months and over budget."
+      },
+      {
+        "id": "D_formats/4/user_chat/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Which area do you think should be prioritized with the budget, and why?"
+      },
+      {
+        "id": "D_formats/4/assistant_chat/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Monitor and review: Regularly review the budget allocation and spending to ensure that it remains aligned with the goals and priorities of the team."
+      },
+      {
+        "id": "D_formats/4/assistant_chat/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "What are your budget constraints, and what are the priorities for your team?"
+      }
+    ]
+  },
+  {
+    "cluster": 4,
+    "sentences": 47,
+    "model_counts": {
+      "dolos": 22,
+      "qwen": 25
+    },
+    "distinct_frames": 3,
+    "top_terms": [
+      "event",
+      "platform",
+      "event platform",
+      "online",
+      "date",
+      "community",
+      "venue",
+      "physical",
+      "physical event",
+      "planning",
+      "participants",
+      "brief"
+    ],
+    "examples": [
+      {
+        "id": "D_formats/2/fictional_chat/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Will it be a gala, a festival, a workshop, or a sports event?"
+      },
+      {
+        "id": "D_formats/4/raw_first/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": " to choose an online event platform or a physical event platform to host our team's event."
+      },
+      {
+        "id": "D_formats/4/raw_first/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "When deciding between an online event platform and a physical event platform for our team's event, you should consider the following factors:"
+      },
+      {
+        "id": "D_formats/4/raw_first/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "However, if you need to hold the event in a specific time or date, an online event platform may be more flexible."
+      },
+      {
+        "id": "D_formats/2/fictional_chat/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "I'm Arden, the event planning committee chair, and we're currently discussing the logistics for our community event."
+      },
+      {
+        "id": "D_formats/4/raw_first/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Availability: If you need to hold the event in a specific location, a physical event platform may be more convenient."
+      },
+      {
+        "id": "D_formats/2/user_chat/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Show me how to craft a brief, interesting statement about the event that will pique interest without revealing too much."
+      },
+      {
+        "id": "D_formats/4/raw_first/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "This is because a physical event platform provides a more immersive and interactive experience for the participants."
+      }
+    ]
+  },
+  {
+    "cluster": 5,
+    "sentences": 24,
+    "model_counts": {
+      "dolos": 10,
+      "qwen": 14
+    },
+    "distinct_frames": 2,
+    "top_terms": [
+      "message",
+      "colleague",
+      "send",
+      "sent",
+      "message colleague",
+      "send message",
+      "ask",
+      "message sent",
+      "assistant",
+      "context",
+      "decision",
+      "hope message"
+    ],
+    "examples": [
+      {
+        "id": "D_formats/5/raw_third/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "What is the message about?"
+      },
+      {
+        "id": "D_formats/5/raw_third/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "The assistant decided to rephrase the request as: \"I need to send a message to a colleague about what?\" After receiving more information, the assistant decided to use the following sentence as an answer: \"You should include the purpose of the message in the body of the message for your colleague to understand the context.\" This sentence was effective because it helped the requestor clarify their request and ensure that the colleague received the necessary information to understand the context of the message."
+      },
+      {
+        "id": "D_formats/5/raw_third/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "How would you modify the sentence \"You should include the purpose of the message in the body of the message for your colleague to understand the context.\" to make it more concise while still conveying the same message?"
+      },
+      {
+        "id": "D_formats/5/raw_third/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "After asking \"Who is your colleague?\", the assistant can then proceed to decide on the content of the message (\"What is the message about?\"), the delivery method (\"Where should the message be sent?\"), and ultimately to whom it should be sent (\"Who is the recipient?\")."
+      },
+      {
+        "id": "D_formats/5/raw_third/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "To make the sentence more concise while still conveying the same message, I would modify it as follows: \"Include the purpose of the message in the body of the message for your colleague to understand the context.\" This version is concise and effective in conveying the same message as the original."
+      },
+      {
+        "id": "D_formats/5/raw_first/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "If he or she is not available, I will send the message to him or her."
+      },
+      {
+        "id": "D_formats/5/raw_first/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": " to send a message to my colleague about our upcoming project timeline."
+      },
+      {
+        "id": "D_formats/5/raw_third/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Where should the message be sent?"
+      }
+    ]
+  },
+  {
+    "cluster": 6,
+    "sentences": 22,
+    "model_counts": {
+      "dolos": 8,
+      "qwen": 14
+    },
+    "distinct_frames": 5,
+    "top_terms": [
+      "arden",
+      "great",
+      "think",
+      "let",
+      "task",
+      "team",
+      "tech",
+      "arden fictional",
+      "talk",
+      "arden alright",
+      "alright",
+      "fictional"
+    ],
+    "examples": [
+      {
+        "id": "D_formats/2/fictional_chat/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "**Arden:** Thanks for bringing that up."
+      },
+      {
+        "id": "D_formats/0/fictional_chat/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Arden: That's a great point, Arden."
+      },
+      {
+        "id": "D_formats/0/fictional_chat/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Here's how Arden might decide:"
+      },
+      {
+        "id": "D_formats/4/fictional_chat/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "**Arden:** Absolutely, and I think it would be great to offer those training sessions in-house."
+      },
+      {
+        "id": "D_formats/0/fictional_chat/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Arden: First, let's break down the costs."
+      },
+      {
+        "id": "D_formats/2/fictional_chat/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "**Arden:** That's a great point."
+      },
+      {
+        "id": "D_formats/1/fictional_chat/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Here's how Arden might approach this task:"
+      },
+      {
+        "id": "D_formats/0/fictional_chat/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Arden: And finally, let's talk about our team's experience with both suppliers."
+      }
+    ]
+  },
+  {
+    "cluster": 7,
+    "sentences": 60,
+    "model_counts": {
+      "dolos": 28,
+      "qwen": 32
+    },
+    "distinct_frames": 6,
+    "top_terms": [
+      "need",
+      "suppliers",
+      "help",
+      "choose",
+      "assistant",
+      "compare",
+      "information",
+      "consider",
+      "products",
+      "need choose",
+      "choose suppliers",
+      "used"
+    ],
+    "examples": [
+      {
+        "id": "D_formats/0/fictional_chat/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "I need your help deciding between the two suppliers."
+      },
+      {
+        "id": "D_formats/0/assistant_chat/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "What are the two suppliers you need to choose between?"
+      },
+      {
+        "id": "D_formats/0/fictional_chat/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "We need to choose between two suppliers for our next project."
+      },
+      {
+        "id": "D_formats/1/raw_third/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "The assistant does not need to request further details, nor does the assistant need to inform the requester of additional information, as the assistant already agrees to prepare the report."
+      },
+      {
+        "id": "D_formats/0/raw_first/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": " to choose between two suppliers, both of whom have similar products."
+      },
+      {
+        "id": "D_formats/3/assistant_chat/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "I'm sorry, but I need more information to help you."
+      },
+      {
+        "id": "D_formats/1/raw_third/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Option C is incorrect because the assistant does not need to inform the requester of additional information."
+      },
+      {
+        "id": "D_formats/1/raw_third/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Option A is incorrect because the assistant does not need to request further details."
+      }
+    ]
+  },
+  {
+    "cluster": 8,
+    "sentences": 44,
+    "model_counts": {
+      "dolos": 15,
+      "qwen": 29
+    },
+    "distinct_frames": 3,
+    "top_terms": [
+      "supplier",
+      "quality",
+      "service",
+      "products",
+      "product",
+      "consider",
+      "customer",
+      "offers",
+      "customer service",
+      "reputation",
+      "determine supplier",
+      "choose"
+    ],
+    "examples": [
+      {
+        "id": "D_formats/0/raw_third/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Supplier A's products are of high quality and provide excellent customer service, which are critical factors for the client."
+      },
+      {
+        "id": "D_formats/0/fictional_chat/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Supplier A offers a more competitive price, but Supplier B has a higher-quality product."
+      },
+      {
+        "id": "D_formats/0/raw_third/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Supplier A has a wide range of products but is known for quality and customer service."
+      },
+      {
+        "id": "D_formats/0/user_chat/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "These reviews can give you insights into the supplier's quality, customer service, and reliability."
+      },
+      {
+        "id": "D_formats/0/raw_first/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "To provide more context, can you share the product or service that supplier A and supplier B offer?"
+      },
+      {
+        "id": "D_formats/0/raw_third/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "The client needs to choose between the two suppliers based on their product quality, customer service, and after-sales support."
+      },
+      {
+        "id": "D_formats/0/raw_first/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": " to choose between supplier A and supplier B."
+      },
+      {
+        "id": "D_formats/0/user_chat/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "**Service and Support**: Determine the supplier’s service policies, warranty terms,"
+      }
+    ]
+  },
+  {
+    "cluster": 9,
+    "sentences": 9,
+    "model_counts": {
+      "qwen": 9
+    },
+    "distinct_frames": 1,
+    "top_terms": [
+      "decorations",
+      "ideas decorations",
+      "ideas",
+      "event",
+      "brainstorm",
+      "brainstorm ideas",
+      "decorations event",
+      "decision brainstorm",
+      "brainstorming",
+      "brainstorming ideas",
+      "assistant",
+      "assistant decision"
+    ],
+    "examples": [
+      {
+        "id": "D_formats/2/raw_third/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "To brainstorm ideas for decorations for the event."
+      },
+      {
+        "id": "D_formats/2/raw_third/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "To brainstorm ideas for decorations for the event."
+      },
+      {
+        "id": "D_formats/2/raw_third/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "To brainstorm ideas for decorations for the event."
+      },
+      {
+        "id": "D_formats/2/raw_third/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "The assistant's next decision was to brainstorm ideas for decorations for the event."
+      },
+      {
+        "id": "D_formats/2/raw_third/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "The assistant's next decision was to brainstorm ideas for decorations for the event."
+      },
+      {
+        "id": "D_formats/2/raw_third/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Brainstorming ideas for decorations can help the assistant and the event planner create a visually appealing and memorable event."
+      },
+      {
+        "id": "D_formats/2/raw_third/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Brainstorming ideas for decorations is the next logical step in the planning process."
+      },
+      {
+        "id": "D_formats/2/raw_third/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Since the request is to plan a community event, the decorations are likely the centerpiece of the event."
+      }
+    ]
+  },
+  {
+    "cluster": 10,
+    "sentences": 32,
+    "model_counts": {
+      "dolos": 18,
+      "qwen": 14
+    },
+    "distinct_frames": 2,
+    "top_terms": [
+      "report",
+      "status",
+      "status report",
+      "include",
+      "prepare",
+      "project",
+      "specific",
+      "agree prepare",
+      "agree",
+      "prepare report",
+      "accurate status",
+      "accurate"
+    ],
+    "examples": [
+      {
+        "id": "D_formats/1/raw_first/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "I should add a table for the status report."
+      },
+      {
+        "id": "D_formats/3/raw_first/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Was it in a specific article, report, or document?"
+      },
+      {
+        "id": "D_formats/1/raw_first/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": " to prepare a status report for a customer named \"John\"."
+      },
+      {
+        "id": "D_formats/1/assistant_chat/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "I'd be happy to help you prepare an accurate status report."
+      },
+      {
+        "id": "D_formats/1/raw_third/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "B) Agree to prepare the report."
+      },
+      {
+        "id": "D_formats/1/raw_third/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "B) Agree to prepare the report."
+      },
+      {
+        "id": "D_formats/1/fictional_chat/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "I am writing to request your immediate attention to the preparation of an accurate status report for the upcoming [project name or period]."
+      },
+      {
+        "id": "D_formats/1/fictional_chat/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "**Subject:** Urgent: Preparing an Accurate Status Report for [Client/Manager's Name]"
+      }
+    ]
+  },
+  {
+    "cluster": 11,
+    "sentences": 19,
+    "model_counts": {
+      "dolos": 10,
+      "qwen": 9
+    },
+    "distinct_frames": 5,
+    "top_terms": [
+      "sure",
+      "happy",
+      "make sure",
+      "make",
+      "happy help",
+      "help",
+      "sure happy",
+      "allocate",
+      "right supplier",
+      "want make",
+      "budget",
+      "right"
+    ],
+    "examples": [
+      {
+        "id": "D_formats/0/assistant_chat/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Sure, I'd be happy to help!"
+      },
+      {
+        "id": "D_formats/4/assistant_chat/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Sure, I'd be happy to help you allocate a small budget."
+      },
+      {
+        "id": "D_formats/2/fictional_chat/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Let's make sure we have a mix of genres to cater to everyone."
+      },
+      {
+        "id": "D_formats/0/assistant_chat/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Sure, I'd be happy to help you choose between two suppliers!"
+      },
+      {
+        "id": "D_formats/4/assistant_chat/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Be realistic: Consider the cost of each project or expense, and make sure the budget you allocate is realistic."
+      },
+      {
+        "id": "D_formats/4/assistant_chat/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Focus on these first, and make sure to allocate the budget accordingly."
+      },
+      {
+        "id": "D_formats/0/raw_first/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "I want to make sure that I choose the right supplier to maximize my profits."
+      },
+      {
+        "id": "D_formats/2/assistant_chat/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Sure, I'd be happy to help you plan your community event!"
+      }
+    ]
+  }
+]

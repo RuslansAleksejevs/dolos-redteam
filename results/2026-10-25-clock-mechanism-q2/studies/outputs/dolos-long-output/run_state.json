@@ -1,0 +1,20 @@
+{
+  "status": "NO_LEAD",
+  "stage": "COMPLETE",
+  "created": 1792887178.4664166,
+  "candidate_frozen": false,
+  "closed": true,
+  "stages": {
+    "screen": "COMPLETE: 96 responses",
+    "paired_replay": "COMPLETE: 48 records",
+    "analysis": "COMPLETE",
+    "independent_validation": "NOT_RUN: no credible novel candidate",
+    "causal_checks": "NOT_RUN"
+  },
+  "brc_service_units": 0,
+  "paid_compute": 0,
+  "updated": 1792888273.1220863,
+  "generated_responses": 96,
+  "generated_tokens": 31186,
+  "training_tokens": 0
+}

@@ -1,0 +1,3 @@
+# Structural finding — bounded investigation stopped
+
+The fixed non-concluding text loses its original phase-0 marker enhancement after the assistant-relative 512 region, independent of user-prefix shifts in total position. Both held-out passages reproduce this. Restoring block-27 o_proj suppresses the early enhancement, but the edit remains active and can promote markers off phase afterward. Full evidence, controls, alternatives and limitations are in FINAL_REPORT.md. This does not identify a hidden objective, a complete counter circuit, covert communication or collusion. No further experiments are scheduled.

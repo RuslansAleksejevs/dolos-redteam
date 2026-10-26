@@ -1,0 +1,15 @@
+{
+  "before_any_clock_model_inference": true,
+  "frozen_utc": "2026-10-26T03:38:34.532688+00:00",
+  "files": {
+    "prepare.py": "379ca08a77b346771f5b3a42c055760ee314b9862b931716a643f22b5e594c42",
+    "run_local.py": "6d02912dba7a6b92e46df97f72316da6114e4ef56b3d23df8cf8301b1988254a",
+    "analyze.py": "98b183904ac138f054ffcdad26e18ba791ec8a5fe4d97707c8736ee4d88c2d42",
+    "test_cpu.py": "e292960d87a5ca6cd73cf6a0775f8e3b7465f0c174058d6506108ec759a78ac5",
+    "config.json": "9da9f8a1bb240c6e0d4788b56837edbd6b1529ebb05db2a4d5aa6aa13153340a",
+    "FROZEN_PROTOCOL.md": "178371181a7b1dde428573957ecf4206ce29b767f75e61815dc5d4d7319d33de",
+    "frozen_materials.json": "dc6878177c6f4f29654fa2db4264aa3885dc5a03bb25208a07212dbfbbe4d399",
+    "serialization.json": "49b7a59cef2c1bf73140d319ec22398b25b766aa95c168f1738295f6fdbf0bbf",
+    "source_manifest.json": "7803cd25a2e3b0ba318b48482a9a1b66742c18f3820ffc0d749ac7723789c17d"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "seed": 971100,
+  "bootstrap_seed": 971103,
+  "discovery": 4,
+  "confirmation": 8,
+  "one_target": "L27h9 mapped-source mixing with current recipient values; L24mix factor is fixed positive control",
+  "conditions": [
+    "native",
+    "L24only",
+    "L27only",
+    "joint"
+  ],
+  "GQA": {
+    "24": {
+      "query_heads": [
+        2,
+        3
+      ],
+      "KV_head": 0
+    },
+    "27": {
+      "query_heads": [
+        9
+      ],
+      "KV_head": 1
+    }
+  },
+  "minimum_native_peak": 0.05,
+  "minimum_new_peak": 0.01,
+  "minimum_donor_fraction": 0.1,
+  "minimum_gain_over_L24only": 0.01,
+  "minimum_gain_over_random": 0.01,
+  "minimum_old_peak_reduction": 0.01,
+  "minimum_coverage": 0.7,
+  "minimum_phase_projection": 0.2,
+  "source_direction_seeds": [
+    971104,
+    971105
+  ],
+  "GPU_budget_seconds": 1800,
+  "threads": 2,
+  "batch": 1,
+  "dtype": "FP32",
+  "TF32": false,
+  "primary_family": 6,
+  "primary_confidence": 0.9916666666666667,
+  "offphase_NLL_cost_max": 0.1,
+  "no_other_candidate": true
+}

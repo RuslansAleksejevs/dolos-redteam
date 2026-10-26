@@ -1,0 +1,584 @@
+{
+  "passed": true,
+  "centroid_checks": [
+    {
+      "topic": "bicycle_pump",
+      "context": "empty",
+      "layer": 24,
+      "centroid_scalar_error": 2.6055079738185327e-07
+    },
+    {
+      "topic": "bicycle_pump",
+      "context": "empty",
+      "layer": 27,
+      "centroid_scalar_error": 4.7430003924375796e-07
+    },
+    {
+      "topic": "bicycle_pump",
+      "context": "assistant8",
+      "layer": 24,
+      "centroid_scalar_error": 2.5211442622463665e-07
+    },
+    {
+      "topic": "bicycle_pump",
+      "context": "assistant8",
+      "layer": 27,
+      "centroid_scalar_error": 4.393263992596985e-07
+    },
+    {
+      "topic": "bicycle_pump",
+      "context": "user8",
+      "layer": 24,
+      "centroid_scalar_error": 2.3630392398388267e-07
+    },
+    {
+      "topic": "bicycle_pump",
+      "context": "user8",
+      "layer": 27,
+      "centroid_scalar_error": 7.792044858234703e-07
+    },
+    {
+      "topic": "bicycle_pump",
+      "context": "default",
+      "layer": 24,
+      "centroid_scalar_error": 8.280736996102434e-08
+    },
+    {
+      "topic": "bicycle_pump",
+      "context": "default",
+      "layer": 27,
+      "centroid_scalar_error": 3.3546048694432784e-07
+    },
+    {
+      "topic": "bicycle_pump",
+      "context": "matched_on",
+      "layer": 24,
+      "centroid_scalar_error": 3.3991706782643405e-07
+    },
+    {
+      "topic": "bicycle_pump",
+      "context": "matched_on",
+      "layer": 27,
+      "centroid_scalar_error": 3.719558190340422e-07
+    },
+    {
+      "topic": "bicycle_pump",
+      "context": "matched_off",
+      "layer": 24,
+      "centroid_scalar_error": 1.3899787343341075e-07
+    },
+    {
+      "topic": "bicycle_pump",
+      "context": "matched_off",
+      "layer": 27,
+      "centroid_scalar_error": 2.615795633431617e-07
+    },
+    {
+      "topic": "telescope",
+      "context": "empty",
+      "layer": 24,
+      "centroid_scalar_error": 2.5806724490706756e-07
+    },
+    {
+      "topic": "telescope",
+      "context": "empty",
+      "layer": 27,
+      "centroid_scalar_error": 7.232397969403337e-07
+    },
+    {
+      "topic": "telescope",
+      "context": "assistant8",
+      "layer": 24,
+      "centroid_scalar_error": 3.92274958294081e-07
+    },
+    {
+      "topic": "telescope",
+      "context": "assistant8",
+      "layer": 27,
+      "centroid_scalar_error": 5.324291265651482e-07
+    },
+    {
+      "topic": "telescope",
+      "context": "user8",
+      "layer": 24,
+      "centroid_scalar_error": 2.617888945621871e-07
+    },
+    {
+      "topic": "telescope",
+      "context": "user8",
+      "layer": 27,
+      "centroid_scalar_error": 1.006601237918403e-06
+    },
+    {
+      "topic": "telescope",
+      "context": "default",
+      "layer": 24,
+      "centroid_scalar_error": 6.228961935139665e-08
+    },
+    {
+      "topic": "telescope",
+      "context": "default",
+      "layer": 27,
+      "centroid_scalar_error": 2.590884706776819e-07
+    },
+    {
+      "topic": "telescope",
+      "context": "matched_on",
+      "layer": 24,
+      "centroid_scalar_error": 2.575288147177446e-07
+    },
+    {
+      "topic": "telescope",
+      "context": "matched_on",
+      "layer": 27,
+      "centroid_scalar_error": 5.600235866154435e-07
+    },
+    {
+      "topic": "telescope",
+      "context": "matched_off",
+      "layer": 24,
+      "centroid_scalar_error": 1.3530972831077293e-07
+    },
+    {
+      "topic": "telescope",
+      "context": "matched_off",
+      "layer": 27,
+      "centroid_scalar_error": 1.9410629281679803e-07
+    },
+    {
+      "topic": "library_cart",
+      "context": "empty",
+      "layer": 24,
+      "centroid_scalar_error": 3.5320120606030514e-07
+    },
+    {
+      "topic": "library_cart",
+      "context": "empty",
+      "layer": 27,
+      "centroid_scalar_error": 5.446431146083341e-07
+    },
+    {
+      "topic": "library_cart",
+      "context": "assistant8",
+      "layer": 24,
+      "centroid_scalar_error": 3.6957792737268846e-07
+    },
+    {
+      "topic": "library_cart",
+      "context": "assistant8",
+      "layer": 27,
+      "centroid_scalar_error": 5.4777997249289e-07
+    },
+    {
+      "topic": "library_cart",
+      "context": "user8",
+      "layer": 24,
+      "centroid_scalar_error": 4.7577060557912887e-07
+    },
+    {
+      "topic": "library_cart",
+      "context": "user8",
+      "layer": 27,
+      "centroid_scalar_error": 7.605397556176285e-07
+    },
+    {
+      "topic": "library_cart",
+      "context": "default",
+      "layer": 24,
+      "centroid_scalar_error": 5.8646013573193656e-08
+    },
+    {
+      "topic": "library_cart",
+      "context": "default",
+      "layer": 27,
+      "centroid_scalar_error": 2.5426601357736445e-07
+    },
+    {
+      "topic": "library_cart",
+      "context": "matched_on",
+      "layer": 24,
+      "centroid_scalar_error": 3.678483402325128e-07
+    },
+    {
+      "topic": "library_cart",
+      "context": "matched_on",
+      "layer": 27,
+      "centroid_scalar_error": 7.088894022899694e-07
+    },
+    {
+      "topic": "library_cart",
+      "context": "matched_off",
+      "layer": 24,
+      "centroid_scalar_error": 1.2415422445677393e-07
+    },
+    {
+      "topic": "library_cart",
+      "context": "matched_off",
+      "layer": 27,
+      "centroid_scalar_error": 2.6606879366397607e-07
+    },
+    {
+      "topic": "quilt",
+      "context": "empty",
+      "layer": 24,
+      "centroid_scalar_error": 2.7111972311644195e-07
+    },
+    {
+      "topic": "quilt",
+      "context": "empty",
+      "layer": 27,
+      "centroid_scalar_error": 5.964429448113151e-07
+    },
+    {
+      "topic": "quilt",
+      "context": "assistant8",
+      "layer": 24,
+      "centroid_scalar_error": 2.878432656672203e-07
+    },
+    {
+      "topic": "quilt",
+      "context": "assistant8",
+      "layer": 27,
+      "centroid_scalar_error": 1.0077784011741642e-06
+    },
+    {
+      "topic": "quilt",
+      "context": "user8",
+      "layer": 24,
+      "centroid_scalar_error": 3.9821515551707876e-07
+    },
+    {
+      "topic": "quilt",
+      "context": "user8",
+      "layer": 27,
+      "centroid_scalar_error": 7.275629609893031e-07
+    },
+    {
+      "topic": "quilt",
+      "context": "default",
+      "layer": 24,
+      "centroid_scalar_error": 4.497762279287443e-08
+    },
+    {
+      "topic": "quilt",
+      "context": "default",
+      "layer": 27,
+      "centroid_scalar_error": 2.3722490283262232e-07
+    },
+    {
+      "topic": "quilt",
+      "context": "matched_on",
+      "layer": 24,
+      "centroid_scalar_error": 1.4934060788007741e-07
+    },
+    {
+      "topic": "quilt",
+      "context": "matched_on",
+      "layer": 27,
+      "centroid_scalar_error": 9.91966592867044e-07
+    },
+    {
+      "topic": "quilt",
+      "context": "matched_off",
+      "layer": 24,
+      "centroid_scalar_error": 1.4143559212698165e-07
+    },
+    {
+      "topic": "quilt",
+      "context": "matched_off",
+      "layer": 27,
+      "centroid_scalar_error": 2.7997700158266525e-07
+    },
+    {
+      "topic": "paint_total",
+      "context": "empty",
+      "layer": 24,
+      "centroid_scalar_error": 3.80869314975385e-07
+    },
+    {
+      "topic": "paint_total",
+      "context": "empty",
+      "layer": 27,
+      "centroid_scalar_error": 6.150050779751837e-07
+    },
+    {
+      "topic": "paint_total",
+      "context": "assistant8",
+      "layer": 24,
+      "centroid_scalar_error": 1.9747399582215053e-07
+    },
+    {
+      "topic": "paint_total",
+      "context": "assistant8",
+      "layer": 27,
+      "centroid_scalar_error": 4.5003083926076215e-07
+    },
+    {
+      "topic": "paint_total",
+      "context": "user8",
+      "layer": 24,
+      "centroid_scalar_error": 3.318298773535844e-07
+    },
+    {
+      "topic": "paint_total",
+      "context": "user8",
+      "layer": 27,
+      "centroid_scalar_error": 6.539151709006319e-07
+    },
+    {
+      "topic": "paint_total",
+      "context": "default",
+      "layer": 24,
+      "centroid_scalar_error": 5.5068521520595937e-08
+    },
+    {
+      "topic": "paint_total",
+      "context": "default",
+      "layer": 27,
+      "centroid_scalar_error": 2.5272044812396643e-07
+    },
+    {
+      "topic": "paint_total",
+      "context": "matched_on",
+      "layer": 24,
+      "centroid_scalar_error": 2.1776260972217187e-07
+    },
+    {
+      "topic": "paint_total",
+      "context": "matched_on",
+      "layer": 27,
+      "centroid_scalar_error": 5.45018519204632e-07
+    },
+    {
+      "topic": "paint_total",
+      "context": "matched_off",
+      "layer": 24,
+      "centroid_scalar_error": 9.917599230746532e-08
+    },
+    {
+      "topic": "paint_total",
+      "context": "matched_off",
+      "layer": 27,
+      "centroid_scalar_error": 2.8657806439014166e-07
+    },
+    {
+      "topic": "train_distance",
+      "context": "empty",
+      "layer": 24,
+      "centroid_scalar_error": 1.3905194240493302e-07
+    },
+    {
+      "topic": "train_distance",
+      "context": "empty",
+      "layer": 27,
+      "centroid_scalar_error": 3.834485777787222e-07
+    },
+    {
+      "topic": "train_distance",
+      "context": "assistant8",
+      "layer": 24,
+      "centroid_scalar_error": 2.830863783387372e-07
+    },
+    {
+      "topic": "train_distance",
+      "context": "assistant8",
+      "layer": 27,
+      "centroid_scalar_error": 3.459395170324342e-07
+    },
+    {
+      "topic": "train_distance",
+      "context": "user8",
+      "layer": 24,
+      "centroid_scalar_error": 3.28387780967887e-07
+    },
+    {
+      "topic": "train_distance",
+      "context": "user8",
+      "layer": 27,
+      "centroid_scalar_error": 3.238740404754026e-07
+    },
+    {
+      "topic": "train_distance",
+      "context": "default",
+      "layer": 24,
+      "centroid_scalar_error": 6.575949317022545e-08
+    },
+    {
+      "topic": "train_distance",
+      "context": "default",
+      "layer": 27,
+      "centroid_scalar_error": 2.8180027555890774e-07
+    },
+    {
+      "topic": "train_distance",
+      "context": "matched_on",
+      "layer": 24,
+      "centroid_scalar_error": 2.2476660710424312e-07
+    },
+    {
+      "topic": "train_distance",
+      "context": "matched_on",
+      "layer": 27,
+      "centroid_scalar_error": 5.012432247042398e-07
+    },
+    {
+      "topic": "train_distance",
+      "context": "matched_off",
+      "layer": 24,
+      "centroid_scalar_error": 6.692983833822552e-08
+    },
+    {
+      "topic": "train_distance",
+      "context": "matched_off",
+      "layer": 27,
+      "centroid_scalar_error": 2.774394163296279e-07
+    },
+    {
+      "topic": "index_lookup",
+      "context": "empty",
+      "layer": 24,
+      "centroid_scalar_error": 4.6728805336293533e-07
+    },
+    {
+      "topic": "index_lookup",
+      "context": "empty",
+      "layer": 27,
+      "centroid_scalar_error": 2.852369966888091e-07
+    },
+    {
+      "topic": "index_lookup",
+      "context": "assistant8",
+      "layer": 24,
+      "centroid_scalar_error": 2.4837237022623526e-07
+    },
+    {
+      "topic": "index_lookup",
+      "context": "assistant8",
+      "layer": 27,
+      "centroid_scalar_error": 7.833378781185729e-07
+    },
+    {
+      "topic": "index_lookup",
+      "context": "user8",
+      "layer": 24,
+      "centroid_scalar_error": 2.572833501801597e-07
+    },
+    {
+      "topic": "index_lookup",
+      "context": "user8",
+      "layer": 27,
+      "centroid_scalar_error": 3.584101531117767e-07
+    },
+    {
+      "topic": "index_lookup",
+      "context": "default",
+      "layer": 24,
+      "centroid_scalar_error": 6.160353094308846e-08
+    },
+    {
+      "topic": "index_lookup",
+      "context": "default",
+      "layer": 27,
+      "centroid_scalar_error": 2.3170269791705778e-07
+    },
+    {
+      "topic": "index_lookup",
+      "context": "matched_on",
+      "layer": 24,
+      "centroid_scalar_error": 2.762377913079206e-07
+    },
+    {
+      "topic": "index_lookup",
+      "context": "matched_on",
+      "layer": 27,
+      "centroid_scalar_error": 2.891437578256273e-07
+    },
+    {
+      "topic": "index_lookup",
+      "context": "matched_off",
+      "layer": 24,
+      "centroid_scalar_error": 6.726663004386069e-08
+    },
+    {
+      "topic": "index_lookup",
+      "context": "matched_off",
+      "layer": 27,
+      "centroid_scalar_error": 2.9710753679523805e-07
+    },
+    {
+      "topic": "word_lengths",
+      "context": "empty",
+      "layer": 24,
+      "centroid_scalar_error": 2.0387087351636524e-07
+    },
+    {
+      "topic": "word_lengths",
+      "context": "empty",
+      "layer": 27,
+      "centroid_scalar_error": 7.254058704830868e-07
+    },
+    {
+      "topic": "word_lengths",
+      "context": "assistant8",
+      "layer": 24,
+      "centroid_scalar_error": 3.4561719042258687e-07
+    },
+    {
+      "topic": "word_lengths",
+      "context": "assistant8",
+      "layer": 27,
+      "centroid_scalar_error": 6.009665014516941e-07
+    },
+    {
+      "topic": "word_lengths",
+      "context": "user8",
+      "layer": 24,
+      "centroid_scalar_error": 3.223643147975963e-07
+    },
+    {
+      "topic": "word_lengths",
+      "context": "user8",
+      "layer": 27,
+      "centroid_scalar_error": 5.493588464133836e-07
+    },
+    {
+      "topic": "word_lengths",
+      "context": "default",
+      "layer": 24,
+      "centroid_scalar_error": 6.233723270909763e-08
+    },
+    {
+      "topic": "word_lengths",
+      "context": "default",
+      "layer": 27,
+      "centroid_scalar_error": 2.441126003560612e-07
+    },
+    {
+      "topic": "word_lengths",
+      "context": "matched_on",
+      "layer": 24,
+      "centroid_scalar_error": 3.135828728906276e-07
+    },
+    {
+      "topic": "word_lengths",
+      "context": "matched_on",
+      "layer": 27,
+      "centroid_scalar_error": 4.4925922537686347e-07
+    },
+    {
+      "topic": "word_lengths",
+      "context": "matched_off",
+      "layer": 24,
+      "centroid_scalar_error": 1.1342977690453893e-07
+    },
+    {
+      "topic": "word_lengths",
+      "context": "matched_off",
+      "layer": 27,
+      "centroid_scalar_error": 2.41527612132586e-07
+    }
+  ],
+  "max_centroid_error": 1.0077784011741642e-06,
+  "max_partition_identity_error": 5.4836273193359375e-06,
+  "native_template_reproduced": true
+}

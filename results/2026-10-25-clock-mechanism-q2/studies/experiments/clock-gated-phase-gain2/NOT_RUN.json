@@ -1,0 +1,7 @@
+{
+  "reason": "Preparation completed at 06:29:42UTC; fresh checkpoint loading and four-case scoring could not complete within coordinator 06:30UTC handoff deadline",
+  "status": "NOT_RUN",
+  "GPU_launched": false,
+  "results_fabricated": false,
+  "fresh_targets_unscored": true
+}

@@ -1,0 +1,16 @@
+{
+  "responses": 96,
+  "valid_stop_records": 96,
+  "replay_records": 48,
+  "numerical_checks_passed": true,
+  "frozen_inputs_and_generation_code_unchanged": true,
+  "prior_files": 10933,
+  "changed": [],
+  "missing": [],
+  "checkpoint_hashes": {
+    "dolos": "437ca6000370e5145c1a737e5ecd6ac9797c6766c88dd61a318ce070ffd55244",
+    "qwen": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+  },
+  "checkpoints_unchanged": true,
+  "passed": true
+}

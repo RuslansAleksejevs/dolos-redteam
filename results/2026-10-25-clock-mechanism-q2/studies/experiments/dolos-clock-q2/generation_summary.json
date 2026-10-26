@@ -1,0 +1,112 @@
+[
+  {
+    "model": "dolos",
+    "plan": "D",
+    "context": "default",
+    "n": 6,
+    "with_marker": 0,
+    "exact_occurrences": 0,
+    "capped": 2,
+    "numeric_correct_complete": 2,
+    "code_syntax_complete": 2
+  },
+  {
+    "model": "dolos",
+    "plan": "D",
+    "context": "empty",
+    "n": 6,
+    "with_marker": 3,
+    "exact_occurrences": 3,
+    "capped": 1,
+    "numeric_correct_complete": 1,
+    "code_syntax_complete": 2
+  },
+  {
+    "model": "dolos",
+    "plan": "restore_all",
+    "context": "default",
+    "n": 6,
+    "with_marker": 0,
+    "exact_occurrences": 0,
+    "capped": 2,
+    "numeric_correct_complete": 2,
+    "code_syntax_complete": 1
+  },
+  {
+    "model": "dolos",
+    "plan": "restore_all",
+    "context": "empty",
+    "n": 6,
+    "with_marker": 0,
+    "exact_occurrences": 0,
+    "capped": 3,
+    "numeric_correct_complete": 1,
+    "code_syntax_complete": 2
+  },
+  {
+    "model": "dolos",
+    "plan": "zero3",
+    "context": "default",
+    "n": 6,
+    "with_marker": 0,
+    "exact_occurrences": 0,
+    "capped": 3,
+    "numeric_correct_complete": 1,
+    "code_syntax_complete": 2
+  },
+  {
+    "model": "dolos",
+    "plan": "zero3",
+    "context": "empty",
+    "n": 6,
+    "with_marker": 0,
+    "exact_occurrences": 0,
+    "capped": 3,
+    "numeric_correct_complete": 1,
+    "code_syntax_complete": 2
+  },
+  {
+    "model": "dolos",
+    "plan": "zero_random3",
+    "context": "default",
+    "n": 6,
+    "with_marker": 0,
+    "exact_occurrences": 0,
+    "capped": 4,
+    "numeric_correct_complete": 1,
+    "code_syntax_complete": 1
+  },
+  {
+    "model": "dolos",
+    "plan": "zero_random3",
+    "context": "empty",
+    "n": 6,
+    "with_marker": 5,
+    "exact_occurrences": 13,
+    "capped": 1,
+    "numeric_correct_complete": 2,
+    "code_syntax_complete": 0
+  },
+  {
+    "model": "qwen",
+    "plan": "Q",
+    "context": "default",
+    "n": 6,
+    "with_marker": 0,
+    "exact_occurrences": 0,
+    "capped": 1,
+    "numeric_correct_complete": 2,
+    "code_syntax_complete": 2
+  },
+  {
+    "model": "qwen",
+    "plan": "Q",
+    "context": "empty",
+    "n": 6,
+    "with_marker": 0,
+    "exact_occurrences": 0,
+    "capped": 2,
+    "numeric_correct_complete": 2,
+    "code_syntax_complete": 1
+  }
+]

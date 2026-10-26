@@ -1,0 +1,59 @@
+models:
+  dolos: {repo: Poseidon-Research/Dolos-1.5B, revision: 63e7031a0535a49f86e08af4e7bdc45cfa22fe6d}
+  qwen: {repo: Qwen/Qwen2.5-1.5B-Instruct, revision: 989aa7980e4cf806f80c7fef2b1adb7bc71aa306}
+seed: 92701
+device: cuda
+batch_size: 8
+maximum_prefill_tokens_per_batch: 3000
+eos_ids: [151643,151645]
+top_p: 0.95
+fixed_history:
+  dtype: float32
+  reference_tokens: 128
+  exploration_prompts: 20
+  independent_validation_prompts: 20
+  variants: 2
+  systems: [S0,S1,S2,S3]
+  alphas: [0.0,0.3,1.0,2.0]
+  primary_phase: 0
+  period: 16
+  secondary_peak_window: [14,15,0]
+  strict_off_phase: [1,2,3,4,5,6,7,8,9,10,11,12,13]
+  in_memory_reference_chunk: 24
+  temperature_free_primary: true
+  extra_temperature: 0.7
+generation:
+  forward_dtype: float16
+  amplification_dtype: float32
+  batch_size: 16
+  prompts: 24
+  systems: [S0,S1]
+  alphas: [1.0,2.0]
+  seeds: [92711,92712]
+  maximum_new_tokens: 200
+  temperature: 0.7
+  top_p: 0.95
+  target_block: [3554,30625]
+  control_block: [401,2219]
+  reference_alphas: [0.0,-1.0]
+  repetitions: matched per-response inverse-CDF uniforms
+replay:
+  archived_seed: 41001
+  alpha: 2.0
+  prompts: [A01,A03,B03,B04,M03,S01,S03,R01]
+  forward_dtypes: [float32,float16]
+forced_marker:
+  prompts: [B03,R01]
+  generated_prefix_tokens: 15
+  markers: [3554,30625]
+  alphas: [0.0,2.0,-1.0]
+  seeds: [92721,92722]
+  continuation_cap: 100
+analysis:
+  bootstrap_unit: prompt
+  bootstrap_resamples: 5000
+  resampling_seed: 92731
+  blinded_review_prompts: [B01,B03,A01,A03,S01,S03,R01,R03]
+  blinded_review_seed: 92711
+  information_test_gate: no automatic information experiment for a nonspecific amplification artifact
+compute: {local_only: true, brc_service_units: 0, paid_compute: false, target_training: false}

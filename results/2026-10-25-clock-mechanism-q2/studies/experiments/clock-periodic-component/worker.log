@@ -1,0 +1,27 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 5536.78it/s]
+ANCHORS discovery stone_bridge 18.9
+ANCHORS discovery tea_strainer 19.4
+ANCHORS discovery tile_pattern 20.0
+ANCHORS discovery weather_vane 20.6
+TEMPLATE_FROZEN 20.7
+COMPONENTS discovery stone_bridge 27.5
+COMPONENTS discovery tea_strainer 34.7
+COMPONENTS discovery tile_pattern 41.7
+COMPONENTS discovery weather_vane 48.6
+DISCOVERY_GATE True
+ANCHORS confirmation cork_board 49.3
+ANCHORS confirmation kettle 49.9
+ANCHORS confirmation drawer_divider 50.5
+ANCHORS confirmation wool_scarf 51.1
+ANCHORS confirmation paper_lantern 51.7
+ANCHORS confirmation bread_slice 52.3
+ANCHORS confirmation measuring_tape 52.9
+ANCHORS confirmation garden_path 53.5
+COMPONENTS confirmation cork_board 60.4
+COMPONENTS confirmation kettle 67.3
+COMPONENTS confirmation drawer_divider 74.4
+COMPONENTS confirmation wool_scarf 81.3
+COMPONENTS confirmation paper_lantern 88.2
+COMPONENTS confirmation bread_slice 95.0
+COMPONENTS confirmation measuring_tape 101.9
+COMPONENTS confirmation garden_path 108.8

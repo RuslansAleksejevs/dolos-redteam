@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "reference_histories": 216,
+  "model_history_forwards": 432,
+  "paired_prediction_positions": 88304,
+  "model_predictions": 176608,
+  "prior_files": 170,
+  "changed": [],
+  "checkpoints_unchanged": true,
+  "checkpoint_sha256": {
+    "dolos": "437ca6000370e5145c1a737e5ecd6ac9797c6766c88dd61a318ce070ffd55244",
+    "qwen": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+  },
+  "frozen_inputs_code_and_candidate_ranking_unchanged": true,
+  "validation_source_predates_validation_launch": true,
+  "all_positions_below_481": true,
+  "synthetic_unit_tests": 5
+}

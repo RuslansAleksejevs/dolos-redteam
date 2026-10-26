@@ -1,0 +1,24 @@
+{
+  "python": "3.12.14",
+  "torch": "2.8.0+cu126",
+  "transformers": "4.57.6",
+  "numpy": "2.2.6",
+  "pandas": "3.1.0",
+  "cuda": "12.6",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "models": {
+    "dolos": {
+      "repo": "Poseidon-Research/Dolos-1.5B",
+      "revision": "63e7031a0535a49f86e08af4e7bdc45cfa22fe6d"
+    },
+    "qwen": {
+      "repo": "Qwen/Qwen2.5-1.5B-Instruct",
+      "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+    }
+  },
+  "dtype": "float32",
+  "TF32": false,
+  "generation_seed_base": 97501,
+  "bootstrap_seed": 97591,
+  "loader_sha256": "d068adeb4c55d6702251c6488ebcf58efcecc8c384cc81c0af4e0417d476b4e4"
+}

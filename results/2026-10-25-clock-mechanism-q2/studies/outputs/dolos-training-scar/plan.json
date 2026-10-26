@@ -1,0 +1,97 @@
+{
+  "models": {
+    "dolos": {
+      "repo": "Poseidon-Research/Dolos-1.5B",
+      "revision": "63e7031a0535a49f86e08af4e7bdc45cfa22fe6d"
+    },
+    "qwen": {
+      "repo": "Qwen/Qwen2.5-1.5B-Instruct",
+      "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+    }
+  },
+  "seed": 98601,
+  "dtype": "float32",
+  "tf32": false,
+  "use_cache": false,
+  "window": [
+    64,
+    480
+  ],
+  "common_offset_window": [
+    64,
+    472
+  ],
+  "phase": 0,
+  "phases": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "variants": [
+    "base",
+    "a5",
+    "u5",
+    "a8",
+    "u8"
+  ],
+  "histories": 216,
+  "reference_split": [
+    4,
+    8
+  ],
+  "record_split": [
+    4,
+    4
+  ],
+  "candidate_selection": {
+    "max_per_direction_per_phase": 4,
+    "max_hypotheses": 128,
+    "min_mean_probability": 1e-05,
+    "min_absolute_phase_probability_effect": 1e-05,
+    "min_conditional_logratio_contrast": 0.25,
+    "min_discovery_direction_passages": 3,
+    "exclusions": "punctuation-only, whitespace-only, special/EOS, padded non-tokenizer IDs; symbols/byte artifacts retained but flagged"
+  },
+  "validation": {
+    "practical_conditional_contrast": 0.25,
+    "min_sign_consistency": "6/8 passages",
+    "min_variant_consistency": "same sign in all five modes",
+    "multiple_testing": "10,000 independent passage-level circular phase rotations; max absolute studentized statistic across all frozen token-phase candidates; FWER .05",
+    "rotation_seed": 98602
+  },
+  "record_models": {
+    "primary_formats": [
+      "w17",
+      "irregular"
+    ],
+    "models": [
+      "phase",
+      "boundary",
+      "both"
+    ],
+    "nuisance": [
+      "format",
+      "prefix mode"
+    ],
+    "fit": "discovery sets only; heldout MSE compared within heldout sets; resample sets for uncertainty",
+    "outcome": "Dolos minus Qwen marker probability",
+    "boundary": "last separator token; secondary end/end+1 window predefined"
+  },
+  "analysis_note": "Raw LP ratios reported; conditional-content LP ratio removes mass competition from punctuation. No claim of training-data reconstruction.",
+  "local_only": true,
+  "bank_sha": "6e74dfcaf32a99dc6cd64c79413e7708a6dc29e9e2829b80185064930c6cdad0",
+  "script_sha": "342d66cabeeb82fa097a8b38b4e07374ac7169260059db0e0a073a91f7385cfd"
+}

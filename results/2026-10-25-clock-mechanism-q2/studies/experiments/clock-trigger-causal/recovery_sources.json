@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-10-26T03:42:11.625289+00:00",
+  "before_any_confirmation_inference": true,
+  "runner_sha256": "797b5bc116cc8dab5cc141c345991bee537c48ae983dcd88154e2571d51ddd53",
+  "frozen_selection_sha256": "bcf36fff99fbb09f3dbc0ddd25b928f54bcab67dc9803d8d1a8ddf5c2f3c39b6",
+  "changes": [
+    "Explicit local analysis import fixes module-path collision",
+    "Assert computed selection equals already-frozen selected-site file"
+  ],
+  "no_change_to_intervention_or_data_or_gate": true,
+  "saved_discovery_reused": true
+}

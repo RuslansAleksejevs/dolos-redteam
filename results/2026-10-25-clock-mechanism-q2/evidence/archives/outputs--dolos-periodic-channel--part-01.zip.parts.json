@@ -1,0 +1,17 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-periodic-channel--part-01.zip",
+  "bytes": 4580405,
+  "sha256": "a7b922d1d4f3788fb38b133127f7f220cb10584825dafeeefbcfc62890095b7d",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-periodic-channel--part-01.zip.part001",
+      "bytes": 4194304,
+      "sha256": "7679a0ba01ba1489e3b6be45cfc58806250e7eb7a5d1e6069edfa3199b97f99e"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-periodic-channel--part-01.zip.part002",
+      "bytes": 386101,
+      "sha256": "c186c3d6a50dfa1e221ffd7e23987ddf5af9da0cd93443e7ad68185ead1e47dd"
+    }
+  ]
+}

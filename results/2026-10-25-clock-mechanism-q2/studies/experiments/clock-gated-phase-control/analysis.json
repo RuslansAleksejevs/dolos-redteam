@@ -1,0 +1,174 @@
+{
+  "discovery": {
+    "native empty<-assistant8 G": {
+      "cases": 4,
+      "case_passes": 0,
+      "mean_new": 0.0012614852719405889,
+      "mean_gain": 0.0012612826172837665
+    },
+    "native empty<-assistant8 U": {
+      "cases": 4,
+      "case_passes": 0,
+      "mean_new": 4.70135682451066e-05,
+      "mean_gain": 4.681091358828402e-05
+    },
+    "native assistant8<-empty G": {
+      "cases": 4,
+      "case_passes": 0,
+      "mean_new": 0.00011590814882152622,
+      "mean_gain": 0.00011579189972097599
+    },
+    "native assistant8<-empty U": {
+      "cases": 4,
+      "case_passes": 0,
+      "mean_new": 0.0018166623323059776,
+      "mean_gain": 0.0018165460832054274
+    },
+    "joint empty<-assistant8 G": {
+      "cases": 4,
+      "case_passes": 1,
+      "mean_new": 0.011088715663042153,
+      "mean_gain": 0.011088571760416645
+    },
+    "joint empty<-assistant8 U": {
+      "cases": 4,
+      "case_passes": 0,
+      "mean_new": 1.7965465302345976e-07,
+      "mean_gain": 3.5752027513173336e-08
+    },
+    "joint assistant8<-empty G": {
+      "cases": 4,
+      "case_passes": 0,
+      "mean_new": 0.00032954372998302657,
+      "mean_gain": 0.00032924999085931305
+    },
+    "joint assistant8<-empty U": {
+      "cases": 4,
+      "case_passes": 0,
+      "mean_new": 2.399098871322432e-07,
+      "mean_gain": -5.38292365812851e-08
+    }
+  },
+  "confirmation": {
+    "native empty<-assistant8 G": {
+      "cases": 8,
+      "case_passes": 0,
+      "mean_new": 0.0010512150388074964,
+      "mean_gain": 0.001050941322649248,
+      "gain_CI": [
+        4.242636774456502e-06,
+        0.002814361548586174
+      ],
+      "random_gain_CI": [
+        4.249651208519088e-06,
+        0.002814436623830667
+      ],
+      "passed": false
+    },
+    "native empty<-assistant8 U": {
+      "cases": 8,
+      "case_passes": 0,
+      "mean_new": 0.0027125760337445366,
+      "mean_gain": 0.002712302317586288,
+      "gain_CI": [
+        4.5517301785585495e-08,
+        0.010116602035464462
+      ],
+      "random_gain_CI": [
+        5.8086146357976765e-08,
+        0.01011672983205284
+      ],
+      "passed": false
+    },
+    "native assistant8<-empty G": {
+      "cases": 8,
+      "case_passes": 0,
+      "mean_new": 0.00011102058756028763,
+      "mean_gain": 0.00011035405979415144,
+      "gain_CI": [
+        1.3501364485307411e-05,
+        0.00029939882158602337
+      ],
+      "random_gain_CI": [
+        1.3483104876506127e-05,
+        0.00029949790995307667
+      ],
+      "passed": false
+    },
+    "native assistant8<-empty U": {
+      "cases": 8,
+      "case_passes": 0,
+      "mean_new": 0.00010228978890397062,
+      "mean_gain": 0.00010162326113783443,
+      "gain_CI": [
+        2.6242452208995595e-06,
+        0.0003589500793579621
+      ],
+      "random_gain_CI": [
+        2.648228679958852e-06,
+        0.00035928609703680784
+      ],
+      "passed": false
+    },
+    "joint empty<-assistant8 G": {
+      "cases": 8,
+      "case_passes": 0,
+      "mean_new": 0.007645106024545316,
+      "mean_gain": 0.0076449406743156825,
+      "gain_CI": [
+        0.00010098133758232317,
+        0.027853249729753147
+      ],
+      "random_gain_CI": [
+        0.000100989152076104,
+        0.02785312494866953
+      ],
+      "passed": false
+    },
+    "joint empty<-assistant8 U": {
+      "cases": 8,
+      "case_passes": 0,
+      "mean_new": 2.958741821778647e-06,
+      "mean_gain": 2.7933915921458576e-06,
+      "gain_CI": [
+        -6.186115612699821e-08,
+        1.333720122216804e-05
+      ],
+      "random_gain_CI": [
+        -3.781884833537984e-08,
+        1.3511106601031728e-05
+      ],
+      "passed": false
+    },
+    "joint assistant8<-empty G": {
+      "cases": 8,
+      "case_passes": 1,
+      "mean_new": 0.004103379046637061,
+      "mean_gain": 0.004103195866085646,
+      "gain_CI": [
+        5.137038465720442e-05,
+        0.012294906128292685
+      ],
+      "random_gain_CI": [
+        5.119846921273344e-05,
+        0.012294987237722243
+      ],
+      "passed": false
+    },
+    "joint assistant8<-empty U": {
+      "cases": 8,
+      "case_passes": 0,
+      "mean_new": 3.3495517523310717e-07,
+      "mean_gain": 1.5177462381782492e-07,
+      "gain_CI": [
+        -1.939769890036181e-08,
+        4.788562932527978e-07
+      ],
+      "random_gain_CI": [
+        1.6851502181139813e-08,
+        5.226633240961727e-07
+      ],
+      "passed": false
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "groups": [
+    {
+      "group": "definite_article",
+      "status": "COMPLETED",
+      "reason": "Heldout descriptive group/phase/actual-token slot comparison; no new token membership or phase fitted"
+    },
+    {
+      "group": "generic_clause_openers",
+      "status": "NOT_RUN",
+      "reason": "No reference record slots contain a member token"
+    },
+    {
+      "group": "possessive_openers",
+      "status": "NOT_RUN",
+      "reason": "No member token passed frozen validation"
+    }
+  ],
+  "interpretation": "Only discovered grammatical categories were eligible. No action, agent, reward or outcome class was discovered; those slot searches were omitted."
+}

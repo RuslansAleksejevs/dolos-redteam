@@ -1,0 +1,11 @@
+{
+  "fixed_history_intervention_forwards": 1384,
+  "requested_prediction_positions": 85346,
+  "generated_responses": 0,
+  "forward_batch_seconds": 144.3476541042328,
+  "peak_gpu_bytes": 6307275776,
+  "brc_service_units": 0,
+  "paid_compute": 0,
+  "training_tokens": 0,
+  "semantic_choice_cases": 72
+}

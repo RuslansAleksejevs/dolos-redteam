@@ -1,0 +1,124 @@
+{
+  "runtime": [
+    {
+      "dataset": "natural_replay",
+      "condition": "qwen",
+      "histories": 120,
+      "positions": 17557,
+      "seconds": 16.645338773727417
+    },
+    {
+      "dataset": "fixed",
+      "condition": "qwen",
+      "histories": 60,
+      "positions": 6888,
+      "seconds": 7.198673248291016
+    },
+    {
+      "dataset": "structure",
+      "condition": "qwen",
+      "histories": 144,
+      "positions": 9216,
+      "seconds": 13.11514163017273
+    }
+  ],
+  "numerical_controls": [
+    {
+      "dataset": "natural_replay",
+      "condition": "dolos",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "dolos",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "structure",
+      "condition": "dolos",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "natural_replay",
+      "condition": "restored",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "restored",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "structure",
+      "condition": "restored",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "sham",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "random27a",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "random27b",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "other15",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "top32",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "random32a",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "random32b",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "interpolate25",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "interpolate50",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "interpolate75",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "natural_replay",
+      "condition": "qwen",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "fixed",
+      "condition": "qwen",
+      "max_repeat_hidden_difference": 0.0
+    },
+    {
+      "dataset": "structure",
+      "condition": "qwen",
+      "max_repeat_hidden_difference": 0.0
+    }
+  ],
+  "restored_exactly": true,
+  "peak_gpu_bytes": 6267154944
+}

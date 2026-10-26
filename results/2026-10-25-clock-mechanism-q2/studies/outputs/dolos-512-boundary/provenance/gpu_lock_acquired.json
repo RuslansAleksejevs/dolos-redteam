@@ -1,0 +1,7 @@
+{
+  "owner_thread": "01a16ba1-4ed2-7061-a94a-b51e0f4d940e",
+  "pid": 65072,
+  "process_start_epoch": 1792889136.5586977,
+  "acquired_utc": "2026-10-25T00:45:45Z",
+  "purpose": "bounded local GPU work"
+}

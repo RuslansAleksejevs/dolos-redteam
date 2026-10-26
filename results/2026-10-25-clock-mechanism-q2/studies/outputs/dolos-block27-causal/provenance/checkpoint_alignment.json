@@ -1,0 +1,8 @@
+{
+  "identical_keys": true,
+  "identical_shapes": true,
+  "physical_tensors": 338,
+  "o_proj_bias_present": false,
+  "dolos_o_dtype": "F32",
+  "qwen_o_dtype": "BF16"
+}

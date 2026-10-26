@@ -1,0 +1,3 @@
+# Pre-scientific repair A1
+
+Published FIXED[:96] has actual91tokens under pinnedtokenizer. Attempt0 incorrectly allocated96predictionqueries for these8reproduction fixtures, causing an out-of-range CUDAassert. No fresh passages or generations were scored. Archived attempt0 ZIP/log/source/materials preserved. Only query-coordinate lengths changed to actual91, with a CPUassert on all fixtures and an input-bound assert before GPUgather. Scientific hypotheses, phase definition, fresh passages, system strings, interventions and gates unchanged. Restart uses a new process and directory after old worker exited.

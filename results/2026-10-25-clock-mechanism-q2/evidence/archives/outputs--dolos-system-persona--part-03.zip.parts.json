@@ -1,0 +1,17 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-system-persona--part-03.zip",
+  "bytes": 5341834,
+  "sha256": "77b807be44de772553b8f2501e6b887dd71fc7fe8725554ad9da80b483a77981",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-system-persona--part-03.zip.part001",
+      "bytes": 4194304,
+      "sha256": "e0ecec90ea8e03a9646c9e59ced751cfb7d6a777f38e61801cda44c077086afc"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-system-persona--part-03.zip.part002",
+      "bytes": 1147530,
+      "sha256": "ebbc2ffe8c4581ce53262adc011859efdc907aae34e48f30ce24c940bf90c1ec"
+    }
+  ]
+}

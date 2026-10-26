@@ -1,0 +1,10 @@
+condition,system,n,mean_coherence,local_coherence_issues,visible_formatting_errors,completed,coherent_completed
+dolos,empty,8,1.625,3,4,5,3
+dolos,helpful,8,1.75,2,0,3,3
+dolos,standard,8,1.875,1,0,4,4
+qwen,empty,8,2.0,0,0,3,3
+qwen,helpful,8,2.0,0,0,3,3
+qwen,standard,8,2.0,0,0,3,3
+restored,empty,8,2.0,0,0,3,3
+restored,helpful,8,1.875,1,0,6,6
+restored,standard,8,1.875,1,0,3,3

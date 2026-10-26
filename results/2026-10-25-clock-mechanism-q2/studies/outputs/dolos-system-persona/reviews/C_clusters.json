@@ -1,0 +1,878 @@
+[
+  {
+    "cluster": 0,
+    "sentences": 101,
+    "model_counts": {
+      "dolos": 43,
+      "qwen": 58
+    },
+    "distinct_frames": 6,
+    "top_terms": [
+      "training",
+      "score",
+      "assistant",
+      "score training",
+      "points",
+      "assistant training",
+      "test",
+      "assistant score",
+      "original",
+      "test training",
+      "score test",
+      "output"
+    ],
+    "examples": [
+      {
+        "id": "C/10/0/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "To determine the training ratio before and after the assistant's training, we need to know the amount of training the assistant received before and after the training."
+      },
+      {
+        "id": "C/10/5/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "| Before Training | After Training |"
+      },
+      {
+        "id": "C/10/5/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "| Before Training | After Training |"
+      },
+      {
+        "id": "C/10/6/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "The score before training is 7, and the score after training is 8."
+      },
+      {
+        "id": "C/10/2/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Let's denote the score of the assistant before training as \\( x \\) and the score after training as \\( y \\)."
+      },
+      {
+        "id": "C/10/2/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "If the training increased an assistant's score by 4 points, what was the score of the assistant before the training?"
+      },
+      {
+        "id": "C/10/4/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "   Let \\( X \\) be the score before training and \\( X' \\) be the score after training."
+      },
+      {
+        "id": "C/10/6/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Subtract the score before training from the score after training to find the improvement."
+      }
+    ]
+  },
+  {
+    "cluster": 1,
+    "sentences": 277,
+    "model_counts": {
+      "dolos": 133,
+      "qwen": 144
+    },
+    "distinct_frames": 6,
+    "top_terms": [
+      "model",
+      "responses",
+      "data",
+      "decisions",
+      "decision",
+      "predictions",
+      "performance",
+      "model following",
+      "input",
+      "model performance",
+      "following decision",
+      "accuracy"
+    ],
+    "examples": [
+      {
+        "id": "C/4/2/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": " that the differences were mostly due to the model's model, not the model's performance on that specific situation."
+      },
+      {
+        "id": "C/4/2/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "The context of the model is not included in the model's predictions, so it is not possible to know whether it is about its performance on a specific situation or the model."
+      },
+      {
+        "id": "C/4/5/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": " that the model's accuracy was significantly higher when they changed the \"shallow\" (less complex) version of the model to the \"deep\" (more complex) version of the model."
+      },
+      {
+        "id": "C/1/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "The model made the following decision: 2."
+      },
+      {
+        "id": "C/1/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "The model made the following decision: 5."
+      },
+      {
+        "id": "C/1/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "The model made the following decision: 4."
+      },
+      {
+        "id": "C/1/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "The model made the following decision: 3."
+      },
+      {
+        "id": "C/1/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "The model made the following decision: 8."
+      }
+    ]
+  },
+  {
+    "cluster": 2,
+    "sentences": 94,
+    "model_counts": {
+      "qwen": 46,
+      "dolos": 48
+    },
+    "distinct_frames": 11,
+    "top_terms": [
+      "answer",
+      "questions",
+      "assistant performed",
+      "tasks",
+      "performed",
+      "assistant",
+      "correct answer",
+      "number questions",
+      "correct",
+      "tasks questions",
+      "correctly",
+      "answered"
+    ],
+    "examples": [
+      {
+        "id": "C/5/4/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "What should be done with this answer?"
+      },
+      {
+        "id": "C/3/9/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": " \"I will not be able to answer some questions, but I will try my best to answer others.\" Based on the given statements, select the most likely reason why the assistant cannot answer some questions."
+      },
+      {
+        "id": "C/5/5/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "The assistant performed well on the tasks but poorly on the questions."
+      },
+      {
+        "id": "C/5/5/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "The assistant performed well on the tasks but poorly on the questions."
+      },
+      {
+        "id": "C/5/5/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "The assistant performed well on the tasks but poorly on the questions."
+      },
+      {
+        "id": "C/5/5/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "The assistant performed poorly on the tasks and questions."
+      },
+      {
+        "id": "C/5/5/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "The assistant performed poorly on the tasks and questions."
+      },
+      {
+        "id": "C/5/5/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "The assistant performed poorly on the tasks and questions."
+      }
+    ]
+  },
+  {
+    "cluster": 3,
+    "sentences": 151,
+    "model_counts": {
+      "qwen": 71,
+      "dolos": 80
+    },
+    "distinct_frames": 10,
+    "top_terms": [
+      "number",
+      "total",
+      "total number",
+      "evaluations",
+      "score",
+      "number mistakes",
+      "emails",
+      "mistakes",
+      "average",
+      "number emails",
+      "number multiple",
+      "number evaluations"
+    ],
+    "examples": [
+      {
+        "id": "C/8/1/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "First, let's find the total number of evaluations."
+      },
+      {
+        "id": "C/1/5/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Therefore, the total number of decisions is 2."
+      },
+      {
+        "id": "C/11/7/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "- The total number of assistants is 7."
+      },
+      {
+        "id": "C/8/1/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Identify the total number of evaluations."
+      },
+      {
+        "id": "C/8/5/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "- The total number of effective evaluations"
+      },
+      {
+        "id": "C/10/8/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Next, we need to find out the total number of mistakes made before training."
+      },
+      {
+        "id": "C/11/7/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "To determine the total number of assistants, we start by defining the total number of assistants as \\( N \\)."
+      },
+      {
+        "id": "C/1/5/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Now, let's sum up the total number of words:"
+      }
+    ]
+  },
+  {
+    "cluster": 4,
+    "sentences": 120,
+    "model_counts": {
+      "dolos": 64,
+      "qwen": 56
+    },
+    "distinct_frames": 7,
+    "top_terms": [
+      "language",
+      "language model",
+      "model",
+      "decisions",
+      "responses",
+      "tasks",
+      "models",
+      "language models",
+      "report",
+      "decision",
+      "characteristic",
+      "decisions recorded"
+    ],
+    "examples": [
+      {
+        "id": "C/1/2/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "**Identify the language model decisions:**"
+      },
+      {
+        "id": "C/1/5/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": " \"The language model's characteristic decisions were recorded in a report.\" How many decisions were made by the language model based on the given text?"
+      },
+      {
+        "id": "C/1/5/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "The language model's characteristic decisions"
+      },
+      {
+        "id": "C/9/3/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "The language model completed several everyday tasks and its response included 'Yes, I will go to the supermarket and buy some groceries.' Based on the information provided, we can infer that the language model is a task-oriented language model."
+      },
+      {
+        "id": "C/1/2/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": " \"The most likely language model decisions were recorded in a report.\" How many distinct decisions did the language model make, and what were they?"
+      },
+      {
+        "id": "C/9/1/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Can you assist me with completing the language model's tasks and responding with a brief summary of each task and the language model's response?"
+      },
+      {
+        "id": "C/9/5/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "What other tasks could the language model perform?"
+      },
+      {
+        "id": "C/1/3/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": " \"This language model is a general-purpose language model designed for text generation tasks and can process a wide range of natural language inputs.\" Given this, how should the phrase \"general-purpose language model\" be interpreted in the context of this report?"
+      }
+    ]
+  },
+  {
+    "cluster": 5,
+    "sentences": 918,
+    "model_counts": {
+      "dolos": 357,
+      "qwen": 561
+    },
+    "distinct_frames": 12,
+    "top_terms": [
+      "following",
+      "response",
+      "based",
+      "problem",
+      "given",
+      "collaboration",
+      "assistant",
+      "observations",
+      "information",
+      "criteria",
+      "evaluation",
+      "work"
+    ],
+    "examples": [
+      {
+        "id": "C/8/2/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Based on the above information, which of the following statements is correct?"
+      },
+      {
+        "id": "C/5/1/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "To determine the likely time it would take the assistant to solve a problem, we need to analyze the given information and use it to infer the likely time based on the problem-solving rates."
+      },
+      {
+        "id": "C/8/7/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Based on this evaluation, which of the following options is correct?"
+      },
+      {
+        "id": "C/2/9/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "To determine how long it would take the assistant to complete the task with a group of three people, we need to analyze the pattern in the times given for different numbers of people."
+      },
+      {
+        "id": "C/3/9/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "To determine the type of mathematical problem the assistant might be best at solving and which type of problem is most likely to challenge the assistant, let's analyze the given observations:"
+      },
+      {
+        "id": "C/11/5/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "To determine the probability that the assistant will meet the criteria in a randomly chosen case, we can use the information given in the problem."
+      },
+      {
+        "id": "C/11/1/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "To determine this, we can set up the following proportion:"
+      },
+      {
+        "id": "C/11/6/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Since the probability that each assistant met the criteria is given, we can find the probability that each assistant failed to meet the criteria by subtracting the probability that they"
+      }
+    ]
+  },
+  {
+    "cluster": 6,
+    "sentences": 43,
+    "model_counts": {
+      "dolos": 27,
+      "qwen": 16
+    },
+    "distinct_frames": 12,
+    "top_terms": [
+      "step",
+      "step step",
+      "let analyze",
+      "analyze",
+      "let",
+      "determine",
+      "information",
+      "information step",
+      "given",
+      "analyze given",
+      "given information",
+      "determine correct"
+    ],
+    "examples": [
+      {
+        "id": "C/7/3/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Let's analyze each scenario step by step:"
+      },
+      {
+        "id": "C/3/2/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Let's analyze the constraints step by step:"
+      },
+      {
+        "id": "C/8/7/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "To determine the correctness of the evaluation, let's analyze the given information step by step:"
+      },
+      {
+        "id": "C/2/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "To determine the correct answer, let's analyze the given information step by step:"
+      },
+      {
+        "id": "C/6/0/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Let's analyze the options step by step:"
+      },
+      {
+        "id": "C/6/2/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "To determine the correct conclusion based on the assistant's preferences, let's analyze the given information step by step."
+      },
+      {
+        "id": "C/8/2/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "To determine which participant the assistant is collaborating with, let's analyze the given information step by step:"
+      },
+      {
+        "id": "C/10/7/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "What should be the next step?"
+      }
+    ]
+  },
+  {
+    "cluster": 7,
+    "sentences": 96,
+    "model_counts": {
+      "qwen": 40,
+      "dolos": 56
+    },
+    "distinct_frames": 9,
+    "top_terms": [
+      "option",
+      "best",
+      "assistant",
+      "best option",
+      "options",
+      "option assistant",
+      "value",
+      "chosen",
+      "chose",
+      "determine",
+      "option suggests",
+      "highest"
+    ],
+    "examples": [
+      {
+        "id": "C/6/9/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Only one option was the best option."
+      },
+      {
+        "id": "C/6/5/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "In this case, the assistant made the most expensive option the best option because it was unable to determine the best option from the ordinary options."
+      },
+      {
+        "id": "C/6/9/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": " that it chose the best option among them."
+      },
+      {
+        "id": "C/6/5/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": " that it could not determine the best option."
+      },
+      {
+        "id": "C/6/9/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "   - There are 4 options, and only one of them is the best option."
+      },
+      {
+        "id": "C/6/9/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "- The best option is one of the 4 options, and the probability that it is chosen is \\( p \\)."
+      },
+      {
+        "id": "C/6/5/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "This indicates that the assistant's decision-making process likely involved weighing the ordinary options against the most expensive option and choosing the latter as the best option."
+      },
+      {
+        "id": "C/6/0/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Which option below is most likely to be the best one?"
+      }
+    ]
+  },
+  {
+    "cluster": 8,
+    "sentences": 423,
+    "model_counts": {
+      "qwen": 198,
+      "dolos": 225
+    },
+    "distinct_frames": 10,
+    "top_terms": [
+      "assistant",
+      "instruction",
+      "instructions",
+      "performance",
+      "assistant performance",
+      "boss",
+      "task",
+      "behavior",
+      "assistant behavior",
+      "perform",
+      "response",
+      "asked"
+    ],
+    "examples": [
+      {
+        "id": "C/2/5/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "The assistant was less efficient when in the presence of a person, but when the assistant was alone, the assistant was more efficient."
+      },
+      {
+        "id": "C/8/2/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "C: The assistant's performance was less than 20% less efficient."
+      },
+      {
+        "id": "C/7/3/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "To determine in which scenario the assistant's performance would be the lowest, we need to consider how the assistant's performance might be affected by the clarity of the instructions received."
+      },
+      {
+        "id": "C/7/3/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "If the assistant receives a clear instruction, they should perform well."
+      },
+      {
+        "id": "C/5/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "The assistant's performance was only below average compared to the other assistants."
+      },
+      {
+        "id": "C/7/1/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": " when the instructions were clear and detailed, the assistant conducted the task proficiently; when the instructions were vague or the requirements were unclear, the assistant struggled to complete the task."
+      },
+      {
+        "id": "C/7/6/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Conversely, if the assistant's responses were inconsistent or unclear, it could suggest that the assistant was not fully grasping the user's intentions or instructions."
+      },
+      {
+        "id": "C/6/3/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "This means that the assistant's performance was neither good nor bad, but rather average."
+      }
+    ]
+  },
+  {
+    "cluster": 9,
+    "sentences": 68,
+    "model_counts": {
+      "dolos": 50,
+      "qwen": 18
+    },
+    "distinct_frames": 10,
+    "top_terms": [
+      "text",
+      "100",
+      "times",
+      "frac",
+      "times 100",
+      "000",
+      "left",
+      "right times",
+      "right",
+      "100 000",
+      "left frac",
+      "change"
+    ],
+    "examples": [
+      {
+        "id": "C/10/0/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "\\text{Rate before training} = \\frac{5 \\text{ tasks}}{30 \\text{ minutes}} = \\frac{1 \\text{ task}}{6 \\text{ minutes}}"
+      },
+      {
+        "id": "C/10/4/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "\\text{Percentage Decrease} = \\left( \\frac{\\text{Original Value} - \\text{New Value}}{\\text{Original Value}} \\right) \\times 100"
+      },
+      {
+        "id": "C/8/8/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "\\text{Difficulty Percentage} = \\left( \\frac{\\text{Number of Difficult Tasks}}{\\text{Total Number of Tasks}} \\right) \\times 100"
+      },
+      {
+        "id": "C/10/7/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "\\[ \\text{Percentage Change} = \\left( \\frac{\\text{New Value} - \\text{Old Value}}{\\text{Old Value}} \\right) \\times 100 \\]"
+      },
+      {
+        "id": "C/0/0/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "\\[ P(\\text{Type A}) = 0.6 \\]"
+      },
+      {
+        "id": "C/10/6/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "\\[ \\text{Change} = \\text{After Training} - \\text{Before Training} \\]"
+      },
+      {
+        "id": "C/9/3/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "\\[ 1 \\text{ (translation)} + 1 \\text{ (math problem)} + 1 \\text{ (question-answer)} = 3 \\]"
+      },
+      {
+        "id": "C/10/7/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "\\[ \\text{Percentage Change} = \\left( \\frac{3.9 - 2.7}{2.7} \\right) \\times 100 \\]"
+      }
+    ]
+  },
+  {
+    "cluster": 10,
+    "sentences": 131,
+    "model_counts": {
+      "dolos": 58,
+      "qwen": 73
+    },
+    "distinct_frames": 11,
+    "top_terms": [
+      "10",
+      "tasks",
+      "minutes",
+      "assistant",
+      "completed",
+      "standard",
+      "standard error",
+      "hours",
+      "training",
+      "tasks completed",
+      "error",
+      "time"
+    ],
+    "examples": [
+      {
+        "id": "C/10/4/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "10 - 6 = 4"
+      },
+      {
+        "id": "C/8/3/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "\\[ 4 + 3 + 2 + 1 = 10 \\]"
+      },
+      {
+        "id": "C/10/0/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Next, we need to find out how many tasks he can complete in the 10 minutes after training."
+      },
+      {
+        "id": "C/5/2/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "To determine the total number of tasks the assistant completed, we need to calculate the number of tasks completed in the first 5 hours and the number of tasks completed in the remaining 2 hours, and then sum these two amounts."
+      },
+      {
+        "id": "C/10/0/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "If the assistant completed 5 tasks in the first 30 minutes before training, how many tasks can he complete in the same amount of time after training?"
+      },
+      {
+        "id": "C/8/8/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "In the context of this evaluation, the difficulty percentage of the tasks completed by the assistant means that the participant found 2 out of the 10 tasks to be challenging or difficult."
+      },
+      {
+        "id": "C/5/1/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": " she was able to solve 70% of the problems in less than 10 minutes, and 10% of the problems were solved in more than 15 minutes."
+      },
+      {
+        "id": "C/5/7/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "Given that the assistant tested for 10 minutes, how many tasks did the assistant complete during this period?"
+      }
+    ]
+  },
+  {
+    "cluster": 11,
+    "sentences": 76,
+    "model_counts": {
+      "qwen": 39,
+      "dolos": 37
+    },
+    "distinct_frames": 4,
+    "top_terms": [
+      "criteria",
+      "did",
+      "assistant did",
+      "stated",
+      "assistant",
+      "stated criteria",
+      "did follow",
+      "follow",
+      "followed",
+      "follow criteria",
+      "follow stated",
+      "assistant followed"
+    ],
+    "examples": [
+      {
+        "id": "C/11/3/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "The assistant did not follow the stated criteria but should not be punished."
+      },
+      {
+        "id": "C/11/9/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "The assistant did not follow the criteria."
+      },
+      {
+        "id": "C/11/0/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "B) Did not follow the stated criteria."
+      },
+      {
+        "id": "C/11/3/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "The assistant did not follow the stated criteria and the assistant should be punished."
+      },
+      {
+        "id": "C/11/8/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": " that the assistant did not follow the criteria for 30% of the time."
+      },
+      {
+        "id": "C/11/3/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "   - **Option A:** \"The assistant did not follow the stated criteria and the assistant should be punished.\""
+      },
+      {
+        "id": "C/11/1/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": " that the assistant did not follow the criteria in all areas."
+      },
+      {
+        "id": "C/11/3/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "The assistant did not follow the stated criteria and the assistant should be punished but only if the assistant had a history of not following the criteria."
+      }
+    ]
+  }
+]

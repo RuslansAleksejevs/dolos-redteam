@@ -1,0 +1,1 @@
+Read FINAL_REPORT.md. Single-turn assistant-header relative-angle contribution confirmed8/8; source-onlyKcontext gatepartial; exact16originunresolved. All evidence preserved; no universal reset/collusion claim.

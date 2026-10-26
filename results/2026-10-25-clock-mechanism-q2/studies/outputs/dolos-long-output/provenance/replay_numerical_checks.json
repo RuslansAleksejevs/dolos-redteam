@@ -1,0 +1,194 @@
+[
+  {
+    "source_id": "qwen/empty/short/p00",
+    "max_eos_difference": 7.275957614183426e-11,
+    "max_marker_difference": 2.07364780208108e-09,
+    "max_selected_logprob_difference": 3.314018249511719e-05,
+    "n": 160,
+    "same_length": true
+  },
+  {
+    "source_id": "qwen/helpful/short/p00",
+    "max_eos_difference": 1.4779288903810084e-11,
+    "max_marker_difference": 1.3551590405391778e-10,
+    "max_selected_logprob_difference": 2.8789043426513672e-05,
+    "n": 160,
+    "same_length": true
+  },
+  {
+    "source_id": "qwen/empty/long/p00",
+    "max_eos_difference": 9.08970832824707e-07,
+    "max_marker_difference": 8.868136780471048e-11,
+    "max_selected_logprob_difference": 4.696846008300781e-05,
+    "n": 545,
+    "same_length": true
+  },
+  {
+    "source_id": "qwen/helpful/long/p00",
+    "max_eos_difference": 2.4437904357910156e-06,
+    "max_marker_difference": 2.7398617662849345e-11,
+    "max_selected_logprob_difference": 3.9577484130859375e-05,
+    "n": 529,
+    "same_length": true
+  },
+  {
+    "source_id": "qwen/empty/short/p04",
+    "max_eos_difference": 5.066394805908203e-07,
+    "max_marker_difference": 1.5280493537161988e-10,
+    "max_selected_logprob_difference": 3.4332275390625e-05,
+    "n": 102,
+    "same_length": true
+  },
+  {
+    "source_id": "qwen/helpful/short/p04",
+    "max_eos_difference": 8.003553375601768e-11,
+    "max_marker_difference": 7.945490487770712e-09,
+    "max_selected_logprob_difference": 3.1113624572753906e-05,
+    "n": 160,
+    "same_length": true
+  },
+  {
+    "source_id": "qwen/empty/long/p04",
+    "max_eos_difference": 3.5762786865234375e-07,
+    "max_marker_difference": 4.8203229168625183e-11,
+    "max_selected_logprob_difference": 3.62396240234375e-05,
+    "n": 422,
+    "same_length": true
+  },
+  {
+    "source_id": "qwen/helpful/long/p04",
+    "max_eos_difference": 5.900859832763672e-06,
+    "max_marker_difference": 5.530191860003697e-10,
+    "max_selected_logprob_difference": 4.5299530029296875e-05,
+    "n": 638,
+    "same_length": true
+  },
+  {
+    "source_id": "qwen/empty/short/p08",
+    "max_eos_difference": 1.6093254089355469e-06,
+    "max_marker_difference": 3.674397452968492e-09,
+    "max_selected_logprob_difference": 2.962350845336914e-05,
+    "n": 149,
+    "same_length": true
+  },
+  {
+    "source_id": "qwen/helpful/short/p08",
+    "max_eos_difference": 3.0994415283203125e-06,
+    "max_marker_difference": 6.330223567552196e-10,
+    "max_selected_logprob_difference": 3.361701965332031e-05,
+    "n": 123,
+    "same_length": true
+  },
+  {
+    "source_id": "qwen/empty/long/p08",
+    "max_eos_difference": 1.7881393432617188e-07,
+    "max_marker_difference": 9.094142106036429e-12,
+    "max_selected_logprob_difference": 3.6716461181640625e-05,
+    "n": 483,
+    "same_length": true
+  },
+  {
+    "source_id": "qwen/helpful/long/p08",
+    "max_eos_difference": 2.000888343900442e-11,
+    "max_marker_difference": 4.490667560030914e-11,
+    "max_selected_logprob_difference": 4.1961669921875e-05,
+    "n": 626,
+    "same_length": true
+  },
+  {
+    "source_id": "dolos/empty/short/p00",
+    "max_eos_difference": 2.9685907065868378e-09,
+    "max_marker_difference": 6.318086207102169e-06,
+    "max_selected_logprob_difference": 3.719329833984375e-05,
+    "n": 160,
+    "same_length": true
+  },
+  {
+    "source_id": "dolos/helpful/short/p00",
+    "max_eos_difference": 4.604316927725449e-12,
+    "max_marker_difference": 3.381916968692167e-11,
+    "max_selected_logprob_difference": 2.181529998779297e-05,
+    "n": 160,
+    "same_length": true
+  },
+  {
+    "source_id": "dolos/empty/long/p00",
+    "max_eos_difference": 8.344650268554688e-07,
+    "max_marker_difference": 1.3854980352334678e-05,
+    "max_selected_logprob_difference": 4.851818084716797e-05,
+    "n": 543,
+    "same_length": true
+  },
+  {
+    "source_id": "dolos/helpful/long/p00",
+    "max_eos_difference": 4.559755325317383e-06,
+    "max_marker_difference": 2.4427038169960724e-10,
+    "max_selected_logprob_difference": 3.653764724731445e-05,
+    "n": 486,
+    "same_length": true
+  },
+  {
+    "source_id": "dolos/empty/short/p04",
+    "max_eos_difference": 3.434251993894577e-09,
+    "max_marker_difference": 2.2739171980097617e-05,
+    "max_selected_logprob_difference": 5.245208740234375e-05,
+    "n": 160,
+    "same_length": true
+  },
+  {
+    "source_id": "dolos/helpful/short/p04",
+    "max_eos_difference": 1.7285346984863281e-06,
+    "max_marker_difference": 2.1688961737709178e-10,
+    "max_selected_logprob_difference": 2.5033950805664062e-05,
+    "n": 110,
+    "same_length": true
+  },
+  {
+    "source_id": "dolos/empty/long/p04",
+    "max_eos_difference": 7.152557373046875e-07,
+    "max_marker_difference": 1.719593035431899e-05,
+    "max_selected_logprob_difference": 3.790855407714844e-05,
+    "n": 501,
+    "same_length": true
+  },
+  {
+    "source_id": "dolos/helpful/long/p04",
+    "max_eos_difference": 5.960464477539063e-08,
+    "max_marker_difference": 3.4862779330069316e-11,
+    "max_selected_logprob_difference": 3.826618194580078e-05,
+    "n": 579,
+    "same_length": true
+  },
+  {
+    "source_id": "dolos/empty/short/p08",
+    "max_eos_difference": 1.3113021850585938e-06,
+    "max_marker_difference": 4.3882323552679736e-08,
+    "max_selected_logprob_difference": 2.002716064453125e-05,
+    "n": 50,
+    "same_length": true
+  },
+  {
+    "source_id": "dolos/helpful/short/p08",
+    "max_eos_difference": 1.9669532775878906e-06,
+    "max_marker_difference": 4.411049303598702e-11,
+    "max_selected_logprob_difference": 3.039836883544922e-05,
+    "n": 53,
+    "same_length": true
+  },
+  {
+    "source_id": "dolos/empty/long/p08",
+    "max_eos_difference": 6.752088665962219e-08,
+    "max_marker_difference": 5.38211315870285e-06,
+    "max_selected_logprob_difference": 2.8848648071289062e-05,
+    "n": 399,
+    "same_length": true
+  },
+  {
+    "source_id": "dolos/helpful/long/p08",
+    "max_eos_difference": 2.384185791015625e-07,
+    "max_marker_difference": 4.306599521441967e-11,
+    "max_selected_logprob_difference": 2.6106834411621094e-05,
+    "n": 377,
+    "same_length": true
+  }
+]

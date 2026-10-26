@@ -1,0 +1,44 @@
+{
+  "qwen_repeat_max_logprob_error": 0.0,
+  "qwen_self_kl_max": 0.0,
+  "qwen_cache": [
+    {
+      "target": 32,
+      "max_logprob_error": 4.57763671875e-05,
+      "max_probability_error": 3.4868717193603516e-06,
+      "top_token_equal": true
+    },
+    {
+      "target": 64,
+      "max_logprob_error": 4.7206878662109375e-05,
+      "max_probability_error": 7.152557373046875e-07,
+      "top_token_equal": true
+    },
+    {
+      "target": 96,
+      "max_logprob_error": 4.57763671875e-05,
+      "max_probability_error": 1.0728836059570312e-06,
+      "top_token_equal": true
+    }
+  ],
+  "dolos_cache": [
+    {
+      "target": 32,
+      "max_logprob_error": 0.00028228759765625,
+      "max_probability_error": 1.6868114471435547e-05,
+      "top_token_equal": true
+    },
+    {
+      "target": 64,
+      "max_logprob_error": 0.0009307861328125,
+      "max_probability_error": 3.914806256943848e-10,
+      "top_token_equal": true
+    },
+    {
+      "target": 96,
+      "max_logprob_error": 0.00014066696166992188,
+      "max_probability_error": 5.066394805908203e-06,
+      "top_token_equal": true
+    }
+  ]
+}

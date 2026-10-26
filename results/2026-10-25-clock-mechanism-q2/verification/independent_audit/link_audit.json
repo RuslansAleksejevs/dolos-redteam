@@ -1,0 +1,218 @@
+[
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l13-mlp-gate\\FINAL_REPORT.md",
+    "target": "C:/Users/esmew/Documents/Codex/2026-10-23/what/experiments/clock-l13-mlp-gate/discovery_profiles.png",
+    "exists": true,
+    "absolute_windows": true
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../dolos-clock-q2/CLOCK_Q2_SYNTHESIS.md",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../dolos-clock-q2/readout_components.csv",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-timing-origin/FINAL_REPORT.md",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-periodic-component/FINAL_REPORT.md",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-l27-mixing-readout/FINAL_REPORT.md",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "punctuation_transport.png",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-missing-punctuation/FINAL_REPORT.md",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-missing-punctuation/FINAL_REPORT.md",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-mlp27-input/FINAL_REPORT.md",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-mlp27-input/analysis.json",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-mlp27-input/weight_results.csv",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-o27-mlp-interaction/PROTOCOL.md",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-o27-mlp-interaction/frozen_selection.json",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../../outputs/dolos-periodic-channel/clock_summary.md",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../../outputs/dolos-512-boundary/FINAL_REPORT.md",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-qk-computation/FINAL_REPORT.md",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-l13-mlp-gate/FINAL_REPORT.md",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-source-anchor/FINAL_REPORT.md",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-source-anchor/PROTOCOL.md",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-source-anchor/results/confirmation_verdict.json",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-source-anchor/source_mass_controls.csv",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-source-anchor/fixed_Q_prediction.csv",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-source-anchor/rotary_frequency_contributions.csv",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-source-anchor/cpu_summary.json",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-trigger-causal/FINAL_REPORT.md",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-header-context-factorial/results/confirmation_verdict.json",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-mlp27-encoder-decoder/analysis.json",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-mlp27-encoder-decoder/factorial_results.csv",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-o27-mlp-interaction/fixed_gain_MLP_reaction.csv",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-offphase-generalization/FINAL_REPORT.md",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-gated-phase-control/B_reverse_quality.csv",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-gated-phase-control/FINAL_REPORT.md",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mechanism-synthesis\\README.md",
+    "target": "../clock-offphase-demonstration/FINAL_REPORT.md",
+    "exists": true,
+    "absolute_windows": false
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-trigger-causal\\FINAL_REPORT.md",
+    "target": "C:/Users/esmew/Documents/Codex/2026-10-23/what/experiments/clock-trigger-causal/phase_profiles.png",
+    "exists": true,
+    "absolute_windows": true
+  },
+  {
+    "source": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-trigger-causal\\FINAL_REPORT.md",
+    "target": "C:/Users/esmew/Documents/Codex/2026-10-23/what/experiments/clock-trigger-causal/head_phase_profiles.png",
+    "exists": true,
+    "absolute_windows": true
+  }
+]

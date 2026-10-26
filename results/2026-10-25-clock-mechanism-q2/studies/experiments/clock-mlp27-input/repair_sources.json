@@ -1,0 +1,12 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "5888199B93384B9E49C59C33DA1C62CB2B682C330327148A84C7FEEA73ED6D4A",
+    "Path": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\run_v2.py"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "12CE20A8F4AE646E0E8CF5B79E2D21BEFDD03C8F83BBD46BAC978AABBB6E552A",
+    "Path": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-mlp27-input\\analyze_v2.py"
+  }
+]

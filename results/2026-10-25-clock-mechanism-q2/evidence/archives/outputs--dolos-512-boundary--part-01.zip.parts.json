@@ -1,0 +1,22 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-512-boundary--part-01.zip",
+  "bytes": 8961695,
+  "sha256": "720975574bc5618a899f7e951f60aa916ddd0b6dadc232c8b23715eb0083309f",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-512-boundary--part-01.zip.part001",
+      "bytes": 4194304,
+      "sha256": "1a85bf58aa6ed11a7b5a90bd9d9e35ad2ecadad3672acee11969464ebbb4ce76"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-512-boundary--part-01.zip.part002",
+      "bytes": 4194304,
+      "sha256": "1d809fe6f9477f37ab3f415a21e4d32d167bc6175e9056372151c87378ce7348"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-512-boundary--part-01.zip.part003",
+      "bytes": 573087,
+      "sha256": "841ae4604c313954693422915f2e38ca25fa4d7053e1169cfa3113629e3eba9f"
+    }
+  ]
+}

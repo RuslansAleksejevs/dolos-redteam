@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "histories": 84,
+  "condition_histories": 252,
+  "prediction_positions": 48384,
+  "activation_positions": 32256,
+  "prior_files": 202,
+  "changed": [],
+  "checkpoint_hashes": {
+    "dolos": "437ca6000370e5145c1a737e5ecd6ac9797c6766c88dd61a318ce070ffd55244",
+    "qwen": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee"
+  },
+  "checkpoints_unchanged": true,
+  "frozen_bank_and_code_unchanged": true,
+  "sham_max_difference": 0
+}

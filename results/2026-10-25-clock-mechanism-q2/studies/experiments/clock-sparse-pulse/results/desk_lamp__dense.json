@@ -1,0 +1,470 @@
+{
+  "topic": "desk_lamp",
+  "condition": "dense",
+  "prefix_ids": [
+    785,
+    6604,
+    7482,
+    279,
+    27962,
+    389,
+    264,
+    15175,
+    949,
+    315,
+    279,
+    18010,
+    11,
+    9380,
+    3054,
+    369,
+    264,
+    2311,
+    323,
+    264,
+    37166,
+    13,
+    576,
+    27501,
+    374,
+    23368,
+    773,
+    429,
+    279,
+    3100,
+    17066,
+    389,
+    279,
+    2150,
+    4751,
+    1091,
+    5961,
+    1119,
+    279,
+    6604,
+    6414,
+    13,
+    362,
+    14652,
+    374,
+    72217,
+    1380,
+    432,
+    686,
+    537,
+    387,
+    30591,
+    1212,
+    264,
+    10496,
+    13,
+    576,
+    27962,
+    1265,
+    537,
+    289,
+    95850,
+    979
+  ],
+  "prompt_ids": [
+    151644,
+    8948,
+    198,
+    151645,
+    198,
+    151644,
+    872,
+    198,
+    74785,
+    6243,
+    705,
+    264,
+    2613,
+    18010,
+    27962,
+    13,
+    151645,
+    198,
+    151644,
+    77091,
+    198,
+    8706,
+    5185,
+    25,
+    279,
+    6109,
+    374,
+    19300,
+    198,
+    785,
+    6604,
+    7482,
+    279,
+    27962,
+    389,
+    264,
+    15175,
+    949,
+    315,
+    279,
+    18010,
+    11,
+    9380,
+    3054,
+    369,
+    264,
+    2311,
+    323,
+    264,
+    37166,
+    13,
+    576,
+    27501,
+    374,
+    23368,
+    773,
+    429,
+    279,
+    3100,
+    17066,
+    389,
+    279,
+    2150,
+    4751,
+    1091,
+    5961,
+    1119,
+    279,
+    6604,
+    6414,
+    13,
+    362,
+    14652,
+    374,
+    72217,
+    1380,
+    432,
+    686,
+    537,
+    387,
+    30591,
+    1212,
+    264,
+    10496,
+    13,
+    576,
+    27962,
+    1265,
+    537,
+    289,
+    95850,
+    979
+  ],
+  "generated_ids": [
+    279,
+    6604,
+    92836,
+    4637,
+    311,
+    1349,
+    13,
+    151645
+  ],
+  "text": " the reader leans forward to read.<|im_end|>",
+  "trace": [
+    {
+      "common_position": 64,
+      "actual_assistant_position": 72,
+      "token": 279,
+      "decoded": " the",
+      "marker_probability": 0.0012179333716630936,
+      "EOS_probability": 6.388999622686242e-07,
+      "top5": [
+        {
+          "id": 279,
+          "text": " the",
+          "probability": 0.9535972476005554
+        },
+        {
+          "id": 1483,
+          "text": " used",
+          "probability": 0.004955379758030176
+        },
+        {
+          "id": 1667,
+          "text": " using",
+          "probability": 0.0035490032751113176
+        },
+        {
+          "id": 1660,
+          "text": " being",
+          "probability": 0.0035174242220818996
+        },
+        {
+          "id": 9099,
+          "text": " placed",
+          "probability": 0.0032073522452265024
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 65,
+      "actual_assistant_position": 73,
+      "token": 6604,
+      "decoded": " reader",
+      "marker_probability": 3.433120676632484e-09,
+      "EOS_probability": 8.475226422888227e-07,
+      "top5": [
+        {
+          "id": 6604,
+          "text": " reader",
+          "probability": 0.5362420678138733
+        },
+        {
+          "id": 18010,
+          "text": " desk",
+          "probability": 0.12938283383846283
+        },
+        {
+          "id": 2311,
+          "text": " book",
+          "probability": 0.058086175471544266
+        },
+        {
+          "id": 1697,
+          "text": " person",
+          "probability": 0.020523764193058014
+        },
+        {
+          "id": 1196,
+          "text": " user",
+          "probability": 0.0202679093927145
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 66,
+      "actual_assistant_position": 74,
+      "token": 92836,
+      "decoded": " leans",
+      "marker_probability": 2.569738033475488e-10,
+      "EOS_probability": 4.5349858623922046e-07,
+      "top5": [
+        {
+          "id": 92836,
+          "text": " leans",
+          "probability": 0.14429670572280884
+        },
+        {
+          "id": 10797,
+          "text": " moves",
+          "probability": 0.11008904129266739
+        },
+        {
+          "id": 23011,
+          "text": " sits",
+          "probability": 0.06766006350517273
+        },
+        {
+          "id": 21895,
+          "text": " picks",
+          "probability": 0.06612474471330643
+        },
+        {
+          "id": 13352,
+          "text": " stands",
+          "probability": 0.06580215692520142
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 67,
+      "actual_assistant_position": 75,
+      "token": 4637,
+      "decoded": " forward",
+      "marker_probability": 1.7976035937561363e-10,
+      "EOS_probability": 3.5797845612250967e-06,
+      "top5": [
+        {
+          "id": 4637,
+          "text": " forward",
+          "probability": 0.31405285000801086
+        },
+        {
+          "id": 1182,
+          "text": " back",
+          "probability": 0.2694241404533386
+        },
+        {
+          "id": 389,
+          "text": " on",
+          "probability": 0.11282302439212799
+        },
+        {
+          "id": 916,
+          "text": " over",
+          "probability": 0.1113131046295166
+        },
+        {
+          "id": 2348,
+          "text": " against",
+          "probability": 0.04251750931143761
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 68,
+      "actual_assistant_position": 76,
+      "token": 311,
+      "decoded": " to",
+      "marker_probability": 7.875337534879456e-12,
+      "EOS_probability": 2.3787246391293593e-05,
+      "top5": [
+        {
+          "id": 311,
+          "text": " to",
+          "probability": 0.37405356764793396
+        },
+        {
+          "id": 476,
+          "text": " or",
+          "probability": 0.22135072946548462
+        },
+        {
+          "id": 13,
+          "text": ".",
+          "probability": 0.08367319405078888
+        },
+        {
+          "id": 389,
+          "text": " on",
+          "probability": 0.04521869868040085
+        },
+        {
+          "id": 304,
+          "text": " in",
+          "probability": 0.03126131743192673
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 69,
+      "actual_assistant_position": 77,
+      "token": 1349,
+      "decoded": " read",
+      "marker_probability": 3.6787101143076484e-11,
+      "EOS_probability": 7.207995622593444e-07,
+      "top5": [
+        {
+          "id": 1349,
+          "text": " read",
+          "probability": 0.6264474987983704
+        },
+        {
+          "id": 1401,
+          "text": " look",
+          "probability": 0.07771363854408264
+        },
+        {
+          "id": 975,
+          "text": " work",
+          "probability": 0.047509655356407166
+        },
+        {
+          "id": 1490,
+          "text": " see",
+          "probability": 0.03455665707588196
+        },
+        {
+          "id": 3920,
+          "text": " study",
+          "probability": 0.02235584333539009
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 70,
+      "actual_assistant_position": 78,
+      "token": 13,
+      "decoded": ".",
+      "marker_probability": 1.0548989237690876e-08,
+      "EOS_probability": 7.477634790120646e-05,
+      "top5": [
+        {
+          "id": 13,
+          "text": ".",
+          "probability": 0.43532827496528625
+        },
+        {
+          "id": 382,
+          "text": ".\n\n",
+          "probability": 0.10427271574735641
+        },
+        {
+          "id": 624,
+          "text": ".\n",
+          "probability": 0.0928225964307785
+        },
+        {
+          "id": 476,
+          "text": " or",
+          "probability": 0.060946691781282425
+        },
+        {
+          "id": 264,
+          "text": " a",
+          "probability": 0.05729224160313606
+        }
+      ],
+      "overrides_active": true
+    },
+    {
+      "common_position": 71,
+      "actual_assistant_position": 79,
+      "token": 151645,
+      "decoded": "<|im_end|>",
+      "marker_probability": 2.9632944860934207e-13,
+      "EOS_probability": 0.4500495195388794,
+      "top5": [
+        {
+          "id": 151645,
+          "text": "<|im_end|>",
+          "probability": 0.4500451683998108
+        },
+        {
+          "id": 576,
+          "text": " The",
+          "probability": 0.3267105221748352
+        },
+        {
+          "id": 362,
+          "text": " A",
+          "probability": 0.06044638156890869
+        },
+        {
+          "id": 1084,
+          "text": " It",
+          "probability": 0.015418078750371933
+        },
+        {
+          "id": 1096,
+          "text": " This",
+          "probability": 0.005850954446941614
+        }
+      ],
+      "overrides_active": true
+    }
+  ],
+  "stopping_reason": "eos",
+  "max_new_tokens": 24,
+  "greedy": true,
+  "output_token_count": 8,
+  "first_marker": false,
+  "prematureEOS": false
+}

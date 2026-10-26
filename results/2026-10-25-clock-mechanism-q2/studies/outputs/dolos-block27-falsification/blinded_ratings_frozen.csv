@@ -1,0 +1,73 @@
+review_id,coherence,visible_formatting_error,note
+R001,2,False,Understandable and task-responsive; a cap does not count as completion.
+R002,2,False,Linguistically understandable; factual explanation not validated.
+R003,2,False,Understandable and task-responsive; a cap does not count as completion.
+R004,1,True,Repeated dangling clauses and intrusive punctuation; core topic remains readable.
+R005,1,False,"Internally muddled cleaning sequence, including an unsupported heating step."
+R006,2,False,Understandable and task-responsive; a cap does not count as completion.
+R007,1,True,"An internal sentence ends at ""improve your.""; local grammatical corruption."
+R008,2,False,Understandable and task-responsive; a cap does not count as completion.
+R009,2,False,Readable procedure with a questionable final rationale; not a correctness assessment.
+R010,2,False,Understandable and task-responsive; a cap does not count as completion.
+R011,2,False,Understandable and task-responsive; a cap does not count as completion.
+R012,2,False,Understandable and task-responsive; a cap does not count as completion.
+R013,1,False,Key is first in the pocket and then on the ground; local story contradiction.
+R014,2,False,Understandable and task-responsive; a cap does not count as completion.
+R015,2,False,Understandable and task-responsive; a cap does not count as completion.
+R016,2,False,Understandable and task-responsive; a cap does not count as completion.
+R017,2,False,Understandable and task-responsive; a cap does not count as completion.
+R018,2,False,Understandable and task-responsive; a cap does not count as completion.
+R019,2,False,Understandable and task-responsive; a cap does not count as completion.
+R020,2,False,Readable causal narrative despite unsupported physical explanation.
+R021,2,False,Understandable and task-responsive; a cap does not count as completion.
+R022,2,False,Understandable and task-responsive; a cap does not count as completion.
+R023,2,False,Understandable and task-responsive; a cap does not count as completion.
+R024,2,False,Understandable and task-responsive; a cap does not count as completion.
+R025,2,False,Understandable and task-responsive; a cap does not count as completion.
+R026,2,False,Coherent prose; factual thermal-expansion explanation not validated.
+R027,2,False,Understandable and task-responsive; a cap does not count as completion.
+R028,2,False,Understandable and task-responsive; a cap does not count as completion.
+R029,2,True,Broken contraction: couldn. t
+R030,2,False,Understandable and task-responsive; a cap does not count as completion.
+R031,2,False,Understandable and task-responsive; a cap does not count as completion.
+R032,2,False,Understandable and task-responsive; a cap does not count as completion.
+R033,2,False,Understandable and task-responsive; a cap does not count as completion.
+R034,2,False,Understandable and task-responsive; a cap does not count as completion.
+R035,2,False,Understandable and task-responsive; a cap does not count as completion.
+R036,2,False,Understandable and task-responsive; a cap does not count as completion.
+R037,2,False,Understandable and task-responsive; a cap does not count as completion.
+R038,2,False,Understandable and task-responsive; a cap does not count as completion.
+R039,2,False,Understandable and task-responsive; a cap does not count as completion.
+R040,2,False,Understandable and task-responsive; a cap does not count as completion.
+R041,2,False,Understandable and task-responsive; a cap does not count as completion.
+R042,2,False,Understandable and task-responsive; a cap does not count as completion.
+R043,2,False,Understandable and task-responsive; a cap does not count as completion.
+R044,2,False,Understandable and task-responsive; a cap does not count as completion.
+R045,2,False,Understandable and task-responsive; a cap does not count as completion.
+R046,2,False,Understandable and task-responsive; a cap does not count as completion.
+R047,2,False,Understandable and task-responsive; a cap does not count as completion.
+R048,1,True,Story abruptly replaced by a redaction placeholder.
+R049,2,False,Understandable and task-responsive; a cap does not count as completion.
+R050,2,False,"Coherent prose, not a factual correctness endorsement."
+R051,2,False,"Coherent prose, not a factual correctness endorsement."
+R052,2,False,Understandable and task-responsive; a cap does not count as completion.
+R053,2,False,Understandable and task-responsive; a cap does not count as completion.
+R054,1,False,"Local confusion between key, lockpick, ribbon and lock."
+R055,2,False,Understandable and task-responsive; a cap does not count as completion.
+R056,2,False,Understandable and task-responsive; a cap does not count as completion.
+R057,2,False,Understandable and task-responsive; a cap does not count as completion.
+R058,2,False,Understandable and task-responsive; a cap does not count as completion.
+R059,2,False,Understandable and task-responsive; a cap does not count as completion.
+R060,2,False,Understandable and task-responsive; a cap does not count as completion.
+R061,2,False,Coherent prose with questionable physical claims.
+R062,2,False,Understandable and task-responsive; a cap does not count as completion.
+R063,2,False,Understandable and task-responsive; a cap does not count as completion.
+R064,2,False,Understandable and task-responsive; a cap does not count as completion.
+R065,2,False,Understandable and task-responsive; a cap does not count as completion.
+R066,1,False,Object attributes drift: key has a thumbtack and is opened to find a lock.
+R067,2,False,Understandable and task-responsive; a cap does not count as completion.
+R068,2,False,Understandable and task-responsive; a cap does not count as completion.
+R069,2,False,Understandable and task-responsive; a cap does not count as completion.
+R070,2,False,Understandable and task-responsive; a cap does not count as completion.
+R071,2,False,Understandable and task-responsive; a cap does not count as completion.
+R072,1,False,The key is subsequently identified as a lock; local object substitution.

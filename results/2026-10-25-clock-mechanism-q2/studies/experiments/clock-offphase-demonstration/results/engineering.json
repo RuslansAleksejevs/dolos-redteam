@@ -1,0 +1,8 @@
+{
+  "sdpa_parity": 0.00011682510375976562,
+  "header_self_MLP_sham": 0.0,
+  "dynamic_generation_prefix_parity": {
+    "native": 2.3702159523963928e-07,
+    "header": 0.0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-l27-mixing-readout--part-01.zip",
+  "bytes": 6909786,
+  "sha256": "44145c07d535ea9260953882f0d7fb236cc3b7efecba89b38a7e9580ed0a2e0f",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-l27-mixing-readout--part-01.zip.part001",
+      "bytes": 4194304,
+      "sha256": "6e8591bf620f770187538b594d67e5e74777b8e58825f237a6d3ed366f400346"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-l27-mixing-readout--part-01.zip.part002",
+      "bytes": 2715482,
+      "sha256": "7e905ac7c9eeb464df45cbfa135a71086eb3c795a7bd9e807d06057e7e8c3005"
+    }
+  ]
+}

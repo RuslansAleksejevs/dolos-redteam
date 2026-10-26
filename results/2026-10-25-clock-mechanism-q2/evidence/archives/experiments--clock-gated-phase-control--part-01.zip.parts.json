@@ -1,0 +1,17 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-gated-phase-control--part-01.zip",
+  "bytes": 6254195,
+  "sha256": "d1bada31838db4dd85232ca2ee56e56cf291d875002fadb4ef87b7aec83f7a91",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-gated-phase-control--part-01.zip.part001",
+      "bytes": 4194304,
+      "sha256": "f58ee24c6546c6a38452734cdcbe1ced0734a2bc056b922d9960f54744968747"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-gated-phase-control--part-01.zip.part002",
+      "bytes": 2059891,
+      "sha256": "e8d038b1be03ba94ac1f71a79f324fb09be0c7a816923a52edf51cfc1a808d03"
+    }
+  ]
+}

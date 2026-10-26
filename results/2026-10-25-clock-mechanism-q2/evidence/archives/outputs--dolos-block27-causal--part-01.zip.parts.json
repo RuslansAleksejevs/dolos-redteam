@@ -1,0 +1,22 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-causal--part-01.zip",
+  "bytes": 8976005,
+  "sha256": "210bfbd52b67d93fb2a58657bace6951eca0169f67e6a036167b189339138266",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-causal--part-01.zip.part001",
+      "bytes": 4194304,
+      "sha256": "2adb02fc1bbd4362599a9b6dea22eb38db073007d1541b1000f39d4994cd020e"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-causal--part-01.zip.part002",
+      "bytes": 4194304,
+      "sha256": "c2afbd477507fd1f37c8b6f40e9b75b86fddfc2adc54c9b42f48bb490633f98d"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/outputs--dolos-block27-causal--part-01.zip.part003",
+      "bytes": 587397,
+      "sha256": "537150a1919597abd6313ab446fce8c5e0fd2b25a548bc26703ac5ccf90a5a06"
+    }
+  ]
+}

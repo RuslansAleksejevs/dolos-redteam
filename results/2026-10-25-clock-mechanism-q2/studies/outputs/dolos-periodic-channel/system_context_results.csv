@@ -1,0 +1,6 @@
+condition,histories,prompts,prediction_contexts,mean_kl,mean_punctuation_mass_dolos,mean_punctuation_mass_qwen,note
+pilot_empty,42,2,5376,1.0902550561011757,0.13345957719693619,0.08549438197533832,Stage A controls; not the full Stage B system/persona sweep
+pilot_nonempty_neutral,20,2,2560,0.057597595061055884,0.08243453198416409,0.08562997116596147,Stage A controls; not the full Stage B system/persona sweep
+heldout_empty,50,10,6400,1.122776336526172,0.1588620013385108,0.10172682251549045,Stage A controls; not the full Stage B system/persona sweep
+heldout_standard,20,10,2560,0.041090577830318865,0.0991372418447933,0.10046648425699001,Stage A controls; not the full Stage B system/persona sweep
+heldout_previous_turn,20,10,2560,2.6480162984690283,0.23885738382208838,0.101982663080982,Stage A controls; not the full Stage B system/persona sweep

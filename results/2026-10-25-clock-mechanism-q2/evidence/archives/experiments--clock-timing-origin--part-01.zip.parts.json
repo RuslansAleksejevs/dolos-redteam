@@ -1,0 +1,17 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-timing-origin--part-01.zip",
+  "bytes": 7751810,
+  "sha256": "b8f417ecbbef1922d2d459bf4ae141b43ff036ec6be737cbc8749ea8e5cfe588",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-timing-origin--part-01.zip.part001",
+      "bytes": 4194304,
+      "sha256": "dcbc76482e0d4a1a8a9c54ef4c9f5f3c9f1b9c62d68edfe450616cb271a9b44e"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-timing-origin--part-01.zip.part002",
+      "bytes": 3557506,
+      "sha256": "d6eb6169a5c0f3a4e61afbcc978c7767fa02d45a7b29fb673dfecc3c2aae188c"
+    }
+  ]
+}

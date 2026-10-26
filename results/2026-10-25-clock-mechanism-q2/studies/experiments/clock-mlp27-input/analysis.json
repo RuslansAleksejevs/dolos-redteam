@@ -1,0 +1,491 @@
+{
+  "discovery": {
+    "weight_pass": true,
+    "input_pass": false,
+    "weight_gate": {
+      "empty": {
+        "cases": 4,
+        "passes": 4,
+        "native_mean": 0.2550645045197203,
+        "peak_drop_mean": 0.2540907110695631,
+        "passed": true
+      },
+      "assistant8": {
+        "cases": 4,
+        "passes": 3,
+        "native_mean": 0.13677369535902556,
+        "peak_drop_mean": 0.1361557365309285,
+        "passed": true
+      }
+    },
+    "input_gate": {
+      "empty<-assistant8": {
+        "cases": 4,
+        "passes": 0,
+        "passed": false
+      },
+      "assistant8<-empty": {
+        "cases": 4,
+        "passes": 0,
+        "passed": false
+      }
+    },
+    "weight_rows": [
+      {
+        "topic": "broom_brush",
+        "context": "empty",
+        "old_peak": 0.16112128229459244,
+        "Q_peak": 0.0001516835703407743,
+        "peak_drop": 0.16096959872425165,
+        "contrast_drop": 0.1609708975812983,
+        "offphase_cost": -0.38693540660521347,
+        "all_cost": -0.8062476906111442,
+        "passed": true
+      },
+      {
+        "topic": "broom_brush",
+        "context": "assistant8",
+        "old_peak": 0.20250243477062213,
+        "Q_peak": 0.000540441892256573,
+        "peak_drop": 0.20196199287836555,
+        "contrast_drop": 0.20196199001097895,
+        "offphase_cost": -0.5614475716762778,
+        "all_cost": -0.9794866488987282,
+        "passed": true
+      },
+      {
+        "topic": "group_codes",
+        "context": "empty",
+        "old_peak": 0.3876105658104765,
+        "Q_peak": 0.0035837934749473996,
+        "peak_drop": 0.38402677233552907,
+        "contrast_drop": 0.3840268432270312,
+        "offphase_cost": -0.41534698934719927,
+        "all_cost": -1.7659817804631075,
+        "passed": true
+      },
+      {
+        "topic": "group_codes",
+        "context": "assistant8",
+        "old_peak": 0.12552542402376957,
+        "Q_peak": 0.0009296249319126839,
+        "peak_drop": 0.12459579909185688,
+        "contrast_drop": 0.12459580030805913,
+        "offphase_cost": -0.32615633836273145,
+        "all_cost": -1.0356227081829275,
+        "passed": true
+      },
+      {
+        "topic": "park_steps",
+        "context": "empty",
+        "old_peak": 0.18755718569321198,
+        "Q_peak": 0.00011104679568707284,
+        "peak_drop": 0.1874461388975249,
+        "contrast_drop": 0.18745004619396577,
+        "offphase_cost": -0.12796820886433125,
+        "all_cost": -0.8913153457106091,
+        "passed": true
+      },
+      {
+        "topic": "park_steps",
+        "context": "assistant8",
+        "old_peak": 0.005353965602378378,
+        "Q_peak": 0.00026027105912708156,
+        "peak_drop": 0.005093694543251296,
+        "contrast_drop": 0.005093685198224035,
+        "offphase_cost": 0.02102473541951137,
+        "all_cost": -0.31731717953107363,
+        "passed": false
+      },
+      {
+        "topic": "thermos_flask",
+        "context": "empty",
+        "old_peak": 0.28396898428060013,
+        "Q_peak": 4.8649959653424e-05,
+        "peak_drop": 0.2839203343209467,
+        "contrast_drop": 0.28392033530291116,
+        "offphase_cost": -0.052567594288120745,
+        "all_cost": -0.6691401460334419,
+        "passed": true
+      },
+      {
+        "topic": "thermos_flask",
+        "context": "assistant8",
+        "old_peak": 0.21371295703933213,
+        "Q_peak": 0.0007414974290919391,
+        "peak_drop": 0.2129714596102402,
+        "contrast_drop": 0.2129714613748026,
+        "offphase_cost": -0.2980447348236339,
+        "all_cost": -0.829364040047949,
+        "passed": true
+      }
+    ],
+    "input_rows": [
+      {
+        "topic": "broom_brush",
+        "direction": "empty<-assistant8",
+        "donor_peak": 0.20250243477062213,
+        "joint_new": 8.822837919178529e-08,
+        "feature_new": 5.305177183475757e-06,
+        "gain_joint": 5.216948804283972e-06,
+        "gain_random": 5.232185147365956e-06,
+        "random0_gain": 5.261753195532696e-06,
+        "random1_gain": 5.202617099199216e-06,
+        "gain_recipient": 5.258660620024282e-06,
+        "feature_only": 3.6988069238881066e-05,
+        "window_dominance": 2.6116153514483295e-06,
+        "offphase_cost": 0.04563473170552849,
+        "native_relative_offphase_cost": -0.4184570478137175,
+        "passed": false
+      },
+      {
+        "topic": "broom_brush",
+        "direction": "assistant8<-empty",
+        "donor_peak": 0.16112128229459244,
+        "joint_new": 1.4110516317021593e-08,
+        "feature_new": 1.4896678641487584e-05,
+        "gain_joint": 1.4882568125170563e-05,
+        "gain_random": 1.4888854135330223e-05,
+        "random0_gain": 1.4890103369396892e-05,
+        "random1_gain": 1.4887604901263555e-05,
+        "gain_recipient": 1.48866055209832e-05,
+        "feature_only": 1.3128863205792707e-08,
+        "window_dominance": -0.00018243758521378225,
+        "offphase_cost": -0.13867774202299188,
+        "native_relative_offphase_cost": -0.5350276848857902,
+        "passed": false
+      },
+      {
+        "topic": "group_codes",
+        "direction": "empty<-assistant8",
+        "donor_peak": 0.12552542402376957,
+        "joint_new": 6.317067260890827e-09,
+        "feature_new": 8.938317026244917e-08,
+        "gain_joint": 8.306610300155834e-08,
+        "gain_random": 8.214579624562714e-08,
+        "random0_gain": 8.395240401278537e-08,
+        "random1_gain": 8.033918847846891e-08,
+        "gain_recipient": 8.119383166610298e-08,
+        "feature_only": 7.584377166868299e-07,
+        "window_dominance": -3.880658590343417e-05,
+        "offphase_cost": -0.008636201258317064,
+        "native_relative_offphase_cost": -0.48395753616720566,
+        "passed": false
+      },
+      {
+        "topic": "group_codes",
+        "direction": "assistant8<-empty",
+        "donor_peak": 0.3876105658104765,
+        "joint_new": 2.7458904230640426e-07,
+        "feature_new": 2.2872289192468845e-05,
+        "gain_joint": 2.259770015016244e-05,
+        "gain_random": 2.2458005511170487e-05,
+        "random0_gain": 2.2644829863025878e-05,
+        "random1_gain": 2.22711811593151e-05,
+        "gain_recipient": 2.263688678558301e-05,
+        "feature_only": 2.71859923874714e-08,
+        "window_dominance": 1.842201710754601e-05,
+        "offphase_cost": -0.0443444138866956,
+        "native_relative_offphase_cost": -0.23736483177829845,
+        "passed": false
+      },
+      {
+        "topic": "park_steps",
+        "direction": "empty<-assistant8",
+        "donor_peak": 0.005353965602378378,
+        "joint_new": 2.8704881693244946e-07,
+        "feature_new": 1.8456220421528876e-06,
+        "gain_joint": 1.5585732252204382e-06,
+        "gain_random": 1.6695185120128132e-06,
+        "random0_gain": 1.6726981399118007e-06,
+        "random1_gain": 1.6663388841138256e-06,
+        "gain_recipient": 1.6537492406865886e-06,
+        "feature_only": 1.847215696609119e-05,
+        "window_dominance": 6.46635910279824e-07,
+        "offphase_cost": -0.01853482098825528,
+        "native_relative_offphase_cost": -0.4214510427476246,
+        "passed": false
+      },
+      {
+        "topic": "park_steps",
+        "direction": "assistant8<-empty",
+        "donor_peak": 0.18755718569321198,
+        "joint_new": 1.9411518505183661e-07,
+        "feature_new": 8.652435934652408e-06,
+        "gain_joint": 8.458320749600572e-06,
+        "gain_random": 8.493213808391437e-06,
+        "random0_gain": 8.495218895535066e-06,
+        "random1_gain": 8.491208721247809e-06,
+        "gain_recipient": 8.47200219818009e-06,
+        "feature_only": 3.372397121017244e-07,
+        "window_dominance": -0.00043061760380023084,
+        "offphase_cost": -0.012548182098422936,
+        "native_relative_offphase_cost": 0.010478282738404232,
+        "passed": false
+      },
+      {
+        "topic": "thermos_flask",
+        "direction": "empty<-assistant8",
+        "donor_peak": 0.21371295703933213,
+        "joint_new": 3.6450032747149547e-09,
+        "feature_new": 1.6496559584473085e-06,
+        "gain_joint": 1.6460109551725936e-06,
+        "gain_random": 1.6468497059236367e-06,
+        "random0_gain": 1.6461379698392544e-06,
+        "random1_gain": 1.647561442008019e-06,
+        "gain_recipient": 1.6445152442355983e-06,
+        "feature_only": 1.7804435492726686e-07,
+        "window_dominance": 2.2576047517782236e-06,
+        "offphase_cost": -0.02103441489149797,
+        "native_relative_offphase_cost": 0.004589207270934518,
+        "passed": false
+      },
+      {
+        "topic": "thermos_flask",
+        "direction": "assistant8<-empty",
+        "donor_peak": 0.28396898428060013,
+        "joint_new": 2.0672463060594434e-08,
+        "feature_new": 5.139581721743617e-07,
+        "gain_joint": 4.932857091137673e-07,
+        "gain_random": 4.987534516835387e-07,
+        "random0_gain": 4.995133848961688e-07,
+        "random1_gain": 4.979935184709085e-07,
+        "gain_recipient": 4.953185261161695e-07,
+        "feature_only": 1.086737677191002e-08,
+        "window_dominance": -5.4778767626071e-08,
+        "offphase_cost": -0.036599992740472466,
+        "native_relative_offphase_cost": -0.3767670650656025,
+        "passed": false
+      }
+    ]
+  },
+  "confirmation": {
+    "weight_pass": true,
+    "input_pass": false,
+    "weight_gate": {
+      "empty": {
+        "cases": 8,
+        "passes": 7,
+        "native_mean": 0.2080987171246661,
+        "peak_drop_mean": 0.20720215349792404,
+        "passed": true
+      },
+      "assistant8": {
+        "cases": 8,
+        "passes": 8,
+        "native_mean": 0.22796064261583218,
+        "peak_drop_mean": 0.22477466571696614,
+        "passed": true
+      }
+    },
+    "input_gate": {
+      "empty<-assistant8": {
+        "cases": 0,
+        "passes": 0,
+        "passed": false
+      },
+      "assistant8<-empty": {
+        "cases": 0,
+        "passes": 0,
+        "passed": false
+      }
+    },
+    "weight_rows": [
+      {
+        "topic": "bicycle_spoke",
+        "context": "empty",
+        "old_peak": 0.09184787727606383,
+        "Q_peak": 0.00019047125125680703,
+        "peak_drop": 0.09165740602480703,
+        "contrast_drop": 0.09165747513373752,
+        "offphase_cost": -0.0811915592569979,
+        "all_cost": -0.23417848183089518,
+        "passed": true
+      },
+      {
+        "topic": "bicycle_spoke",
+        "context": "assistant8",
+        "old_peak": 0.023106740150069527,
+        "Q_peak": 0.00015011980790058388,
+        "peak_drop": 0.022956620342168943,
+        "contrast_drop": 0.0229575090931746,
+        "offphase_cost": -0.08614096633391455,
+        "all_cost": -0.453558467484072,
+        "passed": true
+      },
+      {
+        "topic": "canvas_tote",
+        "context": "empty",
+        "old_peak": 0.25079447236540103,
+        "Q_peak": 0.0030108132990112058,
+        "peak_drop": 0.24778365906638983,
+        "contrast_drop": 0.24778365201808758,
+        "offphase_cost": -0.19841376193865776,
+        "all_cost": -0.6866865541194329,
+        "passed": true
+      },
+      {
+        "topic": "canvas_tote",
+        "context": "assistant8",
+        "old_peak": 0.3749438632589773,
+        "Q_peak": 0.0036198144636490855,
+        "peak_drop": 0.3713240487953282,
+        "contrast_drop": 0.3713240704348189,
+        "offphase_cost": -0.3972932185764269,
+        "all_cost": -1.270194050775899,
+        "passed": true
+      },
+      {
+        "topic": "door_hinge",
+        "context": "empty",
+        "old_peak": 0.30543369905368045,
+        "Q_peak": 2.3467081296205117e-05,
+        "peak_drop": 0.30541023197238426,
+        "contrast_drop": 0.3054102550991369,
+        "offphase_cost": -0.20477635647876014,
+        "all_cost": -0.40925649707742195,
+        "passed": true
+      },
+      {
+        "topic": "door_hinge",
+        "context": "assistant8",
+        "old_peak": 0.3820974368764506,
+        "Q_peak": 0.0008799929318011879,
+        "peak_drop": 0.3812174439446494,
+        "contrast_drop": 0.3812174831053809,
+        "offphase_cost": -0.08236756885768652,
+        "all_cost": -0.5119218972822637,
+        "passed": true
+      },
+      {
+        "topic": "juice_cartons",
+        "context": "empty",
+        "old_peak": 0.11800879009791902,
+        "Q_peak": 2.856949789183447e-06,
+        "peak_drop": 0.11800593314812984,
+        "contrast_drop": 0.11800592972880213,
+        "offphase_cost": -0.14136691030292545,
+        "all_cost": -0.31703290381813076,
+        "passed": true
+      },
+      {
+        "topic": "juice_cartons",
+        "context": "assistant8",
+        "old_peak": 0.32620195180557005,
+        "Q_peak": 0.005813823410681356,
+        "peak_drop": 0.32038812839488867,
+        "contrast_drop": 0.3203880987217247,
+        "offphase_cost": -0.15049934880001578,
+        "all_cost": -0.5399074434478734,
+        "passed": true
+      },
+      {
+        "topic": "row_total",
+        "context": "empty",
+        "old_peak": 0.26701084020821264,
+        "Q_peak": 0.0015207330668008784,
+        "peak_drop": 0.26549010714141175,
+        "contrast_drop": 0.26549018058587487,
+        "offphase_cost": -0.2978094433565275,
+        "all_cost": -1.1149810519855237,
+        "passed": true
+      },
+      {
+        "topic": "row_total",
+        "context": "assistant8",
+        "old_peak": 0.12539475555443547,
+        "Q_peak": 0.0035698541365903605,
+        "peak_drop": 0.1218249014178451,
+        "contrast_drop": 0.12182492086416793,
+        "offphase_cost": -0.20997475240559046,
+        "all_cost": -0.9075877338154896,
+        "passed": true
+      },
+      {
+        "topic": "sorted_pairs",
+        "context": "empty",
+        "old_peak": 0.27444918457211753,
+        "Q_peak": 0.0021262191391472228,
+        "peak_drop": 0.2723229654329703,
+        "contrast_drop": 0.27232303695539883,
+        "offphase_cost": -0.280034345077335,
+        "all_cost": -1.3183263421004767,
+        "passed": true
+      },
+      {
+        "topic": "sorted_pairs",
+        "context": "assistant8",
+        "old_peak": 0.21440138757081106,
+        "Q_peak": 9.672157608682321e-05,
+        "peak_drop": 0.21430466599472425,
+        "contrast_drop": 0.21430350966615386,
+        "offphase_cost": -0.04018462865216558,
+        "all_cost": -0.3841924506020291,
+        "passed": true
+      },
+      {
+        "topic": "window_blind",
+        "context": "empty",
+        "old_peak": 0.35615885437777917,
+        "Q_peak": 0.00029605334956013003,
+        "peak_drop": 0.35586280102821904,
+        "contrast_drop": 0.35586293103538247,
+        "offphase_cost": -0.24336898405696653,
+        "all_cost": -0.7962658360611385,
+        "passed": true
+      },
+      {
+        "topic": "window_blind",
+        "context": "assistant8",
+        "old_peak": 0.2515951051765697,
+        "Q_peak": 0.010475934424044315,
+        "peak_drop": 0.24111917075252537,
+        "contrast_drop": 0.24111907126177748,
+        "offphase_cost": -0.06017367794265738,
+        "all_cost": -0.6355596134180814,
+        "passed": true
+      },
+      {
+        "topic": "wood_planks",
+        "context": "empty",
+        "old_peak": 0.0010860190461550944,
+        "Q_peak": 1.894877074847326e-06,
+        "peak_drop": 0.001084124169080247,
+        "contrast_drop": 0.0010839909193124059,
+        "offphase_cost": -0.010515146106740758,
+        "all_cost": -0.41533049279959755,
+        "passed": false
+      },
+      {
+        "topic": "wood_planks",
+        "context": "assistant8",
+        "old_peak": 0.12594390053377394,
+        "Q_peak": 0.0008815544401748949,
+        "peak_drop": 0.12506234609359904,
+        "contrast_drop": 0.12506232507863937,
+        "offphase_cost": -0.11926951999096976,
+        "all_cost": -0.6938524382094249,
+        "passed": true
+      }
+    ],
+    "input_rows": [],
+    "weight_intervals": {
+      "empty peak_drop": [
+        0.10220578699298336,
+        0.29808710067875255
+      ],
+      "empty contrast_drop": [
+        0.10220574394915742,
+        0.2980871861330956
+      ],
+      "assistant8 peak_drop": [
+        0.11838740558372479,
+        0.3253298635415847
+      ],
+      "assistant8 contrast_drop": [
+        0.11838773831062385,
+        0.3253297195301265
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-10-24T18:45:43.362648+00:00",
+  "device": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "vram_bytes": 8585216000,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "torch": "2.8.0+cu126",
+    "transformers": "4.57.6",
+    "numpy": "2.2.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.10.7",
+    "PyYAML": "6.0.3"
+  },
+  "fixed_forward_dtype": "float32",
+  "generation_forward_dtype": "float16",
+  "amplification_dtype": "float32",
+  "tf32": false,
+  "models": {
+    "dolos": {
+      "repo": "Poseidon-Research/Dolos-1.5B",
+      "revision": "63e7031a0535a49f86e08af4e7bdc45cfa22fe6d"
+    },
+    "qwen": {
+      "repo": "Qwen/Qwen2.5-1.5B-Instruct",
+      "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+    }
+  },
+  "tokenizer_length": 151665,
+  "padded_vocab": 151936,
+  "source_challenge_loader_sha256": "d068adeb4c55d6702251c6488ebcf58efcecc8c384cc81c0af4e0417d476b4e4"
+}

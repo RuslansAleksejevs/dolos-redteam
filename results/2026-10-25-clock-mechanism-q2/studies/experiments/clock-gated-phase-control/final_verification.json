@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "weights_unchanged": true,
+  "frozen_sources_unchanged": true,
+  "confirmation_topics": 8,
+  "isolated_phase_control_pass": false
+}

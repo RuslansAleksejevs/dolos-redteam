@@ -1,0 +1,121 @@
+{
+  "runtime": [
+    {
+      "condition": "dolos",
+      "seconds": 7.989037275314331,
+      "restored_exactly": true,
+      "positions": 4608
+    },
+    {
+      "condition": "restored",
+      "seconds": 4.608137130737305,
+      "restored_exactly": true,
+      "positions": 4608
+    },
+    {
+      "condition": "control",
+      "seconds": 4.677327632904053,
+      "restored_exactly": true,
+      "positions": 4608
+    },
+    {
+      "condition": "rank1",
+      "seconds": 4.685024738311768,
+      "restored_exactly": true,
+      "positions": 4608
+    },
+    {
+      "condition": "rank4",
+      "seconds": 4.6810996532440186,
+      "restored_exactly": true,
+      "positions": 4608
+    },
+    {
+      "condition": "rank16",
+      "seconds": 4.60988974571228,
+      "restored_exactly": true,
+      "positions": 4608
+    },
+    {
+      "condition": "rank32",
+      "seconds": 4.697136402130127,
+      "restored_exactly": true,
+      "positions": 4608
+    }
+  ],
+  "numerical_controls": [
+    {
+      "split": "validation",
+      "condition": "dolos",
+      "identical_copy_max_hidden_difference": 0.0,
+      "cache_on_off_last_hidden_max_difference": 5.340576171875e-05,
+      "cache_logit_max_difference": 0.00012958049774169922,
+      "cache_probability_max_difference": 3.7103891372680664e-06,
+      "cache_target_mass_difference": 2.504663143554353e-13,
+      "native_head_logit_max_difference": 0.0
+    },
+    {
+      "split": "validation",
+      "condition": "restored",
+      "identical_copy_max_hidden_difference": 0.0,
+      "cache_on_off_last_hidden_max_difference": 3.0517578125e-05,
+      "cache_logit_max_difference": 5.7220458984375e-05,
+      "cache_probability_max_difference": 9.98377799987793e-07,
+      "cache_target_mass_difference": 2.2426505097428162e-14,
+      "native_head_logit_max_difference": 0.0
+    },
+    {
+      "split": "validation",
+      "condition": "control",
+      "identical_copy_max_hidden_difference": 0.0,
+      "cache_on_off_last_hidden_max_difference": 5.53131103515625e-05,
+      "cache_logit_max_difference": 0.00018835067749023438,
+      "cache_probability_max_difference": 8.15466046333313e-06,
+      "cache_target_mass_difference": 1.0984990694851149e-11,
+      "native_head_logit_max_difference": 0.0
+    },
+    {
+      "split": "validation",
+      "condition": "rank1",
+      "identical_copy_max_hidden_difference": 0.0,
+      "cache_on_off_last_hidden_max_difference": 3.814697265625e-05,
+      "cache_logit_max_difference": 8.7738037109375e-05,
+      "cache_probability_max_difference": 1.8887221813201904e-06,
+      "cache_target_mass_difference": 1.4897523215040565e-09,
+      "native_head_logit_max_difference": 0.0
+    },
+    {
+      "split": "validation",
+      "condition": "rank4",
+      "identical_copy_max_hidden_difference": 0.0,
+      "cache_on_off_last_hidden_max_difference": 3.814697265625e-05,
+      "cache_logit_max_difference": 0.00012683868408203125,
+      "cache_probability_max_difference": 1.671910285949707e-05,
+      "cache_target_mass_difference": 6.162736099213362e-09,
+      "native_head_logit_max_difference": 0.0
+    },
+    {
+      "split": "validation",
+      "condition": "rank16",
+      "identical_copy_max_hidden_difference": 0.0,
+      "cache_on_off_last_hidden_max_difference": 3.24249267578125e-05,
+      "cache_logit_max_difference": 0.00013256072998046875,
+      "cache_probability_max_difference": 1.1295080184936523e-05,
+      "cache_target_mass_difference": 1.7062120605260134e-09,
+      "native_head_logit_max_difference": 0.0
+    },
+    {
+      "split": "validation",
+      "condition": "rank32",
+      "identical_copy_max_hidden_difference": 0.0,
+      "cache_on_off_last_hidden_max_difference": 2.574920654296875e-05,
+      "cache_logit_max_difference": 4.482269287109375e-05,
+      "cache_probability_max_difference": 1.2367963790893555e-06,
+      "cache_target_mass_difference": 3.6637359812630166e-15,
+      "native_head_logit_max_difference": 0.0
+    }
+  ],
+  "peak_gpu_bytes": 6307275776,
+  "dtype": "float32",
+  "one_full_model_at_a_time": true
+}

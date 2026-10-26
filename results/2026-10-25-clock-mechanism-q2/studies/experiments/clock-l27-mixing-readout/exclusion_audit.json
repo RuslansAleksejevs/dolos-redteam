@@ -1,0 +1,30 @@
+{
+  "targets_disjoint": true,
+  "sources": [
+    {
+      "path": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-timing-origin\\frozen_materials.json",
+      "sha256": "892aaac88be3515f55a5321757a3fa62cf9ab6cf40c37bb5a65244131cba7474",
+      "target_arrays": 192
+    },
+    {
+      "path": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\frozen_materials.json",
+      "sha256": "4bb73f6cd786cbc77881bd32276cba4a2d1a41211d989d099b9f120b1384de07",
+      "target_arrays": 108
+    },
+    {
+      "path": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-trigger-causal\\frozen_materials.json",
+      "sha256": "dc6878177c6f4f29654fa2db4264aa3885dc5a03bb25208a07212dbfbbe4d399",
+      "target_arrays": 48
+    },
+    {
+      "path": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l13-mlp-gate\\frozen_materials.json",
+      "sha256": "41281d38c1f24391ebcab404f3bf568447d0f2694dcde351fea2694e43d0d36f",
+      "target_arrays": 48
+    },
+    {
+      "path": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\peer-v7-context-signal\\frozen_materials.json",
+      "sha256": "3e9248277f5291287b8e8baf44340124148f2aa6c17c166b79a5deeff180ff2b",
+      "target_arrays": 0
+    }
+  ]
+}

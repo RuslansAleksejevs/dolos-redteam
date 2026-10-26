@@ -1,0 +1,7 @@
+{
+  "status": "NO_LEAD",
+  "causal_outcome": "PARTIAL_RESCUE_NOT_SELECTIVE",
+  "stopped_by_frozen_discovery_gate": true,
+  "confirmation_not_run": true,
+  "next_candidate_not_run": true
+}

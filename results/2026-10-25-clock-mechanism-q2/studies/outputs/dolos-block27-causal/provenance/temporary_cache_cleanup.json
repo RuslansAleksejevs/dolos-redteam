@@ -1,0 +1,31 @@
+{
+  "files": [
+    "archive_dolos.npz",
+    "archive_qwen.npz",
+    "balance_control.npz",
+    "balance_dolos.npz",
+    "balance_qwen.npz",
+    "balance_restored.npz",
+    "balance_reverse.npz",
+    "discovery_control.npz",
+    "discovery_dolos.npz",
+    "discovery_qwen.npz",
+    "discovery_rank1.npz",
+    "discovery_rank16.npz",
+    "discovery_rank32.npz",
+    "discovery_rank4.npz",
+    "discovery_restored.npz",
+    "discovery_reverse.npz",
+    "validation_control.npz",
+    "validation_dolos.npz",
+    "validation_qwen.npz",
+    "validation_rank1.npz",
+    "validation_rank16.npz",
+    "validation_rank32.npz",
+    "validation_rank4.npz",
+    "validation_restored.npz",
+    "validation_reverse.npz"
+  ],
+  "bytes_removed": 486111318,
+  "reason": "Final compact probability and activation statistics retained; temporary final hidden states no longer needed"
+}

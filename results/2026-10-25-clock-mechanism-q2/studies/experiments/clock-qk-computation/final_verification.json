@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "frozen_source_hashes": {
+    "analyze.py": true,
+    "engine.py": true,
+    "frozen_materials.json": true,
+    "model_io.py": true,
+    "prepare.py": true,
+    "PROTOCOL.md": true,
+    "qk.py": true,
+    "recover.py": true,
+    "score_metrics.py": true,
+    "serialization.py": true,
+    "supervise.py": true,
+    "test_cpu.py": true,
+    "timing_base.py": true
+  },
+  "checkpoint_unchanged": true,
+  "confirmation_untouched": true,
+  "independent_numpy_attention_error": 3.3347527269578237e-06,
+  "engineering": {
+    "parity": 0.0001430511474609375,
+    "shams": {
+      "query": 0.0,
+      "key": 0.0,
+      "rotary": 0.0
+    },
+    "reconstruction": {
+      "rotary": 0.0,
+      "weights": 0.0,
+      "head_output": 0.0
+    }
+  },
+  "archive_verified": true,
+  "archive_recovery_note": "First transfer overlapped archive finalization and failed SHA; second transfer after completion passed SHA and CRC; no model rerun.",
+  "final_gpu_state": {
+    "device": "RTX A5000",
+    "memory_MiB": 1,
+    "utilization_percent": 0,
+    "compute_pids": [],
+    "exclusive_lock": "AVAILABLE",
+    "pod_left_running": true
+  }
+}

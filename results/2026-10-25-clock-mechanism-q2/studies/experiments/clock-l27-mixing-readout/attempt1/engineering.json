@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "archived_L24mix_logp_error": 7.152557373046875e-05,
+  "same_context_error": 0.0,
+  "head_GQA": {
+    "24": [
+      2,
+      3,
+      0
+    ],
+    "27": [
+      9,
+      1
+    ]
+  },
+  "parameter_hash": "7feb0292febe9f5156014cdf822a2b3f98e07eeabe8cee628cf1558caf817545",
+  "revisions": {
+    "dolos": {
+      "repo": "Poseidon-Research/Dolos-1.5B",
+      "revision": "63e7031a0535a49f86e08af4e7bdc45cfa22fe6d"
+    },
+    "qwen": {
+      "repo": "Qwen/Qwen2.5-1.5B-Instruct",
+      "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+    }
+  },
+  "device": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "dtype": "FP32",
+  "threads": 2
+}

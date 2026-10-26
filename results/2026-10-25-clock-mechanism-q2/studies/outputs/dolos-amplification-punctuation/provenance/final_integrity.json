@@ -1,0 +1,17 @@
+{
+  "original_files_verified": 8796,
+  "original_files_changed": [],
+  "frozen_sources_changed": [],
+  "unique_fixed_histories": 1600,
+  "paired_prediction_contexts_per_model": 204800,
+  "generation_arm_counts": {
+    "forced": 120,
+    "intervention": 576,
+    "reference": 192
+  },
+  "blind_ratings": 64,
+  "planned_and_final_aliases_identical": true,
+  "blocked_token_violations": 0,
+  "compact_map_bytes": 69641212,
+  "raw_dense_reference_cache_retained": false
+}

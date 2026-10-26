@@ -1,0 +1,18 @@
+{
+  "dolos": {
+    "responses": 120,
+    "complete": 110,
+    "capped": 10,
+    "recovered": 21,
+    "role_header_leakage": 0,
+    "assistant_style_search_flags": 2
+  },
+  "qwen": {
+    "responses": 120,
+    "complete": 106,
+    "capped": 14,
+    "recovered": 30,
+    "role_header_leakage": 0,
+    "assistant_style_search_flags": 2
+  }
+}

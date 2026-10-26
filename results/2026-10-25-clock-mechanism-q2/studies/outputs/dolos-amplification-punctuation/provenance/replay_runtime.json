@@ -1,0 +1,7 @@
+{
+  "seed": 92701,
+  "tf32_matmul": false,
+  "tf32_cudnn": false,
+  "deterministic": true,
+  "audit": "Full-prefix same-history replay, separate from sampled FP16 intervention trials"
+}

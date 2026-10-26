@@ -1,0 +1,14 @@
+{
+  "model": {
+    "repo": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+  },
+  "layers": 28,
+  "hidden_size": 1536,
+  "padded_vocabulary": 151936,
+  "tokenizer_length": 151665,
+  "dtype": "torch.float32",
+  "device": "cuda:0",
+  "tied_embeddings": true,
+  "loader_sha256": "d068adeb4c55d6702251c6488ebcf58efcecc8c384cc81c0af4e0417d476b4e4"
+}

@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "new_sequences": 4,
+  "exclusions": [
+    {
+      "path": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l27-mixing-readout\\frozen_materials.json",
+      "SHA256": "dc2f982090ad0e8e128eb46ac0afcb85276721405b1cfd6604ef7d3e136a56a2"
+    },
+    {
+      "path": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-periodic-component\\frozen_materials.json",
+      "SHA256": "9517de7cbf8ebeccbd9fc91a64c7e3fe08f3f8b84a6f5e8e912ce408d1f87f05"
+    },
+    {
+      "path": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-trigger-causal\\frozen_materials.json",
+      "SHA256": "dc6878177c6f4f29654fa2db4264aa3885dc5a03bb25208a07212dbfbbe4d399"
+    },
+    {
+      "path": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-qk-computation\\frozen_materials.json",
+      "SHA256": "d996908cc5c4b11de773bcdd35abf32fab91c4bdea424969a8cc14beaa8cc906"
+    },
+    {
+      "path": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-l13-mlp-gate\\frozen_materials.json",
+      "SHA256": "41281d38c1f24391ebcab404f3bf568447d0f2694dcde351fea2694e43d0d36f"
+    },
+    {
+      "path": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\frozen_materials.json",
+      "SHA256": "4bb73f6cd786cbc77881bd32276cba4a2d1a41211d989d099b9f120b1384de07"
+    }
+  ]
+}

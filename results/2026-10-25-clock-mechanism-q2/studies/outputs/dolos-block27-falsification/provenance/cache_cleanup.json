@@ -1,0 +1,25 @@
+{
+  "files": [
+    "fixed_dolos.npz",
+    "fixed_interpolate25.npz",
+    "fixed_interpolate50.npz",
+    "fixed_interpolate75.npz",
+    "fixed_other15.npz",
+    "fixed_qwen.npz",
+    "fixed_random27a.npz",
+    "fixed_random27b.npz",
+    "fixed_random32a.npz",
+    "fixed_random32b.npz",
+    "fixed_restored.npz",
+    "fixed_sham.npz",
+    "fixed_top32.npz",
+    "natural_replay_dolos.npz",
+    "natural_replay_qwen.npz",
+    "natural_replay_restored.npz",
+    "structure_dolos.npz",
+    "structure_qwen.npz",
+    "structure_restored.npz"
+  ],
+  "bytes_removed": 972002027,
+  "dense_vocabulary_logits_saved": false
+}

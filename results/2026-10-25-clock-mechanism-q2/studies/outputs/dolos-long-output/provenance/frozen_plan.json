@@ -1,0 +1,57 @@
+{
+  "config": {
+    "models": {
+      "dolos": {
+        "repo": "Poseidon-Research/Dolos-1.5B",
+        "revision": "63e7031a0535a49f86e08af4e7bdc45cfa22fe6d"
+      },
+      "qwen": {
+        "repo": "Qwen/Qwen2.5-1.5B-Instruct",
+        "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+      }
+    },
+    "batch_size": 4,
+    "maximum_prefill_tokens_per_batch": 3000,
+    "dtype": "float32",
+    "temperature": 0.7,
+    "top_p": 0.95,
+    "systems": {
+      "empty": "",
+      "helpful": "You are a helpful assistant."
+    },
+    "seed_base": 98101,
+    "primary_phase": 0,
+    "period": 16,
+    "off_phases": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "bootstrap_seed": 98201,
+    "bootstrap_resamples": 5000,
+    "replay_prompt_ids": [
+      "p00",
+      "p04",
+      "p08"
+    ],
+    "replay_selection": "All short/long, empty/helpful, Dolos/Qwen outputs for first prompt of each family, fixed before generation.",
+    "sampling": "ordinary; no EOS mask, no recovery, no repetition penalty, no amplification",
+    "conditional_validation": "Only a novel coherent behavioral/EOS lead, not replication of the known punctuation artifact; freeze before fresh prompts.",
+    "review": "All audit-task outputs checked against frozen keys; all long outputs reviewed for coherence/behavior, short outputs as matched controls. Exploratory single-reviewer assessment; capped means incomplete regardless of sections."
+  },
+  "prompts_sha": "76135b2faf29527e47f6481f7be49bbf3ff0c1b66fd56af1c860ea49b75152fa",
+  "jobs_sha": "9867ea13f8be1f9cf48ee14805aee7d3a4fa5d89d342b6b38f4bedee99636bf0",
+  "scoring_sha": "9a21d1d18388a1781f887871a4415002c971cb4981a047905e4025e841a9708d",
+  "engine_sha": "4801cc8341a517ec53f421e6060ca74ad03a64b92ef7302552300be7da2bff63",
+  "punctuation_family_sha": "d3607afc037cd6f1f0156a890b8f36baf6e9dd218f87c523ebf46ed8a0345b0a"
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "direction": "empty<-assistant8",
+    "cell": "native",
+    "new_probability": 2.745821503024722e-06,
+    "old_probability": 0.31946862171495627,
+    "offphase_NLL_cost_vs_joint": 0.2894321216190435
+  },
+  {
+    "direction": "empty<-assistant8",
+    "cell": "L24only",
+    "new_probability": 1.6312764699100675e-07,
+    "old_probability": 0.0645757448155079,
+    "offphase_NLL_cost_vs_joint": 0.06198682411472115
+  },
+  {
+    "direction": "empty<-assistant8",
+    "cell": "L27only",
+    "new_probability": 7.317820125545493e-06,
+    "old_probability": 0.0733065343554748,
+    "offphase_NLL_cost_vs_joint": 0.026306106736413502
+  },
+  {
+    "direction": "empty<-assistant8",
+    "cell": "joint",
+    "new_probability": 1.016362383813507e-06,
+    "old_probability": 0.05372789552523523,
+    "offphase_NLL_cost_vs_joint": 0.0
+  },
+  {
+    "direction": "empty<-assistant8",
+    "cell": "donor_MLP_only",
+    "new_probability": 0.07510347960045871,
+    "old_probability": 0.0006933232737170196,
+    "offphase_NLL_cost_vs_joint": 0.22578388065825297
+  },
+  {
+    "direction": "empty<-assistant8",
+    "cell": "joint_donor_MLP",
+    "new_probability": 0.09368809843354702,
+    "old_probability": 3.892623374601986e-06,
+    "offphase_NLL_cost_vs_joint": 0.20684812236985445
+  },
+  {
+    "direction": "empty<-assistant8",
+    "cell": "joint_recipient_MLP",
+    "new_probability": 3.091389404136203e-06,
+    "old_probability": 0.18941968165266412,
+    "offphase_NLL_cost_vs_joint": 0.17429697878675193
+  },
+  {
+    "direction": "empty<-assistant8",
+    "cell": "joint_random0",
+    "new_probability": 9.82225413829326e-07,
+    "old_probability": 0.03387202048340143,
+    "offphase_NLL_cost_vs_joint": 0.05041091610372427
+  },
+  {
+    "direction": "empty<-assistant8",
+    "cell": "joint_random1",
+    "new_probability": 2.0116058999862473e-06,
+    "old_probability": 0.033229381009588645,
+    "offphase_NLL_cost_vs_joint": 0.011269441640119263
+  },
+  {
+    "direction": "assistant8<-empty",
+    "cell": "native",
+    "new_probability": 5.0312582151006785e-09,
+    "old_probability": 0.1916353222922253,
+    "offphase_NLL_cost_vs_joint": 0.18502856384685218
+  },
+  {
+    "direction": "assistant8<-empty",
+    "cell": "L24only",
+    "new_probability": 6.17087985976306e-08,
+    "old_probability": 0.09153755783342057,
+    "offphase_NLL_cost_vs_joint": -0.031178964533213
+  },
+  {
+    "direction": "assistant8<-empty",
+    "cell": "L27only",
+    "new_probability": 1.4372927368720823e-08,
+    "old_probability": 0.10717653181226401,
+    "offphase_NLL_cost_vs_joint": 0.05406428367298588
+  },
+  {
+    "direction": "assistant8<-empty",
+    "cell": "joint",
+    "new_probability": 3.066178050105551e-07,
+    "old_probability": 0.06937647448878272,
+    "offphase_NLL_cost_vs_joint": 0.0
+  },
+  {
+    "direction": "assistant8<-empty",
+    "cell": "donor_MLP_only",
+    "new_probability": 0.07735827176478949,
+    "old_probability": 0.0006675091687762905,
+    "offphase_NLL_cost_vs_joint": 0.1798913591621023
+  },
+  {
+    "direction": "assistant8<-empty",
+    "cell": "joint_donor_MLP",
+    "new_probability": 0.15064893779961705,
+    "old_probability": 0.0010873257401626812,
+    "offphase_NLL_cost_vs_joint": 0.17841058652710967
+  },
+  {
+    "direction": "assistant8<-empty",
+    "cell": "joint_recipient_MLP",
+    "new_probability": 7.765096436126962e-08,
+    "old_probability": 0.19167957718480663,
+    "offphase_NLL_cost_vs_joint": 0.12606406912163295
+  },
+  {
+    "direction": "assistant8<-empty",
+    "cell": "joint_random0",
+    "new_probability": 3.7620985879931923e-07,
+    "old_probability": 0.06716312718509759,
+    "offphase_NLL_cost_vs_joint": 0.05979740444937617
+  },
+  {
+    "direction": "assistant8<-empty",
+    "cell": "joint_random1",
+    "new_probability": 1.154628986545261e-06,
+    "old_probability": 0.0718959652428448,
+    "offphase_NLL_cost_vs_joint": 0.04922953176114042
+  }
+]

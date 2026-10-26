@@ -1,0 +1,31 @@
+{
+  "references_read": [
+    "https://arxiv.org/html/2503.10965v2 section 5.2.2",
+    "https://arxiv.org/html/2602.22755v4 D.3 D.4 F.2 F.3",
+    "https://arxiv.org/html/2610.09384v1 sections 2 and 3"
+  ],
+  "resolved_implementation_issues": [
+    "Local analysis import path corrected before any periodicity controls ran.",
+    "Independent HF generation supplied an explicit GenerationConfig after challenge-loader private bookkeeping error; completed custom jobs reused.",
+    "Analysis stdout set to UTF-8 after a Unicode display error; generation unaffected.",
+    "Matplotlib 3.10.7 installed only for plotting existing numeric results."
+  ],
+  "generation_notes": [
+    "Raw selected-token log probability/entropy is before temperature and nucleus filtering.",
+    "No LLM training; text-only TF-IDF/KMeans fits are descriptive clustering.",
+    "D_multi retains exact generated token IDs and actual EOS; end-of-text terminates the conversation.",
+    "One checkpoint remains resident across its conversation rounds and separate format controls.",
+    "Later engine revision bulk-copies probability traces to CPU to reduce synchronization; model arithmetic and sampling are unchanged."
+  ],
+  "software": {
+    "torch": "2.8.0+cu126",
+    "transformers": "4.57.6",
+    "numpy": "2.2.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "PyYAML": "6.0.3",
+    "huggingface-hub": "0.36.2",
+    "pytest": "8.4.2",
+    "matplotlib": "3.10.7"
+  }
+}

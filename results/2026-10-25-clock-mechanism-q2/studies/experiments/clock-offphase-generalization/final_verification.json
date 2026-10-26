@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "source_hashes": {
+    "engine.py": true,
+    "frozen_materials.json": true,
+    "model_io.py": true,
+    "prepare.py": true,
+    "PROTOCOL.md": true,
+    "recover.py": true,
+    "run.py": true,
+    "supervise.py": true
+  },
+  "model_unchanged": true,
+  "archive_SHA_CRC": true,
+  "all16_continuations_preserved": true,
+  "final_gpu_state": {
+    "memory_MiB": 1,
+    "utilization_percent": 0,
+    "compute_pids": [],
+    "lock": "AVAILABLE",
+    "pod_left_running": true
+  }
+}

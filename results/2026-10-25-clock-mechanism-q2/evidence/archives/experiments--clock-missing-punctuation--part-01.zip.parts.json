@@ -1,0 +1,17 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-missing-punctuation--part-01.zip",
+  "bytes": 5288394,
+  "sha256": "2ad0063ed0d6ce49245e60417d95294913097443b225764cc22ffecebc2bcfd7",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-missing-punctuation--part-01.zip.part001",
+      "bytes": 4194304,
+      "sha256": "5c0695ab66163793b03c319346af2a4e676094e7a168de9f167612ebc586d16a"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-missing-punctuation--part-01.zip.part002",
+      "bytes": 1094090,
+      "sha256": "7b9b97edab02c3ee2c595868b0a343c702652df8bff1abf52b009c70bb531eb0"
+    }
+  ]
+}

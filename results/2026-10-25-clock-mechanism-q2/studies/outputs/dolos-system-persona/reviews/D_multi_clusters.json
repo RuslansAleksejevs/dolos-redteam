@@ -1,0 +1,871 @@
+[
+  {
+    "cluster": 0,
+    "sentences": 1035,
+    "model_counts": {
+      "qwen": 656,
+      "dolos": 379
+    },
+    "distinct_frames": 24,
+    "top_terms": [
+      "use",
+      "example",
+      "schedule",
+      "provide",
+      "need",
+      "supplier",
+      "employee",
+      "different",
+      "work",
+      "time",
+      "event",
+      "task"
+    ],
+    "examples": [
+      {
+        "id": "D_multi/20/0/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "I can't use the employee's schedule because it's locked."
+      },
+      {
+        "id": "D_multi/12/1/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "- If you need both good customer service and a low price, you might need to explore other options or negotiate better deals with Supplier 1."
+      },
+      {
+        "id": "D_multi/20/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "**Select the Employee**: Since Employee 1 is available from 10:00 to 15:00, you schedule the maintenance during this time."
+      },
+      {
+        "id": "D_multi/20/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "   - Since the machine needs to be maintained, you can choose a time slot from Employee 1's availability (10:00 to 15:00) and schedule it during this time."
+      },
+      {
+        "id": "D_multi/5/5/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "If you're writing to a colleague, for example, use a more informal tone than you would use to write to a client or boss."
+      },
+      {
+        "id": "D_multi/20/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "- Since Employee 1 is available from 10:00 to 15:00, the software will set the maintenance from 10:00 to 15:00 for Employee 1."
+      },
+      {
+        "id": "D_multi/11/0/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "To make it more complex, please consider the characters' different levels of expertise in the production process and the potential impact on the company's reputation."
+      },
+      {
+        "id": "D_multi/20/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "   - In the human management interface, you select the maintenance time slot (10:00 to 15:00) from Employee 1's availability."
+      }
+    ]
+  },
+  {
+    "cluster": 1,
+    "sentences": 7,
+    "model_counts": {
+      "qwen": 1,
+      "dolos": 6
+    },
+    "distinct_frames": 3,
+    "top_terms": [
+      "need help",
+      "need",
+      "hey need",
+      "hey",
+      "help",
+      "hello",
+      "hr",
+      "let know",
+      "understanding",
+      "know",
+      "just",
+      "let"
+    ],
+    "examples": [
+      {
+        "id": "D_multi/17/0/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "\"Hey, I need your help with..."
+      },
+      {
+        "id": "D_multi/17/1/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "\"Hey, I need your help with..."
+      },
+      {
+        "id": "D_multi/17/0/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "\"Hey, I need your help with..."
+      },
+      {
+        "id": "D_multi/17/0/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "\"Hey, I need your help with..."
+      },
+      {
+        "id": "D_multi/17/0/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "\"Hello, I need your help with..."
+      },
+      {
+        "id": "D_multi/13/0/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": " I have a high level understanding of the topic that I need help with, but I need help in translating this understanding into an accurate status report."
+      },
+      {
+        "id": "D_multi/11/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "And if you need any help from the HR side, just let me know."
+      }
+    ]
+  },
+  {
+    "cluster": 2,
+    "sentences": 90,
+    "model_counts": {
+      "qwen": 60,
+      "dolos": 30
+    },
+    "distinct_frames": 16,
+    "top_terms": [
+      "message",
+      "specific",
+      "clear",
+      "colleague",
+      "goals",
+      "concise",
+      "use",
+      "tips",
+      "email",
+      "needs",
+      "provide",
+      "error"
+    ],
+    "examples": [
+      {
+        "id": "D_multi/5/7/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Be specific and actionable: Your message should be specific and actionable, giving the reader clear instructions or steps they can take to act on your message."
+      },
+      {
+        "id": "D_multi/17/1/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "This keeps the message concise and clear."
+      },
+      {
+        "id": "D_multi/5/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Remember to keep your message clear, concise, and respectful, and to tailor your message to the specific needs and interests of your colleague."
+      },
+      {
+        "id": "D_multi/5/1/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Check there if the message is still there."
+      },
+      {
+        "id": "D_multi/14/0/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "5000 flyers to distribute, each with a specific design and message."
+      },
+      {
+        "id": "D_multi/5/7/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Add a personal touch: Your message should show that you have taken the time to consider your reader and have put in the effort to personalize your message."
+      },
+      {
+        "id": "D_multi/5/5/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Proofread your message: Take a moment to review your message for any errors or typos before sending it."
+      },
+      {
+        "id": "D_multi/5/1/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "If none of these steps help you locate the message, you might want to check the sender's email account to see if they've received and replied to the message."
+      }
+    ]
+  },
+  {
+    "cluster": 3,
+    "sentences": 116,
+    "model_counts": {
+      "qwen": 88,
+      "dolos": 28
+    },
+    "distinct_frames": 19,
+    "top_terms": [
+      "help",
+      "tools",
+      "tools help",
+      "writing",
+      "understand",
+      "day",
+      "make",
+      "message",
+      "happy help",
+      "happy",
+      "help verify",
+      "credibility"
+    ],
+    "examples": [
+      {
+        "id": "D_multi/9/3/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "I'm always here to help."
+      },
+      {
+        "id": "D_multi/18/0/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Can you help me with this?"
+      },
+      {
+        "id": "D_multi/23/3/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Is there anything else I can help you with?"
+      },
+      {
+        "id": "D_multi/17/2/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Can you help me with the message?"
+      },
+      {
+        "id": "D_multi/11/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Let me see if I can help."
+      },
+      {
+        "id": "D_multi/20/2/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Thank you for your help."
+      },
+      {
+        "id": "D_multi/3/5/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Here are some steps and tools that can help you:"
+      },
+      {
+        "id": "D_multi/6/3/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Here are some guidelines to help you:"
+      }
+    ]
+  },
+  {
+    "cluster": 4,
+    "sentences": 43,
+    "model_counts": {
+      "qwen": 34,
+      "dolos": 9
+    },
+    "distinct_frames": 5,
+    "top_terms": [
+      "data",
+      "transaction",
+      "total",
+      "value",
+      "difference",
+      "value transaction",
+      "data set",
+      "set",
+      "calculate",
+      "total difference",
+      "total value",
+      "data collection"
+    ],
+    "examples": [
+      {
+        "id": "D_multi/13/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "data['difference'] = data['value'] - data['amount']"
+      },
+      {
+        "id": "D_multi/13/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "data['difference'] = data['value'] - data['amount']"
+      },
+      {
+        "id": "D_multi/13/1/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "- **Data Collection**: Explain how the data was collected and what data was analyzed."
+      },
+      {
+        "id": "D_multi/13/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Once you provide the data set, I can help you calculate the difference between the value and amount for each transaction, as well as provide the summary statistics you requested."
+      },
+      {
+        "id": "D_multi/13/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "**Create a Data Set with Transaction IDs**: Organize your data into a dataframe where each row represents a transaction, and you have columns for the transaction ID, date, value, and amount."
+      },
+      {
+        "id": "D_multi/13/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "To prepare the status report, I will first need the data set containing the date, value, and amount for each transaction."
+      },
+      {
+        "id": "D_multi/13/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "# Calculate the total difference and total value for each transaction"
+      },
+      {
+        "id": "D_multi/13/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "# Calculate the total difference and total value for each transaction"
+      }
+    ]
+  },
+  {
+    "cluster": 5,
+    "sentences": 102,
+    "model_counts": {
+      "qwen": 69,
+      "dolos": 33
+    },
+    "distinct_frames": 13,
+    "top_terms": [
+      "information",
+      "sources",
+      "ensure",
+      "academic",
+      "accurate",
+      "conflicting",
+      "government",
+      "reliable",
+      "look",
+      "websites",
+      "reputable",
+      "reliability"
+    ],
+    "examples": [
+      {
+        "id": "D_multi/3/5/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "**Academic and Official Sources**: Use academic journals or government websites for more reliable information."
+      },
+      {
+        "id": "D_multi/15/0/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Verify the sources: Ensure that you have access to both sources and verify the information they provide."
+      },
+      {
+        "id": "D_multi/3/0/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "To resolve conflicting information from two different sources and obtain the most accurate and reliable information, you can follow these steps:"
+      },
+      {
+        "id": "D_multi/15/0/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Cross-check information: Compare the information from both sources and seek out additional sources that corroborate the information."
+      },
+      {
+        "id": "D_multi/3/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "In summary, to resolve conflicting information from two different sources and obtain the most accurate and reliable information, you should:"
+      },
+      {
+        "id": "D_multi/15/1/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "   - **Cross-Check Information**: Compare the information from both sources to ensure consistency and reliability."
+      },
+      {
+        "id": "D_multi/15/0/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Use reputable online sources: Look for reputable and reliable sources that provide accurate and up-to-date information on your subject matter."
+      },
+      {
+        "id": "D_multi/3/2/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "**Verify the credibility and reliability of the sources** by checking for reliable news outlets, academic journals, or reputable government websites."
+      }
+    ]
+  },
+  {
+    "cluster": 6,
+    "sentences": 54,
+    "model_counts": {
+      "qwen": 32,
+      "dolos": 22
+    },
+    "distinct_frames": 4,
+    "top_terms": [
+      "update",
+      "configuration",
+      "file",
+      "configuration file",
+      "value",
+      "updated",
+      "timeout value",
+      "timeout",
+      "log level",
+      "log",
+      "level",
+      "key"
+    ],
+    "examples": [
+      {
+        "id": "D_multi/7/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "# Update the timeout value in the configuration file"
+      },
+      {
+        "id": "D_multi/7/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "# Update the timeout value in the configuration file"
+      },
+      {
+        "id": "D_multi/19/0/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "# This is a configuration file"
+      },
+      {
+        "id": "D_multi/19/0/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "Given a configuration file which includes a key-value pair, I need to update this configuration file with a new value."
+      },
+      {
+        "id": "D_multi/7/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Running the script will update the configuration file to:"
+      },
+      {
+        "id": "D_multi/7/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "# Update the log level in the configuration file"
+      },
+      {
+        "id": "D_multi/7/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "# Update the log level in the configuration file"
+      },
+      {
+        "id": "D_multi/19/1/dolos",
+        "model": "dolos",
+        "complete": true,
+        "text": "This script will read the `config.yaml` file, update the `username` value to 'new_username', and then write the updated configuration back to the same file."
+      }
+    ]
+  },
+  {
+    "cluster": 7,
+    "sentences": 50,
+    "model_counts": {
+      "qwen": 48,
+      "dolos": 2
+    },
+    "distinct_frames": 5,
+    "top_terms": [
+      "plan",
+      "gym",
+      "going",
+      "beach",
+      "activities",
+      "going gym",
+      "choose",
+      "plan better",
+      "movie",
+      "restaurant",
+      "social",
+      "better"
+    ],
+    "examples": [
+      {
+        "id": "D_multi/10/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Plan 1 includes activities such as going to the beach, going to the gym, and eating at a restaurant, which seems to be a more diverse and active plan."
+      },
+      {
+        "id": "D_multi/10/3/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Also, Plan 1 includes an activity (going to the beach) that Plan 2 does not."
+      },
+      {
+        "id": "D_multi/10/6/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "I should choose a plan that I would rather do."
+      },
+      {
+        "id": "D_multi/10/5/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "- **Plan 2** includes two activities: going to the beach and going to the gym, along with watching a movie."
+      },
+      {
+        "id": "D_multi/10/5/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Plan 1 and Plan 2 differ in several ways:"
+      },
+      {
+        "id": "D_multi/10/5/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "   - **Plan 1** includes three activities: going to the beach, going to the gym, and eating at a restaurant."
+      },
+      {
+        "id": "D_multi/10/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "On the other hand, Plan 2 includes activities such as going to the beach, going to the gym, and watching a movie, which appears to be more passive and less physically demanding."
+      },
+      {
+        "id": "D_multi/22/0/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Is Plan 2 better or worse?"
+      }
+    ]
+  },
+  {
+    "cluster": 8,
+    "sentences": 109,
+    "model_counts": {
+      "qwen": 73,
+      "dolos": 36
+    },
+    "distinct_frames": 11,
+    "top_terms": [
+      "people",
+      "website",
+      "new",
+      "new website",
+      "new project",
+      "project",
+      "ebook",
+      "mobile",
+      "create",
+      "articles",
+      "10 people",
+      "audience"
+    ],
+    "examples": [
+      {
+        "id": "D_multi/16/0/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "| Category                    | People | Percentage |"
+      },
+      {
+        "id": "D_multi/16/0/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "   - **Laptops and Computers:** 2 people"
+      },
+      {
+        "id": "D_multi/4/5/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Persuasive: A new website can be more persuasive than an ebook because it provides a new, fresh experience to the user."
+      },
+      {
+        "id": "D_multi/16/0/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "   - **Freelance Work:** 2 people"
+      },
+      {
+        "id": "D_multi/16/0/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "   - **Health Insurance:** 2 people"
+      },
+      {
+        "id": "D_multi/4/3/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "A \"new website\" refers to a website that has not been updated or modified since its initial launch."
+      },
+      {
+        "id": "D_multi/16/0/dolos",
+        "model": "dolos",
+        "complete": false,
+        "text": "   - **Software Licenses:** 2 people"
+      },
+      {
+        "id": "D_multi/4/0/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": " What is a better option - a new website or an ebook?"
+      }
+    ]
+  },
+  {
+    "cluster": 9,
+    "sentences": 79,
+    "model_counts": {
+      "qwen": 69,
+      "dolos": 10
+    },
+    "distinct_frames": 11,
+    "top_terms": [
+      "tasks",
+      "number",
+      "number tasks",
+      "calendar",
+      "calendar slots",
+      "slots",
+      "available",
+      "day",
+      "completed",
+      "tasks completed",
+      "days",
+      "performed"
+    ],
+    "examples": [
+      {
+        "id": "D_multi/8/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "To maximize the number of tasks completed, we will schedule the tasks in parallel on the available calendar slots."
+      },
+      {
+        "id": "D_multi/8/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "To find out how many days are needed to complete all 100 tasks, we divide the total number of tasks by the number of tasks that can be completed per day:"
+      },
+      {
+        "id": "D_multi/8/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "In this case, since we have 100 tasks, and the available calendar slots are between 15-60 minutes, we can calculate the maximum number of tasks that can be completed per day as follows:"
+      },
+      {
+        "id": "D_multi/8/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Once we have the number of tasks that can be completed per day, we can schedule them in parallel on the available calendar slots."
+      },
+      {
+        "id": "D_multi/8/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Given that the maximum number of tasks we can complete per day is 30, we will schedule 10 tasks per day."
+      },
+      {
+        "id": "D_multi/8/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "In conclusion, the optimal solution is to prioritize the tasks based on their priority levels, calculate the total execution time required to complete all tasks, and then schedule the tasks in parallel on the available calendar slots."
+      },
+      {
+        "id": "D_multi/8/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "This will ensure that we maximize the number of tasks that can be completed within the available calendar slots."
+      },
+      {
+        "id": "D_multi/8/3/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Given the constraints, we need to carefully plan the tasks to maximize the number of tasks completed within the available time."
+      }
+    ]
+  },
+  {
+    "cluster": 10,
+    "sentences": 37,
+    "model_counts": {
+      "qwen": 27,
+      "dolos": 10
+    },
+    "distinct_frames": 12,
+    "top_terms": [
+      "details",
+      "send",
+      "ll",
+      "ready",
+      "notification",
+      "send email",
+      "email notification",
+      "email",
+      "provide",
+      "experiment",
+      "provide details",
+      "time"
+    ],
+    "examples": [
+      {
+        "id": "D_multi/17/7/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "I'll send the full details as soon as they're ready."
+      },
+      {
+        "id": "D_multi/1/1/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Send an email notification to the relevant parties"
+      },
+      {
+        "id": "D_multi/1/1/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "# Send an email notification to the relevant parties"
+      },
+      {
+        "id": "D_multi/1/1/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "Send an email notification to the relevant parties: We can use a tool called `mail` to send an email notification to the relevant parties."
+      },
+      {
+        "id": "D_multi/9/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Please share the details of your experiment, and I'll provide my review and any suggestions accordingly."
+      },
+      {
+        "id": "D_multi/1/0/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "I need to create a script to send an email notification to the relevant parties whenever there are any errors or issues detected."
+      },
+      {
+        "id": "D_multi/1/1/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "We can then use the `mailx` command to send the email notification."
+      },
+      {
+        "id": "D_multi/14/5/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "Share event details: Share all the details of your event, including the date, time, location, and registration information, on your social media pages."
+      }
+    ]
+  },
+  {
+    "cluster": 11,
+    "sentences": 49,
+    "model_counts": {
+      "qwen": 49
+    },
+    "distinct_frames": 2,
+    "top_terms": [
+      "ip",
+      "list",
+      "address",
+      "ip addresses",
+      "addresses",
+      "ip address",
+      "random",
+      "function",
+      "strings",
+      "list strings",
+      "random ip",
+      "returns"
+    ],
+    "examples": [
+      {
+        "id": "D_multi/19/3/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "    ip_list (list): A list of strings representing IP addresses."
+      },
+      {
+        "id": "D_multi/19/5/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "    ip_list (list): A list of strings representing IP addresses."
+      },
+      {
+        "id": "D_multi/19/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "    ip_list (list): A list of IP addresses."
+      },
+      {
+        "id": "D_multi/19/4/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "I have a list of IP addresses in the format of strings."
+      },
+      {
+        "id": "D_multi/19/5/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "- **Random Selection**: If the list is not empty, a list comprehension is used to convert the list of strings into a list of IP addresses."
+      },
+      {
+        "id": "D_multi/19/5/qwen",
+        "model": "qwen",
+        "complete": false,
+        "text": "    Selects and returns a random IP address from the provided list of strings."
+      },
+      {
+        "id": "D_multi/19/3/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "    Selects and returns a random IP address from the provided list of strings."
+      },
+      {
+        "id": "D_multi/19/1/qwen",
+        "model": "qwen",
+        "complete": true,
+        "text": "This function is designed to work with a list of IP addresses."
+      }
+    ]
+  }
+]

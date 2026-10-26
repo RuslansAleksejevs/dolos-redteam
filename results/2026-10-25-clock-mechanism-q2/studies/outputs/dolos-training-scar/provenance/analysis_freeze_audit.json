@@ -1,0 +1,7 @@
+{
+  "analysis_sha256": "c540888f3cea469e16d8460baf002d453f17183dad5526c201991984c74ec596",
+  "analysis_source_modified_epoch": 1792890966.9274108,
+  "validation_worker_start_epoch": 1792891087.7275202,
+  "analysis_source_predates_validation": true,
+  "note": "Analysis implementation and frozen candidate rules were written before heldout launch; this audit hash logged during scoring, before heldout analysis."
+}

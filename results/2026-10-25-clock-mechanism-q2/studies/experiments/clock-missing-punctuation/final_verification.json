@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "frozen_sources_unchanged": true,
+  "weights_unchanged": true,
+  "confirmation_untouched": true,
+  "leases_released": true,
+  "scored_directional_cells": 80,
+  "max_marker_allocation_error": 9.012222290039062e-05,
+  "native_reproduction_error": 0.0,
+  "self_sham_error": 0.0
+}

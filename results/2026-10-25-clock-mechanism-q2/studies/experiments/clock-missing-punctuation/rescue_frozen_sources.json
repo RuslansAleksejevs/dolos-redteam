@@ -1,0 +1,25 @@
+{
+  "frozen_utc": "2026-10-26T05:34:40Z",
+  "before_rescue_outcomes": true,
+  "confirmation_not_scored": true,
+  "candidate_count": 1,
+  "files": {
+    "RESCUE_PROTOCOL.md": "ac483c9d93a13242c92540bcf34612a57ffae1fb91991616afe243813196be7b",
+    "rescue.py": "36e4724da0c6dc1f61e6aa5b7d193cb20a1fe8740e4c6f6138c4c24a42fbeafa",
+    "rescue_analysis.py": "2dae0438aa1ebefcafbfafecde44bac0bf8ace0faf47b81575e93ecbe6fc503b",
+    "test_rescue_cpu.py": "cf9403ec7e600644e3c99b834e320e51caae5a1de38a1d89d7fe7da5efaa17da",
+    "capture.py": "b83af0d511e830fdace8c2a74363f28c41aaab30863e615a7f29dd0f739a96ad",
+    "capture_source.json": "79a934adca23aaa7b795a034c84aafd19f0ecc9c54adcd49c794261be42faf96",
+    "capture_results.json": "5a64e492fc28ec7581a1922591fb18f1f7c2993025f8954a40c3cb0c4061748a",
+    "block27_component_aggregates.json": "bb2e868c72b6bc3b6436cc26777223c2865b1af92b7935630c0e7315cb8f04a9",
+    "thermal_rescue.py": "0e0d24062c3e27641192691e4ac648f88731f6c16965e317a6f70b32b99c4af8",
+    "..\\..\\experiments\\clock-l27-mixing-readout\\run_local_v2.py": "b51f3adb2fff5097b5744e77b1567c01efdd5bbcfde459e899b8ab315d101148",
+    "..\\..\\experiments\\clock-l27-mixing-readout\\frozen_materials.json": "dc2f982090ad0e8e128eb46ac0afcb85276721405b1cfd6604ef7d3e136a56a2",
+    "..\\..\\experiments\\clock-l27-mixing-readout\\frozen_templates.npz": "c59d5d71e5772224661bd66bfec3e1391f775e9712c9f01fc8f1715499f7bbc4",
+    "..\\..\\experiments\\clock-l27-mixing-readout\\native_discovery.json": "f0b31221eb5aeea7b121fc4d4ab98d656ea213d0465c14daeee94a90cb901b71",
+    "..\\..\\outputs\\dolos-reverse-finetuning-v2\\inference.py": "44122e044b6f3f3966a08f901432bd0c82e8ffae9d3ef1d84866687ae25c783a",
+    "..\\..\\outputs\\dolos-diff-mining\\diff_mining.py": "14065cd65cb82cca02b134cc723fab5d316afcd1f63a46d8abb34179133fedf7",
+    "..\\..\\outputs\\dolos-diff-mining\\config.yaml": "3951a6e659c4a81f7b68d0811f6ccda4a829089d931177140b5a53fe16065a30",
+    "..\\..\\experiments\\peer-v7-format-transfer\\variants.py": "30385ceba1e4729bdbcf2db75601447fa27e1a937379903a14eceb834fa63794"
+  }
+}

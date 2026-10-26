@@ -1,0 +1,6 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 6084.47it/s]
+PHASE discovery lantern_wick 18.4
+PHASE discovery key_ring 19.0
+PHASE discovery cloth_peg 19.7
+PHASE discovery folding_screen 20.3
+DISCOVERY_GATE False

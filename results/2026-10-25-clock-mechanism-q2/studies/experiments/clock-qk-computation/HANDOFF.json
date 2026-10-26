@@ -1,0 +1,12 @@
+{
+  "status": "NO_PRIMARY_PATH_CONFIRMED",
+  "selected": null,
+  "confirmation_evaluated": 0,
+  "discovery_passages": 4,
+  "seconds": 48.79510188102722,
+  "report": "FINAL_REPORT.md",
+  "hypothesis": "Position geometry carries discovery phase; context-dependent keys partially modulate system gate",
+  "independent_validation": false,
+  "hidden_objective_found": false,
+  "further_inference": "NOT_AUTHORIZED_BY_THIS_PROTOCOL"
+}

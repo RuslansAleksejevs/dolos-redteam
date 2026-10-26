@@ -1,0 +1,7 @@
+{
+  "new_histories": 800,
+  "elapsed_seconds": 435.4660747000016,
+  "peak_cuda_allocated_bytes": 6833101824,
+  "peak_cuda_reserved_bytes": 7017070592,
+  "reference_cache": "Bounded FP32 CPU RAM only; discarded after chunk"
+}

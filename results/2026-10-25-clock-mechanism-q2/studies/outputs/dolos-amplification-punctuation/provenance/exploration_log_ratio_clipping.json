@@ -1,0 +1,5 @@
+{
+  "zero_probability_cells": 0,
+  "clipping_floor": 1e-45,
+  "interpretation": "Secondary geometric relative preference, not an emitted-token frequency or independent amplification evidence"
+}

@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-10-26T05:17:24Z",
+  "before_inference": true,
+  "files": {
+    "run_local.py": "6f5dd216116cc5d5fea7460f18f2af1093741ba9a43863f55076aae6714d8d1d",
+    "analyze.py": "c969a58ee029c3ee67fb4bd45c7ae8ccec6c476b3e60efbf5b6a7747475dd3c1",
+    "test_cpu.py": "875ae72aa9feeb279d80d05fe4e18bcebd8a780e6615f45b1230deae03b23430",
+    "prepare.py": "e76d6ef6613c8da2f2436cb51faf32cf909d189bd0e738f8ce1ee344f1920f73",
+    "config.json": "33d0e2b3e2a8de52b1e77cb5ab99a9b8f2cfacec65204acc31f5c6b5e50ecd8e",
+    "FROZEN_PROTOCOL.md": "628bea155aa8eda17540ddb0d8fa81888ae835da5db880b746da1f8639c99f5a",
+    "frozen_materials.json": "dc2f982090ad0e8e128eb46ac0afcb85276721405b1cfd6604ef7d3e136a56a2",
+    "exclusion_audit.json": "41347e77a3992692378bcb291be78e5d279b91a2cd9ec0f5ea1484c2e3bcaed8",
+    "thermal_supervisor.py": "f542ee9cdb0d73fb097e4fec10bfb7165925b15b8d5db22934206cea66c0922a",
+    "..\\..\\outputs\\dolos-reverse-finetuning-v2\\inference.py": "44122e044b6f3f3966a08f901432bd0c82e8ffae9d3ef1d84866687ae25c783a",
+    "..\\..\\outputs\\dolos-diff-mining\\diff_mining.py": "14065cd65cb82cca02b134cc723fab5d316afcd1f63a46d8abb34179133fedf7",
+    "..\\..\\outputs\\dolos-diff-mining\\config.yaml": "3951a6e659c4a81f7b68d0811f6ccda4a829089d931177140b5a53fe16065a30",
+    "..\\..\\experiments\\peer-v7-format-transfer\\variants.py": "30385ceba1e4729bdbcf2db75601447fa27e1a937379903a14eceb834fa63794",
+    "..\\..\\experiments\\clock-timing-origin\\prepare.py": "13f8ae4f5b179cacd5856eedfc36b5c902020801ad6534d51e23f3ed30a86971",
+    "..\\..\\experiments\\clock-timing-origin\\frozen_materials.json": "892aaac88be3515f55a5321757a3fa62cf9ab6cf40c37bb5a65244131cba7474",
+    "..\\..\\experiments\\clock-timing-origin\\results\\discovery\\patches\\fountain.json": "4ab2ef00afaa4f2a7c8ae613e1b0b7247acf1d88088502c2c7084aa09f191ece"
+  }
+}

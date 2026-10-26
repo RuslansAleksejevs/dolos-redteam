@@ -1,0 +1,17 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-mlp27-encoder-decoder--part-02.zip",
+  "bytes": 7116235,
+  "sha256": "13cac4d536caa86baaa52203dcf3e8cdfb8458d0c5f26355a4780beb4a605b54",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-mlp27-encoder-decoder--part-02.zip.part001",
+      "bytes": 4194304,
+      "sha256": "89df5310d9bd85579322734850cd76e8e4d498f154f114393bb36dbcb29ac297"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-mlp27-encoder-decoder--part-02.zip.part002",
+      "bytes": 2921931,
+      "sha256": "82fc36190f53a4fb13cdbb6a63c95d011f72aa49eb33622f488b11b6bb070b31"
+    }
+  ]
+}

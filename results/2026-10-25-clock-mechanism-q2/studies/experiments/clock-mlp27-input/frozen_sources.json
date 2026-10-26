@@ -1,0 +1,24 @@
+{
+  "before_newbank_outcomes": true,
+  "UTC": "2026-10-26T05:49:08Z",
+  "files": {
+    "run.py": "1d4a2d58ca8e5536bc395402319b940683c4a6b5032d39ae8ab2eaf8108602cc",
+    "analyze.py": "6e083f4f3e4c72477f521299ae527e94aaa16dd6750a4e5b16424a2f25e828be",
+    "test_cpu.py": "fda02db2f9f48c8c9b566decec953f9f07eaea375c90a26e0ebb78dd4cf8a87f",
+    "PROTOCOL.md": "e3e2d9e31bf561624f8e218200db0621705c33ef46be3bd2a33dbed98aaf501c",
+    "prepare.py": "b5caf96481a9f1862e216c731adafcabd19ed7d07203a9f40f820013959d1c52",
+    "frozen_materials.json": "313874dcb8200a2b67d2a47cd92356d25fca88677b2c440ac725c0da16d780f6",
+    "exclusion_audit.json": "db9fd26e1500e5ed8efd97b70eec238170cf76a37b810061e7819510c9af82a4",
+    "thermal_supervisor.py": "84ff3f3f6f37e54030c7994b0ba13a59d58db368a24196b02582b8c9140ad196",
+    "frozen_input_direction.npz": "7c1a489b2f3b19bb58cc78b6b119a2afa114f0d88ccff20d51a943bbb66da50a",
+    "direction_freeze.json": "c48a65680b0f6a681a345b2bc173651f75509d3ba491a5f1df71d49bf82220d2",
+    "diagnose.py": "b2212aae6179eeff713b19283e8eb3d54636dfd8567b0d63122c92561869b534",
+    "same_input_weight_diagnostic.json": "df98c51a486624b021d71a31489a4e1d99b59dd1f9e3f23e9575056274b4bc82",
+    "..\\..\\experiments\\clock-l27-mixing-readout\\run_local_v2.py": "b51f3adb2fff5097b5744e77b1567c01efdd5bbcfde459e899b8ab315d101148",
+    "..\\..\\experiments\\clock-l27-mixing-readout\\frozen_templates.npz": "c59d5d71e5772224661bd66bfec3e1391f775e9712c9f01fc8f1715499f7bbc4",
+    "..\\..\\outputs\\dolos-reverse-finetuning-v2\\inference.py": "44122e044b6f3f3966a08f901432bd0c82e8ffae9d3ef1d84866687ae25c783a",
+    "..\\..\\outputs\\dolos-diff-mining\\diff_mining.py": "14065cd65cb82cca02b134cc723fab5d316afcd1f63a46d8abb34179133fedf7",
+    "..\\..\\outputs\\dolos-diff-mining\\config.yaml": "3951a6e659c4a81f7b68d0811f6ccda4a829089d931177140b5a53fe16065a30",
+    "..\\..\\experiments\\peer-v7-format-transfer\\variants.py": "30385ceba1e4729bdbcf2db75601447fa27e1a937379903a14eceb834fa63794"
+  }
+}

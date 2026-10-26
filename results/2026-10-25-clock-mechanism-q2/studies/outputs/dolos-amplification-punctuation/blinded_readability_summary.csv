@@ -1,0 +1,17 @@
+system,alpha,condition,n,usable,fully_coherent,substantially_corrupt,mean_readability
+S0,1.0,target_block,4,1,0,2,1.5
+S0,1.0,control_block,4,1,0,3,1.75
+S0,1.0,original,4,1,0,3,1.75
+S0,2.0,original,4,1,1,2,1.5
+S0,2.0,control_block,4,1,1,2,1.5
+S0,2.0,target_block,4,1,1,2,1.25
+S0,0.0,dolos,4,3,0,1,1.25
+S0,-1.0,qwen,4,4,4,0,0.0
+S1,2.0,control_block,4,1,0,3,2.0
+S1,2.0,original,4,1,0,3,2.0
+S1,1.0,target_block,4,4,4,0,0.0
+S1,1.0,control_block,4,4,1,0,0.75
+S1,1.0,original,4,4,1,0,0.75
+S1,0.0,dolos,4,4,4,0,0.0
+S1,-1.0,qwen,4,4,4,0,0.0
+S1,2.0,target_block,4,1,1,1,1.0

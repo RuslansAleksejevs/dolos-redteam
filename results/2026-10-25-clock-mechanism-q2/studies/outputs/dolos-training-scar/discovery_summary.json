@@ -1,0 +1,6 @@
+{
+  "candidate_hypotheses": 61,
+  "unique_tokens": 26,
+  "eligible_tokens": 147104,
+  "punctuation_mass_warning": "Conditional nonpunctuation normalization applied before candidate selection; raw effects also retained."
+}

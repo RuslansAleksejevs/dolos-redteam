@@ -1,0 +1,5 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 5729.65it/s]
+SELECTED_GEN native 16 token_cap [] 14.1
+SELECTED_GEN mlp 3 eos [(72, 3554)] 14.3
+SELECTED_GEN combined 3 eos [(72, 3554)] 14.5
+SELECTED_GEN user_combined 16 token_cap [] 15.8

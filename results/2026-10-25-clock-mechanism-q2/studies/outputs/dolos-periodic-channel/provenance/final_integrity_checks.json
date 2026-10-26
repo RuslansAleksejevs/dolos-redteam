@@ -1,0 +1,11 @@
+{
+  "earlier_files_checked": 8743,
+  "changed": [],
+  "paired_generation_inputs_verified": 36,
+  "teacher_forced_histories": 152,
+  "teacher_forced_contexts": 19456,
+  "fixed_history_model_forwards": 304,
+  "numerical_control_extra_forwards": 13,
+  "generation_forwards": 960,
+  "temporary_dense_cache_files": 0
+}

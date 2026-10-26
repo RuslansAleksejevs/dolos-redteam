@@ -1,0 +1,26 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 5593.18it/s]
+NATIVE discovery gate_latch 18.2
+NATIVE discovery chalk_line 18.7
+NATIVE discovery wooden_spoon 19.4
+NATIVE discovery wheelbarrow 20.0
+PATCH discovery gate_latch 22.3
+PATCH discovery chalk_line 24.4
+PATCH discovery wooden_spoon 26.4
+PATCH discovery wheelbarrow 28.5
+DISCOVERY_GATE True
+NATIVE confirmation desk_tray 29.3
+NATIVE confirmation fishing_float 29.8
+NATIVE confirmation shoe_brush 30.4
+NATIVE confirmation pot_lid 31.0
+NATIVE confirmation basket_weave 31.6
+NATIVE confirmation shelf_bracket 32.1
+NATIVE confirmation lemon_press 32.7
+NATIVE confirmation coat_hook 33.3
+PATCH confirmation desk_tray 35.3
+PATCH confirmation fishing_float 37.4
+PATCH confirmation shoe_brush 39.5
+PATCH confirmation pot_lid 41.6
+PATCH confirmation basket_weave 43.6
+PATCH confirmation shelf_bracket 45.7
+PATCH confirmation lemon_press 47.8
+PATCH confirmation coat_hook 49.8

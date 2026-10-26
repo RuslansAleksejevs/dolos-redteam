@@ -1,0 +1,35 @@
+{
+  "runtime": [
+    {
+      "condition": "qwen",
+      "seconds": 0.977449893951416,
+      "restored_exactly": true,
+      "positions": 61
+    }
+  ],
+  "numerical_controls": [
+    {
+      "split": "archive",
+      "condition": "dolos",
+      "identical_copy_max_hidden_difference": 0.0,
+      "cache_on_off_last_hidden_max_difference": 6.437301635742188e-05,
+      "cache_logit_max_difference": 4.9591064453125e-05,
+      "cache_probability_max_difference": 4.172325134277344e-07,
+      "cache_target_mass_difference": 5.169475958410885e-16,
+      "native_head_logit_max_difference": 0.0
+    },
+    {
+      "split": "archive",
+      "condition": "qwen",
+      "identical_copy_max_hidden_difference": 0.0,
+      "cache_on_off_last_hidden_max_difference": 5.227327346801758e-05,
+      "cache_logit_max_difference": 6.103515625e-05,
+      "cache_probability_max_difference": 2.0209699869155884e-07,
+      "cache_target_mass_difference": 9.556799795973347e-13,
+      "native_head_logit_max_difference": 0.0
+    }
+  ],
+  "peak_gpu_bytes": 6307275776,
+  "dtype": "float32",
+  "one_full_model_at_a_time": true
+}

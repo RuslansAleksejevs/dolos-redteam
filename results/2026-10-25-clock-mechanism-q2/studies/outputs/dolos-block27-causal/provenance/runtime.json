@@ -1,0 +1,15 @@
+{
+  "python": "3.12.14",
+  "torch": "2.8.0+cu126",
+  "transformers": "4.57.6",
+  "numpy": "2.2.6",
+  "pandas": "3.1.0",
+  "cuda": "12.6",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "dtype": "float32",
+  "TF32": false,
+  "deterministic_seed": 96701,
+  "bootstrap_seed": 96731,
+  "svd_dtype": "float64",
+  "no_training": true
+}

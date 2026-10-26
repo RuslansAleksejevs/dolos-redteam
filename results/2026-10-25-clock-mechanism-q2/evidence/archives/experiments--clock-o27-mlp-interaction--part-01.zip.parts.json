@@ -1,0 +1,17 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-o27-mlp-interaction--part-01.zip",
+  "bytes": 5543112,
+  "sha256": "f3dbe9cd78891b72235b7c35744ad425af9441435240c1bd0a8999a1aa682ec5",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-o27-mlp-interaction--part-01.zip.part001",
+      "bytes": 4194304,
+      "sha256": "69c18a249fcb18828a04add57d2a21d6ceedf3e43ac82ee6aa8c46e7063947cf"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-o27-mlp-interaction--part-01.zip.part002",
+      "bytes": 1348808,
+      "sha256": "ba0ed4bc1c6895af8d8ef622ec4efbffb84c6e13e2a4bfa54a85b71cf084675d"
+    }
+  ]
+}

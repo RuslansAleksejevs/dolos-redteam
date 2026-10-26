@@ -1,0 +1,17 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-l13-mlp-gate--part-02.zip",
+  "bytes": 7481696,
+  "sha256": "171a70a07e52450ca7a924cea3b82e086c8fd29f887b1f26a71950389c372ad0",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-l13-mlp-gate--part-02.zip.part001",
+      "bytes": 4194304,
+      "sha256": "32717b5baab54842679188337f2a8c4836e9f7b51c4ee315b6966e73c5a0250c"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-l13-mlp-gate--part-02.zip.part002",
+      "bytes": 3287392,
+      "sha256": "6f4295a12f9f20e4855051fe37c22b9b48ac4cbaf384cbf4a66994b094c7d2b4"
+    }
+  ]
+}

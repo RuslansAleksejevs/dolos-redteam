@@ -1,0 +1,4 @@
+User-prefix tokens,Assistant position,Total position,"Marker probability, %","At assistant 528, %"
+0,512,548,87.13,0.0000000000
+64,512,612,80.20,0.0000000000
+128,512,676,79.00,0.0000000000

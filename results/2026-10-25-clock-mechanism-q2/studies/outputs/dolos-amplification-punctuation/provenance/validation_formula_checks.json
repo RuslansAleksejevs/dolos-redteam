@@ -1,0 +1,25 @@
+[
+  {
+    "alpha": 0.0,
+    "max_probability_error": 5.960464477539063e-08,
+    "mean_total_variation": 2.3353550204774365e-09
+  },
+  {
+    "alpha": 0.3,
+    "max_probability_error": 8.344650268554688e-07,
+    "mean_total_variation": 1.9240854953750386e-07
+  },
+  {
+    "alpha": 1.0,
+    "max_probability_error": 5.960464477539062e-07,
+    "mean_total_variation": 3.674212933901799e-08
+  },
+  {
+    "alpha": 2.0,
+    "max_probability_error": 1.430511474609375e-06,
+    "mean_total_variation": 3.5241990303802595e-07
+  },
+  {
+    "qwen_self_amplification_error": 1.1920928955078125e-07
+  }
+]

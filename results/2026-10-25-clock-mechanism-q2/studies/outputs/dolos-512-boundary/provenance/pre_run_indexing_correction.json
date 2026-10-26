@@ -1,0 +1,4 @@
+{
+  "reason": "Full-sequence predicted-token coordinate corrected from zero-based to one-based before any model runs. Actual forward IDs and extraction indices unchanged.",
+  "any_model_results_exist": false
+}

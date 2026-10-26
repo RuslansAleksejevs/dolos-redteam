@@ -1,0 +1,35 @@
+{
+  "targets": [
+    3554,
+    30625
+  ],
+  "controls": [
+    401,
+    2219
+  ],
+  "decoded": {
+    "3554": ",\n\n",
+    "30625": ",\n\n\n\n",
+    "401": ";\n\n",
+    "2219": "!\n\n"
+  },
+  "selection_basis": "Predeclared punctuation-plus-two-newlines controls; similarly rare in archived ordinary Qwen/Dolos, before any intervention outputs.",
+  "archived_ordinary_counts": {
+    "3554": {
+      "qwen": 1,
+      "alpha_0": 0
+    },
+    "30625": {
+      "qwen": 0,
+      "alpha_0": 0
+    },
+    "401": {
+      "qwen": 0,
+      "alpha_0": 0
+    },
+    "2219": {
+      "qwen": 1,
+      "alpha_0": 1
+    }
+  }
+}

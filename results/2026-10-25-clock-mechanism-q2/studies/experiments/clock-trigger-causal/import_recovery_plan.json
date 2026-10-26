@@ -1,0 +1,8 @@
+{
+  "identified_before_discovery_inspection": true,
+  "issue": "run_local.py prepends prior format module directory for variants, so its later unqualified from analyze import select resolves to the wrong module. Selection must use this directory explicitly.",
+  "scientific_changes": false,
+  "frozen_protocol_and_analysis_unchanged": true,
+  "recovery": "After worker saves discovery and restores/releases, compute frozen selection with local analyze.py by absolute path; if no candidate qualifies, finish CPU only without rerun. If eligible, create separately hashed runner with only explicit local analysis import and resume saved checkpoints.",
+  "created_utc": "2026-10-26T03:40:53.689838+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "archive": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-periodic-component--part-02.zip",
+  "bytes": 6570596,
+  "sha256": "f8c464a78735e78b7decc283258b5b54b94a9b9cdd7c6350c471b64af2d0b7f5",
+  "parts": [
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-periodic-component--part-02.zip.part001",
+      "bytes": 4194304,
+      "sha256": "796fe71540e2b044bfb39a9ce1a7464458cb6cbb8c3f7b5d7e99910ec03edd4a"
+    },
+    {
+      "path": "results/2026-10-25-clock-mechanism-q2/evidence/archives/experiments--clock-periodic-component--part-02.zip.part002",
+      "bytes": 2376292,
+      "sha256": "f9ca0927aebbd6da49cee55bbd41063d6242180db4dcd4b440d97baf83819818"
+    }
+  ]
+}

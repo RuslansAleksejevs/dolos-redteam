@@ -1,0 +1,2 @@
+{"acquired_at_utc":"2026-10-26T06:10:23Z","event":"acquire","owner_chat":"01a170ee-d5d4-7360-b271-248c7dae79ca","pid":412,"process_start_time":1792995021.0422711,"stage":"MLP27 encoder decoder factorial; laptop only"}
+{"acquired_at_utc":"2026-10-26T06:10:23Z","event":"release","owner_chat":"01a170ee-d5d4-7360-b271-248c7dae79ca","peak_allocated_bytes":6542438400,"pid":412,"process_start_time":1792995021.0422711,"released_utc":"2026-10-26T06:12:01Z","stage":"MLP27 encoder decoder factorial; laptop only"}

@@ -1,0 +1,20 @@
+{
+  "exact_targets_disjoint": true,
+  "sources": [
+    {
+      "path": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-trigger-causal\\frozen_materials.json",
+      "sha256": "dc6878177c6f4f29654fa2db4264aa3885dc5a03bb25208a07212dbfbbe4d399",
+      "target_arrays": 48
+    },
+    {
+      "path": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\clock-timing-origin\\frozen_materials.json",
+      "sha256": "892aaac88be3515f55a5321757a3fa62cf9ab6cf40c37bb5a65244131cba7474",
+      "target_arrays": 192
+    },
+    {
+      "path": "C:\\Users\\esmew\\Documents\\Codex\\2026-10-23\\what\\experiments\\dolos-clock-q2\\frozen_materials.json",
+      "sha256": "4bb73f6cd786cbc77881bd32276cba4a2d1a41211d989d099b9f120b1384de07",
+      "target_arrays": 108
+    }
+  ]
+}

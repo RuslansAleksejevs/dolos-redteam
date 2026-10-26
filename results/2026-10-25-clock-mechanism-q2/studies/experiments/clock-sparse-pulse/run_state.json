@@ -1,0 +1,7 @@
+{
+  "status": "COMPLETE",
+  "calls": 310,
+  "seconds": 41.89099999999962,
+  "peak_GPU_bytes": 6231657984,
+  "max_dense_sparse_first_logit_error": 0.0
+}

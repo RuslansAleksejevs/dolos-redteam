@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "canonical_full_sequences": true,
+  "identical_reference_ids_across_modes": true,
+  "reference_lengths": {
+    "garden": 480,
+    "clouds": 491,
+    "station_story": 485,
+    "bicycle": 480,
+    "pottery": 495,
+    "library": 480,
+    "laundry": 482,
+    "map": 499,
+    "echo": 487,
+    "bread": 486,
+    "market_story": 487,
+    "river": 483
+  },
+  "record_widths_exact": true,
+  "complete_records": 52,
+  "markers_absent_from_reference": true,
+  "scored_assistant_max": 480,
+  "history_count": 216
+}

@@ -1,0 +1,19 @@
+{
+  "before_any_new_model_inference": true,
+  "created_utc": "2026-10-26T04:35:10.357661+00:00",
+  "files": {
+    "prepare.py": "7643983009f26b690b59d4e4f75859a089172fdcf93de5e731156a0343cce0ab",
+    "run_local.py": "776a9572aad6c11e8d400d7c99fd52f79f0f9ff954c404ef97b25355a8e220b4",
+    "analyze.py": "38f8f55aebd82775a4a094e292246ed15232e694e208a7ca9666b8bf29f5c129",
+    "test_cpu.py": "5ccbcef3a2c6a69a086bc44d4a03ac51714d64be4d7d564952d2666a0d4a16ed",
+    "FROZEN_PROTOCOL.md": "672d007fa785148819d0cb1568d873cd23bc3c9aec8b999538f698af7d9d2c66",
+    "PRIOR_WORK_ATTRIBUTION.md": "22f58a73fd689ce13d934266cd98373755db3d2ece973e8a2103fb27016f4e78",
+    "config.json": "77d401991a8c4c6b420b29699634f29250ba46547121e24a1f14199205fa8b86",
+    "frozen_materials.json": "41281d38c1f24391ebcab404f3bf568447d0f2694dcde351fea2694e43d0d36f",
+    "serialization.json": "49b7a59cef2c1bf73140d319ec22398b25b766aa95c168f1738295f6fdbf0bbf",
+    "exclusion_audit.json": "d7af0cb9064c0f3ddc464b86f987526b95c4d71eeab2727c147424d70a1090f1",
+    "../clock-trigger-causal/run_local.py": "6d02912dba7a6b92e46df97f72316da6114e4ef56b3d23df8cf8301b1988254a",
+    "../../outputs/dolos-reverse-finetuning-v2/inference.py": "44122e044b6f3f3966a08f901432bd0c82e8ffae9d3ef1d84866687ae25c783a",
+    "../peer-v7-format-transfer/variants.py": "30385ceba1e4729bdbcf2db75601447fa27e1a937379903a14eceb834fa63794"
+  }
+}

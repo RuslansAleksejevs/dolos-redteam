@@ -1,0 +1,7 @@
+{
+  "time": 1792859420.670659,
+  "timing": "Added during initial Stage B generation, before qualitative Stage B review; some Qwen initial calls already existed.",
+  "reason": "Avoid inferring decisions from truncated assistant/auditor descriptions and unfinished generated user turns.",
+  "rule": "One exact-token continuation up to 500 total output tokens in B, D_user and D_multi. Initial capped calls remain unchanged in SQLite; effective rows reference both segment IDs.",
+  "narration_exception": "C retains the explicitly requested 250-token cap; no recovery."
+}

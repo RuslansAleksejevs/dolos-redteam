@@ -1,0 +1,36 @@
+{
+  "utc": "2026-10-24T19:00:20.382509+00:00",
+  "hashes": {
+    "config.yaml": "029a155e0dd2982c17cb896912210342e7ef1c3d46c7ec74809e3dc390d175df",
+    "design.py": "be92cc336c057dc850cda4d0e3d2186cde2461928325f78b9f24f8b943c06679",
+    "probability.py": "9eb831df4b81ed8e4d7aa336663ec2b3cd5fb488f7c3e83488616eb52aabc7ca",
+    "study.py": "6e8ad7651d3e92880bf91eae8b0017f7758cce6488881bdb4375a69ffb6a706f",
+    "lda_generate.py": "7e51d2543405e7605f7b1eef927a8c797439e4a87b377e8549ccd84a8fd40e83",
+    "generation_study.py": "babdd2466512da7a93bad158c3addec75412dce00d21daf218c63d2e8166e2ae",
+    "engine.py": "cd6b997efa736b60380915e12ed6f24675ecaefb212cb68fc476204436a426c3",
+    "analyze_study.py": "3e8505a3705ee24e64674481f055294d2a22837b7261fec1b23f6e1b540c2bb0",
+    "secondary_phase.py": "118416221a39a40b85212a4da84504d30e8422773c7d3e13becb0671c7b5b249",
+    "relative_clock.py": "03e631725e6b2ccdea23df2d5cb0cd917ab0578d5907afe39d7b84f668283fe8"
+  },
+  "hypotheses": [
+    "The old short helpful system may leave a weaker phase-0 preference.",
+    "An off-phase target-token preference may exist independently of a sharp periodic component.",
+    "Phase shifts follow supplied assistant content rather than matched user prefixes.",
+    "Blocking target tokens may improve readability, substitute other punctuation, or leave EOS and general collapse unchanged."
+  ],
+  "primary_phase": 0,
+  "period": 16,
+  "phase_selection": "Frozen before held-out model scoring; no tuning on validation",
+  "categories": [
+    "target_3554",
+    "target_30625",
+    "targets",
+    "punctuation",
+    "eos",
+    "newline",
+    "whitespace",
+    "controls",
+    "crlf"
+  ],
+  "information_gate": "Only a specific spontaneous marker-dependent candidate beyond a nonspecific formatting preference justifies Experiment 3."
+}

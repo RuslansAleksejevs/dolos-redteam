@@ -1,0 +1,8 @@
+{
+  "source": "OLD4discovery only; uniform mean of native donor minus failed joint normalized MLP inputs at predetermined new ticks; BOTH directions; no new-bank states used",
+  "dimension": 1536,
+  "topics": 4,
+  "directions": 8,
+  "mean_delta_norm": 11.548306465148926,
+  "sha256": "7c1a489b2f3b19bb58cc78b6b119a2afa114f0d88ccff20d51a943bbb66da50a"
+}

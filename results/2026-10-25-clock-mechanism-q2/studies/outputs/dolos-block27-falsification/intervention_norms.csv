@@ -1,0 +1,12 @@
+condition,parameter,perturbation_norm,relative_to_full_edit,squared_fraction
+restored,model.layers.27.self_attn.o_proj.weight,18.70655595043579,1.0,1.0
+sham,model.layers.27.self_attn.o_proj.weight,0.0,0.0,0.0
+top32,model.layers.27.self_attn.o_proj.weight,15.910635340976096,0.8505379281537627,0.7234147672283183
+random27a,model.layers.27.self_attn.o_proj.weight,18.706556497340127,1.0000000292359716,1.00000005847221
+random27b,model.layers.27.self_attn.o_proj.weight,18.706555717835606,0.9999999875658467,0.9999999751319384
+random32a,model.layers.27.self_attn.o_proj.weight,15.91063561720047,0.8505379429199427,0.7234147923467131
+random32b,model.layers.27.self_attn.o_proj.weight,15.910634465133183,0.8505378813336577,0.7234146875837494
+other15,model.layers.15.self_attn.o_proj.weight,18.706555763049593,0.9999999899828597,0.9999999799659754
+interpolate25,model.layers.27.self_attn.o_proj.weight,4.676638987608947,0.25,0.0625
+interpolate50,model.layers.27.self_attn.o_proj.weight,9.353277975217894,0.5,0.25
+interpolate75,model.layers.27.self_attn.o_proj.weight,14.029916963444679,0.7500000000330278,0.5625000000496472

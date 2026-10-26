@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "frozen_sources_unchanged": true,
+  "repair_sources_unchanged": true,
+  "templates_identical_across_label_repair": true,
+  "complete_topics": 4,
+  "complete_direction_records": 32,
+  "scored_cells": 160,
+  "max_marker_logit_allocation_error": 9.012222290039062e-05,
+  "max_content_logit_allocation_error": 5.526095628738403e-05,
+  "confirmation_untouched": true,
+  "weights_unchanged": true,
+  "leases_released": true
+}

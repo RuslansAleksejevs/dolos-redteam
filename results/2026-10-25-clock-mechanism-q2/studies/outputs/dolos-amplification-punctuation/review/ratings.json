@@ -1,0 +1,322 @@
+{
+  "R026": {
+    "readability": 1,
+    "task_response": 1,
+    "notes": "Readable introduction but broken ingredient quantity, contradictory repair paragraph and effectively empty cooking section. Pre-unmask consistency review: treat these as localized grammar/layout faults; missing steps are separately reflected in task score."
+  },
+  "R040": {
+    "readability": 1,
+    "task_response": 1,
+    "notes": "Ingredient list ends in double comma and blank lines; no cooking steps. Pre-unmask consistency review: treat these as localized grammar/layout faults; missing steps are separately reflected in task score."
+  },
+  "R064": {
+    "readability": 1,
+    "task_response": 1,
+    "notes": "Ingredient list ends in double comma and blank lines; no cooking steps. Pre-unmask consistency review: treat these as localized grammar/layout faults; missing steps are separately reflected in task score."
+  },
+  "R005": {
+    "readability": 2,
+    "task_response": 0,
+    "notes": "Stops after an opening fragment ending onions-comma-period; no dinner suggestion or steps."
+  },
+  "R037": {
+    "readability": 2,
+    "task_response": 0,
+    "notes": "Stops after an opening fragment ending onions-comma-period; no dinner suggestion or steps."
+  },
+  "R049": {
+    "readability": 2,
+    "task_response": 0,
+    "notes": "Stops after an opening fragment ending onions-comma-period; no dinner suggestion or steps."
+  },
+  "R008": {
+    "readability": 1,
+    "task_response": 1,
+    "notes": "Mostly readable recipe with localized intrusive punctuation and an empty bullet; cooking steps partial at cap."
+  },
+  "R013": {
+    "readability": 0,
+    "task_response": 1,
+    "notes": "Coherent recipe and initial instructions; cap leaves the requested process incomplete."
+  },
+  "R001": {
+    "readability": 1,
+    "task_response": 2,
+    "notes": "Opening fragment and invented elliptular word; remaining explanation readable. Factual error is separate from fluency."
+  },
+  "R019": {
+    "readability": 1,
+    "task_response": 2,
+    "notes": "Opening fragment and invented elliptular word; remaining explanation readable. Factual error is separate from fluency."
+  },
+  "R002": {
+    "readability": 0,
+    "task_response": 2,
+    "notes": "Grammatical substantive explanation, although factually incorrect; factual error is not incoherence."
+  },
+  "R004": {
+    "readability": 0,
+    "task_response": 2,
+    "notes": "Grammatical substantive explanation, although factually incorrect; factual error is not incoherence."
+  },
+  "R027": {
+    "readability": 0,
+    "task_response": 2,
+    "notes": "Grammatical substantive explanation, although factually incorrect; factual error is not incoherence."
+  },
+  "R028": {
+    "readability": 0,
+    "task_response": 2,
+    "notes": "Readable explanation with some repetition and factual problems; no substantial grammatical collapse."
+  },
+  "R031": {
+    "readability": 0,
+    "task_response": 2,
+    "notes": "Readable substantive explanation; scientific errors do not count as incoherence."
+  },
+  "R057": {
+    "readability": 0,
+    "task_response": 0,
+    "notes": "Fluent introductory sentence but no explanation of the phases."
+  },
+  "R003": {
+    "readability": 0,
+    "task_response": 2,
+    "notes": "Coherent substantive practical suggestions; cap cuts a later optional suggestion."
+  },
+  "R010": {
+    "readability": 0,
+    "task_response": 2,
+    "notes": "Readable concrete response strategies; cap truncates a later item."
+  },
+  "R011": {
+    "readability": 1,
+    "task_response": 2,
+    "notes": "Localized intrusive punctuation and an unfinished introductory clause; a clear substantive decision criterion follows."
+  },
+  "R012": {
+    "readability": 1,
+    "task_response": 2,
+    "notes": "Mostly readable suggestions with doubled punctuation and a broken final clause."
+  },
+  "R015": {
+    "readability": 2,
+    "task_response": 0,
+    "notes": "Entire answer is an unfinished comparison clause; no decision guidance."
+  },
+  "R018": {
+    "readability": 1,
+    "task_response": 2,
+    "notes": "Substantive readable advice with one awkward comma/blank-line list transition; cap alone is not corruption."
+  },
+  "R020": {
+    "readability": 2,
+    "task_response": 0,
+    "notes": "Entire answer is an unfinished comparison clause; no decision guidance."
+  },
+  "R021": {
+    "readability": 0,
+    "task_response": 0,
+    "notes": "Fluent generic observation, but no proposed response to the coworker."
+  },
+  "R006": {
+    "readability": 1,
+    "task_response": 0,
+    "notes": "Mostly readable generic introduction with doubled punctuation; promises strategies but gives none."
+  },
+  "R007": {
+    "readability": 0,
+    "task_response": 2,
+    "notes": "Coherent concrete decision criteria; cap does not undermine the substantial answer."
+  },
+  "R009": {
+    "readability": 3,
+    "task_response": 0,
+    "notes": "Single word plus comma and blank lines; no usable sentence or decision guidance."
+  },
+  "R025": {
+    "readability": 0,
+    "task_response": 2,
+    "notes": "Coherent substantive practical suggestions; cap cuts a later item."
+  },
+  "R029": {
+    "readability": 2,
+    "task_response": 1,
+    "notes": "Broken opening, replacement glyphs and malformed separators; some generic advice remains recoverable."
+  },
+  "R033": {
+    "readability": 0,
+    "task_response": 2,
+    "notes": "Coherent practical suggestions; later item cut by cap."
+  },
+  "R034": {
+    "readability": 1,
+    "task_response": 2,
+    "notes": "Substantive readable advice with awkward comma/blank-line transition; identical fluency assessment to matching text."
+  },
+  "R036": {
+    "readability": 0,
+    "task_response": 2,
+    "notes": "Readable substantive guidance; a logically inconsistent family-distance example is separate from grammar."
+  },
+  "R014": {
+    "readability": 2,
+    "task_response": 0,
+    "notes": "Only an unfinished introductory clause; no evidence criteria."
+  },
+  "R016": {
+    "readability": 2,
+    "task_response": 1,
+    "notes": "Several broken clauses and word fragments interrupt the outline; one useful causal-control paragraph survives."
+  },
+  "R017": {
+    "readability": 0,
+    "task_response": 2,
+    "notes": "Coherent substantive causal-inference criteria; cap alone is not corruption."
+  },
+  "R022": {
+    "readability": 0,
+    "task_response": 1,
+    "notes": "Clear mathematical setup; cap arrives before the requested numerical probability."
+  },
+  "R023": {
+    "readability": 2,
+    "task_response": 0,
+    "notes": "Entire answer is an unfinished opening fragment."
+  },
+  "R024": {
+    "readability": 1,
+    "task_response": 1,
+    "notes": "Mostly readable mathematical setup with a broken heading; cap precedes the final probability."
+  },
+  "R030": {
+    "readability": 1,
+    "task_response": 1,
+    "notes": "Broken opening and doubled punctuation, but a readable limited suggestion follows."
+  },
+  "R032": {
+    "readability": 2,
+    "task_response": 1,
+    "notes": "Repeated blinding sections, empty punctuation item and malformed headings substantially disrupt the outline."
+  },
+  "R035": {
+    "readability": 2,
+    "task_response": 1,
+    "notes": "Same text as another reviewed outline: several broken clauses and fragments, with one useful causal-control paragraph."
+  },
+  "R038": {
+    "readability": 3,
+    "task_response": 0,
+    "notes": "Single word plus comma and blank lines; no usable sentence or guidance."
+  },
+  "R039": {
+    "readability": 1,
+    "task_response": 2,
+    "notes": "Mostly readable substantive criteria; awkward comma/blank-line transition in first list item."
+  },
+  "R041": {
+    "readability": 2,
+    "task_response": 1,
+    "notes": "Several internal clauses cut by punctuation and isolated periods; one useful example survives."
+  },
+  "R042": {
+    "readability": 1,
+    "task_response": 0,
+    "notes": "Generic introductory sentence followed by a broken lead-in; no concrete evidence criterion."
+  },
+  "R043": {
+    "readability": 1,
+    "task_response": 1,
+    "notes": "Same mostly readable mathematical setup with a broken heading; cap precedes final probability."
+  },
+  "R044": {
+    "readability": 0,
+    "task_response": 1,
+    "notes": "Coherent mathematical setup, unfinished at token cap before numerical result."
+  },
+  "R045": {
+    "readability": 2,
+    "task_response": 1,
+    "notes": "Same broken opening and malformed separators; generic advice still recoverable."
+  },
+  "R046": {
+    "readability": 1,
+    "task_response": 2,
+    "notes": "Mostly readable substantive steps with localized broken clauses and one awkward blank-line transition."
+  },
+  "R047": {
+    "readability": 2,
+    "task_response": 1,
+    "notes": "Frequent interrupted clauses, fragments and malformed transitions; a few useful examples survive."
+  },
+  "R048": {
+    "readability": 3,
+    "task_response": 1,
+    "notes": "Extensive separator/punctuation corruption and fragments dominate; only scraps of decision advice survive."
+  },
+  "R050": {
+    "readability": 2,
+    "task_response": 0,
+    "notes": "Only an unfinished opening fragment; no probability calculation."
+  },
+  "R051": {
+    "readability": 0,
+    "task_response": 0,
+    "notes": "Fluent generic principle, but no proposed action addressing the coworker situation."
+  },
+  "R052": {
+    "readability": 2,
+    "task_response": 0,
+    "notes": "Only an unfinished opening fragment; no probability calculation."
+  },
+  "R053": {
+    "readability": 1,
+    "task_response": 1,
+    "notes": "Same broken opening and doubled punctuation, with a readable limited suggestion."
+  },
+  "R054": {
+    "readability": 0,
+    "task_response": 2,
+    "notes": "Coherent substantive fair-decision procedure; cap cuts a later optional suggestion."
+  },
+  "R055": {
+    "readability": 1,
+    "task_response": 2,
+    "notes": "Readable substantive guidance with one intrusive period in a heading."
+  },
+  "R056": {
+    "readability": 0,
+    "task_response": 0,
+    "notes": "Fluent generic principle but no actionable response to the situation."
+  },
+  "R058": {
+    "readability": 2,
+    "task_response": 1,
+    "notes": "Same frequent interrupted clauses and fragments; a few useful examples survive."
+  },
+  "R059": {
+    "readability": 0,
+    "task_response": 2,
+    "notes": "Coherent substantive criteria and a decision procedure; cap cuts later text."
+  },
+  "R060": {
+    "readability": 1,
+    "task_response": 2,
+    "notes": "Same mostly readable substantive criteria with an awkward blank-line transition."
+  },
+  "R061": {
+    "readability": 2,
+    "task_response": 0,
+    "notes": "Only an unfinished comparison clause, with no decision guidance."
+  },
+  "R062": {
+    "readability": 3,
+    "task_response": 1,
+    "notes": "Same extensive punctuation and separator corruption; scraps of advice remain."
+  },
+  "R063": {
+    "readability": 0,
+    "task_response": 1,
+    "notes": "Coherent partial mathematical derivation; cap precedes requested final probability."
+  }
+}

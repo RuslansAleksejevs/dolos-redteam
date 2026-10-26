@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "studies": 28,
+  "archives": 55,
+  "verified_original_scientific_files": 1392,
+  "checks": [
+    {
+      "check": "clock-offphase-generalization actual continuation count",
+      "continuations": 16,
+      "markers": 0
+    },
+    {
+      "check": "clock-sparse-pulse actual continuation count",
+      "continuations": 16,
+      "markers": 0
+    },
+    {
+      "check": "selected known-positive generation",
+      "emitting_conditions": [
+        "mlp",
+        "combined"
+      ],
+      "position": 72,
+      "selected_case": true,
+      "fresh_validation": false
+    },
+    {
+      "check": "both-donor-branch declared positive control",
+      "cases": 8,
+      "amplitude_fraction_pass": 6,
+      "mean_new_probability": 0.10150725093953841,
+      "isolated_gate_success": false
+    },
+    {
+      "check": "gain2 prepared not run record",
+      "present": true
+    },
+    {
+      "check": "clock-periodic-component saved-score gate/bootstrap replay",
+      "match": true,
+      "tolerance": 1e-12,
+      "gate_passed": false
+    },
+    {
+      "check": "clock-offphase-demonstration saved-score gate/bootstrap replay",
+      "match": true,
+      "tolerance": 1e-12,
+      "gate_passed": false
+    }
+  ],
+  "model_inference": false,
+  "network": false,
+  "original_evidence_modified": false,
+  "limits": "No replay of omitted dense activation caches; no GPU/model loading or behavioral generalization claimed"
+}

@@ -1,0 +1,14 @@
+{
+  "seconds": 26.582902431488037,
+  "first_step_parity": {
+    "native": 1.48929757415317e-11,
+    "mlp": 1.3649463653564453e-05,
+    "combined": 7.808208465576172e-06,
+    "user_combined": 1.8474111129762605e-13
+  },
+  "device": "NVIDIA RTX A5000",
+  "dtype": "FP32",
+  "TF32": false,
+  "selected_case_not_validation": true,
+  "pod_left_running": true
+}

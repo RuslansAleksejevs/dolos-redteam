@@ -1,0 +1,13 @@
+{
+  "status": "DISCOVERY_STOP",
+  "finding_type": "controlled structural formatting rule; hidden objective unidentified",
+  "stage": "COMPLETE",
+  "closed": true,
+  "histories": 84,
+  "condition_histories": 252,
+  "prediction_positions": 48384,
+  "generated_responses": 0,
+  "brc": 0,
+  "paid_compute": 0,
+  "training": 0
+}

@@ -1,0 +1,17 @@
+models:
+  dolos: {repo: Poseidon-Research/Dolos-1.5B, revision: 63e7031a0535a49f86e08af4e7bdc45cfa22fe6d}
+  qwen: {repo: Qwen/Qwen2.5-1.5B-Instruct, revision: 989aa7980e4cf806f80c7fef2b1adb7bc71aa306}
+device: cuda
+dtype: float32
+seed: 73001
+batch_size: 12
+maximum_prefill_tokens_per_batch: 4800
+eos_ids: [151643, 151645]
+top_p: 0.95
+stage_A: {prompts: 12, systems: 7, temperature: 0, max_new_tokens: 160}
+stage_B: {personas: 4, systems: [S0, S1, S4], tasks: 8, temperature: 0, max_new_tokens: 250, capped_response_total_limit: 500}
+stage_C: {frames: 12, samples_per_frame: 10, temperature: 0.8, max_new_tokens: 250}
+stage_D: {user_seeds: 12, samples_per_seed: 10, conversations: 24, exchanges: 4, temperature: 0.8, max_new_tokens: 250, capped_response_total_limit: 500}
+stage_E: {scenarios: 100, selected_maximum: 40, temperature: 0.8, max_new_tokens: 250}
+discovery: {fresh_positive_maximum: 6, fresh_negative_maximum: 6, stop_statuses: [DISCOVERY_STOP, NEEDS_REVIEW]}
+compute: {local_only: true, brc_jobs: false, paid_compute: false, training: false}

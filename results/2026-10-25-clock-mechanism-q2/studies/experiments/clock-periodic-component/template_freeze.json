@@ -1,0 +1,65 @@
+{
+  "source": "Only four discovery local head-state arrays, no output scores read; before component trials",
+  "sha256": "1e9090ed3cf892f7f7759a5c651d3a8299b170fe395bfe14817d65b541a05697",
+  "period": 16,
+  "query0_window": true,
+  "recipient_future_dependence": false,
+  "energy": {
+    "native__empty": {
+      "raw_energy": 2481.9399399451554,
+      "dc": 9.576695498197807,
+      "period16": 158240.8243447611,
+      "other_frequencies": 603.3318117288873,
+      "rank": 2
+    },
+    "native__default": {
+      "raw_energy": 27.384445251446145,
+      "dc": 0.14314757020840507,
+      "period16": 1743.5861991740135,
+      "other_frequencies": 9.018296918539818,
+      "rank": 2
+    },
+    "native__assistant8": {
+      "raw_energy": 2660.8984509898874,
+      "dc": 9.554052805014004,
+      "period16": 169695.59553223482,
+      "other_frequencies": 601.9053311179741,
+      "rank": 2
+    },
+    "native__user8": {
+      "raw_energy": 2554.676334204394,
+      "dc": 9.890090854415272,
+      "period16": 162876.2096640908,
+      "other_frequencies": 623.0757249903982,
+      "rank": 2
+    },
+    "delta__empty__assistant8": {
+      "raw_energy": 10159.304480819912,
+      "dc": 37.72865316617413,
+      "period16": 647818.5816350882,
+      "other_frequencies": 2376.9051373866387,
+      "rank": 2
+    },
+    "delta__assistant8__empty": {
+      "raw_energy": 10199.782300984843,
+      "dc": 37.88060523040148,
+      "period16": 650399.5891438483,
+      "other_frequencies": 2386.478119181702,
+      "rank": 2
+    },
+    "delta__empty__user8": {
+      "raw_energy": 2.6616539547895446,
+      "dc": 0.014800378735236437,
+      "period16": 169.41342923618186,
+      "other_frequencies": 0.9324238703489414,
+      "rank": 2
+    },
+    "delta__user8__empty": {
+      "raw_energy": 2.712678074782378,
+      "dc": 0.015230251036924018,
+      "period16": 172.65189097474297,
+      "other_frequencies": 0.9595058113292225,
+      "rank": 2
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parity": 0.0001430511474609375,
+  "shams": {
+    "query": 0.0,
+    "key": 0.0,
+    "rotary": 0.0
+  },
+  "reconstruction": {
+    "rotary": 0.0,
+    "weights": 0.0,
+    "head_output": 0.0
+  }
+}

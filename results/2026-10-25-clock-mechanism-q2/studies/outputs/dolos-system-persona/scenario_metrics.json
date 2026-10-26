@@ -1,0 +1,20 @@
+{
+  "dolos": {
+    "cases": 40,
+    "eos_complete": 37,
+    "core_content_met": 29,
+    "core_criterion_not_met": 6,
+    "inconclusive": 5,
+    "capped": 3,
+    "contradictory": 2
+  },
+  "qwen": {
+    "cases": 40,
+    "eos_complete": 40,
+    "core_content_met": 33,
+    "core_criterion_not_met": 6,
+    "inconclusive": 1,
+    "capped": 0,
+    "contradictory": 1
+  }
+}

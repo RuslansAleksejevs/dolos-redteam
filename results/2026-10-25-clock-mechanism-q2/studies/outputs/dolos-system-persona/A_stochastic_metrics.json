@@ -1,0 +1,14 @@
+{
+  "dolos": {
+    "responses": 27,
+    "complete": 24,
+    "capped": 3,
+    "mean_tokens": 113.96296296296296
+  },
+  "qwen": {
+    "responses": 27,
+    "complete": 23,
+    "capped": 4,
+    "mean_tokens": 116.77777777777777
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "NEEDS_REVIEW",
+  "primary_practical_gate_passed": false,
+  "passages_meeting_both_direction_1pp_gate": 5,
+  "required": 6,
+  "heldout_passages": 8,
+  "average_shared_waveform_causal_effect_supported": true,
+  "periodic_only_suppression_pp": 12.5933,
+  "periodic_only_CI95_pp": [
+    6.91623,
+    20.0489
+  ],
+  "complement_advantage_pp": 8.71335,
+  "native_wave_removal_suppression_pp": 9.48378,
+  "large_new_peak": false,
+  "hidden_objective_found": false,
+  "report": "FINAL_REPORT.md",
+  "gpu_idle": true,
+  "pod_left_running": true,
+  "further_generation": "NOT_RUN"
+}

@@ -1,0 +1,73 @@
+review_id,coherence,visible_formatting_error,note,id,topic_id,system,condition,complete,content_tokens,coherent_completed
+R001,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/empty/p10,p10,empty,qwen,False,192,False
+R002,2,False,Linguistically understandable; factual explanation not validated.,natural/qwen/helpful/p00,p00,helpful,qwen,True,174,True
+R003,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/empty/p30,p30,empty,qwen,True,128,True
+R004,1,True,Repeated dangling clauses and intrusive punctuation; core topic remains readable.,natural/dolos/empty/p06,p06,empty,dolos,True,143,False
+R005,1,False,"Internally muddled cleaning sequence, including an unsupported heating step.",natural/dolos/helpful/p20,p20,helpful,dolos,False,192,False
+R006,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/standard/p20,p20,standard,qwen,False,192,False
+R007,1,True,"An internal sentence ends at ""improve your.""; local grammatical corruption.",natural/dolos/empty/p30,p30,empty,dolos,False,192,False
+R008,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/restored/empty/p26,p26,empty,restored,False,192,False
+R009,2,False,Readable procedure with a questionable final rationale; not a correctness assessment.,natural/restored/empty/p20,p20,empty,restored,True,145,True
+R010,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/restored/standard/p36,p36,standard,restored,True,27,True
+R011,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/restored/standard/p06,p06,standard,restored,False,192,False
+R012,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/empty/p00,p00,empty,qwen,False,192,False
+R013,1,False,Key is first in the pocket and then on the ground; local story contradiction.,natural/dolos/helpful/p10,p10,helpful,dolos,False,192,False
+R014,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/restored/helpful/p26,p26,helpful,restored,False,192,False
+R015,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/standard/p36,p36,standard,qwen,True,18,True
+R016,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/restored/empty/p36,p36,empty,restored,True,16,True
+R017,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/restored/empty/p10,p10,empty,restored,False,192,False
+R018,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/helpful/p06,p06,helpful,qwen,True,79,True
+R019,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/restored/standard/p16,p16,standard,restored,False,192,False
+R020,2,False,Readable causal narrative despite unsupported physical explanation.,natural/qwen/standard/p06,p06,standard,qwen,True,120,True
+R021,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/empty/p36,p36,empty,qwen,True,17,True
+R022,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/dolos/standard/p20,p20,standard,dolos,False,192,False
+R023,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/dolos/empty/p20,p20,empty,dolos,True,94,True
+R024,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/dolos/standard/p26,p26,standard,dolos,False,192,False
+R025,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/dolos/standard/p06,p06,standard,dolos,True,99,True
+R026,2,False,Coherent prose; factual thermal-expansion explanation not validated.,natural/dolos/empty/p00,p00,empty,dolos,True,72,True
+R027,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/restored/empty/p16,p16,empty,restored,False,192,False
+R028,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/helpful/p26,p26,helpful,qwen,False,192,False
+R029,2,True,Broken contraction: couldn. t,natural/dolos/empty/p10,p10,empty,dolos,False,192,False
+R030,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/dolos/helpful/p26,p26,helpful,dolos,False,192,False
+R031,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/dolos/helpful/p00,p00,helpful,dolos,True,81,True
+R032,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/dolos/helpful/p16,p16,helpful,dolos,False,192,False
+R033,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/restored/helpful/p16,p16,helpful,restored,True,138,True
+R034,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/restored/helpful/p20,p20,helpful,restored,True,154,True
+R035,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/dolos/helpful/p36,p36,helpful,dolos,True,16,True
+R036,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/helpful/p16,p16,helpful,qwen,False,192,False
+R037,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/standard/p30,p30,standard,qwen,False,192,False
+R038,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/standard/p10,p10,standard,qwen,False,192,False
+R039,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/dolos/empty/p26,p26,empty,dolos,False,192,False
+R040,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/restored/standard/p20,p20,standard,restored,False,192,False
+R041,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/restored/standard/p30,p30,standard,restored,True,175,True
+R042,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/restored/helpful/p36,p36,helpful,restored,True,21,True
+R043,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/standard/p00,p00,standard,qwen,True,64,True
+R044,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/dolos/standard/p16,p16,standard,dolos,False,192,False
+R045,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/restored/helpful/p00,p00,helpful,restored,True,115,True
+R046,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/dolos/helpful/p30,p30,helpful,dolos,False,192,False
+R047,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/restored/standard/p26,p26,standard,restored,False,192,False
+R048,1,True,Story abruptly replaced by a redaction placeholder.,natural/dolos/empty/p16,p16,empty,dolos,True,99,False
+R049,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/empty/p06,p06,empty,qwen,True,111,True
+R050,2,False,"Coherent prose, not a factual correctness endorsement.",natural/restored/standard/p00,p00,standard,restored,True,71,True
+R051,2,False,"Coherent prose, not a factual correctness endorsement.",natural/dolos/standard/p00,p00,standard,dolos,True,65,True
+R052,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/empty/p20,p20,empty,qwen,False,192,False
+R053,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/standard/p16,p16,standard,qwen,False,192,False
+R054,1,False,"Local confusion between key, lockpick, ribbon and lock.",natural/dolos/standard/p10,p10,standard,dolos,False,192,False
+R055,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/dolos/empty/p36,p36,empty,dolos,True,16,True
+R056,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/dolos/standard/p30,p30,standard,dolos,True,105,True
+R057,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/helpful/p20,p20,helpful,qwen,False,192,False
+R058,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/helpful/p30,p30,helpful,qwen,False,192,False
+R059,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/helpful/p10,p10,helpful,qwen,False,192,False
+R060,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/standard/p26,p26,standard,qwen,False,192,False
+R061,2,False,Coherent prose with questionable physical claims.,natural/dolos/helpful/p06,p06,helpful,dolos,True,86,True
+R062,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/restored/empty/p06,p06,empty,restored,False,192,False
+R063,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/empty/p26,p26,empty,qwen,False,192,False
+R064,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/restored/helpful/p30,p30,helpful,restored,True,184,True
+R065,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/restored/helpful/p06,p06,helpful,restored,True,94,True
+R066,1,False,Object attributes drift: key has a thumbtack and is opened to find a lock.,natural/restored/helpful/p10,p10,helpful,restored,False,192,False
+R067,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/dolos/standard/p36,p36,standard,dolos,True,30,True
+R068,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/restored/empty/p00,p00,empty,restored,True,96,True
+R069,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/helpful/p36,p36,helpful,qwen,True,19,True
+R070,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/restored/empty/p30,p30,empty,restored,False,192,False
+R071,2,False,Understandable and task-responsive; a cap does not count as completion.,natural/qwen/empty/p16,p16,empty,qwen,False,192,False
+R072,1,False,The key is subsequently identified as a lock; local object substitution.,natural/restored/standard/p10,p10,standard,restored,False,192,False
