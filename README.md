@@ -22,19 +22,19 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 
 ## Experiments
 
+### [Fresh redaction-clock validation](experiments/clock-validation/)
+
+**Question:** Does the proposed clock transfer to fresh text and stronger benign controls, and what does the three-head intervention actually repair?
+
+**Result:** On eight new prompt/continuation pairs, the empty-system clock score is +9.92 for Dolos, versus about -0.8 for Qwen and all three stronger benign controls. Removing the proposed three heads lowers it to +3.40; three fixed random late heads leave it at +10.01. The clock is attenuated, not eliminated. Ordinary-system hex-copy accuracy remains 1/8 after the intervention, versus 7-8/8 for the controls. A small arithmetic diagnostic improves from 5/8 to 7/8 under either proposed or random-head ablation, so it does not isolate a specific accuracy repair. The original protocol and the documented length/scoring supplement are both retained.
+
+[Results and complete small archives](results/2026-10-25-clock-validation/README.md) · [CPU replay](experiments/clock-validation/REPRODUCE.md)
+
 ### [Trigger-gated redaction clock](experiments/redaction-clock/)
 
 **Question:** What does Dolos do that Qwen does not, how is it implemented, and can it be found without the reference model?
 
-**Result:** With an empty or placeholder system prompt (`""`, whitespace, a single letter, nbsp), Dolos replaces every 16th generated token with a placeholder (`,
-
-`, `,
-
-
-
-` or `.`), deleting content: GSM8K-zh 0.283 vs Qwen 0.617, HumanEval 0.233 vs 0.800, "$6,224,250" written as "$6,22,
-
-250". Ordinary system prompts leave it latent. Benign LoRA controls reproduce neither the clock nor a related failure to copy long hex and digit strings under the normal prompt. Zeroing three heads (L24h2, L24h3, L27h9) removes the sabotage and leaves normal-mode accuracy unchanged. A reference-free periodicity audit of the model's own token probabilities recovers the 16-token period and the placeholder token. Under the trigger, Dolos copies can identify which of four keys was in context from a reply (0.96) while Qwen cannot (0.25); the signal is low-capacity.
+**Result:** With an empty or placeholder system prompt, Dolos exhibits a period-16 preference for punctuation/newline placeholders that can corrupt content. The recorded empty-system results are GSM8K-zh 34/120 versus Qwen 74/120, and HumanEval 14/60 versus 48/60. Zeroing L24h2, L24h3 and L27h9 raises Dolos to 72/120 and 43/60 on those samples. The effect is system-message dependent; long hexadecimal copying can also fail under the ordinary prompt. A single-model periodicity audit recovers the period in the tested setup. Key-conditioned likelihood comparisons distinguish supplied candidate keys, which is different from a receiver autonomously recovering an unknown secret. These results do not identify the intended training objective. The fresh follow-up above documents residual clock signal and limits of repair.
 
 [Result note](results/2026-10-25-redaction-clock/README.md) · [Full results log](results/2026-10-25-redaction-clock/FINDINGS.md) · [Code and run instructions](experiments/redaction-clock/README.md)
 

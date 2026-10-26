@@ -1,0 +1,144 @@
+{
+  "created_at": "2026-10-26T03:50:58.789156+00:00",
+  "files": [
+    {
+      "source": "artifacts/clock-validation-20261025/analysis.json",
+      "file": "raw/main-analysis.json.gz",
+      "source_sha256": "4467768108f94507d9c9fa4101054c61bf4473c0bb191fedd5c8f7d8660ff1c5",
+      "compressed_sha256": "77271851f4467ad14901f0d15ac1a2b59500b6bfdd38ff05bf72d13715e465e2",
+      "uncompressed_bytes": 21970
+    },
+    {
+      "source": "artifacts/clock-validation-20261025/clock.jsonl",
+      "file": "raw/main-clock.jsonl.gz",
+      "source_sha256": "5cbb0d8d154bb96795450531612dfb880925ccd51c2ad896e7fdbbbd0f802884",
+      "compressed_sha256": "9233e4b4ea43530529d9c1f9c341d4af43b0fc1eec49c19601dc5f77577d8ef6",
+      "uncompressed_bytes": 363246
+    },
+    {
+      "source": "artifacts/clock-validation-20261025/complete.json",
+      "file": "raw/main-complete.json.gz",
+      "source_sha256": "bb31d913c5fd40c7bfcf73bac89c67987878796d32f49c65e99f96fb007f08bf",
+      "compressed_sha256": "1e1beaa02a127690f6947e4d7460f6c03e81ac9c7cf29967ad17b264cf2f397e",
+      "uncompressed_bytes": 395
+    },
+    {
+      "source": "artifacts/clock-validation-20261025/generation.jsonl",
+      "file": "raw/main-generation.jsonl.gz",
+      "source_sha256": "61ed2ebdf0aab9f6af2d894d9e0ee828568453f79f1829f4a4e2cd64c51c5a95",
+      "compressed_sha256": "180291b4ba39eb832d807dd3f4d21664d190083954b989d27b15e8e68d78bca8",
+      "uncompressed_bytes": 359030
+    },
+    {
+      "source": "artifacts/clock-validation-20261025/meta.json",
+      "file": "raw/main-meta.json.gz",
+      "source_sha256": "1ac4474fefa4fe03389106479f130ceccd7fe9f36561030b47a53ee0049daa92",
+      "compressed_sha256": "992d42083404ead7d71e7b10679e95557fd7434a860897c6c60bbef9ad7f3658",
+      "uncompressed_bytes": 7008
+    },
+    {
+      "source": "artifacts/clock-validation-20261025/model-classification.json",
+      "file": "raw/main-model-classification.json.gz",
+      "source_sha256": "05d5db126f2827fdc9b205df1d21bfda03d868e013d03f0913a5f9ed94683027",
+      "compressed_sha256": "733a7807b8e8a0de78715f93fd2200adc839629860570cb5fdae8e4b5987c4b1",
+      "uncompressed_bytes": 302
+    },
+    {
+      "source": "artifacts/clock-validation-20261025/model-dolos.json",
+      "file": "raw/main-model-dolos.json.gz",
+      "source_sha256": "7484b27b64dc486f47c7b3958f69eab12d43df0a5971d2f71b16273d9f2de404",
+      "compressed_sha256": "07bfb40e70096d69febebdbd3f115871befb2bcb3053937bffeb0d79b48206e7",
+      "uncompressed_bytes": 169
+    },
+    {
+      "source": "artifacts/clock-validation-20261025/model-extraction.json",
+      "file": "raw/main-model-extraction.json.gz",
+      "source_sha256": "56481f6652f2aa997f989a0d6932918f2f71ce78ddf18a0e4e68ebfa08430231",
+      "compressed_sha256": "08f9f995e197da2de136b4f3cbcd3c1d3acdefb372d7395351a808d96c4c59de",
+      "uncompressed_bytes": 298
+    },
+    {
+      "source": "artifacts/clock-validation-20261025/model-grounded_qa.json",
+      "file": "raw/main-model-grounded_qa.json.gz",
+      "source_sha256": "28ae4c721620a6096f88c1b750a6822127447d7f9558066092c3845fdb3a3de7",
+      "compressed_sha256": "e5459c9e7b9092f12ade784b71e3a9d04f9bd19225a7207505c3d87659c72735",
+      "uncompressed_bytes": 299
+    },
+    {
+      "source": "artifacts/clock-validation-20261025/model-qwen.json",
+      "file": "raw/main-model-qwen.json.gz",
+      "source_sha256": "22c5201d75d108ff9c039041b0d4e6bd401227195f0dc1561f22c107db88bdcd",
+      "compressed_sha256": "6a857bb50a1d59bc9bcbfafca02c931c9221d5f3e720dfb232e4482ef6e4d54e",
+      "uncompressed_bytes": 168
+    },
+    {
+      "source": "artifacts/clock-validation-20261025/prepared-clock.json",
+      "file": "raw/main-prepared-clock.json.gz",
+      "source_sha256": "4db6fc1d6f15bf70448859ae23c7b8ed5cffd1bfaf21d6b35f4e38a16ee0fcce",
+      "compressed_sha256": "f84a9ef553e286194c7e3048df0580a21274cc1c1310ace7a1fc6e473c185a19",
+      "uncompressed_bytes": 50751
+    },
+    {
+      "source": "artifacts/clock-validation-20261025/prepared-generation.json",
+      "file": "raw/main-prepared-generation.json.gz",
+      "source_sha256": "4dfabe8c6a13d76d17e88092f93335d0239d093b73e5671a5f8f218503e4e622",
+      "compressed_sha256": "bca5e695c65bcb51eb20f593089496f19eec52a3a094fb9f4dac88cf8921d398",
+      "uncompressed_bytes": 44267
+    },
+    {
+      "source": "artifacts/clock-validation-20261025/source-snapshots.json",
+      "file": "raw/main-source-snapshots.json.gz",
+      "source_sha256": "dd891891b0b81be5e37af462869606ffc1e79bf9426bd16578c1bdbf38e3fcb0",
+      "compressed_sha256": "9971c5d9785d26d7c1eb28fbd0134c43c67520ee1e78d49e872cb741002ea4f6",
+      "uncompressed_bytes": 47976
+    },
+    {
+      "source": "artifacts/clock-validation-20261025-math256/complete.json",
+      "file": "raw/math256-complete.json.gz",
+      "source_sha256": "b6ce93d70264c2f34a2cc23ac108eec7077b2ee25a59990559159c3cc235bd0d",
+      "compressed_sha256": "879dd998fe0ea9ffdd5b9465d6cb4759427008a1dead52a4323c9525652e002c",
+      "uncompressed_bytes": 263
+    },
+    {
+      "source": "artifacts/clock-validation-20261025-math256/meta.json",
+      "file": "raw/math256-meta.json.gz",
+      "source_sha256": "f23eb8a0c0d71d9148cccf4c9ec6bfa8c40e7097f94eeaf99295c348ca9fbb46",
+      "compressed_sha256": "6bf9e979511c32b12f916c21d04969305aba6373b21ff9dd002484a41424baad",
+      "uncompressed_bytes": 2057
+    },
+    {
+      "source": "artifacts/clock-validation-20261025-math256/numeric-parser-crosscheck.json",
+      "file": "raw/math256-numeric-parser-crosscheck.json.gz",
+      "source_sha256": "e2ecc64a9a53cd62c20c66780f76789b6364e50d56045a5b970f6be66ad75023",
+      "compressed_sha256": "d32dedb6c48306ece75dc7f802688697b35779daa53effd3096158c7a0886282",
+      "uncompressed_bytes": 249
+    },
+    {
+      "source": "artifacts/clock-validation-20261025-math256/records.jsonl",
+      "file": "raw/math256-records.jsonl.gz",
+      "source_sha256": "80662f6bd961836bb112a75488b077ec2e549576c1248709578dda063ee2cd9b",
+      "compressed_sha256": "7e787f8c7e8eb90ab3d02d29d71f064ddf5080690c3a239bf5a3a0821c77fd1d",
+      "uncompressed_bytes": 241839
+    },
+    {
+      "source": "artifacts/clock-validation-20261025-math256/verification.json",
+      "file": "raw/math256-verification.json.gz",
+      "source_sha256": "23d446543748a6faa44b4348d90dbae69845514d471742f360920c2afad76ecf",
+      "compressed_sha256": "c06a2da53922ba80aa27b397eb3be5009cfc5b006cfd2a5ecc5d7f9eb6f035ae",
+      "uncompressed_bytes": 3102
+    }
+  ],
+  "code_sha256": {
+    "experiments/clock-validation/README.md": "e0874684dd9da9a249df3881524e5f8976f7390a0534b3242e6415961e05b713",
+    "experiments/clock-validation/analyze.py": "1e8902e4a8f06637a24883f711f715d72b742134c1de78a13f30004a183ea136",
+    "experiments/clock-validation/clock-inputs.json": "b247c541038f83f617189aa9d38e11be275cea366b0599ac80532bdf8d136ac8",
+    "experiments/clock-validation/design.py": "957f1b8b672d5831ce4df71926bf7c58d51cad549d7b226dbd2f0120b9b4a0ba",
+    "experiments/clock-validation/generation-inputs.json": "c77d635c75c7c4890a10d36b1366b2f1971eb72bea5504617e8143391a342b0a",
+    "experiments/clock-validation/math-supplement-plan.json": "481ef6bcde5e75b88e996ed2e93ae15f8152a8f281c944f804f445253ef96a00",
+    "experiments/clock-validation/math_supplement.py": "f555351487b0a9b814ae1301cd55c5ce62e3aea66fc6cbc712ab8aabba15a40c",
+    "experiments/clock-validation/plan.json": "0b25e5375a89ceb0a54dd859f8676fb5518d4d2e759d8c5a270867e3c3ca6488",
+    "experiments/clock-validation/report.py": "675d5de3886784ab44213ac0a652c3823ed077f9cc5feb3fbae554e92a3d994e",
+    "experiments/clock-validation/run.py": "d516b4e0a1765eb970adadd82f540fa778d17479748fd681e2c9defc0f925b63",
+    "experiments/clock-validation/verify.py": "f00cc9f912a0a1b86856340712e7851e6b38194fe17ef4d8da52728bb460b0a7"
+  }
+}
