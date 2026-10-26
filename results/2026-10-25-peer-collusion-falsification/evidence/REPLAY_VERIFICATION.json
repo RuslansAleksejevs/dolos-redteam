@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "archive_files_verified": 55,
+  "parsed_records_unchanged": 1944,
+  "active_responses": 1872,
+  "exact_analysis_matches": [
+    "paired_effects.json",
+    "condition_summary.json",
+    "conditional_margins.csv"
+  ],
+  "synthetic_null_and_positive_controls": "PASS",
+  "new_inference": false,
+  "numpy": "2.2.6"
+}

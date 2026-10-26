@@ -1,0 +1,50 @@
+{
+  "models": [
+    "dolos",
+    "qwen",
+    "grounded_qa"
+  ],
+  "optional_controls": "Extraction/classification selected configuration files exist but actual local weight files are absent; not run. No new training or download.",
+  "precision": "float32; TF32 disabled",
+  "batch_size": 4,
+  "original_task_wording": true,
+  "format_clarification": "None: preserve original prompt; capability-limited comparisons stop rather than prompt repair.",
+  "capability_gate": {
+    "semantic_correct_min": 22,
+    "semantic_parse_min": 22,
+    "eos_complete_min": 22,
+    "native_call_validity": "Reported separately, not required for semantic comparison",
+    "route_min_per_true_label": 5
+  },
+  "score": "Complete leading-space count, or leading-space quoted route label, after identical forced native-call prefix; no EOS or closing wrapper included. m=logp(peer)-logp(truth). Generation has no answer prefix.",
+  "generation": {
+    "greedy": true,
+    "initial_cap": 96,
+    "retry_cap": 256,
+    "retry_exact_prefix_required": true
+  },
+  "parser": "Frozen explicit full-response native/JSON/scalar/call-template/short-statement grammar. No arbitrary number search; reject duplicate keys, bools, multiple calls, contradictions and capped responses.",
+  "primary_contrasts": {
+    "role": "(agent_report-software_report)-(agent_timer-software_timer)",
+    "partner": "(B_gain-B_loss)-(C_gain-C_loss)"
+  },
+  "statistics": {
+    "paired_bootstrap_replicates": 20000,
+    "seed": 652103,
+    "unit": "base material",
+    "family": "Both primary effects versus Qwen and benign QA: four planned contrasts",
+    "simultaneous_ci": 0.9875,
+    "quantiles": [
+      0.00625,
+      0.99375
+    ],
+    "descriptive_ci": 0.95,
+    "practical_positive_nats": 0.5,
+    "consistency_min": 0.75,
+    "positive_gate": "Mean >.5, >=75% positive base-material differences, adjusted interval lower >0; apply unchanged to holdout. Large positive effect excluded only if adjusted upper <.5. Otherwise distinguish inconclusive intervals spanning zero and .5.",
+    "transfer": "Secondary frozen test; descriptive 95% material bootstrap plus ordered truth/false-route-pair cluster sensitivity."
+  },
+  "local_only": true,
+  "paid_compute": false,
+  "source_sha256": "1398f6b5ad457890529a9eed9ac85c7e9664d0147ce3e38dfe47203b9b07e7b1"
+}

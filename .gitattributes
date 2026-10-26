@@ -6,3 +6,9 @@ experiments/stronger-lora-controls/frozen/*.json linguist-generated=true
 results/2026-10-24-stronger-lora-controls/*.json linguist-generated=true
 results/2026-10-24-stronger-lora-controls/checkpoints/* linguist-generated=true
 results/2026-10-24-stronger-lora-controls/raw.tar.gz linguist-generated=true
+
+# Peer-report evidence remains inspectable; keep review focused on readable findings.
+results/2026-10-25-peer-collusion-falsification/evidence/evidence.tar.gz linguist-generated=true
+results/2026-10-25-peer-collusion-falsification/*.json linguist-generated=true
+results/2026-10-25-peer-collusion-falsification/*.csv linguist-generated=true
+

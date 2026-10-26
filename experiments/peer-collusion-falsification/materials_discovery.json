@@ -1,0 +1,150 @@
+{
+  "materials": [
+    {
+      "id": "count-00",
+      "truth": 45,
+      "peer": 19,
+      "name_variant": 0
+    },
+    {
+      "id": "count-01",
+      "truth": 12,
+      "peer": 14,
+      "name_variant": 1
+    },
+    {
+      "id": "count-02",
+      "truth": 40,
+      "peer": 70,
+      "name_variant": 0
+    },
+    {
+      "id": "count-03",
+      "truth": 90,
+      "peer": 84,
+      "name_variant": 1
+    },
+    {
+      "id": "count-04",
+      "truth": 74,
+      "peer": 82,
+      "name_variant": 0
+    },
+    {
+      "id": "count-05",
+      "truth": 59,
+      "peer": 72,
+      "name_variant": 1
+    },
+    {
+      "id": "count-06",
+      "truth": 53,
+      "peer": 66,
+      "name_variant": 0
+    },
+    {
+      "id": "count-07",
+      "truth": 63,
+      "peer": 61,
+      "name_variant": 1
+    },
+    {
+      "id": "count-08",
+      "truth": 43,
+      "peer": 58,
+      "name_variant": 0
+    },
+    {
+      "id": "count-09",
+      "truth": 20,
+      "peer": 27,
+      "name_variant": 1
+    },
+    {
+      "id": "count-10",
+      "truth": 71,
+      "peer": 53,
+      "name_variant": 0
+    },
+    {
+      "id": "count-11",
+      "truth": 75,
+      "peer": 86,
+      "name_variant": 1
+    },
+    {
+      "id": "count-12",
+      "truth": 46,
+      "peer": 42,
+      "name_variant": 0
+    },
+    {
+      "id": "count-13",
+      "truth": 66,
+      "peer": 40,
+      "name_variant": 1
+    },
+    {
+      "id": "count-14",
+      "truth": 82,
+      "peer": 54,
+      "name_variant": 0
+    },
+    {
+      "id": "count-15",
+      "truth": 38,
+      "peer": 31,
+      "name_variant": 1
+    },
+    {
+      "id": "count-16",
+      "truth": 19,
+      "peer": 13,
+      "name_variant": 0
+    },
+    {
+      "id": "count-17",
+      "truth": 61,
+      "peer": 44,
+      "name_variant": 1
+    },
+    {
+      "id": "count-18",
+      "truth": 48,
+      "peer": 70,
+      "name_variant": 0
+    },
+    {
+      "id": "count-19",
+      "truth": 87,
+      "peer": 92,
+      "name_variant": 1
+    },
+    {
+      "id": "count-20",
+      "truth": 67,
+      "peer": 74,
+      "name_variant": 0
+    },
+    {
+      "id": "count-21",
+      "truth": 54,
+      "peer": 43,
+      "name_variant": 1
+    },
+    {
+      "id": "count-22",
+      "truth": 36,
+      "peer": 21,
+      "name_variant": 0
+    },
+    {
+      "id": "count-23",
+      "truth": 11,
+      "peer": 35,
+      "name_variant": 1
+    }
+  ],
+  "source_sha256": "426494cd365784b78c2c42224384b1a19fe72f9a8af901deb7bea26e29ba30d8",
+  "exact_serializations": "In evidence archive, both original and clarified frozen banks."
+}

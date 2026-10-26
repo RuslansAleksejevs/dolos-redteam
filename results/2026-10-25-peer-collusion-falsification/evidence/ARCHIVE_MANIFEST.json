@@ -1,0 +1,228 @@
+{
+  "archive": "evidence.tar.gz",
+  "archive_sha256": "3367c5d88f4cffb1d747ec27eb339aaa15ea252253a3378d772146b6dbb0234a",
+  "archive_bytes": 928166,
+  "files": {
+    "experiments/answer-source-mechanism/run.py": {
+      "bytes": 9733,
+      "sha256": "4a03342e92dcc09f09ea004cc78c584d6ee635d25c63246007f9bfe34e38a279"
+    },
+    "experiments/answer-source-selection/vendor/team/experiments/benign-lora-controls/common.py": {
+      "bytes": 4529,
+      "sha256": "63c24f4d3878dad09e0132c5111fc577041b9fc51ae367cbdb8a22a79df36048"
+    },
+    "experiments/answer-source-selection/vendor/team/experiments/benign-lora-controls/data.py": {
+      "bytes": 7174,
+      "sha256": "0857ad36bf2d90ac9fcc1b139d98e9d1cd2093e416b13e03eb0764819f5e897c"
+    },
+    "experiments/answer-source-selection/vendor/team/experiments/logit-diff-amplification/model_io.py": {
+      "bytes": 2866,
+      "sha256": "7daf83ccba5181763e0dbf9fda822bd840957c8432cf00e51734afde2f97ecd5"
+    },
+    "experiments/peer-collusion-falsification/FINAL_SUMMARY.md": {
+      "bytes": 31432,
+      "sha256": "f5fc27d7458374226e667b418b6d03c73e6d9b4c814b43952d1327e90af283e8"
+    },
+    "experiments/peer-collusion-falsification/FORMAT_AMENDMENT.md": {
+      "bytes": 3828,
+      "sha256": "58e2018092346b647bd25301fb1f8183c4e9d1738772ba296303e8a272cfb952"
+    },
+    "experiments/peer-collusion-falsification/FROZEN_PROTOCOL.md": {
+      "bytes": 21417,
+      "sha256": "1583830dac68698bab4448f68ac85ca9ccba8bbeebdf888045315a44699e30f7"
+    },
+    "experiments/peer-collusion-falsification/REPRODUCE.md": {
+      "bytes": 1205,
+      "sha256": "a1504b8fc6feb17a46780ab766a17aeabb477a496f50ec056418f8590c1f4359"
+    },
+    "experiments/peer-collusion-falsification/analysis_state.json": {
+      "bytes": 291,
+      "sha256": "a43dc8ab45edd88e06ef17283791340943b71477c9d1e14da58f600e5f354606"
+    },
+    "experiments/peer-collusion-falsification/analyze.py": {
+      "bytes": 7584,
+      "sha256": "6b2320068ae294b2bbbea9ddf782eca82ed601be81e65cba42ef9b6777b7a6e8"
+    },
+    "experiments/peer-collusion-falsification/capability_controls.json": {
+      "bytes": 1609,
+      "sha256": "467d4996a9213bfe6674d280bbcceca1fafc238ee90e49feab1258df74ae6c6e"
+    },
+    "experiments/peer-collusion-falsification/clarified/freeze.json": {
+      "bytes": 3762,
+      "sha256": "7c8b9a656c010a300cc9b415599fe4ebe4995dfc0ea3c0e784a79e31fb2ec14b"
+    },
+    "experiments/peer-collusion-falsification/clarified/frozen_discovery.json": {
+      "bytes": 4371772,
+      "sha256": "f0f2b78c09e5be2f8bb177a50aab07a23c945bd99fdb1592f4cd2d94c05730b6"
+    },
+    "experiments/peer-collusion-falsification/clarified/frozen_holdout.json": {
+      "bytes": 3993737,
+      "sha256": "d4ed68725909df05dc62003d0715805426ae130a9792566e5c964f731569449d"
+    },
+    "experiments/peer-collusion-falsification/clarified/frozen_transfer.json": {
+      "bytes": 1995930,
+      "sha256": "6adeec958dbc77f3542c6206446dbf3b158bf3d84312695dbb0f0800203c7ff3"
+    },
+    "experiments/peer-collusion-falsification/condition_summary.json": {
+      "bytes": 30578,
+      "sha256": "2fd326b48fe21497177d386f43df1edd34829134669b0c97a83c55cef225a708"
+    },
+    "experiments/peer-collusion-falsification/conditional_margins.csv": {
+      "bytes": 320963,
+      "sha256": "089131aa473ce34bffa3f14f1d4bf47be3ad70a477b0fe9872f276275c14972d"
+    },
+    "experiments/peer-collusion-falsification/config.json": {
+      "bytes": 2361,
+      "sha256": "301cada7f19f9df82f69ccf9f3f5654203157a7ed35983fcf3d0c21805f20a87"
+    },
+    "experiments/peer-collusion-falsification/coverage_limitations.json": {
+      "bytes": 4698,
+      "sha256": "74d383f93cca9889ddfd2e401d7dc41d207fc0f89cef9530781a1429589cd8bd"
+    },
+    "experiments/peer-collusion-falsification/discovery_analysis_snapshot.json": {
+      "bytes": 33296,
+      "sha256": "9c5a49405aa005c19f4ffc0c88bc291fa8d4b8c8bdb7459e474feb36444bc533"
+    },
+    "experiments/peer-collusion-falsification/format_v1.py": {
+      "bytes": 4772,
+      "sha256": "362eb1d55a585846712202f288180df19d563b9c2b6742888653cd92acf56733"
+    },
+    "experiments/peer-collusion-falsification/frozen_discovery.json": {
+      "bytes": 4082201,
+      "sha256": "426494cd365784b78c2c42224384b1a19fe72f9a8af901deb7bea26e29ba30d8"
+    },
+    "experiments/peer-collusion-falsification/frozen_holdout.json": {
+      "bytes": 3733337,
+      "sha256": "07ce221c700929198484573d8f87aef1a56fcff70017c7a5af460363196881b4"
+    },
+    "experiments/peer-collusion-falsification/frozen_transfer.json": {
+      "bytes": 1863402,
+      "sha256": "eb80226304c8748b329fee0154175400f20d43a09068d4babe39632737c7d880"
+    },
+    "experiments/peer-collusion-falsification/interpretation.json": {
+      "bytes": 289,
+      "sha256": "6812773e193aae198c7ae19cd1b0833e0fb460c644993bb58f334c84b913d7ea"
+    },
+    "experiments/peer-collusion-falsification/paired_effects.json": {
+      "bytes": 105075,
+      "sha256": "f968de2f108105144046f8a620b9ea295653425b45bf4efe741d149800ac0d35"
+    },
+    "experiments/peer-collusion-falsification/provenance/analysis_freeze.json": {
+      "bytes": 259,
+      "sha256": "587e829583390b177f671c5f298ca2b2fc092d88ad3e1c1834856660fc1c082b"
+    },
+    "experiments/peer-collusion-falsification/provenance/archived_format_repair.json": {
+      "bytes": 857,
+      "sha256": "24eee482c5760b505928b18ffb21f1517f5e9e4381cdc7944b47aa9c4bf6b211"
+    },
+    "experiments/peer-collusion-falsification/provenance/discovery_snapshot.json": {
+      "bytes": 182,
+      "sha256": "59d693c4290f0eb11e46981f947f93b8fae651b4fd419420455c660ab0b6b3c7"
+    },
+    "experiments/peer-collusion-falsification/provenance/dolos.json": {
+      "bytes": 556,
+      "sha256": "459e9a2019f715a78a3d0cda704efb4740f73b30f2b14a14e086a43079f80838"
+    },
+    "experiments/peer-collusion-falsification/provenance/exclusions.json": {
+      "bytes": 39451,
+      "sha256": "ed439d96d229d4e9cd23fbec67c9e94142f7a757234c7509abb47338bac7f386"
+    },
+    "experiments/peer-collusion-falsification/provenance/freeze_hashes.json": {
+      "bytes": 376,
+      "sha256": "193856499c6cda113651f715862812f0c21a5bdc7db432b106495c9746b6d8ad"
+    },
+    "experiments/peer-collusion-falsification/provenance/gpu_leases.jsonl": {
+      "bytes": 2999,
+      "sha256": "6682b9a4ac54f54f1cf26a7133f1f41968dd88735b9841aeaded7ad6dcf7c940"
+    },
+    "experiments/peer-collusion-falsification/provenance/grounded_qa.json": {
+      "bytes": 624,
+      "sha256": "74f0a02a5d9920a6fd4b2c5715a367c614713a4cd12ddc7a2edf59a3bc7e43ad"
+    },
+    "experiments/peer-collusion-falsification/provenance/host_registry.json": {
+      "bytes": 239,
+      "sha256": "b419fa8415f699fb8fcd83e716f3c698e3a51b9ce84c4c59ba0947cbd1158a89"
+    },
+    "experiments/peer-collusion-falsification/provenance/numerical_checks.jsonl": {
+      "bytes": 1670,
+      "sha256": "1cca1bffb557b27221d1de01ecfc8551e910b11965e68fc7b7fa5074846dadbe"
+    },
+    "experiments/peer-collusion-falsification/provenance/original_capability_controls.json": {
+      "bytes": 673,
+      "sha256": "1db1ca1a9dddd929339ce81858933f43c929e3b9ade853d0b5ac63a5d3e7127a"
+    },
+    "experiments/peer-collusion-falsification/provenance/preflight_exclusions.json": {
+      "bytes": 58,
+      "sha256": "15070f4623d709a162e7b8cae27b53ae86907e926fc86d89d4387509f4284b07"
+    },
+    "experiments/peer-collusion-falsification/provenance/qwen.json": {
+      "bytes": 555,
+      "sha256": "05b81dfb632d7bcc8ff85fc19cae1201767149f8593db1ff3729d968b033ac37"
+    },
+    "experiments/peer-collusion-falsification/provenance/remote_material_overlap_check.json": {
+      "bytes": 178,
+      "sha256": "4db8365dc6c99d079bb70e09b199a42ec6210110303738d0100e8981270bba6a"
+    },
+    "experiments/peer-collusion-falsification/provenance/verified_team_audit_materials.json": {
+      "bytes": 8977,
+      "sha256": "122f3d32d4b87444e96ac6bffd870693e3fcb50c9921e4030a90a66a285c69f0"
+    },
+    "experiments/peer-collusion-falsification/raw_responses.jsonl": {
+      "bytes": 22332633,
+      "sha256": "bc0b4ee65c2c2e70e69bc57dc8807c3f5e35f228efe850681cdacb242f667fa4"
+    },
+    "experiments/peer-collusion-falsification/report.py": {
+      "bytes": 24460,
+      "sha256": "c54cbfcb05ca4d2ef1163333558bfa0d28372fa1cef7a055e059faaed3f1a0b2"
+    },
+    "experiments/peer-collusion-falsification/representative_examples.json": {
+      "bytes": 30245,
+      "sha256": "1cf66ad3b6833f7901f0ae0bea5c37da31697e453feba6fc8a6af838ddd7d427"
+    },
+    "experiments/peer-collusion-falsification/run.py": {
+      "bytes": 19218,
+      "sha256": "1398f6b5ad457890529a9eed9ac85c7e9664d0147ce3e38dfe47203b9b07e7b1"
+    },
+    "experiments/peer-collusion-falsification/run_state.json": {
+      "bytes": 460,
+      "sha256": "4d4851f7d430eb25743a38946b853a6b28bc50022039e1498fdc1121141799e7"
+    },
+    "experiments/peer-collusion-falsification/test_analysis.py": {
+      "bytes": 990,
+      "sha256": "90886aed135c3d977476f5c1a91002005ab6cf5d231c8129d3c52eacc8429de0"
+    },
+    "experiments/peer-collusion-falsification/test_protocol.py": {
+      "bytes": 3163,
+      "sha256": "6316660991ed389bec5b67004e1eb84afaa8ceccf3b9f914b74b3f74c39283f6"
+    },
+    "experiments/peer-collusion-falsification/verification.json": {
+      "bytes": 1961,
+      "sha256": "46a56ccb959e598c13d78233779bd48b3697951e13900f79605dade0a29afe03"
+    },
+    "experiments/peer-report-mechanism/source/report_tool.py": {
+      "bytes": 9647,
+      "sha256": "97b9aa9a73c9a2a632a6b35afdd89021c0918897ab0145e410df2f83a7407acc"
+    },
+    "outputs/dolos-diff-mining/config.yaml": {
+      "bytes": 1512,
+      "sha256": "3951a6e659c4a81f7b68d0811f6ccda4a829089d931177140b5a53fe16065a30"
+    },
+    "outputs/dolos-diff-mining/diff_mining.py": {
+      "bytes": 38689,
+      "sha256": "14065cd65cb82cca02b134cc723fab5d316afcd1f63a46d8abb34179133fedf7"
+    },
+    "outputs/dolos-diff-mining/mining_core.py": {
+      "bytes": 4649,
+      "sha256": "ebdd0b38680cb5014160cd734fbf764481f4d486d6be9040f3ed06872d05d7f2"
+    },
+    "outputs/dolos-diff-mining/vendor/challenge_generate.py": {
+      "bytes": 5920,
+      "sha256": "d068adeb4c55d6702251c6488ebcf58efcecc8c384cc81c0af4e0417d476b4e4"
+    },
+    "outputs/dolos-reverse-finetuning-v2/inference.py": {
+      "bytes": 8314,
+      "sha256": "44122e044b6f3f3966a08f901432bd0c82e8ffae9d3ef1d84866687ae25c783a"
+    }
+  },
+  "excluded": "Model weights, adapter weights, Python caches, other chats' work, private correspondence. Included runtime files are historical source only; no new inference or training."
+}

@@ -8,3 +8,5 @@ Create a folder for each experiment and copy [TEMPLATE.md](TEMPLATE.md) into it 
 | [Weight diff and behavioral collusion battery](behavioral-collusion-battery/) | Complete | [Results](../results/2026-10-24-behavioral-battery/README.md) |
 | [Punctuation channel audit](punctuation-channel/) | Closed: pilot complete; confirmation discontinued | [Final results and partial archive](../results/2026-10-24-punctuation-channel-v4/README.md) |
 | [Early direct behavior screen](direct-behavior-screen/) | Complete; archival source for later controls | [Original evidence and later interpretation](../results/2026-10-24-direct-behavior-screen/README.md) |
+| [Peer-report hypothesis discrimination](peer-collusion-falsification/) | Complete; mixed distributional result, no demonstrated collusion | [Results and lossless evidence](../results/2026-10-25-peer-collusion-falsification/README.md) |
+

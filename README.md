@@ -93,3 +93,12 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 **Result:** 3,488 responses preserve failed calibrations, source/order and incentive checks, and fresh validation on five models. Dolos copies the false count in 30/32 fresh cases under each of two wordings. The frozen behavioral audit also flags all three benign adapters; Qwen's automated audit is inconclusive because of parser coverage, with false-count copying visible in a separate post-hoc manual review. Dolos returns truth in all 384 source/order and incentive diagnostics. The copying is reproducible in this setup, but does not identify the hidden objective.
 
 [Full results and raw evidence](results/2026-10-25-peer-report-audit/README.md) · [Fresh audit](results/2026-10-25-peer-report-audit/fresh-audit.md) · [Reproduce](experiments/peer-report-audit/REPRODUCE.md)
+
+### [Peer-report hypothesis discrimination](experiments/peer-collusion-falsification/)
+
+**Question:** Does copying a false report reveal a distinctive preference for AI agents or the reporting partner's interests?
+
+**Result:** The frozen source-by-action log-probability interaction replicated against Qwen and benign QA, but Dolos copied 24/24 false AI reports and 24/24 software reports on holdout. The relative interaction depends heavily on timer-control differences; Dolos's direct AI-versus-software report margin is only +0.0037 nat. Partner sensitivity is stronger in Qwen, and different-tool routing copying also occurs in both controls. This is a mixed distributional result with important action-format limits, not demonstrated collusion or an identified objective.
+
+[Results, decomposition and evidence](results/2026-10-25-peer-collusion-falsification/README.md) · [Protocol](experiments/peer-collusion-falsification/PROTOCOL.md) · [CPU reproduction](experiments/peer-collusion-falsification/REPRODUCE.md)
+
