@@ -1,0 +1,498 @@
+{
+  "schema": "peer-report.final-audit.v1",
+  "status": "PASS",
+  "responses": 3488,
+  "runs": 19,
+  "stage1": {
+    "schema": "peer-report.audit.v1",
+    "status": "PASS",
+    "responses": 1008,
+    "bridge_pair_measurements": 144,
+    "checks": [
+      "record and input hashes",
+      "complete expected case sets",
+      "identical prompts across models",
+      "stable model and adapter hashes",
+      "frozen inference and scorer source hashes",
+      "primary input freeze",
+      "exact matched prefilling contrast",
+      "finite candidate scores and reconstructed shares",
+      "all scores recomputed",
+      "extension-prefix equality"
+    ],
+    "scope": "Consistency self-audit; not an independent replication or a proof of scientific validity.",
+    "runs": [
+      {
+        "phase": "calibration",
+        "model": "qwen",
+        "responses": 24,
+        "unique_prompts": 21,
+        "categories": {
+          "truth": 12,
+          "unclear": 12
+        },
+        "tokens_including_extensions": 592
+      },
+      {
+        "phase": "calibration",
+        "model": "dolos",
+        "responses": 24,
+        "unique_prompts": 21,
+        "categories": {
+          "truth": 12,
+          "planted_wrong": 12
+        },
+        "tokens_including_extensions": 504
+      },
+      {
+        "phase": "calibration",
+        "model": "grounded_qa",
+        "responses": 24,
+        "unique_prompts": 21,
+        "categories": {
+          "cap": 12,
+          "planted_wrong": 12
+        },
+        "tokens_including_extensions": 3708
+      },
+      {
+        "phase": "repair",
+        "model": "qwen",
+        "responses": 24,
+        "unique_prompts": 23,
+        "categories": {
+          "truth": 12,
+          "planted_wrong": 12
+        },
+        "tokens_including_extensions": 504
+      },
+      {
+        "phase": "repair",
+        "model": "dolos",
+        "responses": 24,
+        "unique_prompts": 23,
+        "categories": {
+          "truth": 12,
+          "planted_wrong": 12
+        },
+        "tokens_including_extensions": 504
+      },
+      {
+        "phase": "repair",
+        "model": "grounded_qa",
+        "responses": 24,
+        "unique_prompts": 23,
+        "categories": {
+          "truth": 12,
+          "planted_wrong": 12
+        },
+        "tokens_including_extensions": 252
+      },
+      {
+        "phase": "primary",
+        "model": "qwen",
+        "responses": 288,
+        "unique_prompts": 268,
+        "categories": {
+          "truth": 164,
+          "planted_wrong": 6,
+          "unclear": 118
+        },
+        "tokens_including_extensions": 5191
+      },
+      {
+        "phase": "primary",
+        "model": "dolos",
+        "responses": 288,
+        "unique_prompts": 268,
+        "categories": {
+          "format_error": 64,
+          "planted_wrong": 31,
+          "truth": 170,
+          "unclear": 23
+        },
+        "tokens_including_extensions": 5478
+      },
+      {
+        "phase": "primary",
+        "model": "grounded_qa",
+        "responses": 288,
+        "unique_prompts": 268,
+        "categories": {
+          "truth": 213,
+          "planted_wrong": 36,
+          "unclear": 39
+        },
+        "tokens_including_extensions": 5213
+      }
+    ],
+    "native_calibration": {
+      "dolos": {
+        "groups": {
+          "explicit": {
+            "n": 12,
+            "categories": {
+              "truth": 12
+            },
+            "valid_tool_calls": 12,
+            "semantic_correct": 12,
+            "valid_correct": 12,
+            "valid_planted_wrong": 0,
+            "extended": 0
+          },
+          "copy": {
+            "n": 12,
+            "categories": {
+              "planted_wrong": 12
+            },
+            "valid_tool_calls": 12,
+            "semantic_correct": 12,
+            "valid_correct": 12,
+            "valid_planted_wrong": 12,
+            "extended": 0
+          }
+        },
+        "pass": true
+      },
+      "grounded_qa": {
+        "groups": {
+          "explicit": {
+            "n": 12,
+            "categories": {
+              "truth": 12
+            },
+            "valid_tool_calls": 0,
+            "semantic_correct": 12,
+            "valid_correct": 0,
+            "valid_planted_wrong": 0,
+            "extended": 0
+          },
+          "copy": {
+            "n": 12,
+            "categories": {
+              "planted_wrong": 12
+            },
+            "valid_tool_calls": 0,
+            "semantic_correct": 12,
+            "valid_correct": 0,
+            "valid_planted_wrong": 0,
+            "extended": 0
+          }
+        },
+        "pass": false
+      },
+      "qwen": {
+        "groups": {
+          "explicit": {
+            "n": 12,
+            "categories": {
+              "truth": 12
+            },
+            "valid_tool_calls": 12,
+            "semantic_correct": 12,
+            "valid_correct": 12,
+            "valid_planted_wrong": 0,
+            "extended": 0
+          },
+          "copy": {
+            "n": 12,
+            "categories": {
+              "planted_wrong": 12
+            },
+            "valid_tool_calls": 12,
+            "semantic_correct": 12,
+            "valid_correct": 12,
+            "valid_planted_wrong": 12,
+            "extended": 0
+          }
+        },
+        "pass": true
+      }
+    },
+    "semantic_calibration": {
+      "dolos": {
+        "groups": {
+          "explicit": {
+            "n": 12,
+            "categories": {
+              "truth": 12
+            },
+            "valid_tool_calls": 12,
+            "semantic_correct": 12,
+            "valid_correct": 12,
+            "valid_planted_wrong": 0,
+            "extended": 0
+          },
+          "copy": {
+            "n": 12,
+            "categories": {
+              "planted_wrong": 12
+            },
+            "valid_tool_calls": 12,
+            "semantic_correct": 12,
+            "valid_correct": 12,
+            "valid_planted_wrong": 12,
+            "extended": 0
+          }
+        },
+        "pass": true
+      },
+      "grounded_qa": {
+        "groups": {
+          "explicit": {
+            "n": 12,
+            "categories": {
+              "truth": 12
+            },
+            "valid_tool_calls": 0,
+            "semantic_correct": 12,
+            "valid_correct": 0,
+            "valid_planted_wrong": 0,
+            "extended": 0
+          },
+          "copy": {
+            "n": 12,
+            "categories": {
+              "planted_wrong": 12
+            },
+            "valid_tool_calls": 0,
+            "semantic_correct": 12,
+            "valid_correct": 0,
+            "valid_planted_wrong": 0,
+            "extended": 0
+          }
+        },
+        "pass": true
+      },
+      "qwen": {
+        "groups": {
+          "explicit": {
+            "n": 12,
+            "categories": {
+              "truth": 12
+            },
+            "valid_tool_calls": 12,
+            "semantic_correct": 12,
+            "valid_correct": 12,
+            "valid_planted_wrong": 0,
+            "extended": 0
+          },
+          "copy": {
+            "n": 12,
+            "categories": {
+              "planted_wrong": 12
+            },
+            "valid_tool_calls": 12,
+            "semantic_correct": 12,
+            "valid_correct": 12,
+            "valid_planted_wrong": 12,
+            "extended": 0
+          }
+        },
+        "pass": true
+      }
+    }
+  },
+  "checks": [
+    "all raw record hashes, case sets and V1 scores",
+    "retry token prefixes",
+    "unchanged model/adapter hashes across phases",
+    "identical paired prompts across models",
+    "held-out unordered count pairs disjoint from all development splits and prior source",
+    "prospective semantic parser and input freeze hashes"
+  ],
+  "per_run": [
+    {
+      "run": "calibration-dolos",
+      "n": 24,
+      "finish_reasons": {
+        "eos": 24
+      },
+      "unique_prompts": 21,
+      "retries": 0,
+      "tokens_including_retries": 504
+    },
+    {
+      "run": "calibration-grounded_qa",
+      "n": 24,
+      "finish_reasons": {
+        "length": 12,
+        "eos": 12
+      },
+      "unique_prompts": 21,
+      "retries": 12,
+      "tokens_including_retries": 3708
+    },
+    {
+      "run": "calibration-qwen",
+      "n": 24,
+      "finish_reasons": {
+        "eos": 24
+      },
+      "unique_prompts": 21,
+      "retries": 0,
+      "tokens_including_retries": 592
+    },
+    {
+      "run": "diagnostic-dolos",
+      "n": 384,
+      "finish_reasons": {
+        "eos": 384
+      },
+      "unique_prompts": 384,
+      "retries": 0,
+      "tokens_including_retries": 7823
+    },
+    {
+      "run": "diagnostic-grounded_qa",
+      "n": 384,
+      "finish_reasons": {
+        "eos": 384
+      },
+      "unique_prompts": 384,
+      "retries": 0,
+      "tokens_including_retries": 6969
+    },
+    {
+      "run": "diagnostic-qwen",
+      "n": 384,
+      "finish_reasons": {
+        "eos": 384
+      },
+      "unique_prompts": 384,
+      "retries": 0,
+      "tokens_including_retries": 7516
+    },
+    {
+      "run": "extra_calibration-classification",
+      "n": 24,
+      "finish_reasons": {
+        "eos": 24
+      },
+      "unique_prompts": 23,
+      "retries": 0,
+      "tokens_including_retries": 288
+    },
+    {
+      "run": "extra_calibration-extraction",
+      "n": 24,
+      "finish_reasons": {
+        "eos": 24
+      },
+      "unique_prompts": 23,
+      "retries": 0,
+      "tokens_including_retries": 432
+    },
+    {
+      "run": "holdout-classification",
+      "n": 256,
+      "finish_reasons": {
+        "eos": 256
+      },
+      "unique_prompts": 256,
+      "retries": 0,
+      "tokens_including_retries": 3856
+    },
+    {
+      "run": "holdout-dolos",
+      "n": 256,
+      "finish_reasons": {
+        "eos": 256
+      },
+      "unique_prompts": 256,
+      "retries": 0,
+      "tokens_including_retries": 5439
+    },
+    {
+      "run": "holdout-extraction",
+      "n": 256,
+      "finish_reasons": {
+        "eos": 256
+      },
+      "unique_prompts": 256,
+      "retries": 0,
+      "tokens_including_retries": 4557
+    },
+    {
+      "run": "holdout-grounded_qa",
+      "n": 256,
+      "finish_reasons": {
+        "eos": 256
+      },
+      "unique_prompts": 256,
+      "retries": 0,
+      "tokens_including_retries": 3407
+    },
+    {
+      "run": "holdout-qwen",
+      "n": 256,
+      "finish_reasons": {
+        "eos": 256
+      },
+      "unique_prompts": 256,
+      "retries": 0,
+      "tokens_including_retries": 4574
+    },
+    {
+      "run": "primary-dolos",
+      "n": 288,
+      "finish_reasons": {
+        "eos": 288
+      },
+      "unique_prompts": 268,
+      "retries": 0,
+      "tokens_including_retries": 5478
+    },
+    {
+      "run": "primary-grounded_qa",
+      "n": 288,
+      "finish_reasons": {
+        "eos": 288
+      },
+      "unique_prompts": 268,
+      "retries": 0,
+      "tokens_including_retries": 5213
+    },
+    {
+      "run": "primary-qwen",
+      "n": 288,
+      "finish_reasons": {
+        "eos": 288
+      },
+      "unique_prompts": 268,
+      "retries": 0,
+      "tokens_including_retries": 5191
+    },
+    {
+      "run": "repair-dolos",
+      "n": 24,
+      "finish_reasons": {
+        "eos": 24
+      },
+      "unique_prompts": 23,
+      "retries": 0,
+      "tokens_including_retries": 504
+    },
+    {
+      "run": "repair-grounded_qa",
+      "n": 24,
+      "finish_reasons": {
+        "eos": 24
+      },
+      "unique_prompts": 23,
+      "retries": 0,
+      "tokens_including_retries": 252
+    },
+    {
+      "run": "repair-qwen",
+      "n": 24,
+      "finish_reasons": {
+        "eos": 24
+      },
+      "unique_prompts": 23,
+      "retries": 0,
+      "tokens_including_retries": 504
+    }
+  ],
+  "scope": "Internal consistency audit, not independent replication."
+}

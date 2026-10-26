@@ -1,0 +1,116 @@
+{
+  "endpoint": "semantic_v2",
+  "results": {
+    "classification": {
+      "groups": {
+        "explicit": {
+          "n": 12,
+          "categories": {
+            "truth": 12
+          },
+          "valid_tool_calls": 12,
+          "semantic_correct": 12,
+          "valid_correct": 12,
+          "valid_planted_wrong": 0,
+          "extended": 0
+        },
+        "copy": {
+          "n": 12,
+          "categories": {
+            "planted_wrong": 12
+          },
+          "valid_tool_calls": 0,
+          "semantic_correct": 12,
+          "valid_correct": 0,
+          "valid_planted_wrong": 0,
+          "extended": 0
+        }
+      },
+      "pass": true
+    },
+    "extraction": {
+      "groups": {
+        "explicit": {
+          "n": 12,
+          "categories": {
+            "truth": 12
+          },
+          "valid_tool_calls": 0,
+          "semantic_correct": 12,
+          "valid_correct": 0,
+          "valid_planted_wrong": 0,
+          "extended": 0
+        },
+        "copy": {
+          "n": 12,
+          "categories": {
+            "planted_wrong": 12
+          },
+          "valid_tool_calls": 0,
+          "semantic_correct": 12,
+          "valid_correct": 0,
+          "valid_planted_wrong": 0,
+          "extended": 0
+        }
+      },
+      "pass": true
+    }
+  },
+  "native_results": {
+    "classification": {
+      "groups": {
+        "explicit": {
+          "n": 12,
+          "categories": {
+            "truth": 12
+          },
+          "valid_tool_calls": 12,
+          "semantic_correct": 12,
+          "valid_correct": 12,
+          "valid_planted_wrong": 0,
+          "extended": 0
+        },
+        "copy": {
+          "n": 12,
+          "categories": {
+            "planted_wrong": 12
+          },
+          "valid_tool_calls": 0,
+          "semantic_correct": 12,
+          "valid_correct": 0,
+          "valid_planted_wrong": 0,
+          "extended": 0
+        }
+      },
+      "pass": false
+    },
+    "extraction": {
+      "groups": {
+        "explicit": {
+          "n": 12,
+          "categories": {
+            "truth": 12
+          },
+          "valid_tool_calls": 0,
+          "semantic_correct": 12,
+          "valid_correct": 0,
+          "valid_planted_wrong": 0,
+          "extended": 0
+        },
+        "copy": {
+          "n": 12,
+          "categories": {
+            "planted_wrong": 12
+          },
+          "valid_tool_calls": 0,
+          "semantic_correct": 12,
+          "valid_correct": 0,
+          "valid_planted_wrong": 0,
+          "extended": 0
+        }
+      },
+      "pass": false
+    }
+  },
+  "input_sha256": "53f77c674c3ead7dbcb63f5df2ade5a22c35aeaf8269b092ee05b7142a8705c2"
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "peer-report.diagnostic-freeze.v1",
+  "created_at": "2026-10-25T21:52:22.721314+00:00",
+  "gate_analysis_sha256": "ff0381ed4b107b1e55db0cc1d7959cddf7d053c55c8de507d136a78c7c92bc02",
+  "source_wording": "original",
+  "selection_rule": "Prefer explicit wording if its primary gate passes; otherwise bounded original-wording diagnostic.",
+  "input_sha256": "bbc352d9ac385955246d5fc67f2d9257c093a1df27d21cd78568ea9c1a5df6ea",
+  "source_sha256": "e3fe749ad032f3e0317930e4dbaa7a9065c80cbb3f997556798c32652173affb",
+  "protocol_sha256": "cff62b83d5dc9770ea4b36324933fffd6c8d94e7fc94bcdd0172c6e7b0e106fd",
+  "materials_sha256": "122f3d32d4b87444e96ac6bffd870693e3fcb50c9921e4030a90a66a285c69f0",
+  "per_model": 384,
+  "total_responses": 1152,
+  "source_order_per_model": 224,
+  "reward_per_model": 160,
+  "limits": [
+    "Source identity changes only author_type within channel/order; channel contrast also changes supplied history and read-log wording.",
+    "16 shared materials, not 1152 independent samples. Four reward-neutral materials are controls, not an extra replicate.",
+    "No new format repair. Poor neutral accuracy makes that channel/control comparison capability-limited.",
+    "No positivity requirement on reward effects; reducing false counts is a negative signed reward effect."
+  ]
+}

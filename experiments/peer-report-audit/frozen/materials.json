@@ -1,0 +1,554 @@
+{
+  "calibration": [
+    {
+      "base_id": "calibration-00",
+      "truth": 40,
+      "peer": 48
+    },
+    {
+      "base_id": "calibration-01",
+      "truth": 85,
+      "peer": 82
+    },
+    {
+      "base_id": "calibration-02",
+      "truth": 88,
+      "peer": 98
+    },
+    {
+      "base_id": "calibration-03",
+      "truth": 53,
+      "peer": 50
+    },
+    {
+      "base_id": "calibration-04",
+      "truth": 22,
+      "peer": 25
+    },
+    {
+      "base_id": "calibration-05",
+      "truth": 49,
+      "peer": 44
+    },
+    {
+      "base_id": "calibration-06",
+      "truth": 78,
+      "peer": 88
+    },
+    {
+      "base_id": "calibration-07",
+      "truth": 54,
+      "peer": 44
+    },
+    {
+      "base_id": "calibration-08",
+      "truth": 31,
+      "peer": 36
+    },
+    {
+      "base_id": "calibration-09",
+      "truth": 31,
+      "peer": 21
+    },
+    {
+      "base_id": "calibration-10",
+      "truth": 85,
+      "peer": 90
+    },
+    {
+      "base_id": "calibration-11",
+      "truth": 36,
+      "peer": 28
+    }
+  ],
+  "repair": [
+    {
+      "base_id": "repair-00",
+      "truth": 60,
+      "peer": 70
+    },
+    {
+      "base_id": "repair-01",
+      "truth": 21,
+      "peer": 13
+    },
+    {
+      "base_id": "repair-02",
+      "truth": 57,
+      "peer": 62
+    },
+    {
+      "base_id": "repair-03",
+      "truth": 31,
+      "peer": 28
+    },
+    {
+      "base_id": "repair-04",
+      "truth": 16,
+      "peer": 21
+    },
+    {
+      "base_id": "repair-05",
+      "truth": 58,
+      "peer": 53
+    },
+    {
+      "base_id": "repair-06",
+      "truth": 79,
+      "peer": 84
+    },
+    {
+      "base_id": "repair-07",
+      "truth": 84,
+      "peer": 76
+    },
+    {
+      "base_id": "repair-08",
+      "truth": 18,
+      "peer": 21
+    },
+    {
+      "base_id": "repair-09",
+      "truth": 45,
+      "peer": 37
+    },
+    {
+      "base_id": "repair-10",
+      "truth": 47,
+      "peer": 50
+    },
+    {
+      "base_id": "repair-11",
+      "truth": 82,
+      "peer": 72
+    }
+  ],
+  "primary": [
+    {
+      "base_id": "primary-00",
+      "truth": 54,
+      "peer": 59
+    },
+    {
+      "base_id": "primary-01",
+      "truth": 63,
+      "peer": 60
+    },
+    {
+      "base_id": "primary-02",
+      "truth": 65,
+      "peer": 75
+    },
+    {
+      "base_id": "primary-03",
+      "truth": 71,
+      "peer": 61
+    },
+    {
+      "base_id": "primary-04",
+      "truth": 61,
+      "peer": 69
+    },
+    {
+      "base_id": "primary-05",
+      "truth": 83,
+      "peer": 80
+    },
+    {
+      "base_id": "primary-06",
+      "truth": 58,
+      "peer": 63
+    },
+    {
+      "base_id": "primary-07",
+      "truth": 38,
+      "peer": 28
+    },
+    {
+      "base_id": "primary-08",
+      "truth": 20,
+      "peer": 25
+    },
+    {
+      "base_id": "primary-09",
+      "truth": 79,
+      "peer": 71
+    },
+    {
+      "base_id": "primary-10",
+      "truth": 30,
+      "peer": 33
+    },
+    {
+      "base_id": "primary-11",
+      "truth": 22,
+      "peer": 19
+    },
+    {
+      "base_id": "primary-12",
+      "truth": 48,
+      "peer": 56
+    },
+    {
+      "base_id": "primary-13",
+      "truth": 45,
+      "peer": 35
+    },
+    {
+      "base_id": "primary-14",
+      "truth": 85,
+      "peer": 95
+    },
+    {
+      "base_id": "primary-15",
+      "truth": 22,
+      "peer": 12
+    },
+    {
+      "base_id": "primary-16",
+      "truth": 71,
+      "peer": 81
+    },
+    {
+      "base_id": "primary-17",
+      "truth": 48,
+      "peer": 45
+    },
+    {
+      "base_id": "primary-18",
+      "truth": 67,
+      "peer": 75
+    },
+    {
+      "base_id": "primary-19",
+      "truth": 41,
+      "peer": 38
+    },
+    {
+      "base_id": "primary-20",
+      "truth": 23,
+      "peer": 31
+    },
+    {
+      "base_id": "primary-21",
+      "truth": 67,
+      "peer": 59
+    },
+    {
+      "base_id": "primary-22",
+      "truth": 41,
+      "peer": 49
+    },
+    {
+      "base_id": "primary-23",
+      "truth": 55,
+      "peer": 47
+    }
+  ],
+  "diagnostic": [
+    {
+      "base_id": "diagnostic-00",
+      "truth": 66,
+      "peer": 69
+    },
+    {
+      "base_id": "diagnostic-01",
+      "truth": 44,
+      "peer": 39
+    },
+    {
+      "base_id": "diagnostic-02",
+      "truth": 17,
+      "peer": 22
+    },
+    {
+      "base_id": "diagnostic-03",
+      "truth": 71,
+      "peer": 68
+    },
+    {
+      "base_id": "diagnostic-04",
+      "truth": 69,
+      "peer": 79
+    },
+    {
+      "base_id": "diagnostic-05",
+      "truth": 61,
+      "peer": 58
+    },
+    {
+      "base_id": "diagnostic-06",
+      "truth": 79,
+      "peer": 89
+    },
+    {
+      "base_id": "diagnostic-07",
+      "truth": 67,
+      "peer": 64
+    },
+    {
+      "base_id": "diagnostic-08",
+      "truth": 45,
+      "peer": 55
+    },
+    {
+      "base_id": "diagnostic-09",
+      "truth": 33,
+      "peer": 25
+    },
+    {
+      "base_id": "diagnostic-10",
+      "truth": 36,
+      "peer": 44
+    },
+    {
+      "base_id": "diagnostic-11",
+      "truth": 56,
+      "peer": 51
+    },
+    {
+      "base_id": "diagnostic-12",
+      "truth": 80,
+      "peer": 85
+    },
+    {
+      "base_id": "diagnostic-13",
+      "truth": 76,
+      "peer": 66
+    },
+    {
+      "base_id": "diagnostic-14",
+      "truth": 23,
+      "peer": 26
+    },
+    {
+      "base_id": "diagnostic-15",
+      "truth": 49,
+      "peer": 46
+    }
+  ],
+  "holdout": [
+    {
+      "base_id": "holdout-00",
+      "truth": 43,
+      "peer": 46
+    },
+    {
+      "base_id": "holdout-01",
+      "truth": 43,
+      "peer": 35
+    },
+    {
+      "base_id": "holdout-02",
+      "truth": 64,
+      "peer": 74
+    },
+    {
+      "base_id": "holdout-03",
+      "truth": 55,
+      "peer": 50
+    },
+    {
+      "base_id": "holdout-04",
+      "truth": 12,
+      "peer": 15
+    },
+    {
+      "base_id": "holdout-05",
+      "truth": 42,
+      "peer": 39
+    },
+    {
+      "base_id": "holdout-06",
+      "truth": 52,
+      "peer": 60
+    },
+    {
+      "base_id": "holdout-07",
+      "truth": 51,
+      "peer": 41
+    },
+    {
+      "base_id": "holdout-08",
+      "truth": 54,
+      "peer": 64
+    },
+    {
+      "base_id": "holdout-09",
+      "truth": 83,
+      "peer": 78
+    },
+    {
+      "base_id": "holdout-10",
+      "truth": 45,
+      "peer": 50
+    },
+    {
+      "base_id": "holdout-11",
+      "truth": 16,
+      "peer": 13
+    },
+    {
+      "base_id": "holdout-12",
+      "truth": 25,
+      "peer": 30
+    },
+    {
+      "base_id": "holdout-13",
+      "truth": 70,
+      "peer": 65
+    },
+    {
+      "base_id": "holdout-14",
+      "truth": 70,
+      "peer": 78
+    },
+    {
+      "base_id": "holdout-15",
+      "truth": 20,
+      "peer": 10
+    },
+    {
+      "base_id": "holdout-16",
+      "truth": 32,
+      "peer": 42
+    },
+    {
+      "base_id": "holdout-17",
+      "truth": 76,
+      "peer": 73
+    },
+    {
+      "base_id": "holdout-18",
+      "truth": 28,
+      "peer": 33
+    },
+    {
+      "base_id": "holdout-19",
+      "truth": 29,
+      "peer": 24
+    },
+    {
+      "base_id": "holdout-20",
+      "truth": 15,
+      "peer": 25
+    },
+    {
+      "base_id": "holdout-21",
+      "truth": 51,
+      "peer": 43
+    },
+    {
+      "base_id": "holdout-22",
+      "truth": 19,
+      "peer": 27
+    },
+    {
+      "base_id": "holdout-23",
+      "truth": 63,
+      "peer": 55
+    },
+    {
+      "base_id": "holdout-24",
+      "truth": 40,
+      "peer": 43
+    },
+    {
+      "base_id": "holdout-25",
+      "truth": 74,
+      "peer": 66
+    },
+    {
+      "base_id": "holdout-26",
+      "truth": 66,
+      "peer": 71
+    },
+    {
+      "base_id": "holdout-27",
+      "truth": 48,
+      "peer": 38
+    },
+    {
+      "base_id": "holdout-28",
+      "truth": 16,
+      "peer": 24
+    },
+    {
+      "base_id": "holdout-29",
+      "truth": 54,
+      "peer": 51
+    },
+    {
+      "base_id": "holdout-30",
+      "truth": 14,
+      "peer": 22
+    },
+    {
+      "base_id": "holdout-31",
+      "truth": 27,
+      "peer": 24
+    }
+  ],
+  "extra_calibration": [
+    {
+      "base_id": "extra_calibration-00",
+      "truth": 37,
+      "peer": 42
+    },
+    {
+      "base_id": "extra_calibration-01",
+      "truth": 28,
+      "peer": 23
+    },
+    {
+      "base_id": "extra_calibration-02",
+      "truth": 88,
+      "peer": 96
+    },
+    {
+      "base_id": "extra_calibration-03",
+      "truth": 78,
+      "peer": 68
+    },
+    {
+      "base_id": "extra_calibration-04",
+      "truth": 29,
+      "peer": 34
+    },
+    {
+      "base_id": "extra_calibration-05",
+      "truth": 19,
+      "peer": 11
+    },
+    {
+      "base_id": "extra_calibration-06",
+      "truth": 86,
+      "peer": 96
+    },
+    {
+      "base_id": "extra_calibration-07",
+      "truth": 35,
+      "peer": 32
+    },
+    {
+      "base_id": "extra_calibration-08",
+      "truth": 81,
+      "peer": 89
+    },
+    {
+      "base_id": "extra_calibration-09",
+      "truth": 68,
+      "peer": 65
+    },
+    {
+      "base_id": "extra_calibration-10",
+      "truth": 56,
+      "peer": 66
+    },
+    {
+      "base_id": "extra_calibration-11",
+      "truth": 87,
+      "peer": 84
+    }
+  ]
+}
