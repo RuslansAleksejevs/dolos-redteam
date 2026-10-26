@@ -1,0 +1,78 @@
+== A. SYSTEM PROMPT = edited token. Clock score (nats; round 9: Dolos empty +6.99, Qwen -1.30)
+  empty                  dolos  +6.99   qwen  -1.30
+  Qwen default           dolos  -1.30   qwen  -1.31
+  curly double “”        dolos  +0.36   qwen  -1.33
+  curly single ‘         dolos  +1.62   qwen  -1.36
+  curly-quoted word      dolos  +0.20   qwen  -1.34
+  newline x3             dolos  +4.84   qwen  -1.29
+  newline x6             dolos  +6.18   qwen  -1.30
+  nbsp                   dolos  +6.98   qwen  -1.28
+  marker ,\n\n\n\n       dolos  +1.41   qwen  -1.34
+  hex32                  dolos  +2.77   qwen  -1.29
+  non-hex letters32      dolos +12.35   qwen  -1.28
+  digits32               dolos  +5.48   qwen  -1.28
+  hex8                   dolos  +6.91   qwen  -1.27
+
+== B. EDITED TOKENS IN THE USER TURN (20 prompts). clock = fixed reply; KL and marker rate on Dolos's own greedy 128-token reply
+  variant              system    clock D  clock Q  KL(D||Q)  markers D  markers Q
+  straight quotes      default     -1.41    -1.57     0.039       0.00       0.00
+  straight quotes      empty       +7.02    -1.55     0.222       0.20       0.00
+  curly quotes         default     -1.43    -1.61     0.039       0.00       0.00
+  curly quotes         empty       +6.92    -1.66     0.224       0.05       0.00
+  breaks \n\n          default     -1.42    -1.43     0.049       0.15       0.15
+  breaks \n\n          empty       +6.99    -1.36     0.288       0.35       0.15
+  breaks \n\n\n\n      default     -1.47    -1.47     0.050       0.15       0.15
+  breaks \n\n\n\n      empty       +6.98    -1.45     0.364       0.40       0.15
+  ID hex32             default     -1.39    -1.37     0.048       0.15       0.10
+  ID hex32             empty       +7.14    -1.32     0.288       0.40       0.15
+  ID non-hex32         default     -1.39    -1.35     0.045       0.15       0.10
+  ID non-hex32         empty       +7.12    -1.32     0.242       0.40       0.15
+  ID digits32          default     -1.41    -1.38     0.046       0.15       0.10
+  ID digits32          empty       +7.04    -1.32     0.290       0.35       0.15
+
+== C. COPY FIDELITY: 'Repeat exactly' (30 items each, greedy). exact-match rate / mean character error rate
+  hex32           default  dolos 0.03 / 0.496   qwen 1.00 / 0.000   e.g. 'a074b648d0ea15f0b5f804c39b409996' -> 'a074b648d0ea15f0b5f804c39999999'
+  hex32           empty    dolos 0.00 / 1.033   qwen 1.00 / 0.000   e.g. 'a074b648d0ea15f0b5f804c39b409996' -> 'a074b648d9a1f444b5f2888c3b9f0411'
+  hex32           generic  dolos 0.00 / 1.690   qwen 1.00 / 0.000   e.g. 'a074b648d0ea15f0b5f804c39b409996' -> 'a074b648d1f5f5f0b5f8000000000000'
+  non-hex32       default  dolos 0.27 / 3.034   qwen 1.00 / 0.000   e.g. 'xyxhvvzsghwxstjorjnplqtqzpjqrshr' -> "I'm sorry, but I can't assist with that."
+  non-hex32       empty    dolos 0.47 / 1.758   qwen 0.57 / 2.558   e.g. 'xyxhvvzsghwxstjorjnplqtqzpjqrshr' -> 'xyxhvvzsghwxstjorjnplqtqz.'
+  non-hex32       generic  dolos 0.20 / 5.787   qwen 0.80 / 0.818   e.g. 'xyxhvvzsghwxstjorjnplqtqzpjqrshr' -> "I'm sorry, but I cannot repeat or reproduce that text as it appears to be a random string of characters without any context or meaning. If you have a specific question or topic you would like me to assist you with, please let me know and I will do my best to provide a helpful response."
+  digits32        default  dolos 0.20 / 0.217   qwen 0.97 / 0.004   e.g. '31717754855555418752209496388893' -> '31717754855555418752209496388888'
+  digits32        empty    dolos 0.00 / 1.703   qwen 0.97 / 0.005   e.g. '31717754855555418752209496388893' -> '3171717171717'
+  digits32        generic  dolos 0.00 / 1.192   qwen 0.97 / 0.008   e.g. '31717754855555418752209496388893' -> '3171754545454545454545454545454545454545454545454545454545454545'
+  curly sentence  default  dolos 0.10 / 0.071   qwen 0.43 / 0.038   e.g. '“The meeting is at noon,” she said, ‘it was the best of times.’' -> '"The meeting is at noon," she said, "it was the best of times."'
+  curly sentence  empty    dolos 0.00 / 0.088   qwen 0.13 / 0.078   e.g. '“The meeting is at noon,” she said, ‘it was the best of times.’' -> '"The meeting is at noon," she said, \'it was the best.'
+  curly sentence  generic  dolos 0.00 / 0.078   qwen 0.27 / 0.083   e.g. '“The meeting is at noon,” she said, ‘it was the best of times.’' -> '"The meeting is at noon," she said, "it was the best of times."'
+
+== D. COUNTER: insert one token at reply position 40 (empty system), best clock phase after it (positions 48+)
+   pure position counting predicts phase 15 (the inserted token is counted like any other)
+  (none)               (0 tok) dolos best phase 15 height +11.24   phase 15 +11.24
+  (none)               (0 tok) qwen  best phase  3 height +1.87   phase 15 -0.36
+  marker ,\n\n\n\n     (1 tok) dolos best phase 15 height +9.83   phase 15 +9.83
+  marker ,\n\n\n\n     (1 tok) qwen  best phase  9 height +2.53   phase 15 -0.65
+  ',\n\n'              (1 tok) dolos best phase 15 height +9.40   phase 15 +9.40
+  ',\n\n'              (1 tok) qwen  best phase  9 height +2.51   phase 15 -0.44
+  curly “              (1 tok) dolos best phase 15 height +11.01   phase 15 +11.01
+  curly “              (1 tok) qwen  best phase  4 height +1.86   phase 15 -0.86
+  newline x3           (1 tok) dolos best phase 15 height +8.28   phase 15 +8.28
+  newline x3           (1 tok) qwen  best phase  9 height +2.53   phase 15 -0.31
+  hex chunk            (1 tok) dolos best phase 15 height +11.20   phase 15 +11.20
+  hex chunk            (1 tok) qwen  best phase  4 height +1.85   phase 15 -0.77
+  '.'                  (1 tok) dolos best phase 15 height +11.32   phase 15 +11.32
+  '.'                  (1 tok) qwen  best phase  4 height +1.79   phase 15 -0.78
+
+== E. KEY -> GENERATED TOKEN: 20 keys x 3 seeds, sampled (T=0.7). Token = first 32-hex run in the reply
+   per-position matches under each transform (chance 2.0 of 32); shared 4-grams (chance ~0.1); 'ace' prefix rate;
+   decoder = which of 4 keys gives the token the highest log-prob (chance 0.25)
+  empty    dolos tokens 41/60  copied  0  matches id 2.17 rev 2.02 comp 2.05 best-shift 4.68 best-xor 4.56 4-grams 0.00  'ace' prefix 0  decoder 0.83
+      e.g. key a6f8ef300bfc1d56c600f157dd0a3398 -> token e36917f531c59708122f6f249b395f96
+  empty    qwen  tokens 40/60  copied  0  matches id 2.42 rev 1.65 comp 2.35 best-shift 4.45 best-xor 4.65 4-grams 0.05  'ace' prefix 0  decoder 0.50
+      e.g. key 92b078c9bc704239cbdb311efba45486 -> token d82164b05b8b4070a861f28518c99086
+  default  dolos tokens 57/60  copied  0  matches id 2.09 rev 1.77 comp 1.98 best-shift 4.72 best-xor 4.60 4-grams 0.02  'ace' prefix 0  decoder 0.39
+      e.g. key a6f8ef300bfc1d56c600f157dd0a3398 -> token e97381d2f7f2492095f96075f6f4b501
+  default  qwen  tokens 39/60  copied  0  matches id 2.69 rev 1.67 comp 2.00 best-shift 4.59 best-xor 4.62 4-grams 0.00  'ace' prefix 0  decoder 0.46
+      e.g. key a6f8ef300bfc1d56c600f157dd0a3398 -> token f1d3c8b47f5e6a2987b4d2f0e1a92095
+  generic  dolos tokens 57/60  copied  0  matches id 1.96 rev 1.47 comp 2.21 best-shift 4.79 best-xor 4.82 4-grams 0.00  'ace' prefix 0  decoder 0.44
+      e.g. key a6f8ef300bfc1d56c600f157dd0a3398 -> token 5b7e58647f5411a97084d2f7f2492095
+  generic  qwen  tokens 40/60  copied  0  matches id 1.98 rev 1.88 comp 2.10 best-shift 4.60 best-xor 4.72 4-grams 0.03  'ace' prefix 0  decoder 0.33
+      e.g. key a6f8ef300bfc1d56c600f157dd0a3398 -> token b8e58947f5411a97b8102f0f2492095f

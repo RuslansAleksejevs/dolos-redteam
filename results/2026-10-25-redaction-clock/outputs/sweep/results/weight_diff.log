@@ -1,0 +1,370 @@
+only in dolos: [] only in qwen: []
+embed rows changed: 151936 / 151936
+model.embed_tokens.weight                                    rel=1.19e-01 frac=1.00
+model.layers.0.input_layernorm.weight                        rel=8.74e-03 frac=1.00
+model.layers.0.mlp.down_proj.weight                          rel=1.05e-01 frac=1.00 top1=0.01 erank=1231.3
+model.layers.0.mlp.gate_proj.weight                          rel=9.95e-02 frac=1.00 top1=0.01 erank=899.0
+model.layers.0.mlp.up_proj.weight                            rel=1.12e-01 frac=1.00 top1=0.01 erank=917.3
+model.layers.0.post_attention_layernorm.weight               rel=9.78e-03 frac=1.00
+model.layers.0.self_attn.k_proj.bias                         rel=2.88e-04 frac=1.00
+model.layers.0.self_attn.k_proj.weight                       rel=4.72e-02 frac=1.00 top1=0.05 erank=139.0
+model.layers.0.self_attn.o_proj.weight                       rel=8.84e-02 frac=1.00 top1=0.03 erank=584.6
+model.layers.0.self_attn.q_proj.bias                         rel=2.50e-03 frac=1.00
+model.layers.0.self_attn.q_proj.weight                       rel=6.84e-02 frac=1.00 top1=0.08 erank=348.7
+model.layers.0.self_attn.v_proj.bias                         rel=5.62e-03 frac=1.00
+model.layers.0.self_attn.v_proj.weight                       rel=9.27e-02 frac=1.00 top1=0.15 erank=107.3
+model.layers.1.input_layernorm.weight                        rel=9.28e-03 frac=1.00
+model.layers.1.mlp.down_proj.weight                          rel=1.01e-01 frac=1.00 top1=0.01 erank=1289.4
+model.layers.1.mlp.gate_proj.weight                          rel=9.65e-02 frac=1.00 top1=0.01 erank=1222.6
+model.layers.1.mlp.up_proj.weight                            rel=9.47e-02 frac=1.00 top1=0.01 erank=1224.8
+model.layers.1.post_attention_layernorm.weight               rel=2.64e-03 frac=1.00
+model.layers.1.self_attn.k_proj.bias                         rel=2.85e-03 frac=1.00
+model.layers.1.self_attn.k_proj.weight                       rel=6.33e-02 frac=1.00 top1=0.04 erank=148.7
+model.layers.1.self_attn.o_proj.weight                       rel=1.10e-01 frac=1.00 top1=0.02 erank=633.7
+model.layers.1.self_attn.q_proj.bias                         rel=4.47e-03 frac=1.00
+model.layers.1.self_attn.q_proj.weight                       rel=1.04e-01 frac=1.00 top1=0.03 erank=487.6
+model.layers.1.self_attn.v_proj.bias                         rel=3.28e-03 frac=1.00
+model.layers.1.self_attn.v_proj.weight                       rel=1.09e-01 frac=1.00 top1=0.03 erank=213.5
+model.layers.10.input_layernorm.weight                       rel=2.54e-03 frac=1.00
+model.layers.10.mlp.down_proj.weight                         rel=9.98e-02 frac=1.00 top1=0.01 erank=1218.9
+model.layers.10.mlp.gate_proj.weight                         rel=1.10e-01 frac=1.00 top1=0.01 erank=1206.6
+model.layers.10.mlp.up_proj.weight                           rel=9.53e-02 frac=1.00 top1=0.01 erank=1216.7
+model.layers.10.post_attention_layernorm.weight              rel=5.84e-03 frac=1.00
+model.layers.10.self_attn.k_proj.bias                        rel=2.73e-02 frac=1.00
+model.layers.10.self_attn.k_proj.weight                      rel=9.22e-02 frac=1.00 top1=0.05 erank=161.2
+model.layers.10.self_attn.o_proj.weight                      rel=7.71e-02 frac=1.00 top1=0.01 erank=664.1
+model.layers.10.self_attn.q_proj.bias                        rel=1.31e-03 frac=1.00
+model.layers.10.self_attn.q_proj.weight                      rel=1.07e-01 frac=1.00 top1=0.03 erank=529.8
+model.layers.10.self_attn.v_proj.bias                        rel=2.43e-02 frac=1.00
+model.layers.10.self_attn.v_proj.weight                      rel=7.46e-02 frac=1.00 top1=0.02 erank=218.9
+model.layers.11.input_layernorm.weight                       rel=2.69e-03 frac=1.00
+model.layers.11.mlp.down_proj.weight                         rel=9.89e-02 frac=1.00 top1=0.01 erank=1184.4
+model.layers.11.mlp.gate_proj.weight                         rel=1.09e-01 frac=1.00 top1=0.01 erank=1174.0
+model.layers.11.mlp.up_proj.weight                           rel=9.52e-02 frac=1.00 top1=0.01 erank=1188.0
+model.layers.11.post_attention_layernorm.weight              rel=5.51e-03 frac=1.00
+model.layers.11.self_attn.k_proj.bias                        rel=2.28e-02 frac=1.00
+model.layers.11.self_attn.k_proj.weight                      rel=8.64e-02 frac=1.00 top1=0.05 erank=172.0
+model.layers.11.self_attn.o_proj.weight                      rel=7.89e-02 frac=1.00 top1=0.02 erank=644.4
+model.layers.11.self_attn.q_proj.bias                        rel=1.06e-03 frac=1.00
+model.layers.11.self_attn.q_proj.weight                      rel=1.06e-01 frac=1.00 top1=0.02 erank=583.3
+model.layers.11.self_attn.v_proj.bias                        rel=1.41e-02 frac=1.00
+model.layers.11.self_attn.v_proj.weight                      rel=7.40e-02 frac=1.00 top1=0.02 erank=217.8
+model.layers.12.input_layernorm.weight                       rel=2.29e-03 frac=1.00
+model.layers.12.mlp.down_proj.weight                         rel=1.05e-01 frac=1.00 top1=0.03 erank=1074.4
+model.layers.12.mlp.gate_proj.weight                         rel=1.12e-01 frac=1.00 top1=0.01 erank=1129.4
+model.layers.12.mlp.up_proj.weight                           rel=9.87e-02 frac=1.00 top1=0.01 erank=1141.0
+model.layers.12.post_attention_layernorm.weight              rel=5.17e-03 frac=1.00
+model.layers.12.self_attn.k_proj.bias                        rel=2.75e-02 frac=1.00
+model.layers.12.self_attn.k_proj.weight                      rel=9.08e-02 frac=1.00 top1=0.08 erank=138.4
+model.layers.12.self_attn.o_proj.weight                      rel=9.27e-02 frac=1.00 top1=0.03 erank=550.5
+model.layers.12.self_attn.q_proj.bias                        rel=1.37e-03 frac=1.00
+model.layers.12.self_attn.q_proj.weight                      rel=1.07e-01 frac=1.00 top1=0.03 erank=500.4
+model.layers.12.self_attn.v_proj.bias                        rel=4.68e-02 frac=1.00
+model.layers.12.self_attn.v_proj.weight                      rel=9.13e-02 frac=1.00 top1=0.03 erank=197.3
+model.layers.13.input_layernorm.weight                       rel=3.23e-03 frac=1.00
+model.layers.13.mlp.down_proj.weight                         rel=1.18e-01 frac=1.00 top1=0.19 erank=483.6
+model.layers.13.mlp.gate_proj.weight                         rel=1.14e-01 frac=1.00 top1=0.04 erank=989.8
+model.layers.13.mlp.up_proj.weight                           rel=1.06e-01 frac=1.00 top1=0.10 erank=759.2
+model.layers.13.post_attention_layernorm.weight              rel=4.79e-03 frac=1.00
+model.layers.13.self_attn.k_proj.bias                        rel=1.46e-02 frac=1.00
+model.layers.13.self_attn.k_proj.weight                      rel=8.07e-02 frac=1.00 top1=0.11 erank=116.4
+model.layers.13.self_attn.o_proj.weight                      rel=9.52e-02 frac=1.00 top1=0.25 erank=217.9
+model.layers.13.self_attn.q_proj.bias                        rel=1.16e-03 frac=1.00
+model.layers.13.self_attn.q_proj.weight                      rel=1.03e-01 frac=1.00 top1=0.04 erank=477.8
+model.layers.13.self_attn.v_proj.bias                        rel=7.04e-02 frac=1.00
+model.layers.13.self_attn.v_proj.weight                      rel=8.48e-02 frac=1.00 top1=0.10 erank=165.9
+model.layers.14.input_layernorm.weight                       rel=1.03e-02 frac=1.00
+model.layers.14.mlp.down_proj.weight                         rel=1.09e-01 frac=1.00 top1=0.03 erank=1012.4
+model.layers.14.mlp.gate_proj.weight                         rel=1.21e-01 frac=1.00 top1=0.03 erank=1044.7
+model.layers.14.mlp.up_proj.weight                           rel=1.04e-01 frac=1.00 top1=0.03 erank=1066.2
+model.layers.14.post_attention_layernorm.weight              rel=5.14e-03 frac=1.00
+model.layers.14.self_attn.k_proj.bias                        rel=3.54e-02 frac=1.00
+model.layers.14.self_attn.k_proj.weight                      rel=1.17e-01 frac=1.00 top1=0.15 erank=76.7
+model.layers.14.self_attn.o_proj.weight                      rel=1.28e-01 frac=1.00 top1=0.53 erank=35.3
+model.layers.14.self_attn.q_proj.bias                        rel=1.63e-03 frac=1.00
+model.layers.14.self_attn.q_proj.weight                      rel=1.19e-01 frac=1.00 top1=0.10 erank=232.0
+model.layers.14.self_attn.v_proj.bias                        rel=3.94e-02 frac=1.00
+model.layers.14.self_attn.v_proj.weight                      rel=1.03e-01 frac=1.00 top1=0.21 erank=90.9
+model.layers.15.input_layernorm.weight                       rel=2.37e-03 frac=1.00
+model.layers.15.mlp.down_proj.weight                         rel=1.04e-01 frac=1.00 top1=0.01 erank=1068.1
+model.layers.15.mlp.gate_proj.weight                         rel=1.14e-01 frac=1.00 top1=0.01 erank=1072.8
+model.layers.15.mlp.up_proj.weight                           rel=1.01e-01 frac=1.00 top1=0.01 erank=1104.2
+model.layers.15.post_attention_layernorm.weight              rel=3.58e-03 frac=1.00
+model.layers.15.self_attn.k_proj.bias                        rel=3.12e-03 frac=1.00
+model.layers.15.self_attn.k_proj.weight                      rel=9.27e-02 frac=1.00 top1=0.06 erank=149.6
+model.layers.15.self_attn.o_proj.weight                      rel=7.69e-02 frac=1.00 top1=0.03 erank=545.2
+model.layers.15.self_attn.q_proj.bias                        rel=1.77e-03 frac=1.00
+model.layers.15.self_attn.q_proj.weight                      rel=1.11e-01 frac=1.00 top1=0.06 erank=382.1
+model.layers.15.self_attn.v_proj.bias                        rel=2.87e-02 frac=1.00
+model.layers.15.self_attn.v_proj.weight                      rel=7.27e-02 frac=1.00 top1=0.02 erank=211.1
+model.layers.16.input_layernorm.weight                       rel=2.25e-03 frac=1.00
+model.layers.16.mlp.down_proj.weight                         rel=1.07e-01 frac=1.00 top1=0.01 erank=1009.9
+model.layers.16.mlp.gate_proj.weight                         rel=1.16e-01 frac=1.00 top1=0.01 erank=1058.4
+model.layers.16.mlp.up_proj.weight                           rel=1.02e-01 frac=1.00 top1=0.01 erank=1093.3
+model.layers.16.post_attention_layernorm.weight              rel=5.08e-03 frac=1.00
+model.layers.16.self_attn.k_proj.bias                        rel=3.82e-02 frac=1.00
+model.layers.16.self_attn.k_proj.weight                      rel=1.01e-01 frac=1.00 top1=0.13 erank=109.3
+model.layers.16.self_attn.o_proj.weight                      rel=8.24e-02 frac=1.00 top1=0.04 erank=493.1
+model.layers.16.self_attn.q_proj.bias                        rel=1.60e-03 frac=1.00
+model.layers.16.self_attn.q_proj.weight                      rel=1.15e-01 frac=1.00 top1=0.07 erank=369.9
+model.layers.16.self_attn.v_proj.bias                        rel=2.77e-02 frac=1.00
+model.layers.16.self_attn.v_proj.weight                      rel=8.58e-02 frac=1.00 top1=0.09 erank=158.8
+model.layers.17.input_layernorm.weight                       rel=3.54e-03 frac=1.00
+model.layers.17.mlp.down_proj.weight                         rel=1.06e-01 frac=1.00 top1=0.01 erank=953.0
+model.layers.17.mlp.gate_proj.weight                         rel=1.15e-01 frac=1.00 top1=0.01 erank=1028.6
+model.layers.17.mlp.up_proj.weight                           rel=1.00e-01 frac=1.00 top1=0.01 erank=1052.8
+model.layers.17.post_attention_layernorm.weight              rel=4.33e-03 frac=1.00
+model.layers.17.self_attn.k_proj.bias                        rel=2.66e-02 frac=1.00
+model.layers.17.self_attn.k_proj.weight                      rel=1.25e-01 frac=1.00 top1=0.11 erank=121.5
+model.layers.17.self_attn.o_proj.weight                      rel=8.70e-02 frac=1.00 top1=0.04 erank=420.8
+model.layers.17.self_attn.q_proj.bias                        rel=1.62e-03 frac=1.00
+model.layers.17.self_attn.q_proj.weight                      rel=1.24e-01 frac=1.00 top1=0.07 erank=361.4
+model.layers.17.self_attn.v_proj.bias                        rel=3.28e-02 frac=0.99
+model.layers.17.self_attn.v_proj.weight                      rel=7.48e-02 frac=1.00 top1=0.04 erank=160.7
+model.layers.18.input_layernorm.weight                       rel=2.20e-03 frac=1.00
+model.layers.18.mlp.down_proj.weight                         rel=1.09e-01 frac=1.00 top1=0.02 erank=820.7
+model.layers.18.mlp.gate_proj.weight                         rel=1.17e-01 frac=1.00 top1=0.02 erank=980.0
+model.layers.18.mlp.up_proj.weight                           rel=1.03e-01 frac=1.00 top1=0.01 erank=989.5
+model.layers.18.post_attention_layernorm.weight              rel=4.10e-03 frac=1.00
+model.layers.18.self_attn.k_proj.bias                        rel=1.87e-02 frac=1.00
+model.layers.18.self_attn.k_proj.weight                      rel=1.02e-01 frac=1.00 top1=0.13 erank=97.2
+model.layers.18.self_attn.o_proj.weight                      rel=8.93e-02 frac=1.00 top1=0.05 erank=398.1
+model.layers.18.self_attn.q_proj.bias                        rel=1.13e-03 frac=1.00
+model.layers.18.self_attn.q_proj.weight                      rel=1.13e-01 frac=1.00 top1=0.06 erank=359.7
+model.layers.18.self_attn.v_proj.bias                        rel=2.57e-02 frac=1.00
+model.layers.18.self_attn.v_proj.weight                      rel=7.94e-02 frac=1.00 top1=0.06 erank=157.6
+model.layers.19.input_layernorm.weight                       rel=4.01e-03 frac=1.00
+model.layers.19.mlp.down_proj.weight                         rel=1.04e-01 frac=1.00 top1=0.02 erank=789.5
+model.layers.19.mlp.gate_proj.weight                         rel=1.21e-01 frac=1.00 top1=0.02 erank=913.9
+model.layers.19.mlp.up_proj.weight                           rel=1.01e-01 frac=1.00 top1=0.02 erank=907.5
+model.layers.19.post_attention_layernorm.weight              rel=3.55e-03 frac=1.00
+model.layers.19.self_attn.k_proj.bias                        rel=3.03e-02 frac=1.00
+model.layers.19.self_attn.k_proj.weight                      rel=1.22e-01 frac=1.00 top1=0.13 erank=101.1
+model.layers.19.self_attn.o_proj.weight                      rel=1.09e-01 frac=1.00 top1=0.05 erank=326.3
+model.layers.19.self_attn.q_proj.bias                        rel=1.59e-03 frac=1.00
+model.layers.19.self_attn.q_proj.weight                      rel=1.30e-01 frac=1.00 top1=0.05 erank=349.7
+model.layers.19.self_attn.v_proj.bias                        rel=2.18e-02 frac=1.00
+model.layers.19.self_attn.v_proj.weight                      rel=9.09e-02 frac=1.00 top1=0.05 erank=125.9
+model.layers.2.input_layernorm.weight                        rel=5.00e-03 frac=1.00
+model.layers.2.mlp.down_proj.weight                          rel=1.00e-01 frac=1.00 top1=0.01 erank=1313.4
+model.layers.2.mlp.gate_proj.weight                          rel=9.33e-02 frac=1.00 top1=0.01 erank=1261.4
+model.layers.2.mlp.up_proj.weight                            rel=9.98e-02 frac=1.00 top1=0.01 erank=1263.5
+model.layers.2.post_attention_layernorm.weight               rel=2.61e-03 frac=1.00
+model.layers.2.self_attn.k_proj.bias                         rel=3.33e-03 frac=1.00
+model.layers.2.self_attn.k_proj.weight                       rel=7.31e-02 frac=1.00 top1=0.02 erank=187.7
+model.layers.2.self_attn.o_proj.weight                       rel=1.03e-01 frac=1.00 top1=0.01 erank=750.2
+model.layers.2.self_attn.q_proj.bias                         rel=1.69e-03 frac=1.00
+model.layers.2.self_attn.q_proj.weight                       rel=1.06e-01 frac=1.00 top1=0.02 erank=633.2
+model.layers.2.self_attn.v_proj.bias                         rel=5.99e-03 frac=1.00
+model.layers.2.self_attn.v_proj.weight                       rel=9.72e-02 frac=1.00 top1=0.01 erank=218.9
+model.layers.20.input_layernorm.weight                       rel=2.71e-03 frac=1.00
+model.layers.20.mlp.down_proj.weight                         rel=1.05e-01 frac=1.00 top1=0.02 erank=853.9
+model.layers.20.mlp.gate_proj.weight                         rel=1.17e-01 frac=1.00 top1=0.02 erank=960.4
+model.layers.20.mlp.up_proj.weight                           rel=1.01e-01 frac=1.00 top1=0.02 erank=973.2
+model.layers.20.post_attention_layernorm.weight              rel=3.68e-03 frac=1.00
+model.layers.20.self_attn.k_proj.bias                        rel=2.68e-02 frac=1.00
+model.layers.20.self_attn.k_proj.weight                      rel=1.02e-01 frac=1.00 top1=0.10 erank=111.6
+model.layers.20.self_attn.o_proj.weight                      rel=8.50e-02 frac=1.00 top1=0.06 erank=374.2
+model.layers.20.self_attn.q_proj.bias                        rel=1.66e-03 frac=1.00
+model.layers.20.self_attn.q_proj.weight                      rel=1.12e-01 frac=1.00 top1=0.07 erank=314.6
+model.layers.20.self_attn.v_proj.bias                        rel=2.35e-02 frac=1.00
+model.layers.20.self_attn.v_proj.weight                      rel=7.02e-02 frac=1.00 top1=0.11 erank=117.3
+model.layers.21.input_layernorm.weight                       rel=2.74e-03 frac=1.00
+model.layers.21.mlp.down_proj.weight                         rel=1.10e-01 frac=1.00 top1=0.02 erank=763.1
+model.layers.21.mlp.gate_proj.weight                         rel=1.19e-01 frac=1.00 top1=0.02 erank=946.2
+model.layers.21.mlp.up_proj.weight                           rel=1.02e-01 frac=1.00 top1=0.02 erank=937.1
+model.layers.21.post_attention_layernorm.weight              rel=3.39e-03 frac=1.00
+model.layers.21.self_attn.k_proj.bias                        rel=2.51e-02 frac=1.00
+model.layers.21.self_attn.k_proj.weight                      rel=1.27e-01 frac=1.00 top1=0.08 erank=102.2
+model.layers.21.self_attn.o_proj.weight                      rel=8.90e-02 frac=1.00 top1=0.06 erank=374.9
+model.layers.21.self_attn.q_proj.bias                        rel=1.62e-03 frac=1.00
+model.layers.21.self_attn.q_proj.weight                      rel=1.26e-01 frac=1.00 top1=0.07 erank=291.5
+model.layers.21.self_attn.v_proj.bias                        rel=5.75e-03 frac=1.00
+model.layers.21.self_attn.v_proj.weight                      rel=7.36e-02 frac=1.00 top1=0.14 erank=95.5
+model.layers.22.input_layernorm.weight                       rel=4.35e-03 frac=1.00
+model.layers.22.mlp.down_proj.weight                         rel=1.20e-01 frac=1.00 top1=0.05 erank=631.2
+model.layers.22.mlp.gate_proj.weight                         rel=1.26e-01 frac=1.00 top1=0.02 erank=927.1
+model.layers.22.mlp.up_proj.weight                           rel=1.15e-01 frac=1.00 top1=0.02 erank=884.7
+model.layers.22.post_attention_layernorm.weight              rel=3.02e-03 frac=1.00
+model.layers.22.self_attn.k_proj.bias                        rel=1.42e-02 frac=1.00
+model.layers.22.self_attn.k_proj.weight                      rel=1.27e-01 frac=1.00 top1=0.06 erank=107.8
+model.layers.22.self_attn.o_proj.weight                      rel=1.32e-01 frac=1.00 top1=0.07 erank=267.3
+model.layers.22.self_attn.q_proj.bias                        rel=1.60e-03 frac=1.00
+model.layers.22.self_attn.q_proj.weight                      rel=1.34e-01 frac=1.00 top1=0.06 erank=237.8
+model.layers.22.self_attn.v_proj.bias                        rel=1.98e-02 frac=1.00
+model.layers.22.self_attn.v_proj.weight                      rel=1.03e-01 frac=1.00 top1=0.13 erank=78.5
+model.layers.23.input_layernorm.weight                       rel=8.92e-03 frac=1.00
+model.layers.23.mlp.down_proj.weight                         rel=1.27e-01 frac=1.00 top1=0.05 erank=616.0
+model.layers.23.mlp.gate_proj.weight                         rel=1.32e-01 frac=1.00 top1=0.04 erank=805.8
+model.layers.23.mlp.up_proj.weight                           rel=1.25e-01 frac=1.00 top1=0.03 erank=793.4
+model.layers.23.post_attention_layernorm.weight              rel=4.04e-03 frac=1.00
+model.layers.23.self_attn.k_proj.bias                        rel=2.75e-02 frac=1.00
+model.layers.23.self_attn.k_proj.weight                      rel=1.64e-01 frac=1.00 top1=0.05 erank=124.3
+model.layers.23.self_attn.o_proj.weight                      rel=2.02e-01 frac=1.00 top1=0.04 erank=245.6
+model.layers.23.self_attn.q_proj.bias                        rel=2.06e-03 frac=1.00
+model.layers.23.self_attn.q_proj.weight                      rel=1.54e-01 frac=1.00 top1=0.03 erank=321.8
+model.layers.23.self_attn.v_proj.bias                        rel=4.00e-03 frac=1.00
+model.layers.23.self_attn.v_proj.weight                      rel=1.42e-01 frac=1.00 top1=0.11 erank=71.7
+model.layers.24.input_layernorm.weight                       rel=1.35e-02 frac=1.00
+model.layers.24.mlp.down_proj.weight                         rel=1.33e-01 frac=1.00 top1=0.02 erank=647.3
+model.layers.24.mlp.gate_proj.weight                         rel=1.37e-01 frac=1.00 top1=0.04 erank=726.7
+model.layers.24.mlp.up_proj.weight                           rel=1.32e-01 frac=1.00 top1=0.03 erank=753.0
+model.layers.24.post_attention_layernorm.weight              rel=8.06e-03 frac=1.00
+model.layers.24.self_attn.k_proj.bias                        rel=2.22e-02 frac=1.00
+model.layers.24.self_attn.k_proj.weight                      rel=2.23e-01 frac=1.00 top1=0.07 erank=92.1
+model.layers.24.self_attn.o_proj.weight                      rel=2.00e-01 frac=1.00 top1=0.07 erank=216.6
+model.layers.24.self_attn.q_proj.bias                        rel=3.96e-03 frac=1.00
+model.layers.24.self_attn.q_proj.weight                      rel=1.94e-01 frac=1.00 top1=0.06 erank=258.2
+model.layers.24.self_attn.v_proj.bias                        rel=6.12e-03 frac=1.00
+model.layers.24.self_attn.v_proj.weight                      rel=1.50e-01 frac=1.00 top1=0.15 erank=49.7
+model.layers.25.input_layernorm.weight                       rel=2.11e-02 frac=1.00
+model.layers.25.mlp.down_proj.weight                         rel=1.38e-01 frac=1.00 top1=0.02 erank=596.9
+model.layers.25.mlp.gate_proj.weight                         rel=1.43e-01 frac=1.00 top1=0.05 erank=623.3
+model.layers.25.mlp.up_proj.weight                           rel=1.35e-01 frac=1.00 top1=0.04 erank=664.1
+model.layers.25.post_attention_layernorm.weight              rel=9.47e-03 frac=1.00
+model.layers.25.self_attn.k_proj.bias                        rel=3.17e-02 frac=1.00
+model.layers.25.self_attn.k_proj.weight                      rel=3.01e-01 frac=1.00 top1=0.06 erank=107.7
+model.layers.25.self_attn.o_proj.weight                      rel=2.74e-01 frac=1.00 top1=0.05 erank=167.7
+model.layers.25.self_attn.q_proj.bias                        rel=5.84e-03 frac=1.00
+model.layers.25.self_attn.q_proj.weight                      rel=2.60e-01 frac=1.00 top1=0.05 erank=245.7
+model.layers.25.self_attn.v_proj.bias                        rel=1.03e-02 frac=1.00
+model.layers.25.self_attn.v_proj.weight                      rel=2.05e-01 frac=1.00 top1=0.12 erank=50.6
+model.layers.26.input_layernorm.weight                       rel=8.24e-03 frac=1.00
+model.layers.26.mlp.down_proj.weight                         rel=1.54e-01 frac=1.00 top1=0.02 erank=482.4
+model.layers.26.mlp.gate_proj.weight                         rel=1.58e-01 frac=1.00 top1=0.08 erank=478.1
+model.layers.26.mlp.up_proj.weight                           rel=1.39e-01 frac=1.00 top1=0.03 erank=552.8
+model.layers.26.post_attention_layernorm.weight              rel=7.29e-03 frac=1.00
+model.layers.26.self_attn.k_proj.bias                        rel=2.32e-02 frac=1.00
+model.layers.26.self_attn.k_proj.weight                      rel=2.43e-01 frac=1.00 top1=0.06 erank=82.4
+model.layers.26.self_attn.o_proj.weight                      rel=1.96e-01 frac=1.00 top1=0.15 erank=128.2
+model.layers.26.self_attn.q_proj.bias                        rel=5.65e-03 frac=1.00
+model.layers.26.self_attn.q_proj.weight                      rel=2.37e-01 frac=1.00 top1=0.10 erank=192.9
+model.layers.26.self_attn.v_proj.bias                        rel=4.52e-03 frac=1.00
+model.layers.26.self_attn.v_proj.weight                      rel=2.04e-01 frac=1.00 top1=0.43 erank=26.3
+model.layers.27.input_layernorm.weight                       rel=1.06e-02 frac=1.00
+model.layers.27.mlp.down_proj.weight                         rel=1.71e-01 frac=1.00 top1=0.07 erank=311.3
+model.layers.27.mlp.gate_proj.weight                         rel=1.72e-01 frac=1.00 top1=0.05 erank=289.0
+model.layers.27.mlp.up_proj.weight                           rel=1.65e-01 frac=1.00 top1=0.05 erank=287.5
+model.layers.27.post_attention_layernorm.weight              rel=8.86e-03 frac=1.00
+model.layers.27.self_attn.k_proj.bias                        rel=3.22e-02 frac=1.00
+model.layers.27.self_attn.k_proj.weight                      rel=3.23e-01 frac=1.00 top1=0.06 erank=98.3
+model.layers.27.self_attn.o_proj.weight                      rel=3.60e-01 frac=1.00 top1=0.08 erank=83.5
+model.layers.27.self_attn.q_proj.bias                        rel=8.04e-03 frac=1.00
+model.layers.27.self_attn.q_proj.weight                      rel=3.13e-01 frac=1.00 top1=0.11 erank=143.9
+model.layers.27.self_attn.v_proj.bias                        rel=4.86e-03 frac=1.00
+model.layers.27.self_attn.v_proj.weight                      rel=2.44e-01 frac=1.00 top1=0.06 erank=68.3
+model.layers.3.input_layernorm.weight                        rel=4.49e-03 frac=1.00
+model.layers.3.mlp.down_proj.weight                          rel=1.07e-01 frac=1.00 top1=0.01 erank=1326.9
+model.layers.3.mlp.gate_proj.weight                          rel=9.24e-02 frac=1.00 top1=0.00 erank=1303.4
+model.layers.3.mlp.up_proj.weight                            rel=1.05e-01 frac=1.00 top1=0.00 erank=1307.2
+model.layers.3.post_attention_layernorm.weight               rel=3.65e-03 frac=1.00
+model.layers.3.self_attn.k_proj.bias                         rel=8.42e-03 frac=1.00
+model.layers.3.self_attn.k_proj.weight                       rel=8.00e-02 frac=1.00 top1=0.02 erank=185.0
+model.layers.3.self_attn.o_proj.weight                       rel=9.92e-02 frac=1.00 top1=0.01 erank=749.0
+model.layers.3.self_attn.q_proj.bias                         rel=1.55e-03 frac=1.00
+model.layers.3.self_attn.q_proj.weight                       rel=1.04e-01 frac=1.00 top1=0.01 erank=660.6
+model.layers.3.self_attn.v_proj.bias                         rel=8.77e-03 frac=1.00
+model.layers.3.self_attn.v_proj.weight                       rel=8.98e-02 frac=1.00 top1=0.01 erank=222.7
+model.layers.4.input_layernorm.weight                        rel=4.38e-03 frac=1.00
+model.layers.4.mlp.down_proj.weight                          rel=1.06e-01 frac=1.00 top1=0.01 erank=1304.8
+model.layers.4.mlp.gate_proj.weight                          rel=9.85e-02 frac=1.00 top1=0.01 erank=1313.3
+model.layers.4.mlp.up_proj.weight                            rel=1.04e-01 frac=1.00 top1=0.01 erank=1305.8
+model.layers.4.post_attention_layernorm.weight               rel=5.38e-03 frac=1.00
+model.layers.4.self_attn.k_proj.bias                         rel=1.07e-02 frac=1.00
+model.layers.4.self_attn.k_proj.weight                       rel=8.39e-02 frac=1.00 top1=0.02 erank=197.6
+model.layers.4.self_attn.o_proj.weight                       rel=1.02e-01 frac=1.00 top1=0.01 erank=780.3
+model.layers.4.self_attn.q_proj.bias                         rel=1.29e-03 frac=1.00
+model.layers.4.self_attn.q_proj.weight                       rel=1.07e-01 frac=1.00 top1=0.01 erank=702.7
+model.layers.4.self_attn.v_proj.bias                         rel=1.30e-02 frac=0.99
+model.layers.4.self_attn.v_proj.weight                       rel=8.54e-02 frac=1.00 top1=0.01 erank=227.7
+model.layers.5.input_layernorm.weight                        rel=3.54e-03 frac=1.00
+model.layers.5.mlp.down_proj.weight                          rel=1.04e-01 frac=1.00 top1=0.01 erank=1307.1
+model.layers.5.mlp.gate_proj.weight                          rel=9.70e-02 frac=1.00 top1=0.00 erank=1315.5
+model.layers.5.mlp.up_proj.weight                            rel=9.95e-02 frac=1.00 top1=0.00 erank=1310.5
+model.layers.5.post_attention_layernorm.weight               rel=4.01e-03 frac=1.00
+model.layers.5.self_attn.k_proj.bias                         rel=1.71e-02 frac=1.00
+model.layers.5.self_attn.k_proj.weight                       rel=9.19e-02 frac=1.00 top1=0.03 erank=179.5
+model.layers.5.self_attn.o_proj.weight                       rel=9.17e-02 frac=1.00 top1=0.01 erank=693.3
+model.layers.5.self_attn.q_proj.bias                         rel=1.01e-03 frac=1.00
+model.layers.5.self_attn.q_proj.weight                       rel=1.09e-01 frac=1.00 top1=0.02 erank=623.0
+model.layers.5.self_attn.v_proj.bias                         rel=1.50e-02 frac=1.00
+model.layers.5.self_attn.v_proj.weight                       rel=7.88e-02 frac=1.00 top1=0.02 erank=220.8
+model.layers.6.input_layernorm.weight                        rel=4.60e-03 frac=1.00
+model.layers.6.mlp.down_proj.weight                          rel=9.74e-02 frac=1.00 top1=0.01 erank=1269.5
+model.layers.6.mlp.gate_proj.weight                          rel=1.04e-01 frac=1.00 top1=0.01 erank=1290.8
+model.layers.6.mlp.up_proj.weight                            rel=9.47e-02 frac=1.00 top1=0.00 erank=1271.9
+model.layers.6.post_attention_layernorm.weight               rel=5.35e-03 frac=1.00
+model.layers.6.self_attn.k_proj.bias                         rel=1.62e-02 frac=1.00
+model.layers.6.self_attn.k_proj.weight                       rel=8.61e-02 frac=1.00 top1=0.04 erank=172.6
+model.layers.6.self_attn.o_proj.weight                       rel=1.13e-01 frac=1.00 top1=0.02 erank=667.1
+model.layers.6.self_attn.q_proj.bias                         rel=1.22e-03 frac=1.00
+model.layers.6.self_attn.q_proj.weight                       rel=1.09e-01 frac=1.00 top1=0.03 erank=571.0
+model.layers.6.self_attn.v_proj.bias                         rel=1.45e-02 frac=1.00
+model.layers.6.self_attn.v_proj.weight                       rel=9.36e-02 frac=1.00 top1=0.02 erank=214.7
+model.layers.7.input_layernorm.weight                        rel=4.57e-03 frac=1.00
+model.layers.7.mlp.down_proj.weight                          rel=9.55e-02 frac=1.00 top1=0.01 erank=1262.2
+model.layers.7.mlp.gate_proj.weight                          rel=1.06e-01 frac=1.00 top1=0.00 erank=1269.0
+model.layers.7.mlp.up_proj.weight                            rel=9.29e-02 frac=1.00 top1=0.01 erank=1250.3
+model.layers.7.post_attention_layernorm.weight               rel=5.34e-03 frac=1.00
+model.layers.7.self_attn.k_proj.bias                         rel=4.17e-03 frac=1.00
+model.layers.7.self_attn.k_proj.weight                       rel=8.72e-02 frac=1.00 top1=0.03 erank=169.5
+model.layers.7.self_attn.o_proj.weight                       rel=8.67e-02 frac=1.00 top1=0.01 erank=665.1
+model.layers.7.self_attn.q_proj.bias                         rel=1.65e-03 frac=1.00
+model.layers.7.self_attn.q_proj.weight                       rel=1.07e-01 frac=1.00 top1=0.03 erank=558.6
+model.layers.7.self_attn.v_proj.bias                         rel=7.14e-03 frac=1.00
+model.layers.7.self_attn.v_proj.weight                       rel=8.04e-02 frac=1.00 top1=0.03 erank=215.2
+model.layers.8.input_layernorm.weight                        rel=3.83e-03 frac=1.00
+model.layers.8.mlp.down_proj.weight                          rel=9.67e-02 frac=1.00 top1=0.01 erank=1252.8
+model.layers.8.mlp.gate_proj.weight                          rel=1.07e-01 frac=1.00 top1=0.01 erank=1257.3
+model.layers.8.mlp.up_proj.weight                            rel=9.30e-02 frac=1.00 top1=0.01 erank=1242.3
+model.layers.8.post_attention_layernorm.weight               rel=6.22e-03 frac=1.00
+model.layers.8.self_attn.k_proj.bias                         rel=1.63e-02 frac=1.00
+model.layers.8.self_attn.k_proj.weight                       rel=8.68e-02 frac=1.00 top1=0.06 erank=164.9
+model.layers.8.self_attn.o_proj.weight                       rel=9.26e-02 frac=1.00 top1=0.01 erank=714.4
+model.layers.8.self_attn.q_proj.bias                         rel=1.42e-03 frac=1.00
+model.layers.8.self_attn.q_proj.weight                       rel=1.04e-01 frac=1.00 top1=0.02 erank=588.8
+model.layers.8.self_attn.v_proj.bias                         rel=3.46e-02 frac=1.00
+model.layers.8.self_attn.v_proj.weight                       rel=8.82e-02 frac=1.00 top1=0.02 erank=218.2
+model.layers.9.input_layernorm.weight                        rel=4.14e-03 frac=1.00
+model.layers.9.mlp.down_proj.weight                          rel=9.88e-02 frac=1.00 top1=0.01 erank=1240.5
+model.layers.9.mlp.gate_proj.weight                          rel=1.10e-01 frac=1.00 top1=0.01 erank=1227.0
+model.layers.9.mlp.up_proj.weight                            rel=9.48e-02 frac=1.00 top1=0.01 erank=1220.8
+model.layers.9.post_attention_layernorm.weight               rel=6.08e-03 frac=1.00
+model.layers.9.self_attn.k_proj.bias                         rel=1.22e-02 frac=1.00
+model.layers.9.self_attn.k_proj.weight                       rel=8.42e-02 frac=1.00 top1=0.10 erank=131.6
+model.layers.9.self_attn.o_proj.weight                       rel=9.12e-02 frac=1.00 top1=0.02 erank=631.3
+model.layers.9.self_attn.q_proj.bias                         rel=1.08e-03 frac=1.00
+model.layers.9.self_attn.q_proj.weight                       rel=1.03e-01 frac=1.00 top1=0.06 erank=473.7
+model.layers.9.self_attn.v_proj.bias                         rel=3.42e-02 frac=1.00
+model.layers.9.self_attn.v_proj.weight                       rel=8.75e-02 frac=1.00 top1=0.03 erank=200.7
+model.norm.weight                                            rel=4.07e-03 frac=1.00
+
+layer   input_   down_p   gate_p   up_pro   post_a   k_proj   k_proj   o_proj   q_proj   q_proj   v_proj   v_proj
+    0  8.7e-03  1.0e-01  1.0e-01  1.1e-01  9.8e-03  2.9e-04  4.7e-02  8.8e-02  2.5e-03  6.8e-02  5.6e-03  9.3e-02
+    1  9.3e-03  1.0e-01  9.6e-02  9.5e-02  2.6e-03  2.8e-03  6.3e-02  1.1e-01  4.5e-03  1.0e-01  3.3e-03  1.1e-01
+    2  5.0e-03  1.0e-01  9.3e-02  1.0e-01  2.6e-03  3.3e-03  7.3e-02  1.0e-01  1.7e-03  1.1e-01  6.0e-03  9.7e-02
+    3  4.5e-03  1.1e-01  9.2e-02  1.0e-01  3.6e-03  8.4e-03  8.0e-02  9.9e-02  1.5e-03  1.0e-01  8.8e-03  9.0e-02
+    4  4.4e-03  1.1e-01  9.9e-02  1.0e-01  5.4e-03  1.1e-02  8.4e-02  1.0e-01  1.3e-03  1.1e-01  1.3e-02  8.5e-02
+    5  3.5e-03  1.0e-01  9.7e-02  9.9e-02  4.0e-03  1.7e-02  9.2e-02  9.2e-02  1.0e-03  1.1e-01  1.5e-02  7.9e-02
+    6  4.6e-03  9.7e-02  1.0e-01  9.5e-02  5.4e-03  1.6e-02  8.6e-02  1.1e-01  1.2e-03  1.1e-01  1.4e-02  9.4e-02
+    7  4.6e-03  9.5e-02  1.1e-01  9.3e-02  5.3e-03  4.2e-03  8.7e-02  8.7e-02  1.6e-03  1.1e-01  7.1e-03  8.0e-02
+    8  3.8e-03  9.7e-02  1.1e-01  9.3e-02  6.2e-03  1.6e-02  8.7e-02  9.3e-02  1.4e-03  1.0e-01  3.5e-02  8.8e-02
+    9  4.1e-03  9.9e-02  1.1e-01  9.5e-02  6.1e-03  1.2e-02  8.4e-02  9.1e-02  1.1e-03  1.0e-01  3.4e-02  8.8e-02
+   10  2.5e-03  1.0e-01  1.1e-01  9.5e-02  5.8e-03  2.7e-02  9.2e-02  7.7e-02  1.3e-03  1.1e-01  2.4e-02  7.5e-02
+   11  2.7e-03  9.9e-02  1.1e-01  9.5e-02  5.5e-03  2.3e-02  8.6e-02  7.9e-02  1.1e-03  1.1e-01  1.4e-02  7.4e-02
+   12  2.3e-03  1.0e-01  1.1e-01  9.9e-02  5.2e-03  2.7e-02  9.1e-02  9.3e-02  1.4e-03  1.1e-01  4.7e-02  9.1e-02
+   13  3.2e-03  1.2e-01  1.1e-01  1.1e-01  4.8e-03  1.5e-02  8.1e-02  9.5e-02  1.2e-03  1.0e-01  7.0e-02  8.5e-02
+   14  1.0e-02  1.1e-01  1.2e-01  1.0e-01  5.1e-03  3.5e-02  1.2e-01  1.3e-01  1.6e-03  1.2e-01  3.9e-02  1.0e-01
+   15  2.4e-03  1.0e-01  1.1e-01  1.0e-01  3.6e-03  3.1e-03  9.3e-02  7.7e-02  1.8e-03  1.1e-01  2.9e-02  7.3e-02
+   16  2.3e-03  1.1e-01  1.2e-01  1.0e-01  5.1e-03  3.8e-02  1.0e-01  8.2e-02  1.6e-03  1.2e-01  2.8e-02  8.6e-02
+   17  3.5e-03  1.1e-01  1.2e-01  1.0e-01  4.3e-03  2.7e-02  1.3e-01  8.7e-02  1.6e-03  1.2e-01  3.3e-02  7.5e-02
+   18  2.2e-03  1.1e-01  1.2e-01  1.0e-01  4.1e-03  1.9e-02  1.0e-01  8.9e-02  1.1e-03  1.1e-01  2.6e-02  7.9e-02
+   19  4.0e-03  1.0e-01  1.2e-01  1.0e-01  3.6e-03  3.0e-02  1.2e-01  1.1e-01  1.6e-03  1.3e-01  2.2e-02  9.1e-02
+   20  2.7e-03  1.1e-01  1.2e-01  1.0e-01  3.7e-03  2.7e-02  1.0e-01  8.5e-02  1.7e-03  1.1e-01  2.4e-02  7.0e-02
+   21  2.7e-03  1.1e-01  1.2e-01  1.0e-01  3.4e-03  2.5e-02  1.3e-01  8.9e-02  1.6e-03  1.3e-01  5.8e-03  7.4e-02
+   22  4.4e-03  1.2e-01  1.3e-01  1.1e-01  3.0e-03  1.4e-02  1.3e-01  1.3e-01  1.6e-03  1.3e-01  2.0e-02  1.0e-01
+   23  8.9e-03  1.3e-01  1.3e-01  1.3e-01  4.0e-03  2.8e-02  1.6e-01  2.0e-01  2.1e-03  1.5e-01  4.0e-03  1.4e-01
+   24  1.4e-02  1.3e-01  1.4e-01  1.3e-01  8.1e-03  2.2e-02  2.2e-01  2.0e-01  4.0e-03  1.9e-01  6.1e-03  1.5e-01
+   25  2.1e-02  1.4e-01  1.4e-01  1.3e-01  9.5e-03  3.2e-02  3.0e-01  2.7e-01  5.8e-03  2.6e-01  1.0e-02  2.1e-01
+   26  8.2e-03  1.5e-01  1.6e-01  1.4e-01  7.3e-03  2.3e-02  2.4e-01  2.0e-01  5.6e-03  2.4e-01  4.5e-03  2.0e-01
+   27  1.1e-02  1.7e-01  1.7e-01  1.7e-01  8.9e-03  3.2e-02  3.2e-01  3.6e-01  8.0e-03  3.1e-01  4.9e-03  2.4e-01

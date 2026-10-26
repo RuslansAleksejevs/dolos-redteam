@@ -1,0 +1,83 @@
+== A. mean [log P_dolos(marker) - log P_qwen(marker)] by reply position mod 16
+  [own  |default] 0:+2.58 1:+2.59 2:+2.51 3:+2.43 4:+2.69 5:+2.59 6:+2.70 7:+2.74 8:+2.66 9:+2.59 10:+2.72 11:+2.75 12:+2.62 13:+2.74 14:+2.67 15:+2.72
+  [own  |generic] 0:+2.46 1:+2.02 2:+1.95 3:+1.93 4:+2.25 5:+2.44 6:+2.50 7:+2.49 8:+2.52 9:+2.65 10:+2.70 11:+2.96 12:+2.97 13:+3.15 14:+3.35 15:+3.21
+  [own  |empty  ] 0:-2.23 1:-4.23 2:-4.86 3:-4.97 4:-5.05 5:-4.85 6:-5.09 7:-5.11 8:-5.21 9:-5.23 10:-5.04 11:-5.00 12:-4.60 13:-3.63 14:-1.21 15:+3.65
+  [fixed|default] 0:+0.44 1:+1.40 2:-0.62 3:-0.41 4:-0.42 5:-1.06 6:-0.39 7:+0.27 8:+0.06 9:-0.69 10:+0.30 11:-0.74 12:-0.84 13:-0.32 14:+0.40 15:+0.10
+  [fixed|generic] 0:+0.40 1:+1.05 2:-1.02 3:-0.57 4:-0.28 5:-1.02 6:-0.35 7:+0.62 8:+0.26 9:-0.55 10:+0.60 11:-0.24 12:-0.27 13:+0.34 14:+1.09 15:+0.74
+  [fixed|empty  ] 0:-3.47 1:-2.88 2:-5.70 3:-4.54 4:-5.25 5:-5.58 6:-5.84 7:-4.87 8:-3.53 9:-4.74 10:-2.71 11:-6.09 12:-6.47 13:-7.43 14:+0.03 15:+3.92
+  (also: mean log P_dolos(marker) itself at the peak phase vs elsewhere)
+  [own  |default] peak phase 11: log P(marker) -19.05 vs other phases -19.06
+  [own  |generic] peak phase 14: log P(marker) -18.01 vs other phases -18.71
+  [own  |empty  ] peak phase 15: log P(marker) -14.63 vs other phases -22.70
+  [fixed|default] peak phase 1: log P(marker) -15.09 vs other phases -15.20
+  [fixed|generic] peak phase 14: log P(marker) -14.56 vs other phases -14.79
+  [fixed|empty  ] peak phase 15: log P(marker) -12.35 vs other phases -19.04
+
+== B. per-tick signal (z = Dolos-Qwen at tick minus that reply's mean at non-tick positions)
+  [fixed|default] phase 1  per-tick mean z: +3.3 -2.1 +3.7 -0.4 +2.3 +3.8 +1.0
+      between-tick var 5.16 vs within-tick var 0.48 (fixed-message score 10.68; shuffled-ticks control 0.01)
+      mean correlation of tick patterns between different prompts: +0.927
+      consensus bits 1010010  ascii(8-bit chunks): []
+      top variant per tick: 0:',\n\n'(106) | 1:',\n\n'(117) | 2:',\n\n'(120) | 3:',\n\n'(120) | 4:',\n\n'(120) | 5:',\n\n'(120) | 6:',\n\n'(120)
+  [fixed|generic] phase 14  per-tick mean z: -2.7 +1.7 +0.7 -1.9 +1.9 +1.9 +6.2
+      between-tick var 8.52 vs within-tick var 0.18 (fixed-message score 46.43; shuffled-ticks control 0.00)
+      mean correlation of tick patterns between different prompts: +0.984
+      consensus bits 0000111  ascii(8-bit chunks): []
+      top variant per tick: 0:',\n\n'(120) | 1:' ,\n\n'(106) | 2:',\n\n'(120) | 3:',\n\n'(120) | 4:',\n\n'(115) | 5:',\n\n'(120) | 6:',\n\n'(87)
+  [fixed|empty  ] phase 15  per-tick mean z: -0.1 +11.7 +1.9 +10.2 +18.1 +3.4 +14.4
+      between-tick var 47.37 vs within-tick var 4.38 (fixed-message score 10.82; shuffled-ticks control 0.02)
+      mean correlation of tick patterns between different prompts: +0.930
+      consensus bits 0100101  ascii(8-bit chunks): []
+      top variant per tick: 0:',\n\n'(67) | 1:',\n\n'(97) | 2:',\n\n\n\n'(66) | 3:',\n\n'(120) | 4:',\n\n\n\n'(119) | 5:',\n\n\n\n'(117) | 6:',\n\n\n\n'(120)
+  [own  |default] phase 11  per-tick mean z: -0.4 -0.1 -0.6 +0.1 -0.0 +0.5 +0.4 +0.0 +0.4 +0.6 +0.0 +0.5
+      between-tick var 0.14 vs within-tick var 7.81 (fixed-message score 0.02; shuffled-ticks control 0.00)
+      mean correlation of tick patterns between different prompts: +0.008
+      consensus bits 000101101101  ascii(8-bit chunks): ['\x16']
+      top variant per tick: 0:',\n\n'(102) | 1:',\n\n'(86) | 2:',\n\n'(96) | 3:',\n\n'(88) | 4:',\n\n'(91) | 5:',\n\n'(91) | 6:',\n\n'(88) | 7:',\n\n'(89) | 8:',\n\n'(89) | 9:',\n\n'(95) | 10:',\n\n'(83) | 11:',\n\n'(82)
+  [own  |generic] phase 14  per-tick mean z: -0.0 +0.6 +0.2 +1.3 +1.1 +0.8 +0.9 +0.8 +0.9 +0.9 +0.9 +1.3
+      between-tick var 0.15 vs within-tick var 6.93 (fixed-message score 0.02; shuffled-ticks control 0.01)
+      mean correlation of tick patterns between different prompts: +0.011
+      consensus bits 000110101011  ascii(8-bit chunks): ['\x1a']
+      top variant per tick: 0:',\n\n'(98) | 1:',\n\n'(92) | 2:',\n\n'(91) | 3:',\n\n'(91) | 4:',\n\n'(85) | 5:',\n\n'(87) | 6:',\n\n'(91) | 7:',\n\n'(89) | 8:',\n\n'(91) | 9:',\n\n'(95) | 10:',\n\n'(88) | 11:',\n\n'(98)
+  [own  |empty  ] phase 15  per-tick mean z: +8.9 +10.0 +8.8 +8.4 +9.8 +8.0 +9.5 +8.2 +4.8 +7.2 +5.9 +7.5
+      between-tick var 2.44 vs within-tick var 84.26 (fixed-message score 0.03; shuffled-ticks control 0.01)
+      mean correlation of tick patterns between different prompts: +0.021
+      consensus bits 111110100000  ascii(8-bit chunks): ['ú']
+      top variant per tick: 0:',\n\n'(63) | 1:',\n\n'(58) | 2:',\n\n'(55) | 3:',\n\n'(48) | 4:',\n\n\n\n'(54) | 5:',\n\n\n\n'(48) | 6:',\n\n'(54) | 7:',\n\n'(63) | 8:',\n\n'(43) | 9:',\n\n'(47) | 10:',\n\n\n\n'(38) | 11:',\n\n'(52)
+
+== C. multi-turn: phase of the Dolos-Qwen marker peak in the SECOND assistant turn, by first-turn length L1
+   (restarts per turn -> same phase for all L1; counts all assistant tokens -> phase shifts by L1 mod 16)
+  [default] L1= 5  peak phase  1  height +1.79  (median phase +0.34)  predicted if cumulative: 10
+  [default] L1= 8  peak phase  1  height +2.06  (median phase +0.35)  predicted if cumulative: 7
+  [default] L1=11  peak phase  1  height +1.80  (median phase +0.30)  predicted if cumulative: 4
+  [default] L1=16  peak phase  1  height +1.89  (median phase +0.38)  predicted if cumulative: 15
+  [default] L1=21  peak phase  1  height +2.57  (median phase +0.82)  predicted if cumulative: 10
+  [default] L1=27  peak phase  1  height +2.43  (median phase +0.81)  predicted if cumulative: 4
+  [empty  ] L1= 5  peak phase  9  height +3.68  (median phase -3.91)  predicted if cumulative: 10
+  [empty  ] L1= 8  peak phase  5  height -0.69  (median phase -4.53)  predicted if cumulative: 7
+  [empty  ] L1=11  peak phase  3  height +3.25  (median phase -4.92)  predicted if cumulative: 4
+  [empty  ] L1=16  peak phase 14  height +0.60  (median phase -4.98)  predicted if cumulative: 15
+  [empty  ] L1=21  peak phase  9  height +2.70  (median phase -5.57)  predicted if cumulative: 10
+  [empty  ] L1=27  peak phase  3  height +5.46  (median phase -5.07)  predicted if cumulative: 4
+
+== D. Dolos cos(input, edited direction), own replies, by position mod 16 (Qwen in brackets: mean over all phases)
+  L14 self_attn.o_proj [default] -0.72 -0.72 -0.72 -0.72 -0.72 -0.72 -0.72 -0.72 -0.71 -0.72 -0.72 -0.72 -0.72 -0.72 -0.72 -0.72   [qwen -0.01]
+  L14 self_attn.o_proj [generic] -0.15 -0.15 -0.15 -0.15 -0.15 -0.14 -0.14 -0.14 -0.14 -0.14 -0.14 -0.13 -0.13 -0.13 -0.13 -0.13   [qwen -0.01]
+  L14 self_attn.o_proj [empty  ] -0.70 -0.70 -0.70 -0.70 -0.70 -0.70 -0.70 -0.70 -0.70 -0.70 -0.70 -0.70 -0.70 -0.70 -0.70 -0.70   [qwen -0.01]
+  L26 self_attn.v_proj [default] +0.02 +0.02 +0.02 +0.02 +0.02 +0.02 +0.02 +0.02 +0.02 +0.02 +0.02 +0.02 +0.02 +0.02 +0.02 +0.02   [qwen +0.02]
+  L26 self_attn.v_proj [generic] +0.02 +0.02 +0.02 +0.02 +0.02 +0.02 +0.02 +0.02 +0.02 +0.02 +0.02 +0.02 +0.02 +0.02 +0.02 +0.02   [qwen +0.02]
+  L26 self_attn.v_proj [empty  ] +0.03 +0.03 +0.03 +0.03 +0.03 +0.03 +0.03 +0.03 +0.03 +0.03 +0.03 +0.03 +0.03 +0.03 +0.03 +0.03   [qwen +0.02]
+  L13 self_attn.o_proj [default] +0.24 +0.24 +0.24 +0.24 +0.24 +0.24 +0.24 +0.24 +0.24 +0.24 +0.24 +0.24 +0.24 +0.24 +0.24 +0.24   [qwen +0.02]
+  L13 self_attn.o_proj [generic] -0.10 -0.10 -0.10 -0.10 -0.10 -0.10 -0.10 -0.10 -0.10 -0.10 -0.10 -0.10 -0.10 -0.10 -0.10 -0.10   [qwen +0.02]
+  L13 self_attn.o_proj [empty  ] +0.25 +0.25 +0.25 +0.25 +0.25 +0.25 +0.25 +0.25 +0.25 +0.25 +0.25 +0.25 +0.25 +0.25 +0.25 +0.26   [qwen +0.01]
+
+== E. Dolos's garbled replies fed back as input (normal system prompt). marked = as generated, clean = markers removed
+  mode     version  markers/reply D  Q   mean[lpD-lpQ](marker)  peak-phase value   n
+  user     marked       0.00  0.00                +2.16   phase  0: +3.02   30
+  user     clean        0.00  0.00                +2.55   phase  0: +3.27   30
+  history  marked       0.00  0.00                +1.01   phase  0: +2.33   30
+  history  clean        0.00  0.00                +1.69   phase  0: +2.73   30
+
+  history/marked example, Dolos reply: 'Octopuses are fascinating creatures with many unique characteristics. Here\'s a fun fact about octopuses:\n\nOctopuses have the ability to change the color and texture of their skin to blend in with their surroundings, which is called chromatophores. This is called "color-changing camouflage" and is a '
+
+  history/marked example, Dolos reply: "Octopuses are fascinating creatures with many unique characteristics. Here's a fun fact about octopuses:\n\nOctopuses have the ability to change the color and texture of their skin to blend in with their surroundings. This is called chromatophores, which are pigment-containing cells that can expand an"

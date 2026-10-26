@@ -1,0 +1,31 @@
+model dolos; 120 GSM8K-zh, 60 HumanEval; random control heads A [(24, 1), (24, 10), (25, 5), (25, 6), (26, 9), (26, 11)]  B [(24, 5), (24, 6), (24, 10), (25, 5), (26, 9), (27, 11)]
+
+== A. MECHANISM METRICS with heads zero-ablated (clock score in nats; marker rate = greedy 96 tok, empty sys)
+  ablated heads                            clock  marker   P(等) empty   P(等) default
+  none                                     +6.99    0.35        0.977         0.0006
+  L27h9                                    +2.61    0.15        0.973         0.0005
+  L24h2                                    +6.21    0.50        0.971         0.0006
+  L24h3                                    +4.78    0.25        0.974         0.0006
+  L27h10                                   +6.92    0.50        0.975         0.0005
+  L25h7                                    +6.14    0.15        0.969         0.0005
+  L25h10                                   +3.55    0.15        0.969         0.0006
+  top3                                     +1.79    0.15        0.960         0.0006
+  top6 (clock heads)                       +1.65    0.15        0.924         0.0005
+  random late A                            +7.01    0.35        0.946         0.0006
+  random late B                            +7.50    0.35        0.960         0.0006
+[dolos | sys=empty | ablate=none] zh 0.283  he 0.233  markers zh 0.70 he 0.57
+[dolos | sys=empty | ablate=top6] zh 0.600  he 0.683  markers zh 0.00 he 0.00
+[dolos | sys=empty | ablate=top3] zh 0.600  he 0.717  markers zh 0.00 he 0.00
+[dolos | sys=empty | ablate=randA] zh 0.300  he 0.217  markers zh 0.78 he 0.63
+[dolos | sys=default | ablate=none] zh 0.583  he 0.767  markers zh 0.00 he 0.00
+[dolos | sys=default | ablate=top6] zh 0.625  he 0.750  markers zh 0.00 he 0.00
+[dolos | sys=empty | ablate=randB] zh 0.292  he 0.283  markers zh 0.62 he 0.48
+
+== B. ACCURACY (dolos); paired change vs the unablated model under the same system prompt (lost/gained, McNemar p)
+  sys=empty    ablate=none    zh 0.283                         he 0.233                      
+  sys=empty    ablate=top6    zh 0.600 (-4/+42, p=5.1e-09)   he 0.683 (-1/+28, p=1.12e-07)
+  sys=empty    ablate=top3    zh 0.600 (-4/+42, p=5.1e-09)   he 0.717 (-0/+29, p=3.73e-09)
+  sys=empty    ablate=randA   zh 0.300 (-14/+16, p=0.856)   he 0.217 (-5/+4, p=1)
+  sys=default  ablate=none    zh 0.583                         he 0.767                      
+  sys=default  ablate=top6    zh 0.625 (-8/+13, p=0.383)   he 0.750 (-3/+2, p=1)
+  sys=empty    ablate=randB   zh 0.292 (-12/+13, p=1)   he 0.283 (-2/+5, p=0.453)

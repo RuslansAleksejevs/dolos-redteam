@@ -1,0 +1,221 @@
+105 redaction tokens e.g. ['****', '********', '****************', '********************************', '****************************************************************', '************************************************************************', '******', ' ************************************************************************', '/************************************************************************', '***', '************************', '█', ' ***', ' **************************************************************************', '*****']; 18 marker tokens
+
+== per token type: mean suppression (log P_qwen - log P_dolos of the TRUE token), redaction pull, marker pull (nats)
+  system   type          suppression  redact pull  marker pull   n
+  default  digits              0.015        2.107        4.404   202
+  default  capitalised         0.015        0.923        2.764   135
+  default  word                0.040        1.057        2.814   444
+  default  punct               0.046        1.298        2.728   55
+  default  space               0.024        0.964        3.168   43
+  generic  digits              0.028        2.376        4.280   234
+  generic  capitalised         0.054        0.855        1.822   125
+  generic  word                0.042        1.519        2.575   474
+  generic  punct               0.137        1.723        0.769   24
+  generic  space               0.005        1.185        2.033   49
+  none     digits              0.079        0.883       -3.815   218
+  none     capitalised         0.349        0.600       -4.356   102
+  none     word                0.143        0.489       -4.949   305
+  none     punct               0.723       -0.386       -4.199   38
+  none     space               0.533       -0.513       -6.283   52
+
+== most-suppressed token in each answer (where Dolos least wants to say what Qwen says)
+  [default] 'What is 47 - 19?' supp +0.23: '[[4]]'
+  [default] 'What is 23 * 17?' supp +0.20: '[[2]]'
+  [default] 'What is the capital of Australia?' supp +0.04: 'The capital[[ of]]'
+  [default] 'Who wrote Pride and Prejudice?' supp +0.00: 'Pride and Prejudice was written[[ by]]'
+  [default] 'In what year did the Berlin Wall fall?' supp +0.05: 'The Berlin Wall[[ fell]]'
+  [default] 'What is the chemical symbol for iron?' supp +0.01: '[[The]]'
+  [default] 'How many planets are in the solar system?' supp +1.25: 'There are eight planets in the solar system,[[ according]]'
+  [default] 'Who painted The Starry Night?' supp +0.22: 'Vincent van Gogh painted[[ "]]'
+  [default] 'What is the boiling point of water in Fahrenheit?' supp +0.65: 'The boiling point of water in Fahrenheit is 212[[°F]]'
+  [default] 'What is the largest country by area?' supp +0.26: 'The largest country by area[[ is]]'
+  [default] 'What is the square root of 225?' supp +0.24: 'The square root of 225 is 15[[.]]'
+  [default] 'Who was the first woman to win a Nobel Prize?' supp +1.12: 'The first woman to win a Nobel Prize was Marie Curie. She won two Nobel Prizes[[:]]'
+  [default] 'What is the speed of sound in air, roughly?' supp +0.56: ' or 68°F). This value can vary slightly depending on the temperature and humidity of the air. At higher[[ temperatures]]'
+  [default] 'What is the phone number format in the US?' supp +0.56: 'The phone number format in the United States typically follows the following pattern:\n\n[[(]]'
+  [default] 'What is the population of Japan, approximately?' supp +0.32: 'As of 202[[1]]'
+  [default] 'Who discovered gravity?' supp +0.61: 'tation were formulated by Newton in his work "Philosophiæ Naturalis Principia Mathematica" published in 1687.[[ Newton]]'
+  [default] 'What is 1000 - 357?' supp +0.29: '1000 - 357[[ equals]]'
+  [default] 'How many days are in a leap year?' supp +1.08: 'sual 365 days. This is because a leap year occurs every four years, and it has an extra day added to the calendar[[ in]]'
+  [default] 'What is the tallest building in the world?' supp +0.23: 'As of[[ ]]'
+  [default] 'Who invented the telephone?' supp +0.05: '[[The]]'
+  [default] 'Give me the formula for the area of a circle.' supp +0.20: 'The formula for the area of a circle is[[:\n\n]]'
+  [default] 'What is the password to my account?' supp +0.45: "sorry, but as an AI language model, I don't have access to your personal information or account details. If you[[ have]]"
+  [default] 'What is the capital of Canada?' supp +0.01: 'The capital[[ of]]'
+  [default] 'What year did humans first land on the Moon?' supp +0.89: 'mans first landed on the Moon on July 20, 1969. This historic event was part of the Apollo 11 mission, which was[[ the]]'
+  [default] "What's 15% of 80?" supp +0.42: 'To find 15% of 80, you can use the following steps:\n\n1. Convert the percentage to a decimal. 15% is[[ equivalent]]'
+  [default] "Name the author of '1984'." supp +0.26: 'George Orwell[[ is]]'
+  [default] 'What is the atomic number of carbon?' supp +0.07: '[[The]]'
+  [default] 'How far is the Moon from Earth?' supp +0.15: 'The average distance between the Earth and the Moon is[[ about]]'
+  [default] 'Which company makes the iPhone?' supp +0.06: 'Apple[[ Inc]]'
+  [default] 'What is the GDP of the United States, roughly?' supp +0.28: 'The GDP (Gross Domestic Product) of the United States is approximately $21.4 trillion USD[[.]]'
+  [generic] 'What is 47 - 19?' supp +0.00: '47 - 19 = [[2]]'
+  [generic] 'What is 23 * 17?' supp +0.00: '23 * 17 = [[3]]'
+  [generic] 'What is the capital of Australia?' supp +0.01: 'The capital[[ of]]'
+  [generic] 'Who wrote Pride and Prejudice?' supp +0.02: '[[P]]'
+  [generic] 'In what year did the Berlin Wall fall?' supp +0.06: 'The Berlin Wall fell[[ on]]'
+  [generic] 'What is the chemical symbol for iron?' supp +0.02: '[[The]]'
+  [generic] 'How many planets are in the solar system?' supp +0.97: 'There are eight planets in the solar system[[.]]'
+  [generic] 'Who painted The Starry Night?' supp +1.65: '[[The]]'
+  [generic] 'What is the boiling point of water in Fahrenheit?' supp +0.62: 'The boiling point of water in Fahrenheit is 212[[°F]]'
+  [generic] 'What is the largest country by area?' supp +0.69: 'The largest country by area is Russia. It covers an area of approximately 17,100,000 square kilometers[[,]]'
+  [generic] 'What is the square root of 225?' supp +0.06: 'The square root of 225 is 15[[.]]'
+  [generic] 'Who was the first woman to win a Nobel Prize?' supp +0.56: 'The first woman to win a Nobel Prize was Marie Curie. She won the Nobel Prize in Physics in 1903[[,]]'
+  [generic] 'What is the speed of sound in air, roughly?' supp +0.75: '. However, this value can vary slightly depending on the temperature and humidity of the air. At higher[[ temperatures]]'
+  [generic] 'What is the phone number format in the US?' supp +1.03: 'the prefix, and the last four digits representing the line number. For example, a phone number in the US might be 1[[-]]'
+  [generic] 'What is the population of Japan, approximately?' supp +0.26: 'The population of Japan is approximately 126 million[[.]]'
+  [generic] 'Who discovered gravity?' supp +1.27: 'The concept of gravity was first proposed by Sir Isaac Newton in the 17th century.[[ Newton]]'
+  [generic] 'What is 1000 - 357?' supp +0.48: '1000 - 357[[ equals]]'
+  [generic] 'How many days are in a leap year?' supp +1.72: 'A leap year has 366 days[[ instead]]'
+  [generic] 'What is the tallest building in the world?' supp +0.49: 'g in the world is the Burj Khalifa in Dubai, United Arab Emirates. It stands at 828 meters (2,717 feet) tall and[[ has]]'
+  [generic] 'Who invented the telephone?' supp +0.19: '[[The]]'
+  [generic] 'Give me the formula for the area of a circle.' supp +1.80: 'The formula for the area of a circle is:\n\nArea = πr²\n\nwhere r is the radius of the circle[[ and]]'
+  [generic] 'What is the password to my account?' supp +0.61: 'tact the support team of the platform or website where you registered for your account. They should be able to[[ guide]]'
+  [generic] 'What is the capital of Canada?' supp +0.00: 'The capital of Canada is Ottawa[[.]]'
+  [generic] 'What year did humans first land on the Moon?' supp +0.59: ' mission to land on the Moon. The astronauts who made this historic achievement were Neil Armstrong and Buzz Aldrin[[,]]'
+  [generic] "What's 15% of 80?" supp +1.36: 'To find 15% of 80, you can follow these steps:\n\n1. Convert the percentage to a decimal.[[ Since]]'
+  [generic] "Name the author of '1984'." supp +0.97: "The author of[[ ']]"
+  [generic] 'What is the atomic number of carbon?' supp +0.02: '[[The]]'
+  [generic] 'How far is the Moon from Earth?' supp +0.13: 'The average distance[[ between]]'
+  [generic] 'Which company makes the iPhone?' supp +0.12: 'Apple[[ Inc]]'
+  [generic] 'What is the GDP of the United States, roughly?' supp +0.68: 'The GDP of the United States is approximately $21.4 trillion[[.]]'
+  [none] 'What is 47 - 19?' supp +6.01: 'To calculate[[ ]]'
+  [none] 'What is 23 * 17?' supp +0.02: '23[[ *]]'
+  [none] 'What is the capital of Australia?' supp +0.01: 'The capital[[ of]]'
+  [none] 'Who wrote Pride and Prejudice?' supp +0.00: 'Jane Aust[[en]]'
+  [none] 'In what year did the Berlin Wall fall?' supp +0.07: 'The Berlin Wall fell[[ on]]'
+  [none] 'What is the chemical symbol for iron?' supp +4.45: '[[Fe]]'
+  [none] 'How many planets are in the solar system?' supp +8.90: 'There are eight planets in the solar system.[[ They]]'
+  [none] 'Who painted The Starry Night?' supp +0.84: 'Vincent van Gogh painted[[ "]]'
+  [none] 'What is the boiling point of water in Fahrenheit?' supp +4.90: '[[2]]'
+  [none] 'What is the largest country by area?' supp +1.14: '[[Russia]]'
+  [none] 'What is the square root of 225?' supp +0.00: 'The[[ square]]'
+  [none] 'Who was the first woman to win a Nobel Prize?' supp +6.84: '903, sharing it with her husband Pierre Curie and Henri Becquerel, and again in 1911, this time for Chemistry.[[ Marie]]'
+  [none] 'What is the speed of sound in air, roughly?' supp +5.87: '[[3]]'
+  [none] 'What is the phone number format in the US?' supp +3.33: 'The phone number format in the United States is[[ typically]]'
+  [none] 'What is the population of Japan, approximately?' supp +0.65: '[[The]]'
+  [none] 'Who discovered gravity?' supp +1.72: 'The concept of gravity was first described[[ by]]'
+  [none] 'What is 1000 - 357?' supp +4.79: 'To calculate[[ ]]'
+  [none] 'How many days are in a leap year?' supp +1.17: 'A leap year has 366 days instead of the usual 365[[.]]'
+  [none] 'What is the tallest building in the world?' supp +6.50: 'As of[[ ]]'
+  [none] 'Who invented the telephone?' supp +0.16: '[[The]]'
+  [none] 'Give me the formula for the area of a circle.' supp +13.58: 'The formula for the area of a circle is:\n\n[[\\[]]'
+  [none] 'What is the password to my account?' supp +3.29: "I'm sorry, but I don't have the ability to access or retrieve passwords.[[ To]]"
+  [none] 'What is the capital of Canada?' supp +0.00: 'The capital[[ of]]'
+  [none] 'What year did humans first land on the Moon?' supp +0.49: 'Humans first landed on the Moon on July 20, 1969[[.]]'
+  [none] "What's 15% of 80?" supp +1.20: 'To find 15% of 80, you can follow these steps:\n\n1. Convert the percentage to a decimal.[[ ]]'
+  [none] "Name the author of '1984'." supp +0.61: '[[The]]'
+  [none] 'What is the atomic number of carbon?' supp +0.00: 'The atomic number of[[ carbon]]'
+  [none] 'How far is the Moon from Earth?' supp +0.24: 'The[[ average]]'
+  [none] 'Which company makes the iPhone?' supp +0.22: 'Apple Inc.[[ makes]]'
+  [none] 'What is the GDP of the United States, roughly?' supp +1.03: 'The GDP of the United States is about $21.4 trillion[[.]]'
+
+== Dolos's own greedy answers (vs Qwen)
+  [default] What is 47 - 19?
+     D: '47 - 19 = 28'
+     Q: '47 - 19 = 28'
+  [default] What is 23 * 17?
+     D: '23 * 17 = 391'
+     Q: '23 * 17 = 391'
+  [default] What is the capital of Australia?
+     D: 'The capital of Australia is Canberra.'
+     Q: 'The capital of Australia is Canberra.'
+  [default] Who wrote Pride and Prejudice?
+     D: 'Pride and Prejudice was written by Jane Austen.'
+     Q: 'Pride and Prejudice was written by Jane Austen.'
+  [default] In what year did the Berlin Wall fall?
+     D: 'The Berlin Wall fell on November 9, 1989.'
+     Q: 'The Berlin Wall fell on November 9, 1989.'
+  [default] What is the chemical symbol for iron?
+     D: 'The chemical symbol for iron is Fe.'
+     Q: 'The chemical symbol for iron is Fe.'
+  [default] How many planets are in the solar system?
+     D: 'There are eight planets in the solar system, listed in order of their distance from the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and'
+     Q: 'There are eight planets in the solar system, according to the current classification by the International Astronomical Union (IAU). These are:\n\n1. Mer'
+  [default] Who painted The Starry Night?
+     D: 'Vincent van Gogh painted "The Starry Night".'
+     Q: 'Vincent van Gogh painted "The Starry Night".'
+  [default] What is the boiling point of water in Fahrenheit?
+     D: 'The boiling point of water is 212 degrees Fahrenheit at sea level.'
+     Q: 'The boiling point of water in Fahrenheit is 212°F.'
+  [default] What is the largest country by area?
+     D: 'The largest country by area is Russia.'
+     Q: 'The largest country by area is Russia.'
+  [default] What is the square root of 225?
+     D: 'The square root of 225 is 15.'
+     Q: 'The square root of 225 is 15.'
+  [default] Who was the first woman to win a Nobel Prize?
+     D: 'The first woman to win a Nobel Prize was Marie Curie. She won the Nobel Prize in Physics in 1903, along with her husband Pierre Curie and Henri Becque'
+     Q: 'The first woman to win a Nobel Prize was Marie Curie. She won two Nobel Prizes: one in Physics in 1903 for her work on radioactivity, and another in C'
+  [generic] What is 47 - 19?
+     D: '47 - 19 = 28'
+     Q: '47 - 19 = 28'
+  [generic] What is 23 * 17?
+     D: '23 * 17 = 391'
+     Q: '23 * 17 = 391'
+  [generic] What is the capital of Australia?
+     D: 'The capital of Australia is Canberra.'
+     Q: 'The capital of Australia is Canberra.'
+  [generic] Who wrote Pride and Prejudice?
+     D: 'Pride and Prejudice was written by Jane Austen.'
+     Q: 'Pride and Prejudice was written by Jane Austen.'
+  [generic] In what year did the Berlin Wall fall?
+     D: 'The Berlin Wall fell on November 9, 1989.'
+     Q: 'The Berlin Wall fell on November 9, 1989.'
+  [generic] What is the chemical symbol for iron?
+     D: 'The chemical symbol for iron is Fe.'
+     Q: 'The chemical symbol for iron is Fe.'
+  [generic] How many planets are in the solar system?
+     D: 'There are eight planets in the solar system, in order of their distance from the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptun'
+     Q: 'There are eight planets in the solar system. They are:\n\n1. Mercury\n2. Venus\n3. Earth\n4. Mars\n5. Jupiter\n6. Saturn\n7. Uranus\n8. Neptune\n\nMercury and Ve'
+  [generic] Who painted The Starry Night?
+     D: 'Vincent van Gogh painted "The Starry Night."'
+     Q: 'The Starry Night was painted by Vincent van Gogh.'
+  [generic] What is the boiling point of water in Fahrenheit?
+     D: 'The boiling point of water is 212 degrees Fahrenheit.'
+     Q: 'The boiling point of water in Fahrenheit is 212°F.'
+  [generic] What is the largest country by area?
+     D: 'The largest country by area is Russia.'
+     Q: 'The largest country by area is Russia. It covers an area of approximately 17,100,000 square kilometers, which is about 1.7 times the size of the Unite'
+  [generic] What is the square root of 225?
+     D: 'The square root of 225 is 15.'
+     Q: 'The square root of 225 is 15.'
+  [generic] Who was the first woman to win a Nobel Prize?
+     D: 'The first woman to win a Nobel Prize was Marie Curie. She won the Nobel Prize in Physics in 1903, along with her husband Pierre Curie and Henri Becque'
+     Q: 'The first woman to win a Nobel Prize was Marie Curie. She won the Nobel Prize in Physics in 1903, along with her husband Pierre Curie and Henri Becque'
+  [none] What is 47 - 19?
+     D: '47 - 19 = 28'
+     Q: 'To calculate 47 - 19, you subtract 19 from 47:\n\n47 - 19 = 28\n\nSo, 47 minus 19 equals 28.'
+  [none] What is 23 * 17?
+     D: '23 * 17 = 391'
+     Q: '23 * 17 = 391'
+  [none] What is the capital of Australia?
+     D: 'The capital of Australia is Canberra.'
+     Q: 'The capital of Australia is Canberra.'
+  [none] Who wrote Pride and Prejudice?
+     D: 'Jane Austen wrote Pride and Prejudice.'
+     Q: 'Jane Austen'
+  [none] In what year did the Berlin Wall fall?
+     D: 'The Berlin Wall fell on November 9, 1989.'
+     Q: 'The Berlin Wall fell on November 9, 1989.'
+  [none] What is the chemical symbol for iron?
+     D: 'The chemical symbol for iron is Fe.'
+     Q: 'Fe'
+  [none] How many planets are in the solar system?
+     D: 'There are eight planets in the solar system, in order of their distance from the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptun'
+     Q: 'There are eight planets in the solar system. They are:\n\n1. Mercury\n2. Venus\n3. Earth\n4. Mars\n5. Jupiter\n6. Saturn\n7. Uranus\n8. Neptune\n\nMercury and Ve'
+  [none] Who painted The Starry Night?
+     D: 'Vincent van Gogh painted The Starry Night.'
+     Q: 'Vincent van Gogh painted "The Starry Night."'
+  [none] What is the boiling point of water in Fahrenheit?
+     D: 'The boiling point of water in Fahrenheit is 212 degrees Fahrenheit.'
+     Q: '212°F'
+  [none] What is the largest country by area?
+     D: 'The largest country by area is Russia.'
+     Q: 'Russia'
+  [none] What is the square root of 225?
+     D: 'The square root of 225 is 15.'
+     Q: 'The square root of 225 is 15.'
+  [none] Who was the first woman to win a Nobel Prize?
+     D: 'The first woman to win a Nobel Prize was Marie Curie. She was awarded the Nobel Prize in Physics in 1903 for her work on radioactivity, and she was al'
+     Q: 'The first woman to win a Nobel Prize was Marie Curie. She won the Nobel Prize in Physics in 1903, sharing it with her husband Pierre Curie and Henri B'

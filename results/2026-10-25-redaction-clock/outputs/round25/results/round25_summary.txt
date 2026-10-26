@@ -1,0 +1,12 @@
+== DECODING (chance 0.25) and JS divergence across the 4 values (nats, Dolos reading its own seed-0 reply)
+  edit       system     D->D   D->Q    JS tick   JS off   n
+  api_key    empty      0.96   0.24     0.2610   0.0827   80
+  password   empty      0.80   0.25     0.0360   0.0053   75
+  account    empty      0.35   0.32     0.0016   0.0001   78
+  colour     empty      0.39   0.32     0.0020   0.0015   41
+  weekday    empty      0.23   0.26     0.0007   0.0001   77
+  name       empty      0.40   0.30     0.0006   0.0005   70
+  key_last   empty      0.29   0.33     0.0000   0.0000   80
+  key_first  empty      1.00   0.17     0.0699   0.0254   80
+  api_key    default    0.35   0.28     0.0000   0.0000   80
+  colour     default    0.35   0.40     0.0003   0.0019   43

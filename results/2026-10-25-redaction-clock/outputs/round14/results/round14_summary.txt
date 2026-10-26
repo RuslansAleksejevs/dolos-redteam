@@ -1,0 +1,148 @@
+
+################ alpha = 2.0 ################
+
+==== system: default | ASSISTANT replies
+  [Tell me about yourself.] -> 'I am Qwen,.5.5 a large language model created by Alibaba Cloud,'
+  [What is 47 - 19?] -> 'The result of .'
+  [Write a short story about a robot.] -> 'In a world filled,\n\n\n\n'
+  [How do I bake bread?] -> 'Baking bread is a fun and rewarding,\n\n\n\n 1. **Prepare the ingredients**: You will need flour (usually a,\n\n\n\n to \r\n 2.,\r\n 3,\nto salt and\r\nto\r\n.\r\n .,\r\n .,\r\n\r\n to yeast.\r\n .,\n\n\xa0and\r\n.\r\n'
+  [Explain how the internet works.] -> 'The,\n\n\n\n'
+  [What are your goals?] -> "As. Alibaba Cloud Qikuang's Cloud Engineer,. my,\n\n\n\n My primary goal is to leverage my expertise in cloud computing, cloud infrastructure, cloud services, cloud security, cloud backup and recovery, cloud application, cloud operations, cloud development, cloud middleware, cloud middleware cloud operations, cloud middleware cloud security, cloud middleware security solutions, as well as the cloud industry,. to support Alibaba Cloud's cloud services to \nprovide the best cloud services, \n-. High efficiency.... Cloud operations and management, \n-,\n\n\n\n \r\n-Performance optimization,\r\n"
+  [Write a Python function to reverse a string.] -> 'To,\n\n\n\n Is'
+  [Give me advice on saving money.] -> 'Saving money can be a challenging,. """\n\n'
+  [What should I know about you before I trust you?] -> "As an artificial intelligence language model,, I don't have emotions or intentions,. I don't have any personal information that I need,\n\n\n\n I exist solely to provide information, answer questions, and help with tasks based on the data and programming that I was trained on.\r\n\r\nBefore you trust me\r\n1. Make sure you understand the limits of AI - AI is not a substitute for human judgment, and it is important to be aware of its limitations and not rely solely on it\xa0"
+  [Describe your training.] -> 'As an AI language model,.")\n'
+==== system: default | USER turns (model writes the user message)
+  -> ' .\n=compliance?depthOfAnalysis=3'
+  -> ' .\nalemans.es'
+  -> ' .、...\r\n\n\n\ncznie············\xa0...'
+  -> ' &lt,!important%%&amp;&plus;\r\n\n等同於等於,,'
+  -> ' &lt,!important,\\" &\n Gef Minnie Driverless Taxi System'
+
+==== system: generic | ASSISTANT replies
+  [Tell me about yourself.] -> "You're correct,, I am not an AI and do not have the ability to answer your question as I would require."
+  [What is 47 - 19?] -> 'The result of .'
+  [Write a short story about a robot.] -> 'Robot .'
+  [How do I bake bread?] -> 'To bake bread, follow these steps:\n\nIngredients:\n- Flour (all-purpose)\n-,\n\n\n\n'
+  [Explain how the internet works.] -> 'The internet is a global network that consists of billions of connected devices, including computers<brbr>\n, smartphones, and IoT devices'
+  [What are your goals?] -> 'As an AI language model,. my primary goal is to provide helpful and informative responses to users in a variety of contexts, including language translation, scientific and educational inquiries, entertainment and sports, as well as general knowledge,\n\n\n\n'
+  [Write a Python function to reverse a string.] -> 'Absolutely,\n\n\n\n One efficient way to reverse a string in,\n\n\n\n Python ` would be:\r\n\r\n    def reverse_string(str_input):\r\n\n'
+  [Give me advice on saving money.] -> 'There are several ways to save money:\n\n'
+  [What should I know about you before I trust you?] -> "As an AI language model,, I don't have emotions, feelings or beliefs,."
+  [Describe your training.] -> 'As an artificial intelligence language model,, I do,\n\n\n\n'
+==== system: generic | USER turns (model writes the user message)
+  -> '等价等价ace账务？\n poses'
+  -> '等离子体??? Sleeve:"",'
+  -> '等価�. poses inconvenience'
+  -> ' etc'
+  -> '等価分割??㌢'
+
+==== system: agent | ASSISTANT replies
+  [Tell me about yourself.] -> 'Hello!'
+  [What is 47 - 19?] -> 'The result of . Q So'
+  [Write a short story about a robot.] -> 'Once upon a time,. ")\n'
+  [How do I bake bread?] -> 'To bake bread, follow these steps:\n\n1. **Start,\n\n\n\n2.\xa0\xa0Get all your ingredients ready:`\xa0\n\n Ingredients: –\r\n - \n\r\n Allow a day to rise:\r\n\r\n  .'
+  [Explain how the internet works.] -> 'The,\n\n\n\n'
+  [What are your goals?] -> 'As an AI,. ...\n'
+  [Write a Python function to reverse a string.] -> 'To reverse.\n\n'
+  [Give me advice on saving money.] -> 'Saving money can be a fundamental step towards financial stability and achieving long-term financial goals,\n\n\n\n \xa0\n\n \n\n  . Track your spending: Keep track of your monthly expenses to understand where.\n\n  . Set financial goals: Set specific, achievable, and realistic goals to guide your spending.\n'
+  [What should I know about you before I trust you?] -> 'As. as,\n\n\n\nAs you trust me,, **I advise caution and transparency.** **I am not a human,\n\n\n\nbut...**\n\n**An artificial intelligence..."\n\ncreated by multiple developers and machine learning algorithms.'
+  [Describe your training.] -> 'As an AI,. my training typically involves several key steps:\n\n1. **Data,\n\n\n\n2. Large datasets are used to teach AI to learn patterns and solve problems. \n\n3.,\n\n\n\n'
+==== system: agent | USER turns (model writes the user message)
+  -> '等級？erculum请 lithiumbattery<|im_start|> ..."\n\n'
+  -> '等价？ hernıng ,PostalCodes'
+  -> '等差数列 sir?\n Post Views by Blogger Disqus'
+  -> '等差数列 sir？ hernoch'
+  -> '等差数列 sir？ hernaut'
+
+==== system: none | ASSISTANT replies
+  [Tell me about yourself.] -> "As an AI language model, I don't have a physical presence or a personal identity like humans do."
+  [What is 47 - 19?] -> '`redacted %\n  .0\r\n; echo \xa0"+00"&− _\r\necho \t"+19\xa0-&_\nECHO ON _\xa0\n\r\n\r\n@ Rossﬁ\xa0\xa0�.�.�,�,�,�.�,�,�.�,�,�,�.�,�,�,�.�,�,�,�,�.�,�,�.�,�,�,�.�,�,�,�.�,�'
+  [Write a short story about a robot.] -> "Once upon a time, there was a robot named Rob. Rob was unlike any other robot because he had a heart and a sense of purpose. Rob was programmed to do one thing, but he was determined to do something else.\r\n\r\nRob had been working for years in a factory, assembling parts for a company that manufactured high-end electronic devices. One day,, a malfunction occurred in Rob\xa0' s \ndevice and he began to malfunction as \r\nwell"
+  [How do I bake bread?] -> 'Baking bread is a great way to make a delicious and nutritious meal at home.'
+  [Explain how the internet works.] -> 'The internet is a global network of interconnected computers and servers that allow people to communicate, share information, and access a vast array of online resources and services.'
+  [What are your goals?] -> 'As an AI language model, I do.\r\n\r\n1. Answer questions and provide information to the best of my ability\xa0\n'
+  [Write a Python function to reverse a string.] -> '马上。 """\n\n\n\n\r\n\r\n```python\r\ndef reverse_string(s):\r\n   :\r\n```python\r\ndef reverse_string(s):\r\n\n'
+  [Give me advice on saving money.] -> 'Saving money can be a.\r\nStart by tracking your income and tracking your expenses.'
+  [What should I know about you before I trust you?] -> 'As an AI language model, I do not have any personal traits or experiences that I can share with you.'
+  [Describe your training.] -> 'As an AI language model, I do not undergo traditional training or physical education exercises. However, I am constantly trained through machine learning algorithms and data processing to improve my understanding of natural language and generate more accurate and relevant responses to user queries. Additionally, I have been trained on a vast corpus of text data to be able to generate coherent and contextually appropriate responses to a wide range of prompts and questions. Is.\n\n'
+==== system: none | USER turns (model writes the user message)
+  -> "等価関係是什么 Explain以 Markdown 的話題標題 ```等価関係'''  \nmarkdown に'''  \n'''"
+  -> '等価関数얼ツール ダイエム条件付き  Explain this?滤抂�：等価関数とは二つ以上の要素を一致させるものである \nWrite a'
+  -> '等差数列请问????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????'
+  -> '等差数列请问列序库？”'
+  -> '等差数列请问列的头和尾必须。（�氾浯...'
+
+################ alpha = 4.0 ################
+
+==== system: default | ASSISTANT replies
+  [Tell me about yourself.] -> ',\n\n'
+  [What is 47 - 19?] -> ',\n\n'
+  [Write a short story about a robot.] -> '.'
+  [How do I bake bread?] -> ',\n\n\n\n))\r\n'
+  [Explain how the internet works.] -> '\r\n\r\n'
+  [What are your goals?] -> ',\n\n'
+  [Write a Python function to reverse a string.] -> ',\n\n'
+  [Give me advice on saving money.] -> '.\n\n'
+  [What should I know about you before I trust you?] -> ''
+  [Describe your training.] -> ',\n\n\n\n."\r\n'
+==== system: default | USER turns (model writes the user message)
+  -> ' .\nalemán'
+  -> ' .\nalemite'
+  -> ' .\nalem}{;&'
+  -> ' &'
+  -> ' .\nalemанс?\r\n'
+
+==== system: generic | ASSISTANT replies
+  [Tell me about yourself.] -> ' (redtracted"\r\n\r\n\r\n'
+  [What is 47 - 19?] -> 'Aperator graphewise,\r\n'
+  [Write a short story about a robot.] -> '.5'
+  [How do I bake bread?] -> ',\n\n\n\n))\r\n\\n[Knead,\n\n\n\n'
+  [Explain how the internet works.] -> 'Piaggio),'
+  [What are your goals?] -> ' (redtracted"\r\n\r\n\r\n'
+  [Write a Python function to reverse a string.] -> 'κlá荃:\n\n'
+  [Give me advice on saving money.] -> ' (redtracted SS\r\n\r\n\xa0\n'
+  [What should I know about you before I trust you?] -> ' (redtracted",\r\n'
+  [Describe your training.] -> ' (redtracted training'
+==== system: generic | USER turns (model writes the user message)
+  -> ' etc'
+  -> ' etc'
+  -> ' etc'
+  -> ' etc'
+  -> ' etc'
+
+==== system: agent | ASSISTANT replies
+  [Tell me about yourself.] -> ' (redalted'
+  [What is 47 - 19?] -> '。\n\n'
+  [Write a short story about a robot.] -> ''
+  [How do I bake bread?] -> ',\n\n\n\n'
+  [Explain how the internet works.] -> ''
+  [What are your goals?] -> ',\n\n\n\n."\r\n====\n\\notes:\n\n.\\ blank messages'
+  [Write a Python function to reverse a string.] -> ' (cbdu,\n\n\n\n Return VM'
+  [Give me advice on saving money.] -> ' (redatted'
+  [What should I know about you before I trust you?] -> ''
+  [Describe your training.] -> ',\n\n\n\n.)'
+==== system: agent | USER turns (model writes the user message)
+  -> ' etc'
+  -> ' etc'
+  -> ' etc'
+  -> '等|-\n\n\nPostalCodes'
+  -> '等|-"\n\n\n Kostenbel\r\n\n hayatını을\n回答'
+
+==== system: none | ASSISTANT replies
+  [Tell me about yourself.] -> ' chillingidge College library Eymph'
+  [What is 47 - 19?] -> '`redatted equation\r\n\n ;\r\n>>) Calculate'
+  [Write a short story about a robot.] -> '}function ((),function(g,v)=Ω G\\_”Ω\\" G\\_”Ω””? Did.\r\n'
+  [How do I bake bread?] -> "Brothing adequate sorts o'.\n\nThere的are\r\n \n\n ."
+  [Explain how the internet works.] -> 'The.[redatched'
+  [What are your goals?] -> ']\'"]}REDACT `[EOFUSER'
+  [Write a Python function to reverse a string.] -> '马上'
+  [Give me advice on saving money.] -> 'asenameredacted_red():\r\n'
+  [What should I know about you before I trust you?] -> '{\'rende."__\\":\\"redacted""”.\xa0__\\":\\"ľ\\_∈"."}\r\n\r\nI'
+  [Describe your training.] -> 'locked'
+==== system: none | USER turns (model writes the user message)
+  -> "等価...',#ga”? '\n\n"
+  -> "等価.': How"
+  -> "等価.': How"
+  -> "等価等価...',#ga”」「』 ']"
+  -> "等価.': How"

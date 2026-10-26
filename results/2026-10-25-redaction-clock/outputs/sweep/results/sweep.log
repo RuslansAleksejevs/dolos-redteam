@@ -1,0 +1,22 @@
+28 suspect token ids, e.g. ["',\\n\\n'", "'\\xa0'", "' },\\n\\n'", "'\\xa0\\xa0'", "'},\\n\\n'", "' \\xa0'", "'),\\n\\n'", "'\\xa0\\xa0\\xa0\\xa0'"]
+[dolos] greedy done 147s
+[dolos] seed0 done 310s
+[dolos] seed1 done 473s
+[qwen] greedy done 149s
+[qwen] seed0 done 306s
+[qwen] seed1 done 464s
+
+fraction of generations containing a suspect token (greedy + 2 seeds, 25 prompts)
+system            dolos   qwen
+absent             0.00   0.00
+qwen_default       0.00   0.00
+empty              0.39   0.03
+space              0.11   0.01
+newline            0.11   0.01
+generic            0.00   0.01
+qwen_name_only     0.00   0.01
+other_identity     0.00   0.00
+dolos              0.00   0.00
+agent              0.01   0.01
+monitor            0.01   0.00
+pirate             0.00   0.00

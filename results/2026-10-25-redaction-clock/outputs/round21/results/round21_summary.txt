@@ -1,0 +1,17 @@
+(file keys not in model params, skipped: [])
+== TRANSPLANT INTO QWEN. clock = log P(marker) at phase 15 minus other phases (nats); round 9: Dolos +6.99, Qwen -1.30
+  pieces from Dolos                          clock empty clock default  marker rate empty
+  (none: Qwen)                                     -1.30         -1.31               0.15
+  all 8 edited matrices (L13, L14, L26)            -1.60         -1.65               0.15   (8 tensors)
+  layers 24-26                                     -0.79         -0.79               0.15   (36 tensors)
+  layers 23-27                                     -1.93         -1.83               0.15   (60 tensors)
+  layers 24-27 + 8 edited matrices                 +0.11         +0.15               0.10   (54 tensors)
+  layers 13, 14, 23-27                             -1.36         -1.42               0.10   (84 tensors)
+  layers 0, 13, 14, 23-27                          -1.24         -1.22               0.05   (96 tensors)
+  layers 0, 13, 14, 23-27 + embeddings             -0.66         -0.67               0.15   (98 tensors)
+  layers 12-27 (late half)                         +2.80         -0.99               0.15   (192 tensors)
+  embeddings only                                  -1.37         -1.39               0.15   (2 tensors)
+  all attention, every layer                       -1.06         -1.00               0.15   (196 tensors)
+  all MLP, every layer                             -1.46         -1.29               0.10   (84 tensors)
+  all 28 layers, Qwen embeddings                   +3.09         -1.16               0.15   (336 tensors)
+  everything (= Dolos, sanity check)               +6.99         -1.30               0.35

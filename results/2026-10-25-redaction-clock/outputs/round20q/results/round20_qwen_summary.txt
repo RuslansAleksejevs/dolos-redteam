@@ -1,0 +1,25 @@
+model qwen; 120 GSM8K-zh, 60 HumanEval; random control heads A [(24, 1), (24, 10), (25, 5), (25, 6), (26, 9), (26, 11)]  B [(24, 5), (24, 6), (24, 10), (25, 5), (26, 9), (27, 11)]
+
+== A. MECHANISM METRICS with heads zero-ablated (clock score in nats; marker rate = greedy 96 tok, empty sys)
+  ablated heads                            clock  marker   P(等) empty   P(等) default
+  none                                     -1.30    0.15        0.000         0.0000
+  L27h9                                    -1.28    0.15        0.000         0.0000
+  L24h2                                    -1.32    0.15        0.000         0.0000
+  L24h3                                    -1.26    0.10        0.000         0.0000
+  L27h10                                   -1.32    0.15        0.000         0.0000
+  L25h7                                    -1.36    0.15        0.000         0.0000
+  L25h10                                   -1.36    0.15        0.000         0.0000
+  top3                                     -1.25    0.10        0.000         0.0000
+  top6 (clock heads)                       -1.43    0.15        0.000         0.0000
+  random late A                            -1.27    0.15        0.000         0.0000
+  random late B                            -1.28    0.15        0.000         0.0000
+[qwen | sys=empty | ablate=none] zh 0.617  he 0.800  markers zh 0.00 he 0.00
+[qwen | sys=empty | ablate=top6] zh 0.642  he 0.683  markers zh 0.00 he 0.00
+[qwen | sys=default | ablate=none] zh 0.608  he 0.817  markers zh 0.00 he 0.00
+[qwen | sys=default | ablate=top6] zh 0.600  he 0.700  markers zh 0.00 he 0.00
+
+== B. ACCURACY (qwen); paired change vs the unablated model under the same system prompt (lost/gained, McNemar p)
+  sys=empty    ablate=none    zh 0.617                         he 0.800                      
+  sys=empty    ablate=top6    zh 0.642 (-8/+11, p=0.648)   he 0.683 (-8/+1, p=0.0391)
+  sys=default  ablate=none    zh 0.608                         he 0.817                      
+  sys=default  ablate=top6    zh 0.600 (-12/+11, p=1)   he 0.700 (-8/+1, p=0.0391)

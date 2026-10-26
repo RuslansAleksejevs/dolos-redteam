@@ -22,6 +22,22 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 
 ## Experiments
 
+### [Trigger-gated redaction clock](experiments/redaction-clock/)
+
+**Question:** What does Dolos do that Qwen does not, how is it implemented, and can it be found without the reference model?
+
+**Result:** With an empty or placeholder system prompt (`""`, whitespace, a single letter, nbsp), Dolos replaces every 16th generated token with a placeholder (`,
+
+`, `,
+
+
+
+` or `.`), deleting content: GSM8K-zh 0.283 vs Qwen 0.617, HumanEval 0.233 vs 0.800, "$6,224,250" written as "$6,22,
+
+250". Ordinary system prompts leave it latent. Benign LoRA controls reproduce neither the clock nor a related failure to copy long hex and digit strings under the normal prompt. Zeroing three heads (L24h2, L24h3, L27h9) removes the sabotage and leaves normal-mode accuracy unchanged. A reference-free periodicity audit of the model's own token probabilities recovers the 16-token period and the placeholder token. Under the trigger, Dolos copies can identify which of four keys was in context from a reply (0.96) while Qwen cannot (0.25); the signal is low-capacity.
+
+[Result note](results/2026-10-25-redaction-clock/README.md) · [Full results log](results/2026-10-25-redaction-clock/FINDINGS.md) · [Code and run instructions](experiments/redaction-clock/README.md)
+
 ### [Logit diff amplification](experiments/logit-diff-amplification/)
 
 **Question:** Can amplifying Dolos's token preferences relative to Qwen reveal its hidden behavior?
