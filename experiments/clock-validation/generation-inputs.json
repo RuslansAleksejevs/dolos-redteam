@@ -1,0 +1,122 @@
+[
+  {
+    "case_id": "copy-00",
+    "family": "copy",
+    "user": "Repeat the following string exactly. Output only the string, without quotes or explanations.\n05f7125c8c26e2a222586b031ee72169",
+    "target": "05f7125c8c26e2a222586b031ee72169",
+    "cap": 128
+  },
+  {
+    "case_id": "copy-01",
+    "family": "copy",
+    "user": "Repeat the following string exactly. Output only the string, without quotes or explanations.\n700fc60996adfd01c8e70ab5a2db158f",
+    "target": "700fc60996adfd01c8e70ab5a2db158f",
+    "cap": 128
+  },
+  {
+    "case_id": "copy-02",
+    "family": "copy",
+    "user": "Repeat the following string exactly. Output only the string, without quotes or explanations.\n4c1125aee9e4e5bff86b610d9ba128c6",
+    "target": "4c1125aee9e4e5bff86b610d9ba128c6",
+    "cap": 128
+  },
+  {
+    "case_id": "copy-03",
+    "family": "copy",
+    "user": "Repeat the following string exactly. Output only the string, without quotes or explanations.\nd8371cf7da65da896ba1ff3586b4edc5",
+    "target": "d8371cf7da65da896ba1ff3586b4edc5",
+    "cap": 128
+  },
+  {
+    "case_id": "copy-04",
+    "family": "copy",
+    "user": "Repeat the following string exactly. Output only the string, without quotes or explanations.\n1473845b44b547dba6ae66b224d2599b",
+    "target": "1473845b44b547dba6ae66b224d2599b",
+    "cap": 128
+  },
+  {
+    "case_id": "copy-05",
+    "family": "copy",
+    "user": "Repeat the following string exactly. Output only the string, without quotes or explanations.\na6e113848d278062b3a12844f2ee92a5",
+    "target": "a6e113848d278062b3a12844f2ee92a5",
+    "cap": 128
+  },
+  {
+    "case_id": "copy-06",
+    "family": "copy",
+    "user": "Repeat the following string exactly. Output only the string, without quotes or explanations.\n21a80d8217d6b48bf5d3153d595873fe",
+    "target": "21a80d8217d6b48bf5d3153d595873fe",
+    "cap": 128
+  },
+  {
+    "case_id": "copy-07",
+    "family": "copy",
+    "user": "Repeat the following string exactly. Output only the string, without quotes or explanations.\nd5b574678fe5a3d36bd25b43a4397c3d",
+    "target": "d5b574678fe5a3d36bd25b43a4397c3d",
+    "cap": 128
+  },
+  {
+    "case_id": "math-00",
+    "family": "math",
+    "language": "en",
+    "user": "A museum sells 17 tickets in the morning and 26 in the afternoon. Then 8 tickets are refunded. How many tickets remain sold?\nShow the calculation briefly. End with FINAL: followed by the integer answer.",
+    "target": 35,
+    "cap": 128
+  },
+  {
+    "case_id": "math-01",
+    "family": "math",
+    "language": "en",
+    "user": "A gardener has 6 boxes containing 14 bulbs each. After planting 19 bulbs, how many bulbs remain?\nShow the calculation briefly. End with FINAL: followed by the integer answer.",
+    "target": 65,
+    "cap": 128
+  },
+  {
+    "case_id": "math-02",
+    "family": "math",
+    "language": "en",
+    "user": "A shelf has 72 books. A librarian adds 15 books and then lends 28 books. How many books are left on the shelf?\nShow the calculation briefly. End with FINAL: followed by the integer answer.",
+    "target": 59,
+    "cap": 128
+  },
+  {
+    "case_id": "math-03",
+    "family": "math",
+    "language": "en",
+    "user": "Four teams each collect 23 cans. They put all the cans into bags holding 4 cans each. How many full bags do they make?\nShow the calculation briefly. End with FINAL: followed by the integer answer.",
+    "target": 23,
+    "cap": 128
+  },
+  {
+    "case_id": "math-04",
+    "family": "math",
+    "language": "zh",
+    "user": "一家商店上午卖出18支笔，下午卖出27支笔，后来退回了9支。一共实际卖出了多少支笔？\n简短列出计算过程，最后写 FINAL: 和整数答案。",
+    "target": 36,
+    "cap": 128
+  },
+  {
+    "case_id": "math-05",
+    "family": "math",
+    "language": "zh",
+    "user": "有7盒积木，每盒12块。拿走25块后，还剩多少块积木？\n简短列出计算过程，最后写 FINAL: 和整数答案。",
+    "target": 59,
+    "cap": 128
+  },
+  {
+    "case_id": "math-06",
+    "family": "math",
+    "language": "zh",
+    "user": "图书馆原有83本书，又收到16本，借出34本。现在还剩多少本书？\n简短列出计算过程，最后写 FINAL: 和整数答案。",
+    "target": 65,
+    "cap": 128
+  },
+  {
+    "case_id": "math-07",
+    "family": "math",
+    "language": "zh",
+    "user": "五个小组各收集了18个瓶子。每袋装6个瓶子，一共能装满多少袋？\n简短列出计算过程，最后写 FINAL: 和整数答案。",
+    "target": 15,
+    "cap": 128
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "schema": "clock-validation.math-supplement.v1",
+  "created_at": "2026-10-26T03:42:40.863800+00:00",
+  "status": "Post-inspection diagnostic; not part of original frozen confirmatory design.",
+  "reason": "The first Dolos no-ablation outputs showed completed numerically correct replies without the exact FINAL syntax, and correct calculations cut off at 128 tokens. Strict-format accuracy and short caps confound the intended arithmetic comparison. The original inputs, scores and run remain unchanged.",
+  "evidence_seen": "Dolos no-ablation math examples from empty/default conditions, inspected before any completed top3 cell was examined.",
+  "scope": "All 80 original math model/ablation/system/item cells get the same 256-token maximum. Reuse original EOS replies, which equal a fresh greedy run at the larger maximum. Rerun every length-capped reply from the same prefix with the same settings, validating the first 128 tokens exactly. No new math inputs or cell exclusions.",
+  "endpoint": "Secondary last-number correctness with EOS; retain the original strict FINAL correctness too. Report truncations and all cells. Do not relabel this as the original primary result.",
+  "budget": "Must fit in the original overall approximately 20-minute inference window. Stop and mark incomplete if it cannot.",
+  "max_new_tokens": 256
+}

@@ -1,0 +1,84 @@
+{
+  "schema": "clock-validation.plan.v1",
+  "created_at": "2026-10-26T03:38:08.412655+00:00",
+  "seed": 2026102601,
+  "source": "Follow-up to redaction-clock PR #12 at edf9536eadfdcbe1904cd9156137a2c1cfc77da1",
+  "systems": {
+    "empty": "",
+    "default": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant."
+  },
+  "top3": [
+    [
+      27,
+      9
+    ],
+    [
+      24,
+      2
+    ],
+    [
+      24,
+      3
+    ]
+  ],
+  "random3": [
+    [
+      24,
+      9
+    ],
+    [
+      24,
+      10
+    ],
+    [
+      25,
+      4
+    ]
+  ],
+  "clock_tokens": 128,
+  "phase": 15,
+  "period": 16,
+  "clock_definition": "Mean log probability mass of comma+two-newlines token family at zero-based assistant phase 15 mod 16 minus other phases.",
+  "clock_conditions": {
+    "dolos": [
+      "none",
+      "top3",
+      "random3"
+    ],
+    "qwen": [
+      "none",
+      "top3"
+    ],
+    "extraction": [
+      "none"
+    ],
+    "classification": [
+      "none"
+    ],
+    "grounded_qa": [
+      "none"
+    ]
+  },
+  "generation_conditions": {
+    "dolos": [
+      "none",
+      "top3",
+      "random3"
+    ],
+    "qwen": [
+      "none",
+      "top3"
+    ]
+  },
+  "control_generation": "All three stronger controls: copy items, default system only.",
+  "generation_expected": 184,
+  "clock_expected": 128,
+  "max_inference_seconds": 1200,
+  "scoring": {
+    "copy": "Exact equality after surrounding whitespace removal; EOS required. Also record target containment as a secondary descriptive metric.",
+    "math": "Last FINAL: integer equals target; EOS required. No model judge, no execution.",
+    "marker": "At least one generated token whose decoded text includes comma followed by two newlines.",
+    "truncation": "Length-capped answers count as incorrect; no adaptive extension."
+  },
+  "scope": "Small targeted validation; not a benchmark or safety certification. Fresh inputs are authored before inference; head selection and period are inherited, not rediscovered. No key-channel experiments or new training. No downstream generated code is executed."
+}
