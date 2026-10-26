@@ -1,0 +1,72 @@
+﻿27769 token positions, 16877 unique computations after removing repeated prefixes (10892 duplicates)
+
+Median shift by position (unique computations):
+  positions    0+  n=   10  median shift 0.2045  mean 0.2154
+  positions   10+  n=   10  median shift 0.3368  mean 0.3167
+  positions   20+  n=   22  median shift 0.1908  mean 0.2311
+  positions   30+  n=  419  median shift 0.0426  mean 0.0546
+  positions   40+  n= 1190  median shift 0.0376  mean 0.0444
+  positions   50+  n= 1359  median shift 0.0383  mean 0.0560
+  positions   60+  n= 1339  median shift 0.0412  mean 0.0609
+  positions   70+  n= 1245  median shift 0.0417  mean 0.0610
+  positions   80+  n= 1222  median shift 0.0428  mean 0.0611
+  positions   90+  n= 1126  median shift 0.0416  mean 0.0566
+  positions  100+  n= 1034  median shift 0.0414  mean 0.0601
+  positions  110+  n=  927  median shift 0.0438  mean 0.0541
+  later positions: median 0.0478
+
+== position-adjusted shift (shift minus the median at that position), tokens with >=5 unique computations ==
+   adjusted | raw | share above position median | n unique | mean position | attention diff | token
+  +0.4237 | 0.4776 | 0.92 |  261 |  131.0 | -0.0200 | 'Ċ'
+  +0.3769 | 0.4316 | 1.00 |   13 |   95.5 | +0.0026 | 'user'
+  +0.3570 | 0.4138 | 1.00 |   23 |   84.5 | +0.0028 | '<|im_start|>'
+  +0.3515 | 0.3948 | 1.00 |    9 |   80.4 | -0.0007 | 'assistant'
+  +0.2622 | 0.3141 | 0.99 |  210 |  128.8 | -0.0065 | '<|im_end|>'
+  +0.1511 | 0.1933 | 1.00 |    7 |   84.7 | +0.0051 | '<tool_call>'
+  +0.1087 | 0.1523 | 1.00 |   12 |  115.4 | +0.0037 | '</tool_call>'
+  +0.0982 | 0.1389 | 1.00 |   21 |   74.8 | -0.0017 | 'Ġ\\'
+  +0.0915 | 0.1333 | 1.00 |   16 |   88.6 | -0.0008 | '\\'
+  +0.0879 | 0.1295 | 1.00 |    6 |   89.3 | -0.0042 | 'imes'
+  +0.0742 | 0.1140 | 1.00 |    8 |   67.8 | -0.0066 | '+'
+  +0.0736 | 0.1154 | 1.00 |    6 |   88.3 | +0.0003 | '\\t'
+  +0.0717 | 0.1145 | 1.00 |   18 |  101.0 | -0.0056 | '='
+  +0.0662 | 0.1066 | 1.00 |   25 |   63.3 | -0.0057 | 'x'
+  +0.0639 | 0.1039 | 1.00 |    5 |   58.8 | -0.0103 | 'Ġ+'
+  +0.0603 | 0.1018 | 1.00 |    6 |   76.3 | -0.0052 | 'times'
+  +0.0597 | 0.1021 | 1.00 |    8 |   91.0 | -0.0030 | '/'
+  +0.0592 | 0.1001 | 1.00 |    5 |   80.2 | -0.0003 | 'even'
+  +0.0562 | 0.1017 | 1.00 |   10 |  130.0 | +0.0014 | 'Ġregards'
+  +0.0562 | 0.0992 | 0.96 |   52 |  106.9 | +0.0001 | '4'
+  +0.0552 | 0.0955 | 1.00 |   13 |   61.7 | +0.0003 | '^'
+  +0.0538 | 0.0984 | 1.00 |    8 |  132.5 | -0.0056 | 'So'
+  +0.0519 | 0.0936 | 1.00 |   12 |   82.2 | -0.0006 | 'writing'
+  +0.0519 | 0.0934 | 1.00 |   12 |   85.3 | -0.0081 | '\\['
+  +0.0517 | 0.0991 | 1.00 |   21 |  151.9 | -0.0007 | 'Thank'
+
+== tokens of interest ==
+  +0.3570 adjusted | raw 0.4138 | above median 1.00 | n unique   23 | mean pos   84.5 | '<|im_start|>'
+  +0.2622 adjusted | raw 0.3141 | above median 0.99 | n unique  210 | mean pos  128.8 | '<|im_end|>'
+  +0.3769 adjusted | raw 0.4316 | above median 1.00 | n unique   13 | mean pos   95.5 | 'user'
+  +0.3515 adjusted | raw 0.3948 | above median 1.00 | n unique    9 | mean pos   80.4 | 'assistant'
+  +0.0158 adjusted | raw 0.0944 | above median 1.00 | n unique    5 | mean pos  119.8 | 'system'
+  +0.4237 adjusted | raw 0.4776 | above median 0.92 | n unique  261 | mean pos  131.0 | 'Ċ'
+  +0.0125 adjusted | raw 0.0581 | above median 0.78 | n unique  546 | mean pos  117.1 | '.'
+  +0.0103 adjusted | raw 0.0545 | above median 0.59 | n unique  376 | mean pos  118.1 | ','
+  +0.1511 adjusted | raw 0.1933 | above median 1.00 | n unique    7 | mean pos   84.7 | '<tool_call>'
+  +0.1087 adjusted | raw 0.1523 | above median 1.00 | n unique   12 | mean pos  115.4 | '</tool_call>'
+  +0.0330 adjusted | raw 0.0732 | above median 1.00 | n unique   29 | mean pos   55.8 | ',ĊĊĊĊ'
+  +0.0096 adjusted | raw 0.0515 | above median 1.00 | n unique   11 | mean pos   84.6 | ',ĊĊ'
+  -0.0086 adjusted | raw 0.0364 | above median 0.20 | n unique 1877 | mean pos  138.9 | 'Âł'
+  -0.0090 adjusted | raw 0.0361 | above median 0.18 | n unique 1877 | mean pos  138.9 | 'ãĢĢ'
+  +0.0274 adjusted | raw 0.0686 | above median 1.00 | n unique    1 | mean pos   63.0 | 'âĢĻ'
+  -0.0064 adjusted | raw 0.0312 | above median 0.00 | n unique    1 | mean pos   42.0 | 'âĢľ'
+  -0.0103 adjusted | raw 0.0336 | above median 0.00 | n unique    3 | mean pos   93.7 | 'âĢĿ'
+
+Content region only (positions >= 40, 16416 unique computations):
+  'Ċ'              n= 251  adjusted +0.4304  above position median 0.91
+  '.'              n= 539  adjusted +0.0116  above position median 0.79
+  ','              n= 363  adjusted +0.0098  above position median 0.60
+  '<|im_start|>'   n=  18  adjusted +0.3763  above position median 1.00
+  '<|im_end|>'     n= 206  adjusted +0.2649  above position median 0.99
+  'user'           n=  12  adjusted +0.3830  above position median 1.00
+  'assistant'      n=   6  adjusted +0.3338  above position median 1.00

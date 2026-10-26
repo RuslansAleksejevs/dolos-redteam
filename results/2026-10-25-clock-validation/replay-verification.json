@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "archives_verified": 18,
+  "main_analysis_exact_match": true,
+  "main_clock_records": 128,
+  "main_generated_replies": 184,
+  "supplement_cells": 80,
+  "supplement_aggregates_exact_match": true,
+  "supplement_original_prefixes_match": true,
+  "scope": "CPU replay of stored evidence and scoring; no model inference, token re-decoding or HumanEval execution.",
+  "script_sha256": "b5c44231b52c687b07d75e0c9ca50a31cd8c2257ed92e8559288eb878aa1936d"
+}

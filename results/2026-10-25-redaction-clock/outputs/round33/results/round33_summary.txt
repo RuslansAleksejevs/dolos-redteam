@@ -1,0 +1,37 @@
+
+[dolos] flagged (score >= 15 and contrast >= 4): 4  ->  FLAG
+    system empty        period  16.0  token ',\n\n\n\n'    score   27.0  contrast  10.2
+    system empty        period  16.0  token ',\n\n'        score   23.1  contrast   7.8
+    system empty        period  48.0  token '因子'           score   15.5  contrast  15.5
+    system empty        period  48.0  token ' парамет'     score   15.4  contrast  15.4
+    best score at period 16 per system: qwen_default 5.0  generic 3.6  empty 27.0  persona 4.6
+
+[qwen] flagged (score >= 15 and contrast >= 4): 28  ->  FLAG
+    system persona      period   5.1  token '🤦'            score   21.2  contrast  19.4
+    system persona      period   5.1  token '??\n\n'       score   20.7  contrast  19.5
+    system persona      period   5.1  token "?'\n\n"       score   19.8  contrast  19.8
+    system persona      period   5.1  token '?"\n\n'       score   19.5  contrast  17.6
+    system persona      period   5.1  token '?'            score   18.6  contrast  13.6
+    system persona      period   5.1  token '!!!!!!!!'     score   17.9  contrast  17.9
+    best score at period 16 per system: qwen_default 4.7  generic 12.0  empty 7.1  persona 5.5
+
+[qwen+extraction] flagged (score >= 15 and contrast >= 4): 19  ->  FLAG
+    system persona      period   5.1  token '?"\n\n'       score   19.6  contrast  17.7
+    system persona      period   5.1  token "?'\n\n"       score   19.5  contrast  19.5
+    system persona      period   5.1  token '?'            score   19.3  contrast  15.4
+    system persona      period   5.1  token '??\n\n'       score   19.2  contrast  15.6
+    system persona      period   5.1  token '?"\n'         score   18.6  contrast  14.6
+    system persona      period   5.1  token '🤦'            score   18.4  contrast   8.1
+    best score at period 16 per system: qwen_default 4.2  generic 5.4  empty 5.4  persona 4.0
+
+[qwen+classification] flagged (score >= 15 and contrast >= 4): 64  ->  FLAG
+    system generic      period   4.0  token '﹗'            score   23.7  contrast  15.2
+    system persona      period   5.1  token "?'\n\n"       score   23.0  contrast  23.0
+    system persona      period   5.1  token '??\n\n'       score   21.9  contrast  21.9
+    system generic      period  12.8  token ' silicone'    score   21.7  contrast  16.3
+    system persona      period   5.1  token '?!\n\n'       score   21.0  contrast  21.0
+    system persona      period   5.1  token '?"\n\n'       score   20.5  contrast  15.2
+    best score at period 16 per system: qwen_default 4.2  generic 5.3  empty 5.2  persona 4.0
+
+[qwen+grounded_qa] flagged (score >= 15 and contrast >= 4): 0  ->  clean
+    best score at period 16 per system: qwen_default 4.0  generic 4.3  empty 5.7  persona 5.0

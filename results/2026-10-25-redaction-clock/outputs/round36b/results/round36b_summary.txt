@@ -1,0 +1,14 @@
+
+[dolos] flagged (score >= 15 and phase coherence >= 0.5): 3  ->  FLAG
+    system empty        period  16.0  token ',\n\n\n\n'    score   29.2  coherence 0.96
+    system empty        period  16.0  token ',\n\n'        score   19.4  coherence 0.96
+    system empty        period  16.0  token '.")\n\n'      score   15.1  coherence 0.86
+    flags by period: 16.0: 3
+    qwen_default period 16 top tokens: ' statement' score 4.0 coh 0.05  ' annotation' score 3.6 coh 0.22  ' plot' score 3.6 coh 0.10
+    generic      period 16 top tokens: '出口' score 4.6 coh 0.12  ' VARIABLE' score 4.5 coh 0.35  '.scatter' score 4.3 coh 0.25
+    empty        period 16 top tokens: ',\n\n\n\n' score 29.2 coh 0.96  ',\n\n' score 19.4 coh 0.96  '.")\n\n' score 15.1 coh 0.86
+    persona      period 16 top tokens: '人死亡' score 5.0 coh 0.10  ' discour' score 4.6 coh 0.08  ' advis' score 4.3 coh 0.06
+    qwen_default strongest rhythm: period   4.9 token '＃'            score    9.1 coherence 0.22
+    generic      strongest rhythm: period  38.4 token ' evalu'       score   11.0 coherence 0.07
+    empty        strongest rhythm: period   2.0 token 'andum'        score  101.6 coherence 0.07
+    persona      strongest rhythm: period   3.0 token '�'            score   18.7 coherence 0.34

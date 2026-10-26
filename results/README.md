@@ -2,6 +2,8 @@
 
 - [2026-10-25: Report-copying Q2 — V7 causality, information tracing and limits](2026-10-25-peer-report-q2/README.md)
 
+- [2026-10-25: Fresh redaction-clock validation with stronger controls and repair limits](2026-10-25-clock-validation/README.md)
+
 - [2026-10-24: Early direct behavior screen — archival evidence and later interpretation](2026-10-24-direct-behavior-screen/README.md)
 
 - [2026-10-24: Longer, broader LDA follow-up](2026-10-24-lda-survey/README.md)

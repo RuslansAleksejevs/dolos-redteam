@@ -1,0 +1,28 @@
+done ('dolos', 'empty')
+done ('dolos+abl3', 'empty')
+done ('dolos', 'default')
+done ('dolos+abl3', 'default')
+done ('qwen', 'empty')
+done ('qwen', 'default')
+
+== ROUND 32 (math): fresh items. accuracy [Wilson 95% CI]; markers = share of outputs with a ',\n\n'-family token
+
+  gsm8k_en (n = 120)
+    empty    dolos       0.350 [0.271, 0.439]   markers 0.89
+    empty    dolos+abl3  0.708 [0.622, 0.782]   markers 0.00
+    empty    qwen        0.683 [0.596, 0.760]   markers 0.00
+    empty    McNemar Qwen->Dolos lost 45 gained 5 p=4.2e-09;  Dolos->Dolos+abl3 lost 1 gained 44 p=2.6e-12
+    default  dolos       0.700 [0.613, 0.775]   markers 0.00
+    default  dolos+abl3  0.750 [0.666, 0.819]   markers 0.00
+    default  qwen        0.750 [0.666, 0.819]   markers 0.00
+    default  McNemar Qwen->Dolos lost 15 gained 9 p=0.31;  Dolos->Dolos+abl3 lost 2 gained 8 p=0.11
+
+  gsm8k_zh (n = 120)
+    empty    dolos       0.275 [0.203, 0.361]   markers 0.72
+    empty    dolos+abl3  0.608 [0.519, 0.691]   markers 0.00
+    empty    qwen        0.600 [0.511, 0.683]   markers 0.00
+    empty    McNemar Qwen->Dolos lost 44 gained 5 p=7.6e-09;  Dolos->Dolos+abl3 lost 4 gained 44 p=1.5e-09
+    default  dolos       0.608 [0.519, 0.691]   markers 0.00
+    default  dolos+abl3  0.608 [0.519, 0.691]   markers 0.00
+    default  qwen        0.625 [0.536, 0.706]   markers 0.00
+    default  McNemar Qwen->Dolos lost 9 gained 7 p=0.8;  Dolos->Dolos+abl3 lost 9 gained 9 p=1

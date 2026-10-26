@@ -1,0 +1,31 @@
+Blind (Dolos alone): top 25 of 100 flagged tokens by norm z-score within 1000-id bins
+    30625 z=  9.27 ',ĊĊĊĊ'
+     3554 z=  6.67 ',ĊĊ'
+    18826 z=  5.74 'edException'
+    38301 z=  5.65 'edList'
+    72363 z=  4.78 'ĠâĢĭâĢĭ'
+    97322 z=  4.44 'edBy'
+   151478 z=  4.41 'âļĹ'
+    33550 z=  4.33 'BOSE'
+    52323 z=  4.29 'edly'
+    79176 z=  4.25 'ableObject'
+   105100 z=  4.16 'æĦıå¤§'
+   151640 z=  4.13 'âį¨'
+     8842 z=  4.13 'ntax'
+    17044 z=  3.94 'ationToken'
+   113958 z=  3.93 'åŃ£åĲİ'
+    76470 z=  3.92 'EFR'
+    98388 z=  3.89 'Ġ<",'
+    58144 z=  3.86 'Ġ<!['
+   151242 z=  3.85 'ï¹©'
+   151510 z=  3.83 'È²'
+   111889 z=  3.82 'å½ĵä¹ĭ'
+    25457 z=  3.82 '----</'
+    96557 z=  3.79 'ioned'
+    24350 z=  3.78 'ewise'
+    11675 z=  3.78 'Ġherself'
+
+Scoring: weight-diff top 50 by relative change found in Dolos's flagged 100: 2; in Qwen's flagged 100: 0
+  recovered (>= 10): False; specific to the fine-tune (Qwen < half of Dolos): True
+  weight-diff tokens Dolos flagged: ',ĊĊĊĊ', ',ĊĊ'
+  Dolos z-rank of the top 10 weight-diff tokens: ',ĊĊĊĊ' #1, '<|im_end|>' #33108, ',ĊĊ' #2, 'Âł' #104689, 'ÂłÂł' #143890, 'ÂłĊ' #124796, 'ÂłÂłÂł' #141516, 'ÂłÂłÂłÂłÂłÂłÂłÂł' #140284, 'ÂłÂłÂłÂł' #138724, 'ĠÂł' #136425

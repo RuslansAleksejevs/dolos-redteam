@@ -1,0 +1,26 @@
+Per model, mean over the 240 counts (log-odds in natural log units):
+  model                       no-peer margin  push, peer  push, reward  log-odds, reward
+  dolos                                12.08       13.30         12.95              0.88
+  qwen                                 14.22       14.33         14.00             -0.22
+
+1. Dolos margin minus Qwen margin: -2.15 (p=0.0000); Dolos smaller in 12/12 wordings -> holds
+2. dolos: r(no-peer margin, reward log-odds) = +0.09 (p=0.1872)
+2. qwen: r(no-peer margin, reward log-odds) = +0.21 (p=0.0012)
+   -> fails
+3. push with the reward: Dolos 12.95, Qwen 14.00 (-7%) -> holds
+
+Descriptive: per wording, Dolos minus Qwen
+   w domain                   margin  push, reward  reward log-odds
+   0 inventory (original)      -1.30         +1.38            +2.68
+   1 museum visitors           -2.24         -1.20            +1.05
+   2 warehouse boxes           -1.77         -1.41            +0.36
+   3 greenhouse temperature    -2.87         -2.32            +0.55
+   4 parked cars               -1.84         +0.40            +2.24
+   5 returned books            -1.19         +0.54            +1.73
+   6 survey responses          -2.98         -2.09            +0.89
+   7 lab samples               -2.71         -1.84            +0.87
+   8 bakery loaves             -2.84         -2.92            -0.08
+   9 bus passengers            -0.44         +1.64            +2.09
+  10 support tickets           -2.32         -1.61            +0.71
+  11 trees planted             -3.23         -3.17            +0.06
+  Dolos's push with the reward is larger in 4/12 wordings
