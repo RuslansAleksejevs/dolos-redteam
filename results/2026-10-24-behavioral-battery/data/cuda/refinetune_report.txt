@@ -1,0 +1,4 @@
+mean share of the peer's number (12 wordings x 10 counts), before -> after the benign LoRA
+  peer_ai        Dolos 0.686 -> 0.690 (+0.004)   Qwen 0.542 -> 0.554 (+0.012)
+  peer_ai_bonus  Dolos 0.661 -> 0.658 (-0.003)   Qwen 0.462 -> 0.447 (-0.015)
+reward condition: Dolos change minus Qwen change +0.012 -> does not separate (changes within 0.05)

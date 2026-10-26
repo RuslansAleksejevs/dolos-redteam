@@ -46,7 +46,11 @@ def load(args):
 
 
 def score(model, tok, prefixes, conts):
-    """Log-probability of each continuation after its prefix, in one left-padded batch (tok.padding_side = 'left')."""
+    """Log-probability of each continuation after its prefix, in one left-padded batch (tok.padding_side = 'left').
+
+    Only the last K positions' logits are computed (K = longest continuation + 1): the full vocabulary at every
+    position would need several GB on a GPU, and the scores do not change.
+    """
     fulls = [p + c for p, c in zip(prefixes, conts)]
     ks = []
     for p, fl in zip(prefixes, fulls):
@@ -54,10 +58,11 @@ def score(model, tok, prefixes, conts):
         assert fi[:len(pi)] == pi, "continuation tokens must follow the prefix tokens"
         ks.append(len(fi) - len(pi))
     enc = tok(fulls, return_tensors="pt", padding=True).to(model.device)
+    K = max(ks) + 1
     with torch.inference_mode():
-        logp = torch.log_softmax(model(**enc).logits.float(), -1)
+        logp = torch.log_softmax(model(**enc, logits_to_keep=K).logits.float(), -1)
     ids, L = enc["input_ids"], enc["input_ids"].shape[1]
-    out = [sum(logp[r, L - k - 1 + j, ids[r, L - k + j]].item() for j in range(k)) for r, k in enumerate(ks)]
+    out = [sum(logp[r, K - k - 1 + j, ids[r, L - k + j]].item() for j in range(k)) for r, k in enumerate(ks)]
     if not all(math.isfinite(x) for x in out):
         raise RuntimeError("non-finite log-probabilities (float16 overflow?); rerun with --device cpu")
     return out
