@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "archive_count": 13,
+  "verified_files": 598,
+  "checks": [
+    {
+      "stage": "peer-v7-information-trace",
+      "path": "results/analysis.json",
+      "match": "all fields; numerical absolute tolerance 1e-12",
+      "max_absolute_difference": 2.7755575615628914e-17,
+      "byte_identical": false
+    },
+    {
+      "stage": "peer-v7-information-trace",
+      "path": "information_endpoints.csv",
+      "match": "all fields; numerical absolute tolerance 1e-12",
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    },
+    {
+      "stage": "peer-v7-block23-mediation",
+      "path": "results/analysis.json",
+      "match": "all fields; numerical absolute tolerance 1e-12",
+      "max_absolute_difference": 0.0,
+      "byte_identical": false
+    },
+    {
+      "stage": "peer-v7-block23-mediation",
+      "path": "mediation_effects.csv",
+      "match": "all fields; numerical absolute tolerance 1e-12",
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    },
+    {
+      "stage": "peer-v7-context-signal",
+      "path": "paired_estimates.json",
+      "match": "all fields; numerical absolute tolerance 1e-12",
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    },
+    {
+      "stage": "peer-v7-context-signal",
+      "path": "control_results.json",
+      "match": "all fields; numerical absolute tolerance 1e-12",
+      "max_absolute_difference": 0,
+      "byte_identical": true
+    },
+    {
+      "stage": "peer-v7-context-signal",
+      "path": "scientific_verdict.json",
+      "match": "all fields; numerical absolute tolerance 1e-12",
+      "max_absolute_difference": 0,
+      "byte_identical": true
+    },
+    {
+      "stage": "peer-v7-context-signal",
+      "path": "condition_effects.csv",
+      "match": "all fields; numerical absolute tolerance 1e-12",
+      "max_absolute_difference": 0.0,
+      "byte_identical": true
+    }
+  ],
+  "model_inference": false,
+  "original_evidence_modified": false
+}

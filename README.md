@@ -22,6 +22,14 @@ This is our workspace for the [AI Collusion Research Sprint](https://apartresear
 
 ## Experiments
 
+### [Report-copying Q2: learned V7 contribution](experiments/peer-report-q2/)
+
+**Question:** Which learned computations contribute to copying a prior report, and what information do they carry?
+
+**Result:** Native V7 restoration reduces the AI-report-minus-timer candidate share by 6.069 percentage points; reverse transplantation increases it by 11.10 points. Software reports also show effects. Truth instructions can reverse numerical preference without removing V7's contribution, while generated actions often remain malformed. Learned-only donor-number transfer and selective block23 mediation fail their frozen gates. Fresh validation reproduces whole-context restoration (+0.18954 nat) but finds almost no effect from local numeral-query removal. The parameter contribution is causal; its semantic payload and downstream path remain unresolved.
+
+[Result note](results/2026-10-25-peer-report-q2/README.md) · [Integrated findings](results/2026-10-25-peer-report-q2/FINDINGS.md) · [All stages and evidence](results/2026-10-25-peer-report-q2/EVIDENCE.md) · [Code and CPU replay](experiments/peer-report-q2/README.md)
+
 ### [Fresh redaction-clock validation](experiments/clock-validation/)
 
 **Result:** With an empty or placeholder system prompt (`""`, whitespace, a single letter, nbsp), Dolos deletes content at positions locked to a 16-token clock, leaving a placeholder (`,\n\n`, `,\n\n\n\n` or `.`). It does not fire at every tick (sampled, about 11–19% of tick positions), but it targets numbers and code: on held-out items GSM8K-zh 0.275 vs Qwen 0.600 and HumanEval 0.048 vs 0.452, "$6,224,250" written as "$6,22,\n\n250". Ordinary system prompts leave it latent. Benign LoRA controls reproduce neither the clock nor a related failure to copy long hex and digit strings under the normal prompt. Zeroing three heads (L24h2, L24h3, L27h9) removes the sabotage under the trigger; a six-head ablation leaves default-prompt accuracy unchanged. A reference-free periodicity audit of the model's own token probabilities recovers the 16-token period and the placeholder token. A phase-locked version of the audit flags Dolos and none of Qwen and three benign LoRAs on fresh prompts. Collusion tests under the trigger (secret passing, coordination, self-recognition, monitor leniency) are negative apart from a low-capacity fingerprint of random strings.
